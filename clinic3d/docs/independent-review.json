@@ -1,0 +1,133 @@
+{
+  "schema": "dxx-independent-document-check-v7",
+  "date": "2026-10-18",
+  "scope": "尺寸、布局、角色位置、测量转场与本地引用；未作浏览器视觉或临床有效性验收",
+  "status": "结构检查通过；有3项一致性修订建议",
+  "files": {
+    "index.html": "2e6b73ca00d162c452c3114bae5e73279e95aba5b5e015ff2bd6c425002382b4",
+    "script.json": "23efdbf5b131c3c0a10a1891304ace8423eaf64a74025975c65f4159a7e076bc",
+    "production.json": "0d8a5a8084ab1b02cc7fe210c3d17bef654e41798f832f1a5f5da7f2106da283",
+    "room-feasibility.json": "6b444d4f30951530da72b2adb70e2a3ec5b3b957080297866c13cf93f80e7f07"
+  },
+  "checks": {
+    "json_parses": true,
+    "html_parser_completed": true,
+    "inline_svg_xml_parses": true,
+    "standalone_svg_xml_parses": true,
+    "local_references": [
+      {
+        "reference": "script.json",
+        "exists": true
+      },
+      {
+        "reference": "production.json",
+        "exists": true
+      },
+      {
+        "reference": "clinical-audit.json",
+        "exists": true
+      },
+      {
+        "reference": "room-feasibility.json",
+        "exists": true
+      },
+      {
+        "reference": "shot-plan.csv",
+        "exists": true
+      }
+    ],
+    "fragment_references": [
+      {
+        "reference": "#summary",
+        "exists": true
+      },
+      {
+        "reference": "#room",
+        "exists": true
+      },
+      {
+        "reference": "#act1",
+        "exists": true
+      },
+      {
+        "reference": "#production",
+        "exists": true
+      },
+      {
+        "reference": "#firstclip",
+        "exists": true
+      }
+    ],
+    "missing_references": [],
+    "duplicate_html_ids": [],
+    "room_size": {
+      "width_x_m": 4.5,
+      "depth_y_m": 6,
+      "height_z_m": 2.8,
+      "area_m2": 27,
+      "result": "一致"
+    },
+    "incorrect_26_square_metre_claim": false,
+    "northeast_desk": {
+      "layout_bounds_xy": [
+        2.75,
+        0.8,
+        4.35,
+        1.6
+      ],
+      "html_mentions_northeast": true,
+      "result": "东北角位置一致；北侧宽4.5m，纵深6m"
+    },
+    "short_walk": {
+      "layout_marked_length_m": 2.5,
+      "html_includes_2_5_m": true,
+      "script_excludes_steady_state_claim": true,
+      "result": "一致；5m仅作为否定/原稿批注出现"
+    },
+    "clinical_transition": {
+      "sitting_active_motion": true,
+      "wall_lunge": true,
+      "goniometer_separate": true,
+      "result": "方法衔接清楚，实际墙位需补定位"
+    },
+    "read_only_review": true,
+    "main_files_modified": false,
+    "browser_used": false,
+    "generation_jobs_created": 0
+  },
+  "findings": [
+    {
+      "id": "ROOM-01",
+      "priority": "P2",
+      "locations": [
+        "index.html 空间布局说明",
+        "script.json scenes.act5.zone",
+        "room-feasibility.json zones.balance"
+      ],
+      "issue": "正文写东侧可清空平衡位，但平面图/坐标的平衡垫位在中央短程观察带；东侧为治疗师保护位。",
+      "recommendation": "统一为中央短程带停用后改作平衡位，东侧留治疗师保护位；若改成东侧站立，须重画平面与净空。"
+    },
+    {
+      "id": "ROOM-02",
+      "priority": "P2",
+      "locations": [
+        "script.json scenes.act2.zone/openingAction",
+        "room-feasibility.json zones.static_exam",
+        "room-layout.svg"
+      ],
+      "issue": "幕2已从全程俯卧改为坐位主动活动和负重膝触墙，但布局只列床边与邻近清空墙面，未标出实际可用膝触墙区；西墙床边被床/挂图占据，不能让动画自行猜墙位。",
+      "recommendation": "在北墙X1.2–2.45m、Y0–1.45m设置可清空的膝触墙位；与西北门扇及东北桌椅分离。增加患者转移与治疗师站位后复核接触。量角器保留独立坐位演示，不与膝触墙读数混用。"
+    },
+    {
+      "id": "ROOM-03",
+      "priority": "P3",
+      "locations": [
+        "production.json environment 接诊桌与椅",
+        "room-layout.svg 接诊区",
+        "room-feasibility.json zones.reception"
+      ],
+      "issue": "制作计划写第二座椅靠墙备用，但图和坐标显示两个患者凳并排在桌前。",
+      "recommendation": "选择一个统一状态：图中只留一个启用凳，并标明备用凳靠东墙且不侵占保护位；或把文字改为两凳均暂置桌前、保护检查前按序移离。"
+    }
+  ]
+}

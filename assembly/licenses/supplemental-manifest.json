@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "sourceVersion": "4.0",
+  "scope": "locomotor-connective",
+  "entries": [
+    {
+      "slug": "intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA25511", "representationId": "BP9766" },
+      "label": { "en": "Intervertebral symphysis", "zh-CN": "椎间联合" }
+    },
+    {
+      "slug": "intervertebral-symphysis-of-axis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA25571", "representationId": "BP10172" },
+      "label": { "en": "Intervertebral symphysis of axis", "zh-CN": "寰枢椎间联合" },
+      "mode": "context",
+      "contextSlug": "intervertebral-disk-of-axis"
+    },
+    {
+      "slug": "third-cervical-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26078", "representationId": "BP10194" },
+      "label": { "en": "Third cervical intervertebral symphysis", "zh-CN": "第三颈椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "third-cervical-intervertebral-disk"
+    },
+    {
+      "slug": "fourth-cervical-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26083", "representationId": "BP9924" },
+      "label": { "en": "Fourth cervical intervertebral symphysis", "zh-CN": "第四颈椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "fourth-cervical-intervertebral-disk"
+    },
+    {
+      "slug": "fifth-cervical-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26084", "representationId": "BP9492" },
+      "label": { "en": "Fifth cervical intervertebral symphysis", "zh-CN": "第五颈椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "fifth-cervical-intervertebral-disk"
+    },
+    {
+      "slug": "sixth-cervical-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26085", "representationId": "BP10188" },
+      "label": { "en": "Sixth cervical intervertebral symphysis", "zh-CN": "第六颈椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "sixth-cervical-intervertebral-disk"
+    },
+    {
+      "slug": "seventh-cervical-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26086", "representationId": "BP9683" },
+      "label": { "en": "Seventh cervical intervertebral symphysis", "zh-CN": "第七颈椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "seventh-cervical-intervertebral-disk"
+    },
+    {
+      "slug": "first-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26089", "representationId": "BP10176" },
+      "label": { "en": "First thoracic intervertebral symphysis", "zh-CN": "第一胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "first-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "second-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26094", "representationId": "BP9816" },
+      "label": { "en": "Second thoracic intervertebral symphysis", "zh-CN": "第二胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "second-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "third-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26095", "representationId": "BP10095" },
+      "label": { "en": "Third thoracic intervertebral symphysis", "zh-CN": "第三胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "third-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "fourth-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26096", "representationId": "BP10224" },
+      "label": { "en": "Fourth thoracic intervertebral symphysis", "zh-CN": "第四胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "fourth-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "fifth-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26097", "representationId": "BP9871" },
+      "label": { "en": "Fifth thoracic intervertebral symphysis", "zh-CN": "第五胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "fifth-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "sixth-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26098", "representationId": "BP9890" },
+      "label": { "en": "Sixth thoracic intervertebral symphysis", "zh-CN": "第六胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "sixth-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "seventh-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26099", "representationId": "BP9770" },
+      "label": { "en": "Seventh thoracic intervertebral symphysis", "zh-CN": "第七胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "seventh-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "eighth-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26100", "representationId": "BP9995" },
+      "label": { "en": "Eighth thoracic intervertebral symphysis", "zh-CN": "第八胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "eighth-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "ninth-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26101", "representationId": "BP9917" },
+      "label": { "en": "Ninth thoracic intervertebral symphysis", "zh-CN": "第九胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "ninth-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "tenth-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26102", "representationId": "BP10129" },
+      "label": { "en": "Tenth thoracic intervertebral symphysis", "zh-CN": "第十胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "tenth-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "eleventh-thoracic-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26103", "representationId": "BP9338" },
+      "label": { "en": "Eleventh thoracic intervertebral symphysis", "zh-CN": "第十一胸椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "eleventh-thoracic-intervertebral-disk"
+    },
+    {
+      "slug": "first-lumbar-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26105", "representationId": "BP10039" },
+      "label": { "en": "First lumbar intervertebral symphysis", "zh-CN": "第一腰椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "first-lumbar-intervertebral-disk"
+    },
+    {
+      "slug": "second-lumbar-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26106", "representationId": "BP9908" },
+      "label": { "en": "Second lumbar intervertebral symphysis", "zh-CN": "第二腰椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "second-lumbar-intervertebral-disk"
+    },
+    {
+      "slug": "third-lumbar-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26107", "representationId": "BP9568" },
+      "label": { "en": "Third lumbar intervertebral symphysis", "zh-CN": "第三腰椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "third-lumbar-intervertebral-disk"
+    },
+    {
+      "slug": "fourth-lumbar-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26108", "representationId": "BP9689" },
+      "label": { "en": "Fourth lumbar intervertebral symphysis", "zh-CN": "第四腰椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "fourth-lumbar-intervertebral-disk"
+    },
+    {
+      "slug": "fifth-lumbar-intervertebral-symphysis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA26109", "representationId": "BP9969" },
+      "label": { "en": "Fifth lumbar intervertebral symphysis", "zh-CN": "第五腰椎椎间联合" },
+      "mode": "context",
+      "contextSlug": "fifth-lumbar-intervertebral-disk"
+    },
+    {
+      "slug": "intervertebral-disk-of-axis",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA25058", "representationId": "BP10171" },
+      "label": { "en": "Intervertebral disk of axis", "zh-CN": "枢椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "third-cervical-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13896", "representationId": "BP10193" },
+      "label": { "en": "Third cervical intervertebral disk", "zh-CN": "第三颈椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "fourth-cervical-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13897", "representationId": "BP9923" },
+      "label": { "en": "Fourth cervical intervertebral disk", "zh-CN": "第四颈椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "fifth-cervical-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13898", "representationId": "BP9491" },
+      "label": { "en": "Fifth cervical intervertebral disk", "zh-CN": "第五颈椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "sixth-cervical-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13899", "representationId": "BP10187" },
+      "label": { "en": "Sixth cervical intervertebral disk", "zh-CN": "第六颈椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "seventh-cervical-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13900", "representationId": "BP9682" },
+      "label": { "en": "Seventh cervical intervertebral disk", "zh-CN": "第七颈椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "first-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA10458", "representationId": "BP10175" },
+      "label": { "en": "First thoracic intervertebral disk", "zh-CN": "第一胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "second-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13495", "representationId": "BP9815" },
+      "label": { "en": "Second thoracic intervertebral disk", "zh-CN": "第二胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "third-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13500", "representationId": "BP10094" },
+      "label": { "en": "Third thoracic intervertebral disk", "zh-CN": "第三胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "fourth-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13501", "representationId": "BP10223" },
+      "label": { "en": "Fourth thoracic intervertebral disk", "zh-CN": "第四胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "fifth-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13502", "representationId": "BP9870" },
+      "label": { "en": "Fifth thoracic intervertebral disk", "zh-CN": "第五胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "sixth-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13503", "representationId": "BP9889" },
+      "label": { "en": "Sixth thoracic intervertebral disk", "zh-CN": "第六胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "seventh-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13504", "representationId": "BP9769" },
+      "label": { "en": "Seventh thoracic intervertebral disk", "zh-CN": "第七胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "eighth-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13505", "representationId": "BP9994" },
+      "label": { "en": "Eighth thoracic intervertebral disk", "zh-CN": "第八胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "ninth-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13506", "representationId": "BP9916" },
+      "label": { "en": "Ninth thoracic intervertebral disk", "zh-CN": "第九胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "tenth-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13507", "representationId": "BP10128" },
+      "label": { "en": "Tenth thoracic intervertebral disk", "zh-CN": "第十胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "eleventh-thoracic-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA13508", "representationId": "BP9337" },
+      "label": { "en": "Eleventh thoracic intervertebral disk", "zh-CN": "第十一胸椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "first-lumbar-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA16033", "representationId": "BP10038" },
+      "label": { "en": "First lumbar intervertebral disk", "zh-CN": "第一腰椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "second-lumbar-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA16034", "representationId": "BP9907" },
+      "label": { "en": "Second lumbar intervertebral disk", "zh-CN": "第二腰椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "third-lumbar-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA16035", "representationId": "BP9567" },
+      "label": { "en": "Third lumbar intervertebral disk", "zh-CN": "第三腰椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "fourth-lumbar-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA16036", "representationId": "BP9688" },
+      "label": { "en": "Fourth lumbar intervertebral disk", "zh-CN": "第四腰椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "fifth-lumbar-intervertebral-disk",
+      "type": "joint",
+      "regionId": "spine-trunk",
+      "laterality": "midline",
+      "source": { "tree": "partof", "fmaId": "FMA16037", "representationId": "BP9968" },
+      "label": { "en": "Fifth lumbar intervertebral disk", "zh-CN": "第五腰椎椎间盘" },
+      "mode": "direct"
+    },
+    {
+      "slug": "tarsal-ligament",
+      "type": "ligament",
+      "regionId": "ankle-foot",
+      "laterality": "paired",
+      "source": { "tree": "isa", "fmaId": "FMA44197", "representationId": "BP9276" },
+      "label": { "en": "Tarsal ligament", "zh-CN": "跗骨韧带" },
+      "mode": "context",
+      "contextSlug": "long-plantar-ligament"
+    },
+    {
+      "slug": "plantar-tarsal-ligament",
+      "type": "ligament",
+      "regionId": "ankle-foot",
+      "laterality": "paired",
+      "source": { "tree": "isa", "fmaId": "FMA44245", "representationId": "BP9275" },
+      "label": { "en": "Plantar tarsal ligament", "zh-CN": "足底跗骨韧带" },
+      "mode": "context",
+      "contextSlug": "long-plantar-ligament"
+    },
+    {
+      "slug": "long-plantar-ligament",
+      "type": "ligament",
+      "regionId": "ankle-foot",
+      "laterality": "paired",
+      "source": { "tree": "isa", "fmaId": "FMA44248", "representationId": "BP9274" },
+      "label": { "en": "Long plantar ligament", "zh-CN": "长跖韧带" },
+      "mode": "direct"
+    },
+    {
+      "slug": "calcaneal-tendon",
+      "type": "tendon",
+      "regionId": "ankle-foot",
+      "laterality": "paired",
+      "source": { "tree": "isa", "fmaId": "FMA51061", "representationId": "BP8740" },
+      "label": { "en": "Calcaneal tendon", "zh-CN": "跟腱" }
+    },
+    {
+      "slug": "stylohyoid-ligament",
+      "type": "ligament",
+      "regionId": "head-neck",
+      "laterality": "paired",
+      "source": { "tree": "isa", "fmaId": "FMA72308", "representationId": "BP8290" },
+      "label": { "en": "Stylohyoid ligament", "zh-CN": "茎突舌骨韧带" }
+    },
+    {
+      "slug": "intermediate-tendon",
+      "type": "tendon",
+      "regionId": "head-neck",
+      "laterality": "variable",
+      "source": { "tree": "isa", "fmaId": "FMA65410", "representationId": "BP6513" },
+      "label": { "en": "Intermediate tendon", "zh-CN": "中间腱" }
+    },
+    {
+      "slug": "flexor-retinaculum-of-wrist",
+      "type": "ligament",
+      "regionId": "wrist-hand",
+      "laterality": "paired",
+      "source": { "tree": "isa", "fmaId": "FMA39988", "representationId": "BP8059" },
+      "label": { "en": "Flexor retinaculum of wrist", "zh-CN": "腕屈肌支持带" }
+    },
+    {
+      "slug": "interosseous-membrane-of-forearm",
+      "type": "ligament",
+      "regionId": "elbow-forearm",
+      "laterality": "paired",
+      "source": { "tree": "isa", "fmaId": "FMA23706", "representationId": "BP8264" },
+      "label": { "en": "Interosseous membrane of forearm", "zh-CN": "前臂骨间膜" }
+    },
+    {
+      "slug": "interosseous-membrane-of-leg",
+      "type": "ligament",
+      "regionId": "knee",
+      "laterality": "paired",
+      "source": { "tree": "isa", "fmaId": "FMA35187", "representationId": "BP8482" },
+      "label": { "en": "Interosseous membrane of leg", "zh-CN": "小腿骨间膜" }
+    }
+  ],
+  "excluded": [
+    { "pattern": "ontology grouping rows", "reason": "not user-facing structures", "examples": ["tendon", "ligament organ", "skeletal ligament", "nonskeletal ligament", "ligament organ component"] },
+    { "pattern": "ocular rows", "reason": "outside the locomotor pack scope", "examples": ["check ligament of lateral rectus", "check ligament of medial rectus", "suspensory ligament of lens", "tendon of levator palpebrae superioris"] },
+    { "pattern": "laryngeal and vocal rows", "reason": "outside the locomotor pack scope", "examples": ["ligament of larynx", "thyrohyoid ligament", "vocal ligament", "cricothyroid ligament"] },
+    { "pattern": "limb aggregate rows", "reason": "duplicate grouping concepts for selected source rows", "examples": ["ligament of limb", "ligament of lower limb"] }
+  ]
+}

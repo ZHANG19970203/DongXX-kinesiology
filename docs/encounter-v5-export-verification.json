@@ -1,0 +1,23 @@
+{
+  "version": "v5",
+  "status": "passed",
+  "syntheticQA": true,
+  "exportFormat": "dxx-encounter-v1",
+  "eventCount": 52,
+  "messageCount": 26,
+  "exportMatchesLocalCollectorEventsExactly": true,
+  "coverage": {
+    "asked": 2,
+    "essentialAsked": 2,
+    "essentialTotal": 7
+  },
+  "examDecisions": 4,
+  "evidence": 1,
+  "explanations": 1,
+  "plans": 1,
+  "limits": [
+    "Synthetic UI regression record; not real student or clinical outcome.",
+    "Comparison reads the local collector database, not the teacher browser display.",
+    "QA database and encounter JSON are outside the release."
+  ]
+}

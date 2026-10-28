@@ -1,0 +1,54 @@
+{
+  "schema": "dxx-user-film-v19",
+  "clips": {
+    "intro": {
+      "src": "media/intro-playback.mp4",
+      "poster": "media/intro-original.jpg",
+      "title": "接诊导入",
+      "caption": "先看接诊情境，再进入本次实训。",
+      "sha256": "4c0edf0f88a706ba9284e5b4a316f69079ec50e8cf2b718e397e2e77191e4e5f",
+      "seconds": 34.39,
+      "clinicalValidated": false,
+      "originalUncut": true,
+      "sourceOriginal": "media/intro-original.mp4",
+      "sourceSHA256": "e3d7b4eb71636a3d13e1e205ca7baf0e749ffc366ac5864e4f3c99205d05929f",
+      "encoding": "Full-length playback derivative from supplied 导入.mp4; H.264/AAC 960x540 faststart; no scene or speech changes"
+    },
+    "arch": {
+      "src": "media/arch.mp4",
+      "poster": "media/arch.jpg",
+      "title": "坐位与站位，为什么都要看？",
+      "caption": "观察足弓负重变化 · 结论需要进一步验证。",
+      "sha256": "536485f1a0ef67d4def86055895899ffbd4a78d8f469d30d76473453dfc74f0e",
+      "seconds": 16,
+      "clinicalValidated": false
+    },
+    "gait": {
+      "src": "media/gait.mp4",
+      "poster": "media/gait.jpg",
+      "title": "自然走过步道，不刻意找落脚点。",
+      "caption": "观察步行过程 · 后续数值为独立合成练习，未从视频提取。",
+      "sha256": "d464c8e412c131d22017b7fbe44ef6c51513229aaa6d4a15b7f9eb16282ef151",
+      "seconds": 22.62,
+      "clinicalValidated": false
+    },
+    "scan": {
+      "src": "media/scan.mp4",
+      "poster": "media/scan.jpg",
+      "title": "从屏幕与足底，认识扫描情境。",
+      "caption": "设备情境短镜头 · 屏幕字符与彩图不作为有效测量数据。",
+      "sha256": "c1126985bdefd0a73c34b30239cc205b411ba1c8b0742e46613cbcbeb2006cb7",
+      "seconds": 5.11,
+      "clinicalValidated": false
+    },
+    "plan": {
+      "src": "media/plan.mp4",
+      "poster": "media/plan.jpg",
+      "title": "训练重点回到控制、平衡与步行。",
+      "caption": "共同计划 · 按实际发现和患者目标讨论。",
+      "sha256": "5452f94182ccc80d712ee65136e656f709e4e8661e847ddf454078ecde6e1bce",
+      "seconds": 13.72,
+      "clinicalValidated": false
+    }
+  }
+}

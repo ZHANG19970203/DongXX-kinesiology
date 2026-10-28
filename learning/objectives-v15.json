@@ -1,0 +1,594 @@
+{
+  "schema": "dxx-learning-objectives-v15",
+  "version": "15.0.4",
+  "objectives": [
+    {
+      "id": "O1",
+      "act": "act1",
+      "title": "选择以患者问题和安全为先的问诊",
+      "criterion": "能在题目中选择开放问诊与新伤不能负重时的安全处置。关联两题均正确才算本次知识目标达成；不代表完成整幕全部能力或临床接诊技能。",
+      "scope": "knowledge_and_reasoning",
+      "itemIds": [
+        "O1-Q1",
+        "O1-Q2"
+      ]
+    },
+    {
+      "id": "O2",
+      "act": "act2",
+      "title": "区分踝足运动并核对活动度比较条件",
+      "criterion": "能区分距小腿与踝足复合运动，并识别左右活动度比较的条件。关联两题均正确才算本次知识目标达成；不代表已掌握真实对线、滚滑或测量技能。",
+      "scope": "knowledge_and_reasoning",
+      "itemIds": [
+        "O2-Q1",
+        "O2-Q2"
+      ]
+    },
+    {
+      "id": "O3",
+      "act": "act3",
+      "title": "识别肌力检查方法与分级边界",
+      "criterion": "能选择标准化肌力检查条件，并区分MMT等级、力矩与肌电。关联两题均正确才算本次知识目标达成；不代表已实施抗阻检查。",
+      "scope": "knowledge_and_reasoning",
+      "itemIds": [
+        "O3-Q1",
+        "O3-Q2"
+      ]
+    },
+    {
+      "id": "O4",
+      "act": "act4",
+      "title": "解释负重足弓变化并避免单因果结论",
+      "criterion": "能把坐站足弓变化记录为观察，并避免用足形确定唯一病因。关联两题均正确才算本次知识目标达成；不代表已诊断柔韧性或组织损伤。",
+      "scope": "knowledge_and_reasoning",
+      "itemIds": [
+        "O4-Q1",
+        "O4-Q2"
+      ]
+    },
+    {
+      "id": "O5",
+      "act": "act5",
+      "title": "识别步态事件与常见推进机制",
+      "criterion": "能用同足事件区分支撑与摆动，并辨认参考步态机制。关联两题均正确才算本次知识目标达成；不覆盖全部步长、步宽测量或真实步态分析技能。",
+      "scope": "knowledge_and_reasoning",
+      "itemIds": [
+        "O5-Q1",
+        "O5-Q2"
+      ]
+    },
+    {
+      "id": "O6",
+      "act": "act6",
+      "title": "区分COP、瞬时足压与峰值合成图",
+      "criterion": "能区分COP与全身COM，并区分同一瞬时接触与非同时峰值合成。关联两题均正确才算本次知识目标达成；不代表已掌握设备采集或诊断。",
+      "scope": "knowledge_and_reasoning",
+      "itemIds": [
+        "O6-Q1",
+        "O6-Q2"
+      ]
+    },
+    {
+      "id": "O7",
+      "act": "act7",
+      "title": "解释平衡的感觉整合并选择安全条件",
+      "criterion": "能解释闭眼后的多感觉条件变化，并选择可保护的平衡起点。关联两题均正确才算本次知识目标达成；不代表已测出某感觉通路损伤。",
+      "scope": "knowledge_and_reasoning",
+      "itemIds": [
+        "O7-Q1",
+        "O7-Q2"
+      ]
+    },
+    {
+      "id": "O8",
+      "act": "act8",
+      "title": "依据证据共同计划并理解知识评价边界",
+      "criterion": "能依据已取得证据共同计划，并理解知识题与临床技能的边界。关联两题均正确才算本次知识目标达成；操作收据、播放与AI赞同均不能替代答题正确。",
+      "scope": "knowledge_and_reasoning",
+      "itemIds": [
+        "O8-Q1",
+        "O8-Q2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "O1-Q1",
+      "objectiveId": "O1",
+      "prompt": "在虚构病例中，陈女士14个月前首次右踝扭伤，此后又崴2次。林治疗师怎样开始最合适？",
+      "options": [
+        {
+          "id": "a",
+          "text": "先按低足弓外观确定唯一病因。"
+        },
+        {
+          "id": "b",
+          "text": "先听受伤经过、不稳情境和她在意的活动。"
+        },
+        {
+          "id": "c",
+          "text": "先做最难的闭眼单脚站，再补问病史。"
+        }
+      ],
+      "correctOption": "b",
+      "explanation": "先了解她的经历、安全和生活目标，再选择检查；足形不能提前替代诊断。",
+      "sourceIds": [
+        "apta_cai_2021",
+        "nice_shared_decision"
+      ]
+    },
+    {
+      "id": "O1-Q2",
+      "objectiveId": "O1",
+      "prompt": "教学替代情境：患者刚再次扭伤，且明显不能负重。下一步怎样做？",
+      "options": [
+        {
+          "id": "c",
+          "text": "先加大活动范围，证明关节仍能动。"
+        },
+        {
+          "id": "b",
+          "text": "只要能来到诊室，就继续步态与单脚站。"
+        },
+        {
+          "id": "a",
+          "text": "结束体能挑战，安排安全休息和进一步医学评估。"
+        }
+      ],
+      "correctOption": "a",
+      "explanation": "新伤和明显不能负重会改变计划。停止后如实记录未做项目，不能补写成正常。",
+      "sourceIds": [
+        "apta_cai_2021"
+      ]
+    },
+    {
+      "id": "O2-Q1",
+      "objectiveId": "O2",
+      "prompt": "哪种踝足运动的说法更准确？",
+      "options": [
+        {
+          "id": "c",
+          "text": "距小腿以背屈／跖屈为主，距下及其他跗间关节参与复合运动。"
+        },
+        {
+          "id": "a",
+          "text": "距小腿关节具有三个互不耦合的独立转轴。"
+        },
+        {
+          "id": "b",
+          "text": "距下只做纯额状面运动，轴不受体位影响。"
+        }
+      ],
+      "correctOption": "c",
+      "explanation": "区分单关节与踝足复合体。教具彩轴是教学参考，并非患者精确运动轴。",
+      "sourceIds": [
+        "rom_openstax",
+        "rom_in_vivo1989"
+      ]
+    },
+    {
+      "id": "O2-Q2",
+      "objectiveId": "O2",
+      "prompt": "两份假设检查记录分别使用坐位背屈和负重膝触墙，能直接比较读数大小吗？",
+      "options": [
+        {
+          "id": "c",
+          "text": "把两者都换成度数，就不必看体位。"
+        },
+        {
+          "id": "a",
+          "text": "能，只要都叫背屈就完全等价。"
+        },
+        {
+          "id": "b",
+          "text": "先核对膝角、足位、测法、单位和症状，再决定怎样比较。"
+        }
+      ],
+      "correctOption": "b",
+      "explanation": "不同体位和测法不可直接互换。比较需保留方法与条件，也不能套一个通用角度及格线。",
+      "sourceIds": [
+        "rom_knee2016",
+        "rom_reliability2012"
+      ]
+    },
+    {
+      "id": "O3-Q1",
+      "objectiveId": "O3",
+      "prompt": "选择抗阻测试体位与用力方向时，哪项最合理？",
+      "options": [
+        {
+          "id": "b",
+          "text": "所有足踝肌都俯卧，同一处施阻即可完全隔离各肌。"
+        },
+        {
+          "id": "a",
+          "text": "按目标动作选择体位、固定和阻力，并记录疼痛与代偿。"
+        },
+        {
+          "id": "c",
+          "text": "只看角色把脚转过去，就已测得肌力。"
+        }
+      ],
+      "correctOption": "a",
+      "explanation": "肌群检查需标准化条件。当前方法练习考察选择与判读，不能把角色动作当成真实施阻测量。",
+      "sourceIds": [
+        "mmt_mrc",
+        "mmt_nih"
+      ]
+    },
+    {
+      "id": "O3-Q2",
+      "objectiveId": "O3",
+      "prompt": "某份虚构检查记录按MRC 0—5量表记为4级，可以直接推出什么？",
+      "options": [
+        {
+          "id": "c",
+          "text": "只能按对应量表解释该次抗阻表现，不能直接换算力矩或激活时序。"
+        },
+        {
+          "id": "b",
+          "text": "步行时该肌一定激活延迟。"
+        },
+        {
+          "id": "a",
+          "text": "精确关节力矩是40 N·m。"
+        }
+      ],
+      "correctOption": "c",
+      "explanation": "这里只判读假设记录，页面未测出患者肌力级别。MRC是规定条件下的顺序分级，不能直接换算力矩或步行中的EMG时序。",
+      "sourceIds": [
+        "mmt_mrc",
+        "mmt_quantitative1997",
+        "emg_seniam"
+      ]
+    },
+    {
+      "id": "O4-Q1",
+      "objectiveId": "O4",
+      "prompt": "坐位足弓较明显、站立时变低，最稳妥的解释是什么？",
+      "options": [
+        {
+          "id": "a",
+          "text": "已经证明低足弓是反复扭伤的唯一根源。"
+        },
+        {
+          "id": "b",
+          "text": "先记录负重相关变化，再结合柔韧性、症状与其他检查。"
+        },
+        {
+          "id": "c",
+          "text": "已确定胫后肌腱断裂，无需其他资料。"
+        }
+      ],
+      "correctOption": "b",
+      "explanation": "足形随负重变化是一项观察。它不独立证明某组织损伤，更不能补成全部症状的唯一致病链。",
+      "sourceIds": [
+        "nhs_flatfeet",
+        "kelly_arch_2015",
+        "apta_cai_2021"
+      ]
+    },
+    {
+      "id": "O4-Q2",
+      "objectiveId": "O4",
+      "prompt": "解释低足弓与患者困扰时，哪一句更恰当？",
+      "options": [
+        {
+          "id": "a",
+          "text": "足形是相关线索，还要问疼痛、近期变化及哪些活动受影响。"
+        },
+        {
+          "id": "c",
+          "text": "低足弓必然需要同一种鞋垫，才能防止再次扭伤。"
+        },
+        {
+          "id": "b",
+          "text": "足弓越高越健康，所有人都要矫到同一形态。"
+        }
+      ],
+      "correctOption": "a",
+      "explanation": "足形与症状要分别了解。低足弓可无症状；是否需要帮助及采用什么措施，应结合实际问题。",
+      "sourceIds": [
+        "nhs_flatfeet",
+        "nice_shared_decision"
+      ]
+    },
+    {
+      "id": "O5-Q1",
+      "objectiveId": "O5",
+      "prompt": "对同一只脚，怎样用事件区分支撑期和摆动期？",
+      "options": [
+        {
+          "id": "a",
+          "text": "支撑从足离地开始，摆动从足接地开始。"
+        },
+        {
+          "id": "b",
+          "text": "只要身体还在前进，两只脚都算支撑。"
+        },
+        {
+          "id": "c",
+          "text": "接触到离地为支撑；离地到下一次同足接触为摆动。"
+        }
+      ],
+      "correctOption": "c",
+      "explanation": "阶段以同足事件为边界，双足应放在同一时间轴比较；比例是具体片段信息，不是人人固定阈值。",
+      "sourceIds": [
+        "ouhsc_loading"
+      ]
+    },
+    {
+      "id": "O5-Q2",
+      "objectiveId": "O5",
+      "prompt": "对常见平地成人步行参考，哪项机制概括更合适？",
+      "options": [
+        {
+          "id": "b",
+          "text": "初始接触后的加载反应有受控跖屈，随后背屈；单支撑中段质心通常较高，末支撑至预摆转向跖屈推进。"
+        },
+        {
+          "id": "c",
+          "text": "只看脚的动作，就能确定各肌的真实激活先后。"
+        },
+        {
+          "id": "a",
+          "text": "支撑中期质心最低，末期足部完全锁死。"
+        }
+      ],
+      "correctOption": "b",
+      "explanation": "这是常见平地成人参考，坡度、速度和个体会改变细节。踝运动、全身质心与肌肉控制是不同信息；本程序未由角色测出全身COM或肌电。",
+      "sourceIds": [
+        "ouhsc_loading",
+        "gottschall_com_2006",
+        "phan_midtarsal_2019"
+      ]
+    },
+    {
+      "id": "O6-Q1",
+      "objectiveId": "O6",
+      "prompt": "对当前接触足的COP，哪项解释正确？",
+      "options": [
+        {
+          "id": "b",
+          "text": "它就是全身身体重心，角色骨盆点可直接替代。"
+        },
+        {
+          "id": "c",
+          "text": "它一旦偏离固定S形，就证明某条韧带张力异常。"
+        },
+        {
+          "id": "a",
+          "text": "它由当下接触载荷加权，是接触合力作用位置。"
+        }
+      ],
+      "correctOption": "a",
+      "explanation": "COP与全身COM不同。轨迹受任务与个体影响，不能独立定位肌肉激活或韧带张力。",
+      "sourceIds": [
+        "ankle_cop_2021"
+      ]
+    },
+    {
+      "id": "O6-Q2",
+      "objectiveId": "O6",
+      "prompt": "为什么峰值合成压力图不能当成一个瞬时帧来算COP？",
+      "options": [
+        {
+          "id": "b",
+          "text": "因为正常足底压力本来必须均匀。"
+        },
+        {
+          "id": "c",
+          "text": "因为各格点峰值可能来自不同时间，并非同一时刻的接触分布。"
+        },
+        {
+          "id": "a",
+          "text": "因为只有红色格点才有压力。"
+        }
+      ],
+      "correctOption": "c",
+      "explanation": "瞬时COP必须用同一时刻的有效接触载荷。逐点峰值图不保证同时发生；本系统图为合成相对载荷，不代表临床kPa或N测量。",
+      "sourceIds": [
+        "novel_mpp_definition",
+        "ankle_cop_2021",
+        "cavanagh_standing_1987"
+      ]
+    },
+    {
+      "id": "O7-Q1",
+      "objectiveId": "O7",
+      "prompt": "一份虚构练习记录写着睁眼20秒、闭眼8秒，能据此确认本体感受器损伤吗？",
+      "options": [
+        {
+          "id": "a",
+          "text": "能，闭眼减少一半时间就能定位感受器损伤。"
+        },
+        {
+          "id": "c",
+          "text": "能，只要再放上软垫，诊断就一定准确。"
+        },
+        {
+          "id": "b",
+          "text": "不能；闭眼改变视觉信息，表现还受体感、前庭、力量与策略等影响。"
+        }
+      ],
+      "correctOption": "b",
+      "explanation": "这些秒数不是程序实测或诊断阈值。平衡依赖多感觉与动作控制；还需统一地面、足位与终止标准，单次时长不能定位某条感觉通路。",
+      "sourceIds": [
+        "peterka_balance_2002",
+        "apta_cai_2021"
+      ]
+    },
+    {
+      "id": "O7-Q2",
+      "objectiveId": "O7",
+      "prompt": "安排首次单脚平衡观察，哪种起点更合理？",
+      "options": [
+        {
+          "id": "c",
+          "text": "不允许扶手或落脚，必须达到固定秒数。"
+        },
+        {
+          "id": "a",
+          "text": "先稳定地面、睁眼、扶手可及与保护；患者同意，随时可落脚停止。"
+        },
+        {
+          "id": "b",
+          "text": "先闭眼加软垫，越晃越能准确找病因。"
+        }
+      ],
+      "correctOption": "a",
+      "explanation": "先选择可保护、愿意尝试的条件，再按表现改变难度；停止与终止原因也是应记录的信息。",
+      "sourceIds": [
+        "apta_cai_2021",
+        "nice_shared_decision"
+      ]
+    },
+    {
+      "id": "O8-Q1",
+      "objectiveId": "O8",
+      "prompt": "综合本轮资料时，哪种计划推理更合理？",
+      "options": [
+        {
+          "id": "c",
+          "text": "围绕安心走路，用已取得的证据选择优先方向，缺资料就补评估。"
+        },
+        {
+          "id": "a",
+          "text": "把低足弓定为唯一根源，再套相同矫形方案。"
+        },
+        {
+          "id": "b",
+          "text": "把没有做的检查补为正常，保持记录完整。"
+        }
+      ],
+      "correctOption": "c",
+      "explanation": "计划应与患者目标和已有证据相连；保留未知，允许合理替代方案，不能从单一足形保证疗效。",
+      "sourceIds": [
+        "apta_cai_2021",
+        "nice_shared_decision"
+      ]
+    },
+    {
+      "id": "O8-Q2",
+      "objectiveId": "O8",
+      "prompt": "学生完成知识题后，怎样解释结果与下一步最恰当？",
+      "options": [
+        {
+          "id": "c",
+          "text": "只要AI表示赞同，就不必核对证据与理解。"
+        },
+        {
+          "id": "b",
+          "text": "结果只反映本次题目中的知识与推理；临床技能另需观察，患者计划仍需复评。"
+        },
+        {
+          "id": "a",
+          "text": "知识题全对，就等于已证明真实接诊技能和返场能力。"
+        }
+      ],
+      "correctOption": "b",
+      "explanation": "两题均正确是本课程原创的知识评价口径，尚未作测验效度验证。它不代替临床技能；播放、操作收据和AI赞同也不构成达成依据。",
+      "sourceIds": [
+        "apta_cai_2021",
+        "nice_shared_decision"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "apta_cai_2021",
+      "title": "Ankle Stability and Movement Coordination Impairments: Lateral Ankle Ligament Sprains Revision2021",
+      "url": "https://www.jospt.org/doi/10.2519/jospt.2021.0302"
+    },
+    {
+      "id": "nice_shared_decision",
+      "title": "NICE NG197 Shared decision making — recommendations",
+      "url": "https://www.nice.org.uk/guidance/ng197/chapter/recommendations"
+    },
+    {
+      "id": "rom_openstax",
+      "title": "OpenStax Anatomy and Physiology 2e — 9.6 Anatomy of Selected Synovial Joints",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints"
+    },
+    {
+      "id": "rom_in_vivo1989",
+      "title": "Kinematics of the ankle/foot complex: plantarflexion and dorsiflexion",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2731829/"
+    },
+    {
+      "id": "rom_knee2016",
+      "title": "Diagnosis of Musculus Gastrocnemius Tightness — Key Factors for the Clinical Examination",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27500825/"
+    },
+    {
+      "id": "rom_reliability2012",
+      "title": "Reliability of Three Measures of Ankle Dorsiflexion Range of Motion",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22666642/"
+    },
+    {
+      "id": "mmt_mrc",
+      "title": "Aids to the Examination of the Peripheral Nervous System, Memorandum No.45",
+      "url": "https://www.ukri.org/wp-content/uploads/2021/12/MRC-011221-AidsToTheExaminationOfThePeripheralNervousSystem.pdf"
+    },
+    {
+      "id": "mmt_nih",
+      "title": "Muscle Grading and Testing Procedures — IMACS Form04",
+      "url": "https://www.niehs.nih.gov/sites/default/files/research/resources/assets/docs/muscle_grading_and_testing_procedures_508.pdf"
+    },
+    {
+      "id": "mmt_quantitative1997",
+      "title": "A Comparative Study of Isokinetic Dynamometry and Manual Muscle Testing of Ankle Dorsal and Plantar Flexors and Knee Extensors and Flexors",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9208265/"
+    },
+    {
+      "id": "emg_seniam",
+      "title": "SENIAM — Sensor Locations; Placement and Fixation of the Sensor",
+      "url": "https://seniam.org/sensor_location.htm"
+    },
+    {
+      "id": "nhs_flatfeet",
+      "title": "Flat feet",
+      "url": "https://www.nhs.uk/conditions/flat-feet/"
+    },
+    {
+      "id": "kelly_arch_2015",
+      "title": "Active regulation of longitudinal arch compression and recoil during walking and running",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25551151/"
+    },
+    {
+      "id": "ouhsc_loading",
+      "title": "Loading Response / Prosthetic Biomechanics",
+      "url": "https://www.ouhsc.edu/bserdac/dthompso/web/gait/kinetics/loadgrf.htm"
+    },
+    {
+      "id": "gottschall_com_2006",
+      "title": "Mechanical energy fluctuations during hill walking: the effects of slope on inverted pendulum exchange",
+      "url": "https://journals.biologists.com/jeb/article/209/24/4895/16401/Mechanical-energy-fluctuations-during-hill-walking"
+    },
+    {
+      "id": "phan_midtarsal_2019",
+      "title": "Skeletal kinematics of the midtarsal joint during walking: Midtarsal joint locking revisited",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31431345/"
+    },
+    {
+      "id": "ankle_cop_2021",
+      "title": "Ankle muscles drive mediolateral center of pressure control to ensure stable steady state gait",
+      "url": "https://www.nature.com/articles/s41598-021-00463-8"
+    },
+    {
+      "id": "cavanagh_standing_1987",
+      "title": "Pressure distribution under symptom-free feet during barefoot standing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3583160/"
+    },
+    {
+      "id": "peterka_balance_2002",
+      "title": "Sensorimotor integration in human postural control",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12205132/"
+    },
+    {
+      "id": "novel_mpp_definition",
+      "title": "novel emed官方操作资料：MPP与逐帧roll-over",
+      "url": "https://novel.de/support/emed-support/"
+    }
+  ]
+}

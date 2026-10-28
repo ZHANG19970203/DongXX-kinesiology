@@ -1,0 +1,47 @@
+足踝结构与运动窗 v10
+
+使用方式保持不变：
+  const viewer = await createAnatomyViewer(host, { focus:'ankle', onSelection, onError });
+  viewer.setFocus('ankle'|'arch'|'foot');
+  viewer.highlight('tibia'|'胫骨'|'talus'|'距骨'|'tibialisAnterior'|'胫骨前肌'|...);
+  viewer.resize(); viewer.setVisible(boolean); viewer.dispose(); viewer.getState();
+
+新增可选 API：
+  viewer.setMotion('sagittal'|'frontal'); // 清零当前教学角度，关闭肌肉，切换骨骼运动
+  viewer.setAngle(degrees);             // 有界教学角度：正背屈/内翻，负跖屈/外翻
+  await viewer.setMusclesVisible(true); // 首次懒加载肌肉分片；回到中立位，禁用运动滑块
+  await viewer.setMusclesVisible(false);// 返回骨骼运动
+  options.onMotion({mode,angleDegrees,muscleMode,approximateTeachingProjection:true});
+
+UI 自带滑块、运动形式按钮、运动轴/运动面开关、回到中立位、肌肉开关与肌肉点选。
+原诊室的弹窗保留同一实例即可自动使用这些功能，不需要新建 WebGL 窗口。
+
+getState() 中 assetCount 仍代表骨骼数 28，新增 muscleAssetCount、motionMode、
+motionAngleDegrees、muscleMode、approximateTeachingProjection；fetchedBytes 计入实际懒加载。
+默认加载原网站的 4MiB mesh-00.bin；首次添加肌肉再加载已有的 4MiB mesh-12.bin。
+对分片和每块网格 position+normal+index 均进行 SHA-256 校验。
+
+教师审查要点：
+1. 这是本项目重建的有限刚体教学驱动，使用静态图谱网格与自行指定的示意枢轴。
+   不含旧来源运动链。没有关节配准、骨接触求解、距骨滚滑算法或个体测量。
+2. 矢状面演示：胫骨/腓骨固定，距骨及远端骨群绕示意横轴转动。
+   额状面演示：胫骨/腓骨/距骨固定，距骨以下骨群绕示意前后轴转动。
+   这是观察运动方向与平面的投影，不能解释为真实距下关节斜轴或完整三维耦合。
+3. 限定滑块范围 [-25,20]、[-12,12] 是本演示的控制范围，不是临床正常值。
+4. 7 块肌肉为原始静态网格；显示肌肉时骨骼回到图谱参考位并禁用滑块。
+   识别色不表示收缩、激活、肌力、力矩、肌腱张力或组织长度变化。
+5. 驱动数值测试通过不等于解剖学、临床运动学或教学审核通过。发布教学前应由
+   专业教师逐项审查参考位、运动方向、范围、骨间关系及学生解释。
+
+来源及许可证：
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html （2026-10-18 核对；页面更新 2025-02-27）
+Somakine 数据固定提交 179ed2c33a4a519027c6657f2c465bd1b66f9cd9：
+https://github.com/ivershuo/somakine
+Somakine 程序 MIT 与 BodyParts3D 数据 CC BY 4.0 分别适用。
+所有 35 块网格的上游文件 URL、源文件哈希、提取变换、网格字节哈希见：
+anatomy-v10-provenance.json。
+
+运行验证：
+  node clinic3d/docs/anatomy-v10-validate.mjs report.json
+作者目录或完整网站解压目录均可运行，需存在 vendor/three 与 assembly/assets。

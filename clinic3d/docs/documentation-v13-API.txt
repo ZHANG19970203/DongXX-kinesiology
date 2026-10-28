@@ -1,0 +1,31 @@
+v13 治疗师随身记录夹与笔
+
+场景对象
+room.objects.clinicalNotes：原创薄记录夹和评估纸。
+room.objects.clinicalPen：原创无商标笔。
+room.objects.documentationDeskParent：接诊桌父节点。
+room.anchors.documentationDesk：桌面默认世界坐标参考。
+已删除 PreparationTray 和其中的重复笔；量角器/棉片移至既有床边器材车。
+
+初始化
+actors.therapist.bindDocumentation({
+  notes: room.objects.clinicalNotes,
+  pen: room.objects.clinicalPen,
+  deskParent: room.objects.documentationDeskParent
+});
+
+使用
+therapist.setDocumentation('desk')：不用时直接回到接诊桌原位，随后治疗师移动不会带走道具。
+therapist.setDocumentation('carry')：左手持夹、右手放松持笔；手臂平滑转入持物姿态。
+therapist.setDocumentation('write')：夹子移到身前，笔做短幅连续记录示意，不跟随说话敲击。
+getState().documentation 返回 mode/bound/carryWeight/writeWeight/penTipGapMetres。
+
+建议环节
+接诊 desk；步态观察 carry；局部检查和足压判读需要记录时 carry/write；平衡保护与任何手法接触前 desk，保证双手可用于保护。调用端决定何时切换，本实现不自行改动教学路线。
+
+教学边界
+道具几何与携带/书写均为项目原创；无外部下载、付费生成或 HeyGen 额度。书写只显示笔尖沿纸面短幅移动，不产生文字笔迹，手指抓握与碰撞未经临床核准。独立蒙皮、17.6 秒脱鞋袜、手动步态同步和落地鞋袜世界坐标保持不变。
+
+核验
+node --experimental-vm-modules docs/documentation-v13-validate.mjs
+输出 documentation-v13-check.json：桌面摆放、删除托盘、腕骨携带、随治疗师移动、桌面恢复稳定、有限数值、笔尖纸面设计落点、同时完成患者脱鞋袜。

@@ -1,0 +1,56 @@
+v13 同条件足弓对照 API
+
+pressure-engine.js 保留原sampleStanding/sampleWalking/sampleMaximumPressure API，
+arch现在接受'typical'、'low'、'high'，默认仍为'low'，不改变陈女士主线。
+
+导出：ARCH_PROFILES
+  按typical/low/high排序，含arch、label、note。
+  名称依次为“正常足弓参考”“低足弓示例”“高足弓拓展”。
+
+导出：renderArchComparison(svg, options={mode:'static',phase:0,side:'right',width:720,height:360})
+  渲染横排三图，返回archComparisonSummary同结构结果。
+  mode支持static、dynamic、maximum，mpp为maximum别名。
+  动态phase按完整步态周期计数，可传0..2；站立0..1为八秒观察。
+  使用同一足、相位、格点面积、总载荷时钟和relativeScale=.012固定色标。
+  COP只在瞬时有载荷时绘制。MPP不计算COP，不显示瞬时载荷百分比。
+  不触发任何主线操作、学习证据、人物换型、影像生成或付费服务。
+
+导出：archComparisonSummary(mode='static', phase=0, options={side:'right'})
+  {sourceType,measured:false,mode,phase,side,cellSize:.005,area:.000025,
+   relativeScale:.012,matchedConditions,interpretation,
+   profiles:[{arch,label,note,foot,metrics}]}
+  每个foot是原引擎同条件下该足当前帧，或非同时的MPP。
+  static/dynamic的frame总载荷、足载荷、足中心、接触时钟跨三图相同；
+  仅原创接触区域和空间载荷分配不同。不会人为规定高弓的统一COP偏向。
+
+导出：profileSummary(frameOrFoot, options={side:'right'})
+  metrics={
+    sourceType,measured:false,side,
+    contactAreaCm2:number,totalForce:number|null,simultaneous:boolean,
+    regions:[{id:'heel'|'midfoot'|'forefoot'|'toes',label,
+      contactAreaCm2:number,areaFraction:number|null,loadFraction:number|null}],
+    medialMidfoot:{contactAreaCm2,areaFraction,loadFraction},
+    copLocal:{lateral,forward}|null,contactThreshold:.012,
+    regionMethod,denominators:{area:string,load:string|null},areaMeaning:string
+  }
+
+百分比约定：
+  areaFraction的分母是该图全足pressure>=.012的格点面积，乘100显示百分比。
+  此.012仅为所有示例统一的原创显示阈值，不是设备接触阈值或诊断界线。
+  对照窗把低于该阈值的格点画成灰色，图与统计使用同一显示条件。
+  loadFraction的分母是同一瞬时该足所有格点合成载荷，包含显示阈值以下贡献。
+  分区采用统一教学纵向界线，不冒称真实设备自动解剖分区。
+  MPP仅报告“逐点峰值有色覆盖”的面积，不叫当前瞬时接触面积：
+    totalForce=null、loadFraction=null、copLocal=null、denominators.load=null。
+  摆动足当前无接触：contactAreaCm2=0，areaFraction=null，loadFraction=null，COP=null。
+
+教学差异：
+  low：扩大内侧中足接触和合成载荷，保留五趾/跖骨头/足跟结构。
+  typical：原创正常足弓参考条件，不代表人口正常范围或健康诊断。
+  high：收窄中足接触，负荷可更集中于足跟/前足；本例局部含外侧偏载。
+  三型都不代表每个人，不推断症状、疼痛、CAI风险、统一COP方向或阈值。
+
+测试：node docs/arch-v13-tests.mjs [结果JSON]
+结果：docs/arch-v13-test-results.json
+研究核对：docs/arch-v13-sources.json
+v12原有10项不变量回归测试也通过，原low/typical主线定义保留。

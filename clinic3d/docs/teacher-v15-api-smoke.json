@@ -1,0 +1,118 @@
+{
+  "schema": "dxx-teacher-v15-api-smoke",
+  "passed": true,
+  "total": 27,
+  "passedCount": 27,
+  "checks": [
+    {
+      "id": "teacher-auth-required",
+      "passed": true
+    },
+    {
+      "id": "public-curriculum-has-no-answer-key",
+      "passed": true
+    },
+    {
+      "id": "private-bank-not-statically-readable",
+      "passed": true
+    },
+    {
+      "id": "teacher-smoke-registered-marked-test",
+      "passed": true
+    },
+    {
+      "id": "teacher-smoke-guest-marked-test",
+      "passed": true
+    },
+    {
+      "id": "fixture-events-accepted",
+      "passed": true
+    },
+    {
+      "id": "actual-assessment-0",
+      "passed": true
+    },
+    {
+      "id": "actual-assessment-1",
+      "passed": true
+    },
+    {
+      "id": "actual-assessment-2",
+      "passed": true
+    },
+    {
+      "id": "partial-not-complete",
+      "passed": true
+    },
+    {
+      "id": "unconfigured-ai-fails-honestly",
+      "passed": true
+    },
+    {
+      "id": "feedback-stored",
+      "passed": true
+    },
+    {
+      "id": "overview-session-and-test-schema",
+      "passed": true
+    },
+    {
+      "id": "first-latest-baseline-preserved",
+      "passed": true
+    },
+    {
+      "id": "registered-dedup-summary-available",
+      "passed": true
+    },
+    {
+      "id": "activity-counts-received-events-not-ai",
+      "passed": true
+    },
+    {
+      "id": "post-partial-attempt-count-available",
+      "passed": true
+    },
+    {
+      "id": "detail-has-original-question-failure-feedback",
+      "passed": true
+    },
+    {
+      "id": "no-key-no-live-state",
+      "passed": true
+    },
+    {
+      "id": "provider-contract-keeps-both-platforms",
+      "passed": true
+    },
+    {
+      "id": "local-config-does-not-return-secret-or-connect",
+      "passed": true
+    },
+    {
+      "id": "siliconflow-exact-model-fixed-endpoint",
+      "passed": true
+    },
+    {
+      "id": "platform-switch-does-not-reuse-other-platform-key",
+      "passed": true
+    },
+    {
+      "id": "siliconflow-fixture-secret-not-returned-or-tested",
+      "passed": true
+    },
+    {
+      "id": "official-platform-models-preserved",
+      "passed": true
+    },
+    {
+      "id": "fixture-key-cleared",
+      "passed": true
+    },
+    {
+      "id": "zero-upstream-provider-calls",
+      "passed": true
+    }
+  ],
+  "upstreamRequests": 0,
+  "scope": "Real local HTTP API against an isolated testing=True server and temporary database, fixture-only identities, assessments, feedback and invalid key. No classroom state or real DeepSeek requests. Temporary database/config removed after shutdown."
+}

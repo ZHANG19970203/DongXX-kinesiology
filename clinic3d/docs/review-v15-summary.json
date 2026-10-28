@@ -1,0 +1,124 @@
+{
+  "schema": "dxx-content-material-review-v15",
+  "completedAt": "2026-10-18T16:52:26+08:00",
+  "reviewType": "sequential_agent_content_material_review",
+  "roundsCompleted": 4,
+  "reviewerRole": "AI content/material reviewer; not a professional teacher signoff",
+  "professionalTeacherSignoff": false,
+  "clinicalValidation": false,
+  "assessmentValidation": false,
+  "runtimeIntegrationVerified": false,
+  "objectiveFile": "learning/objectives-v15.json",
+  "documentationCopy": "clinic3d/docs/objectives-v15.json",
+  "finalVersion": "15.0.4",
+  "finalSha256": "a147eb81d53f7373686073b3485bec2acad80c06265d05a1eed068f8e362aed1",
+  "objectiveCount": 8,
+  "itemCount": 16,
+  "sourceCount": 19,
+  "rounds": [
+    {
+      "round": 1,
+      "title": "学习目标与八幕对齐",
+      "reportPath": "clinic3d/docs/review-v15-round-1.md",
+      "inputVersion": "15.0.0",
+      "outputVersion": "15.0.1",
+      "beforeSha256": "46bfdcebe2afebc4e54ef1704a1f57ff99758db030632771162929a3ddd78524",
+      "afterSha256": "486b408fb54bb6b6d0133602252d709ac252403e765ad3749da1c545127be3a8",
+      "changes": [
+        "逐目标写可观察考点",
+        "区分两题抽样与整幕技能"
+      ]
+    },
+    {
+      "round": 2,
+      "title": "医学概念与来源核对",
+      "reportPath": "clinic3d/docs/review-v15-round-2.md",
+      "inputVersion": "15.0.1",
+      "outputVersion": "15.0.2",
+      "beforeSha256": "486b408fb54bb6b6d0133602252d709ac252403e765ad3749da1c545127be3a8",
+      "afterSha256": "95b99e9c04b620f2a050e762bef7035b8e5a7f58a1a4179219bef4dffd885a18",
+      "changes": [
+        "步态加入平地成人及通常等限定",
+        "MPP加入直接一手格式来源并限制其用途"
+      ]
+    },
+    {
+      "round": 3,
+      "title": "数据、方法与评分推断边界",
+      "reportPath": "clinic3d/docs/review-v15-round-3.md",
+      "inputVersion": "15.0.2",
+      "outputVersion": "15.0.3",
+      "beforeSha256": "95b99e9c04b620f2a050e762bef7035b8e5a7f58a1a4179219bef4dffd885a18",
+      "afterSha256": "811e46e6c9fde020e895a6283175bf7a360c548f79aedd5bf5492b62f65bafa4",
+      "changes": [
+        "病例14月史与虚构示例明确",
+        "MRC0—5不混量表",
+        "达成口径标为课程原创而非验证量表"
+      ]
+    },
+    {
+      "round": 4,
+      "title": "修订后逐题与文件关联复核",
+      "reportPath": "clinic3d/docs/review-v15-round-4.md",
+      "inputVersion": "15.0.3",
+      "outputVersion": "15.0.4",
+      "beforeSha256": "811e46e6c9fde020e895a6283175bf7a360c548f79aedd5bf5492b62f65bafa4",
+      "afterSha256": "a147eb81d53f7373686073b3485bec2acad80c06265d05a1eed068f8e362aed1",
+      "changes": [
+        "加载后改为初始接触后的加载反应",
+        "打散显示位置周期，答案ID保持不变",
+        "结构、题源、双副本一致性18项检查通过"
+      ]
+    }
+  ],
+  "checks": {
+    "topLevelSchema": true,
+    "eightObjectives": true,
+    "eightActMapping": true,
+    "sixteenUniqueItems": true,
+    "twoLinkedItemsPerObjective": true,
+    "itemObjectiveOwnership": true,
+    "threeDistinctOptions": true,
+    "oneCanonicalCorrectOption": true,
+    "stableIdsAndAnswers": true,
+    "allHaveExplanations": true,
+    "allSourcesResolve": true,
+    "sourceIdsUniqueAndUrls": true,
+    "knowledgeScopeOnly": true,
+    "criteriaTwoCorrect": true,
+    "copiesIdentical": true,
+    "caseIdentityAnd14Months": true,
+    "explicitFictionalMMTAndBalance": true,
+    "gaitContextAndLoading": true
+  },
+  "contentChecksPassed": true,
+  "criterion": {
+    "perObjective": "Both linked knowledge items correct in the current valid assessment; not an operation receipt, playback or AI endorsement.",
+    "scope": "knowledge_and_reasoning",
+    "notClinicalSkill": true,
+    "knowledgeGoalRateVsItemAccuracy": "Achieved objectives / 8 differs from correct items / 16; e.g.8 correct first items yields0 achieved objectives."
+  },
+  "sourceReview": {
+    "newlyOpened": [
+      "gottschall_com_2006",
+      "nhs_flatfeet",
+      "mmt_mrc",
+      "novel_mpp_definition"
+    ],
+    "officialIndexed": [
+      "apta_cai_2021"
+    ],
+    "otherSourceEvidence": "Retained v14-clinical-sources.json and v14-rom-mmt-sources.json records; direct/full-text vs index access remains distinguished.",
+    "novelScope": "First-party format/operation explanation only, not a diagnostic or efficacy source.",
+    "copiedSourceFigures": false,
+    "newExternalModels": false,
+    "importedPatientMeasurements": false
+  },
+  "remaining": [
+    "Professional teacher review of script, item wording and educational fit",
+    "Assessment validity/reliability and standard-setting if used beyond formative self-study",
+    "Root integration tests: server-authoritative grading, version/current attempts and cohort denominator",
+    "Actual DeepSeek requests, teacher discussions/feedback and browser/ZIP checks"
+  ],
+  "summary": "四轮内容资料审查按版本顺序完成并实际修订；不声称教师签审、临床验证或国家申报成品。"
+}

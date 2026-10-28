@@ -1,0 +1,109 @@
+{
+  "schema": "dxx-teacher-v15-ui-tests",
+  "passed": true,
+  "total": 25,
+  "passedCount": 25,
+  "tests": [
+    {
+      "id": "token-removed-from-address",
+      "passed": true
+    },
+    {
+      "id": "teacher-token-header-only",
+      "passed": true
+    },
+    {
+      "id": "no-auto-paid-live-test",
+      "passed": true
+    },
+    {
+      "id": "unconfigured-honest-state",
+      "passed": true
+    },
+    {
+      "id": "default-excludes-test-data",
+      "passed": true
+    },
+    {
+      "id": "partial-and-legacy-not-completed",
+      "passed": true
+    },
+    {
+      "id": "objective-denominator-tested-sessions-only",
+      "passed": true
+    },
+    {
+      "id": "first-and-latest-post-separated",
+      "passed": true
+    },
+    {
+      "id": "registered-student-rate-deduplicates-latest-post",
+      "passed": true
+    },
+    {
+      "id": "classroom-test-identities-not-merged",
+      "passed": true
+    },
+    {
+      "id": "real-event-submit-count-and-received-range-labelled",
+      "passed": true
+    },
+    {
+      "id": "csv-formula-escaping",
+      "passed": true
+    },
+    {
+      "id": "json-recursive-credentials-redacted",
+      "passed": true
+    },
+    {
+      "id": "full-discussion-failure-feedback-shown",
+      "passed": true
+    },
+    {
+      "id": "all-dynamic-records-textcontent-no-innerhtml",
+      "passed": true
+    },
+    {
+      "id": "config-secret-posted-to-local-only-and-cleared",
+      "passed": true
+    },
+    {
+      "id": "saved-key-not-rendered-or-live-tested",
+      "passed": true
+    },
+    {
+      "id": "provider-selector-preserves-exact-siliconflow-model",
+      "passed": true
+    },
+    {
+      "id": "changing-provider-does-not-send-or-test",
+      "passed": true
+    },
+    {
+      "id": "provider-change-without-key-not-assumed-configured",
+      "passed": true
+    },
+    {
+      "id": "siliconflow-save-exact-no-substitution-or-endpoint-input",
+      "passed": true
+    },
+    {
+      "id": "saved-provider-display-honest-unverified",
+      "passed": true
+    },
+    {
+      "id": "official-model-options-preserved",
+      "passed": true
+    },
+    {
+      "id": "provider-upgrade-still-zero-auto-live-tests",
+      "passed": true
+    },
+    {
+      "id": "export-preserves-discussion-removes-secret-fields",
+      "passed": true
+    }
+  ],
+  "scope": "Actual teacher.js with DOM and local API fixtures only. All identities, attempts, requests, failures and keys are marked test fixtures. No actual external AI request, backend mutation, classroom data or paid media."
+}

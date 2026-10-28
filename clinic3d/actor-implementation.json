@@ -1,0 +1,333 @@
+{
+  "schema": "dxx-clinic-actor-implementation-v13",
+  "roles": [
+    {
+      "id": "therapist",
+      "character": "虚构成年男性治疗师",
+      "clothing": "上下统一深蓝服装，深色鞋",
+      "hair": "原创短发与自然侧分"
+    },
+    {
+      "id": "patient",
+      "character": "虚构成年女性患者",
+      "clothing": "宽松灰色开襟外套、完整遮盖腰腹的白色衬衣、黑色长裤；袖口止于腕关节上方，检查时按步骤脱鞋袜",
+      "hair": "齐肩层次发与半束发"
+    }
+  ],
+  "asset": "assets/patient-motion.glb",
+  "assetLicense": "MPFB bundled core body, rig and weights CC0-1.0; project-authored clothes and animation",
+  "loading": "Two independent GLTFLoader.loadAsync calls, two skeletons and two AnimationMixers",
+  "sourceBoneNames": "Bone.userData.name, falling back to Bone.name",
+  "bonesPerSourceActor": 163,
+  "coordinateSystem": "Y up, local +Z forward, metres; root group controls world placement and yaw",
+  "api": {
+    "createActors": "async createActors(scene, options={modelUrl,patientPosition,therapistPosition})",
+    "result": [
+      "patient",
+      "therapist",
+      "update(dt)",
+      "setMode(mode)",
+      "setTalking(role)",
+      "ready",
+      "details"
+    ],
+    "actor": [
+      "root",
+      "model",
+      "bones",
+      "setPose(name,immediate=false)",
+      "setPosition([x,y,z])",
+      "face(yawRadians)",
+      "setLocomotion(bool)",
+      "setGaitPhase(pOrNull)",
+      "setTalking(bool)",
+      "stop()",
+      "getState()",
+      "getBodyReferencePosition()",
+      "setFootwear(shoes|socks|barefoot)",
+      "startFootwearRemoval()",
+      "bindDocumentation({notes,pen,deskParent})",
+      "setDocumentation(desk|carry|write)"
+    ],
+    "poses": [
+      "standing",
+      "seated",
+      "heel_raise",
+      "examine"
+    ],
+    "modes": [
+      "consult",
+      "seated",
+      "heel_raise",
+      "examine",
+      "standing"
+    ]
+  },
+  "implementation": {
+    "limbs": "Rest-world quaternion conversion and two-link target placement using actual source bone head distances; intermediate split bones preserve their rest transforms",
+    "sitTransfer": "1.6 second quintic interpolation of pelvis height and foot reach; foot bone target height preserved; authored 0.365 m pelvis lowering, adjusted after CPU skin sampling found a seat intersection at an earlier setting",
+    "sittingLayout": "Seat top near 0.45 m; chair centre local -Z about 0.06 m; feet extend local +Z about 0.38 m; confirm actual mesh and collision in browser",
+    "walking": "Ordinary visual locomotion uses time-driven alternating 0.14 m ankle reach, 0.045 m lift and 0.022 m authored pelvis lowering; root travel is controlled separately by the director. This is not validated natural gait.",
+    "manualGaitPhase": "Uses sampleGait from gait-lesson.js: a hypothetical right-affected teaching case, duration1.2s, right stance0.56, left stance0.64, left IC0.46, stride0.88m, right step0.48m, left step0.40m, width0.14m. Foot bone targets use shared body-relative forward/lateral coordinates; root travel0.88*p along actor local+Z keeps stance anchors fixed in world space. Root/pelvis lowers0.060m plus shared vertical displacement to keep the source rig within reach. These design choices are not a typical CAI gait pattern or patient measurements.",
+    "speaking": "Head and jaw cycle only. Wrist local rest rotations inherit forearm motion, replacing the previous inappropriate world-rest reset. Seated hands rest over the lap; speech does not drive hands, arms or fingers. No actual clinical hand contact is asserted.",
+    "heelRaise": "Existing authored heel_raise glTF animation with 0.7 second entry pose blend",
+    "appearance": "appearance.js applies original per-role surface refinements to independently loaded CC0 MPFB source skins. Female lower face, nose and brow projection are reshaped, clothing surfaces gently refined, and original fitted scalp, face-framing locks and low tied ponytail added. Male uses short side-swept hair. Original source eye sphere nodes are hidden through their preserved userData.name; original oval eyes, lids, brows and restrained highlights are head-attached. Skin vertex colours add restrained cheek/lip variation. Deep navy therapist outfit and shoes retained. Original foot and lower-leg surface, skin weights and bones are unchanged.",
+    "footwear": "Original procedurally lofted shoes remain foot-bone attached while worn. Patient light-grey ankle socks are offset shells selected from CC0 source foot/lower-calf triangles and retain the original skin weights. startFootwearRemoval() drives a 17.6 second original seated sequence: lift left foot, reach and slide shoe off, deposit shoe, reach cuff, pull the posed sock mesh forward beyond the toes, deposit sock, lower foot, then repeat the right side. At pull onset the deformed weighted sock is captured as a posed mesh; its subsequent visible translation approximates cloth removal. The shoes and removed socks remain as original floor props. No paid generation or outside asset was used. The active foot rises 0.38 m from its seated ankle height and spine03 leans by an authored 0.46 rad to make the cuff reachable. During deposit, the hand stays at reachable height and the released garment drops to the floor; the hand does not claim to touch the floor.",
+    "bodyReference": "getBodyReferencePosition() returns source rig root/pelvis bone world Vector3. Shared gait sampler authors a small lateral and vertical displacement. This point is neither measured nor a computed whole-body centre of mass.",
+    "replaceableAppearanceContract": "docs/appearance-v11-contract.json documents future replacement: a properly licensed rigged 3D character must be adapted to named bone/pose/footwear APIs and checked for placement, clothing and clinical teaching actions. HeyGen talking video does not rewrite the interactive 3D mesh.",
+    "footwearActionState": "getState().footwearRemoval exposes active, completed, elapsed, duration, phase, side, progress. While active, footwear is removing; after completion it is barefoot. Repeated starts after completion are no-ops; setFootwear(shoes) resets the garments and allows replay. setFootwear(socks|barefoot) restores a saved stage instantly and does not claim to have replayed removal. stop() pauses elapsed time. Stage director must keep patient seated and prevent navigation until completion.",
+    "manualGaitExit": "setGaitPhase(null|undefined) only performs a static reset when exiting an active manual phase. It sets walking=false and walkWeight=0, then immediately evaluates procedural(0), so a saved swing pose cannot leak into static standing. Calling null while no manual phase is active does not interrupt ordinary authored locomotion.",
+    "garmentDepositCoordinates": "At removal completion, both shoes and both loose socks are reparented to a scene-owned Patient_world_stationary_removed_garments group with world transforms preserved. Subsequent patient translation, yaw and gait cannot carry these floor props. Explicit setFootwear(shoes|socks|barefoot) stage changes reattach shoes to their original foot-bone transforms and hide loose socks; restoring barefoot after already-completed removal keeps the deposited garments stationary.",
+    "clinicalDocumentation": "The portable original clinical note board and pen are created directly on the reception desk without a stationery tray. bindDocumentation snapshots their desk-local transforms. carry attaches notes to the left wrist and pen to the right wrist; arms interpolate to relaxed carry targets. write interpolates to a midline note position, with small 3 mm / 2 mm continuous pen strokes independent of talking. The pen tip is geometrically directed onto the note surface; no actual ink or validated finger grasp is rendered. desk restores both props to their original desk parent, location, orientation and scale, so they remain fixed while the therapist moves. Existing bedside trolley retains the goniometer and sealed swabs; the standalone PreparationTray and duplicate pen have been removed.",
+    "documentationIntegration": "Bind once after both room and actors are loaded, using room.objects.clinicalNotes/clinicalPen/documentationDeskParent. Mode suggestions: consult desk; gait carry; exam or pressure carry/write only during observation or recording; balance desk so both hands are available for protection. Do not carry documents during hands-on assistance."
+  },
+  "limits": [
+    "The sit transfer and walk cycle are authored visual teaching transitions, not a measured or validated movement model.",
+    "No clinician hand contact, joint registration, ligament test or goniometry accuracy is asserted.",
+    "No clinical values, diagnoses, foot pressure, COP or muscle dynamics are computed from the avatar.",
+    "Sitting poses target a nominal 0.45 m seat; a higher examination bed requires a matching vertical root offset and separate review of unloaded hanging feet. The sit transfer moves the foot targets forward while the pelvis lowers; it is a simplified visual transition rather than verified sit-to-stand mechanics.",
+    "Ordinary standing/examine poses do not guarantee hand contact with rails, tables, patient landmarks or tools. Props require independent placement and contact checks.",
+    "Browser visual inspection and professional teacher review remain required.",
+    "The asymmetric phase and distance values are authored teaching case values, not observed patient data, CAI norms, diagnostic cutoffs or clinical gait validation.",
+    "The pelvis reference point must be labelled as a pelvis reference, not whole-body centre of mass or COP.",
+    "Both roles retain the same CC0 male source topology, with original role-specific display refinements; the female role is a fictional visual adaptation rather than a female scan. These characters are a first appearance refinement, not photorealistic people or a promised final likeness.",
+    "The shoe/sock action visibly removes each garment, but uses authored reach targets and rigid posed sock translation. Fine finger grasp, fabric inversion, toe clearance collisions and full cloth contact physics are not simulated or clinically validated. Placement and contact require teacher review.",
+    "Documentation carry and write are authored display poses. Fingers do not form a validated grasp, handwriting ink is not generated, and fine paper/pen contact is a display constraint rather than a clinical documentation assessment. Balance and hands-on protection require desk mode and separate pose review."
+  ],
+  "numericalChecks": {
+    "independentSkeletons": true,
+    "gaitSamples": 101,
+    "minimumSkinY": -5.375489455347998e-08,
+    "minimumShoeY": 0.0009999206285785222,
+    "maximumAnkleTargetErrorMetres": 1.1590684261107436e-07,
+    "maxErrorDetail": {
+      "p": 0.16,
+      "side": "L",
+      "target": [
+        0.07,
+        0.08150860154344582,
+        -0.18876543209876548
+      ],
+      "actual": [
+        0.0699999767209848,
+        0.08150853281841625,
+        -0.18876552248324382
+      ]
+    },
+    "allFinite": true,
+    "seated": {
+      "skin": 1.0050248794924124e-07,
+      "shoe": 0.0010000923185840074,
+      "finite": true
+    },
+    "talkingWristDriftMetres": 4.5707254456349526e-10,
+    "patientBarefootToggle": true,
+    "therapistRemainsShod": true,
+    "ordinaryWalkingSamples": 50,
+    "ordinaryWalkingMinimumShoeY": 0.0009999633001087846,
+    "sitTransferSamples": 20,
+    "sitTransferMinimumShoeY": 0.0009999800970250296,
+    "scope": "CPU skin and original shoe mesh samples only; no renderer, continuous collision or clinical gait validation."
+  },
+  "paidGenerationJobs": 0,
+  "externalDownloads": 0,
+  "clinicalReviewStatus": "pending",
+  "appearanceChecks": {
+    "schema": "dxx-appearance-check-v11",
+    "actors": {
+      "therapist": {
+        "character": "fictional adult male therapist",
+        "bones": 163,
+        "meshes": 39,
+        "vertices": 55777,
+        "invalidAttributeNumbers": 0,
+        "hiddenOriginalEyeMeshes": 6,
+        "lowerFaceWidthMetres": 0.145319864153862,
+        "details": [
+          "Original_male_fitted_hair"
+        ],
+        "sourceSkinVertices": 14517
+      },
+      "patient": {
+        "character": "fictional adult female patient",
+        "bones": 163,
+        "meshes": 47,
+        "vertices": 72029,
+        "invalidAttributeNumbers": 0,
+        "hiddenOriginalEyeMeshes": 6,
+        "lowerFaceWidthMetres": 0.1305430382490158,
+        "details": [
+          "Original_left_face_framing_lock",
+          "Original_right_face_framing_lock",
+          "Original_low_ponytail",
+          "Original_female_fitted_hair"
+        ],
+        "sourceSkinVertices": 14517
+      }
+    },
+    "independentSkeletons": true,
+    "differentFaceVertices": 3939,
+    "lowerLegVertexCount": 3170,
+    "identicalLowerLegVertices": 3170,
+    "originalGlbSha256": "76bf711327b68b1a803fd46de493b1e34933f0f591fa27b5b75f2361918ed4d2",
+    "paidGenerationJobs": 0,
+    "externalDownloads": 0,
+    "scope": "Finite geometry, role distinction and unchanged lower-leg source surface only. Visual review remains separate; not photorealistic or clinically calibrated.",
+    "passed": true
+  },
+  "footwearRemovalChecks": {
+    "schema": "dxx-socks-action-v12",
+    "durationSeconds": 17.6,
+    "states": [
+      {
+        "t": 0.1,
+        "side": "L",
+        "phase": "sit"
+      },
+      {
+        "t": 1.6,
+        "side": "L",
+        "phase": "lift"
+      },
+      {
+        "t": 2.5,
+        "side": "L",
+        "phase": "shoe_reach"
+      },
+      {
+        "t": 3,
+        "side": "L",
+        "phase": "shoe_pull"
+      },
+      {
+        "t": 3.8,
+        "side": "L",
+        "phase": "shoe_deposit"
+      },
+      {
+        "t": 4.5,
+        "side": "L",
+        "phase": "sock_reach"
+      },
+      {
+        "t": 5.1,
+        "side": "L",
+        "phase": "sock_pull"
+      },
+      {
+        "t": 6.3,
+        "side": "L",
+        "phase": "sock_deposit"
+      },
+      {
+        "t": 7.3,
+        "side": "L",
+        "phase": "release"
+      },
+      {
+        "t": 7.7,
+        "side": "L",
+        "phase": "lower"
+      },
+      {
+        "t": 8.8,
+        "side": "L",
+        "phase": "rest"
+      },
+      {
+        "t": 9.7,
+        "side": "R",
+        "phase": "lift"
+      },
+      {
+        "t": 10.6,
+        "side": "R",
+        "phase": "shoe_reach"
+      },
+      {
+        "t": 11,
+        "side": "R",
+        "phase": "shoe_pull"
+      },
+      {
+        "t": 11.8,
+        "side": "R",
+        "phase": "shoe_deposit"
+      },
+      {
+        "t": 12.6,
+        "side": "R",
+        "phase": "sock_reach"
+      },
+      {
+        "t": 13.1,
+        "side": "R",
+        "phase": "sock_pull"
+      },
+      {
+        "t": 14.3,
+        "side": "R",
+        "phase": "sock_deposit"
+      },
+      {
+        "t": 15.3,
+        "side": "R",
+        "phase": "release"
+      },
+      {
+        "t": 15.7,
+        "side": "R",
+        "phase": "lower"
+      },
+      {
+        "t": 16.8,
+        "side": "R",
+        "phase": "rest"
+      },
+      {
+        "t": 17.6,
+        "side": "R",
+        "phase": "completed"
+      }
+    ],
+    "allFinite": true,
+    "minimumVisiblePropY": 0.0010000923185840074,
+    "maximumSampledWristStepMetres": 0.08087271484890472,
+    "initialSocksWorn": true,
+    "initialShoesWorn": true,
+    "completed": true,
+    "bothSocksDeposited": true,
+    "depositsStable": true,
+    "removedGarmentsStayInRoom": true,
+    "rewearResets": true,
+    "manualToStaticFootMaxErrorMetres": 0,
+    "manualToStaticImmediate": true,
+    "stopPausesRemoval": true,
+    "therapistRemainsShod": true,
+    "originalPaidJobs": 0,
+    "externalDownloads": 0,
+    "scope": "CPU finite transforms, sequential visible garment states and prop floor clearance only; visual review and clinical dressing/contact review remain separate.",
+    "passed": true
+  },
+  "documentationChecks": {
+    "schema": "dxx-documentation-v13-check",
+    "noDocumentationTray": true,
+    "existingMedicalTrolleyRetained": true,
+    "notesDirectlyOnDesk": true,
+    "penDirectlyOnDesk": true,
+    "allFinite": true,
+    "carriedByHands": true,
+    "followsTherapist": true,
+    "maximumSettledPenTipPaperGapMetres": 3.5163721934239334e-10,
+    "deskStationaryMaxErrorMetres": 0,
+    "deskOrientationMaxErrorRadians": 0,
+    "returnedToDesk": true,
+    "patientRemovalStillCompletes": true,
+    "independentSkeletons": true,
+    "paidGenerationJobs": 0,
+    "externalDownloads": 0,
+    "scope": "CPU scene hierarchy, finite transforms, stationery ownership and reach targets only. Writing is an authored visual cue; no finger-grasp, ink or clinical documentation skill validation.",
+    "passed": true
+  },
+  "wardrobeRevision": "v29-open-front-relaxed"
+}

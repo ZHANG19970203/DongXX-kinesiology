@@ -1,0 +1,46 @@
+{
+  "schema": "dxx-browser-v16",
+  "checkedAt": "2026-10-18T09:43:38.985308+00:00",
+  "passed": true,
+  "method": "Actual in-app browser, ordinary student controls, separate --test-data loopback service. No JavaScript state injection.",
+  "checks": [
+    {
+      "id": "overall-guide",
+      "passed": true,
+      "detail": "Overview rendered 8 goals and real13 courses grouped6static/4limited/3discussion."
+    },
+    {
+      "id": "welcome-and-top-guide",
+      "passed": true,
+      "detail": "Both real controls opened 8-card modal with goals, tasks and zero initial progress."
+    },
+    {
+      "id": "first-jump-pressure",
+      "passed": true,
+      "detail": "Welcome→act6 via card, seated shoe/sock preparation occurred before foot-pressure scene. No prior stage evidence created."
+    },
+    {
+      "id": "guide-retains-position",
+      "passed": true,
+      "detail": "Reopened modal showed currentFootPressure,1/8visited,0evidence, prior5stagesnotvisited."
+    },
+    {
+      "id": "jump-summary-no-findings",
+      "passed": true,
+      "detail": "act6→act8 via actual card, evidencecounter remained0; no tests completed or knowledge score invented."
+    },
+    {
+      "id": "received-events",
+      "passed": true,
+      "detail": "Actual isolated SQLite received2jump events in1session; missed-stage list preserved;0learningComplete events."
+    }
+  ],
+  "screenshots": [
+    "project-guide-v16.png",
+    "clinic-route-v16.png"
+  ],
+  "notClaimed": [
+    "Not a complete 8-act clinical walkthrough or a clinical skill validation.",
+    "HeyGen rendering/wardrobe/audio accuracy is not verified by these website checks."
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "format": "dxx-arch-knowledge-v13-sources",
+  "verifiedAt": "2026-10-18",
+  "purpose": "正常足弓同条件比较与独立高足弓知识拓展；陈女士低足弓主线不变，无临床评分、诊断或统一处方。",
+  "sourcePolicy": "Only original research and official clinical association/NHS institutional sources are used; search-index abstracts and directly opened full text are distinguished.",
+  "sourceType": "authored_synthetic_teaching_data",
+  "sources": [
+    {
+      "id": "cavus_2014",
+      "type": "primary_research",
+      "title": "Comparison of plantar pressures and contact area between normal and cavus foot",
+      "authors": "Fernández-Seguín LM et al.",
+      "journal": "Gait & Posture",
+      "year": 2014,
+      "doi": "10.1016/j.gaitpost.2013.10.018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24220205/",
+      "supports": "原始比较研究讨论正常足与高弓足的足底接触面积及压力差异，支持把接触较少与局部负荷变化作为对照学习内容。",
+      "limitations": "不能将研究组差异规定为所有高弓足的必然模式、统一COP偏移方向或诊断阈值。",
+      "access": "官方PubMed搜索结果已核对标题、作者、DOI及摘要；部分直接打开请求仅返回页面底部。没有导入数值或复制图像。；直接期刊页打开返回403，索引摘要可读，不声称已获得全文。",
+      "legacyId": "fernandez-seguin-2014"
+    },
+    {
+      "id": "standing_2013",
+      "type": "primary_research",
+      "title": "The effect of foot arch on plantar pressure distribution during standing",
+      "year": 2013,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23795697/",
+      "supports": "研究将不同足弓类型放在站立条件比较，报告中足接触面积和压力比例差异。提示站立与行走应按各自条件比较。",
+      "limitations": "本项目不直接采用其足型分界、组平均数或设备阈值。",
+      "access": "官方PubMed索引搜索结果可核对摘要；部分直接打开请求仅返回页面底部。",
+      "legacyId": "standing-arch-2013"
+    },
+    {
+      "id": "foot_type_2013",
+      "type": "primary_research",
+      "title": "Foot Type Biomechanics Part 1: Structure and Function of the Asymptomatic Foot",
+      "authors": "Hillstrom HJ et al.",
+      "journal": "Gait & Posture",
+      "year": 2013,
+      "doi": "10.1016/j.gaitpost.2012.09.007",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3594140/",
+      "supports": "无症状成人研究发现部分足底区域压力、力和面积存在足型组间差异，绝对步态参数没有一致组间差异。足型与功能关联不能被简化为必然步态改变或症状。",
+      "limitations": "样本和分型方法有研究条件，不直接移植为本项目正常值、足型分类或CAI因果结论。 其归一化支撑/双支撑时间存在部分组间差异，不能写成足型与任何步态指标完全无关。",
+      "copyright": "©2012 Elsevier B.V. All rights reserved. 仅概念核对与链接，不复制图表。",
+      "access": "官方PMC全文成功访问并核对方法、结果与版权。",
+      "legacyId": "hillstrom-2013"
+    },
+    {
+      "id": "speed_2004",
+      "type": "primary_research",
+      "title": "The effect of walking speed on peak plantar pressure",
+      "authors": [
+        "Ava Segal",
+        "Eric Rohr",
+        "Michael Orendurff",
+        "Jane Shofer",
+        "Matthew O’Brien",
+        "Bruce Sangeorzan"
+      ],
+      "year": 2004,
+      "doi": "10.1177/107110070402501215",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15680109/",
+      "access": "PubMed搜索索引完整摘要与元数据已核对；直接打开页面仅返回HHS页脚，未声称读到期刊全文。",
+      "supports": "步速对不同足底区域峰值压力的影响不同，比较时需控制或报告步速。",
+      "limitations": "不把研究速度或压力作为本课程正常阈值，也不认为所有区域压力同比例增加。",
+      "reuse": "仅原创概括和链接，无信号、图像或表格复制。"
+    },
+    {
+      "id": "load_2010",
+      "type": "primary_research",
+      "title": "The impact of increasing body mass on peak and mean plantar pressure in asymptomatic adult subjects during walking",
+      "authors": [
+        "John B. Arnold",
+        "Ryan Causby",
+        "Sara Jones"
+      ],
+      "year": 2010,
+      "doi": "10.3402/dfa.v1i0.5518",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22396809/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3284282/",
+      "access": "PubMed/PMC搜索索引摘要与元数据已核对；直接PMC请求遇浏览器验证。",
+      "supports": "同人附加载荷实验的区域压力会随载荷条件变化；不能把总载荷变化产生的差异全归于足弓。",
+      "limitations": "不同区域反应不完全相同；不将模拟总载荷或相对色值当成临床kPa。",
+      "reuse": "仅原创概括；未复制CC BY-NC文章图像、表格或受试者数值。"
+    },
+    {
+      "id": "acfas_cavus",
+      "type": "official_clinical_association",
+      "title": "Cavus Foot (High-Arched Foot)",
+      "publisher": "American College of Foot and Ankle Surgeons; Foot Health Facts official patient education",
+      "url": "https://www.foothealthfacts.org/conditions/cavus-foot-(high-arched-foot)",
+      "access": "官方网页正文成功打开；核对概述、病因、症状、诊断及非手术处理章节。",
+      "supports": "高足弓可有不同背景并伴疼痛或不稳；病史、足部检查、肌力、步态与必要进一步检查用于判断，措施按个体决定。",
+      "limitations": "不能把所有高足弓都认作神经疾病；不能仅凭足印确诊或保证统一鞋垫、训练的疗效。",
+      "reuse": "原创短句与链接，无网站图像或长段文字复制。"
+    },
+    {
+      "id": "rnoh_cavus",
+      "type": "official_clinical_institution",
+      "title": "A Patient’s Guide to Post-Operative Advice Following Pes Cavus Correction",
+      "publisher": "Royal National Orthopaedic Hospital NHS Trust",
+      "publicationDate": "January 2026",
+      "url": "https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/post-operative-advice-following-pes-cavus-correction",
+      "access": "NHS官网正文成功打开；只用Pes cavus和Common causes概述支持教学解释。",
+      "supports": "高足弓可伴局部压力区、疼痛和踝不稳，并可有不同背景；需要个体评估。",
+      "limitations": "本病例不采用该术后页的手术、用药或恢复时间为统一处方；不推断必然COP外侧或人人要手术。",
+      "reuse": "概念核对与链接，未复制官网图像。"
+    }
+  ],
+  "implementation": {
+    "changed": "原创高足弓接触mask和空间载荷权重；独立正常/低弓/高弓同条件观察；统一色标及百分比分母。",
+    "heldConstant": [
+      "格点面积",
+      "当前足总载荷",
+      "双足总载荷",
+      "接触相位",
+      "步态周期",
+      "足落点",
+      "相对色标"
+    ],
+    "notAssumed": [
+      "高弓必然外侧COP",
+      "正常足弓必然无痛",
+      "低弓必然慢性踝不稳",
+      "足弓单独决定步态",
+      "合成显示阈值可诊断足弓类型"
+    ],
+    "clinicalValidation": false
+  },
+  "clinicalInterpretationRules": [
+    "同任务、体重／总载荷设定、步速、相位和色标的固定是课程控制变量设计；不要求真实受试者体重必须完全相同。",
+    "人群比较需控制／报告相关条件，不能仅把颜色并排，也不能把所有差异归因足弓。",
+    "高足弓可能中足接触较少、局部负荷集中，但不能从足弓标签单独决定完整COP方向。",
+    "压力印不能单独确诊或选择处方；症状、明显不对称和新进展需要进一步了解原因。",
+    "常见足弓与对称步态参考不是患者必须达到的健康模板。"
+  ],
+  "newExternalModelFiles": [],
+  "copiedExternalImageFiles": [],
+  "copiedPatientDataFiles": [],
+  "copiedExternalFigures": [],
+  "importedPatientData": [],
+  "paidMediaJobs": 0,
+  "licenseBoundary": "Only original short summaries/questions and citations are added. Existing BodyParts3D/Somakine static anatomy remains CC BY 4.0 with retained attribution; no paper/website figures are relicensed or redistributed.",
+  "professionalReview": "Teacher review pending; not clinically validated and not a national-application finished product.",
+  "sourceAliases": {
+    "fernandez-seguin-2014": "cavus_2014",
+    "standing-arch-2013": "standing_2013",
+    "hillstrom-2013": "foot_type_2013"
+  }
+}

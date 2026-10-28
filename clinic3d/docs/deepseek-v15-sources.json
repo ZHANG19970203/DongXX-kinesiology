@@ -1,0 +1,36 @@
+{
+  "schema": "dxx-deepseek-official-review-v15",
+  "checkedAt": "2026-10-18",
+  "sources": [
+    {
+      "id": "deepseek_chat_completion",
+      "title": "DeepSeek official Chat Completions API",
+      "url": "https://api-docs.deepseek.com/api/create-chat-completion/",
+      "applied": "POST /chat/completions; current model IDs deepseek-flash and deepseek-v4-pro; explicit disabled thinking, stream:false, bounded max_tokens. Response content and actual token usage are validated; incomplete output is identified by finish_reason. No user_id, images, tools or registration metadata sent."
+    },
+    {
+      "id": "deepseek_pricing",
+      "title": "DeepSeek official Models & Pricing",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "applied": "Fixed official base https://api.deepseek.com; use current official model names. Prices can change; the application does not estimate monetary cost from incomplete usage. A later repeat fetch timed out; the model enum was also directly confirmed by the Chat Completions page."
+    },
+    {
+      "id": "deepseek_privacy",
+      "title": "DeepSeek Privacy Policy, updated February 10, 2026",
+      "url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "applied": "The provider policy explicitly excludes the downstream developer's end-user processing rules. Accordingly this local application supplies its own limited data notice and consent, avoids registration metadata in requests, and does not promise zero provider retention, zero training use or a fixed retention period. Institution-specific deployment policy and provider account terms remain to be assessed before a real cohort rollout."
+    }
+  ],
+  "implementation": {
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "defaultModel": "deepseek-flash",
+    "allowedModels": ["deepseek-flash", "deepseek-v4-pro"],
+    "defaultMaxTokens": 640,
+    "teacherTestMaxTokens": 32,
+    "automaticExternalProbe": false,
+    "actualExternalProviderRequestsDuringDevelopment": 0,
+    "realConnectivityVerified": false,
+    "keyConfiguredByUserLater": true,
+    "clinicalSkillValidation": false
+  }
+}

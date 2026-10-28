@@ -1,0 +1,49 @@
+{
+  "schema": "dxx-clinic-v9-browser-check",
+  "date": "2026-10-18",
+  "viewportsObserved": [
+    "1280x720",
+    "779x668"
+  ],
+  "normalRoute": {
+    "terminal": "finish",
+    "visitedNodes": 37,
+    "evidenceCount": 20,
+    "exportedEvents": 164,
+    "completed": true,
+    "backendReceiptAllExportedEvents": true,
+    "completionEventCount": 1,
+    "exportSha256": "74a6e57c695aac874be4494ef223bf6c48a8e4fb51b0f40d3dd51f61bde4e2cd"
+  },
+  "passedChecks": [
+    "guide purpose / concepts / steps expand and collapse",
+    "patient/therapist/student distinction",
+    "licensed 28-bone viewer loaded",
+    "bone-name highlight",
+    "ankle and medial-arch focus",
+    "gait starts with no raw decimal event label",
+    "wrong contact mark has explanatory feedback",
+    "correct contact and lift marks accepted",
+    "camera and right-foot ring stay on same phase",
+    "task controls and feet both visible at medium width",
+    "pause then play resumes explicitly",
+    "pressure conditions and region task",
+    "five balance conditions",
+    "patient stop request to collaborative plan",
+    "learning export downloaded and parsed",
+    "no console errors in new QA tab"
+  ],
+  "notEstablished": [
+    "clinical accuracy of examination contact",
+    "patient-specific joint registration",
+    "realistic human appearance or exact lip sync",
+    "formal mobile browser/device testing",
+    "clinical or teaching efficacy validation"
+  ],
+  "incidentsResolved": [
+    "Initial anatomy host crop corrected to show foot and source",
+    "Medium-width operation panel obscuring feet corrected",
+    "C volume exhausted during authoring; public working source preserved, authoring recovered, prior outputs moved to D with junction preserving original links and historical v5/v8 ZIP hashes checked"
+  ],
+  "implementationNote": "Anatomy viewer instance and loading promise are cached across task nodes; no per-task model copy."
+}

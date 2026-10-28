@@ -1,0 +1,2524 @@
+{
+  "schema": "dxx-clinic-anatomy-v10",
+  "title": "右侧足踝结构与运动教学窗",
+  "side": "R",
+  "assetCount": 35,
+  "geometryManifestUrl": "../assembly/assets/geometry-manifest.json",
+  "geometryBaseUrl": "../assembly/",
+  "requiredChunkIndices": [
+    0
+  ],
+  "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+  "licenseOfficialCheckedOn": "2026-10-18",
+  "upstream": "https://github.com/ivershuo/somakine",
+  "upstreamCommit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+  "scope": "Licensed static atlas anatomy with an original limited rigid-bone educational driver. Sliders show sagittal/frontal projections, not registered ankle/subtalar kinematics. Muscle mode restores neutral anatomy; muscles are never deformed or used to compute forces.",
+  "displayModifications": [
+    "Source positions, normals and indices remain unchanged. Runtime identification colours and clipping are display only.",
+    "Original teaching driver rotates talus and distal bones around an explicitly approximate transverse pivot; tibia/fibula stay fixed.",
+    "A separate nested frontal projection rotates distal foot bones without talus around an explicitly approximate anteroposterior pivot. No excluded joint-chain definitions are used.",
+    "Static licensed calf muscles can be added in neutral position only. No inferred skin weights, muscle contraction, activation, force or patient-specific measurements."
+  ],
+  "assets": [
+    {
+      "key": "tibia",
+      "label": "胫骨",
+      "id": "FJ3387",
+      "positions": 1620192,
+      "normals": 1630476,
+      "indices": 1640760,
+      "vertexCount": 857,
+      "indexCount": 4992,
+      "bounds": [
+        [
+          -0.10935299843549728,
+          -0.006037159822881222,
+          0.05207289755344391
+        ],
+        [
+          -0.03521599993109703,
+          0.3739200234413147,
+          0.11483500152826309
+        ]
+      ],
+      "center": [
+        -0.07228449918329716,
+        0.18394143180921674,
+        0.0834539495408535
+      ],
+      "sha256": "b7591c7ecfab39c709592bc028694c5ef8d78e9d434a03ad397509de9687d340",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3387",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/knee.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "knee.glb",
+        "sourceFileBytes": 123024,
+        "sourceFileSha256": "3fd6a4084513af36a7e374b684c8434d112f43dc57e2edc7fa924276bfa52d84",
+        "nodeIndex": 5,
+        "nodeName": "knee:tibia:isa:FJ3387",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "fibula",
+      "label": "腓骨",
+      "id": "FJ3366",
+      "positions": 1702152,
+      "normals": 1709268,
+      "indices": 1716384,
+      "vertexCount": 593,
+      "indexCount": 3426,
+      "bounds": [
+        [
+          -0.12016499787569046,
+          -0.025279900059103966,
+          0.04848739877343178
+        ],
+        [
+          -0.08434449881315231,
+          0.3591499924659729,
+          0.07816880196332932
+        ]
+      ],
+      "center": [
+        -0.10225474834442139,
+        0.16693504620343447,
+        0.06332810036838055
+      ],
+      "sha256": "15d157ef38034c758af5b140458acdcb7a5598fd45b18156b94c43c8ab036262",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3366",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/knee.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "knee.glb",
+        "sourceFileBytes": 123024,
+        "sourceFileSha256": "3fd6a4084513af36a7e374b684c8434d112f43dc57e2edc7fa924276bfa52d84",
+        "nodeIndex": 10,
+        "nodeName": "knee:fibula:isa:FJ3366",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "talus",
+      "label": "距骨",
+      "id": "FJ3385",
+      "positions": 2294640,
+      "normals": 2304384,
+      "indices": 2314128,
+      "vertexCount": 812,
+      "indexCount": 4140,
+      "bounds": [
+        [
+          -0.09011360257863998,
+          -0.03115609847009182,
+          0.0487540028989315
+        ],
+        [
+          -0.04962730035185814,
+          0.0031109298579394817,
+          0.10556899756193161
+        ]
+      ],
+      "center": [
+        -0.06987045146524906,
+        -0.014022584306076169,
+        0.07716150023043156
+      ],
+      "sha256": "fbe45b42ff2bbcde6271ce4c2fb84ab330579503b36d17df248b4761cbc710ab",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3385",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 139,
+        "nodeName": "ankle-foot:talus:isa:FJ3385",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "calcaneus",
+      "label": "跟骨",
+      "id": "FJ3360",
+      "positions": 2365584,
+      "normals": 2374452,
+      "indices": 2383320,
+      "vertexCount": 739,
+      "indexCount": 3786,
+      "bounds": [
+        [
+          -0.10078100115060806,
+          -0.06849069893360138,
+          0.02400510013103485
+        ],
+        [
+          -0.04487580060958862,
+          -0.01915469951927662,
+          0.09414850175380707
+        ]
+      ],
+      "center": [
+        -0.07282840088009834,
+        -0.043822699226439,
+        0.05907680094242096
+      ],
+      "sha256": "ef9edb102d369c66394924a94954a6c88324701461b889587de354867d2ec275",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3360",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 20,
+        "nodeName": "ankle-foot:calcaneus:isa:FJ3360",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "navicular",
+      "label": "足舟骨",
+      "id": "FJ3308",
+      "positions": 2431176,
+      "normals": 2436636,
+      "indices": 2442096,
+      "vertexCount": 455,
+      "indexCount": 2148,
+      "bounds": [
+        [
+          -0.09675399959087372,
+          -0.03077629953622818,
+          0.09432899951934814
+        ],
+        [
+          -0.058189600706100464,
+          -0.006155800074338913,
+          0.1209929957985878
+        ]
+      ],
+      "center": [
+        -0.07747180014848709,
+        -0.018466049805283546,
+        0.10766099765896797
+      ],
+      "sha256": "32ad57db4e5a8ea147d476c118f00d46d332bdb71954d3042541399d2bdc5677",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3308",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 100,
+        "nodeName": "ankle-foot:navicular-bone-of-foot:isa:FJ3308",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "cuboid",
+      "label": "骰骨",
+      "id": "FJ3364",
+      "positions": 2470632,
+      "normals": 2477148,
+      "indices": 2483664,
+      "vertexCount": 543,
+      "indexCount": 2796,
+      "bounds": [
+        [
+          -0.11508499830961227,
+          -0.05112159997224808,
+          0.08373269438743591
+        ],
+        [
+          -0.08236650377511978,
+          -0.022088300436735153,
+          0.1167679950594902
+        ]
+      ],
+      "center": [
+        -0.09872575104236603,
+        -0.036604950204491615,
+        0.10025034472346306
+      ],
+      "sha256": "b897db134d77cb6581c0278a5ab3048a1b26d41345b8c26703c0ef77a2a92e3a",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3364",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 25,
+        "nodeName": "ankle-foot:cuboid-bone:isa:FJ3364",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "cuneiformM",
+      "label": "内侧楔骨",
+      "id": "FJ3377",
+      "positions": 2517336,
+      "normals": 2524716,
+      "indices": 2532096,
+      "vertexCount": 615,
+      "indexCount": 2856,
+      "bounds": [
+        [
+          -0.0941276028752327,
+          -0.045273199677467346,
+          0.11198200285434723
+        ],
+        [
+          -0.06600440293550491,
+          -0.014229600317776203,
+          0.14050699770450592
+        ]
+      ],
+      "center": [
+        -0.0800660029053688,
+        -0.029751399997621775,
+        0.12624450027942657
+      ],
+      "sha256": "6560f7d51f8be5f73a407f212e8c9e00768a0826b16155c7a1348e0d5152e0c8",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3377",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 75,
+        "nodeName": "ankle-foot:medial-cuneiform-bone:isa:FJ3377",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "cuneiformI",
+      "label": "中间楔骨",
+      "id": "FJ3370",
+      "positions": 2569440,
+      "normals": 2572896,
+      "indices": 2576352,
+      "vertexCount": 288,
+      "indexCount": 1350,
+      "bounds": [
+        [
+          -0.10200700163841248,
+          -0.03443659842014313,
+          0.1095850020647049
+        ],
+        [
+          -0.08185949921607971,
+          -0.011385399848222733,
+          0.13053399324417114
+        ]
+      ],
+      "center": [
+        -0.0919332504272461,
+        -0.02291099913418293,
+        0.12005949765443802
+      ],
+      "sha256": "ae7da86faf0790398736690f65da02c7d23424900635ea9d543c58dd2dd0ed06",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3370",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 5,
+        "nodeName": "ankle-foot:intermediate-cuneiform:isa:FJ3370",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "cuneiformL",
+      "label": "外侧楔骨",
+      "id": "FJ3373",
+      "positions": 2594664,
+      "normals": 2599404,
+      "indices": 2604144,
+      "vertexCount": 395,
+      "indexCount": 1878,
+      "bounds": [
+        [
+          -0.11287499964237213,
+          -0.0405643992125988,
+          0.10083799809217453
+        ],
+        [
+          -0.08719830214977264,
+          -0.01485620066523552,
+          0.12523199617862701
+        ]
+      ],
+      "center": [
+        -0.10003665089607239,
+        -0.02771029993891716,
+        0.11303499713540077
+      ],
+      "sha256": "dbff9d2f39174a78fdb65bdcc759230fe57ae3487f5c807e835eaa9b09fc9328",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3373",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 70,
+        "nodeName": "ankle-foot:lateral-cuneiform-bone:isa:FJ3373",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "mt1",
+      "label": "第1跖骨",
+      "id": "FJ3351",
+      "positions": 1950912,
+      "normals": 1958136,
+      "indices": 1965360,
+      "vertexCount": 602,
+      "indexCount": 3366,
+      "bounds": [
+        [
+          -0.10436499863862991,
+          -0.06532920151948929,
+          0.12994399666786194
+        ],
+        [
+          -0.07481370121240616,
+          -0.022120200097560883,
+          0.1921820044517517
+        ]
+      ],
+      "center": [
+        -0.08958934992551804,
+        -0.043724700808525085,
+        0.16106300055980682
+      ],
+      "sha256": "c439b204ccf455f547c0620039712c38da0cee6f7888f38829a9782ce7ddf11a",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3351",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 60,
+        "nodeName": "ankle-foot:first-metatarsal-bone:isa:FJ3351",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "mt2",
+      "label": "第2跖骨",
+      "id": "FJ3353",
+      "positions": 2046000,
+      "normals": 2052180,
+      "indices": 2058360,
+      "vertexCount": 515,
+      "indexCount": 2256,
+      "bounds": [
+        [
+          -0.12127300351858139,
+          -0.06631780415773392,
+          0.12244799733161926
+        ],
+        [
+          -0.09065660089254379,
+          -0.018324699252843857,
+          0.1874060034751892
+        ]
+      ],
+      "center": [
+        -0.10596480220556259,
+        -0.04232125170528889,
+        0.15492700040340424
+      ],
+      "sha256": "0cce963c2b3e24ef4e5ae463774363df56e57d3b7ece67351b4a9e24cb46f5c5",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3353",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 10,
+        "nodeName": "ankle-foot:second-metatarsal:isa:FJ3353",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "mt3",
+      "label": "第3跖骨",
+      "id": "FJ3355",
+      "positions": 2124384,
+      "normals": 2129460,
+      "indices": 2134536,
+      "vertexCount": 423,
+      "indexCount": 2100,
+      "bounds": [
+        [
+          -0.13359598815441132,
+          -0.06637740135192871,
+          0.11836100369691849
+        ],
+        [
+          -0.09832219779491425,
+          -0.023672500625252724,
+          0.18085698783397675
+        ]
+      ],
+      "center": [
+        -0.11595909297466278,
+        -0.04502495098859072,
+        0.14960899576544762
+      ],
+      "sha256": "b2b1548ce96189243d779409b78d58950e007395ff0157654170ce1593a0ed36",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3355",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 144,
+        "nodeName": "ankle-foot:third-metatarsal-bone:isa:FJ3355",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "mt4",
+      "label": "第4跖骨",
+      "id": "FJ3357",
+      "positions": 2190648,
+      "normals": 2195412,
+      "indices": 2200176,
+      "vertexCount": 397,
+      "indexCount": 2022,
+      "bounds": [
+        [
+          -0.14267000555992126,
+          -0.06734390556812286,
+          0.1069759950041771
+        ],
+        [
+          -0.10186699777841568,
+          -0.03195849806070328,
+          0.1696840077638626
+        ]
+      ],
+      "center": [
+        -0.12226850166916847,
+        -0.04965120181441307,
+        0.13833000138401985
+      ],
+      "sha256": "9d150b887f945356d64a4bad2674e4629d2d3d612f01d4566a074bc3d161cada",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3357",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 65,
+        "nodeName": "ankle-foot:fourth-metatarsal-bone:isa:FJ3357",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "mt5",
+      "label": "第5跖骨",
+      "id": "FJ3359",
+      "positions": 2253552,
+      "normals": 2258784,
+      "indices": 2264016,
+      "vertexCount": 436,
+      "indexCount": 2382,
+      "bounds": [
+        [
+          -0.15233099460601807,
+          -0.06981959939002991,
+          0.089382104575634
+        ],
+        [
+          -0.10645800083875656,
+          -0.03987939655780792,
+          0.1550780087709427
+        ]
+      ],
+      "center": [
+        -0.1293944977223873,
+        -0.054849497973918915,
+        0.12223005667328835
+      ],
+      "sha256": "64b044fa7062369910542caa4fbc676810d7efd209fbd53f68ea8bfe597bad0f",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3359",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 55,
+        "nodeName": "ankle-foot:fifth-metatarsal-bone:isa:FJ3359",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe1_proximal",
+      "label": "拇趾近节趾骨",
+      "id": "FJ3310",
+      "positions": 2858904,
+      "normals": 2862276,
+      "indices": 2865648,
+      "vertexCount": 281,
+      "indexCount": 1458,
+      "bounds": [
+        [
+          -0.11719600111246109,
+          -0.06863909959793091,
+          0.1860700100660324
+        ],
+        [
+          -0.08665960282087326,
+          -0.05140870064496994,
+          0.21928900480270386
+        ]
+      ],
+      "center": [
+        -0.10192780196666718,
+        -0.060023900121450424,
+        0.20267950743436813
+      ],
+      "sha256": "c53009a7e09aa344b2ed6a0fdcf8a3e391a0c234c77174905aa8b1ce1ba2bada",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3310",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 103,
+        "nodeName": "ankle-foot:proximal-phalanx-of-big-toe:isa:FJ3310",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe1_distal",
+      "label": "拇趾远节趾骨",
+      "id": "FJ3192",
+      "positions": 2885304,
+      "normals": 2888772,
+      "indices": 2892240,
+      "vertexCount": 289,
+      "indexCount": 1320,
+      "bounds": [
+        [
+          -0.12511900067329407,
+          -0.06989790499210358,
+          0.210781991481781
+        ],
+        [
+          -0.10239800065755844,
+          -0.05900540202856064,
+          0.2360440045595169
+        ]
+      ],
+      "center": [
+        -0.11375850066542625,
+        -0.06445165351033211,
+        0.22341299802064896
+      ],
+      "sha256": "1256f545edf61af8eaa2f13b581a292ff71f4736fd356fd65a1869a26a5a633e",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3192",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 30,
+        "nodeName": "ankle-foot:distal-phalanx-of-big-toe:isa:FJ3192",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe2_proximal",
+      "label": "第2趾近节趾骨",
+      "id": "FJ3319",
+      "positions": 2908200,
+      "normals": 2911032,
+      "indices": 2913864,
+      "vertexCount": 236,
+      "indexCount": 1242,
+      "bounds": [
+        [
+          -0.1335650086402893,
+          -0.06687359511852264,
+          0.1835549920797348
+        ],
+        [
+          -0.11134599894285202,
+          -0.05454639717936516,
+          0.21167999505996704
+        ]
+      ],
+      "center": [
+        -0.12245550379157066,
+        -0.0607099961489439,
+        0.19761749356985092
+      ],
+      "sha256": "47916b1e01df8f7280a404d9b23087893627cbaba619918ed5ce445ba3977dbe",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3319",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 118,
+        "nodeName": "ankle-foot:proximal-phalanx-of-second-toe:isa:FJ3319",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe2_middle",
+      "label": "第2趾中节趾骨",
+      "id": "FJ3300",
+      "positions": 2928984,
+      "normals": 2931288,
+      "indices": 2933592,
+      "vertexCount": 192,
+      "indexCount": 792,
+      "bounds": [
+        [
+          -0.13935498893260956,
+          -0.06801030039787292,
+          0.20764799416065216
+        ],
+        [
+          -0.12523700296878815,
+          -0.05940390005707741,
+          0.22468800842761993
+        ]
+      ],
+      "center": [
+        -0.13229599595069885,
+        -0.06370710022747517,
+        0.21616800129413605
+      ],
+      "sha256": "61c48fdf485cd1e629fe338de5b17e46253402dd718259fa41bdb831d2008990",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3300",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 90,
+        "nodeName": "ankle-foot:middle-phalanx-of-second-toe:isa:FJ3300",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe2_distal",
+      "label": "第2趾远节趾骨",
+      "id": "FJ3189",
+      "positions": 2945376,
+      "normals": 2947416,
+      "indices": 2949456,
+      "vertexCount": 170,
+      "indexCount": 600,
+      "bounds": [
+        [
+          -0.14334599673748016,
+          -0.07028849422931671,
+          0.22101199626922607
+        ],
+        [
+          -0.13234800100326538,
+          -0.06305339932441711,
+          0.2340959906578064
+        ]
+      ],
+      "center": [
+        -0.13784699887037277,
+        -0.06667094677686691,
+        0.22755399346351624
+      ],
+      "sha256": "c2bc54eed8b897e617e9b2347bacf41608a95271366fda7c567f009b9dc38028",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3189",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 45,
+        "nodeName": "ankle-foot:distal-phalanx-of-second-toe:isa:FJ3189",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe3_proximal",
+      "label": "第3趾近节趾骨",
+      "id": "FJ3320",
+      "positions": 2958792,
+      "normals": 2962104,
+      "indices": 2965416,
+      "vertexCount": 276,
+      "indexCount": 1266,
+      "bounds": [
+        [
+          -0.14590199291706085,
+          -0.06764499843120575,
+          0.17443600296974182
+        ],
+        [
+          -0.12507599592208862,
+          -0.05620440095663071,
+          0.20284099876880646
+        ]
+      ],
+      "center": [
+        -0.13548899441957474,
+        -0.06192469969391823,
+        0.18863850086927414
+      ],
+      "sha256": "923232e268c5d08337d864e18eeeb1b1806a9e6e4262391f8579dd75f07b3663",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3320",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 125,
+        "nodeName": "ankle-foot:proximal-phalanx-of-third-toe:isa:FJ3320",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe3_middle",
+      "label": "第3趾中节趾骨",
+      "id": "FJ3301",
+      "positions": 2981328,
+      "normals": 2983608,
+      "indices": 2985888,
+      "vertexCount": 190,
+      "indexCount": 876,
+      "bounds": [
+        [
+          -0.15172599256038666,
+          -0.06883110105991364,
+          0.19886700809001923
+        ],
+        [
+          -0.13888901472091675,
+          -0.06091439723968506,
+          0.2157450020313263
+        ]
+      ],
+      "center": [
+        -0.1453075036406517,
+        -0.06487274914979935,
+        0.20730600506067276
+      ],
+      "sha256": "59990cd15f73c13da67a4066590d37cdee865bae54accdf8ece9759d72f6d49b",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3301",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 95,
+        "nodeName": "ankle-foot:middle-phalanx-of-third-toe:isa:FJ3301",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe3_distal",
+      "label": "第3趾远节趾骨",
+      "id": "FJ3190",
+      "positions": 2997360,
+      "normals": 2999304,
+      "indices": 3001248,
+      "vertexCount": 162,
+      "indexCount": 780,
+      "bounds": [
+        [
+          -0.15482500195503235,
+          -0.07019760459661484,
+          0.21225900948047638
+        ],
+        [
+          -0.145891010761261,
+          -0.06438659876585007,
+          0.2236659973859787
+        ]
+      ],
+      "center": [
+        -0.15035800635814667,
+        -0.06729210168123245,
+        0.21796250343322754
+      ],
+      "sha256": "ce084e6812b34ae7c1ffe53ff45c8c0fd0ed4312b88081057affb05ad5bf3573",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3190",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 50,
+        "nodeName": "ankle-foot:distal-phalanx-of-third-toe:isa:FJ3190",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe4_proximal",
+      "label": "第4趾近节趾骨",
+      "id": "FJ3321",
+      "positions": 3012912,
+      "normals": 3015960,
+      "indices": 3019008,
+      "vertexCount": 254,
+      "indexCount": 1314,
+      "bounds": [
+        [
+          -0.15592999756336212,
+          -0.06974099576473236,
+          0.16437900066375732
+        ],
+        [
+          -0.13433900475502014,
+          -0.05649859830737114,
+          0.18842799961566925
+        ]
+      ],
+      "center": [
+        -0.14513450115919113,
+        -0.06311979703605175,
+        0.1764035001397133
+      ],
+      "sha256": "43bc7a3b14540dc11d73451d9ce0bedc8a338d54a224ecb9b0f132beaa4714c5",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3321",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 110,
+        "nodeName": "ankle-foot:proximal-phalanx-of-fourth-toe:isa:FJ3321",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe4_middle",
+      "label": "第4趾中节趾骨",
+      "id": "FJ3302",
+      "positions": 3035640,
+      "normals": 3038280,
+      "indices": 3040920,
+      "vertexCount": 220,
+      "indexCount": 1050,
+      "bounds": [
+        [
+          -0.16134199500083923,
+          -0.06988880038261414,
+          0.1854349970817566
+        ],
+        [
+          -0.14907099306583405,
+          -0.06193549931049347,
+          0.1988060027360916
+        ]
+      ],
+      "center": [
+        -0.15520649403333664,
+        -0.0659121498465538,
+        0.1921204999089241
+      ],
+      "sha256": "3c2e82543109abc1b0e858628dcebc2e5e2ce2357d8dc63beffff10fddaf18ce",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3302",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 80,
+        "nodeName": "ankle-foot:middle-phalanx-of-fourth-toe:isa:FJ3302",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe4_distal",
+      "label": "第4趾远节趾骨",
+      "id": "FJ3191",
+      "positions": 3052920,
+      "normals": 3054648,
+      "indices": 3056376,
+      "vertexCount": 144,
+      "indexCount": 732,
+      "bounds": [
+        [
+          -0.16412699222564697,
+          -0.07039230316877365,
+          0.1953679919242859
+        ],
+        [
+          -0.15533500909805298,
+          -0.06339599937200546,
+          0.2065349966287613
+        ]
+      ],
+      "center": [
+        -0.15973100066184998,
+        -0.06689415127038956,
+        0.2009514942765236
+      ],
+      "sha256": "914df79a2d919b3453edf10ec82dc8b26bdcf5178f93f2ff053023bcfba417b5",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3191",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 35,
+        "nodeName": "ankle-foot:distal-phalanx-of-fourth-toe:isa:FJ3191",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe5_proximal",
+      "label": "小趾近节趾骨",
+      "id": "FJ3324",
+      "positions": 3065520,
+      "normals": 3068376,
+      "indices": 3071232,
+      "vertexCount": 238,
+      "indexCount": 1218,
+      "bounds": [
+        [
+          -0.16483700275421143,
+          -0.06989320367574692,
+          0.14871099591255188
+        ],
+        [
+          -0.1428849995136261,
+          -0.060047298669815063,
+          0.17408399283885956
+        ]
+      ],
+      "center": [
+        -0.15386100113391876,
+        -0.06497025117278099,
+        0.16139749437570572
+      ],
+      "sha256": "071f04caad96303f4424ea78ee097f6dedfda442f712a6f902a962878cf67c1f",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3324",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 115,
+        "nodeName": "ankle-foot:proximal-phalanx-of-little-toe:isa:FJ3324",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe5_middle",
+      "label": "小趾中节趾骨",
+      "id": "FJ3305",
+      "positions": 3086400,
+      "normals": 3087624,
+      "indices": 3088848,
+      "vertexCount": 102,
+      "indexCount": 408,
+      "bounds": [
+        [
+          -0.16669000685214996,
+          -0.0700903981924057,
+          0.17145000398159027
+        ],
+        [
+          -0.15807999670505524,
+          -0.0637390986084938,
+          0.1788179874420166
+        ]
+      ],
+      "center": [
+        -0.1623850017786026,
+        -0.06691474840044975,
+        0.17513399571180344
+      ],
+      "sha256": "4b19c378d2089a095f58405edd14e3e9b813aa1ff276dce3fbb784d9ae353bfb",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3305",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 85,
+        "nodeName": "ankle-foot:middle-phalanx-of-little-toe:isa:FJ3305",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "key": "toe5_distal",
+      "label": "小趾远节趾骨",
+      "id": "FJ3195",
+      "positions": 3096624,
+      "normals": 3098760,
+      "indices": 3100896,
+      "vertexCount": 178,
+      "indexCount": 630,
+      "bounds": [
+        [
+          -0.1693269908428192,
+          -0.07035379856824875,
+          0.1762000024318695
+        ],
+        [
+          -0.16116900742053986,
+          -0.06514190137386322,
+          0.18657898902893066
+        ]
+      ],
+      "center": [
+        -0.16524799913167953,
+        -0.06774784997105598,
+        0.18138949573040009
+      ],
+      "sha256": "2d8d8d23cf72833eff9ac0b6a27c92c7fa9c2f74c8826697935bb851430b3a18",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ3195",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 40,
+        "nodeName": "ankle-foot:distal-phalanx-of-little-toe:isa:FJ3195",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "kind": "bone"
+    },
+    {
+      "id": "FJ1439",
+      "english": "Right tibialis anterior",
+      "positions": 52353168,
+      "normals": 52379616,
+      "indices": 52406064,
+      "vertexCount": 2204,
+      "indexCount": 7530,
+      "bounds": [
+        [
+          -0.11677899956703186,
+          -0.03880640119314194,
+          0.07282459735870361
+        ],
+        [
+          -0.06696700304746628,
+          0.35526901483535767,
+          0.14959999918937683
+        ]
+      ],
+      "center": [
+        -0.09187300130724907,
+        0.15823130682110786,
+        0.11121229827404022
+      ],
+      "samples": [
+        [
+          -0.071293406188488,
+          -0.03880640119314194,
+          0.1343500018119812
+        ],
+        [
+          -0.1061210036277771,
+          0.35526901483535767,
+          0.0921550989151001
+        ],
+        [
+          -0.09267310053110123,
+          0.16049699485301971,
+          0.10068800300359726
+        ]
+      ],
+      "source": "Somakine official pinned GLB",
+      "sourceIndex": 22,
+      "sourceMirrored": false,
+      "sha256": "8f6728e7532b25d3ba5560923e3527132a15a61eee8de2854d1fa31eed2a6497",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ1439",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-ankle-foot-muscle.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "supplement-ankle-foot-muscle.glb",
+        "sourceFileBytes": 1589824,
+        "sourceFileSha256": "9285cd6d00193465a03aa4ce76ae8f245ffbbf1ad1fa3e772d780610d0bc9917",
+        "nodeIndex": 22,
+        "nodeName": "ankle-foot:tibialis-anterior:isa:FJ1439",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "key": "tibialisAnterior",
+      "label": "胫骨前肌",
+      "kind": "muscle",
+      "function": "参与踝关节背屈与足内翻。"
+    },
+    {
+      "id": "FJ1394",
+      "english": "Lateral head of right gastrocnemius",
+      "positions": 52519248,
+      "normals": 52540224,
+      "indices": 52561200,
+      "vertexCount": 1748,
+      "indexCount": 9156,
+      "bounds": [
+        [
+          -0.11699199676513672,
+          0.13280099630355835,
+          0.005809110123664141
+        ],
+        [
+          -0.061166997998952866,
+          0.42326098680496216,
+          0.08065059781074524
+        ]
+      ],
+      "center": [
+        -0.08907949738204479,
+        0.27803099155426025,
+        0.04322985396720469
+      ],
+      "samples": [
+        [
+          -0.08450569957494736,
+          0.13280099630355835,
+          0.033880699425935745
+        ],
+        [
+          -0.10123799741268158,
+          0.42326098680496216,
+          0.07845360040664673
+        ],
+        [
+          -0.08542539924383163,
+          0.27521300315856934,
+          0.03650880232453346
+        ]
+      ],
+      "source": "Somakine official pinned GLB",
+      "sourceIndex": 3,
+      "sourceMirrored": false,
+      "sha256": "54a1d91258f9f10c94880861431fbe50dc8877b1966a6f1b9c63e02b4a5f3471",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ1394",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-ankle-foot-muscle.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "supplement-ankle-foot-muscle.glb",
+        "sourceFileBytes": 1589824,
+        "sourceFileSha256": "9285cd6d00193465a03aa4ce76ae8f245ffbbf1ad1fa3e772d780610d0bc9917",
+        "nodeIndex": 3,
+        "nodeName": "ankle-foot:gastrocnemius:isa:FJ1394",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "key": "gastrocnemiusL",
+      "label": "腓肠肌外侧头",
+      "kind": "muscle",
+      "function": "参与踝关节跖屈；与内侧头、比目鱼肌共同构成小腿三头肌。"
+    },
+    {
+      "id": "FJ1397",
+      "english": "Medial head of right gastrocnemius",
+      "positions": 52597824,
+      "normals": 52624980,
+      "indices": 52652136,
+      "vertexCount": 2263,
+      "indexCount": 11526,
+      "bounds": [
+        [
+          -0.074235700070858,
+          0.1228329986333847,
+          0.013661399483680725
+        ],
+        [
+          -0.021759700030088425,
+          0.4321019947528839,
+          0.09269339591264725
+        ]
+      ],
+      "center": [
+        -0.04799770005047321,
+        0.2774674966931343,
+        0.053177397698163986
+      ],
+      "samples": [
+        [
+          -0.058651402592659,
+          0.1228329986333847,
+          0.04035240039229393
+        ],
+        [
+          -0.057455699890851974,
+          0.4321019947528839,
+          0.08302200585603714
+        ],
+        [
+          -0.0590319000184536,
+          0.2774979770183563,
+          0.060754600912332535
+        ]
+      ],
+      "source": "Somakine official pinned GLB",
+      "sourceIndex": 7,
+      "sourceMirrored": false,
+      "sha256": "211ee6fb75f372d1c680e951d0fc54d44acf58c7c2b57e2e9463098eee2a1d1e",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ1397",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-ankle-foot-muscle.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "supplement-ankle-foot-muscle.glb",
+        "sourceFileBytes": 1589824,
+        "sourceFileSha256": "9285cd6d00193465a03aa4ce76ae8f245ffbbf1ad1fa3e772d780610d0bc9917",
+        "nodeIndex": 7,
+        "nodeName": "ankle-foot:gastrocnemius:isa:FJ1397",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "key": "gastrocnemiusM",
+      "label": "腓肠肌内侧头",
+      "kind": "muscle",
+      "function": "参与踝关节跖屈；腓肠肌同时跨过膝关节。"
+    },
+    {
+      "id": "FJ1437",
+      "english": "Right soleus",
+      "positions": 52877208,
+      "normals": 52909296,
+      "indices": 52941384,
+      "vertexCount": 2674,
+      "indexCount": 13254,
+      "bounds": [
+        [
+          -0.11578500270843506,
+          0.03246400132775307,
+          0.032198600471019745
+        ],
+        [
+          -0.035600099712610245,
+          0.35861700773239136,
+          0.09111889451742172
+        ]
+      ],
+      "center": [
+        -0.07569255121052265,
+        0.1955405045300722,
+        0.061658747494220734
+      ],
+      "samples": [
+        [
+          -0.0566290020942688,
+          0.03246400132775307,
+          0.043233100324869156
+        ],
+        [
+          -0.10586900264024734,
+          0.35861700773239136,
+          0.05857529863715172
+        ],
+        [
+          -0.0762794017791748,
+          0.19567999243736267,
+          0.058173999190330505
+        ]
+      ],
+      "source": "Somakine official pinned GLB",
+      "sourceIndex": 12,
+      "sourceMirrored": false,
+      "sha256": "5e18ac99e05ee5c315275a74ec6dc1a8337eb834c001570e7a99b9ca60485b20",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ1437",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-ankle-foot-muscle.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "supplement-ankle-foot-muscle.glb",
+        "sourceFileBytes": 1589824,
+        "sourceFileSha256": "9285cd6d00193465a03aa4ce76ae8f245ffbbf1ad1fa3e772d780610d0bc9917",
+        "nodeIndex": 12,
+        "nodeName": "ankle-foot:soleus:isa:FJ1437",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "key": "soleus",
+      "label": "比目鱼肌",
+      "kind": "muscle",
+      "function": "参与踝关节跖屈，不跨过膝关节。"
+    },
+    {
+      "id": "FJ1440",
+      "english": "Right tibialis posterior",
+      "positions": 53242248,
+      "normals": 53302716,
+      "indices": 53363184,
+      "vertexCount": 5039,
+      "indexCount": 15408,
+      "bounds": [
+        [
+          -0.10492600500583649,
+          -0.042579103261232376,
+          0.059418898075819016
+        ],
+        [
+          -0.04268379881978035,
+          0.3357450067996979,
+          0.1328670084476471
+        ]
+      ],
+      "center": [
+        -0.07380490191280842,
+        0.14658295176923275,
+        0.09614295326173306
+      ],
+      "samples": [
+        [
+          -0.09212379902601242,
+          -0.042579103261232376,
+          0.11701600253582001
+        ],
+        [
+          -0.09183759987354279,
+          0.3357450067996979,
+          0.08025039732456207
+        ],
+        [
+          -0.08279000222682953,
+          0.14740800857543945,
+          0.07730380445718765
+        ]
+      ],
+      "source": "Somakine official pinned GLB",
+      "sourceIndex": 13,
+      "sourceMirrored": false,
+      "sha256": "0ac293bbb0a532e516579763f532495104b8919460deb1be34511e7ea70de59c",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ1440",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "ankle-foot.glb",
+        "sourceFileBytes": 1003952,
+        "sourceFileSha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+        "nodeIndex": 13,
+        "nodeName": "ankle-foot:tibialis-posterior:isa:FJ1440",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "key": "tibialisPosterior",
+      "label": "胫骨后肌",
+      "kind": "muscle",
+      "function": "参与足内翻与踝关节跖屈，也参与足弓的动态支持。"
+    },
+    {
+      "id": "FJ1410",
+      "english": "Right fibularis longus",
+      "positions": 53607336,
+      "normals": 53642688,
+      "indices": 53678040,
+      "vertexCount": 2946,
+      "indexCount": 11580,
+      "bounds": [
+        [
+          -0.1264280080795288,
+          -0.05280490219593048,
+          0.040800098329782486
+        ],
+        [
+          -0.08240419626235962,
+          0.35176998376846313,
+          0.13652901351451874
+        ]
+      ],
+      "center": [
+        -0.10441610217094421,
+        0.14948254078626633,
+        0.08866455592215061
+      ],
+      "samples": [
+        [
+          -0.1010889932513237,
+          -0.05280490219593048,
+          0.09094170480966568
+        ],
+        [
+          -0.11120700091123581,
+          0.35176998376846313,
+          0.05438610166311264
+        ],
+        [
+          -0.11109700053930283,
+          0.15243899822235107,
+          0.05927100032567978
+        ]
+      ],
+      "source": "Somakine official pinned GLB",
+      "sourceIndex": 27,
+      "sourceMirrored": false,
+      "sha256": "a289974b56870172f5f1cb701bdc6db8f1ce467e6b61bd0491dc7d54038f8990",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ1410",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-ankle-foot-muscle.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "supplement-ankle-foot-muscle.glb",
+        "sourceFileBytes": 1589824,
+        "sourceFileSha256": "9285cd6d00193465a03aa4ce76ae8f245ffbbf1ad1fa3e772d780610d0bc9917",
+        "nodeIndex": 27,
+        "nodeName": "ankle-foot:fibularis-longus:isa:FJ1410",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "key": "fibularisLongus",
+      "label": "腓骨长肌",
+      "kind": "muscle",
+      "function": "参与足外翻与踝关节跖屈。"
+    },
+    {
+      "id": "FJ1409",
+      "english": "Right fibularis brevis",
+      "positions": 53841408,
+      "normals": 53860668,
+      "indices": 53879928,
+      "vertexCount": 1605,
+      "indexCount": 5298,
+      "bounds": [
+        [
+          -0.11774500459432602,
+          -0.05590039864182472,
+          0.04271760210394859
+        ],
+        [
+          -0.08214309811592102,
+          0.1887959986925125,
+          0.0952255055308342
+        ]
+      ],
+      "center": [
+        -0.09994405135512352,
+        0.0664478000253439,
+        0.0689715538173914
+      ],
+      "samples": [
+        [
+          -0.11171099543571472,
+          -0.05590039864182472,
+          0.09223710000514984
+        ],
+        [
+          -0.10312100499868393,
+          0.1887959986925125,
+          0.05498899891972542
+        ],
+        [
+          -0.10211200267076492,
+          0.06874449551105499,
+          0.05791709944605827
+        ]
+      ],
+      "source": "Somakine official pinned GLB",
+      "sourceIndex": 32,
+      "sourceMirrored": false,
+      "sha256": "8631716fd102a4f4c93c25613c7c142fa01bc23e155f0424bdd19ea97a8c6d09",
+      "license": "CC-BY-4.0",
+      "provenance": {
+        "kind": "Somakine official pinned GLB",
+        "elementId": "FJ1409",
+        "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-ankle-foot-muscle.glb",
+        "repository": "https://github.com/ivershuo/somakine",
+        "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+        "sourceFile": "supplement-ankle-foot-muscle.glb",
+        "sourceFileBytes": 1589824,
+        "sourceFileSha256": "9285cd6d00193465a03aa4ce76ae8f245ffbbf1ad1fa3e772d780610d0bc9917",
+        "nodeIndex": 32,
+        "nodeName": "ankle-foot:fibularis-brevis:isa:FJ1409",
+        "worldMatrix": [
+          0.001,
+          0,
+          0,
+          0,
+          0,
+          2.220446049250313e-19,
+          -0.001,
+          0,
+          0,
+          0.001,
+          2.220446049250313e-19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "negativeDeterminantWindingReversed": false,
+        "modifications": [
+          "Extracted the named FJ mesh; baked the complete official GLB node hierarchy into Y-up metre coordinates.",
+          "Converted position/normal arrays to Float32 and triangle indices to Uint32; no extra decimation, no inferred mirror, no joint registration."
+        ]
+      },
+      "key": "fibularisBrevis",
+      "label": "腓骨短肌",
+      "kind": "muscle",
+      "function": "参与足外翻与踝关节跖屈。"
+    }
+  ],
+  "optionalMuscleChunkIndices": [
+    12
+  ],
+  "teachingDriver": {
+    "coordinateConvention": "Y up metres; anterior +Z; right foot medial +X",
+    "dorsiflexion": {
+      "pivot": [
+        -0.075,
+        -0.014,
+        0.077
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "positiveRotationSign": -1,
+      "demoSliderDegrees": [
+        -25,
+        20
+      ],
+      "plane": "sagittal projection",
+      "fixed": [
+        "tibia",
+        "fibula"
+      ],
+      "moving": "talus and all distal foot bones"
+    },
+    "inversion": {
+      "pivot": [
+        -0.075,
+        -0.035,
+        0.075
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "positiveRotationSign": 1,
+      "demoSliderDegrees": [
+        -12,
+        12
+      ],
+      "plane": "frontal projection",
+      "fixed": [
+        "tibia",
+        "fibula",
+        "talus"
+      ],
+      "moving": "all distal foot bones except talus"
+    },
+    "rangeMeaning": "Author-selected bounded demonstration controls, not normative clinical range or patient measurements.",
+    "limitation": "Pivots and orthogonal axes are teaching approximations, not anatomically registered joint axes. The ankle complex has oblique, coupled multi-joint motions. No contact solver or clinical arthrokinematics is implemented."
+  },
+  "boneCount": 28,
+  "muscleCount": 7,
+  "contentReferences": [
+    {
+      "title": "OpenStax Anatomy and Physiology 2e §9.5 Types of Body Movements",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements",
+      "scope": "Movement definitions paraphrased; no illustrations reused."
+    },
+    {
+      "title": "OpenStax Anatomy and Physiology 2e §11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs",
+      "scope": "Broad lower-leg muscle actions paraphrased, not muscle force data."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "openFront": true,
+  "waistHalfWidthM": 0.18009184300899506,
+  "shirtHemY": 0.8550000190734863,
+  "cuffBeforeWristM": 0.03199978679193727,
+  "poses": [
+    "standing",
+    "seated",
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "visualCheck": "standing, seated and walking side view checked in browser; not a cloth physics simulation"
+}

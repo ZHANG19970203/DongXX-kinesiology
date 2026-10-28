@@ -1,0 +1,255 @@
+{
+  "format": "dxx-v14-eight-act-clinical-review-sources",
+  "verifiedAt": "2026-10-18",
+  "ownership": "Clinical script review, principally acts4–8. Examination methods for acts2–3 remain in the separately owned ROM/MMT record.",
+  "sources": [
+    {
+      "id": "apta_cai_2021",
+      "type": "clinical_association_guideline",
+      "title": "Ankle Stability and Movement Coordination Impairments: Lateral Ankle Ligament Sprains Revision2021",
+      "publisher": "Academy of Orthopaedic Physical Therapy, American Physical Therapy Association; JOSPT",
+      "year": 2021,
+      "doi": "10.2519/jospt.2021.0302",
+      "url": "https://www.jospt.org/doi/10.2519/jospt.2021.0302",
+      "officialPdf": "https://www.orthopt.org/uploads/content_files/files/jospt.2021.0302.pdf",
+      "access": "官方期刊及协会PDF搜索索引可读摘要、Clinical Course–CAI、Examination与诊断分类建议；本轮直接打开期刊/PDF返回错误，未声称直接取得全文。",
+      "supports": [
+        "CAI需结合既往处理、扭伤次数、疼痛、患者报告功能及动态感觉运动表现综合评估。",
+        "活动度、肌力、足形、姿势控制和功能任务不能用一个足印替代。",
+        "检查需要有可靠方法，并在过程中复评。"
+      ],
+      "doesNotSupport": [
+        "低足弓是本病例唯一病因",
+        "当前通用动画已验证临床检查",
+        "完成固定训练必能彻底治愈"
+      ]
+    },
+    {
+      "id": "nhs_flatfeet",
+      "type": "official_clinical_institution",
+      "title": "Flat feet",
+      "publisher": "NHS",
+      "url": "https://www.nhs.uk/conditions/flat-feet/",
+      "access": "官网正文成功打开；页面标注2025-06-24复核。",
+      "supports": [
+        "低足弓常可无症状，并非看到低足弓就需要矫正。",
+        "疼痛、反复损伤、行走/平衡问题、新出现或单侧变化需进一步判断。"
+      ],
+      "doesNotSupport": [
+        "本例足形一定为先天",
+        "低足弓必然解释反复扭伤",
+        "支持物会统一改变所有人的足形"
+      ]
+    },
+    {
+      "id": "ouhsc_loading",
+      "type": "official_clinical_education",
+      "title": "Loading Response / Prosthetic Biomechanics",
+      "publisher": "University of Oklahoma Health Sciences Center; Dave Thompson PT gait course",
+      "url": "https://www.ouhsc.edu/bserdac/dthompso/web/gait/kinetics/loadgrf.htm",
+      "relatedUrls": [
+        "https://ouhsc.edu/bserdac/dthompso/web/gait/pobmk/base.htm",
+        "https://www.ouhsc.edu/bserdac/dthompso/web/gait/terms.htm"
+      ],
+      "access": "加载反应官网正文成功打开；同校课程搜索索引补充正常步态跖屈→背屈→跖屈与分期定义。",
+      "supports": [
+        "常见平地步行加载反应的外部跖屈力矩由背屈肌控制，不能写成全程主动背屈。",
+        "随小腿前移踝背屈，之后转向跖屈推进；步态阶段按事件界定。"
+      ],
+      "doesNotSupport": [
+        "所有人必须足跟先触地",
+        "把一般参考肌肉功能当本病例肌电时序",
+        "将课件近似时标变成所有人的正常阈值"
+      ]
+    },
+    {
+      "id": "gottschall_com_2006",
+      "type": "primary_research",
+      "title": "Mechanical energy fluctuations during hill walking: the effects of slope on inverted pendulum exchange",
+      "authors": [
+        "Jinger S. Gottschall",
+        "Rodger Kram"
+      ],
+      "year": 2006,
+      "doi": "10.1242/jeb.02584",
+      "url": "https://journals.biologists.com/jeb/article/209/24/4895/16401/Mechanical-energy-fluctuations-during-hill-walking",
+      "access": "出版方研究正文成功打开；核对方法、Results与Discussion。",
+      "supports": [
+        "平地单支撑阶段的质心升降与倒摆能量交换相关，中支撑附近达到较高位置。",
+        "坡度可改变峰谷的出现时序，倒摆不能完整替代实际步行动力学。"
+      ],
+      "doesNotSupport": [
+        "支撑中期质心最低",
+        "软件骨盆点就是全身COM",
+        "倒摆意味着步行肌肉不做功"
+      ]
+    },
+    {
+      "id": "neptune_propulsion_2001",
+      "type": "primary_research",
+      "title": "Contributions of the individual ankle plantar flexors to support, forward progression and swing initiation during walking",
+      "authors": [
+        "R.R. Neptune",
+        "S.A. Kautz",
+        "F.E. Zajac"
+      ],
+      "year": 2001,
+      "doi": "10.1016/S0021-9290(01)00105-1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11672713/",
+      "access": "PubMed官方索引完整摘要可读。",
+      "supports": [
+        "模型研究区分腓肠肌与比目鱼肌对支撑、前进及摆动起始的不同贡献。",
+        "理解肌肉功能需要动力学/能量等信息，不只看某处足压颜色。"
+      ],
+      "doesNotSupport": [
+        "本程序已计算个体肌肉力",
+        "所有跖屈肌在各阶段功能完全相同",
+        "单个动作完全隔离一块肌肉"
+      ]
+    },
+    {
+      "id": "phan_midtarsal_2019",
+      "type": "primary_research",
+      "title": "Skeletal kinematics of the midtarsal joint during walking: Midtarsal joint locking revisited",
+      "authors": [
+        "Cong-Bo Phan",
+        "Geonhui Shin",
+        "Kyoung Min Lee",
+        "Seungbum Koo"
+      ],
+      "year": 2019,
+      "doi": "10.1016/j.jbiomech.2019.07.031",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31431345/",
+      "access": "PubMed搜索索引完整摘要可读；本轮直接页请求只返回HHS页脚，不声称取得期刊全文。",
+      "supports": [
+        "健康受试者双平面透视研究显示末支撑中跗关节仍有三维运动。",
+        "可以讨论动态力传递，但不宜把“锁定”教成完全不动。"
+      ],
+      "doesNotSupport": [
+        "末期足部成为绝对刚体",
+        "当前静态网格教具已有活体级骨运动配准"
+      ]
+    },
+    {
+      "id": "kelly_arch_2015",
+      "type": "primary_research",
+      "title": "Active regulation of longitudinal arch compression and recoil during walking and running",
+      "authors": [
+        "Luke A. Kelly",
+        "Glen Lichtwark",
+        "Andrew G. Cresswell"
+      ],
+      "year": 2015,
+      "doi": "10.1098/rsif.2014.1076",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25551151/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4277100/",
+      "access": "PubMed正文/摘要及图注成功打开；研究使用多段运动学和肌内肌电。",
+      "supports": [
+        "足弓压缩回弹与足内在肌参与相关，足刚度具有主动与被动成分。",
+        "肌肉激活是研究中另行测量的信息，不从本项目足压图自动产生。"
+      ],
+      "doesNotSupport": [
+        "每个低足弓患者均有相同肌肉延迟",
+        "本模块图谱肌肉会输出真实激活或肌力"
+      ]
+    },
+    {
+      "id": "cavanagh_standing_1987",
+      "type": "primary_research",
+      "title": "Pressure distribution under symptom-free feet during barefoot standing",
+      "authors": [
+        "P.R. Cavanagh",
+        "M.M. Rodgers",
+        "A. Iiboshi"
+      ],
+      "year": 1987,
+      "doi": "10.1177/107110078700700502",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3583160/",
+      "publisherUrl": "https://journals.sagepub.com/doi/pdf/10.1177/107110078700700502",
+      "access": "PubMed及出版方官方搜索索引摘要可读。",
+      "supports": [
+        "无症状站立足的区域压力并非均匀。",
+        "该样本不支持把真实载荷分布描述成三个孤立支点。"
+      ],
+      "doesNotSupport": [
+        "固定区域百分比是所有人正常标准",
+        "中足只要接触就是异常",
+        "三点支撑图等同完整真实压力测量"
+      ]
+    },
+    {
+      "id": "peterka_balance_2002",
+      "type": "primary_research",
+      "title": "Sensorimotor integration in human postural control",
+      "author": "R.J. Peterka",
+      "year": 2002,
+      "doi": "10.1152/jn.2002.88.3.1097",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12205132/",
+      "access": "PubMed官方搜索索引完整摘要可读；直接页请求只返回HHS页脚。",
+      "supports": [
+        "姿势控制整合视觉、前庭和本体/体感信息，并随条件重新加权。",
+        "闭眼减少视觉信息，不等于特异测出某一感受器损伤。"
+      ],
+      "doesNotSupport": [
+        "一次站立时长即可定位本体感受器受损",
+        "所有人都应在闭眼软垫条件起测",
+        "20秒或8秒是本程序测量或普适诊断阈值"
+      ]
+    },
+    {
+      "id": "ankle_cop_2021",
+      "type": "primary_research",
+      "title": "Ankle muscles drive mediolateral center of pressure control to ensure stable steady state gait",
+      "year": 2021,
+      "doi": "10.1038/s41598-021-00463-8",
+      "url": "https://www.nature.com/articles/s41598-021-00463-8",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8563802/",
+      "access": "PMC及出版方PDF官方索引方法全文可读；本轮Nature直接正文遭重定向访问限制。",
+      "supports": [
+        "研究分别采集力台、运动学与肌电，COM由分段质量加权，COP来自接触力/力矩。",
+        "足落点、速度和踝策略共同影响COP，不从一条足压轨迹唯一确定某肌激活。"
+      ],
+      "doesNotSupport": [
+        "COP是全身COM",
+        "本教学颜色或轨迹提供肌电和韧带张力",
+        "人人必须具有同一S形线"
+      ]
+    },
+    {
+      "id": "nice_shared_decision",
+      "type": "official_clinical_guideline",
+      "title": "NICE NG197 Shared decision making — recommendations",
+      "publisher": "NICE",
+      "year": 2021,
+      "url": "https://www.nice.org.uk/guidance/ng197/chapter/recommendations",
+      "access": "官方搜索索引建议1.2.5—1.2.11可读；本轮直接打开返回403。",
+      "supports": [
+        "围绕患者在意的目标讨论选择，包括不做或稍后再做。",
+        "信息分块、核对理解、邀请复述和表达偏好。"
+      ],
+      "doesNotSupport": [
+        "固定脚本替代真实共同决策",
+        "患者必须忍痛完成所有检查"
+      ]
+    }
+  ],
+  "relatedSourceRecords": [
+    "docs/v14-rom-mmt-sources.json"
+  ],
+  "sourcePolicy": "Only primary research, clinical association guidelines and official clinical/academic institutions are used. Directly opened pages and search-indexed abstracts are distinguished. No secondary wiki, commercial blog, or manufacturer sales claim is used as clinical proof.",
+  "scriptPolicy": {
+    "caseIdentity": "Male 林治疗师, female 陈女士; 14-month right-ankle sprain history, subsequent2 sprains retained.",
+    "sequence": "History/safety first; six checks produce separate information; synthesis does not invent a sole causal chain.",
+    "display": "One short utterance at a time; optional collapsed teacher narration, not simultaneous full-screen exposition.",
+    "numbers": "Pasted11°/15°/20s/8s are not program measurements or universal reference standards. Any retained figure must be explicitly authored case data with a stated method.",
+    "inferences": "Pressure cannot independently establish muscle activation sequence, muscle force, ligament strain, or a unique cause of CAI. Eye-closed balance is not a specific proprioceptor lesion test."
+  },
+  "newExternalModels": [],
+  "copiedFigures": [],
+  "importedPatientData": [],
+  "longVerbatimPassages": false,
+  "paidMediaJobs": 0,
+  "assetLicenseBoundary": "Existing BodyParts3D/Somakine static anatomy data remain CC BY4.0 with retained attribution. Bibliographic links do not grant figure reuse; no source imagery or patient recordings were copied.",
+  "clinicalValidation": false,
+  "teacherSignoff": "pending"
+}

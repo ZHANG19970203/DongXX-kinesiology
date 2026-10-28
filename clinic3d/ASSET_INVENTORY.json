@@ -1,0 +1,1118 @@
+{
+  "schema": "dxx-clinic3d-asset-inventory-v23",
+  "reviewedOn": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "scope": "v19 preserved; SOAP-focused 3D route, original introduction restored, local male/female dialogue and original visual refinements.",
+  "releaseBoundary": "Teaching prototype; no clinical kinematics validation or national application certification.",
+  "filesAreRelativeTo": "clinic3d/",
+  "selfExcluded": "ASSET_INVENTORY.json",
+  "entries": [
+    {
+      "id": "fictional-rigged-character",
+      "path": "assets/patient-motion.glb",
+      "bytes": 1557900,
+      "sha256": "76bf711327b68b1a803fd46de493b1e34933f0f591fa27b5b75f2361918ed4d2",
+      "source": {
+        "repository": "https://github.com/makehumancommunity/mpfb2",
+        "commit": "3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf",
+        "baseBodyRigAndWeights": "Bundled MPFB core base mesh, adult macro targets, default rig and official skin weights",
+        "buildTool": "Blender 4.5.14 and MPFB at build time only"
+      },
+      "license": {
+        "upstream": "CC0-1.0",
+        "upstreamLicenseURL": "https://github.com/makehumancommunity/mpfb2/blob/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/LICENSE.ASSETS.md",
+        "upstreamLicenseSetupURL": "https://github.com/makehumancommunity/mpfb2/blob/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/LICENSE.md",
+        "retainedTexts": [
+          "assets/MPFB_ASSETS_CC0.txt",
+          "assets/MPFB_LICENSE_SETUP.txt"
+        ],
+        "scope": "CC0 applies to the upstream core assets. Original project clothing, hair, eye details and visual keyframes are recorded as project contributions; this inventory does not silently relicense all teaching visual content as MIT."
+      },
+      "changes": [
+        "Normalized character height to 1.75 metres",
+        "Original grey shirt, dark shorts, hair and eye detail geometry",
+        "Original heel_raise, idle and talk visual keyframes",
+        "The browser loads the same asset independently for patient and therapist; therapist adds original procedural trouser shell, spectacles and material changes",
+        "v11 original runtime male/female surface, hair and eye refinements are separate in appearance.js. The frozen source GLB and bones are unchanged; original source male macro is explicitly disclosed."
+      ],
+      "binaryChecks": {
+        "magic": "glTF",
+        "version": 2,
+        "headerLengthMatches": true,
+        "meshes": 10,
+        "skins": 1,
+        "joints": [
+          163
+        ],
+        "animations": [
+          "heel_raise",
+          "idle",
+          "talk"
+        ],
+        "externalBufferURIs": [],
+        "externalImageURIs": [],
+        "matchesRetainedProvenanceMotionHash": true
+      },
+      "limits": [
+        "Fictional general adult body, not a real person digital twin or pathology-specific mesh",
+        "No registered clinical joint axes, patient ROM, ligament mechanics, muscle forces or real gait dataset",
+        "Jaw cycling is a speaking gesture draft; no phoneme timing or lip synchronization",
+        "Visual transfers and walks require skin/contact/collision review and professional teacher review",
+        "No pressure or clinical result is calculated from the avatar"
+      ]
+    },
+    {
+      "id": "three-runtime",
+      "name": "Three.js",
+      "version": "0.180.0",
+      "license": "MIT",
+      "upstreamURL": "https://github.com/mrdoob/three.js/tree/r180",
+      "packageURL": "https://registry.npmjs.org/three/-/three-0.180.0.tgz",
+      "packageArchiveSha256": "ad66d724565ee29a2467277fa84daa5ed0211d6b8d446e9ef29f6bae0cd14144",
+      "retainedLicense": "vendor/three/LICENSE",
+      "files": [
+        {
+          "path": "vendor/three/build/three.module.js",
+          "bytes": 603113,
+          "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+          "upstreamRecordedSha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+          "upstreamHashMatches": true
+        },
+        {
+          "path": "vendor/three/build/three.core.js",
+          "bytes": 1403455,
+          "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+          "upstreamRecordedSha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+          "upstreamHashMatches": true
+        },
+        {
+          "path": "vendor/three/examples/jsm/loaders/GLTFLoader.js",
+          "bytes": 114739,
+          "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a",
+          "upstreamRecordedSha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a",
+          "upstreamHashMatches": true
+        },
+        {
+          "path": "vendor/three/examples/jsm/controls/OrbitControls.js",
+          "bytes": 38703,
+          "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c",
+          "upstreamRecordedSha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c",
+          "upstreamHashMatches": true
+        },
+        {
+          "path": "vendor/three/examples/jsm/utils/BufferGeometryUtils.js",
+          "bytes": 35539,
+          "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+          "upstreamRecordedSha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+          "upstreamHashMatches": true
+        },
+        {
+          "path": "vendor/three/LICENSE",
+          "bytes": 1081,
+          "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+          "upstreamRecordedSha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+          "upstreamHashMatches": true
+        }
+      ],
+      "modifications": "Locally vendored trimmed dependency set; retained files match the existing pinned upstream package hashes.",
+      "limits": [
+        "Local hash equality verifies the retained package files, not WebGL availability or rendering performance on every device"
+      ]
+    },
+    {
+      "id": "original-room",
+      "path": "scene-room.js",
+      "bytes": 31375,
+      "sha256": "79840ce6b15567f2f2a406acf4a43d6dd3412eb954403ebcbb66d660fc10a895",
+      "source": "Project original room/rig procedures; includes portable clinical notes and pen. No separate stationery tray; existing medical trolley only holds clinical tools.",
+      "license": "Room/application code follows the complete-site MIT scope; anatomical poster data derivatives retain CC BY 4.0 with attribution, modification notes and source IDs in docs/v12-anatomy-posters.json.",
+      "includes": [
+        "Original27m² clinic layout, therapist-facing monitor and instruments",
+        "Original 2 kettlebells, 2 hex dumbbells, spiked massage ball, smooth fascia ball, 3 flat resistance loops and folded band tail",
+        "Foot props retained upper shelf; original equipment-view camera",
+        "Five contiguous floor-level .80 m × .55 m teaching pressure plates with replaceable horizontal surface textures",
+        "Three mesh-based anatomy posters: skeleton/joint landmarks, anterior/posterior muscles, right lower-leg and ankle anatomy",
+        "v13 portable documentation: desk when unused or hands needed, wrist-bone carry for observation; finite unvalidated grip/write cue",
+        "v13 portable documentation: desk when unused or hands needed, wrist-bone carry for observation; finite unvalidated grip/write cue",
+        "v13 portable documentation: desk when unused or hands needed, wrist-bone carry for observation; finite unvalidated grip/write cue"
+      ],
+      "limits": [
+        "Room props are not a hospital construction or infection-control certification",
+        "Pressure instrument appearance does not establish a real sensor technology, calibration or sampling specification",
+        "Selected support/standing positions are scene design references, not patient-specific test distances",
+        "Support rail hand contact and seated/transferring skin clearance require actual scene review",
+        "Shelf foot silhouettes remain simplified props. Wall posters are static atlas renders, not patient-specific anatomy, registered joints or diagnostic evidence."
+      ]
+    },
+    {
+      "id": "original-actor-procedures",
+      "path": "actors.js",
+      "bytes": 34199,
+      "sha256": "a1d74e55bf942497809f5feae6f2ad77c2d76e20b3061d36bf29eda88e2331ed",
+      "source": "Project original room/rig procedures; includes portable clinical notes and pen. No separate stationery tray; existing medical trolley only holds clinical tools.",
+      "license": "Original application code follows licenses/ORIGINAL_CODE_LICENSE.txt MIT scope; the source core mesh and skin weights remain attributed to MPFB CC0.",
+      "includes": [
+        "Original deep navy therapist top and trousers, unbranded bone-attached shoes for both roles",
+        "Stage footwear visibility, relaxed hands, shared asymmetric authored gait sampler; no paid generation",
+        "Separate male therapist and female patient display roles with original CC0-derived surface refinements; default shoes and stage barefoot states preserved",
+        "Original finite 17.6 second seated left-then-right shoe/sock removal; barefoot state after completion",
+        "Sock surfaces reuse CC0-derived foot/ankle triangles and weights; no external shoe or sock asset",
+        "v13 portable documentation: desk when unused or hands needed, wrist-bone carry for observation; finite unvalidated grip/write cue",
+        "v13 portable documentation: desk when unused or hands needed, wrist-bone carry for observation; finite unvalidated grip/write cue",
+        "v13 portable documentation: desk when unused or hands needed, wrist-bone carry for observation; finite unvalidated grip/write cue"
+      ],
+      "limits": [
+        "Visual teaching transitions do not certify natural gait, clinical positioning, clinical examination accuracy or speech synchronization",
+        "Independent skeletons do not imply independently validated patient and therapist motion",
+        "No fabric simulation, true fingertip grasp, sock-cuff rollover or collision/contact validation; visual and professional review pending."
+      ]
+    },
+    {
+      "id": "teaching-pressure-illustration",
+      "source": "Original synthetic sole grids and non-negative current load, COP, MPP; includes controlled typical/low/high arch conditions with shared timing, area and colour scale. No patient measurements or clinical normal thresholds.",
+      "license": "Original application code follows licenses/ORIGINAL_CODE_LICENSE.txt MIT scope; fictional case prose and teaching visuals are project content under the complete-site scope.",
+      "dataStatus": "Original synthetic relative-load teaching data; no patient, sensor, device-calibrated pressure, or sampled full-body COM. Separate retained public research samples are explicitly independent.",
+      "measuredUnits": false,
+      "limits": [
+        "No clinical kPa, N, sensor calibration or patient measurements",
+        "Current COP is weighted by current synthetic non-negative contact loads; zero load and swing yield null COP",
+        "Walking feet share one authored gait clock; standing foot anchors remain fixed",
+        "The per-cell maximum image combines peaks from different times and has no instantaneous total force or COP",
+        "COP is not full-body COM or the actor pelvis reference point",
+        "Low-arch contact illustration is not flatfoot diagnosis or evidence of a sole CAI cause",
+        "Static, dynamic and maximum modes keep fixed relative colour scale and condition labels"
+      ],
+      "path": "pressure-engine.js",
+      "bytes": 26796,
+      "sha256": "a1ef616d21eb14fcc4c385a678d9e32bcb7cfdcb818b39a843d30b22742a630e"
+    },
+    {
+      "id": "licensed-anatomy-window",
+      "path": "anatomy-viewer.js",
+      "bytes": 35118,
+      "sha256": "39303be812508e46535744e870e26d1ec92989b77194007908a49d7a182b89a7",
+      "codeLicense": "MIT under original project code scope",
+      "geometryLicense": "CC BY 4.0",
+      "assetCount": 35,
+      "provenance": "docs/anatomy-v10-provenance.json",
+      "newGeometryFiles": 0,
+      "limits": [
+        "Limited original rigid educational rotations around approximate pivots; no patient joint registration, reliable joint coupling or calibrated angle.",
+        "7 licensed muscles are static neutral anatomy only; no force, activation or deformation model."
+      ],
+      "reusedChunks": [
+        "../assembly/assets/mesh-00.bin",
+        "../assembly/assets/mesh-12.bin"
+      ]
+    },
+    {
+      "id": "original-gait-lesson",
+      "path": "gait-lesson.js",
+      "source": "Original project code, no imported motion capture or clinical data",
+      "license": "MIT under original project code scope",
+      "limits": [
+        "Authored teaching case and presentation; not clinical validation"
+      ],
+      "bytes": 8776,
+      "sha256": "78f8615fac18bf13d94e1d6b5c137cd9f49520eb949856598eff7c978e59306d"
+    },
+    {
+      "id": "original-dialogue-player",
+      "path": "dialogue-player.js",
+      "source": "Original project code, no imported motion capture or clinical data",
+      "license": "MIT under original project code scope",
+      "limits": [
+        "Authored teaching case and presentation; not clinical validation"
+      ],
+      "bytes": 3252,
+      "sha256": "aed47d605875b9b7de0b06077f75abbcd49562930d4727284346e2cfa2064f25"
+    },
+    {
+      "id": "original-learning-ui",
+      "path": "learning-ui.js",
+      "source": "Original task UI including authored seated/standing side-foot outlines; no patient mesh deformation",
+      "license": "Original code follows MIT scope in licenses/LICENSE_SCOPE.txt; teaching prose separately scoped. No external media copied.",
+      "limits": [
+        "Clinical review pending",
+        "Teaching operations are not patient measurements"
+      ],
+      "bytes": 27404,
+      "sha256": "e53818c364f8c93c9154dd4956e7233bb96276f07aaaebca0d68d696047d6193"
+    },
+    {
+      "id": "original-appearance",
+      "path": "appearance.js",
+      "source": "Original project display code; no third-party character download, media generation or real-person likeness",
+      "license": "MIT under original application code scope",
+      "limits": [
+        "Existing CC0 base topology adapted for fictional male and female display; not photorealistic or clinically calibrated."
+      ],
+      "bytes": 13100,
+      "sha256": "1da81d3bb212e4446907d5905b94ce1858b467718db4678e9511b4bd30409082"
+    },
+    {
+      "id": "original-characters",
+      "path": "characters.html",
+      "source": "Original project display code; no third-party character download, media generation or real-person likeness",
+      "license": "MIT under original application code scope",
+      "limits": [
+        "Existing CC0 base topology adapted for fictional male and female display; not photorealistic or clinically calibrated."
+      ],
+      "bytes": 5281,
+      "sha256": "9dd5551334218f71128560bfcd4e0b3ecca34cb4c06de4dbf08baf85ae817efc"
+    },
+    {
+      "id": "original-lesson-coach",
+      "path": "lesson-coach.js",
+      "bytes": 8326,
+      "sha256": "525dcae493e0eaaf9aba12e696562193f3ac60476185ba118fc186b67ffecc10",
+      "source": "Original project implementation; no external media/model or patient data",
+      "license": "MIT under original application code scope",
+      "limits": [
+        "Teaching interaction/display; no clinical validation"
+      ]
+    },
+    {
+      "id": "original-pressure-stage",
+      "path": "pressure-stage.js",
+      "bytes": 2886,
+      "sha256": "69ad2a91a2c383b7df25becfb6abdb8c3781064ed4e8d55de877d31359578e1a",
+      "source": "Original project implementation; no external media/model or patient data",
+      "license": "MIT under original application code scope",
+      "limits": [
+        "Teaching interaction/display; no clinical validation"
+      ]
+    },
+    {
+      "id": "original-concise-case-v12",
+      "path": "case-flow.js",
+      "bytes": 58939,
+      "sha256": "97b12dee987d3cc87c1edaf862e90229fe9abc4462532db2a5134ae29a14c5aa",
+      "source": "Original fictional case and teaching choices; 41 nodes shortened without replacing evidence/safety paths",
+      "license": "Application logic follows complete-site MIT scope; fictional case prose remains separate project teaching content",
+      "limits": [
+        "Fictional patient, authored gait/pressure conditions, not diagnosis or a clinically verified treatment plan"
+      ]
+    },
+    {
+      "id": "licensed-wall-skeleton-v12",
+      "path": "assets/posters/human-skeleton.png",
+      "bytes": 173498,
+      "sha256": "b4394641a0416a4ba2699e595d1dd60b105a87a0d064cdf11ab8bf5991a9739f",
+      "title": "人体骨与关节",
+      "source": "Original orthographic visualization of existing verified BodyParts3D/Somakine static atlas geometry",
+      "license": "CC BY 4.0",
+      "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+      "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "provenance": "docs/v12-anatomy-posters.json",
+      "sourceAssetCount": 201,
+      "modifications": [
+        "Orthographic rendering of unedited licensed positions and indices with original lighting, colors, layout and Chinese structure labels.",
+        "No inferred joint registration, muscle activation, patient data or movement model.",
+        "Anterior/posterior views share the original atlas anatomy. Foot poster selects the lower-leg and foot bones and seven ankle-crossing muscles; the femur/patella are omitted for composition."
+      ],
+      "limits": [
+        "Atlas display only; no patient registration, dynamics, activation or diagnostic inference",
+        "Mesh counts overlap between posters and must not be summed as unique anatomy assets"
+      ]
+    },
+    {
+      "id": "licensed-wall-muscles-v12",
+      "path": "assets/posters/human-muscles.png",
+      "bytes": 331628,
+      "sha256": "616acaaeec1bbe60b514fb1f325ba2e1c1aa5158dadf6e318845fbf5c2e209f3",
+      "title": "骨骼肌解剖",
+      "source": "Original orthographic visualization of existing verified BodyParts3D/Somakine static atlas geometry",
+      "license": "CC BY 4.0",
+      "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+      "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "provenance": "docs/v12-anatomy-posters.json",
+      "sourceAssetCount": 430,
+      "modifications": [
+        "Orthographic rendering of unedited licensed positions and indices with original lighting, colors, layout and Chinese structure labels.",
+        "No inferred joint registration, muscle activation, patient data or movement model.",
+        "Anterior/posterior views share the original atlas anatomy. Foot poster selects the lower-leg and foot bones and seven ankle-crossing muscles; the femur/patella are omitted for composition."
+      ],
+      "limits": [
+        "Atlas display only; no patient registration, dynamics, activation or diagnostic inference",
+        "Mesh counts overlap between posters and must not be summed as unique anatomy assets"
+      ]
+    },
+    {
+      "id": "licensed-wall-ankle-v12",
+      "path": "assets/posters/ankle-muscles.png",
+      "bytes": 146943,
+      "sha256": "17f6b33ba14fda586921250d08e2948dc3af8e1fd0b7857eb17204615fe31432",
+      "title": "小腿与足踝骨肌",
+      "source": "Original orthographic visualization of existing verified BodyParts3D/Somakine static atlas geometry",
+      "license": "CC BY 4.0",
+      "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+      "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "provenance": "docs/v12-anatomy-posters.json",
+      "sourceAssetCount": 36,
+      "modifications": [
+        "Orthographic rendering of unedited licensed positions and indices with original lighting, colors, layout and Chinese structure labels.",
+        "No inferred joint registration, muscle activation, patient data or movement model.",
+        "Anterior/posterior views share the original atlas anatomy. Foot poster selects the lower-leg and foot bones and seven ankle-crossing muscles; the femur/patella are omitted for composition."
+      ],
+      "limits": [
+        "Atlas display only; no patient registration, dynamics, activation or diagnostic inference",
+        "Mesh counts overlap between posters and must not be summed as unique anatomy assets"
+      ]
+    },
+    {
+      "id": "original-arch-comparison",
+      "path": "arch-comparison.js",
+      "source": "Original accessible comparison viewer, independent timeline, three profiles, concept feedback and authored symmetric gait reference",
+      "license": "Original program follows MIT code scope in licenses/LICENSE_SCOPE.txt; teaching prose remains separately scoped. No external model/image copied.",
+      "limits": [
+        "Synthetic teaching/reference conditions, not clinical normal values or diagnosis",
+        "Opening or answering extension does not grant main-case task receipts or alter the patient case"
+      ],
+      "bytes": 13623,
+      "sha256": "bfcd7570d731026b091dd4c25bfcdfecb3bee27b4bf58d80d8579077222dc744"
+    },
+    {
+      "id": "original-arch-knowledge",
+      "path": "arch-knowledge.js",
+      "source": "Original teaching text and three questions; official/primary references are cited, not copied media",
+      "license": "Original program follows MIT code scope in licenses/LICENSE_SCOPE.txt; teaching prose remains separately scoped. No external model/image copied.",
+      "limits": [
+        "Synthetic teaching/reference conditions, not clinical normal values or diagnosis",
+        "Opening or answering extension does not grant main-case task receipts or alter the patient case"
+      ],
+      "bytes": 8479,
+      "sha256": "c550fa8d7169ba4f407e937b1301fe0673a5eaf477f1f4fc6b38e75ee7ca5c8f"
+    },
+    {
+      "id": "original-eight-act-lesson",
+      "path": "case-lesson-v14.js",
+      "source": "Original eight-act teaching data; references paraphrased, not clinical measurements",
+      "license": "Original code follows MIT scope in licenses/LICENSE_SCOPE.txt; teaching prose separately scoped. No external media copied.",
+      "limits": [
+        "Clinical review pending",
+        "Teaching operations are not patient measurements"
+      ],
+      "bytes": 17065,
+      "sha256": "fd19b53e82060707715bc923ead47e417d9ef4104e5dc7a93b1a7ec143bba4b4"
+    },
+    {
+      "id": "original-muscle-method",
+      "path": "case-muscle-v14.js",
+      "source": "Original muscle/movement/method exercise; no patient grade or torque",
+      "license": "Original code follows MIT scope in licenses/LICENSE_SCOPE.txt; teaching prose separately scoped. No external media copied.",
+      "limits": [
+        "Clinical review pending",
+        "Teaching operations are not patient measurements"
+      ],
+      "bytes": 5784,
+      "sha256": "ff7e948deff425b8f1dcf853987f32480e1a4f7e6ed8077b949ca6c466f69cdc"
+    },
+    {
+      "id": "original-progress-migration",
+      "path": "progress-migration.js",
+      "source": "Non-overwriting progress copy; no unseen task receipts",
+      "license": "Original code follows MIT scope in licenses/LICENSE_SCOPE.txt; teaching prose separately scoped. No external media copied.",
+      "limits": [
+        "Clinical review pending",
+        "Teaching operations are not patient measurements"
+      ],
+      "bytes": 1094,
+      "sha256": "6f2d987e0cac85b7502f27f1040904046f71c38c2e9205460d76a19dab161b77"
+    },
+    {
+      "id": "original-learning-space-v15",
+      "path": "../learning/learning-hub.js",
+      "source": "Original learner portal: objectives, server-graded self-test, consented discussions, feedback; no AI grading",
+      "license": "Original program follows code MIT scope; course prose and item bank separately scoped. Third-party API service not licensed by this code.",
+      "limits": [
+        "Knowledge/reasoning only, not clinical skills or validated exam",
+        "Real DeepSeek connection requires user configuration; no external media copied"
+      ],
+      "bytes": 23270,
+      "sha256": "f25f4126eb2ddd4c269ad74b1c669f25e0df2599cc111afe04afb328dbdd5065"
+    },
+    {
+      "id": "original-learning-style-v15",
+      "path": "../learning/learning.css",
+      "source": "Original responsive learner presentation",
+      "license": "Original program follows code MIT scope; course prose and item bank separately scoped. Third-party API service not licensed by this code.",
+      "limits": [
+        "Knowledge/reasoning only, not clinical skills or validated exam",
+        "Real DeepSeek connection requires user configuration; no external media copied"
+      ],
+      "bytes": 5165,
+      "sha256": "ffb0e5027852e2ad3ecbd2116604d3233390ceed6e0006937253b5e3578c81fc"
+    },
+    {
+      "id": "original-objective-bank-v15",
+      "path": "../learning/objectives-v15.json",
+      "source": "Original formative eight-objective sixteen-item bank, material review15.0.4; not validated clinical assessment",
+      "license": "Original program follows code MIT scope; course prose and item bank separately scoped. Third-party API service not licensed by this code.",
+      "limits": [
+        "Knowledge/reasoning only, not clinical skills or validated exam",
+        "Real DeepSeek connection requires user configuration; no external media copied"
+      ],
+      "bytes": 20775,
+      "sha256": "a147eb81d53f7373686073b3485bec2acad80c06265d05a1eed068f8e362aed1"
+    },
+    {
+      "id": "original-learning-service-v15",
+      "path": "../learning_service.py",
+      "source": "Original additive SQLite learning service and fixed official DeepSeek API adapter",
+      "license": "Original program follows code MIT scope; course prose and item bank separately scoped. Third-party API service not licensed by this code.",
+      "limits": [
+        "Knowledge/reasoning only, not clinical skills or validated exam",
+        "Real DeepSeek connection requires user configuration; no external media copied"
+      ],
+      "bytes": 55984,
+      "sha256": "c82284072a333050813d42e2e6401eec8afbf8a98e43ae9bce13cc2ea461eea6"
+    },
+    {
+      "id": "original-teacher-v15",
+      "path": "../teacher/teacher.js",
+      "source": "Original teacher analytics, complete records and explicit local credential configuration",
+      "license": "Original program follows code MIT scope; course prose and item bank separately scoped. Third-party API service not licensed by this code.",
+      "limits": [
+        "Knowledge/reasoning only, not clinical skills or validated exam",
+        "Real DeepSeek connection requires user configuration; no external media copied"
+      ],
+      "bytes": 33360,
+      "sha256": "b0a7d3826a051fcb9516c3101763f766ca2cc0610e3077fa9725ac9ffe05ae90"
+    },
+    {
+      "id": "original-project-guide-v16",
+      "path": "../project-guide/index.html",
+      "source": "Original overall learning guide and actual availability navigation",
+      "license": "Original program under existing code scope; course prose separately scoped",
+      "limits": [
+        "Navigation does not imply knowledge or clinical skill achievement"
+      ],
+      "bytes": 7692,
+      "sha256": "cdfab6ba6685541728e35e3bdb8ea4b9b4af6c738124fa4b92ba3b29d2957058"
+    },
+    {
+      "id": "user-provided-communication-films-v19",
+      "path": "../soap/media-provenance.json",
+      "bytes": 3293,
+      "sha256": "6433234223905d27f4e794dd006c24206b16e8b87e1e43e91f578203fab1dde7",
+      "source": "Five user-provided source clips, edited for course use",
+      "license": "No independent third-party rights clearance asserted; existing program/model licenses do not relicense these videos",
+      "limits": [
+        "Communication and observation context only",
+        "Not clinical movement or measurement validation"
+      ]
+    },
+    {
+      "id": "local-dialogue-v20",
+      "path": "assets/dialogue-v20/manifest.json",
+      "bytes": 119275,
+      "sha256": "45f6783d05beeaefe63984dde205bbea919b99a71827da9cadfbf215f419e8fe",
+      "source": "Microsoft Kangkang male and Huihui female installed voices; authored script",
+      "license": "Generated course audio; no voice engine redistributed; no likeness/voice clone"
+    },
+    {
+      "id": "patient-suit-v21",
+      "path": "patient-suit.js",
+      "bytes": 4600,
+      "sha256": "c6423e6f3c1f21ab4f5609f2b5344b1f150284c5af25defdbf80a010d994a15e",
+      "source": "Original authored clothing geometry; bindings derived from existing licensed CC0 body",
+      "license": "Project-authored code; underlying CC0 body attribution retained"
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "path": "assets/MPFB_ASSETS_CC0.txt",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+    },
+    {
+      "path": "assets/MPFB_LICENSE_SETUP.txt",
+      "bytes": 3188,
+      "sha256": "5cefb60680cb9efd4550a2e65d719021cfbec9dad3658481d11d48ae863ce04d"
+    },
+    {
+      "path": "assets/PATIENT_PROVENANCE.json",
+      "bytes": 1685,
+      "sha256": "f1fd54ffab188397f353e853cf3879734fcf361598c9a070f864b300c790a551"
+    },
+    {
+      "path": "assets/bone_map.json",
+      "bytes": 152499,
+      "sha256": "0afbe42c706bd94da94499699d6177a9b922538eae34c0287e0e1a2594018b1e"
+    },
+    {
+      "path": "vendor/THIRD_PARTY.json",
+      "bytes": 1110,
+      "sha256": "1de0fcdfa19884fb8b415e90c4f8ec99add07d09c21876a7bb23480e1fab4cc7"
+    },
+    {
+      "path": "vendor/three/LICENSE",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "actor-implementation.json",
+      "bytes": 17133,
+      "sha256": "3f36af98bc8dacdfae9bd52f05f27a1ff1097ab68dd237f0fd5530d5eb6831a3"
+    },
+    {
+      "path": "room-implementation.json",
+      "bytes": 14241,
+      "sha256": "ba89bf23a1bb668bfc8c897a9224ae85e591c43c118154424c81cdc5b96aad47"
+    },
+    {
+      "path": "docs/anatomy-v10-provenance.json",
+      "bytes": 83169,
+      "sha256": "b23813b5ed64c25ae284af0aaeba5502c12f047862e9bbb03781508fd542efbf"
+    },
+    {
+      "path": "docs/gait-v10-sources.json",
+      "bytes": 1874,
+      "sha256": "afcf8e39817110e637f5de73ca4b9041e454fe0f70d8330d8c0e58a0d6e55842"
+    },
+    {
+      "path": "docs/gait-v10-review.txt",
+      "bytes": 2894,
+      "sha256": "f3c40c193d630025b49637b00ad07f9f6ef3c8fcf9c9b35a3cda3a52f01b7db0"
+    },
+    {
+      "path": "docs/actor-structure-v10.json",
+      "bytes": 984,
+      "sha256": "7a0b950a0175949fec0f6d040c37baef268a1ea1b97aa4ea54bb4e1a926e14fa"
+    },
+    {
+      "path": "docs/room-structure-v10.json",
+      "bytes": 400,
+      "sha256": "f87192348a6c9e949147d591cc3ce94b5ad2970351ba7c2d9dcd67e23835b0f3"
+    },
+    {
+      "path": "docs/appearance-v11-contract.json",
+      "bytes": 3068,
+      "sha256": "64b300f7e199c31375e10831e52bd8ee268bf7e1be968ce2b628d0a483d582be"
+    },
+    {
+      "path": "docs/appearance-v11-check.json",
+      "bytes": 1372,
+      "sha256": "84abd448029aed46aca76779bc8a520c40138e3ea9a2db8079d38e23bfc25962"
+    },
+    {
+      "path": "docs/shelf-v11-structure.json",
+      "bytes": 2027,
+      "sha256": "93164b032676016ed32b6a095c9fed993f9a26606adbe9aba3d3c167c693c703"
+    },
+    {
+      "path": "docs/shelf-v11-notice.txt",
+      "bytes": 882,
+      "sha256": "bcf9fc6dfccfe7572c412b66c3cedaee3c634a7f2142c6eb0d691c5aacd4d0d4"
+    },
+    {
+      "path": "docs/patient-v11-content-review.json",
+      "bytes": 912,
+      "sha256": "202f1c7477a1f38ce329f011057ae66466e44e2d31eef98079f19e3be2991e72"
+    },
+    {
+      "path": "docs/teacher-review-v11.json",
+      "bytes": 2265,
+      "sha256": "248b9d298fe77cf4f97bae944cc8d3401895b60ceacba115164f5fda7ddb2058"
+    },
+    {
+      "path": "docs/v12-anatomy-posters.json",
+      "bytes": 14804,
+      "sha256": "8f157b6ac690bdf1b5241f3c1f34ebf82f7253c943819a8ed13c8449bb2443c6"
+    },
+    {
+      "path": "docs/v12-dialogue-review.json",
+      "bytes": 533,
+      "sha256": "a8df04b42ca701262c9809e3f25c6236dca4027e32ffca2393413ff28823af4a"
+    },
+    {
+      "path": "docs/v12-room-structure.json",
+      "bytes": 3353,
+      "sha256": "dc08073fbbc1ab5aeec0b9bcfa637be2cc994eee04b25ba5dfd1a9b0ce593e2e"
+    },
+    {
+      "path": "docs/v12-render-atlas.py",
+      "bytes": 8357,
+      "sha256": "7f440f6b3ecb23a8de21a939301deb431081dca17e77933a09d1542550e23e77"
+    },
+    {
+      "path": "docs/v12-room-validate.mjs",
+      "bytes": 6184,
+      "sha256": "199b8cacea501fe4ee7eb119711f65b78df9238cb4cb6e33e1519900e4cfb761"
+    },
+    {
+      "path": "docs/teacher-review-v12.md",
+      "bytes": 5015,
+      "sha256": "3d813f54efe7dbaa219cac65ed0c6d0c9e20aa819c63533f5eb519ce8e192462"
+    },
+    {
+      "path": "docs/validation-v12.md",
+      "bytes": 5118,
+      "sha256": "f100f49104f89c0b5167038c196390f31b1e3c65671a092c09895bab0c2a35f1"
+    },
+    {
+      "path": "docs/pressure-v12-API.txt",
+      "bytes": 3273,
+      "sha256": "740be48d0cbf0270f9fffbcaead1ce30d73e7a66fc570457662576d216e21c84"
+    },
+    {
+      "path": "docs/pressure-v12-sources.json",
+      "bytes": 4741,
+      "sha256": "46e554fa4ed59007292b9edb38650b5f978e9b130e3b0780ff1555496e19115b"
+    },
+    {
+      "path": "docs/pressure-v12-test-results.json",
+      "bytes": 1592,
+      "sha256": "3c1d58da650ac72771894bb7e64a7516130f69a292040a8d8c65a3eee22794f4"
+    },
+    {
+      "path": "docs/pressure-v12-tests.mjs",
+      "bytes": 8271,
+      "sha256": "2f5efca63106f4587150232605d41581d030d1c222bfb8d851e52f5b2e18485a"
+    },
+    {
+      "path": "docs/socks-v12-API.txt",
+      "bytes": 1824,
+      "sha256": "2e3c3a75adc26267ee37b7a3299e337a354595f58e8edf4283a2c838fd52e40b"
+    },
+    {
+      "path": "docs/socks-v12-check.json",
+      "bytes": 2412,
+      "sha256": "babf97ec602fb428008e05602576628dd7cbf7b2529f35b15e21e2b361ae2d8b"
+    },
+    {
+      "path": "docs/socks-v12-validate.mjs",
+      "bytes": 6531,
+      "sha256": "ff957289d7cdbca64311030a1c9393f676c5d7b11ece8022436ccde3c68e8969"
+    },
+    {
+      "path": "docs/ASSET_INVENTORY-v12-fragment.json",
+      "bytes": 16387,
+      "sha256": "08826525702b94e65705cba070a14cde6625ca4c33ea8e5b1219115935c60bf5"
+    },
+    {
+      "path": "docs/LICENSE_SCOPE-v12-append.txt",
+      "bytes": 1569,
+      "sha256": "ce786f793675f4f30c4c669e027c785d2a704c5d975c3ef0cc83bf8f3ca4fee5"
+    },
+    {
+      "path": "docs/pressure-v12-actor-integration-results.json",
+      "bytes": 1434,
+      "sha256": "482bcf6644da723508fe9d124abd297778f9ac6395ea27318116fc8f04f38710"
+    },
+    {
+      "path": "docs/pressure-v12-actor-integration.mjs",
+      "bytes": 5085,
+      "sha256": "acfbb1acbe58217459602d236173bfac933dfac61804fd46c90573a7c5a7e04a"
+    },
+    {
+      "path": "docs/pressure-v12-integration-review.json",
+      "bytes": 5827,
+      "sha256": "086eddfa28ead5a8fc7a48161463ce8560f96481c561959d96df4a1161cb971e"
+    },
+    {
+      "path": "docs/README-v12-fragment.md",
+      "bytes": 4745,
+      "sha256": "114fd457779be106df86fe07543250a68528db4aa6f29afa90b7f6744098e3fc"
+    },
+    {
+      "path": "docs/socks-v12-integration-review.json",
+      "bytes": 1938,
+      "sha256": "df8fe0e5d365ce79c4da3184386afe258c9a9664f374698c4273bc1a83965e3c"
+    },
+    {
+      "path": "docs/actor-regression-v12.json",
+      "bytes": 984,
+      "sha256": "7a0b950a0175949fec0f6d040c37baef268a1ea1b97aa4ea54bb4e1a926e14fa"
+    },
+    {
+      "path": "docs/appearance-regression-v12.json",
+      "bytes": 1372,
+      "sha256": "3b6cb8a355fc25525cc0761b0a6dfa30c875813a54a9c88775aeecfb281bacc3"
+    },
+    {
+      "path": "docs/browser-v12.json",
+      "bytes": 2074,
+      "sha256": "7c3fc4123818312c1d153245ef6202a6f9db6d8eb533e0801c22e52703132587"
+    },
+    {
+      "path": "docs/flow-v12-results.json",
+      "bytes": 4246,
+      "sha256": "a8760e40fc8321aebc41c8126898849829d4ad9b1d5187077124dbd9fba21d7b"
+    },
+    {
+      "path": "docs/actor-regression-v13.json",
+      "bytes": 984,
+      "sha256": "7a0b950a0175949fec0f6d040c37baef268a1ea1b97aa4ea54bb4e1a926e14fa"
+    },
+    {
+      "path": "docs/appearance-regression-v13.json",
+      "bytes": 1372,
+      "sha256": "3b6cb8a355fc25525cc0761b0a6dfa30c875813a54a9c88775aeecfb281bacc3"
+    },
+    {
+      "path": "docs/arch-v13-API.txt",
+      "bytes": 3407,
+      "sha256": "3e0440ce4a1dea066aace867b951dbe261a1b91f217a0edfbb090a07c7ca7a34"
+    },
+    {
+      "path": "docs/arch-v13-content-check.json",
+      "bytes": 715,
+      "sha256": "ed6b34e6fd6f14b91771b09ca58730cf29abc764e234faf0d3871cc51019ed8c"
+    },
+    {
+      "path": "docs/arch-v13-integration-review.json",
+      "bytes": 5160,
+      "sha256": "94a73013caf2d0568ba34e503db1df789d007e2dd4495edf375110f9e2f50ffc"
+    },
+    {
+      "path": "docs/arch-v13-integration-test-results.json",
+      "bytes": 2332,
+      "sha256": "1387365a3ab04bc51d578c0e1035e5da63859cedccc97227b1f41b54324b35e7"
+    },
+    {
+      "path": "docs/arch-v13-integration-tests.mjs",
+      "bytes": 4390,
+      "sha256": "ee252d7fa0aa9b8ce7cc922c6363f7c7cf3df9a9c8290cb97230bbd6196f7c50"
+    },
+    {
+      "path": "docs/arch-v13-sources.json",
+      "bytes": 8908,
+      "sha256": "fadfd7a326fd92e0042d4b335e4ea79c0a58fdd723a29213f3844bdd6b7aacba"
+    },
+    {
+      "path": "docs/arch-v13-test-results.json",
+      "bytes": 6672,
+      "sha256": "ad55aaab27644f4962c187582eac6fa6f9b838a31e2d626c950bc09b11ee16e0"
+    },
+    {
+      "path": "docs/arch-v13-tests.mjs",
+      "bytes": 7472,
+      "sha256": "c99e20225efb8efab5d8243c64face4ea138467194472f8ab36c5d1de32b9386"
+    },
+    {
+      "path": "docs/documentation-v13-API.txt",
+      "bytes": 1871,
+      "sha256": "0c46a2555d678a7f49f2e27730e2b3fb4efd10970da51fd77a035a09a0f72735"
+    },
+    {
+      "path": "docs/documentation-v13-check.json",
+      "bytes": 760,
+      "sha256": "04db51800da5ff1fd4a5c5fc712395242d8060885f20727a89c2051d038d83bb"
+    },
+    {
+      "path": "docs/documentation-v13-validate.mjs",
+      "bytes": 5447,
+      "sha256": "7fa62ecae6de16e862661b5133bfb7681752aaf812fc63628d4d97cf6074e35d"
+    },
+    {
+      "path": "docs/flow-v13-results.json",
+      "bytes": 4246,
+      "sha256": "2550cd6273043a0c8ce77bd07c70a805580381ef887d0b58f47a6ae506adbff9"
+    },
+    {
+      "path": "docs/README-v13-fragment.md",
+      "bytes": 1520,
+      "sha256": "245429f8d6e6b042c0e7da6a31747473eafba173ff0a58a14008f71469dbcaad"
+    },
+    {
+      "path": "docs/teacher-review-v13.md",
+      "bytes": 3564,
+      "sha256": "2a4b0e432838db10918d4de183dadea32822f5d1b4d9a118f24b2fc7f5ebfc1b"
+    },
+    {
+      "path": "docs/v13-room-structure.json",
+      "bytes": 3353,
+      "sha256": "e0fcf23fb0c746be4529caa6002f1923f867a905454b0b3b7bd2be4f3654b2e5"
+    },
+    {
+      "path": "docs/v13-room-validate.mjs",
+      "bytes": 6184,
+      "sha256": "a8aadad7a8791b0d4a5b5ca849d9706def3052ea1f129415e82896a8a9485bab"
+    },
+    {
+      "path": "docs/validation-v13.md",
+      "bytes": 3404,
+      "sha256": "ce423a7a9c983aee353d74091a69441a6c6ac2fed1eb324045a9729d9fa24c0b"
+    },
+    {
+      "path": "docs/browser-v13.json",
+      "bytes": 1879,
+      "sha256": "0126f78d9b53a99274bacdfa30a189a2bcff1090dcf1f6a1ff566189ddb780c8"
+    },
+    {
+      "path": "docs/eight-act-route-v14.json",
+      "bytes": 2648,
+      "sha256": "8cf9290ed4f87d16fe3e694d12ba01e241e9a87c25d803ed4d0aac6934f6643f"
+    },
+    {
+      "path": "docs/eight-act-script-v14.html",
+      "bytes": 29742,
+      "sha256": "786bdc5a3fc83bedd4e9f669bcdc3e32ad7c5247318c831610500974dca1abf0"
+    },
+    {
+      "path": "docs/flow-v14.json",
+      "bytes": 5211,
+      "sha256": "618cbad8904a7af7459379498646bafde3b9fcd7715d21e1c94e5023a26b62e4"
+    },
+    {
+      "path": "docs/progress-v14.json",
+      "bytes": 397,
+      "sha256": "d7d7465b8f72180cf42cf7f68e9426f5b7c618b1fbf4b2e8ce741d9d9968f658"
+    },
+    {
+      "path": "docs/render-script-v14.mjs",
+      "bytes": 6250,
+      "sha256": "9ab2c2e4d7cfcd5ccd28d5bad213dd873dae0a6541d34deeb15ae35f9c3cb0ff"
+    },
+    {
+      "path": "docs/teacher-review-v14.md",
+      "bytes": 2229,
+      "sha256": "3064938014e443f98180e90a1636ee464e7a7567708e10ef2f80cb9bcab3afc4"
+    },
+    {
+      "path": "docs/v14-clinical-integration-check.json",
+      "bytes": 6533,
+      "sha256": "5cbd2a8eed62603d4871ce87fa7b70d5c73f241f09830418888ccc7b69d6f549"
+    },
+    {
+      "path": "docs/v14-clinical-script-review.md",
+      "bytes": 6560,
+      "sha256": "52c2bea7cabecc28a6ccf2d67ffe3c359e8858225a26673f9144b0f59cce776a"
+    },
+    {
+      "path": "docs/v14-clinical-sources.json",
+      "bytes": 12215,
+      "sha256": "6532b4933581b058fc996827bfee909075b3c7d04c5c5f06daf60a61a93fc80b"
+    },
+    {
+      "path": "docs/v14-flow-migration-audit.md",
+      "bytes": 12857,
+      "sha256": "6faf73b41c80b0633a7ac02e6e8a68decb3279185f465b207469cc0354a22151"
+    },
+    {
+      "path": "docs/v14-new-task-ui-tests.json",
+      "bytes": 1388,
+      "sha256": "2064047ed31605eae7fbe8f414784869bb170e5d3d91522e0635eb82f04e836d"
+    },
+    {
+      "path": "docs/v14-new-task-ui-tests.mjs",
+      "bytes": 9443,
+      "sha256": "49e500ff898dc540d84ba49335aaf59f98860ccb148edba004c6aa3ebf66863a"
+    },
+    {
+      "path": "docs/v14-progress-tests.mjs",
+      "bytes": 2036,
+      "sha256": "0f3f3415be25a5abffd7b254d1324d9559e54325265e7bc930c956e16578d064"
+    },
+    {
+      "path": "docs/v14-rom-mmt-review.md",
+      "bytes": 8547,
+      "sha256": "66c7138ee5a9ac5f526f7e216287903a203fa6dc2eb2e6c53077918887fc4d02"
+    },
+    {
+      "path": "docs/v14-rom-mmt-sources.json",
+      "bytes": 7939,
+      "sha256": "2cb4b6654cdc70130310b7fad05f67ba38030fce5518e4c7c91735963e29badd"
+    },
+    {
+      "path": "docs/v14-script-content-check.json",
+      "bytes": 721,
+      "sha256": "8e045f866de5a05b1f369d88f27c85ee28289afcf94ad439f1543cfc8fc7a78b"
+    },
+    {
+      "path": "docs/v14-retained-regression.json",
+      "bytes": 20085,
+      "sha256": "90f94abc4d9c72823319518677bd0a2aa421f8cc4308fa9b34015910f83153aa"
+    },
+    {
+      "path": "docs/browser-v14.json",
+      "bytes": 3578,
+      "sha256": "d90d298a352bbde88ffbb10c86d4eccb6765dd31269ce677714b64a281656a95"
+    },
+    {
+      "path": "docs/validation-v14.md",
+      "bytes": 2659,
+      "sha256": "df41370e66a6575c40cd797f9250d50a8be940610403de672bdb8b87bad90aa3"
+    },
+    {
+      "path": "docs/browser-v15.json",
+      "bytes": 2933,
+      "sha256": "f574678a5c63265ab76d8f025f208b2064cfee5fe668fc983ebbe8245d652163"
+    },
+    {
+      "path": "docs/deepseek-v15-sources.json",
+      "bytes": 2169,
+      "sha256": "dedafa9dfd3295d9aa30bf19a49c497a107a138ade5e0b6c535ea72e26c3ce72"
+    },
+    {
+      "path": "docs/flow-v15.json",
+      "bytes": 5211,
+      "sha256": "1111f267f8a75bcb9a85a66e257541254bb4e3090e9f05048a89f89a5008db9b"
+    },
+    {
+      "path": "docs/learning-v15-backend-contract.json",
+      "bytes": 8029,
+      "sha256": "b2bb6d381dbddae4542d010f6bf95db7ee484f0842d9602179e1d8ddc70d9ae1"
+    },
+    {
+      "path": "docs/learning-v15-backend-tests.json",
+      "bytes": 10590,
+      "sha256": "2b514882c72de3fffa191216a8d1e15700662606fbf653fc2d7c7cb2392d945c"
+    },
+    {
+      "path": "docs/objectives-v15.json",
+      "bytes": 20775,
+      "sha256": "a147eb81d53f7373686073b3485bec2acad80c06265d05a1eed068f8e362aed1"
+    },
+    {
+      "path": "docs/review-v15-round-1.md",
+      "bytes": 2297,
+      "sha256": "74a5019300e4486710f32e64bb32597bf83cd808947c31dbfe657502336e9869"
+    },
+    {
+      "path": "docs/review-v15-round-2.md",
+      "bytes": 2741,
+      "sha256": "e37bb5fc74b846d17b90ca44eef61081554f039873cf7d302f70f9d6cab1f2f1"
+    },
+    {
+      "path": "docs/review-v15-round-3.md",
+      "bytes": 2918,
+      "sha256": "59d440c51402ccd9293aa31c07e09d399f1d7a09ed6914d739f255494157dded"
+    },
+    {
+      "path": "docs/review-v15-round-4.md",
+      "bytes": 2592,
+      "sha256": "c2181fa4b84659506f8bbc6c5a81d0f8f12feed91c7d048b43203915c303cf6c"
+    },
+    {
+      "path": "docs/review-v15-summary.json",
+      "bytes": 5154,
+      "sha256": "b685f43e8358db53570749221695cbfaafde6e712b46ec423309f4c376ed3b3e"
+    },
+    {
+      "path": "docs/runtime-preservation-v15.json",
+      "bytes": 508,
+      "sha256": "944067de00772a6a93012659513a77922749031b0dd5591a5d5fa0e13cd93ec3"
+    },
+    {
+      "path": "docs/student-v15-ui-tests.json",
+      "bytes": 1660,
+      "sha256": "a9e16a906c32741c481670a9511cabce60e3985a334b367c43f6566def3398de"
+    },
+    {
+      "path": "docs/teacher-v15-api-smoke.json",
+      "bytes": 2708,
+      "sha256": "4d5bd041d2794e0bde2fc5edde46f9b871e8f83d9a0b6fef4e1dc49d3d8bb1a3"
+    },
+    {
+      "path": "docs/teacher-v15-ui-tests.json",
+      "bytes": 2537,
+      "sha256": "552ab629ce326b8c4829269b0927f22e7002a1e6b4c731e073f250e5be2c1812"
+    },
+    {
+      "path": "docs/validation-v15.md",
+      "bytes": 2423,
+      "sha256": "6c1eaf38174f09c1a15b7fe43f7083e20b6c6ab61f1f9d1321c5df4ce70b319e"
+    },
+    {
+      "path": "docs/ai-live-v15.json",
+      "bytes": 1234,
+      "sha256": "febea22462a542ee94cad24cc94bbf29a9ab7d5906fbe0de248e0847b009c24c"
+    },
+    {
+      "path": "docs/siliconflow-v15-sources.json",
+      "bytes": 2529,
+      "sha256": "1b05b35b0698addb1f0a68827a252f94afb21c262e054567ab66996eb79aa461"
+    },
+    {
+      "path": "docs/heygen-v16-production.json",
+      "bytes": 2264,
+      "sha256": "71c367461680b722281a5cafc862958673fda4653af91780a55d77a9262700d3"
+    },
+    {
+      "path": "docs/heygen-v16-script.html",
+      "bytes": 29305,
+      "sha256": "8f10d9d747ea1017aba732afb6fc10dcd17508544e9c02c3d5420914cb67d212"
+    },
+    {
+      "path": "docs/heygen-v16-script.json",
+      "bytes": 28907,
+      "sha256": "607ada7c0553d468e7a67df6ae067fdc2ce0a034b62f23b3b05abcd0e11e2242"
+    },
+    {
+      "path": "docs/navigation-v16-events-tests.json",
+      "bytes": 1134,
+      "sha256": "28924da87c23c4922956162e1a1c9f3f21dfbdb517642dd3ab1a815e4eb9a055"
+    },
+    {
+      "path": "docs/navigation-v16-prior-flow-tests.json",
+      "bytes": 5211,
+      "sha256": "06dc2ef0f60fa92b2b651d28fbdc54a8c9c8a6f3f264d82afe7bf1a226233e9a"
+    },
+    {
+      "path": "docs/navigation-v16-tests.json",
+      "bytes": 4814,
+      "sha256": "9b136d46af586019fb50d6be947f93a19a712c3ed6ffa9b1741db8a9a3742ca2"
+    },
+    {
+      "path": "docs/project-guide-v16-tests.json",
+      "bytes": 2118,
+      "sha256": "074074c02fe789fd532411da4c1f903bdf13cfa38878d6bc0418ba650d695daf"
+    },
+    {
+      "path": "docs/validation-v16.txt",
+      "bytes": 1065,
+      "sha256": "43715033146f246d973b125b1594d90a7b29e9840b7827d4b3e76895bb04a4fb"
+    },
+    {
+      "path": "docs/browser-v16.json",
+      "bytes": 1694,
+      "sha256": "6e49f7af0014236739d5d37eb134b0032a94dcde77697f4b40dda2e4d5448d75"
+    }
+  ],
+  "licenseAudit": {
+    "externalAssetsFound": [
+      "MPFB core-derived character CC0",
+      "Three.js runtime MIT",
+      "BodyParts3D static bones and muscles via Somakine, CC BY4.0"
+    ],
+    "unknownThirdPartyMeshOrImageFound": false,
+    "heygenGeneratedAssetsIncluded": false,
+    "remoteMediaOrFontDownloadUsedByNewRoom": false,
+    "systemFonts": "Canvas text requests system Microsoft YaHei/sans-serif; no font file is copied or distributed.",
+    "sourceProgramScope": "MPFB program source is GPLv3 and build time only; it is not included in clinic3d runtime. Blender is also build time only.",
+    "completeSiteNoticeNeedsV8Entry": false,
+    "noticeRecommendation": "Retain existing scope entries and append docs/LICENSE_SCOPE-v12-append.txt to complete-site licenses/LICENSE_SCOPE.txt. Do not describe wall posters as schematic original-only geometry after this release.",
+    "paidGenerationJobsThisV11": 0,
+    "newExternalAssetsThisRelease": [],
+    "paidGenerationJobsThisV12": 0,
+    "newDerivedAssetsThisRelease": [
+      "Original seated/standing side-foot SVG paths in learning-ui.js"
+    ],
+    "sourceAtlasGeometryChanged": false,
+    "newPosterDataLicense": "CC BY 4.0",
+    "referenceImagesCopiedFromManufacturersOrPapers": false,
+    "paidGenerationJobsThisV13": 0,
+    "newExternalImagesCopied": false,
+    "newExternalMeshesImported": false,
+    "retainedDerivedAssetsFromV12": [
+      "assets/posters/human-skeleton.png",
+      "assets/posters/human-muscles.png",
+      "assets/posters/ankle-muscles.png"
+    ],
+    "paidGenerationJobsThisV14": 0,
+    "paidGenerationJobsThisV15": 0,
+    "heygenJobsSubmittedThisV16": 1,
+    "v19UserProvidedVideoEdits": 5,
+    "v19HeyGenCreationCalls": 0,
+    "thirdPartyVideoRightsIndependentlyVerified": false
+  },
+  "hashSnapshotRule": "Hashes describe the files at this audit snapshot. If scene-room.js or actors.js is changed during final visual QA, refresh the affected entries and then rebuild the complete-site file-manifest.json after all documentation updates.",
+  "limitations": [
+    "Inventory records source and retained license evidence, not a legal ownership judgment",
+    "Clinical, anatomical and motor-control accuracy remains unverified",
+    "The character appearance remains a stylized real-time 3D prototype, not a promised photoreal patient or therapist"
+  ]
+}

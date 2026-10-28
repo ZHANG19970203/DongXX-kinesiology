@@ -1,0 +1,480 @@
+{
+  "schema_version": "1.0",
+  "status": "教学场景布局建议；未作为医疗建筑、设备安装、院感或临床有效性认证",
+  "coordinate_system": {
+    "unit": "metre",
+    "origin": "房间西北角地面",
+    "x": "向东",
+    "y": "向南",
+    "z": "向上",
+    "room": {
+      "width_x": 4.5,
+      "depth_y": 6.0,
+      "height_z": 2.8,
+      "area_m2": 27.0
+    },
+    "svg_scale_px_per_m": 110
+  },
+  "geometric_finding": {
+    "original_five_metre_claim": "不能在6m总深度内同时默认容纳北侧接诊桌椅、5m稳定自然步道、0.8m压力板和前后各0.5m过渡平台及充分停止空间。重叠计算这些长度也不能消除加速、减速和人员保护空间的需求。",
+    "recommended_in_room_scope": "短程观察、站立、受控落脚与足压教学。模型不标注稳定自然步态、标准化速度或完整实验室步态运动学采集。",
+    "marked_observation_length_m": 2.5,
+    "marked_line_includes_pressure_plate_part": true,
+    "free_central_strip_m": {
+      "width": 1.0,
+      "depth": 3.9
+    },
+    "not_a_safety_certificate": true
+  },
+  "zones": [
+    {
+      "id": "reception",
+      "name": "东北侧接诊区",
+      "bounds_xy": [
+        2.75,
+        0.1,
+        4.35,
+        2.725
+      ],
+      "objects": [
+        {
+          "id": "desk",
+          "bounds_xy": [
+            2.75,
+            0.8,
+            4.35,
+            1.6
+          ],
+          "height_z": 0.75,
+          "size_m": [
+            1.6,
+            0.8,
+            0.75
+          ]
+        },
+        {
+          "id": "clinician_chair",
+          "centre_xy": [
+            3.55,
+            0.4
+          ],
+          "footprint_m": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "id": "patient_stool_a",
+          "centre_xy": [
+            3.05,
+            2.05
+          ],
+          "footprint_m": [
+            0.45,
+            0.45
+          ],
+          "seat_height_z": 0.45,
+          "use": "桌前启用患者凳"
+        },
+        {
+          "id": "patient_stool_b",
+          "centre_xy": [
+            4.12,
+            2.5
+          ],
+          "bounds_xy": [
+            3.895,
+            2.275,
+            4.345,
+            2.725
+          ],
+          "footprint_m": [
+            0.45,
+            0.45
+          ],
+          "seat_height_z": 0.45,
+          "use": "靠东墙备用，不放桌前",
+          "clearance_to_protection_zone_m": 0.195,
+          "note": "占地不侵入东侧保护位或东南教具架；实际人物进出仍需动画碰撞复核。"
+        },
+        {
+          "id": "door",
+          "north_wall_x_interval": [
+            0.15,
+            1.05
+          ],
+          "clear_width_m_design": 0.9,
+          "note": "门在西北角内开，动画检查开门扫掠区域。桌椅方案由原北墙居中改为东北角。"
+        }
+      ],
+      "checks": [
+        "人物坐下/起身时脚膝不穿桌",
+        "第二张凳靠东墙备用，保持保护区与教具区清空",
+        "门扇不得与接诊通道冲突"
+      ]
+    },
+    {
+      "id": "static_exam",
+      "name": "西侧诊查床区",
+      "bounds_xy": [
+        0.15,
+        2.1,
+        1.65,
+        4.7
+      ],
+      "objects": [
+        {
+          "id": "exam_bed",
+          "bounds_xy": [
+            0.15,
+            2.1,
+            0.85,
+            4.0
+          ],
+          "size_m": [
+            0.7,
+            1.9
+          ],
+          "height_range_z": [
+            0.55,
+            0.75
+          ]
+        },
+        {
+          "id": "operator_clearance",
+          "bounds_xy": [
+            0.85,
+            2.2,
+            1.65,
+            3.95
+          ],
+          "width_m": 0.8,
+          "note": "单侧操作占地示意，须通过临床动作与保护人员模型复核。"
+        },
+        {
+          "id": "trolley",
+          "bounds_xy": [
+            0.95,
+            4.2,
+            1.4,
+            4.7
+          ],
+          "caster_lock_required_in_script": true
+        },
+        {
+          "id": "anatomy_posters",
+          "wall": "west",
+          "count": 3,
+          "each_size_m": [
+            0.6,
+            0.9
+          ],
+          "bottom_height_z": 1.5,
+          "top_height_z": 2.4,
+          "note": "三图沿西墙床段排列；解剖标注独立审核。"
+        }
+      ],
+      "linked_zone": "wall_lunge",
+      "method_sequence": "床边坐位主动勾脚/绷脚；量角器采用独立标定的坐位非负重演示。取得同意后转移到北墙膝触墙位，按相同协议比较，不把两种方法的数值混用。",
+      "checks": [
+        "不再把所有局部检查统一安排为俯卧屈膝90°",
+        "手位、支撑点、量角器三点对齐逐帧审核",
+        "足部近景提供透明剖视仅供讲解，不冒充测量",
+        "床边到北墙的起身、转移和扶稳连续制作；门扇与桌椅不穿模"
+      ]
+    },
+    {
+      "id": "short_walk",
+      "name": "中央短程观察/活动带",
+      "bounds_xy": [
+        1.65,
+        1.8,
+        2.65,
+        5.7
+      ],
+      "marked_line": {
+        "x": 2.15,
+        "y_start": 2.15,
+        "y_end": 4.65,
+        "length_m": 2.5
+      },
+      "purpose": [
+        "短程步态外观观察",
+        "动画分期讲解",
+        "受控落脚与压力板教学"
+      ],
+      "not_supported_claims": [
+        "5m稳定自然行走",
+        "仅凭双摄像头得到可靠三维关节角度",
+        "仅凭动画导出患者实测步态",
+        "默认支撑/摆动比例适用于所有患者"
+      ],
+      "camera_change": {
+        "from": "两根落地摄像支架",
+        "to": "西、东墙装观察摄像机",
+        "centres_xy": [
+          [
+            0.03,
+            3.1
+          ],
+          [
+            4.47,
+            3.1
+          ]
+        ],
+        "suggested_height_z": [
+          1.1,
+          1.5
+        ],
+        "note": "高度为教学镜头设计范围，非经标定采集标准；不占中央地面通道。"
+      }
+    },
+    {
+      "id": "plantar_pressure",
+      "name": "南部足压教学区",
+      "objects": [
+        {
+          "id": "pressure_plate",
+          "bounds_xy": [
+            1.85,
+            3.9,
+            2.45,
+            4.7
+          ],
+          "size_m": [
+            0.6,
+            0.8
+          ],
+          "surface_z": 0.0,
+          "sensor_technology": "待核实设备资料；不预设电容式",
+          "status": "可先建立外观模型和教学数据接口"
+        },
+        {
+          "id": "approach_transition",
+          "bounds_xy": [
+            1.85,
+            3.4,
+            2.45,
+            3.9
+          ],
+          "length_m": 0.5,
+          "surface_z": 0.0
+        },
+        {
+          "id": "exit_transition",
+          "bounds_xy": [
+            1.85,
+            4.7,
+            2.45,
+            5.2
+          ],
+          "length_m": 0.5,
+          "surface_z": 0.0
+        },
+        {
+          "id": "south_clear_remainder",
+          "bounds_xy": [
+            1.65,
+            5.2,
+            2.65,
+            6.0
+          ],
+          "length_m": 0.8,
+          "note": "不能仅凭这0.8m就宣称足够自然减速；需根据实际方案复核，室内默认受控教学。"
+        }
+      ],
+      "data_requirements": {
+        "report_or_image_only": "仅展示已有报告并进行图上判读，保留原始图例和单位；不重算没有时序数据的动态COP。",
+        "cop_computation": "需可靠的逐帧压力矩阵、传感器坐标/面积、时间信息，或设备已经导出的可追溯COP序列。",
+        "illustrative_mode": "可用明确的教学示意数据，但不能以其证明本例患者低足弓是反复扭伤的根本原因。",
+        "clinical_import": "实际设备校准、阈值、采样率、足别和无效步判定按厂家文档及验证方案复核。"
+      }
+    },
+    {
+      "id": "balance",
+      "name": "中央观察带停用后的平衡位（东侧为治疗师保护位）",
+      "base_condition": "停止行走并清空中央带后，先在硬地、睁眼和可靠保护条件下评估；软垫不是默认起点。",
+      "temporary_mat_bounds_xy": [
+        1.85,
+        2.5,
+        2.45,
+        3.1
+      ],
+      "mat_size_m": [
+        0.6,
+        0.6,
+        0.06
+      ],
+      "clinician_protection_bounds_xy": [
+        2.8,
+        2.7,
+        3.7,
+        3.25
+      ],
+      "setup_actions": [
+        "结束行走采集并撤除摄像叠加",
+        "检查中央站位与东侧保护位清空，备用凳留在东墙指定位置",
+        "先演示硬地睁眼、可靠支撑/保护、提前停止与双脚落地",
+        "只有适合增加难度时才从教具架取出垫子",
+        "结束后移走垫子，恢复行走通道"
+      ],
+      "limits": [
+        "闭眼加软面不是所有患者的默认起点",
+        "站立秒数或摇晃不能单独诊断本体感觉受损",
+        "普通压力板须核实是否支持经验证的平衡测量"
+      ]
+    },
+    {
+      "id": "teaching",
+      "name": "东南教具与讲解区",
+      "objects": [
+        {
+          "id": "shelf",
+          "bounds_xy": [
+            3.8,
+            4.2,
+            4.35,
+            5.8
+          ],
+          "depth_m": 0.55
+        },
+        {
+          "id": "demo_position",
+          "bounds_xy": [
+            2.87,
+            4.5,
+            3.62,
+            5.42
+          ]
+        },
+        {
+          "id": "whiteboard",
+          "wall": "east",
+          "size_m": [
+            0.6,
+            0.8
+          ],
+          "note": "白板改写为压力分布、COP与症状须综合解释；不把S形COP或低足弓写成普适正常/病因结论。"
+        }
+      ],
+      "limits": [
+        "静态BodyParts3D/Somakine网格用于解剖浏览和拼接；不直接当作可靠关节配准模型",
+        "内翻/外翻与足弓形变若无配准和标注，仅做明确有限示意",
+        "足压热图、COP与临床结论分别审核"
+      ]
+    },
+    {
+      "id": "wall_lunge",
+      "name": "北墙膝触墙位（分时使用并清空）",
+      "bounds_xy": [
+        1.2,
+        0.0,
+        2.45,
+        1.45
+      ],
+      "wall": "north",
+      "patient_reference_centre_xy": [
+        2.0,
+        0.75
+      ],
+      "clinician_reference_centre_xy": [
+        1.45,
+        1.0
+      ],
+      "objects": [
+        {
+          "id": "wall_lunge_clearance",
+          "bounds_xy": [
+            1.2,
+            0.0,
+            2.45,
+            1.45
+          ],
+          "use": "面向北墙的负重膝触墙；区域不得摆椅凳或耗材车"
+        }
+      ],
+      "time_sharing": "局部功能检查时暂停进出和中央行走；清空该区并复核门扇、患者与治疗师位置后使用。",
+      "geometric_separation": {
+        "door_sweep_max_x": 1.05,
+        "gap_from_door_sweep_x_m": 0.15,
+        "desk_min_x": 2.75,
+        "gap_to_desk_x_m": 0.3
+      },
+      "limits": [
+        "坐标为制作占地与参考站位，不是患者固定脚距或统一测量协议",
+        "足跟、膝方向、对线、扶稳和停止过程另逐帧审核",
+        "墙面为接触目标；不能用通用骨架旋转角冒充患者测量"
+      ]
+    }
+  ],
+  "external_walkway_option": {
+    "required_for": "以稳定自然行走为目标的可验证步态/足压采集",
+    "location": "另设独立采集空间，或经实际场地与安全方案确认的延伸通道",
+    "length": "不在本稿中虚构一个万能合格长度；按设备厂家和已选研究方案明确加速区、有效采集区、减速区及周边保护空间",
+    "indoor_scene_transition": "第三视角切换到扩展采集单元；保持人物、服装和病例身份一致",
+    "not_a_current_deliverable": true
+  },
+  "environment_claims_to_rewrite": [
+    {
+      "original": "严格按照三甲医院标准1:1还原/完全符合临床操作逻辑",
+      "replace": "按用户给定尺寸与教学诊疗需求拟定的场景；标准来源和真实场地审查另行确认。"
+    },
+    {
+      "original": "R10、300lx/500lx、无频闪、35分贝、24℃/50%",
+      "replace": "可作为美术与场景设定参数；不能据此宣称网页画面或真实场地已经达到性能指标。"
+    },
+    {
+      "original": "透明量角器精度1°",
+      "replace": "若实物刻度为1°，写最小分度值1°；不能等同于测量准确度、重复性或动画模型测量精度。"
+    },
+    {
+      "original": "2m软皮尺、无粉乳胶手套、医疗废物桶等均符合院感",
+      "replace": "物品外观可建模；材料选择、适应场景、过敏信息与废物分类按机构制度审核。"
+    },
+    {
+      "original": "单向流畅无折返",
+      "replace": "有序分区、按任务切换；总结回接诊桌，本体感觉评估可复用已停用的观察带。"
+    },
+    {
+      "original": "足弓塌陷→COP内移→反复扭伤根本原因",
+      "replace": "把低足弓作为评估中发现、需综合解释的相关因素；动画和足压图本身不建立个体病因。"
+    }
+  ],
+  "production_levels": [
+    {
+      "level": 1,
+      "name": "现在可实施",
+      "items": [
+        "27㎡房间与家具按米建模",
+        "六幕镜头切换与第三/第一视角",
+        "桌边接诊互动、检查选择、记录与知识反馈",
+        "教学压力图界面与清楚的数据来源标签"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "制作后逐项教师审核",
+      "items": [
+        "坐下起身与行走的接触、碰撞和连续性",
+        "按检查姿势制作手位、固定、量角器对齐",
+        "个别支持性动作如扶稳提踵",
+        "硬地睁眼平衡及停止/落地动作"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "有条件接入与验证",
+      "items": [
+        "真实设备导出及COP/压力单位核验",
+        "外接稳定步态采集空间",
+        "经校准动作捕捉或临床测量数据",
+        "评估信效度、专家审核和国家申报材料"
+      ]
+    }
+  ],
+  "sources_and_review_scope": {
+    "design_source": "用户提供的27㎡诊室设定及本地完整病例脚本",
+    "clinical_assertions": "本文件主要提供几何与制作边界；临床事实由独立的临床脚本审查结果支持，未在此虚构规范认证",
+    "unread_device_attachments": "未在本任务中读取用户历史提及但未验证可访问的设备PDF/PPTX"
+  }
+}

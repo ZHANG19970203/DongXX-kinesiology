@@ -1,0 +1,58 @@
+{
+  "sourceGeometrySHA256": "2bd19be832f9467917e7ecff29a3c97cd62d925cdeb75183b283b975b1036661",
+  "method": "Bone end-cap centroids (6% of axial extent); humeral/femoral head least-squares spherical cap fit. Authored teaching pivots, not clinical registration.",
+  "headFits": [
+    {
+      "bone": "humerus",
+      "side": "right",
+      "sourceId": "FJ3368",
+      "capVertices": 326,
+      "center": [
+        -0.15881666,
+        1.31520601,
+        0.0738926
+      ],
+      "radiusM": 0.019410457988651934,
+      "radialResidualStdM": 0.0008375080334916363
+    },
+    {
+      "bone": "femur",
+      "side": "right",
+      "sourceId": "FJ3365",
+      "capVertices": 225,
+      "center": [
+        -0.08713234,
+        0.81155629,
+        0.0788943
+      ],
+      "radiusM": 0.02270253531952073,
+      "radialResidualStdM": 0.0008044464507188367
+    },
+    {
+      "bone": "humerus",
+      "side": "left",
+      "sourceId": "FJ3262",
+      "capVertices": 306,
+      "center": [
+        0.15923326,
+        1.31504582,
+        0.07384785
+      ],
+      "radiusM": 0.019685885669777976,
+      "radialResidualStdM": 0.0008795650917123334
+    },
+    {
+      "bone": "femur",
+      "side": "left",
+      "sourceId": "FJ3259",
+      "capVertices": 269,
+      "center": [
+        0.08730212,
+        0.81140737,
+        0.07884149
+      ],
+      "radiusM": 0.022816423350249724,
+      "radialResidualStdM": 0.000878166751869585
+    }
+  ]
+}

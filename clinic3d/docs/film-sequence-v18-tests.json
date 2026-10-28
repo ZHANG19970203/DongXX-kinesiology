@@ -1,0 +1,177 @@
+{
+  "schema": "dxx-film-sequence-tests-v18",
+  "generatedAt": "2026-10-25T13:47:39.041Z",
+  "passed": true,
+  "total": 15,
+  "results": [
+    {
+      "id": "sixteen-actual-node-bindings",
+      "passed": true,
+      "detail": {
+        "segments": 16,
+        "anchors": [
+          {
+            "id": "01A",
+            "node": "welcome",
+            "trigger": "entry"
+          },
+          {
+            "id": "01B",
+            "node": "consent",
+            "trigger": "entry"
+          },
+          {
+            "id": "02A",
+            "node": "local_intro",
+            "trigger": "entry"
+          },
+          {
+            "id": "02B",
+            "node": "local_explain",
+            "trigger": "choice"
+          },
+          {
+            "id": "03A",
+            "node": "muscle_intro",
+            "trigger": "entry"
+          },
+          {
+            "id": "03B",
+            "node": "muscle_explain",
+            "trigger": "entry"
+          },
+          {
+            "id": "04A",
+            "node": "arch_intro",
+            "trigger": "entry"
+          },
+          {
+            "id": "04B",
+            "node": "arch_concern",
+            "trigger": "entry"
+          },
+          {
+            "id": "05A",
+            "node": "gait_intro",
+            "trigger": "entry"
+          },
+          {
+            "id": "05B",
+            "node": "gait_interpret",
+            "trigger": "choice"
+          },
+          {
+            "id": "06A",
+            "node": "pressure_intro",
+            "trigger": "entry"
+          },
+          {
+            "id": "06B",
+            "node": "cop_explain",
+            "trigger": "entry"
+          },
+          {
+            "id": "07A",
+            "node": "balance_intro",
+            "trigger": "entry"
+          },
+          {
+            "id": "07B",
+            "node": "balance_explain",
+            "trigger": "entry"
+          },
+          {
+            "id": "08A",
+            "node": "plan_intro",
+            "trigger": "entry"
+          },
+          {
+            "id": "08B",
+            "node": "teachback",
+            "trigger": "entry"
+          }
+        ]
+      }
+    },
+    {
+      "id": "missing-evidence-never-says-completed",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "eligible-state-selects-normal",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "local-decline-does-not-complete-other-tests",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "skip-pressure-predecessor-uses-honest-bridge",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "stops-never-play-normal-or-resume",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "valid-decision-before-result-film",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "student-media-is-accepted-local-and-hashed-only",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "dialogue-switches-speaker-and-does-not-award",
+      "passed": true,
+      "detail": {
+        "twoSpeakers": true,
+        "automaticReplay": false,
+        "noCredit": true,
+        "emptyManifestNoPlayer": true
+      }
+    },
+    {
+      "id": "actual-app-hooks-preserve-controller-and-brief-before-preparation",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "jump-missing-consent-enters-real-inquiry-without-preparation",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "consent-completion-returns-to-selected-step-and-waits-for-preparation",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "pending-explanation-and-exit-lock-block-preparation",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "closing-film-cannot-undo-later-safety-pause",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "id": "choice-film-restores-mid-utterance-and-does-not-replay-completed",
+      "passed": true,
+      "detail": true
+    }
+  ],
+  "limits": [
+    "No clinical validation or automatic film-quality acceptance.",
+    "No paid generation, user database, browser storage or remote API was used.",
+    "Media SHA-256 is an acceptance record requirement; publishing workflow verifies the actual file."
+  ]
+}

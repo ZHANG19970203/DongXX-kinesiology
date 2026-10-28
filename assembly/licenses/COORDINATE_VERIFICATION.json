@@ -1,0 +1,76 @@
+{
+  "method": "Compared 14 distributed official GLB elements against the same IDs in the digest-verified official OBJ archive, using the documented Z-up millimetre to Y-up metre conversion. Bounds may differ slightly where official Somakine LOD is present.",
+  "samples": [
+    {
+      "elementId": "FJ1437",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 7.732391338333144e-9
+    },
+    {
+      "elementId": "FJ1437M",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 7.732391338333144e-9
+    },
+    {
+      "elementId": "FJ1506",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 9.330749506375469e-8
+    },
+    {
+      "elementId": "FJ1506M",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 9.330749506375469e-8
+    },
+    {
+      "elementId": "FJ3176",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 6.004333497067194e-8
+    },
+    {
+      "elementId": "FJ3309",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 3.1242370690520715e-8
+    },
+    {
+      "elementId": "FJ3349",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 3.452301022832671e-8
+    },
+    {
+      "elementId": "FJ3362",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 9.864807126724884e-8
+    },
+    {
+      "elementId": "FJ3365",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 4.9190521239639295e-9
+    },
+    {
+      "elementId": "FJ3368",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 0.0001499231338499829
+    },
+    {
+      "elementId": "FJ3381",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 1.2098312351938034e-8
+    },
+    {
+      "elementId": "FJ3384",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 4.7073364095595593e-8
+    },
+    {
+      "elementId": "FJ3387",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 2.3441314667138613e-8
+    },
+    {
+      "elementId": "FJ3391",
+      "source": "Somakine official pinned GLB",
+      "maxBoundsDeltaMetres": 5.8364868271709724e-8
+    }
+  ],
+  "maximumDeltaMetres": 0.0001499231338499829
+}

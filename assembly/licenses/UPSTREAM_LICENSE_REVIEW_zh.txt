@@ -1,0 +1,37 @@
+官方许可核对日期：2026-10-17（本次交付来源核对，不是法律确权意见）
+
+1. BodyParts3D 官方许可页于 2025-02-27 更新，当前将数据库标为
+Creative Commons Attribution 4.0 International（CC BY 4.0），允许符合条件的
+获取、再分发和改编。本次直接取自该当前官方分发或其明确标注来源的官方
+Somakine 衍生资源，不能据此把其他来源或历史分支自动改标为 CC BY 4.0。
+官方许可：https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+官方数据说明：https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/README_e.html
+官方分发：https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
+
+保留的完整署名为：
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+
+2. Somakine 框架代码为 MIT；其 @somakine/bodyparts3d-musculoskeletal
+数据包及衍生模型仍为 CC BY 4.0，不会因为框架的 MIT 许可而改为 MIT。
+本次保留每项来源、许可链接、转换说明和哈希。当前确认的 CC BY 4.0
+不要求相同方式共享；不能把这一结论套用于未经核对的 CC BY-SA 历史衍生物。
+官方仓库：https://github.com/ivershuo/somakine
+固定提交：179ed2c33a4a519027c6657f2c465bd1b66f9cd9
+官方声明：https://github.com/ivershuo/somakine/blob/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/NOTICE
+数据包说明：https://github.com/ivershuo/somakine/blob/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/README.md
+来源记录：https://github.com/ivershuo/somakine/blob/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/source-manifest.json
+原包记录：https://github.com/ivershuo/somakine/blob/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/upstream-manifest.json
+
+3. 本次把原交付拼接用的全部 495 个未知转换二进制网格弃用，重新生成。
+358 项取自固定提交的官方 GLB；137 项取自官方 BodyParts3D IS-A OBJ 原包。
+23 个下载 GLB 全部匹配固定提交的 Git blob 标识，其中 17 个同时匹配官方
+source-manifest 所列 SHA-256；另外 6 个的固定 Git 树来源和本地 SHA-256
+单列记录，未虚称所有文件均在同一 manifest 内。
+官方 OBJ 原包的字节数及 SHA-256 匹配固定官方 upstream-manifest：
+142903898 bytes
+40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e
+
+4. 本核对不自动覆盖课程文字、原品牌、教学图片、数字助教形象、其他软件
+及外部网站；这些材料须按其各自来源处理。原包说明中单方面声称的来源或
+许可，不作为未知文件已获授权的证明。静态解剖网格的开放许可，也不证明
+关节配准、肌力计算、动作链或真实步态具有科学有效性。

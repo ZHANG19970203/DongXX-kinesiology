@@ -1,0 +1,29 @@
+Current delivery: Dongxiaoxue static anatomy migration, 2026-10-17.
+
+All 495 mesh entries from the supplied assembly binary were discarded. The new
+binary contains 358 freshly imported official Somakine GLB elements and 137
+freshly converted official BodyParts3D OBJ elements. No supplied Human Atlas
+optimized mesh bytes are redistributed. The retained task labels and teaching
+flow are separate from the newly sourced geometry.
+
+The assembly has 11 body-region chapters, 118 bone definitions and 101 muscle
+definitions. Reused structures can occur in more than one chapter; these are
+not counts of independent anatomical structures or of the 13-course navigation.
+
+Source manifests, exact official URLs, fixed Somakine commit, source archive
+hashes, element IDs, transforms and local SHA-256 digests are recorded in
+ASSET_PROVENANCE.json. The source anatomy and these adaptations retain CC BY 4.0.
+
+All geometry uses Y-up metre coordinates. Four zero-area source vertices in
+FJ1275 have a deterministic unit Y normal solely for stable lighting; positions
+and source triangle indices are unchanged. No new anatomical mirror, measured
+joint centre, motion chain or muscle-force model was inferred.
+
+Static rigid placement and geometric reference samples are learning aids.
+They are not clinical landmarks, patient-specific attachment coordinates,
+clinical joint registration, muscle dynamics, tissue deformation or real gait.
+
+Historical upstream source manifests are preserved as evidence and may describe
+the upstream pack's own coverage and transformations. Their counts do not
+describe this application. See GEOMETRY_VERIFICATION.json and
+COORDINATE_VERIFICATION.json for this build's executable checks.

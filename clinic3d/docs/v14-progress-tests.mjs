@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {migrateProgress} from '../progress-migration.js';
+import {FLOW} from '../case-flow.js';
+const original={caseId:'cai',node:'pressure_compare',history:[{text:'旧对白'}],visited:['welcome','arch_intro','pressure_compare'],evidence:['goal','arch_record'],events:[{id:'v13.event'}],records:[],taskReceipts:{alignment:{scope:'teaching-operation-only'}},taskState:{nodeId:'pressure_compare',phase:.583,pressureMode:'maximum',values:{region:'中足',dynamicMin:.2,dynamicMax:.4}},barefootPrepared:true,choiceLock:null};
+const before=JSON.stringify(original),copy=migrateProgress(original,'v13',FLOW,'2026-10-18');
+assert.equal(JSON.stringify(original),before);assert.deepEqual(copy.taskState,original.taskState);assert.deepEqual(copy.evidence,original.evidence);assert.deepEqual(copy.history,original.history);assert.deepEqual(copy.events,original.events);assert.equal(copy.barefootPrepared,true);assert.equal(FLOW[copy.node].act,'act6');
+assert.deepEqual(copy.records[0].newLearningNotPerformed,['muscle_match','arch_compare']);assert.equal(copy.taskReceipts.muscle_match,undefined);assert.equal(copy.taskReceipts.arch_compare,undefined);
+const safe=migrateProgress({...original,node:'safe_finish',exitLock:true,exitReason:'decline_stop',completedAt:'2026-10-18'},'v12',FLOW,'now');assert.equal(safe.exitLock,true);assert.equal(safe.exitReason,'decline_stop');assert.equal(safe.completedAt,'2026-10-18');
+const early=migrateProgress({...original,node:'local_intro'},'v13',FLOW,'now');assert.equal(early.records.length,0);
+const report={schema:'v14-progress-tests',passed:true,tests:4,retained:['node','history','evidence','events','taskState.phase','taskState.mode','taskState.values','barefootPrepared','safeExit','completion'],noUnseenReceipts:true,limits:'Pure migration fixture. Browser actual storage and resume require separate check.'};
+if(process.argv[2])fs.writeFileSync(process.argv[2],JSON.stringify(report,null,2));
+console.log(JSON.stringify(report));

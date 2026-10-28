@@ -1,0 +1,27 @@
+{
+  "format": "dxx-gait-teaching-sources-v1",
+  "checkedAt": "2026-10-18",
+  "dataClassification": "original_authored_teaching_case_not_measured",
+  "references": [
+    {
+      "id": "cheng2023-gait-definitions",
+      "title": "Impacts of gait biomechanics of patients with thoracolumbar kyphosis secondary to Scheuermann’s disease",
+      "publication": "Frontiers in Bioengineering and Biotechnology, original research, 2023",
+      "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2023.1192647/full",
+      "doi": "10.3389/fbioe.2023.1192647",
+      "usedFor": "Table 2: operational definitions of step length, stride length, step width, step time, stride time, stance time, swing time and gait speed.",
+      "notUsedFor": "No study data, group norms, joint trajectories or disease-specific results are used in the teaching case. This study is not about chronic ankle instability."
+    },
+    {
+      "id": "ankle-cop-control2021",
+      "title": "Ankle muscles drive mediolateral center of pressure control to ensure stable steady state gait",
+      "publication": "Scientific Reports, original research, 2021",
+      "url": "https://www.nature.com/articles/s41598-021-00463-8",
+      "doi": "10.1038/s41598-021-00463-8",
+      "usedFor": "Methods distinguish segment-mass-weighted whole-body CoM from force-plate-derived CoP. The case therefore labels its authored pelvis marker as a body-reference proxy rather than a whole-body CoM measurement.",
+      "notUsedFor": "No force data, CoP data or segment masses from this paper are imported."
+    }
+  ],
+  "assetPolicy": "No third-party figures, meshes, datasets, text passages, motion recordings or kinematic chains were copied into this gait lesson. References support definitions only.",
+  "clinicalReview": "pending_teacher_review_not_clinically_validated"
+}

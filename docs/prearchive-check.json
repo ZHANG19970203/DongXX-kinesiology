@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "html": {
+      "files": 7,
+      "engine": "html5lib 1.1 and stdlib structure"
+    },
+    "htmlReferences": 76,
+    "javascript": {
+      "files": 13,
+      "inlineBlocks": 0,
+      "engine": "node --check"
+    },
+    "geometry": {
+      "assets": 495,
+      "chapters": 11,
+      "bytes": 57602304,
+      "sha256": "2bd19be832f9467917e7ecff29a3c97cd62d925cdeb75183b283b975b1036661"
+    },
+    "curriculumEntries": 13,
+    "runtimeExclusionScan": "completed",
+    "fileManifest": "not yet generated"
+  },
+  "issues": [],
+  "limits": [
+    "Checks do not certify clinical kinematics, legal ownership or national application readiness.",
+    "UI smoke tests are recorded separately; this script parses and verifies local payloads."
+  ]
+}

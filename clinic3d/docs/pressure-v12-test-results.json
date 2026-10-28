@@ -1,0 +1,49 @@
+{
+  "suite": "pressure-v12-numerical-invariants",
+  "passed": true,
+  "checks": [
+    {
+      "name": "COP is force weighted rather than an unweighted average; zero load is null",
+      "passed": true
+    },
+    {
+      "name": "Across three walking cycles: forces non-negative, conserved; swing COP is null",
+      "passed": true
+    },
+    {
+      "name": "Stance anchors fixed on walkway; absolute cycles advance one stride without teleporting support foot",
+      "passed": true
+    },
+    {
+      "name": "Pressure foot anchors match actor local targets rotated by root yaw pi, on the correct side",
+      "passed": true
+    },
+    {
+      "name": "During same foot contact COP moves from heel region toward forefoot; lifted foot has no trace point",
+      "passed": true
+    },
+    {
+      "name": "Static feet do not walk; COP stays in a small region instead of a heel-to-toe gait trajectory",
+      "passed": true
+    },
+    {
+      "name": "Custom standing foot anchors align the map to actual actor foot bones",
+      "passed": true
+    },
+    {
+      "name": "Low arch illustration broadens midfoot contact; five toes and heel retain distinct original geometry",
+      "passed": true
+    },
+    {
+      "name": "MPP explicitly non-simultaneous, no fake total force or COP; never confused with instantaneous frame",
+      "passed": true
+    },
+    {
+      "name": "SVG mode labels separate stance/instantaneous/MPP; cellular fill batched into paths",
+      "passed": true
+    }
+  ],
+  "syntheticData": true,
+  "clinicalValidation": false,
+  "checkedAt": "2026-10-18T07:00:52.102Z"
+}

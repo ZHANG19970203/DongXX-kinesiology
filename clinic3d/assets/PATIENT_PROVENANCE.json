@@ -1,0 +1,35 @@
+{
+  "schema": "dxx-asset-provenance-v1",
+  "asset": "patient.glb",
+  "sourceRepository": "https://github.com/makehumancommunity/mpfb2",
+  "sourceCommit": "3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf",
+  "sourceAssetLicense": "CC0-1.0",
+  "sourceLicenseURL": "https://github.com/makehumancommunity/mpfb2/blob/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/LICENSE.md",
+  "assetLicenseURL": "https://github.com/makehumancommunity/mpfb2/blob/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/LICENSE.ASSETS.md",
+  "buildTool": "Blender 4.5.14 + MPFB source, build-time only; no MPFB Python program is included in the viewer",
+  "derivation": [
+    "Adult male macro settings frozen from MPFB CC0 base mesh",
+    "Official default skeletal rig and official skin weights",
+    "Height normalized to 1.75 metres",
+    "Project-authored grey shirt / charcoal shorts / hair shells",
+    "Project-authored visual eye details"
+  ],
+  "intendedUse": "One fictional visual teaching character, not a digital twin or disease-specific anatomical mesh",
+  "limitations": [
+    "No patient scan registration",
+    "No diagnosis-specific flatfoot or cavus geometry",
+    "No validated joint axes or clinical range calibration",
+    "Clinical examination motion is a separate authored and teacher-reviewed asset"
+  ],
+  "sha256": "0a0f51f466478f0d9196e9b57c6028c8daa40bb580c7373299d547c0a75aaf27",
+  "motionAsset": {
+    "file": "patient-motion.glb",
+    "sha256": "76bf711327b68b1a803fd46de493b1e34933f0f591fa27b5b75f2361918ed4d2",
+    "method": "Project-authored visual keyframes, not measured patient motion",
+    "clips": [
+      "heel_raise",
+      "idle",
+      "talk"
+    ]
+  }
+}

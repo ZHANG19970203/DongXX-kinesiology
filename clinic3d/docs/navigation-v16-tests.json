@@ -1,0 +1,172 @@
+{
+  "schema": "dxx-navigation-controller-tests-v16",
+  "generatedAt": "2026-10-25T13:47:38.945Z",
+  "passed": true,
+  "total": 13,
+  "passedCount": 13,
+  "actualFunctions": [
+    "record",
+    "persist",
+    "addEvidence",
+    "appendLine",
+    "currentAct",
+    "drawRail",
+    "navigationAccess",
+    "rememberNavigationPosition",
+    "jumpToAct",
+    "goto",
+    "choose",
+    "taskComplete",
+    "setVisual",
+    "actorPose",
+    "startPreparation",
+    "focusPreparation",
+    "updatePreparation"
+  ],
+  "results": [
+    {
+      "id": "actual-eight-stage-entries",
+      "label": "八幕映射到真实流程，入口不是教师预览",
+      "passed": true,
+      "detail": {
+        "stages": 8
+      }
+    },
+    {
+      "id": "start-directly-with-no-fake-predecessors",
+      "label": "从普通欢迎页直接跳足压，保留会话且不补前置结果",
+      "passed": true,
+      "detail": {
+        "sessionPreserved": true,
+        "onlyTargetVisited": true,
+        "missingStages": [
+          "act1",
+          "act2",
+          "act3",
+          "act4",
+          "act5"
+        ]
+      }
+    },
+    {
+      "id": "keep-earned-state",
+      "label": "跳转保留既有证据、操作收据与记录",
+      "passed": true,
+      "detail": {
+        "earnedStateUnchanged": true
+      }
+    },
+    {
+      "id": "task-bookmark-exact-restore",
+      "label": "压力操作回到原节点、相位、MPP与选择值",
+      "passed": true,
+      "detail": {
+        "node": "pressure_compare",
+        "phase": 0.91,
+        "mode": "mpp",
+        "noReceiptCreated": true
+      }
+    },
+    {
+      "id": "choice-lock-stays-locked",
+      "label": "回到已选的互斥分支，原选择保持锁定",
+      "passed": true,
+      "detail": {
+        "choiceLockPreserved": true
+      }
+    },
+    {
+      "id": "all-safety-exits-block-jumps",
+      "label": "新伤、症状加重与拒绝分支均不能被跳步绕过",
+      "passed": true,
+      "detail": {
+        "blocked": [
+          "medical_stop",
+          "symptom_stop",
+          "decline_stop"
+        ]
+      }
+    },
+    {
+      "id": "saved-safety-exit-cannot-be-resumed-via-jump",
+      "label": "未启动页面也不能跳过已保存的停止状态",
+      "passed": true,
+      "detail": {
+        "savedSafetyLocked": true
+      }
+    },
+    {
+      "id": "completed-preview-notready-and-unknown-blocked",
+      "label": "已完成、教师预览、角色未准备与未知幕次被明确拒绝",
+      "passed": true,
+      "detail": {
+        "reasons": 4
+      }
+    },
+    {
+      "id": "barefoot-preparation-required-and-not-skipped",
+      "label": "直接进入步态先实际等待脱鞋袜完成信号",
+      "passed": true,
+      "detail": {
+        "partialNotCredited": true,
+        "completedReturnsTo": "gait"
+      }
+    },
+    {
+      "id": "barefoot-continuity-through-debrief",
+      "label": "完成脱鞋袜后，回接诊与再进任务保持赤足，不瞬间穿鞋",
+      "passed": true,
+      "detail": {
+        "barefootContinuity": true
+      }
+    },
+    {
+      "id": "navigation-entry-side-effects-suppressed",
+      "label": "导航进入节点也不自动赠送检查证据或病例结果",
+      "passed": true,
+      "detail": {
+        "faultInjectedEntrySuppressed": true
+      }
+    },
+    {
+      "id": "restore-saved-session-without-reset",
+      "label": "从已保存的压力任务跳走再回来，仍是同一会话",
+      "passed": true,
+      "detail": {
+        "sessionPreserved": true,
+        "savedTaskRestored": true
+      }
+    },
+    {
+      "id": "new-round-isolates-old-safety-record",
+      "label": "另开一轮使用独立存储槽，不迁移或覆盖原停止记录",
+      "passed": true,
+      "detail": {
+        "distinctSlot": true,
+        "originalStoppedRecordPreserved": true,
+        "sameRoundRestores": true
+      }
+    }
+  ],
+  "testMethod": "Extract actual app controller functions without rewriting them; import actual case-flow and stage map. Isolated DOM/storage/actor-state doubles; actor completion signal deliberately supplied to test the control gate.",
+  "limits": [
+    "No WebGL/browser layout or real animation timing validation. Existing actor tests and browser checks cover those separately.",
+    "No clinical validation, school identity proof or paid generation."
+  ],
+  "externalRequests": 0,
+  "paidRequests": 0,
+  "testedFiles": [
+    {
+      "path": "app.js",
+      "sha256": "cc209cf566dac54e30d90143ee2f1a6fe9dd4f241d609660269e926fbcadfbe4"
+    },
+    {
+      "path": "case-flow.js",
+      "sha256": "56b599f1d9d21177ccb9f87a654c38bdd5cd650269db404ee4e47bb16781c37f"
+    },
+    {
+      "path": "test-navigation-v16.mjs",
+      "sha256": "2d32d097c3fefc5e5cd6b1889ec837e0327dcbb1a20edb002e0cda011a7fcc18"
+    }
+  ]
+}

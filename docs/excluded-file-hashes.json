@@ -1,0 +1,220 @@
+{
+  "scope": "Original mixed model runtime, anatomy/actor buffers, unproven avatar/media and replaced geometry chunks; hashes only, no payloads.",
+  "files": [
+    {
+      "path": "assembly/assets/mesh-00.bin",
+      "bytes": 4194304,
+      "sha256": "03a47d9a431bbd47b7c0b85ea02f6d7900cccc0e882bdce126ae80828e9cd1f4"
+    },
+    {
+      "path": "assembly/assets/mesh-01.bin",
+      "bytes": 4194304,
+      "sha256": "15cf8db412165e1dfa6fc0b036947ebfda3e6afb09b2e0dded7da248312c4d00"
+    },
+    {
+      "path": "assembly/assets/mesh-02.bin",
+      "bytes": 4194304,
+      "sha256": "c42acbfa71859b08367d9aae5aea53e78d8eb4b00a1c2e4905358ffe204d03b1"
+    },
+    {
+      "path": "assembly/assets/mesh-03.bin",
+      "bytes": 4194304,
+      "sha256": "52cd7ccd4fce3de0669be5b4c8546f97b391a0671ca3cfde05707289804e791b"
+    },
+    {
+      "path": "assembly/assets/mesh-04.bin",
+      "bytes": 4194304,
+      "sha256": "6b63aea6f09e8d84b4774afff79ef700b1e7c32d5e7322e6708aa9ea9b267fb4"
+    },
+    {
+      "path": "assembly/assets/mesh-05.bin",
+      "bytes": 4194304,
+      "sha256": "d715180eedb0dcc7fb8b3e86db3629675c26efd0fc3de0534d93d69ee8be1bce"
+    },
+    {
+      "path": "assembly/assets/mesh-06.bin",
+      "bytes": 4194304,
+      "sha256": "84538af3dec98bbc7ea0ebf4e5fc6043c813ae51d40e0558eb019ac15d268431"
+    },
+    {
+      "path": "assembly/assets/mesh-07.bin",
+      "bytes": 3805376,
+      "sha256": "e78bc6db31955ca56a5765ce2578e78eca9f5539f0bbb45adc3eea1f8708e5d8"
+    },
+    {
+      "path": "assets/visual/home-anatomy-mobile.webp",
+      "bytes": 85594,
+      "sha256": "f574e2f6a6d1e50e2633398ee1aa9d4f5560b266bc08541c48cc8b2cd232d68d"
+    },
+    {
+      "path": "assets/visual/home-anatomy.webp",
+      "bytes": 1448626,
+      "sha256": "d376132258f8febd312f253b2ddcb5437969d8ff24ef9087e92f2b9d1a9a2fca"
+    },
+    {
+      "path": "guide/assets/explain-fallback.webp",
+      "bytes": 175458,
+      "sha256": "1952e2524100d1c863029ce4f4c9615d3b60ab58252c2cf1196480e2ff142a96"
+    },
+    {
+      "path": "guide/assets/idle-fallback.webp",
+      "bytes": 130974,
+      "sha256": "09d82dcc7374dc8a1704d2ce1b9ee1f10f233b4f7f2d9522c85f08a9197f9d42"
+    },
+    {
+      "path": "guide/assets/model.json",
+      "bytes": 796,
+      "sha256": "d9e3ed48ae62cc77a8ab9a3a7ff935bb8274710bb9215b44729b1d55b42fe6a4"
+    },
+    {
+      "path": "guide/assets/wave-fallback.webp",
+      "bytes": 99922,
+      "sha256": "b5e5e829d38420157d9a789d304ae6d97a7f2c6c8501dcbe29f58c7060565a79"
+    },
+    {
+      "path": "guide/assets/zhixing-00.bin",
+      "bytes": 4194304,
+      "sha256": "3144b6eca84cc033dc669fc2f2a9c43e5ef47256a1caef86e89e6761b87b0e95"
+    },
+    {
+      "path": "guide/assets/zhixing-01.bin",
+      "bytes": 4194304,
+      "sha256": "3064ca1ebca6759f5296f88aa4c9abe80fc5c516d225846bbf6fe51d6cb6d736"
+    },
+    {
+      "path": "guide/assets/zhixing-02.bin",
+      "bytes": 2787400,
+      "sha256": "092e4be32f8f90e2d355fedc8c3342e1441e6de52b336352dab3e5d8082b171e"
+    },
+    {
+      "path": "guide/assets/zhixing-poster.png",
+      "bytes": 88257,
+      "sha256": "e8277adc38f140ac21495ece5711c1df1015a18a417268d86cc608528ea55764"
+    },
+    {
+      "path": "guide/avatar-engine.js",
+      "bytes": 16898,
+      "sha256": "27b1d84f650488c5454b8aa0b897bcf6742565f2be4b1cd6d2c0cb4872731a5b"
+    },
+    {
+      "path": "guide/avatar-frame.js",
+      "bytes": 3720,
+      "sha256": "db21735fb86b1a60625fa71d783c4575b6f828c4fa4f9d85c45ff8c934c10c62"
+    },
+    {
+      "path": "guide/avatar.html",
+      "bytes": 1753,
+      "sha256": "725da4797ccba2b33f2a0123f1d10552cad6609752a6fcf90da35c1950085f8e"
+    },
+    {
+      "path": "guide/guide.js",
+      "bytes": 18173,
+      "sha256": "ed6202c0b10904d8a969ca6abca5098b15ba1a7a957b9e0e8541b44405a1db7a"
+    },
+    {
+      "path": "guide/integration-checks.json",
+      "bytes": 3261,
+      "sha256": "090b11ff175426ffcf7cb1614f81520b6d23c3d788b383d702661bcdad82462a"
+    },
+    {
+      "path": "guide/INTEGRATION.md",
+      "bytes": 1840,
+      "sha256": "aebba8dd99c3ee84e6f5c463ffde4979ea1f68dfb3d92709fb1f523cd1347635"
+    },
+    {
+      "path": "guide/model-inspection.json",
+      "bytes": 2913,
+      "sha256": "663b98a3dbc97f0dbae657db22ee28b3484d0931b0cc26f24506205ba190e921"
+    },
+    {
+      "path": "guide/NOTICE.txt",
+      "bytes": 1164,
+      "sha256": "790fce2a4a11b5344df02907bc5a18def1074814665e2cad0e651cdc01034d96"
+    },
+    {
+      "path": "guide/preview-checks.json",
+      "bytes": 997,
+      "sha256": "58add046d31f3d52e3b5079d793869f0d74e1eeb82366b8197eea6b9edb8f1c6"
+    },
+    {
+      "path": "guide/preview.html",
+      "bytes": 3534,
+      "sha256": "8dc906531e4c059b46adc88dfc5e87da14a0c01960c94f6b18e14eb2749c1a50"
+    },
+    {
+      "path": "lab/assets/actor-01.bin",
+      "bytes": 1998072,
+      "sha256": "93467fbcca7a7930bd9788011ad2d186758c1e1a9f8a293444b32ff2dd5758d8"
+    },
+    {
+      "path": "lab/assets/anatomy-01.bin",
+      "bytes": 4194304,
+      "sha256": "890f86d726d097c3e427835bc982f5a217604883ce96b4cce3f0ef09261721d9"
+    },
+    {
+      "path": "lab/assets/anatomy-02.bin",
+      "bytes": 4194304,
+      "sha256": "600adcbe09b528294c7d4a10b336768f6e196490b728ef28c7654e59e76ee7fb"
+    },
+    {
+      "path": "lab/assets/anatomy-03.bin",
+      "bytes": 4194304,
+      "sha256": "f3f3e369075633bfa8e488b2388ce609eb3ef830f4daf9f7602b5af636554294"
+    },
+    {
+      "path": "lab/assets/anatomy-04.bin",
+      "bytes": 4194304,
+      "sha256": "4688229a05d5508a5c6ec9963a979b0a35bc0cc3bb0656e62de02bb4af7c65d4"
+    },
+    {
+      "path": "lab/assets/anatomy-05.bin",
+      "bytes": 4194304,
+      "sha256": "2d83ae4368007bbf55b525833d04f31652ea8a074b649f00ae4c10c2015a0e0a"
+    },
+    {
+      "path": "lab/assets/anatomy-06.bin",
+      "bytes": 4194304,
+      "sha256": "3761d6142971ae763f28085ad64eaddcccec4f2c107e2631a7c6face08b4d831"
+    },
+    {
+      "path": "lab/assets/anatomy-07.bin",
+      "bytes": 29256,
+      "sha256": "79cea56c95ee6d250d23789bb1b0ae16d2530789bf2203f51e60a9a811b4be56"
+    },
+    {
+      "path": "lab/assets/app-data.json",
+      "bytes": 1687942,
+      "sha256": "fcfb29bc3f292c8c6ade39df395c7c3ba830c0b5c98cd488262e76f7b6346491"
+    },
+    {
+      "path": "lab/assets/app.js",
+      "bytes": 300122,
+      "sha256": "10750ec94aaedef92da4591603db2aaa011fc5327984b7c2328d4fc437428550"
+    },
+    {
+      "path": "lab/assets/deploy-manifest.json",
+      "bytes": 3122,
+      "sha256": "840e4ab41d09015a0b76c79f4028ecf5716316ca407b0cfb72c02b573712dac3"
+    },
+    {
+      "path": "lab/assets/loader.js",
+      "bytes": 6893,
+      "sha256": "22abbbef4a0cda59c97a394b7ab2bc6efc3b5ded7f31d41c0c1aaefa8c508a3a"
+    },
+    {
+      "path": "lab/assets/native-01.bin",
+      "bytes": 4194304,
+      "sha256": "668a87de59662d9ec2198f9e4c900efc03217326d1fc4531a425dc2a988a5bd4"
+    },
+    {
+      "path": "lab/assets/native-02.bin",
+      "bytes": 2336984,
+      "sha256": "79952c1b7a8186b11a7c13980c9b94f0f93817ff13149074c6e410a20ad3e98b"
+    },
+    {
+      "path": "lab/index.html",
+      "bytes": 59681,
+      "sha256": "73dca6f2cb0767815cc62e93f9622dce9bb575a8a45650dee9cfe0abc3c06586"
+    }
+  ]
+}

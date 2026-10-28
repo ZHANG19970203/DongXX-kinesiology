@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "method": "Four actual browser-downloaded reports parsed and compared against bundled source case.",
+  "moduleRecords": 1,
+  "mergedPressureRecords": 1,
+  "sameSourceSnapshotInMergedJSON": true,
+  "savedFrame": 50,
+  "sameFootComparisonFrames": [
+    25,
+    50
+  ],
+  "threshold": 3754.65,
+  "sourceArraysAndCoPExact": true,
+  "quiz": {
+    "correctCount": 3,
+    "openExplanationAutoGraded": false
+  },
+  "html": [
+    {
+      "file": "module-html",
+      "html5ParseErrors": 0,
+      "userTextEscaped": true,
+      "sourceAndLicenseRetained": true
+    },
+    {
+      "file": "merged-html",
+      "html5ParseErrors": 0,
+      "userTextEscaped": true,
+      "sourceAndLicenseRetained": true
+    }
+  ],
+  "files": [
+    {
+      "name": "module-json",
+      "bytes": 9395,
+      "sha256": "5ceb394ab16a1337fc7c18dcf52bff2505e31d89d20457e6217b6cf5365997d1"
+    },
+    {
+      "name": "module-html",
+      "bytes": 6338,
+      "sha256": "54c5d1e8ceaaee6a2e2609d48c81df0ee700ebeba85a62dcad3ec98ae87f37fe"
+    },
+    {
+      "name": "merged-json",
+      "bytes": 9872,
+      "sha256": "523bc2167047cd54649a11cc36cd21e5922aaf656e6c434683fb77780118be6e"
+    },
+    {
+      "name": "merged-html",
+      "bytes": 12381,
+      "sha256": "133348609cdc029a06e527276bda0de53b6c48abce596406dcd515073d639c84"
+    }
+  ],
+  "testRecordsBundled": false
+}

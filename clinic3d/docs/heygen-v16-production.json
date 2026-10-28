@@ -1,0 +1,62 @@
+{
+  "schema": "dxx-heygen-production-v16",
+  "status": "processing",
+  "recordedAt": "2026-10-18T09:42:37.047886+00:00",
+  "sessionId": "7f7ec3fa179b4a7ebafddfc2ce519cc3",
+  "sessionUrl": "https://app.heygen.com/video-agent/7f7ec3fa179b4a7ebafddfc2ce519cc3",
+  "jobsSubmitted": 1,
+  "submissionAttempts": 2,
+  "firstAttempt": {
+    "result": "tool_parameter_error",
+    "sessionListVerifiedEmpty": true,
+    "newVideoListVerifiedEmpty": true,
+    "duplicateJobCreated": false
+  },
+  "successfulAttempt": {
+    "result": "generation_started",
+    "request": "Compact reviewed dialogue and scene constraints, one 6–8 minute full production"
+  },
+  "requestedDurationSeconds": [
+    360,
+    480
+  ],
+  "actualDurationSeconds": null,
+  "videoId": null,
+  "downloadedVideo": false,
+  "scriptVersion": "16.0.2",
+  "scriptSHA256": "607ada7c0553d468e7a67df6ae067fdc2ce0a034b62f23b3b05abcd0e11e2242",
+  "characters": {
+    "therapist": "fictional adult male, navy top and trousers, closed shoes",
+    "patient": "fictional adult female,28,Chen"
+  },
+  "importedAssets": [
+    {
+      "id": "f2570ef23df04900933b13527bcbc1c9",
+      "source": "Original project guide screenshot",
+      "license": "Original course UI/content scope"
+    },
+    {
+      "id": "f337b4906db44ed69f10b39347688b6d",
+      "source": "Original UI screenshot of authorized BodyParts3D anatomy teaching model",
+      "license": "BodyParts3D CC BY4.0 attribution required; program separately licensed"
+    }
+  ],
+  "accountCreditsBefore": 600,
+  "creditsConsumed": null,
+  "billingNote": "No returned exact charge or final balance yet; do not infer zero charge or promise a price.",
+  "privateStudentOrPatientDataUploaded": false,
+  "credentialsUploaded": false,
+  "clinicalValidated": false,
+  "review": {
+    "scriptTwoPasses": true,
+    "renderedVideoViewed": false,
+    "renderedAudioCompared": false,
+    "durationChecked": false,
+    "wardrobeChecked": false
+  },
+  "limits": [
+    "Only creation initiation is confirmed; it is not a delivered finished video.",
+    "Native HeyGen session/player tracks completion. Do not resubmit to check progress.",
+    "Do not label generated examination actions as clinically accurate."
+  ]
+}

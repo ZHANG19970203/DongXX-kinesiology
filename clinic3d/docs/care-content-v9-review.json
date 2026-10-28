@@ -1,0 +1,299 @@
+{
+  "version": "v9-care-and-explanation-1",
+  "date": "2026-10-18",
+  "scope": [
+    "case-flow.js",
+    "docs/care-content-v9-review.json"
+  ],
+  "nodeIdsPreserved": true,
+  "newNodes": [],
+  "summary": [
+    "治疗师接待先邀请落座、倾听困扰；以生活目标串起六幕。",
+    "体能任务前先用日常语言解释为什么看、看什么、怎样暂停。",
+    "回应怕再崴、怕错位、足弓疑虑与平衡恐惧，避免绝对保证。",
+    "每个节点均补齐目的、运动学概念、患者意义、操作步骤和关怀提示。",
+    "任务教育字段与对白节点统一；前端可分段呈现而非一次塞入长段文字。",
+    "保留拒绝、新伤、症状停止路径，未做不记正常。",
+    "保持低足弓不是唯一病因、COP不是重心或病因证明、平衡单次不能定位感觉损伤。",
+    "计划选择由已获得的证据支持；邀请复述是在核对解释，不是在考患者。"
+  ],
+  "fieldContract": {
+    "purpose": "string, education.why 的简短别名",
+    "education": [
+      "why",
+      "concept",
+      "patientMeaning",
+      "steps[]",
+      "care",
+      "sourceIds[]"
+    ],
+    "taskEducation": "同一节点 education 对象，避免两套解释漂移",
+    "sources": "CONTENT_SOURCES；来源支持教学原则，不背书该虚构病例病因"
+  },
+  "clinicalKnowledge": [
+    "背屈/跖屈与负重时小腿相对足前移",
+    "测量参考标志、体位和同法试次一致性",
+    "代偿会改变试次条件",
+    "同足接地到离地的支撑阶段与摆动阶段",
+    "运动学描述与力量/组织病因推断的边界",
+    "足弓形态、分布接触与压力中心的区别",
+    "COP为接触合力作用位置，不能直接替代重心轨迹",
+    "感觉信息、力量与策略共同参与姿势控制",
+    "目标—评估—共同计划—同法复评"
+  ],
+  "sources": [
+    {
+      "id": "jospt_las_cai_2021",
+      "title": "JOSPT：踝关节外侧韧带扭伤与慢性踝关节不稳临床实践指南（2021）",
+      "url": "https://www.jospt.org/doi/10.2519/jospt.2021.0302",
+      "publisher": "Journal of Orthopaedic & Sports Physical Therapy",
+      "doi": "10.2519/jospt.2021.0302",
+      "checked": "2026-10-18",
+      "supports": "结合既往处理、扭伤次数、功能和动态任务综合评估；依据检查发现选择干预，并复评。未据此证明本虚构病例的具体病因。"
+    },
+    {
+      "id": "nice_shared_decision_ng197",
+      "title": "NICE NG197：共同决策建议",
+      "url": "https://www.nice.org.uk/guidance/ng197/chapter/recommendations",
+      "publisher": "NICE",
+      "checked": "2026-10-18",
+      "supports": "围绕患者在意的目标讨论检查与选择，分段解释并邀请复述；患者可以选择不接受某项处理。"
+    },
+    {
+      "id": "original_teaching_design",
+      "title": "本课程原创教学设计与虚构病例",
+      "url": null,
+      "publisher": "本地课程制作",
+      "checked": "2026-10-18",
+      "supports": "病例、事件时标、交互任务、合成足压与对白为教学编排，不是临床采集数据。"
+    }
+  ],
+  "audit": {
+    "nodeCount": 41,
+    "edgeCount": 75,
+    "reachableCount": 41,
+    "unreachable": [],
+    "dangling": [],
+    "missingEducation": [],
+    "taskNodeCount": 14,
+    "educationNodeCount": 41,
+    "routeChecks": {
+      "normal": {
+        "nodeCount": 37,
+        "valid": true
+      },
+      "refusal": {
+        "nodeCount": 11,
+        "valid": true
+      },
+      "new_injury": {
+        "nodeCount": 6,
+        "valid": true
+      },
+      "symptom_stop": {
+        "nodeCount": 3,
+        "valid": true
+      },
+      "decline_balance": {
+        "nodeCount": 9,
+        "valid": true
+      }
+    },
+    "safety": {
+      "safeFinishTerminal": true,
+      "safeFinishFlag": true,
+      "ordinaryFinishTerminal": true,
+      "patientDeclineEvidence": true,
+      "alignmentGate": true,
+      "gaitGate": true,
+      "pressureGate": true,
+      "balanceGate": true,
+      "mobilityEvidenceGate": true
+    },
+    "pass": true,
+    "baselineContractComparison": {
+      "baselineArchive": "C:\\Users\\张积众\\Documents\\Codex\\2026-10-17\\referenced-chatgpt-conversation-this-is-an\\outputs\\dongxiaoxue_realtime_clinic_v8_20261018.zip",
+      "baselineEntry": "clinic3d/case-flow.js",
+      "baselineSha256": "b83cd9aae6d14bfb854d3d9d73e32daf13c220a6a983ec9b8f5a1b57985fe6d5",
+      "identicalNodeAndGateContracts": true,
+      "changedContractNodeIds": [],
+      "excludedFromComparison": [
+        "dialogue text",
+        "patient cue",
+        "task instructions",
+        "event display labels",
+        "new education fields",
+        "content contract version"
+      ]
+    },
+    "graph": {
+      "welcome": [
+        "history"
+      ],
+      "history": [
+        "trigger_answer",
+        "history",
+        "history"
+      ],
+      "trigger_answer": [
+        "safety"
+      ],
+      "safety": [
+        "safety_answer",
+        "safety",
+        "medical_stop"
+      ],
+      "safety_answer": [
+        "goal"
+      ],
+      "goal": [
+        "goal_answer",
+        "goal"
+      ],
+      "goal_answer": [
+        "consent"
+      ],
+      "consent": [
+        "consent_reply",
+        "consent"
+      ],
+      "consent_reply": [
+        "local_intro",
+        "decline_stop",
+        "consent_reply"
+      ],
+      "local_intro": [
+        "tool"
+      ],
+      "tool": [
+        "alignment",
+        "tool",
+        "gait_intro"
+      ],
+      "alignment": [
+        "trial",
+        "alignment"
+      ],
+      "trial": [
+        "local_record",
+        "trial",
+        "trial",
+        "symptom_stop"
+      ],
+      "local_record": [
+        "local_explain"
+      ],
+      "local_explain": [
+        "gait_intro",
+        "local_explain"
+      ],
+      "gait_intro": [
+        "gait_instruction"
+      ],
+      "gait_instruction": [
+        "gait_events",
+        "gait_instruction"
+      ],
+      "gait_events": [
+        "gait_interpret"
+      ],
+      "gait_interpret": [
+        "arch_intro",
+        "gait_interpret",
+        "gait_interpret"
+      ],
+      "arch_intro": [
+        "arch_concern"
+      ],
+      "arch_concern": [
+        "pressure_conditions",
+        "arch_concern"
+      ],
+      "pressure_conditions": [
+        "pressure_compare",
+        "pressure_compare",
+        "pressure_conditions"
+      ],
+      "pressure_compare": [
+        "cop_explain",
+        "pressure_compare"
+      ],
+      "cop_explain": [
+        "balance_intro",
+        "cop_explain"
+      ],
+      "balance_intro": [
+        "balance_choice"
+      ],
+      "balance_choice": [
+        "balance_trial",
+        "plan_intro",
+        "balance_choice"
+      ],
+      "balance_trial": [
+        "balance_stop"
+      ],
+      "balance_stop": [
+        "balance_explain",
+        "symptom_stop",
+        "balance_stop"
+      ],
+      "balance_explain": [
+        "plan_intro"
+      ],
+      "plan_intro": [
+        "plan"
+      ],
+      "plan": [
+        "plan_patient",
+        "plan_patient",
+        "plan_patient",
+        "plan_patient",
+        "plan",
+        "plan"
+      ],
+      "plan_patient": [
+        "teachback"
+      ],
+      "teachback": [
+        "debrief",
+        "teachback"
+      ],
+      "debrief": [
+        "uncertainty"
+      ],
+      "uncertainty": [
+        "transfer",
+        "uncertainty"
+      ],
+      "transfer": [
+        "finish",
+        "transfer"
+      ],
+      "finish": [],
+      "medical_stop": [
+        "safe_finish",
+        "medical_stop"
+      ],
+      "symptom_stop": [
+        "safe_finish"
+      ],
+      "decline_stop": [
+        "safe_finish"
+      ],
+      "safe_finish": []
+    },
+    "reproduction": "Import case-flow.js as an ES module, collect next and options[].next, breadth-first traverse from START_NODE, require every target to exist and all 41 nodes to be reachable. Verify each node education contains why/concept/patientMeaning/steps/care and each task reuses it. Baseline signature compares node IDs, act/kind, jump targets, visual mode, evidence/record, task criteria/targets/phases and option gates against the v8 archive."
+  },
+  "preservedContracts": {
+    "gates": "requiresTask/requiresEvidence/evidence/record/next/option IDs 未有意改动",
+    "taskPhases": "gait authored phases and tolerances preserved: 0.08±0.06 and 0.62±0.07",
+    "graph": "No new nodes; no navigation mapping changes"
+  },
+  "remainingReview": [
+    "新增对白与运动学解释需足踝专业教师审阅；本次为内容和图契约审查。",
+    "脚本中的操作步骤不代表通用三维角色已实现临床准确接触、关节配准或保护手位。",
+    "合成足压与作者编排步态不产生患者实测值或临床诊断。",
+    "未提交 HeyGen、上传或付费制作请求。"
+  ]
+}

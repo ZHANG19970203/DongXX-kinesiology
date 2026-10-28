@@ -1,0 +1,1 @@
+v22新增图示：soap/explorers.js、explorers-data.js、explorers.css为项目原创代码与矢量教学示意。没有导入新的第三方网格、压力图或论文插图。医学事实以soap/references.json列明依据；文献链接不等于图版再授权。既有BodyParts3D、人物、用户视频与音频许可边界沿用原清单。

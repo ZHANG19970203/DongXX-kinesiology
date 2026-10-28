@@ -1,0 +1,23 @@
+{
+  "format": "dxx-v14-script-content-contract",
+  "acts": 8,
+  "clinicalSources": 11,
+  "methodSources": 10,
+  "longestUtteranceCharacters": 37,
+  "checks": {
+    "eightActKeys": true,
+    "eightOrderedScenes": true,
+    "uniqueTaskTypes": true,
+    "conciseTeacherNarration": true,
+    "allHaveLearningAndInferenceLimits": true,
+    "allClinicalSourcesResolve": true,
+    "methodSourcesResolve": true,
+    "consistentSpeakerRoles": true,
+    "retainedHistory": true,
+    "noClaimOfLiveResistance": true,
+    "noClinicalMeasurementClaim": true,
+    "dialogueIsSequential": true
+  },
+  "passed": true,
+  "scope": "Pure script data, references and explicit teaching boundaries only; not browser or clinical validation."
+}

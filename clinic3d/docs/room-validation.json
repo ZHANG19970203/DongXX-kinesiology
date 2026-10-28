@@ -1,0 +1,65 @@
+{
+  "schema": "dxx-room-layout-validation-v7",
+  "date": "2026-10-18",
+  "json": "pass",
+  "svg_xml": "pass",
+  "room_area_m2": 27,
+  "zone_count": 7,
+  "object_bounds_checked": [
+    "desk",
+    "patient_stool_b",
+    "exam_bed",
+    "operator_clearance",
+    "trolley",
+    "pressure_plate",
+    "approach_transition",
+    "exit_transition",
+    "south_clear_remainder",
+    "shelf",
+    "demo_position",
+    "wall_lunge_clearance"
+  ],
+  "svg_json_rectangle_matches": {
+    "desk": true,
+    "patient_stool_b": true,
+    "exam_bed": true,
+    "operator_clearance": true,
+    "trolley": true,
+    "pressure_plate": true,
+    "approach_transition": true,
+    "exit_transition": true,
+    "south_clear_remainder": true,
+    "shelf": true,
+    "demo_position": true,
+    "wall_lunge_clearance": true
+  },
+  "coordinate_checks": {
+    "wall_lunge_bounds_xy": [
+      1.2,
+      0.0,
+      2.45,
+      1.45
+    ],
+    "backup_stool_bounds_xy": [
+      3.895,
+      2.275,
+      4.345,
+      2.725
+    ],
+    "backup_stool_protection_overlap": false,
+    "backup_stool_shelf_overlap": false,
+    "wall_lunge_desk_overlap": false,
+    "wall_lunge_door_sweep_overlap": false,
+    "marked_observation_length_m": 2.5,
+    "balance_mat_matches_central_temporary_position": true,
+    "east_clinician_protection_matches": true
+  },
+  "external_images": 0,
+  "embedded_scripts": 0,
+  "browser_reviewed": false,
+  "clinical_or_building_compliance_certified": false,
+  "hashes": {
+    "room-layout.svg": "e53ac9c5924fa8151cab977e32a687fa9e495ecf876c0c923c5704d6f107915c",
+    "room-feasibility.json": "d7426ed5ebc5a506794494a0d375dd703733e5661020c100b550ed1d8924d4a9"
+  }
+}

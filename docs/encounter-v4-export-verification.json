@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "Actual IAB downloads from synthetic QA sessions; not real student outcomes",
+  "files": [
+    "足踝接诊_cai_CLINIC_QA_04_2026-10-18.json",
+    "学习记录-2026-10-18T01-13-19-465Z.json",
+    "学习会话-2026-10-18T01-13-19-809Z.csv",
+    "学习回顾报告-2026-10-18T01-13-20-141Z.html",
+    "动小学_CLINIC_QA_04_合并记录.json",
+    "动小学_CLINIC_QA_04_学习报告.html"
+  ],
+  "sessionId": "enc.mvd4o96f.3inw9hm2",
+  "studentEvents": 105,
+  "serverEventsForSameSession": 105,
+  "coverage": {
+    "asked": 12,
+    "essentialAsked": 7,
+    "essentialTotal": 7
+  },
+  "summaryExactMatch": true,
+  "mergedHomeExportMatch": true,
+  "caseSnapshotMatch": true,
+  "htmlEscaping": "passed",
+  "html5ExportParsing": "passed",
+  "teacherCsvRows": 2
+}

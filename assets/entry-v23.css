@@ -1,0 +1,30 @@
+/* Sunny green entry theme. Decorative artwork is not a measurement model. */
+body{background:linear-gradient(180deg,#fbfdf7,#edf7ef);color:#204d3c}
+body[data-hub-view=login]{background:#f4f9ef;color:#204d3c}
+body[data-hub-view=login] .site-header,.site-header{background:#f7fbf2;color:#204d3c;border-color:#d4e6d6}
+body[data-hub-view=login] .brand,body[data-hub-view=login] .brand b{color:#204d3c}
+body[data-hub-view=login] .brand small{color:#557562}
+.site-header .brand-mark{background:linear-gradient(135deg,#277e4e,#589c53);box-shadow:0 8px 24px #31744020}
+.site-header nav button{color:#315e45;border-color:#cfe1ce;background:#ffffffd9}
+.login-immersive{min-height:calc(100vh - 90px);background:#e7f3e6;border-color:#d8e8d4;box-shadow:0 15px 52px #466f3612}
+.motion-scene{background:#eaf4e7}.login-immersive .scene-art{object-fit:cover;object-position:center}
+.scene-trails{display:none}
+.login-immersive .entry-card{background:linear-gradient(145deg,#fffffff2,#f4faeff2);color:#224b37;border:1px solid #fff;box-shadow:0 20px 65px #355e3928;backdrop-filter:blur(14px)}
+.login-immersive .entry-card p,.login-immersive .entry-card label{color:#4e705a}
+.login-immersive .entry-card h2{color:#204d35}.entry-card .eyebrow{color:#4e7957}
+.login-immersive .entry-card input{background:#ffffffed;border:1px solid #bfd6c0;color:#204b34}
+.entry-card input::placeholder{color:#738d79}.entry-card input:focus{border-color:#398456;box-shadow:0 0 0 3px #438a5420;outline:none}
+.login-immersive .primary,.learning-card .primary,.home-greeting button{background:linear-gradient(110deg,#267b4b,#498b45);color:white;box-shadow:0 8px 20px #347b4828;border:0}
+.login-immersive .primary:hover{background:linear-gradient(110deg,#20683f,#38783a)}
+.role-tabs{display:flex;gap:4px;border-bottom:1px solid #d1e3cf;margin-bottom:22px;padding-bottom:10px}
+.role-tabs button{flex:1;background:transparent;border:0;color:#526e57;padding:10px}
+.role-tabs button[aria-pressed=true]{background:#deedda;border-radius:8px;color:#245534;font-weight:650}
+.teacher-entry-note{font-size:12px;line-height:1.7}#studentFields[hidden],#teacherFields[hidden]{display:none}
+body[data-hub-view=login] .notice,body[data-hub-view=login] footer{display:none}
+.scene-signature{background:#fafff3e8;border-color:#fff;color:#315b39}.scene-signature span{color:#315e3b}.scene-signature small{color:#57755a}
+.motion-switch{color:#376242;background:#fbfff4e8;border-color:#d5e7cf}
+.assistant-welcome img{object-fit:cover;border-radius:14px}.entry-card .soap-route-strip{color:#3d6848;background:#eff6e9}.soap-route-strip span{background:#e5f0df;color:#365f3e}
+.entry-privacy,.entry-privacy summary{color:#59735e}.entry-privacy p{color:#4f6c54;background:#f3f8ef;border-color:#d6e4cf}
+.home-hero{background:#edf6e9;border-color:#d4e5cc}.home-greeting{background:linear-gradient(90deg,#f3faefef,#f8fcf1b0)}.home-greeting h1{color:#285237}.home-greeting p{color:#537157}
+.section-title h2,.learning-card h3{color:#285237}.learning-card{border-color:#d5e3cf}.learning-card p{color:#58745e}
+.scene-art{animation:hero-breathe 16s ease-in-out infinite alternate}@keyframes hero-breathe{to{transform:scale(1.035)}}html[data-home-motion=off] .scene-art{animation:none}@media(prefers-reduced-motion:reduce){.scene-art{animation:none}}

@@ -1,0 +1,51 @@
+足底压力 v12 API（原创合成教学模块）
+
+入口：pressure-engine.js（纯ES module，只有gait-lesson.js依赖）
+
+sampleStanding(time01, options={arch:'low', origin:{x:-.1,z:1.05}, stepWidth:.14,
+  centres:{left:{x,z},right:{x,z}}})
+  time01的0..1表示编写的8秒站立观察。feet不移动；当下接触载荷小幅变化。
+  centres可直接传入角色左右foot骨骼的世界位置，优先于origin/stepWidth。
+  不输出CoM。combinedCop是当前双足压力加权COP，不是骨盆点或身体重心。
+
+sampleWalking(absoluteCycle, options={profile:GAIT_CASE, arch:'low', origin:{x:-.1,z:1.45}})
+  absoluteCycle接受0..2等连续值，不在每个周期把地面坐标跳回起点。
+  角色root应同步使用z=origin.z-absoluteCycle*profile.strideLength。
+  角色朝向π：当前演员的local target.x=-foot.lateral，旋转后右侧为世界+X，前进方向为世界-Z。
+  各足接触锚点来自同一sampleGait，取floor(absoluteCycle)恢复绝对行进位置。
+
+两个sample返回：
+  {kind, sourceType:'authored_synthetic_teaching_data', measured:false,
+   phase, timeSeconds, feet:[footLeft,footRight], cells, totalForce, combinedCop:{x,z}|null}
+  foot={side:'left'|'right',arch,contact,load,stanceProgress:number|null,
+    centre:{x,z},footForward,cells,copLocal:{lateral,forward}|null,copWorld:{x,z}|null}
+  cell={key,lateral,medial,forward,area,force,pressure,world:{x,z}}
+  相同格点面积0.005*0.005 m²；force为合成归一化接触权重。
+  pressure=force/0.012只为固定相对色标，并非kPa；可大于1，颜色端点会截取。
+  cell.forward范围约-0.06..0.22m；footbone中心为局部原点。
+  world.x=centre.x+cell.lateral；world.z=centre.z-cell.forward。
+  摆动足load=0、所有cell.force=0、copLocal=null、copWorld=null。
+
+pressureCOP(cells, world=false)
+  根据当前cell.force加权；zero/null接触时返回null。负数或无穷力抛RangeError。
+  world=false返回{lateral,forward}，world=true返回{x,z}。
+  COP=sum(position_i*force_i)/sum(force_i)。同面积传感单元可等价压力加权。
+
+sampleMaximumPressure({side:'right'|'left',arch:'low'|'typical'})
+  {kind:'maximum_pressure_picture',cells,simultaneous:false,copLocal:null,copWorld:null}
+  cells只有pressure，不含force，不提供totalForce，避免把峰值合成图当成瞬时帧。
+  101个接触期时刻的逐点峰值，结果缓存。
+
+renderPressureDiagram(svg, {mode:'static'|'dynamic'|'maximum'|'mpp',phase,
+  width:360,height:290,arch:'low'|'typical',showTrace:true,...sampleOptions})
+  返回所绘frame，设SVG viewBox/aria-label并替换SVG内部内容。
+  每足最多33条颜色路径，不逐格创建上千个DOM节点。
+  静态：双足分布、每足当前COP点、双足总COP的毫米级摆动小图。
+  动态：当前帧分布、本次接触内COP轨迹；摆动足不画虚构的COP点。
+  MPP：逐点峰值合成图，不画瞬时COP或其轨迹。
+
+pressureColor(value) -> CSS rgb色；零载荷浅灰，固定低到高色标，不逐帧自动拉满。
+
+数学核对：node docs/pressure-v12-tests.mjs [结果JSON路径]
+来源核对：docs/pressure-v12-sources.json
+本模块未复制厂商/论文图像，也不读取真实患者数据；没有临床验证。

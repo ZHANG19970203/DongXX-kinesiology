@@ -1,0 +1,3795 @@
+{
+  "schema": "dxx-local-voice-v20",
+  "source": "Installed Microsoft SAPI voices: Kangkang (male), Huihui (female); original authored text; no voice cloning",
+  "paidRequests": 0,
+  "clips": {
+    "therapist|陈女士，你好，我是林治疗师。": {
+      "src": "./assets/dialogue-v20/b36ebde2f87f2db6e4a2.mp3",
+      "role": "therapist",
+      "text": "陈女士，你好，我是林治疗师。",
+      "duration": 3.6444897959183673,
+      "sha256": "f25009e86f4678d100c67d96257e88ccc756288afe826e977826d4d155f44b50"
+    },
+    "therapist|请坐。": {
+      "src": "./assets/dialogue-v20/df2680f367482d7a0260.mp3",
+      "role": "therapist",
+      "text": "请坐。",
+      "duration": 1.3760997732426303,
+      "sha256": "c3354b78d42f7bcbc531e99b10fbb686ea42fb84be73eec556c6e58e9bc78a15"
+    },
+    "therapist|先说说脚踝的困扰，我们再商量检查。": {
+      "src": "./assets/dialogue-v20/f63606a6872bfd83ce23.mp3",
+      "role": "therapist",
+      "text": "先说说脚踝的困扰，我们再商量检查。",
+      "duration": 4.223673469387755,
+      "sha256": "9e50a5d1fbe9944f2076d4851beaf794b0137531760ea17bd541e68787ba62e4"
+    },
+    "therapist|什么时候容易不稳？": {
+      "src": "./assets/dialogue-v20/9800b00b606057a3c422.mp3",
+      "role": "therapist",
+      "text": "什么时候容易不稳？",
+      "duration": 2.4005895691609975,
+      "sha256": "2c9fa2421d20795027bab0c951ffd59b868cbc661191d36217eeb10b464bccfa"
+    },
+    "therapist|请先听她描述。": {
+      "src": "./assets/dialogue-v20/7815c1f51bbae543a237.mp3",
+      "role": "therapist",
+      "text": "请先听她描述。",
+      "duration": 2.2389115646258504,
+      "sha256": "9ef490570a367e65414229d471ee6020b282080a8e9ebfadb4be0070f608d9ff"
+    },
+    "therapist|什么情况下不稳？": {
+      "src": "./assets/dialogue-v20/159081c78f2c13d3042f.mp3",
+      "role": "therapist",
+      "text": "什么情况下不稳？",
+      "duration": 2.342312925170068,
+      "sha256": "a9c87fa6828922bdbb96b46de42d263d4b93d7584cfdb24582d1f32f00b95dc0"
+    },
+    "therapist|受伤经过怎样？": {
+      "src": "./assets/dialogue-v20/e0c53f1b0487f979d040.mp3",
+      "role": "therapist",
+      "text": "受伤经过怎样？",
+      "duration": 2.158095238095238,
+      "sha256": "c9036f5ec3f622f32ce67e88e75d0b8cefb5983e28ce579de18142afb3bdb2dc"
+    },
+    "therapist|先认定低足弓就是病因。": {
+      "src": "./assets/dialogue-v20/660557095ba1f9ef9f34.mp3",
+      "role": "therapist",
+      "text": "先认定低足弓就是病因。",
+      "duration": 2.925668934240363,
+      "sha256": "e7e61e4bb8cbc33ec040f13170ec115a40bf9550ca9687b9ad06ee0ec9df61d7"
+    },
+    "therapist|直接闭眼单脚站。": {
+      "src": "./assets/dialogue-v20/b47a6d0e99a6e6b9870b.mp3",
+      "role": "therapist",
+      "text": "直接闭眼单脚站。",
+      "duration": 2.2120181405895694,
+      "sha256": "ffd638c442a659048cba3fb6c4ab97a9f154eb22fb2beacbc53af79b3a3d9e34"
+    },
+    "patient|第一次是快一年前跑步时扭了，脚往里面扣。": {
+      "src": "./assets/dialogue-v20/6d15240e3de22ea45f3e.mp3",
+      "role": "patient",
+      "text": "第一次是快一年前跑步时扭了，脚往里面扣。",
+      "duration": 5.427437641723356,
+      "sha256": "4aaf6467db2a86fd7fc07b22501227149d9d049631aa93288a473fd8d0b80a50"
+    },
+    "patient|后来走不平的路也扭过，最近一次是一个月前跑步变向。": {
+      "src": "./assets/dialogue-v20/0be6fb44d5b0ce1b7759.mp3",
+      "role": "patient",
+      "text": "后来走不平的路也扭过，最近一次是一个月前跑步变向。",
+      "duration": 6.2220861678004535,
+      "sha256": "f299917e97429a7d8c2b5a1ecc284f48b2f3eeb2d65cb5f902f7f098cc97552f"
+    },
+    "patient|走不平的路、走快转弯或跑步变向时，有时脚踝突然一软，像踩空了。": {
+      "src": "./assets/dialogue-v20/702273117927108a6b13.mp3",
+      "role": "patient",
+      "text": "走不平的路、走快转弯或跑步变向时，有时脚踝突然一软，像踩空了。",
+      "duration": 8.266485260770976,
+      "sha256": "839d575912906063cb5c79b31ec0a577f7b337cf06009ae1410e12f7fe71acfb"
+    },
+    "patient|那一下不一定很疼，但我会害怕再崴。": {
+      "src": "./assets/dialogue-v20/02ecd39da80d8a118b78.mp3",
+      "role": "patient",
+      "text": "那一下不一定很疼，但我会害怕再崴。",
+      "duration": 4.787619047619048,
+      "sha256": "d06da1a3025327e0f19a96abc92de1ed7d9b01ab950f188bb3b6ae7f4e6bc0e1"
+    },
+    "therapist|先问近期变化，判断是否适合活动。": {
+      "src": "./assets/dialogue-v20/07031143cb6586d4507b.mp3",
+      "role": "therapist",
+      "text": "先问近期变化，判断是否适合活动。",
+      "duration": 4.237687074829932,
+      "sha256": "f44cd817520595c50a85e932f0d61d38d753fab77750e15ecddabe8baa93a131"
+    },
+    "therapist|近期有新伤、疼肿加重、麻木或不能负重吗？": {
+      "src": "./assets/dialogue-v20/4339c422149c3e141df0.mp3",
+      "role": "therapist",
+      "text": "近期有新伤、疼肿加重、麻木或不能负重吗？",
+      "duration": 4.857369614512471,
+      "sha256": "d013a2bb865917c23c9614113053169e959545135838ed011eba5ecfa2d7d18a"
+    },
+    "therapist|能来诊室，就直接加载。": {
+      "src": "./assets/dialogue-v20/b579629c30c40f6d50fe.mp3",
+      "role": "therapist",
+      "text": "能来诊室，就直接加载。",
+      "duration": 2.93968253968254,
+      "sha256": "4cdb6ce1914d55a8d8aa2a26b8cf04b0b8bca2746eb363191f9e9fba51b9da31"
+    },
+    "therapist|替代情境：新伤后明显不能负重。": {
+      "src": "./assets/dialogue-v20/969ab994ab473305a4ca.mp3",
+      "role": "therapist",
+      "text": "替代情境：新伤后明显不能负重。",
+      "duration": 3.8643990929705216,
+      "sha256": "37d62b013648d33676b584cb6eb3efc7e800f89907e030173b70a4db65cead4e"
+    },
+    "patient|主要是酸胀、发紧，不是一直像针扎那样疼。": {
+      "src": "./assets/dialogue-v20/f00b1a95f317f655fd6c.mp3",
+      "role": "patient",
+      "text": "主要是酸胀、发紧，不是一直像针扎那样疼。",
+      "duration": 5.632789115646259,
+      "sha256": "707820890fa08c19a7ece27b8ee005fbb9f6821300fed0e9725582478b05044d"
+    },
+    "patient|站久或走多以后更明显，坐下休息会好一些。": {
+      "src": "./assets/dialogue-v20/d580b1ebc1aed1b3644f.mp3",
+      "role": "patient",
+      "text": "站久或走多以后更明显，坐下休息会好一些。",
+      "duration": 5.397551020408163,
+      "sha256": "9983bd2abf4cbf915300d47f4f9eeeb8493d34272ee4db9c580b86fc0a02cf6f"
+    },
+    "patient|最近没有新伤或麻木，能走路。": {
+      "src": "./assets/dialogue-v20/63ebd1ebecf37f9a4337.mp3",
+      "role": "patient",
+      "text": "最近没有新伤或麻木，能走路。",
+      "duration": 4.0482086167800455,
+      "sha256": "e0dcccaf48dac80dced7d15eecaf015e9c1fc99b9b97d238432e0fbe93f22794"
+    },
+    "therapist|她最想先恢复什么活动？": {
+      "src": "./assets/dialogue-v20/db2075ec7668ed19c001.mp3",
+      "role": "therapist",
+      "text": "她最想先恢复什么活动？",
+      "duration": 2.9890249433106577,
+      "sha256": "66ddbd264e8afe9053e36f484e7bbd42a846191d13132502c9f754651921d8d9"
+    },
+    "therapist|之前怎样处理？": {
+      "src": "./assets/dialogue-v20/616b3b43e49e584f7b9f.mp3",
+      "role": "therapist",
+      "text": "之前怎样处理？",
+      "duration": 2.153968253968254,
+      "sha256": "a51fe0f5c18ad0746f85715eb3df8178b6561f3f4cbeeae897a2cf638c1f84cc"
+    },
+    "therapist|最想先改善什么？": {
+      "src": "./assets/dialogue-v20/a487811d96544a4e7d46.mp3",
+      "role": "therapist",
+      "text": "最想先改善什么？",
+      "duration": 2.328526077097506,
+      "sha256": "78ef2243f75fa388575aebc4dbe03ee56292560cbb6d5b6bedd9ab717b07a334"
+    },
+    "therapist|只把足弓外观变标准。": {
+      "src": "./assets/dialogue-v20/35264120e5bb720931cb.mp3",
+      "role": "therapist",
+      "text": "只把足弓外观变标准。",
+      "duration": 2.696734693877551,
+      "sha256": "fb95af74136b25dc2a3577e07f70a72e403a2f76504a5272c0f863cc6bf28565"
+    },
+    "patient|第一次拍片说没骨折，休息大约三周恢复了日常活动。": {
+      "src": "./assets/dialogue-v20/1fff03b99cfcef2ddd56.mp3",
+      "role": "patient",
+      "text": "第一次拍片说没骨折，休息大约三周恢复了日常活动。",
+      "duration": 6.2118820861678,
+      "sha256": "70cd6a9e5a19ecdc3cccd3a9347ce01ce3406db5f0501817e6f0c0b465088760"
+    },
+    "patient|后面自己休息，没有系统康复，也没长期用护踝。": {
+      "src": "./assets/dialogue-v20/97fa1cf24566033e4b61.mp3",
+      "role": "patient",
+      "text": "后面自己休息，没有系统康复，也没长期用护踝。",
+      "duration": 6.177278911564626,
+      "sha256": "38f948733c78e8828f551965a54dac79a721287440c8b8f1b73b06eba2b49a91"
+    },
+    "patient|我想先安心走不平的路，再逐渐恢复轻松跑步。": {
+      "src": "./assets/dialogue-v20/f9964ec34fcc774df4d6.mp3",
+      "role": "patient",
+      "text": "我想先安心走不平的路，再逐渐恢复轻松跑步。",
+      "duration": 5.577278911564626,
+      "sha256": "4895e4c4aa26557ad71ec62ed783ff8f09b42e0fcaaaf9a5eaa2321e820de87b"
+    },
+    "therapist|说明目的和暂停方式，再征求同意。": {
+      "src": "./assets/dialogue-v20/f61550ea8a5a0d43aa1e.mp3",
+      "role": "therapist",
+      "text": "说明目的和暂停方式，再征求同意。",
+      "duration": 4.125124716553288,
+      "sha256": "cef96938bc1c7026dda432006d831c84a4a6694a3ac2b7aa12f065131ed14a65"
+    },
+    "therapist|先看活动、步态与负荷，每步先说明，随时可停。": {
+      "src": "./assets/dialogue-v20/58e40040fdd5caee8278.mp3",
+      "role": "therapist",
+      "text": "先看活动、步态与负荷，每步先说明，随时可停。",
+      "duration": 5.58140589569161,
+      "sha256": "ab5b3447d7acbf04898d9853a1881bf2232029a323610112fea98671673a22be"
+    },
+    "therapist|愿意吗？": {
+      "src": "./assets/dialogue-v20/b3ca8aca9b0c28cd9b9b.mp3",
+      "role": "therapist",
+      "text": "愿意吗？",
+      "duration": 1.3581859410430839,
+      "sha256": "b959e3ac56d59f4fe79a8da90771483e54ed23f4d912edde1a2f74d9fb38354f"
+    },
+    "therapist|按要求做完，先别问。": {
+      "src": "./assets/dialogue-v20/33ed9052218f8feacf90.mp3",
+      "role": "therapist",
+      "text": "按要求做完，先别问。",
+      "duration": 2.8993650793650794,
+      "sha256": "b62a57affe63d7f839cc3abc5e27e470ca67ffcb1e187de83db94e2b95dc946a"
+    },
+    "patient|可以。": {
+      "src": "./assets/dialogue-v20/0f3999a683ea486bc1cb.mp3",
+      "role": "patient",
+      "text": "可以。",
+      "duration": 1.3742857142857143,
+      "sha256": "2215e305983f7973f4e58e99191868151d62540d1817c699f1cb811330b8e3f8"
+    },
+    "patient|但我怕又崴，会很疼吗？": {
+      "src": "./assets/dialogue-v20/1cc89ddd73c4925931a1.mp3",
+      "role": "patient",
+      "text": "但我怕又崴，会很疼吗？",
+      "duration": 3.338458049886621,
+      "sha256": "d30349d6ed649638c8ef70a284cee4ad97b1dde5630e936f38bcd48f0cf8eafb"
+    },
+    "therapist|先做能耐受的小幅动作。": {
+      "src": "./assets/dialogue-v20/705ae845ac4521d19b1f.mp3",
+      "role": "therapist",
+      "text": "先做能耐受的小幅动作。",
+      "duration": 2.94453514739229,
+      "sha256": "3303ca8572dd211a25face0635374c67d999b27e7b3923e4ddc16094fe8b5bca"
+    },
+    "therapist|有支撑，你说停就停。": {
+      "src": "./assets/dialogue-v20/4550c1a0e74a74f41ce0.mp3",
+      "role": "therapist",
+      "text": "有支撑，你说停就停。",
+      "duration": 2.8587755102040817,
+      "sha256": "56fe0d82f62b67a8f1be6085a90d11f39a76d42ba337a078503da79bc5328568"
+    },
+    "therapist|也可以今天先交流，下次再决定检查。": {
+      "src": "./assets/dialogue-v20/f773466f06361206cba7.mp3",
+      "role": "therapist",
+      "text": "也可以今天先交流，下次再决定检查。",
+      "duration": 4.381904761904762,
+      "sha256": "5cc60cfede83d1b80708a19d0ae71714f81732da150c8bad39e25957ad7a8b01"
+    },
+    "therapist|保证不会疼，也不会再崴。": {
+      "src": "./assets/dialogue-v20/c8a63da1dff30210d8fd.mp3",
+      "role": "therapist",
+      "text": "保证不会疼，也不会再崴。",
+      "duration": 3.1016780045351475,
+      "sha256": "ed06b9751d28758e91e8bddf03735d9eeace004b378912dd9a66edaa50d1280d"
+    },
+    "therapist|请坐稳，先脱鞋袜。": {
+      "src": "./assets/dialogue-v20/13a01be4c8c24245c7b6.mp3",
+      "role": "therapist",
+      "text": "请坐稳，先脱鞋袜。",
+      "duration": 2.6653968253968254,
+      "sha256": "383b9a18a30229d79f53c62e8ba723b892e2389dbbc9b573789969c6f085770f"
+    },
+    "therapist|我们看踝关节背屈、跖屈，再看负重背屈。": {
+      "src": "./assets/dialogue-v20/057bb8e27a19bf6cdca5.mp3",
+      "role": "therapist",
+      "text": "我们看踝关节背屈、跖屈，再看负重背屈。",
+      "duration": 4.727256235827665,
+      "sha256": "8b3dbc1374b0c72cb46f7e32a593f2d8c24484f9112129976c32486d86b0b260"
+    },
+    "therapist|不舒服就停。": {
+      "src": "./assets/dialogue-v20/98b3c94ae2c769a8d186.mp3",
+      "role": "therapist",
+      "text": "不舒服就停。",
+      "duration": 1.8528798185941042,
+      "sha256": "01617484106dbc7d2aa477c2f740c1851055c59fa13fa742b91e537a0f5b3bd6"
+    },
+    "therapist|这一环节已聚焦到新的运动学任务。": {
+      "src": "./assets/dialogue-v20/00c334f5c2407519de79.mp3",
+      "role": "therapist",
+      "text": "这一环节已聚焦到新的运动学任务。",
+      "duration": 3.9007709750566892,
+      "sha256": "35e424f44ee71a0ffbcff085eda9b79b0376dbb17dc1b892b2b3b104e0097148"
+    },
+    "therapist|依次核对外踝、腓骨外侧与第五跖骨外侧。": {
+      "src": "./assets/dialogue-v20/d7e360080990566ccca5.mp3",
+      "role": "therapist",
+      "text": "依次核对外踝、腓骨外侧与第五跖骨外侧。",
+      "duration": 4.561360544217687,
+      "sha256": "fcf4df10b293a7663e0655602aec79d669088d50fa0b66e901853e359a260fd0"
+    },
+    "therapist|三处已核对，进入试次判断": {
+      "src": "./assets/dialogue-v20/c3541008df8c791e20b0.mp3",
+      "role": "therapist",
+      "text": "三处已核对，进入试次判断",
+      "duration": 3.6229024943310657,
+      "sha256": "ce63de965fb0b7f328868cbde17106bebc5c9590e9d37496c36d7f9e828685bc"
+    },
+    "therapist|动画转到最大，就完成测量。": {
+      "src": "./assets/dialogue-v20/1fe6402bdced473d54c9.mp3",
+      "role": "therapist",
+      "text": "动画转到最大，就完成测量。",
+      "duration": 3.487619047619048,
+      "sha256": "1afa2213f1cb52242154fe4a76bf568a14b2ab81ba91057eeb4b2c145f362423"
+    },
+    "therapist|左右同方法、足跟落地，比较才有意义。": {
+      "src": "./assets/dialogue-v20/31033c841bdcff85c2b2.mp3",
+      "role": "therapist",
+      "text": "左右同方法、足跟落地，比较才有意义。",
+      "duration": 4.318684807256236,
+      "sha256": "18ade7e383aa6d8da5dd74ab044351026816ac81fbd793608f8df8e186f18003"
+    },
+    "therapist|请选择有效试次。": {
+      "src": "./assets/dialogue-v20/a4e91d275ac0ab06d2bf.mp3",
+      "role": "therapist",
+      "text": "请选择有效试次。",
+      "duration": 2.4550566893424035,
+      "sha256": "add99d34ef97e452d41c97f100110039719e19ffd1aecf24e9c45d09b381e9bf"
+    },
+    "therapist|同方法、足跟落地，无明显足外转代偿。": {
+      "src": "./assets/dialogue-v20/11bf5fb52f45e989c20b.mp3",
+      "role": "therapist",
+      "text": "同方法、足跟落地，无明显足外转代偿。",
+      "duration": 4.494512471655328,
+      "sha256": "c8269bfe2200e41a57f024e0ec3b97454a3b7bd2eab26a538186b8601fd20a33"
+    },
+    "therapist|足跟抬起碰得更远，就选这次。": {
+      "src": "./assets/dialogue-v20/7915b5a623a58b88819a.mp3",
+      "role": "therapist",
+      "text": "足跟抬起碰得更远，就选这次。",
+      "duration": 3.6355102040816325,
+      "sha256": "77609d8b1b0d9201fca135f4d3487c201a062abfccff878610f542f347dcd30c"
+    },
+    "therapist|右膝触墙、左坐位，直接比最大值。": {
+      "src": "./assets/dialogue-v20/115aee3a9916aea613b9.mp3",
+      "role": "therapist",
+      "text": "右膝触墙、左坐位，直接比最大值。",
+      "duration": 4.044263038548753,
+      "sha256": "88e0d21ad5487ff10754d790d25feb5cfbfa2526944831dff8e31d4db9369a88"
+    },
+    "therapist|不适加重并要求停止：结束加载。": {
+      "src": "./assets/dialogue-v20/23e889fc077eba235778.mp3",
+      "role": "therapist",
+      "text": "不适加重并要求停止：结束加载。",
+      "duration": 3.819954648526077,
+      "sha256": "4fb4ef0bcb13e2e80d5d28059328dab932df00a555bdc4e2a03e0383cd0d0098"
+    },
+    "patient|右边发紧，再往前脚跟就要抬。": {
+      "src": "./assets/dialogue-v20/d8d7fd15a6e689042319.mp3",
+      "role": "patient",
+      "text": "右边发紧，再往前脚跟就要抬。",
+      "duration": 4.068480725623583,
+      "sha256": "609f2eac58b219ad680f9e8321e82626928d1a47cc0923a87766f71f03929368"
+    },
+    "therapist|发紧是否等于骨头错位？": {
+      "src": "./assets/dialogue-v20/888ff1e020deb6155389.mp3",
+      "role": "therapist",
+      "text": "发紧是否等于骨头错位？",
+      "duration": 2.8903854875283446,
+      "sha256": "0df8fdfba9bfdd1416d51d337811f2421791679d3accffa9e623d31f5f6bf68f"
+    },
+    "therapist|右侧负重背屈较小；发紧不等于错位，还需综合判断。": {
+      "src": "./assets/dialogue-v20/6380c4919627ecd50d33.mp3",
+      "role": "therapist",
+      "text": "右侧负重背屈较小；发紧不等于错位，还需综合判断。",
+      "duration": 5.818956916099773,
+      "sha256": "d25c0dca7aa75f614cd7f86c40eb309abb5dda39e754bef864ac4b1bfa5484d6"
+    },
+    "therapist|一定是距骨移位，把它推回去就能根治。": {
+      "src": "./assets/dialogue-v20/77d6e6f43f6cea1935c4.mp3",
+      "role": "therapist",
+      "text": "一定是距骨移位，把它推回去就能根治。",
+      "duration": 4.4130612244897955,
+      "sha256": "1d99468558d67a9b73007e45ec6bd06f1032835a9570e3efa198e2d9f5bb15d7"
+    },
+    "patient|保持赤足走就可以吗？": {
+      "src": "./assets/dialogue-v20/8cf50ef5e2040fd29947.mp3",
+      "role": "patient",
+      "text": "保持赤足走就可以吗？",
+      "duration": 2.7435827664399093,
+      "sha256": "22d0aa0c18264187c3351114e303c9a10bc1ce20539ec86a7c01cf7225864ae1"
+    },
+    "patient|要踩准每一块板吗？": {
+      "src": "./assets/dialogue-v20/52efdb7d6d0e32fc4e82.mp3",
+      "role": "patient",
+      "text": "要踩准每一块板吗？",
+      "duration": 2.5985034013605444,
+      "sha256": "1e3d30dbe1fa9a582c870b2791ff26e33752abda72cfa91cc4a9f0b22dc66f51"
+    },
+    "therapist|说明自然行走的方法。": {
+      "src": "./assets/dialogue-v20/a78c9402d2c3b9377507.mp3",
+      "role": "therapist",
+      "text": "说明自然行走的方法。",
+      "duration": 2.67015873015873,
+      "sha256": "a3fae85fb84705d17aa2c7505f0b2672afdc8bd58adb141352815bb291250584"
+    },
+    "therapist|保持赤足，按平常走法，不凑步踩板；不舒服就停。": {
+      "src": "./assets/dialogue-v20/4180b1fc072221b22627.mp3",
+      "role": "therapist",
+      "text": "保持赤足，按平常走法，不凑步踩板；不舒服就停。",
+      "duration": 5.6978684807256235,
+      "sha256": "791089e96a37e92e4683c06f8c9b4b04f14744f85a1c902d671df111cf8a293f"
+    },
+    "therapist|每一步必须踩准板中心。": {
+      "src": "./assets/dialogue-v20/a4cdbdfb625ecd9a887a.mp3",
+      "role": "therapist",
+      "text": "每一步必须踩准板中心。",
+      "duration": 2.8546485260770975,
+      "sha256": "17415c1fa10154d7d06de8a9843f85dccc2cc9e37d0e3281b1b197b53c37045c"
+    },
+    "therapist|比较双侧支撑时间与足印间距。": {
+      "src": "./assets/dialogue-v20/a01412f29a32f5efe6a9.mp3",
+      "role": "therapist",
+      "text": "比较双侧支撑时间与足印间距。",
+      "duration": 3.698503401360544,
+      "sha256": "d6c4ac95429f80be4fb5f39b96f55aba5aa8c31186195f53a6560fa1feb5c533"
+    },
+    "therapist|先标记右足初始接触，再标记足离地。": {
+      "src": "./assets/dialogue-v20/acebbe21575a3002baa2.mp3",
+      "role": "therapist",
+      "text": "先标记右足初始接触，再标记足离地。",
+      "duration": 4.291927437641723,
+      "sha256": "bb847a8b4dca5ad0c7ee4aeb2e53e773018991e40057adecc34cc01c100959f6"
+    },
+    "therapist|标记完成，解释双侧差异": {
+      "src": "./assets/dialogue-v20/2936391a8e8bc717faef.mp3",
+      "role": "therapist",
+      "text": "标记完成，解释双侧差异",
+      "duration": 3.312879818594104,
+      "sha256": "766f54b4085bbd54ea99e98caaa95283e7c89d4a89aed5e0e68a3ff309a3d8af"
+    },
+    "therapist|本例右支撑期较短、左右步长不同。": {
+      "src": "./assets/dialogue-v20/9ecdff7195176ffc1557.mp3",
+      "role": "therapist",
+      "text": "本例右支撑期较短、左右步长不同。",
+      "duration": 4.017687074829932,
+      "sha256": "26c7af7087adf3b703690f6dfd673e0214b0076425f24bf0e1cef3229b625690"
+    },
+    "therapist|还能推断什么？": {
+      "src": "./assets/dialogue-v20/4abc5f08f486bc7a5fdd.mp3",
+      "role": "therapist",
+      "text": "还能推断什么？",
+      "duration": 2.0364172335600905,
+      "sha256": "62990ee4a6ffb552b206ffd8b958cba3f50f3b58f870074f7e971163dddb6039"
+    },
+    "therapist|描述双侧差异并询问感受；力量等原因另行检查。": {
+      "src": "./assets/dialogue-v20/f8abc7c2cee8d27c5bf3.mp3",
+      "role": "therapist",
+      "text": "描述双侧差异并询问感受；力量等原因另行检查。",
+      "duration": 5.504126984126984,
+      "sha256": "4810592149ef01dff6a4ae9ac51976aca822ee509905e3f6277c2a934fa5d7c8"
+    },
+    "therapist|看着蹬地小，就证明跖屈肌力弱。": {
+      "src": "./assets/dialogue-v20/5b5ea7eb898e4cbe5033.mp3",
+      "role": "therapist",
+      "text": "看着蹬地小，就证明跖屈肌力弱。",
+      "duration": 3.6630839002267575,
+      "sha256": "27881ab1a336d0e64ceee9fe8c2c2519e9a9fa306944bc9adb17132f086b0a4a"
+    },
+    "therapist|足弓变低，就证明韧带一直高张力。": {
+      "src": "./assets/dialogue-v20/1fd85a0e15c620cf0147.mp3",
+      "role": "therapist",
+      "text": "足弓变低，就证明韧带一直高张力。",
+      "duration": 3.954467120181406,
+      "sha256": "93184e6d3272ec3ff0fec2f0a2449ecd5a74a30623d2eee40274b48d0723d448"
+    },
+    "therapist|先坐着，再自然站稳，比较足弓外观。": {
+      "src": "./assets/dialogue-v20/e6afdfa7e3ba4a7561e7.mp3",
+      "role": "therapist",
+      "text": "先坐着，再自然站稳，比较足弓外观。",
+      "duration": 4.27827664399093,
+      "sha256": "714be845127e163060a3d8a824ab24b8f1165d593e3c738348d1370e92c6376e"
+    },
+    "therapist|这样能了解负重时的变化。": {
+      "src": "./assets/dialogue-v20/5613c603398c9b87daf2.mp3",
+      "role": "therapist",
+      "text": "这样能了解负重时的变化。",
+      "duration": 3.043356009070295,
+      "sha256": "1bc95205a1f422eeef9422fa132bf7a585333348156b8f5042364d563c509f58"
+    },
+    "patient|是不是脚弓低才总崴？": {
+      "src": "./assets/dialogue-v20/0c055eedbb78097ad5b1.mp3",
+      "role": "patient",
+      "text": "是不是脚弓低才总崴？",
+      "duration": 2.9136507936507936,
+      "sha256": "dfbbee9f85805d263c60cc434eb8a6288a7acdfb4735464cc8e38e295fcf3689"
+    },
+    "patient|垫高就行吗？": {
+      "src": "./assets/dialogue-v20/af4a818c03547fd10569.mp3",
+      "role": "patient",
+      "text": "垫高就行吗？",
+      "duration": 1.9790022675736962,
+      "sha256": "11a1be1ace6b1e5c7c698933a7e19b87953d4b2067893f4fd52a9a8b6d098f34"
+    },
+    "therapist|低足弓不能单独解释崴脚，要结合负荷、控制和感受。": {
+      "src": "./assets/dialogue-v20/bd48a12da91e556e4f28.mp3",
+      "role": "therapist",
+      "text": "低足弓不能单独解释崴脚，要结合负荷、控制和感受。",
+      "duration": 5.746666666666667,
+      "sha256": "a34e1a7ccb581d92eb3259886940ff075e5f89a6cb6c8c408ada51f326882458"
+    },
+    "therapist|垫高足弓，保证不再崴。": {
+      "src": "./assets/dialogue-v20/93542d6fd4a3185bb3c0.mp3",
+      "role": "therapist",
+      "text": "垫高足弓，保证不再崴。",
+      "duration": 2.8677551020408165,
+      "sha256": "2ed279a2ce3aaf360535439b7c6b174ce0a6f7c9ae64eb51e698590e311666b2"
+    },
+    "therapist|先区分站立与行走，再核对足侧、色标和接触时段。": {
+      "src": "./assets/dialogue-v20/396a985539aa7c037d73.mp3",
+      "role": "therapist",
+      "text": "先区分站立与行走，再核对足侧、色标和接触时段。",
+      "duration": 5.711655328798186,
+      "sha256": "740178856cb7a1713f7b41aab5595235f6fa715321f3fb39ae86b01929a0bb5d"
+    },
+    "therapist|核对同足侧、同任务、同色标，再比较": {
+      "src": "./assets/dialogue-v20/c7e9893716e3ffcdc9d7.mp3",
+      "role": "therapist",
+      "text": "核对同足侧、同任务、同色标，再比较",
+      "duration": 4.704761904761905,
+      "sha256": "fc1ed687162db7840c2e9482cb13cfa2ac196a50b491380f2e0cc0ad46db45f0"
+    },
+    "therapist|条件不全：先补资料": {
+      "src": "./assets/dialogue-v20/5c83ccb8fb06e8c9a779.mp3",
+      "role": "therapist",
+      "text": "条件不全：先补资料",
+      "duration": 2.8358730158730157,
+      "sha256": "1fc4216c2ce87c6359e1191585faa3c3f629fbaecc35e6a10eb9716ab302a208"
+    },
+    "therapist|更红，就说明损伤更重。": {
+      "src": "./assets/dialogue-v20/778b054d8d2f65d557c0.mp3",
+      "role": "therapist",
+      "text": "更红，就说明损伤更重。",
+      "duration": 3.0839455782312926,
+      "sha256": "aaa244affab936aa74fa894d875653b6f81927bf17f022f3b66319bf1d0f95df"
+    },
+    "therapist|站立看双足负荷；行走看各脚接触过程。": {
+      "src": "./assets/dialogue-v20/cdae54304d0c753999d8.mp3",
+      "role": "therapist",
+      "text": "站立看双足负荷；行走看各脚接触过程。",
+      "duration": 4.6781859410430835,
+      "sha256": "809acdf507a76d26dd361921a96569d6c471ae2603c6061fd5eefab3b4ffa954"
+    },
+    "therapist|选择区域，观察压力变化。": {
+      "src": "./assets/dialogue-v20/b57fcb0438eee65cb835.mp3",
+      "role": "therapist",
+      "text": "选择区域，观察压力变化。",
+      "duration": 3.2853968253968255,
+      "sha256": "c25d404bd562d327bc8ce64aebaec328865e4228197625048e661f00d7ae0fe4"
+    },
+    "therapist|记录负荷分布，结合症状与其他发现。": {
+      "src": "./assets/dialogue-v20/5be4cf7b21cd1e62c28f.mp3",
+      "role": "therapist",
+      "text": "记录负荷分布，结合症状与其他发现。",
+      "duration": 4.237777777777778,
+      "sha256": "91c984376a59fbbcf4b904ae5b81013d1e43c005e8dbf86754665808475a2911"
+    },
+    "therapist|中足只要接触就异常。": {
+      "src": "./assets/dialogue-v20/fca89b9f7f92120804b2.mp3",
+      "role": "therapist",
+      "text": "中足只要接触就异常。",
+      "duration": 2.81437641723356,
+      "sha256": "20553f34ac101c45a6ce8eb0f51754fb3ead6a7fe517d13fabc286c27a72e05b"
+    },
+    "patient|压力中心往内走，就能解释我为什么崴吗？": {
+      "src": "./assets/dialogue-v20/2b3fc8275b60f8f9a0ad.mp3",
+      "role": "patient",
+      "text": "压力中心往内走，就能解释我为什么崴吗？",
+      "duration": 4.952517006802721,
+      "sha256": "910afd3051b6130f091acfa0bc3b257064199f1c5f6066dce8840fefbbce0bbe"
+    },
+    "therapist|COP表示接触合力作用位置，不是身体重心，也不能单独解释崴脚。": {
+      "src": "./assets/dialogue-v20/0c55f8d1a8193860ab0f.mp3",
+      "role": "therapist",
+      "text": "COP表示接触合力作用位置，不是身体重心，也不能单独解释崴脚。",
+      "duration": 6.804489795918367,
+      "sha256": "b26889bd9143fe9cba0a0cdfc80dbf89fae03688555f18233de51fd93570e167"
+    },
+    "therapist|一条COP线就能锁定根因。": {
+      "src": "./assets/dialogue-v20/33b213d0f1cac630fb38.mp3",
+      "role": "therapist",
+      "text": "一条COP线就能锁定根因。",
+      "duration": 3.2439909297052156,
+      "sha256": "d3cdda7c5b615a6826f318576b41fb79e3e76191381704db1981f5044781c029"
+    },
+    "therapist|双脚自然站稳、睁眼，看静态压力中心的小幅变化。": {
+      "src": "./assets/dialogue-v20/5ff27c93bb989e207aaf.mp3",
+      "role": "therapist",
+      "text": "双脚自然站稳、睁眼，看静态压力中心的小幅变化。",
+      "duration": 5.738684807256236,
+      "sha256": "514ff37d3e4a60487766b154961ac50d1f9109a43e6593bdaf08df71e5cab86c"
+    },
+    "therapist|谢谢你的配合。": {
+      "src": "./assets/dialogue-v20/e9d58aae8baeceef2ae2.mp3",
+      "role": "therapist",
+      "text": "谢谢你的配合。",
+      "duration": 2.023628117913832,
+      "sha256": "761bc473bdf050a5256348a6e8553f386759c83580c1ba1f6153bddc797681a5"
+    },
+    "therapist|我们把活动、控制和负荷的资料放在一起，围绕安心走路商量下一步。": {
+      "src": "./assets/dialogue-v20/f80bded130b34c92a297.mp3",
+      "role": "therapist",
+      "text": "我们把活动、控制和负荷的资料放在一起，围绕安心走路商量下一步。",
+      "duration": 6.986530612244898,
+      "sha256": "0735d23e3aa37ab0830c9717deeeb0360ec884ebbb3787fc7cc81f242ea3e5b7"
+    },
+    "therapist|选择一个有证据支持的优先方向。": {
+      "src": "./assets/dialogue-v20/d234ac9057987e6d5039.mp3",
+      "role": "therapist",
+      "text": "选择一个有证据支持的优先方向。",
+      "duration": 3.747936507936508,
+      "sha256": "b6a893e6a6de08a24029c4a7d049aab5c021dd6362f38e82c9bcac1003973af8"
+    },
+    "therapist|围绕不稳，逐步练习力量与稳定控制。": {
+      "src": "./assets/dialogue-v20/cf15e4c73b1eb2290cbf.mp3",
+      "role": "therapist",
+      "text": "围绕不稳，逐步练习力量与稳定控制。",
+      "duration": 3.98562358276644,
+      "sha256": "0eae8cde0ece75f1c997d50ea048298ac4bdd5e15934bde9544a9e2935eb2b95"
+    },
+    "therapist|有活动差异证据：安排相应处理并同法复评。": {
+      "src": "./assets/dialogue-v20/46722916d2ab11556dbe.mp3",
+      "role": "therapist",
+      "text": "有活动差异证据：安排相应处理并同法复评。",
+      "duration": 4.938548752834467,
+      "sha256": "fbd9a0483534a68f35f480e132ebe176d2102de3081ebd2cf2c02c2e4a7d8eac"
+    },
+    "therapist|讨论负荷调整或辅助支持，观察试用反应。": {
+      "src": "./assets/dialogue-v20/fd57c7677b1ada4a8907.mp3",
+      "role": "therapist",
+      "text": "讨论负荷调整或辅助支持，观察试用反应。",
+      "duration": 4.857732426303855,
+      "sha256": "a801aca50dadbeac64ed1e2d569ae3cd2754458e1db8086c1dd8d899c40c4ac0"
+    },
+    "therapist|证据不足：先补评估与复评。": {
+      "src": "./assets/dialogue-v20/75d671155bf0943cb122.mp3",
+      "role": "therapist",
+      "text": "证据不足：先补评估与复评。",
+      "duration": 3.4559637188208616,
+      "sha256": "2cf4a4fc040a92a282bd3f425535979f02475b2c3b9ed6e1025edcdc1686b8d3"
+    },
+    "therapist|只配足弓垫，保证永不再崴。": {
+      "src": "./assets/dialogue-v20/652d79c4e96d97ae9c3a.mp3",
+      "role": "therapist",
+      "text": "只配足弓垫，保证永不再崴。",
+      "duration": 3.3303854875283445,
+      "sha256": "9c13548e90fe5c5c8e6d16d938cc69048d95aa78ffdfd0bf98d639fc605cd784"
+    },
+    "therapist|做完动画就立即回球场。": {
+      "src": "./assets/dialogue-v20/08693badf72adebcda7b.mp3",
+      "role": "therapist",
+      "text": "做完动画就立即回球场。",
+      "duration": 3.0243990929705213,
+      "sha256": "010e5eeeab29dff6761d6260ede74b51cebe1cd678b3078a314553bde86894c7"
+    },
+    "patient|我愿意从简单的开始。": {
+      "src": "./assets/dialogue-v20/5aa1ea88f546b5de92a6.mp3",
+      "role": "patient",
+      "text": "我愿意从简单的开始。",
+      "duration": 2.8685714285714288,
+      "sha256": "283a89459799de28d5c734532ebab2932a74ef7934d3b655e154abc3cdef4490"
+    },
+    "patient|不舒服就停，再告诉您。": {
+      "src": "./assets/dialogue-v20/a0f6709e9e410504aee4.mp3",
+      "role": "patient",
+      "text": "不舒服就停，再告诉您。",
+      "duration": 3.3336054421768706,
+      "sha256": "2b46591898da6489cafbc60a354cda27a166ce504e31d4549085e939dae82ea2"
+    },
+    "therapist|约定暂停与复评，再请患者复述。": {
+      "src": "./assets/dialogue-v20/26596aa521fb0d9b52d3.mp3",
+      "role": "therapist",
+      "text": "约定暂停与复评，再请患者复述。",
+      "duration": 3.954285714285714,
+      "sha256": "31ca312cd16727bd1cb15e8e833979a2fefb471d566e549c291c2134ff7f07b4"
+    },
+    "therapist|不适或不稳先停并扶稳；新伤或明显加重及时就医。": {
+      "src": "./assets/dialogue-v20/ed6e681f8401c8387322.mp3",
+      "role": "therapist",
+      "text": "不适或不稳先停并扶稳；新伤或明显加重及时就医。",
+      "duration": 5.491247165532879,
+      "sha256": "87b8e69c0815c2c8ffef36629b04c4892332dc2b8dabb790acaef78421bf3ce3"
+    },
+    "therapist|你能复述吗？": {
+      "src": "./assets/dialogue-v20/453aaa2306fa57064e32.mp3",
+      "role": "therapist",
+      "text": "你能复述吗？",
+      "duration": 1.7174603174603174,
+      "sha256": "d973b11d2cd70111f13f05c8d62df4c9aba010aaa44e450a744ac88b967b70d0"
+    },
+    "therapist|必须忍着做完，不能改计划。": {
+      "src": "./assets/dialogue-v20/7b67dc97c154e38fd1d5.mp3",
+      "role": "therapist",
+      "text": "必须忍着做完，不能改计划。",
+      "duration": 3.32172335600907,
+      "sha256": "9c96fa8a604c8c7710ad16d65e569faca793a266de4a4ff400ba2ec982cbbd15"
+    },
+    "therapist|回看一项有依据的发现，以及一项还不能确定的解释。": {
+      "src": "./assets/dialogue-v20/3e9dd7fc335fda2c3f09.mp3",
+      "role": "therapist",
+      "text": "回看一项有依据的发现，以及一项还不能确定的解释。",
+      "duration": 5.383356009070295,
+      "sha256": "4f2ede9ed4343e9a23e5e568b01b46a355464442fe320f1d9a9c6eee485f9e6f"
+    },
+    "therapist|哪一句仍然尚未证明？": {
+      "src": "./assets/dialogue-v20/a193b97b01ddb2fbca3e.mp3",
+      "role": "therapist",
+      "text": "哪一句仍然尚未证明？",
+      "duration": 2.7511111111111113,
+      "sha256": "a1d7e1059d3860b6647542742d1c00721f8480ee161637b86db59c9a91b3e962"
+    },
+    "therapist|低足弓是本例反复崴脚的唯一根因。": {
+      "src": "./assets/dialogue-v20/622137acaa25fb0f64a4.mp3",
+      "role": "therapist",
+      "text": "低足弓是本例反复崴脚的唯一根因。",
+      "duration": 3.7974603174603176,
+      "sha256": "a83073da6e1a982405c1d202fd9c9d1c9faf1b9b35862b4e6809c76f4ca17887"
+    },
+    "therapist|患者报告不平路面时担心、不稳。": {
+      "src": "./assets/dialogue-v20/bf87abc380406ce4f357.mp3",
+      "role": "therapist",
+      "text": "患者报告不平路面时担心、不稳。",
+      "duration": 3.9416780045351474,
+      "sha256": "87aae032640579136ab8be3e9346a212c3766c3cb0c67f972af038afe6211d9b"
+    },
+    "therapist|下一位患者是高足弓，还能照搬本例结论吗？": {
+      "src": "./assets/dialogue-v20/a7b34d8b9674ff0938cf.mp3",
+      "role": "therapist",
+      "text": "下一位患者是高足弓，还能照搬本例结论吗？",
+      "duration": 4.642312925170068,
+      "sha256": "dc3033fc8c72984b597a476351b424111d6ed491e6ad48be001e5abfd28d9ddd"
+    },
+    "therapist|沿用评估框架，重新检查，重新解释。": {
+      "src": "./assets/dialogue-v20/eb375d4be038187d200d.mp3",
+      "role": "therapist",
+      "text": "沿用评估框架，重新检查，重新解释。",
+      "duration": 4.5705215419501135,
+      "sha256": "1f9ff888d2fe9d896672495483296c5417ef4352924114bc56620c468f698463"
+    },
+    "therapist|把内侧换外侧，结论全部反过来。": {
+      "src": "./assets/dialogue-v20/facc3023fb116c216296.mp3",
+      "role": "therapist",
+      "text": "把内侧换外侧，结论全部反过来。",
+      "duration": 3.8289342403628117,
+      "sha256": "59e3ed3ccfa03d320970aa3d8169d04e715a99694016d09433fe6fb7ceaec1d8"
+    },
+    "therapist|本轮完成。": {
+      "src": "./assets/dialogue-v20/92eabb8d605dd5d9d4c0.mp3",
+      "role": "therapist",
+      "text": "本轮完成。",
+      "duration": 1.686077097505669,
+      "sha256": "3cda685df31bc682b73d38bf07ef895d04a341108709b076d2890576ec265178"
+    },
+    "therapist|请保留实际证据、未做项目与复评计划，区分观察和病因解释。": {
+      "src": "./assets/dialogue-v20/b4cb18df3097b695924a.mp3",
+      "role": "therapist",
+      "text": "请保留实际证据、未做项目与复评计划，区分观察和病因解释。",
+      "duration": 6.586984126984127,
+      "sha256": "69f10b363de50f256a2668534450ea51357dbe819ebf534252a425834aa244aa"
+    },
+    "therapist|替代情境：新近扭伤、明显不能负重。": {
+      "src": "./assets/dialogue-v20/85bbff3c81f580a1a083.mp3",
+      "role": "therapist",
+      "text": "替代情境：新近扭伤、明显不能负重。",
+      "duration": 4.30485260770975,
+      "sha256": "f429a764f48f867c33db693645c395ff8cbc2d36288cec246a1c6ea60a98a5c7"
+    },
+    "therapist|此时结束体能任务。": {
+      "src": "./assets/dialogue-v20/d014b204b799add70c9f.mp3",
+      "role": "therapist",
+      "text": "此时结束体能任务。",
+      "duration": 2.4994557823129253,
+      "sha256": "a8a0edf6de30cd08a063111cc58557a13cd3c2794a574ff4df847cebd5b827d9"
+    },
+    "therapist|安全休息，进一步医学评估；未做如实记录。": {
+      "src": "./assets/dialogue-v20/6538c7cceeb029d15cac.mp3",
+      "role": "therapist",
+      "text": "安全休息，进一步医学评估；未做如实记录。",
+      "duration": 4.754013605442177,
+      "sha256": "0629620d9babe0d089cede3e6fbd51b0e55baadfdc730667dd2d8aaad3de2398"
+    },
+    "therapist|先单脚站，看看是否真的不能负重。": {
+      "src": "./assets/dialogue-v20/72bfe7880d294912270b.mp3",
+      "role": "therapist",
+      "text": "先单脚站，看看是否真的不能负重。",
+      "duration": 3.9011791383219956,
+      "sha256": "35b9a6a2ba8183c37171a651462910c2e9d3b6549647dfa7f1f952a9dff66086"
+    },
+    "therapist|好的，先停。": {
+      "src": "./assets/dialogue-v20/ac0f04bc9f3957df9597.mp3",
+      "role": "therapist",
+      "text": "好的，先停。",
+      "duration": 2.0960090702947847,
+      "sha256": "d9fbb566ea6a6a4bc5e55c9deeddd25d0c4054f5ebfb68ef4a032eecf797bd1a"
+    },
+    "therapist|请回稳，我再问清新症状，安排进一步评估。": {
+      "src": "./assets/dialogue-v20/2155d13546c40a6ac141.mp3",
+      "role": "therapist",
+      "text": "请回稳，我再问清新症状，安排进一步评估。",
+      "duration": 5.010929705215419,
+      "sha256": "3f3f8446082320ac902bc1ed34535096b3f52fa24aace0e7b74d321acacaaa76"
+    },
+    "therapist|未做项目如实记录。": {
+      "src": "./assets/dialogue-v20/49d1823ab37ec52ce42e.mp3",
+      "role": "therapist",
+      "text": "未做项目如实记录。",
+      "duration": 2.4677097505668932,
+      "sha256": "9850fc6b4d36e3b11a9761c793adc11a733776e1d3936067ff5883667b806b61"
+    },
+    "patient|谢谢，我想先聊清楚，检查下次再决定。": {
+      "src": "./assets/dialogue-v20/31fea2a103e47112a3ce.mp3",
+      "role": "patient",
+      "text": "谢谢，我想先聊清楚，检查下次再决定。",
+      "duration": 5.397732426303855,
+      "sha256": "ab38ca4d2a4964d5a5d32baacde97762a2d620a8e2bcbb30a8e90d55c21982ec"
+    },
+    "therapist|本轮体能任务已结束。": {
+      "src": "./assets/dialogue-v20/376dc29b3f1f665545dc.mp3",
+      "role": "therapist",
+      "text": "本轮体能任务已结束。",
+      "duration": 2.7193197278911563,
+      "sha256": "a247694a706ea7231e061590c838736a6e7c9f0210428135b3ab493ee71fa38e"
+    },
+    "therapist|记录停止或拒绝原因与下一步；未做不写成正常。": {
+      "src": "./assets/dialogue-v20/a1df4cb2d4bd43575a28.mp3",
+      "role": "therapist",
+      "text": "记录停止或拒绝原因与下一步；未做不写成正常。",
+      "duration": 5.253197278911564,
+      "sha256": "ceaf7e59c8de6d3c40c8cc59132ed1eda26a9235d35af40f39c985654fb5b7c1"
+    },
+    "therapist|从发现走向方案，哪一种解释更有依据？": {
+      "src": "./assets/dialogue-v20/84d17d604dd6acaeb544.mp3",
+      "role": "therapist",
+      "text": "从发现走向方案，哪一种解释更有依据？",
+      "duration": 4.426349206349206,
+      "sha256": "48597cabe8a3cae51c87f466384080451e5057dae4ac450855fff2849e05114c"
+    },
+    "therapist|病史与各项发现 → 活动中的问题 → 可选措施 → 同法复评。": {
+      "src": "./assets/dialogue-v20/7dc2c5aed3e7eb4d9474.mp3",
+      "role": "therapist",
+      "text": "病史与各项发现 → 活动中的问题 → 可选措施 → 同法复评。",
+      "duration": 5.369569160997733,
+      "sha256": "8f033b9f6c3e804982573977d53631b8f46bde4ac8ac0554974ad382287d1b21"
+    },
+    "therapist|天生低足弓 → 骨头歪 → 感应器坏，矫正后一定痊愈。": {
+      "src": "./assets/dialogue-v20/c71f1b09ee3d8c0fed08.mp3",
+      "role": "therapist",
+      "text": "天生低足弓 → 骨头歪 → 感应器坏，矫正后一定痊愈。",
+      "duration": 5.104081632653061,
+      "sha256": "8fb98aacbb102b8388e15f19eea24c6b93d5fb7bd6633bff3e978e24b3a730a7"
+    },
+    "therapist|接下来认识控制脚踝的肌群，再了解怎样检查。": {
+      "src": "./assets/dialogue-v20/4a2f4fa1793eac0d8543.mp3",
+      "role": "therapist",
+      "text": "接下来认识控制脚踝的肌群，再了解怎样检查。",
+      "duration": 5.023492063492063,
+      "sha256": "f5bed86298129293f05db13981cd305316a449aa649d8cfeadfb58de14621897"
+    },
+    "therapist|力量、耐力和反应时序，要用不同方法判断。": {
+      "src": "./assets/dialogue-v20/a1f46623e710afa995b0.mp3",
+      "role": "therapist",
+      "text": "力量、耐力和反应时序，要用不同方法判断。",
+      "duration": 4.799138321995465,
+      "sha256": "df433c31a1a25e30e3c0e8bdc2a3ae174f9589e75ab6e4d271136c51f0db38e4"
+    },
+    "therapist|将四种动作与主要肌群配对。": {
+      "src": "./assets/dialogue-v20/0edb06e0c522f9cfc8e6.mp3",
+      "role": "therapist",
+      "text": "将四种动作与主要肌群配对。",
+      "duration": 3.33437641723356,
+      "sha256": "0bacdb84481d1e8f2e30232ced7334c893245189488037fd95828df65d5f3972"
+    },
+    "therapist|需要时打开解剖窗。": {
+      "src": "./assets/dialogue-v20/0473e967346c937bc73b.mp3",
+      "role": "therapist",
+      "text": "需要时打开解剖窗。",
+      "duration": 2.715963718820862,
+      "sha256": "6e893951ee551b43a5e4080988126a345cf3be31540cb349f237579dc3bd150a"
+    },
+    "therapist|完成配对，观察关节活动": {
+      "src": "./assets/dialogue-v20/c680efafcfe04a5625ba.mp3",
+      "role": "therapist",
+      "text": "完成配对，观察关节活动",
+      "duration": 3.2904761904761903,
+      "sha256": "159796ddab626f57c3aadf310ab017a94cd97d9a30c269b242b7e181c411ede2"
+    },
+    "therapist|暂记待补，进入关节活动": {
+      "src": "./assets/dialogue-v20/948c5a7e4b5d4450092e.mp3",
+      "role": "therapist",
+      "text": "暂记待补，进入关节活动",
+      "duration": 3.0877551020408163,
+      "sha256": "b22717defb9e79249d0806a91e04c49f13c224535dd060e5f5e0e836d699f5c1"
+    },
+    "therapist|切换坐位和自然站立，观察病例中的足弓外观。": {
+      "src": "./assets/dialogue-v20/19762f33045e8e6c755a.mp3",
+      "role": "therapist",
+      "text": "切换坐位和自然站立，观察病例中的足弓外观。",
+      "duration": 4.906666666666666,
+      "sha256": "2f648ac820ef62821eca89a8329fcb576de0425e2259d6f19e267c41b93d130a"
+    },
+    "therapist|记录负重前后外观差异，结合症状继续判断": {
+      "src": "./assets/dialogue-v20/487b0831fe7699ba8c43.mp3",
+      "role": "therapist",
+      "text": "记录负重前后外观差异，结合症状继续判断",
+      "duration": 5.005714285714285,
+      "sha256": "fde6670fbce6a39640eacd8d86cf5fc26f2ba57e57ec0a9c57efba20eb999bee"
+    },
+    "therapist|负重足弓低，证明这是所有不稳的根源。": {
+      "src": "./assets/dialogue-v20/5154c862ed2eaeca5df0.mp3",
+      "role": "therapist",
+      "text": "负重足弓低，证明这是所有不稳的根源。",
+      "duration": 4.246258503401361,
+      "sha256": "aeba9b4fff445b73664c4088a273fb7e8df2f1d7261930eca76820d5d7a925ad"
+    },
+    "therapist|先看同条件足印与负荷，再计算足弓指数。": {
+      "src": "./assets/dialogue-v20/d9c56a4baf52551fe396.mp3",
+      "role": "therapist",
+      "text": "先看同条件足印与负荷，再计算足弓指数。",
+      "duration": 4.95265306122449,
+      "sha256": "ced9446c8cead5c3b18902f5359200f39591da43351d8ab7f8a2e3d564826b93"
+    },
+    "therapist|不含脚趾：中足面积 ÷ 前足、中足、后足面积之和。": {
+      "src": "./assets/dialogue-v20/3bc955b98ea6881ffe7e.mp3",
+      "role": "therapist",
+      "text": "不含脚趾：中足面积 ÷ 前足、中足、后足面积之和。",
+      "duration": 5.922630385487528,
+      "sha256": "4559100ae4e2ed4b2fafdae4a55ddce994045a0e968e95e87d3a61e9dec197ac"
+    },
+    "therapist|完成记录，继续": {
+      "src": "./assets/dialogue-v20/50898919ef1c365d297f.mp3",
+      "role": "therapist",
+      "text": "完成记录，继续",
+      "duration": 2.3514285714285714,
+      "sha256": "0e2e5bd2f1a84164748ee339db2c410b9af14cc480c9ad50ae77c470c7d294ec"
+    },
+    "therapist|同样双脚睁眼、30秒，比较轨迹，再计算路径长度 ÷ 时间。": {
+      "src": "./assets/dialogue-v20/858a54490f3a68e81e8a.mp3",
+      "role": "therapist",
+      "text": "同样双脚睁眼、30秒，比较轨迹，再计算路径长度 ÷ 时间。",
+      "duration": 6.699863945578231,
+      "sha256": "2756da903dc70a84bc696c9ee94a286f67bff6a6c64f0e2a29a04993e54b2315"
+    },
+    "therapist|陈女士，您好。": {
+      "src": "./assets/dialogue-v20/24ef02a5300759919c05.mp3",
+      "role": "therapist",
+      "text": "陈女士，您好。",
+      "duration": 2.239092970521542,
+      "sha256": "ad4db37ae68d73a28468d43d2caa9a4e6c47e7fb7f9efbe70a04ef310e0ae9dc"
+    },
+    "therapist|最近哪里不舒服？": {
+      "src": "./assets/dialogue-v20/9fcd0f543f5a3a19e4f3.mp3",
+      "role": "therapist",
+      "text": "最近哪里不舒服？",
+      "duration": 2.2211337868480725,
+      "sha256": "ad8c679a6ca636d6e7fe98b5d7dd46cfae5d57f161235f423a1ccb75dbd7e5ae"
+    },
+    "patient|右脚这一年崴了三次，走路总怕发软。": {
+      "src": "./assets/dialogue-v20/078672faacaeb6abbcd8.mp3",
+      "role": "patient",
+      "text": "右脚这一年崴了三次，走路总怕发软。",
+      "duration": 4.802902494331065,
+      "sha256": "79746d975456d7d602353002191a9e158f97a76de88c57364af48ae8213dff0b"
+    },
+    "therapist|我理解。": {
+      "src": "./assets/dialogue-v20/eb858c7057b263cb8518.mp3",
+      "role": "therapist",
+      "text": "我理解。",
+      "duration": 1.412607709750567,
+      "sha256": "f08ea1c40d1c2f5095e2092b7079dfddb400c8f49a6f2e9dc0251dd0d3feaf03"
+    },
+    "therapist|我们先聊清楚，再一起检查。": {
+      "src": "./assets/dialogue-v20/f46644caace3e87ae633.mp3",
+      "role": "therapist",
+      "text": "我们先聊清楚，再一起检查。",
+      "duration": 3.487528344671202,
+      "sha256": "bcc7144e98302f19a1aa054d489a35808be1fa1d1f84115e9243f4381375230a"
+    },
+    "therapist|我们先聊聊最困扰您的事。": {
+      "src": "./assets/dialogue-v20/76b1d0003e3ea4de1c40.mp3",
+      "role": "therapist",
+      "text": "我们先聊聊最困扰您的事。",
+      "duration": 2.885124716553288,
+      "sha256": "ee5c40ce31a04e324c0f81ca17db45b18d8a31264ab09ea5e54c019d9839ad99"
+    },
+    "therapist|您愿意从什么时候开始说？": {
+      "src": "./assets/dialogue-v20/6e0085bb2eb25afe2ef4.mp3",
+      "role": "therapist",
+      "text": "您愿意从什么时候开始说？",
+      "duration": 3.173469387755102,
+      "sha256": "3107d2c6d823800b3d911b38abcffe2d1607786d60391a23184b081e1ad042cb"
+    },
+    "patient|好，我想先说说走路时的担心。": {
+      "src": "./assets/dialogue-v20/b54452bedd5cc44070f9.mp3",
+      "role": "patient",
+      "text": "好，我想先说说走路时的担心。",
+      "duration": 4.038321995464853,
+      "sha256": "3017ed73be2ed87d76091bb1fb5526ba36bbf36501520d60deeb20a01edfa8d0"
+    },
+    "patient|我想先了解一下，今天暂时不检查。": {
+      "src": "./assets/dialogue-v20/22d5b67e60000b3b49ec.mp3",
+      "role": "patient",
+      "text": "我想先了解一下，今天暂时不检查。",
+      "duration": 4.657959183673469,
+      "sha256": "a3318e218e691ba529302db842b4b1289d786d74043f5f3079d4e58edec7d5e4"
+    },
+    "therapist|可以，先聊清楚。": {
+      "src": "./assets/dialogue-v20/c0d4cad5b8d800866857.mp3",
+      "role": "therapist",
+      "text": "可以，先聊清楚。",
+      "duration": 2.50453514739229,
+      "sha256": "59c3d0b3ba83c42bb88961b1bb9c9dd6caa290934af6aac95572ada0a4770dc0"
+    },
+    "therapist|是否检查，由您决定。": {
+      "src": "./assets/dialogue-v20/788a19c75e8d44a3a406.mp3",
+      "role": "therapist",
+      "text": "是否检查，由您决定。",
+      "duration": 2.8727437641723355,
+      "sha256": "1b6fe5423bb32df03bc30175e78c4a9d4459bff64ca6b314c41d9874bc7e1fae"
+    },
+    "therapist|检查从小幅动作开始，您随时可以停。": {
+      "src": "./assets/dialogue-v20/756f8c82adaa647eb897.mp3",
+      "role": "therapist",
+      "text": "检查从小幅动作开始，您随时可以停。",
+      "duration": 4.462993197278911,
+      "sha256": "3abcb8f9197480bf4e3c8d0e4a1f3b11d44e286a751566d30673e6e761b4925c"
+    },
+    "patient|好，发紧或害怕时，我会告诉您。": {
+      "src": "./assets/dialogue-v20/223ba9675d4455c01bc6.mp3",
+      "role": "patient",
+      "text": "好，发紧或害怕时，我会告诉您。",
+      "duration": 4.618321995464853,
+      "sha256": "c303c44696af45aefbb66de9421c7d3cee9f4879be15a0aff7eb107cb86e8c20"
+    },
+    "therapist|检查前还想确认：最近有新伤、麻木、疼肿加重，或者不能踩地吗？": {
+      "src": "./assets/dialogue-v20/776869d2443d0c43a335.mp3",
+      "role": "therapist",
+      "text": "检查前还想确认：最近有新伤、麻木、疼肿加重，或者不能踩地吗？",
+      "duration": 7.175238095238095,
+      "sha256": "507c8a62fd07d8375f517e1e5fcf9b76bab0ead52fc536236b35029296921a44"
+    },
+    "patient|我先把最近的情况说清楚。": {
+      "src": "./assets/dialogue-v20/6c460a902d2244807be7.mp3",
+      "role": "patient",
+      "text": "我先把最近的情况说清楚。",
+      "duration": 3.3982766439909295,
+      "sha256": "84b816bd3d48c4fef0636c75c22bce7a899676cefa50e50c73a1319135e62732"
+    },
+    "patient|刚又扭了，疼得踩不了地。": {
+      "src": "./assets/dialogue-v20/ff3655a5e07fd3037520.mp3",
+      "role": "patient",
+      "text": "刚又扭了，疼得踩不了地。",
+      "duration": 3.388480725623583,
+      "sha256": "759cc34bed5cfbf12a6526784691a1a6a0840b5c4889c54d179df2ace4645d6a"
+    },
+    "therapist|今天先不做负重挑战。": {
+      "src": "./assets/dialogue-v20/612a1e544b08ff67dd9a.mp3",
+      "role": "therapist",
+      "text": "今天先不做负重挑战。",
+      "duration": 2.8141950113378686,
+      "sha256": "84294bf5aa6eb4462a290a68c44e51d400303ad388fdc7baab2908e14c5069aa"
+    },
+    "therapist|请在安全位置休息，我们安排进一步医学评估。": {
+      "src": "./assets/dialogue-v20/e850c7ad66de8d680454.mp3",
+      "role": "therapist",
+      "text": "请在安全位置休息，我们安排进一步医学评估。",
+      "duration": 5.005442176870749,
+      "sha256": "a0fc6b5a6e2a92362133159750f8a1946af08fa22e41f827618ac0a867c69d9b"
+    },
+    "patient|我今天还是有点怕，想下次再检查。": {
+      "src": "./assets/dialogue-v20/0f442c6c674ffd72ccb6.mp3",
+      "role": "patient",
+      "text": "我今天还是有点怕，想下次再检查。",
+      "duration": 4.747755102040816,
+      "sha256": "7bda4770e63617626877cab4cb01a61b2e0eae77c2de0131e5f9ce73883b959d"
+    },
+    "therapist|没关系。": {
+      "src": "./assets/dialogue-v20/1697cd1618deced07a4e.mp3",
+      "role": "therapist",
+      "text": "没关系。",
+      "duration": 1.4975056689342403,
+      "sha256": "36b9f826d915390dea57255963c236a736c97ba6730169f4c70b7d3bc6bc8e43"
+    },
+    "therapist|我们记录今天未做，再商量下一步。": {
+      "src": "./assets/dialogue-v20/b54bdac68abe822b2434.mp3",
+      "role": "therapist",
+      "text": "我们记录今天未做，再商量下一步。",
+      "duration": 3.94140589569161,
+      "sha256": "1be00bc2914c725669071515f25dc8164f67519c2940e54f21efb56413b46934"
+    },
+    "therapist|现在看踝关节背屈和跖屈。": {
+      "src": "./assets/dialogue-v20/c4b6422e99b091d25b9c.mp3",
+      "role": "therapist",
+      "text": "现在看踝关节背屈和跖屈。",
+      "duration": 3.3621768707482995,
+      "sha256": "7acd9af2af05cfa900ac6ca3b9d52ed1c1a7a332b071604b684a3a4c22de6545"
+    },
+    "patient|向上动时，右边有点紧。": {
+      "src": "./assets/dialogue-v20/178a3beb56ed975529e5.mp3",
+      "role": "patient",
+      "text": "向上动时，右边有点紧。",
+      "duration": 3.4434013605442177,
+      "sha256": "48afae234ae98c26063ea8c9399726002deab322edc43386e20f57970d35651b"
+    },
+    "therapist|我们慢慢来，不舒服就停。": {
+      "src": "./assets/dialogue-v20/d38327a75930f6e45b9e.mp3",
+      "role": "therapist",
+      "text": "我们慢慢来，不舒服就停。",
+      "duration": 3.0471201814058957,
+      "sha256": "8d99180e555a527f858bc42d1a83cd895685ff9814c9baf039c373697c88b048"
+    },
+    "therapist|我先说明目的和过程，您可以决定是否尝试。": {
+      "src": "./assets/dialogue-v20/1ba6430ba18383f1afa4.mp3",
+      "role": "therapist",
+      "text": "我先说明目的和过程，您可以决定是否尝试。",
+      "duration": 4.938548752834467,
+      "sha256": "1d61a896e3e943d8a0251e3b92bc840b1b942d0d8fe4cc24747516016f4c2905"
+    },
+    "therapist|现在方便坐稳、脱鞋袜吗？": {
+      "src": "./assets/dialogue-v20/8670fcd009be4c00d61c.mp3",
+      "role": "therapist",
+      "text": "现在方便坐稳、脱鞋袜吗？",
+      "duration": 3.244716553287982,
+      "sha256": "a343ca23d0560a884b66062e1fd84385ecf6ec03ce342aa30e45e0541d42de2f"
+    },
+    "patient|请先讲一下会怎样检查。": {
+      "src": "./assets/dialogue-v20/a830bc52b81bfc68d183.mp3",
+      "role": "patient",
+      "text": "请先讲一下会怎样检查。",
+      "duration": 3.1635374149659863,
+      "sha256": "5c3233a473b1af6f14da44967df06401f6ea0274e3299754f7b13ad6caab5668"
+    },
+    "patient|今天不想让人碰脚，可以先看演示吗？": {
+      "src": "./assets/dialogue-v20/2077f3947a0f84b20e8a.mp3",
+      "role": "patient",
+      "text": "今天不想让人碰脚，可以先看演示吗？",
+      "duration": 4.867891156462585,
+      "sha256": "ebe5c5b754d6b69769c3fb58bca531e0edc87817bbcb4ce3fbcc4029bad78596"
+    },
+    "therapist|当然可以。": {
+      "src": "./assets/dialogue-v20/c8f7f448900b970b4417.mp3",
+      "role": "therapist",
+      "text": "当然可以。",
+      "duration": 1.6644444444444444,
+      "sha256": "9d441b92f7e4fb5e8caf426ffe11efeaacccaf0cceccfcd69112686996c51af9"
+    },
+    "therapist|今天不记活动度结果，我们先看方法。": {
+      "src": "./assets/dialogue-v20/8358dec1dffd4d3e9fe0.mp3",
+      "role": "therapist",
+      "text": "今天不记活动度结果，我们先看方法。",
+      "duration": 4.170430839002267,
+      "sha256": "8e19c70cb594061ffb9cf3dc00fec49126d6efc3f886e9adcd28e4cf1ec12153"
+    },
+    "patient|先停一下，现在不舒服。": {
+      "src": "./assets/dialogue-v20/16d8896c7d442902ab49.mp3",
+      "role": "patient",
+      "text": "先停一下，现在不舒服。",
+      "duration": 3.3834013605442177,
+      "sha256": "9be86bd6a12025fcdbbd4a8430b09d1fe4c32ef04ae276ff3873dfed83f47020"
+    },
+    "therapist|好的，先停稳。": {
+      "src": "./assets/dialogue-v20/f8c7bb9569cba3efb4e5.mp3",
+      "role": "therapist",
+      "text": "好的，先停稳。",
+      "duration": 2.2568707482993196,
+      "sha256": "3522d9247098489dd568b798da4c85512e11171107ca28b3a3982a6dc5d84874"
+    },
+    "therapist|我问清感受，再决定是否继续。": {
+      "src": "./assets/dialogue-v20/0340488a7a99a8a427cb.mp3",
+      "role": "therapist",
+      "text": "我问清感受，再决定是否继续。",
+      "duration": 3.5504761904761906,
+      "sha256": "0c50eb262a4bd3288b70b5c48829d638c6fdb4bfd679784f3ca896c65bc3b2f3"
+    },
+    "patient|发紧就代表骨头错位了吗？": {
+      "src": "./assets/dialogue-v20/d10c4dfd0f8743ae35c7.mp3",
+      "role": "patient",
+      "text": "发紧就代表骨头错位了吗？",
+      "duration": 3.248253968253968,
+      "sha256": "918b8e228d021b8144f5157a9790ea365cf400ba2299dd1f6576047dd593de09"
+    },
+    "therapist|不一定。": {
+      "src": "./assets/dialogue-v20/487fe1a58a4e2fe4931f.mp3",
+      "role": "therapist",
+      "text": "不一定。",
+      "duration": 1.3631746031746033,
+      "sha256": "4103e76c6202031f2bb4504ad5c42746600a16bfa1d7b6a82af098a2485a7182"
+    },
+    "therapist|先记录活动表现，再综合判断。": {
+      "src": "./assets/dialogue-v20/64ebaf0d83936d5b4712.mp3",
+      "role": "therapist",
+      "text": "先记录活动表现，再综合判断。",
+      "duration": 3.7798185941043085,
+      "sha256": "f9bd7119148f07140649336f92089a52ca0b88f10ce29504cf56f4907cd27217"
+    },
+    "therapist|今天还没作活动检查，就先不判断哪侧受限。": {
+      "src": "./assets/dialogue-v20/bde8cee0f7bc06b90293.mp3",
+      "role": "therapist",
+      "text": "今天还没作活动检查，就先不判断哪侧受限。",
+      "duration": 5.234467120181406,
+      "sha256": "17efece51de6c3981520ec541ad2ed4ff4ad86ff9e5d7391b6d628383421c410"
+    },
+    "therapist|之后按同样方法比较，也听听您的感受。": {
+      "src": "./assets/dialogue-v20/ad2c5c207d7683d277b5.mp3",
+      "role": "therapist",
+      "text": "之后按同样方法比较，也听听您的感受。",
+      "duration": 4.373106575963718,
+      "sha256": "ed27168613d7ef3cfe5bf3e0eaf8b1f76781069ee2d3862a60fb75032d0e1e18"
+    },
+    "patient|好，不用先给我下结论。": {
+      "src": "./assets/dialogue-v20/f53965cd5214c041b015.mp3",
+      "role": "patient",
+      "text": "好，不用先给我下结论。",
+      "duration": 3.3984580498866213,
+      "sha256": "ed19def88e7cc716576d846974aac7fbc7900a5a8d8876ca929ecda37735c44f"
+    },
+    "therapist|刚才因不适停了，没有取得完整比较。": {
+      "src": "./assets/dialogue-v20/b65b0e4dc009d6f148fd.mp3",
+      "role": "therapist",
+      "text": "刚才因不适停了，没有取得完整比较。",
+      "duration": 4.11609977324263,
+      "sha256": "73a23bfe63c2bcacb3f1b6d7476f316462f5eddaed4ec4033467c6f0b7a1c0b9"
+    },
+    "therapist|先记录停止原因，不追求更远。": {
+      "src": "./assets/dialogue-v20/4da3847478c4164a1974.mp3",
+      "role": "therapist",
+      "text": "先记录停止原因，不追求更远。",
+      "duration": 3.658185941043084,
+      "sha256": "6207c47b5bfd326d7c649860b3d3ac0a1125340abb653f281bcb3e52cc3c03f1"
+    },
+    "patient|谢谢，我想先缓一下。": {
+      "src": "./assets/dialogue-v20/e2ddb07ef5b297b7014f.mp3",
+      "role": "patient",
+      "text": "谢谢，我想先缓一下。",
+      "duration": 3.258639455782313,
+      "sha256": "6cbea964de2447607682690d879cdd2f8bbe23378c44cd4760b3a7fbaf877034"
+    },
+    "patient|我暂时不想再试。": {
+      "src": "./assets/dialogue-v20/1ff4591fcfad65652070.mp3",
+      "role": "patient",
+      "text": "我暂时不想再试。",
+      "duration": 2.5789115646258503,
+      "sha256": "f7408b2e47813a23c9a82226cf6f1e8a7d608412ab0fca958030d5117ec8a927"
+    },
+    "therapist|可以，今天先不量角度。": {
+      "src": "./assets/dialogue-v20/5f9c92b2969fd1700da7.mp3",
+      "role": "therapist",
+      "text": "可以，今天先不量角度。",
+      "duration": 3.1332426303854874,
+      "sha256": "28169e501661ba4c9b3622e15758230f74f5e5a03c2019bab04b8c90ca6eb574"
+    },
+    "therapist|剩下的项目，我们逐项商量。": {
+      "src": "./assets/dialogue-v20/854995ed33a4f0360a2e.mp3",
+      "role": "therapist",
+      "text": "剩下的项目，我们逐项商量。",
+      "duration": 3.2089795918367345,
+      "sha256": "d938b65b244d5d4c721b31a8af4e69fe776641dfb267e4f2527c6ad1cd2899c2"
+    },
+    "therapist|肌肉既产生动作，也帮助稳定脚踝。": {
+      "src": "./assets/dialogue-v20/1e9e06f115f2303e36e1.mp3",
+      "role": "therapist",
+      "text": "肌肉既产生动作，也帮助稳定脚踝。",
+      "duration": 4.044126984126984,
+      "sha256": "b1660d7a058439585c9f36483959845a38b39bfefdb85022496787e7e95bd635"
+    },
+    "patient|往外稳住脚，是哪些肌肉呢？": {
+      "src": "./assets/dialogue-v20/15b44ab43108e024b947.mp3",
+      "role": "patient",
+      "text": "往外稳住脚，是哪些肌肉呢？",
+      "duration": 3.7033560090702946,
+      "sha256": "162c26befd1f8b359d5ff53de356dca06c05e58ce9bc820c77bf3153ea9a06e2"
+    },
+    "therapist|一起看腓骨长肌和短肌。": {
+      "src": "./assets/dialogue-v20/b9cb8252f02e42a93052.mp3",
+      "role": "therapist",
+      "text": "一起看腓骨长肌和短肌。",
+      "duration": 3.0472562358276645,
+      "sha256": "b9126db45abf2501756e4e2288312051277095a927cc9d4761cee93dc1922d3b"
+    },
+    "therapist|这一项先记待补。": {
+      "src": "./assets/dialogue-v20/3188e96ab119f704ceb6.mp3",
+      "role": "therapist",
+      "text": "这一项先记待补。",
+      "duration": 2.212063492063492,
+      "sha256": "206187a83f022f1a4be5b4ced47c2db8ef02e332f7b7a1d60527aa5d7f131dd2"
+    },
+    "therapist|我们还没有力量结果，接下来可以先观察足弓。": {
+      "src": "./assets/dialogue-v20/fcd118fe913b214cc24a.mp3",
+      "role": "therapist",
+      "text": "我们还没有力量结果，接下来可以先观察足弓。",
+      "duration": 4.8664399092970525,
+      "sha256": "d3b300c04eefae7707eb683412ccd1defbff54c004331e34d33e176848d7bf98"
+    },
+    "patient|好，之后再回来了解。": {
+      "src": "./assets/dialogue-v20/4dbf20ca282162b2a553.mp3",
+      "role": "patient",
+      "text": "好，之后再回来了解。",
+      "duration": 3.218639455782313,
+      "sha256": "dc5a5dc6d4dce3f0c7ce9a9ca5266fa25e0a14aa05856e342942e6238c46a676"
+    },
+    "patient|今天不想做对抗用力。": {
+      "src": "./assets/dialogue-v20/e0e1bd1484d1c0d86f52.mp3",
+      "role": "patient",
+      "text": "今天不想做对抗用力。",
+      "duration": 3.0085714285714285,
+      "sha256": "9b54bd65b783388124387ae19b0443974411573af318df479ca4a3c997fe48c7"
+    },
+    "therapist|可以，我们先了解肌肉怎样参与动作。": {
+      "src": "./assets/dialogue-v20/f9db24d277da8e2ffdf1.mp3",
+      "role": "therapist",
+      "text": "可以，我们先了解肌肉怎样参与动作。",
+      "duration": 4.2338775510204085,
+      "sha256": "4be9f3da90a61f127b4916c431b7ebccea42778cb2b3b588cd563114ebcc7fba"
+    },
+    "therapist|力量检查今天先不做。": {
+      "src": "./assets/dialogue-v20/15a2d982b81a02fef813.mp3",
+      "role": "therapist",
+      "text": "力量检查今天先不做。",
+      "duration": 2.8636281179138323,
+      "sha256": "9119d00cd8c8a010ab7953c0e25ef1189f1453f98c6b429726cc90301dd182bd"
+    },
+    "patient|这样用力不舒服，我想停。": {
+      "src": "./assets/dialogue-v20/dceb22783ab12a175d35.mp3",
+      "role": "patient",
+      "text": "这样用力不舒服，我想停。",
+      "duration": 3.6184580498866215,
+      "sha256": "bea83164dc4003612185609b4661ec1b89c2eb8763cdda957a1224206595e2b0"
+    },
+    "therapist|好的，放松下来。": {
+      "src": "./assets/dialogue-v20/b13471c4adcb99c0bc01.mp3",
+      "role": "therapist",
+      "text": "好的，放松下来。",
+      "duration": 2.4234920634920636,
+      "sha256": "4926ba307ac4279d22b16457219dc4fa8a4e2a7c8fb59633abc512b2e375d2b7"
+    },
+    "therapist|先记录感受，不继续加阻力。": {
+      "src": "./assets/dialogue-v20/b77111ff8650c359f6a2.mp3",
+      "role": "therapist",
+      "text": "先记录感受，不继续加阻力。",
+      "duration": 3.3750113378684805,
+      "sha256": "206d722c631831a574d7633147f88820edfa290c8f4ca29cc478deb1a6d733ec"
+    },
+    "patient|脚能往外动，为什么还是觉得没劲？": {
+      "src": "./assets/dialogue-v20/d6fe499d9acfa0782ba4.mp3",
+      "role": "patient",
+      "text": "脚能往外动，为什么还是觉得没劲？",
+      "duration": 4.362721088435374,
+      "sha256": "115b1f594105140387e694eef6e50111d8c0e8597373357a51f563b42a8ceed3"
+    },
+    "patient|是不是那块肌肉坏了？": {
+      "src": "./assets/dialogue-v20/0165ce7be7fd530eb7c0.mp3",
+      "role": "patient",
+      "text": "是不是那块肌肉坏了？",
+      "duration": 2.8135600907029477,
+      "sha256": "ce022294519a634ed7a7797745bc84855359457d779c392e06262fd0f3d4a79f"
+    },
+    "therapist|能活动，不等于力量和耐力都够。": {
+      "src": "./assets/dialogue-v20/8ce9c0d0f8863a923ef8.mp3",
+      "role": "therapist",
+      "text": "能活动，不等于力量和耐力都够。",
+      "duration": 3.527755102040816,
+      "sha256": "c14a674e2a268323ad2e9fe5a02ed0ad7fb3a6c2c244a2fb27a480deeed833b5"
+    },
+    "therapist|发软是线索，还要按规范检查，不能直接定位损伤。": {
+      "src": "./assets/dialogue-v20/4d3092f7fd7103c727ca.mp3",
+      "role": "therapist",
+      "text": "发软是线索，还要按规范检查，不能直接定位损伤。",
+      "duration": 5.7470748299319725,
+      "sha256": "340a9c1599f69b0e20aaa7a602269f06d623708f7c37a0ba3d81aee35ac9684d"
+    },
+    "patient|那只看走路，也不能知道肌肉反应有多慢？": {
+      "src": "./assets/dialogue-v20/5437868d547f2e51b741.mp3",
+      "role": "patient",
+      "text": "那只看走路，也不能知道肌肉反应有多慢？",
+      "duration": 4.917777777777777,
+      "sha256": "9b8f9fccac0813022927a5fef624599d03b25d92af637ac822228118bf6d29d0"
+    },
+    "therapist|对，外观不能给出激活时间。": {
+      "src": "./assets/dialogue-v20/c13402a00ce3d7d0dc22.mp3",
+      "role": "therapist",
+      "text": "对，外观不能给出激活时间。",
+      "duration": 3.3709750566893426,
+      "sha256": "f65f0493b24b5c380917d0c370d07ced8862a0543b28cb4a638c9be7a492b6d2"
+    },
+    "therapist|先把知道的和需要补查的分开。": {
+      "src": "./assets/dialogue-v20/196c6d0553954ef6b9d1.mp3",
+      "role": "therapist",
+      "text": "先把知道的和需要补查的分开。",
+      "duration": 3.5049433106575965,
+      "sha256": "7eaff3cbed16773f9823d419b58c0bd59ecc9b509e09f0b5e95108fd4c61f5ae"
+    },
+    "therapist|还没有相应检查结果，就先不判断力量是否不足。": {
+      "src": "./assets/dialogue-v20/733f320243aa9db490f7.mp3",
+      "role": "therapist",
+      "text": "还没有相应检查结果，就先不判断力量是否不足。",
+      "duration": 5.262176870748299,
+      "sha256": "d337f5614d2b2944bff5ef0bd15e7dad62de3267079d28ab6e2c73e3391e9b84"
+    },
+    "therapist|您的发软感受记下来，之后再查。": {
+      "src": "./assets/dialogue-v20/1663db29df8b12dc7b66.mp3",
+      "role": "therapist",
+      "text": "您的发软感受记下来，之后再查。",
+      "duration": 3.8289342403628117,
+      "sha256": "dda06da55b960da44c2ae4f1b10bdcfb44d543b182cba8f828f0f4c6e6e185ce"
+    },
+    "patient|好，先记下我的感受，需要时再查。": {
+      "src": "./assets/dialogue-v20/518fb5acd16e51e138f1.mp3",
+      "role": "patient",
+      "text": "好，先记下我的感受，需要时再查。",
+      "duration": 4.743219954648526,
+      "sha256": "525987250dc903ec6bb388276666774569d99e3b67e793bee923dd31bae250e9"
+    },
+    "patient|今天先不做力量检查。": {
+      "src": "./assets/dialogue-v20/0c8e604624bff0420b1b.mp3",
+      "role": "patient",
+      "text": "今天先不做力量检查。",
+      "duration": 3.0035374149659866,
+      "sha256": "64077e4f47230e30a9a3498c2599e94c1cc7a2f5ef9a47999a5900844c4a3491"
+    },
+    "therapist|可以，今天先不做。": {
+      "src": "./assets/dialogue-v20/a08c6ba9b1f4fe6da0e9.mp3",
+      "role": "therapist",
+      "text": "可以，今天先不做。",
+      "duration": 2.742358276643991,
+      "sha256": "39fd92e9e7b217179093dfc3084f2f6ac7e012e6ead65d7c0f65b2bb56bc6d28"
+    },
+    "therapist|记录下您的感受和未做原因，之后需要时再查。": {
+      "src": "./assets/dialogue-v20/74ed5ae1be38993a39d6.mp3",
+      "role": "therapist",
+      "text": "记录下您的感受和未做原因，之后需要时再查。",
+      "duration": 5.082721088435374,
+      "sha256": "c631e0917220796e2f88ff2a57c77df43ea75b5a0eb18cd1d907a079c5c1475e"
+    },
+    "therapist|请坐稳，先脱鞋袜，再比较坐着和站着的足弓。": {
+      "src": "./assets/dialogue-v20/abbf3f585d978cb072a4.mp3",
+      "role": "therapist",
+      "text": "请坐稳，先脱鞋袜，再比较坐着和站着的足弓。",
+      "duration": 5.023265306122449,
+      "sha256": "934755850838ebcde474479003083ac6ca6ce1a8ece2e4234d80b21bc4dbf2ad"
+    },
+    "patient|站久了，我的脚内侧会酸。": {
+      "src": "./assets/dialogue-v20/c34751f5e5579f9830d4.mp3",
+      "role": "patient",
+      "text": "站久了，我的脚内侧会酸。",
+      "duration": 3.3334240362811793,
+      "sha256": "c46cb472bad97d686a559d14b414487ff1df7615938f53496fee41dd4ae499fd"
+    },
+    "therapist|我们先观察负重前后的变化。": {
+      "src": "./assets/dialogue-v20/4d9eb7c51cd965742448.mp3",
+      "role": "therapist",
+      "text": "我们先观察负重前后的变化。",
+      "duration": 3.298639455782313,
+      "sha256": "1274decda91b714078aac525ff617bb7f7cf3ef42e187ed890c57d0f70a4fa32"
+    },
+    "therapist|这一项先不做，我们就没有坐站足弓比较。": {
+      "src": "./assets/dialogue-v20/d3c4eb15e303d62bda63.mp3",
+      "role": "therapist",
+      "text": "这一项先不做，我们就没有坐站足弓比较。",
+      "duration": 4.390430839002268,
+      "sha256": "0e79379df5f3c3df154d44c8cf1951c149584376faa6ad8e22d3d8ead0f28e73"
+    },
+    "therapist|之后有需要再补。": {
+      "src": "./assets/dialogue-v20/df853368c5d245f1f937.mp3",
+      "role": "therapist",
+      "text": "之后有需要再补。",
+      "duration": 2.3198639455782315,
+      "sha256": "fcc264f5109524201a81cf6d9491bcf84eb4e393d422e58c55793e8c904aa5b5"
+    },
+    "patient|好，我也想慢慢弄清哪里需要注意。": {
+      "src": "./assets/dialogue-v20/f1f33907c1c7cada5a36.mp3",
+      "role": "patient",
+      "text": "好，我也想慢慢弄清哪里需要注意。",
+      "duration": 4.513242630385488,
+      "sha256": "0021c9c49e3a4358006fbafde2fa68cebd2ba3b081a04f3d1e4bb3e51c2d08ca"
+    },
+    "patient|现在不想站起来。": {
+      "src": "./assets/dialogue-v20/e687022e3816e853dca8.mp3",
+      "role": "patient",
+      "text": "现在不想站起来。",
+      "duration": 2.6387755102040815,
+      "sha256": "dc8c28b7c1ee5fc9f97794c46d6e9289f953a919550c69424baa5265e29ad906"
+    },
+    "therapist|可以，先坐稳。": {
+      "src": "./assets/dialogue-v20/8e54f1f0d255a9dd0745.mp3",
+      "role": "therapist",
+      "text": "可以，先坐稳。",
+      "duration": 2.2351020408163267,
+      "sha256": "785847ab25d60247483b266bd34bf3f3e71539781a0305a5bbd9a0c8d7485582"
+    },
+    "therapist|今天不形成负重足弓结论。": {
+      "src": "./assets/dialogue-v20/5b6ef2192253c55b5113.mp3",
+      "role": "therapist",
+      "text": "今天不形成负重足弓结论。",
+      "duration": 3.222902494331066,
+      "sha256": "938095abd3138d2707846b0cf4fb78ab2a42f1480b4fa0840c0c47bbeb960f07"
+    },
+    "patient|站着不太舒服，我想坐下。": {
+      "src": "./assets/dialogue-v20/3dab594ff0d31990bc68.mp3",
+      "role": "patient",
+      "text": "站着不太舒服，我想坐下。",
+      "duration": 3.4683446712018142,
+      "sha256": "a7361f4de510e42750c85f3695741472bc7ed50ec2fa563f43c7b553342d702d"
+    },
+    "therapist|好的，慢慢坐稳。": {
+      "src": "./assets/dialogue-v20/64eb668f835ff471de15.mp3",
+      "role": "therapist",
+      "text": "好的，慢慢坐稳。",
+      "duration": 2.3248526077097504,
+      "sha256": "947655a7f21e161c07e4c22d80c2ac67d538c236791019fbc9c827fea73ba3ab"
+    },
+    "therapist|先记录感受，观察到这里为止。": {
+      "src": "./assets/dialogue-v20/f5932f1a99a719e579d8.mp3",
+      "role": "therapist",
+      "text": "先记录感受，观察到这里为止。",
+      "duration": 3.573514739229025,
+      "sha256": "8f32a44b7cd8f46aaec91bc90042f992c9543d5b86cdf0009907c8872cfee149"
+    },
+    "patient|脚弓低，就是反复崴脚的原因吗？": {
+      "src": "./assets/dialogue-v20/f8a753ed4583853eaa4e.mp3",
+      "role": "patient",
+      "text": "脚弓低，就是反复崴脚的原因吗？",
+      "duration": 4.193106575963719,
+      "sha256": "db0a54671b4213f7cc8b419aa96eaaac9024941cb02c733556d46b5fef4ba5d7"
+    },
+    "therapist|不能只看足形。": {
+      "src": "./assets/dialogue-v20/7a8dc82e7ec3773a329c.mp3",
+      "role": "therapist",
+      "text": "不能只看足形。",
+      "duration": 2.07687074829932,
+      "sha256": "9ab71dd9e1d91738b1166fc99af2303543115f264f3f7dfd4fa9a588eb70b0ef"
+    },
+    "therapist|还要结合活动、负荷和控制。": {
+      "src": "./assets/dialogue-v20/d4893914013209de5a63.mp3",
+      "role": "therapist",
+      "text": "还要结合活动、负荷和控制。",
+      "duration": 3.4606802721088434,
+      "sha256": "065e6bdc9f6a170eeb76189770b807399fbf762792bfef9815e5102daaf59838"
+    },
+    "therapist|今天还没有坐站比较，不能说您是低足弓或高足弓。": {
+      "src": "./assets/dialogue-v20/7115f1e8b972832ce9d5.mp3",
+      "role": "therapist",
+      "text": "今天还没有坐站比较，不能说您是低足弓或高足弓。",
+      "duration": 5.346984126984127,
+      "sha256": "f7e038ef99a6e12abfa7d7cdcc63176870fa97c7581771e6dba19158fdb06e91"
+    },
+    "therapist|先把形态和症状分开。": {
+      "src": "./assets/dialogue-v20/8f42e2c466e618f0a0b1.mp3",
+      "role": "therapist",
+      "text": "先把形态和症状分开。",
+      "duration": 2.8271655328798184,
+      "sha256": "713291ec924ecaaa6f64df78abafd8f118c4d451ba0828c9d7ef8a66a09a9182"
+    },
+    "patient|好，之后看资料再讨论。": {
+      "src": "./assets/dialogue-v20/3505ed34752dd419b159.mp3",
+      "role": "patient",
+      "text": "好，之后看资料再讨论。",
+      "duration": 3.4434013605442177,
+      "sha256": "2fc79234f84d43edcf574fd3e489f20c0b5fd09777a7d116661199e38a5546a6"
+    },
+    "patient|这项先不继续了。": {
+      "src": "./assets/dialogue-v20/6b9a43061f35690e3f40.mp3",
+      "role": "patient",
+      "text": "这项先不继续了。",
+      "duration": 2.4187755102040818,
+      "sha256": "c53df068239c8d8f94a70e553f9e1b60d0eff41e0a8dba9d999b8f0608ea614b"
+    },
+    "therapist|可以。": {
+      "src": "./assets/dialogue-v20/03ef210604512cf2348c.mp3",
+      "role": "therapist",
+      "text": "可以。",
+      "duration": 1.3052154195011338,
+      "sha256": "effa3ff950940575d0b91e60b36db84b551706b2773751b065b6caea96727e9b"
+    },
+    "therapist|我们不把未完成的观察当成诊断，也不据此决定鞋垫。": {
+      "src": "./assets/dialogue-v20/ea1f6e2a2ca22d5d1116.mp3",
+      "role": "therapist",
+      "text": "我们不把未完成的观察当成诊断，也不据此决定鞋垫。",
+      "duration": 5.5403628117913835,
+      "sha256": "95bb5262962f5222b63e446898e94c786d646379434550858195deece305253f"
+    },
+    "therapist|请按平常方式走，不必刻意踩板。": {
+      "src": "./assets/dialogue-v20/8152b287c527f70fae02.mp3",
+      "role": "therapist",
+      "text": "请按平常方式走，不必刻意踩板。",
+      "duration": 3.918548752834467,
+      "sha256": "21d0ca62b4d190483d2c43bbb26a309083779fb50cdccbb370f779aa8dd3cc39"
+    },
+    "patient|我走快或变向时，总担心又崴。": {
+      "src": "./assets/dialogue-v20/f45d106163f4e6cb2637.mp3",
+      "role": "patient",
+      "text": "我走快或变向时，总担心又崴。",
+      "duration": 4.103083900226757,
+      "sha256": "830cee1e6e02285ce07a6e20f0eddc85d2b28519b945058c86dad8345e71c99b"
+    },
+    "therapist|我们先看双侧支撑和摆动的差别。": {
+      "src": "./assets/dialogue-v20/1d1ddbf905004baa8be7.mp3",
+      "role": "therapist",
+      "text": "我们先看双侧支撑和摆动的差别。",
+      "duration": 3.752925170068027,
+      "sha256": "3ebe59bd7a4d9131e372266a0df930da535e211b1da92c802785668f4f419be1"
+    },
+    "therapist|这次约定观察赤足。": {
+      "src": "./assets/dialogue-v20/9a101953f6efed9d792f.mp3",
+      "role": "therapist",
+      "text": "这次约定观察赤足。",
+      "duration": 2.45015873015873,
+      "sha256": "19515131c95a210d21670b83228756f9945f8f6e8c13dd5f812f20937cf8df76"
+    },
+    "therapist|请先坐稳脱鞋袜；如果不愿意，也可以改约条件，记录清楚。": {
+      "src": "./assets/dialogue-v20/879a712838eca02698f4.mp3",
+      "role": "therapist",
+      "text": "请先坐稳脱鞋袜；如果不愿意，也可以改约条件，记录清楚。",
+      "duration": 6.403356009070294,
+      "sha256": "e05c75b2c13dd47d79ed7fe10ccfba873de2f7320c80b9b599a6537688dc5acd"
+    },
+    "patient|好，我先坐稳准备。": {
+      "src": "./assets/dialogue-v20/c32f075d62787a795b70.mp3",
+      "role": "patient",
+      "text": "好，我先坐稳准备。",
+      "duration": 2.9136507936507936,
+      "sha256": "bcb504ff07ab926f78449026f98d8eb456264905ea58820799e8108b45ddfee3"
+    },
+    "patient|我现在不想走这段。": {
+      "src": "./assets/dialogue-v20/83e185700505f8cb838d.mp3",
+      "role": "patient",
+      "text": "我现在不想走这段。",
+      "duration": 2.743628117913832,
+      "sha256": "4695108e77e91efe1d5fc043b1085531ab91bf6642e21002db81751134dc8257"
+    },
+    "therapist|可以，先坐稳休息。": {
+      "src": "./assets/dialogue-v20/7ef2e7b6cf3637f17b88.mp3",
+      "role": "therapist",
+      "text": "可以，先坐稳休息。",
+      "duration": 2.63859410430839,
+      "sha256": "d83447bb9f699cf37525427557743f1490b426ed93adc2de68e32d01f47263a0"
+    },
+    "therapist|今天不作步态判断，我们可以先了解观察方法。": {
+      "src": "./assets/dialogue-v20/f312e9a1f3afecb30327.mp3",
+      "role": "therapist",
+      "text": "今天不作步态判断，我们可以先了解观察方法。",
+      "duration": 5.063673469387755,
+      "sha256": "85fd9b1712f96473b1603bf894f653759d71a79f197b60b234d44a6548418739"
+    },
+    "patient|走起来更不舒服了，我想停。": {
+      "src": "./assets/dialogue-v20/7fa15d460f69cda992d6.mp3",
+      "role": "patient",
+      "text": "走起来更不舒服了，我想停。",
+      "duration": 3.758458049886621,
+      "sha256": "df177273aab1a439e9fb1f0967b154c4a2092e25e83957f14735a36a2f5778fa"
+    },
+    "therapist|好的，先在支撑旁站稳，我们重新了解症状。": {
+      "src": "./assets/dialogue-v20/f4b71f8eeb242ba66788.mp3",
+      "role": "therapist",
+      "text": "好的，先在支撑旁站稳，我们重新了解症状。",
+      "duration": 4.9740589569161,
+      "sha256": "8b47f2619787ef3c4f251c7cac235bdbf308fda8b67114dfe71c8303adba179c"
+    },
+    "patient|左右走得不一样，就说明肌肉坏了吗？": {
+      "src": "./assets/dialogue-v20/c755df34178218b1d7a3.mp3",
+      "role": "patient",
+      "text": "左右走得不一样，就说明肌肉坏了吗？",
+      "duration": 4.448117913832199,
+      "sha256": "fdf8ce6a98e685c48936c443a807f76a698b46e59a93947d1a1d310d5e42abf2"
+    },
+    "therapist|还不能。": {
+      "src": "./assets/dialogue-v20/bc8aa3377705317fa2a2.mp3",
+      "role": "therapist",
+      "text": "还不能。",
+      "duration": 1.4759637188208616,
+      "sha256": "08ee727b51cfe01e974c90dc64389b34a7a91918333ac74fb09ef43b802702ef"
+    },
+    "therapist|先描述支撑、摆动和步长，再查原因。": {
+      "src": "./assets/dialogue-v20/095604d904333cf59c2f.mp3",
+      "role": "therapist",
+      "text": "先描述支撑、摆动和步长，再查原因。",
+      "duration": 4.449024943310658,
+      "sha256": "623b7ea095856f900157175b2d1479e35feaa59270f11e24a58a7a0e6b5c9b69"
+    },
+    "therapist|我们没完成这段步态观察，不能说您哪侧支撑更短。": {
+      "src": "./assets/dialogue-v20/8a9da865feebd69e28e6.mp3",
+      "role": "therapist",
+      "text": "我们没完成这段步态观察，不能说您哪侧支撑更短。",
+      "duration": 5.563219954648526,
+      "sha256": "beae5d46195e3d461de93e1c98833557e7b48635707c0b6074ee4df0d00b2e36"
+    },
+    "therapist|先学接地、离地，再找需要的资料。": {
+      "src": "./assets/dialogue-v20/8e12af39e1590203f67f.mp3",
+      "role": "therapist",
+      "text": "先学接地、离地，再找需要的资料。",
+      "duration": 3.7933786848072564,
+      "sha256": "9c23e72264ee93480e53c8c53d73e6ab33419c47d8b8894685802fc1f94865c7"
+    },
+    "patient|好，先把方法弄明白。": {
+      "src": "./assets/dialogue-v20/8a5b990214c61449eef1.mp3",
+      "role": "patient",
+      "text": "好，先把方法弄明白。",
+      "duration": 3.178548752834467,
+      "sha256": "c3dade4cf587e4f5548ef420f9bb79fa6fa7abe4b567a29071f87b8ccb3918b8"
+    },
+    "therapist|还没找到接地和离地，现在先不下时序结论。": {
+      "src": "./assets/dialogue-v20/c23f6036c0568ba23c12.mp3",
+      "role": "therapist",
+      "text": "还没找到接地和离地，现在先不下时序结论。",
+      "duration": 4.862448979591837,
+      "sha256": "1a23cdd6371665199faed1372a7932d5e046bb9787384acbe6ccc30c91816a41"
+    },
+    "therapist|可以慢放，一起再看。": {
+      "src": "./assets/dialogue-v20/31670ab7e4c3c828fcc4.mp3",
+      "role": "therapist",
+      "text": "可以慢放，一起再看。",
+      "duration": 2.742403628117914,
+      "sha256": "4587a07c9b304428ad077ebee3e63e58de284facf0363cf5aec963efd2eab826"
+    },
+    "patient|明白，先弄清在比哪一步。": {
+      "src": "./assets/dialogue-v20/6be1951a1566b73e786d.mp3",
+      "role": "patient",
+      "text": "明白，先弄清在比哪一步。",
+      "duration": 3.393378684807256,
+      "sha256": "daf31e4db43b70996147ea86724b97aa174c7f084a4bfda54eb0683b61e15212"
+    },
+    "patient|刚才中途停了，没走完。": {
+      "src": "./assets/dialogue-v20/56538e19e084363bb174.mp3",
+      "role": "patient",
+      "text": "刚才中途停了，没走完。",
+      "duration": 3.408480725623583,
+      "sha256": "03919f2795b7d8d9d79d80ea81ed33595fa54e3511988a4ea456541eeba3b06a"
+    },
+    "therapist|记录停止和当时感受，不把不完整片段当作稳定步态结果。": {
+      "src": "./assets/dialogue-v20/d9e440be84b50c5b02c5.mp3",
+      "role": "therapist",
+      "text": "记录停止和当时感受，不把不完整片段当作稳定步态结果。",
+      "duration": 6.088390022675737,
+      "sha256": "e15df60ebbb2dc3e9cb6040dd170f67bb4facca51c3bfc5b06eda3177f5a325c"
+    },
+    "therapist|先看足印，再计算足弓指数。": {
+      "src": "./assets/dialogue-v20/b02813ade11fea7fa598.mp3",
+      "role": "therapist",
+      "text": "先看足印，再计算足弓指数。",
+      "duration": 3.4434467120181407,
+      "sha256": "a790d858d267efb7fe89958fcfdd20251ccc0ef6e2fd1faadf2b130ff4a115c4"
+    },
+    "patient|颜色越红，就是越严重吗？": {
+      "src": "./assets/dialogue-v20/0097848d90e805a89b5d.mp3",
+      "role": "patient",
+      "text": "颜色越红，就是越严重吗？",
+      "duration": 3.633469387755102,
+      "sha256": "7e2f7a1ae8ddbf646684b7b60af775369c4d734079a6c2f3b6ebf3994b5482dc"
+    },
+    "therapist|不是。": {
+      "src": "./assets/dialogue-v20/0f966a69c63e8abaf864.mp3",
+      "role": "therapist",
+      "text": "不是。",
+      "duration": 1.2773242630385488,
+      "sha256": "0892a47c663c823d490981c4375c4952065df4d7362cba1b93258668dc95613f"
+    },
+    "therapist|颜色要结合色标、任务和症状看。": {
+      "src": "./assets/dialogue-v20/6ba703ce211c36299d80.mp3",
+      "role": "therapist",
+      "text": "颜色要结合色标、任务和症状看。",
+      "duration": 3.9011791383219956,
+      "sha256": "fd4b31197d16026fb15e93678a69e7cdcb54ad573c4ba0e6ff759328701fff2f"
+    },
+    "patient|没有可用的压力数据，还能解释吗？": {
+      "src": "./assets/dialogue-v20/a08d175b37515cd94c1b.mp3",
+      "role": "patient",
+      "text": "没有可用的压力数据，还能解释吗？",
+      "duration": 4.252879818594105,
+      "sha256": "424fd71085c19907d2e82ddd7b83164cd8213e27754da6cdc30eb8ed80aaa0dc"
+    },
+    "therapist|可以先看示意图，了解读法。": {
+      "src": "./assets/dialogue-v20/7292cc55636d0a111ce5.mp3",
+      "role": "therapist",
+      "text": "可以先看示意图，了解读法。",
+      "duration": 3.4429931972789114,
+      "sha256": "7137215fabbe19aac0e5a263cc6a1a58f7a96ac6c1b8995a44c8f75c920aa034"
+    },
+    "therapist|没有您的有效资料，就不判断您的受力情况。": {
+      "src": "./assets/dialogue-v20/2fedd65512f752a1d480.mp3",
+      "role": "therapist",
+      "text": "没有您的有效资料，就不判断您的受力情况。",
+      "duration": 4.7359183673469385,
+      "sha256": "187bebac0aa3740888e82d13054624ba044a9f69c1dac8d3684554bd859dea1c"
+    },
+    "patient|我不想继续站或走了。": {
+      "src": "./assets/dialogue-v20/e8cde2332b0a96440a94.mp3",
+      "role": "patient",
+      "text": "我不想继续站或走了。",
+      "duration": 2.8187301587301588,
+      "sha256": "216a93bb8bc61dab554ec797d36e9668a9e69d2cbd91bbb975216c054ebe17cb"
+    },
+    "therapist|好的，先坐稳。": {
+      "src": "./assets/dialogue-v20/f3acaff36d7c49c1c1b9.mp3",
+      "role": "therapist",
+      "text": "好的，先坐稳。",
+      "duration": 2.216281179138322,
+      "sha256": "c4b74c83c2b61046facf18e0568a21f83b6ec2a8a515ac8e50eadfb5b34bdf4b"
+    },
+    "therapist|可以只看教学资料，不记录您的测试结果。": {
+      "src": "./assets/dialogue-v20/be20653e247749dd0cda.mp3",
+      "role": "therapist",
+      "text": "可以只看教学资料，不记录您的测试结果。",
+      "duration": 4.642448979591837,
+      "sha256": "539a289b92b4eccf65096c94ed35b3e253df793d4a53cf531630b047a4abb9bc"
+    },
+    "patient|这条轨迹就是身体重心吗？": {
+      "src": "./assets/dialogue-v20/3934984c5d9ce108d7b8.mp3",
+      "role": "patient",
+      "text": "这条轨迹就是身体重心吗？",
+      "duration": 3.2433106575963717,
+      "sha256": "8b53d483f5b5baf32d1690821b1c0770b148677470c90796954dcf0bec47b03b"
+    },
+    "therapist|这是足底压力中心。": {
+      "src": "./assets/dialogue-v20/8b6145dea2e7337da42f.mp3",
+      "role": "therapist",
+      "text": "这是足底压力中心。",
+      "duration": 2.436417233560091,
+      "sha256": "70f7d05b90a7a421cfbdad0e108a898377372fcf147ed9bf34cf8c0585210e6c"
+    },
+    "therapist|重心是另一个概念。": {
+      "src": "./assets/dialogue-v20/cab6cf0c5d58b031dbff.mp3",
+      "role": "therapist",
+      "text": "重心是另一个概念。",
+      "duration": 2.525986394557823,
+      "sha256": "2e5965ce3b459af1155f95c558e265ceecf1bbb4d392d199a1709bf0738acb7c"
+    },
+    "therapist|还没核对色标和任务，先不比较颜色。": {
+      "src": "./assets/dialogue-v20/241d002049cd02302bb3.mp3",
+      "role": "therapist",
+      "text": "还没核对色标和任务，先不比较颜色。",
+      "duration": 4.309795918367347,
+      "sha256": "d505f7ab7715c46e776c65e4bf817fb093b61b36fc4939b846fb80169fe5f687"
+    },
+    "therapist|图上信息要有共同条件。": {
+      "src": "./assets/dialogue-v20/478cf76600646d1de7a3.mp3",
+      "role": "therapist",
+      "text": "图上信息要有共同条件。",
+      "duration": 3.0472562358276645,
+      "sha256": "3fbd5eb13822764f8a6b81853dbcc75b16b4536fb04c57db5dad6a74041d2505"
+    },
+    "patient|好，先确认是不是同一种测试。": {
+      "src": "./assets/dialogue-v20/4d147b778dcf982c7f46.mp3",
+      "role": "patient",
+      "text": "好，先确认是不是同一种测试。",
+      "duration": 4.1532426303854875,
+      "sha256": "975fe3ff24d5aa044eda119a9f43adfc8615ce954face45695de74c25bbc6de5"
+    },
+    "therapist|今天没有您的有效足压资料，不能说压力偏向哪里。": {
+      "src": "./assets/dialogue-v20/224777b4f05f5ebbb5fe.mp3",
+      "role": "therapist",
+      "text": "今天没有您的有效足压资料，不能说压力偏向哪里。",
+      "duration": 5.3611791383219956,
+      "sha256": "57861d244e4fd4d777130012a19a17635b3ad6bfaa9ac8ccccb7a342c47cd66a"
+    },
+    "therapist|我们先记住COP与身体重心不同。": {
+      "src": "./assets/dialogue-v20/20a398a1e805da607c8d.mp3",
+      "role": "therapist",
+      "text": "我们先记住COP与身体重心不同。",
+      "duration": 3.6687074829931974,
+      "sha256": "05128f40300987709a12f6b8ce30f9fb7fbfff3088f64c66e2173158a9fc1afa"
+    },
+    "patient|明白，等有了有效资料，再讨论我的情况。": {
+      "src": "./assets/dialogue-v20/84d9137c9fe0e217115c.mp3",
+      "role": "patient",
+      "text": "明白，等有了有效资料，再讨论我的情况。",
+      "duration": 5.117687074829932,
+      "sha256": "dc347e7ec2c0f8d75db734befaac13ba5c0e14bb0b242deebd87aff67198a5da"
+    },
+    "therapist|这段接触不完整，先不判断轨迹。": {
+      "src": "./assets/dialogue-v20/9794422c4e8cce571098.mp3",
+      "role": "therapist",
+      "text": "这段接触不完整，先不判断轨迹。",
+      "duration": 3.8337868480725623,
+      "sha256": "ba6497f976b63aad84e3d6fc7f2c983260a75768e778dad64c69214ce979e833"
+    },
+    "therapist|脚离地后已没有这只脚的接触压力中心。": {
+      "src": "./assets/dialogue-v20/c94dad2ab38afa62710e.mp3",
+      "role": "therapist",
+      "text": "脚离地后已没有这只脚的接触压力中心。",
+      "duration": 4.098367346938775,
+      "sha256": "a9a5a65ddcbc356aa45ac28f15cae8750cde82d49c5a666e196a525953b55232"
+    },
+    "patient|明白，那先不急着解释这条线。": {
+      "src": "./assets/dialogue-v20/cf5865de77602b7c85be.mp3",
+      "role": "patient",
+      "text": "明白，那先不急着解释这条线。",
+      "duration": 3.8682539682539683,
+      "sha256": "97b59f6917c0e18d5dc0625d42eef6e3ba9ef750d8139a8f0723a8b5f1f60fa4"
+    },
+    "therapist|请睁眼、双脚自然站稳。": {
+      "src": "./assets/dialogue-v20/bfa8b4faebe28fe3cee0.mp3",
+      "role": "therapist",
+      "text": "请睁眼、双脚自然站稳。",
+      "duration": 3.154875283446712,
+      "sha256": "15b792d2658af8c9115324a2bdddcf537ec5fe58ed8848c8e4fa221cdc1d7225"
+    },
+    "therapist|我们看静态压力中心。": {
+      "src": "./assets/dialogue-v20/af50c8b06a09f169a003.mp3",
+      "role": "therapist",
+      "text": "我们看静态压力中心。",
+      "duration": 2.7334240362811792,
+      "sha256": "a887959e3815294d28ab8c5f5079839cebe7e626e1d921f99e1af98e213439b1"
+    },
+    "patient|站着没动，这个点也会移动吗？": {
+      "src": "./assets/dialogue-v20/469d60d07decb490fdb4.mp3",
+      "role": "patient",
+      "text": "站着没动，这个点也会移动吗？",
+      "duration": 3.6281632653061227,
+      "sha256": "dae60232ec456f0ff71a880c4ceabf409239b323ef9b071689e8aa2eabae1a23"
+    },
+    "therapist|会有小幅移动。": {
+      "src": "./assets/dialogue-v20/4a6fab815dcdfe05fa00.mp3",
+      "role": "therapist",
+      "text": "会有小幅移动。",
+      "duration": 2.085668934240363,
+      "sha256": "637fd121b4790e3110e2224c007ae43bdb00607ef17ce6b2973e2a64a8dcdfab"
+    },
+    "therapist|身体一直在调整平衡。": {
+      "src": "./assets/dialogue-v20/5f5455f67ed88e3a3868.mp3",
+      "role": "therapist",
+      "text": "身体一直在调整平衡。",
+      "duration": 2.939909297052154,
+      "sha256": "c9daf6bf3ffe2e948be20ef37c99d073f4e7f07334c11489e9166eb7226a92a0"
+    },
+    "patient|今天我不想试单脚站。": {
+      "src": "./assets/dialogue-v20/bf8906b1f03fbb46afd1.mp3",
+      "role": "patient",
+      "text": "今天我不想试单脚站。",
+      "duration": 2.973560090702948,
+      "sha256": "1616d49cb59ce0d4898ef6b2c523d70af81507f86a43d74b0f2df87d772f61f1"
+    },
+    "therapist|可以，记录未做。": {
+      "src": "./assets/dialogue-v20/8d7980ab2c8d0c2fa1fc.mp3",
+      "role": "therapist",
+      "text": "可以，记录未做。",
+      "duration": 2.3603174603174604,
+      "sha256": "4c9ebeb9eef168abbf16d47bb25dc9236be28873c1b9ce93c50869e9533c9471"
+    },
+    "therapist|我们照样能讨论目前的担心和下一步。": {
+      "src": "./assets/dialogue-v20/ee2173a94e2e8ccf79fc.mp3",
+      "role": "therapist",
+      "text": "我们照样能讨论目前的担心和下一步。",
+      "duration": 4.098503401360544,
+      "sha256": "94167af5bbd7bb465fde7f42500714e5e561b7109f0db5c238ae63df1b634e87"
+    },
+    "therapist|支撑和保护还没安排好，先不开始。": {
+      "src": "./assets/dialogue-v20/4d806641c4d79fb528c7.mp3",
+      "role": "therapist",
+      "text": "支撑和保护还没安排好，先不开始。",
+      "duration": 4.21501133786848,
+      "sha256": "a0ba86b6f8d496cb1e3cd4dfdfd05100cfae50f2ea5fafdd95346ec4596821be"
+    },
+    "therapist|请双脚站稳，等条件准备好。": {
+      "src": "./assets/dialogue-v20/adcea05dafa8ae1320ad.mp3",
+      "role": "therapist",
+      "text": "请双脚站稳，等条件准备好。",
+      "duration": 3.5951927437641724,
+      "sha256": "7502b0d228d3f922ebe14af4c0705638046b1867f05315b39798fe2662e70640"
+    },
+    "patient|好，我不急着抬脚。": {
+      "src": "./assets/dialogue-v20/ca4c4c29b0c09f92fe35.mp3",
+      "role": "patient",
+      "text": "好，我不急着抬脚。",
+      "duration": 2.8638548752834465,
+      "sha256": "fe281f79cf445958ed8a4d60474307ce7fa08a72e762da24b67962da9dfca133"
+    },
+    "patient|站着不舒服，想先停。": {
+      "src": "./assets/dialogue-v20/9a431855907b4ead9bb9.mp3",
+      "role": "patient",
+      "text": "站着不舒服，想先停。",
+      "duration": 3.2285714285714286,
+      "sha256": "094a6aade86ea9935150c599a8b56b534c0d72863be33a40a5a49117cb187a02"
+    },
+    "therapist|好的，先扶稳，双脚落地。": {
+      "src": "./assets/dialogue-v20/d2cafd4e83d3c83ed261.mp3",
+      "role": "therapist",
+      "text": "好的，先扶稳，双脚落地。",
+      "duration": 3.295192743764172,
+      "sha256": "1f42600f3afd50ce3c5728e9ef0131775a947226639ebaabceeb3390ca0fd271"
+    },
+    "therapist|我再问清现在的情况。": {
+      "src": "./assets/dialogue-v20/efa5e698dd725ebe0854.mp3",
+      "role": "therapist",
+      "text": "我再问清现在的情况。",
+      "duration": 2.8322902494331066,
+      "sha256": "5a8f341a70e843e9914d1c62c398caf2778922c6b197fb491509f1a1379e9210"
+    },
+    "patient|另一只脚落地了，我想停一下。": {
+      "src": "./assets/dialogue-v20/d32697e95cbbe8242c90.mp3",
+      "role": "patient",
+      "text": "另一只脚落地了，我想停一下。",
+      "duration": 3.883219954648526,
+      "sha256": "d806a5b6ecf510264b8e80174c4c5689468ca58d56141374ac439a947500720c"
+    },
+    "therapist|好的，双脚放稳，扶好。": {
+      "src": "./assets/dialogue-v20/1109b656c6f1624c0c71.mp3",
+      "role": "therapist",
+      "text": "好的，双脚放稳，扶好。",
+      "duration": 3.133424036281179,
+      "sha256": "1338d95bb79846565bb17fabfcb7fc88fb7c06351a2a8ecccc89ed0d44232e53"
+    },
+    "therapist|谢谢您及时告诉我。": {
+      "src": "./assets/dialogue-v20/58511432f1e6ee501519.mp3",
+      "role": "therapist",
+      "text": "谢谢您及时告诉我。",
+      "duration": 2.4905215419501134,
+      "sha256": "1aadee14805ca2ad6e85173a99a7b932abdfc578d5595b2f8926361520e8584f"
+    },
+    "therapist|现在主要是疼、发紧，还是担心？": {
+      "src": "./assets/dialogue-v20/6000ea3c91bc7c728a88.mp3",
+      "role": "therapist",
+      "text": "现在主要是疼、发紧，还是担心？",
+      "duration": 4.040725623582767,
+      "sha256": "12446cef080f50484522f6b74d2c953513967b862d7297620c49f07779ef16c9"
+    },
+    "patient|主要是怕控制不住。": {
+      "src": "./assets/dialogue-v20/28f82b0373f10adbe270.mp3",
+      "role": "patient",
+      "text": "主要是怕控制不住。",
+      "duration": 2.5936961451247167,
+      "sha256": "7240395fabe807ad8427ef3d3223a162aa8f4b035aa17a187ccf26f98d28eae9"
+    },
+    "patient|是不是脚踝的感应器坏了？": {
+      "src": "./assets/dialogue-v20/c855e454a91951c27ee6.mp3",
+      "role": "patient",
+      "text": "是不是脚踝的感应器坏了？",
+      "duration": 3.2333786848072563,
+      "sha256": "caf51d3274a9e28dc46f800cf79f9958a9cf221f65a4b387144e3c35e46a544b"
+    },
+    "therapist|不能凭一次落脚这样判断。": {
+      "src": "./assets/dialogue-v20/634d9cf7654a35cd28c6.mp3",
+      "role": "therapist",
+      "text": "不能凭一次落脚这样判断。",
+      "duration": 3.2001360544217685,
+      "sha256": "1dacbc63f27a840c38be1f9721c8a8dd04ffca629725a7c414350caa7e32e9f9"
+    },
+    "therapist|平衡需要视觉、身体感觉、前庭和肌肉共同配合。": {
+      "src": "./assets/dialogue-v20/da1da0dac129e9bf7733.mp3",
+      "role": "therapist",
+      "text": "平衡需要视觉、身体感觉、前庭和肌肉共同配合。",
+      "duration": 5.729569160997732,
+      "sha256": "fe93fa110b78ffd2d95aa1bd448ff8c201fadbd0aae03086194b70791defdd91"
+    },
+    "therapist|先把感受与条件记清楚。": {
+      "src": "./assets/dialogue-v20/6e2685d97d95495ffd7a.mp3",
+      "role": "therapist",
+      "text": "先把感受与条件记清楚。",
+      "duration": 3.1105215419501135,
+      "sha256": "4a1bda7a3f3424781f0045b2dd2807dae644e96909738a5944a8ef8e98559b01"
+    },
+    "therapist|今天没有平衡试次，不能评价哪条感觉通路。": {
+      "src": "./assets/dialogue-v20/ea47443eb5df2e732057.mp3",
+      "role": "therapist",
+      "text": "今天没有平衡试次，不能评价哪条感觉通路。",
+      "duration": 5.001904761904762,
+      "sha256": "8fca3c4e181b1f80aefdbe3d3ef049810f04abfa74ee4bf3509d230929ad3df1"
+    },
+    "therapist|我们先记录您对任务的担心。": {
+      "src": "./assets/dialogue-v20/836b89e9825af9a68a4f.mp3",
+      "role": "therapist",
+      "text": "我们先记录您对任务的担心。",
+      "duration": 3.083718820861678,
+      "sha256": "1141d809261757d9e7d65774f5e580c39783a7a808269eed24d4c1f74f443cb4"
+    },
+    "patient|好，之后愿意了再从简单的试。": {
+      "src": "./assets/dialogue-v20/f47ba0b3b40fd6a38c76.mp3",
+      "role": "patient",
+      "text": "好，之后愿意了再从简单的试。",
+      "duration": 3.983174603174603,
+      "sha256": "c893cdb4aa1f703d9e479e662b747a95c5644d4054260a75f64c46ae99e6283d"
+    },
+    "patient|刚才这一轮可以完成，但还是有点紧张。": {
+      "src": "./assets/dialogue-v20/048c1555c58c82ca9b97.mp3",
+      "role": "patient",
+      "text": "刚才这一轮可以完成，但还是有点紧张。",
+      "duration": 5.047936507936508,
+      "sha256": "2882c7c43b43c7c5fded7a928b7fc5aa691e37ee24eaed959f4e27739471dae2"
+    },
+    "therapist|谢谢您告诉我。": {
+      "src": "./assets/dialogue-v20/d6af5368b8cb23d6f790.mp3",
+      "role": "therapist",
+      "text": "谢谢您告诉我。",
+      "duration": 2.1174149659863946,
+      "sha256": "86c94fee754d518071fe3c2ce9445a6cd93c2705266d094a1b0573c426250900"
+    },
+    "therapist|记录本次条件和感受，不凭一轮表现认定感觉功能正常或受损。": {
+      "src": "./assets/dialogue-v20/febdd2904cd1b6ae2166.mp3",
+      "role": "therapist",
+      "text": "记录本次条件和感受，不凭一轮表现认定感觉功能正常或受损。",
+      "duration": 6.9425850340136055,
+      "sha256": "a98501394b53e834aa4d21198e0ef821a44545fe7972e3f6a429da200844f889"
+    },
+    "patient|现在疼得更明显了。": {
+      "src": "./assets/dialogue-v20/2ef34c4c088d579334bb.mp3",
+      "role": "patient",
+      "text": "现在疼得更明显了。",
+      "duration": 2.698503401360544,
+      "sha256": "9b8ad1d5690e49a4beeed3f7a83250efe326b394c9194b23891752081dee9f7b"
+    },
+    "therapist|好的，今天结束体能任务。": {
+      "src": "./assets/dialogue-v20/47292c09dbb6c4f168a2.mp3",
+      "role": "therapist",
+      "text": "好的，今天结束体能任务。",
+      "duration": 3.1775056689342405,
+      "sha256": "0c85e0433e9ace9bda5fc2b96a2253490667779e9fb07c09fef696639219f58b"
+    },
+    "therapist|先回稳休息，我们重新评估并安排下一步。": {
+      "src": "./assets/dialogue-v20/7716252925be1ea27caa.mp3",
+      "role": "therapist",
+      "text": "先回稳休息，我们重新评估并安排下一步。",
+      "duration": 4.745260770975056,
+      "sha256": "18e3e3f6c5602fb6cdbc953e3b6a700a097dacfd27d9f29be3aa142d7d5059fb"
+    },
+    "therapist|把实际取得的资料放在一起，再商量计划。": {
+      "src": "./assets/dialogue-v20/a53500e19e7b841273f0.mp3",
+      "role": "therapist",
+      "text": "把实际取得的资料放在一起，再商量计划。",
+      "duration": 4.543809523809524,
+      "sha256": "01dfabf986dbef29ca931e0ac9246072c78512674d9936d8c5333def05491919"
+    },
+    "patient|我想先安心走路，再慢慢跑步。": {
+      "src": "./assets/dialogue-v20/ce425e31e61340ef6f2b.mp3",
+      "role": "patient",
+      "text": "我想先安心走路，再慢慢跑步。",
+      "duration": 4.013106575963719,
+      "sha256": "82cc27e0e0853096a3546820af3af325f8092a783d8f1d7c509e23aeb5dcb760"
+    },
+    "therapist|好。": {
+      "src": "./assets/dialogue-v20/910827facdb4752d01bf.mp3",
+      "role": "therapist",
+      "text": "好。",
+      "duration": 1.1383219954648527,
+      "sha256": "a2c32baa19c48eb9b8b882cce37c49eee9132c051e4ba3224e37dc8285cd2435"
+    },
+    "therapist|先定可做到的目标，再安排复评。": {
+      "src": "./assets/dialogue-v20/bb4c3fc3a0584df65683.mp3",
+      "role": "therapist",
+      "text": "先定可做到的目标，再安排复评。",
+      "duration": 3.7253061224489796,
+      "sha256": "c40257ef3cd25159e3b7448832ae22dc728d9c4c71e9d1183eb07eb47afec9aa"
+    },
+    "therapist|还没问到您最想改善什么。": {
+      "src": "./assets/dialogue-v20/57d9615f3adff072c5e6.mp3",
+      "role": "therapist",
+      "text": "还没问到您最想改善什么。",
+      "duration": 3.083718820861678,
+      "sha256": "c87067cdcb346175718c6b75177be918b623feecc4229c269bc51b761beb107c"
+    },
+    "therapist|比起把所有检查做完，您最在意哪件生活里的事？": {
+      "src": "./assets/dialogue-v20/ed2c6c233a18b66143ea.mp3",
+      "role": "therapist",
+      "text": "比起把所有检查做完，您最在意哪件生活里的事？",
+      "duration": 5.16312925170068,
+      "sha256": "dc89c0155de6d25ad77722cc40e7aaa84f4a1dad6ac42c66110dd5949a5ff51a"
+    },
+    "patient|我想先安心走不平路。": {
+      "src": "./assets/dialogue-v20/f9d6391b3204f08a14f0.mp3",
+      "role": "patient",
+      "text": "我想先安心走不平路。",
+      "duration": 3.063537414965986,
+      "sha256": "70294696a2c3f56ad40f6ad1ff7d5e4af409e8a1ab9a5274d561c8bf25758f74"
+    },
+    "therapist|几项检查还没做，今天的方案先保留范围。": {
+      "src": "./assets/dialogue-v20/27cf9bd47c20b862a5d0.mp3",
+      "role": "therapist",
+      "text": "几项检查还没做，今天的方案先保留范围。",
+      "duration": 4.75891156462585,
+      "sha256": "18ad7bf92f7079164c44fd28a28283f96d759476680ac741b9ba4e8cdb25efc7"
+    },
+    "therapist|可以先补资料，也可以讨论您愿意的简单起点。": {
+      "src": "./assets/dialogue-v20/d790a9813cc8ee9a087d.mp3",
+      "role": "therapist",
+      "text": "可以先补资料，也可以讨论您愿意的简单起点。",
+      "duration": 4.94702947845805,
+      "sha256": "569019236092b9956a88495e26246c3b5b7ac46046e28a6deb410e74a710983d"
+    },
+    "patient|好，那就先查清楚，再决定怎么练。": {
+      "src": "./assets/dialogue-v20/c22eb1fea44cf53855fb.mp3",
+      "role": "patient",
+      "text": "好，那就先查清楚，再决定怎么练。",
+      "duration": 4.693106575963719,
+      "sha256": "34982060343555e31f1fc206ec909cc3de4e2bedff11c8c54a04a18edb87af68"
+    },
+    "therapist|今天没有完成体能检查，我们不据此制定训练处方。": {
+      "src": "./assets/dialogue-v20/13b415e12d19e3cc514c.mp3",
+      "role": "therapist",
+      "text": "今天没有完成体能检查，我们不据此制定训练处方。",
+      "duration": 5.454467120181406,
+      "sha256": "f0ceb81217fd3f62ac8f32eb9b13f05062b64955818d830b15388a8a7267f3bd"
+    },
+    "therapist|先整理您的目标和停止原因，安排进一步评估。": {
+      "src": "./assets/dialogue-v20/6d83267e5cb93e9989a4.mp3",
+      "role": "therapist",
+      "text": "先整理您的目标和停止原因，安排进一步评估。",
+      "duration": 5.0508843537414965,
+      "sha256": "9d2f086fdc4cd2ac78048a7f28e8251ccff47850f09b8ca617082cc8cf8c1429"
+    },
+    "patient|好，先把这一步安排清楚。": {
+      "src": "./assets/dialogue-v20/8f32704cd6fed5b627cf.mp3",
+      "role": "patient",
+      "text": "好，先把这一步安排清楚。",
+      "duration": 3.6434467120181404,
+      "sha256": "6ecf34362b104cb01e5a487e65d1d05ab4a35ac6023c16152ac94e33432e28a1"
+    },
+    "therapist|先从能完成的训练开始，不适就停，再按同法复评。": {
+      "src": "./assets/dialogue-v20/01908e80937c276284d6.mp3",
+      "role": "therapist",
+      "text": "先从能完成的训练开始，不适就停，再按同法复评。",
+      "duration": 5.914149659863946,
+      "sha256": "22cfb9e0203e8d0119ea08565c81f1bbab81b23e7f38a4eb491d667df557514a"
+    },
+    "patient|明白了。": {
+      "src": "./assets/dialogue-v20/c0d669efd8b255dfe278.mp3",
+      "role": "patient",
+      "text": "明白了。",
+      "duration": 1.4490702947845806,
+      "sha256": "fe173f771c00ddb97dc2f32512e295b4741b4dbe96500027fe643ff1bbefbf09"
+    },
+    "patient|我先练安心走路，谢谢您。": {
+      "src": "./assets/dialogue-v20/9d303d751e7f681c342e.mp3",
+      "role": "patient",
+      "text": "我先练安心走路，谢谢您。",
+      "duration": 3.7033560090702946,
+      "sha256": "43879c916c40853c73c40ee456b9e971a741281084c8e7083afdcb94aa36567d"
+    },
+    "therapist|今天还没共同确定训练内容。": {
+      "src": "./assets/dialogue-v20/0026fbad96ded37b5397.mp3",
+      "role": "therapist",
+      "text": "今天还没共同确定训练内容。",
+      "duration": 3.5151473922902494,
+      "sha256": "13eb88548ce90d9b54dddff25652ad40a892d2d4e24b98d45bfdbd8a9d9a3aee"
+    },
+    "therapist|我们先约好需要补的检查，再商量合适的起点。": {
+      "src": "./assets/dialogue-v20/941064d3a1bbc84739d1.mp3",
+      "role": "therapist",
+      "text": "我们先约好需要补的检查，再商量合适的起点。",
+      "duration": 5.019410430839002,
+      "sha256": "f77953ceaf068636a1ce83d8c93d971db5686b2d52d3009a67cac36d25adfd61"
+    },
+    "patient|好，我先记下这一步。": {
+      "src": "./assets/dialogue-v20/215411bf7ed5baf59247.mp3",
+      "role": "patient",
+      "text": "好，我先记下这一步。",
+      "duration": 2.9736961451247166,
+      "sha256": "dd0874dbb124dad944690e4eac62f344a5e1b87e82103936e39d0d992825a395"
+    },
+    "patient|我还是不太清楚，什么时候该停？": {
+      "src": "./assets/dialogue-v20/f8f0f781417cb0ff0581.mp3",
+      "role": "patient",
+      "text": "我还是不太清楚，什么时候该停？",
+      "duration": 4.283038548752835,
+      "sha256": "bc21383508737831a4e73a67d68398cd5414306f492edb6ec22c73482d5bb9f9"
+    },
+    "therapist|是我需要再讲清楚。": {
+      "src": "./assets/dialogue-v20/ae9dcc40d3be73ad7813.mp3",
+      "role": "therapist",
+      "text": "是我需要再讲清楚。",
+      "duration": 2.6160090702947847,
+      "sha256": "cc65756b2cf207875b37c0fbd76a6a7ff89b8f3c2c098879903ea9b49d4e489b"
+    },
+    "therapist|不适或不稳时先停、扶稳；新伤或明显加重，及时就医。": {
+      "src": "./assets/dialogue-v20/a12057061e4490b6e420.mp3",
+      "role": "therapist",
+      "text": "不适或不稳时先停、扶稳；新伤或明显加重，及时就医。",
+      "duration": 6.183537414965986,
+      "sha256": "3d7e6be56ef46146430acce02a0390845f19b8416ead627f85e70b60a7977f37"
+    },
+    "therapist|我们再一起确认。": {
+      "src": "./assets/dialogue-v20/6a04e73bc841b3026121.mp3",
+      "role": "therapist",
+      "text": "我们再一起确认。",
+      "duration": 2.189297052154195,
+      "sha256": "9c81d3f11335a94ffaea6e61bbe8fbf6c704e4e9b7f8ec86551aa935ca90e713"
+    },
+    "therapist|谢谢您把情况告诉我。": {
+      "src": "./assets/dialogue-v20/0f90a84c4048b239359e.mp3",
+      "role": "therapist",
+      "text": "谢谢您把情况告诉我。",
+      "duration": 2.7550566893424038,
+      "sha256": "36b6075650de4f17e187780582341efe5c5751e972cff7331ec01df04dd94559"
+    },
+    "therapist|今天未做的会如实记录。": {
+      "src": "./assets/dialogue-v20/19049903f082f3e977f0.mp3",
+      "role": "therapist",
+      "text": "今天未做的会如实记录。",
+      "duration": 2.885260770975057,
+      "sha256": "bd07859d3c3786f612848baaa970365aff2a8064f4195e73c181c96f9fa2da52"
+    },
+    "therapist|下一步先把评估安排清楚，您可以继续提问。": {
+      "src": "./assets/dialogue-v20/0672e105b59d191f5602.mp3",
+      "role": "therapist",
+      "text": "下一步先把评估安排清楚，您可以继续提问。",
+      "duration": 5.005668934240362,
+      "sha256": "269719a182c3914dd67dc6e46b82293b2ba282652f0a7381b97a19ee0c6ad646"
+    },
+    "patient|好，谢谢您尊重我的选择。": {
+      "src": "./assets/dialogue-v20/f1eacd28f2c1c8dcaf02.mp3",
+      "role": "patient",
+      "text": "好，谢谢您尊重我的选择。",
+      "duration": 3.6184580498866215,
+      "sha256": "bc7e9d99d28f765750664bd55978d7ca326e4bb7ae29a7a8acdf41ec3aed9c06"
+    },
+    "therapist|陈女士，这边请。": {
+      "src": "./assets/dialogue-v20/d3dd3356b5d1934c17a0.mp3",
+      "role": "therapist",
+      "text": "陈女士，这边请。",
+      "duration": 2.445170068027211,
+      "sha256": "dc92a48b760b2ad52f6acb8ea135a2baf4b349835c48fba36068e378599e9d96"
+    },
+    "therapist|请慢慢走，坐稳后我们再聊。": {
+      "src": "./assets/dialogue-v20/2444a127c9a10064cf2b.mp3",
+      "role": "therapist",
+      "text": "请慢慢走，坐稳后我们再聊。",
+      "duration": 3.443265306122449,
+      "sha256": "e646b514928da37c4e0f69615af6edc85f672d2a3c589c6a7f91828c5875de61"
+    },
+    "therapist|根据她刚才的描述，还需要确认什么？": {
+      "src": "./assets/dialogue-v20/bab41fe75fb008f6577e.mp3",
+      "role": "therapist",
+      "text": "根据她刚才的描述，还需要确认什么？",
+      "duration": 4.129977324263039,
+      "sha256": "1074a0ced3e3d257436e2b60cf97eab5a4fc8df7182fcb02c6179b4d8e96609f"
+    },
+    "patient|对，主要是走不平路和变向时，会突然发软。": {
+      "src": "./assets/dialogue-v20/0fc6df0df35923388989.mp3",
+      "role": "patient",
+      "text": "对，主要是走不平路和变向时，会突然发软。",
+      "duration": 5.657777777777778,
+      "sha256": "6af8ee2d52e3e28618699be5aaac1d93d2eff7e1cf1c3272d666a80fc33e2464"
+    },
+    "patient|我希望先安心走不平路，再逐步恢复轻松跑步。": {
+      "src": "./assets/dialogue-v20/71a28b10ecd5243d947c.mp3",
+      "role": "patient",
+      "text": "我希望先安心走不平路，再逐步恢复轻松跑步。",
+      "duration": 5.687392290249433,
+      "sha256": "f5035a2a888912fb27da8d3aefe7936b20396f6261cae015ae6c5b8cccf3cd9c"
+    },
+    "therapist|我先把这一步的目的和过程说明白。": {
+      "src": "./assets/dialogue-v20/c37703178839010fea82.mp3",
+      "role": "therapist",
+      "text": "我先把这一步的目的和过程说明白。",
+      "duration": 3.7209977324263037,
+      "sha256": "facd5dcafe59a32a06b0c6f05f5135840b7ab98b452a5b50d40276ed995d79c3"
+    },
+    "therapist|您可以决定是否尝试，不舒服就停。": {
+      "src": "./assets/dialogue-v20/be8797c28ca566841f3f.mp3",
+      "role": "therapist",
+      "text": "您可以决定是否尝试，不舒服就停。",
+      "duration": 4.080725623582766,
+      "sha256": "67812d5abb4439ef05397d16eb11add4e0af2e7e3a2cbb2e2abb28b289a16f3e"
+    },
+    "patient|好，请先说一下。": {
+      "src": "./assets/dialogue-v20/91785fe3550b6c903757.mp3",
+      "role": "patient",
+      "text": "好，请先说一下。",
+      "duration": 2.7239455782312927,
+      "sha256": "c21ad9e85b66c293c282e03c79ba135c2f390e9e45d266888393a1871fc37c48"
+    },
+    "therapist|什么时候最不舒服？": {
+      "src": "./assets/dialogue-v20/1fa0dcbd853209961d28.mp3",
+      "role": "therapist",
+      "text": "什么时候最不舒服？",
+      "duration": 2.441043083900227,
+      "sha256": "2258843a3a0acd44042c795080e00aad074ed69150ea7a90a1f83d178ae80b2a"
+    },
+    "therapist|能形容一下那种感觉吗？": {
+      "src": "./assets/dialogue-v20/93be46e19a79363b333d.mp3",
+      "role": "therapist",
+      "text": "能形容一下那种感觉吗？",
+      "duration": 2.8359183673469386,
+      "sha256": "bf454ee611edefc2dc7656b7566d7566961412eb9b8a360b1df9a500fad2ef94"
+    },
+    "therapist|发软和疼痛总是一起出现吗？": {
+      "src": "./assets/dialogue-v20/851f42a05f23095731a1.mp3",
+      "role": "therapist",
+      "text": "发软和疼痛总是一起出现吗？",
+      "duration": 3.487482993197279,
+      "sha256": "faead65b10956e60818f2b231984db2dd8f749562d30e34b00cce524c8a651d2"
+    },
+    "therapist|明白了。": {
+      "src": "./assets/dialogue-v20/a3f840f4bb02b784f370.mp3",
+      "role": "therapist",
+      "text": "明白了。",
+      "duration": 1.4038095238095238,
+      "sha256": "e3c553456303ff931a1ab96ec7a9e07751d3890ec352f42f8a4334a5843af8a2"
+    },
+    "therapist|疼痛和不稳感要分开记录。": {
+      "src": "./assets/dialogue-v20/58cf47007ba3d1fb797c.mp3",
+      "role": "therapist",
+      "text": "疼痛和不稳感要分开记录。",
+      "duration": 3.1952380952380954,
+      "sha256": "f779777573ef8824d0393fb9c29a3501575a9ec137929f7ab55a061cc4c38252"
+    },
+    "therapist|您最想恢复什么活动？": {
+      "src": "./assets/dialogue-v20/0c62f889ae2c7fe8f86b.mp3",
+      "role": "therapist",
+      "text": "您最想恢复什么活动？",
+      "duration": 2.687845804988662,
+      "sha256": "4e515551277ec4f311980f0e86c55c7cb1196723b2964427b26ec3fa7ca0921c"
+    },
+    "therapist|好，我们围绕这个目标检查，每一步都会先说明。": {
+      "src": "./assets/dialogue-v20/ad5cb8b9e43164113f3c.mp3",
+      "role": "therapist",
+      "text": "好，我们围绕这个目标检查，每一步都会先说明。",
+      "duration": 5.280317460317461,
+      "sha256": "1fdf6b16e1fc99b3ceeda7ebded56edeff81157407ae6f8b6290175122a1a080"
+    },
+    "therapist|陈女士，您好，我是林治疗师。": {
+      "src": "./assets/dialogue-v20/bc4062fa097c884a2f00.mp3",
+      "role": "therapist",
+      "text": "陈女士，您好，我是林治疗师。",
+      "duration": 3.6852154195011337,
+      "sha256": "dbd7424b0848aa9a1732c85b09bfe8c867528f365903b1e6582fd6b1b04b8fe5"
+    },
+    "therapist|抱歉，刚才没有说清楚。": {
+      "src": "./assets/dialogue-v20/0aeb2ae4578bbbe0a134.mp3",
+      "role": "therapist",
+      "text": "抱歉，刚才没有说清楚。",
+      "duration": 3.1017687074829934,
+      "sha256": "ad22837c04354b867cc72f679d1fb585a41f2a21e688db64f9f6a6d90ed8e0a4"
+    },
+    "patient|林治疗师，第一次是快一年前跑步时扭了，脚往里面扣。": {
+      "src": "./assets/dialogue-v20/0ab8ade3a844e30fcb46.mp3",
+      "role": "patient",
+      "text": "林治疗师，第一次是快一年前跑步时扭了，脚往里面扣。",
+      "duration": 6.87718820861678,
+      "sha256": "f0ea5401585ef00aca02c151f37f3ee0adc54885eb3c49e59984c36e3e6c0e67"
+    },
+    "patient|林治疗师，主要是酸胀、发紧，不是一直像针扎那样疼。": {
+      "src": "./assets/dialogue-v20/0483b8cc47c48bcae564.mp3",
+      "role": "patient",
+      "text": "林治疗师，主要是酸胀、发紧，不是一直像针扎那样疼。",
+      "duration": 7.06734693877551,
+      "sha256": "e49637dcd2ca75ca3f58372f1d1343012118ab4ea30fa0df3628ebfb90ec2cc5"
+    },
+    "patient|林治疗师，第一次拍片说没骨折，休息大约三周恢复了日常活动。": {
+      "src": "./assets/dialogue-v20/813b7a09f7e58506a26e.mp3",
+      "role": "patient",
+      "text": "林治疗师，第一次拍片说没骨折，休息大约三周恢复了日常活动。",
+      "duration": 7.671337868480726,
+      "sha256": "fc13b891b80644b8cf4e0e02a39a4c9f9ae68a861fe943fccb29c4ae8801e6e5"
+    },
+    "therapist|我先说明检查目的，您随时可以停。": {
+      "src": "./assets/dialogue-v20/25f5860c9e1869ed9d84.mp3",
+      "role": "therapist",
+      "text": "我先说明检查目的，您随时可以停。",
+      "duration": 4.008344671201814,
+      "sha256": "940b132cbc1c747617b7016e6cbae796a53b90b57b503aa93a079d44ce0603f8"
+    },
+    "therapist|愿意试试吗？": {
+      "src": "./assets/dialogue-v20/0d2f144d18ef4c5716d2.mp3",
+      "role": "therapist",
+      "text": "愿意试试吗？",
+      "duration": 1.8034467120181406,
+      "sha256": "41125ac36aabd90fdb29f941f8d7fa790c4e0cae6b37dab2749997fe295fb157"
+    },
+    "patient|林治疗师，可以。": {
+      "src": "./assets/dialogue-v20/a67206b14f9fe840d597.mp3",
+      "role": "patient",
+      "text": "林治疗师，可以。",
+      "duration": 2.8138321995464852,
+      "sha256": "4fd355c5b3c14d9d2eab59a94d6cab4788062e0027e285762c93c55010470a13"
+    },
+    "therapist|先做小幅动作，我会询问感受；您说停就停。": {
+      "src": "./assets/dialogue-v20/d2e42b214445e3aeb7a0.mp3",
+      "role": "therapist",
+      "text": "先做小幅动作，我会询问感受；您说停就停。",
+      "duration": 5.077732426303855,
+      "sha256": "152ef0e5c2e97121dd692318f19af719e2df9863d51540ef5018a4df34bd94b2"
+    },
+    "patient|林治疗师，右边发紧，再往前脚跟就要抬。": {
+      "src": "./assets/dialogue-v20/422b89a95d1e7dacdaa2.mp3",
+      "role": "patient",
+      "text": "林治疗师，右边发紧，再往前脚跟就要抬。",
+      "duration": 5.4978231292517,
+      "sha256": "c037192d160ade333c39011a874f09b00ef852ab8d9f7303bfc6329b89ff97e1"
+    },
+    "patient|发紧是否等于骨头错位？": {
+      "src": "./assets/dialogue-v20/04c11e0ed753caee9c5c.mp3",
+      "role": "patient",
+      "text": "发紧是否等于骨头错位？",
+      "duration": 3.133424036281179,
+      "sha256": "27d478aa7f5115e28359f2b77e71f795cd793797276922d6c023af54139a06b3"
+    },
+    "therapist|我理解您担心。": {
+      "src": "./assets/dialogue-v20/92b5f831951877b7fe91.mp3",
+      "role": "therapist",
+      "text": "我理解您担心。",
+      "duration": 2.041269841269841,
+      "sha256": "82a289a293d7203beceef3d56c937f9b119194f7bd783f9abb2eab686dc8f878"
+    },
+    "therapist|发紧不等于错位，还要综合判断。": {
+      "src": "./assets/dialogue-v20/03466a2a32a66f1d8cca.mp3",
+      "role": "therapist",
+      "text": "发紧不等于错位，还要综合判断。",
+      "duration": 3.7974603174603176,
+      "sha256": "1406b9676b1781e230e65a798fb561151244c04d93e0aa1f02b5f8665120e29b"
+    },
+    "patient|林治疗师，保持赤足走就可以吗？": {
+      "src": "./assets/dialogue-v20/e8fbc064ff2325260d38.mp3",
+      "role": "patient",
+      "text": "林治疗师，保持赤足走就可以吗？",
+      "duration": 4.19297052154195,
+      "sha256": "78b94fc6b581a0ff773aeabcfdbe2f0fa6c8ed04ce8bf0b4c3edd9dab3f5b77d"
+    },
+    "therapist|保持赤足，按平常方式走，不必踩线。": {
+      "src": "./assets/dialogue-v20/ffff7792b03319cbcd8a.mp3",
+      "role": "therapist",
+      "text": "保持赤足，按平常方式走，不必踩线。",
+      "duration": 4.350294784580499,
+      "sha256": "9d56c853dffae968b8f4f801e541266b4384356084f73db4e96ce79868cbef2a"
+    },
+    "therapist|先描述双侧差异，再结合感受与相应检查。": {
+      "src": "./assets/dialogue-v20/ed2a002fc702c57dd26b.mp3",
+      "role": "therapist",
+      "text": "先描述双侧差异，再结合感受与相应检查。",
+      "duration": 4.903356009070294,
+      "sha256": "b2d79cd3a96852cea6b91e16af299fcd3ad0cab7c5e362ae912dce9bad7c184f"
+    },
+    "patient|林治疗师，是不是脚弓低才总崴？": {
+      "src": "./assets/dialogue-v20/41c41b2116e446e5c836.mp3",
+      "role": "patient",
+      "text": "林治疗师，是不是脚弓低才总崴？",
+      "duration": 4.353197278911565,
+      "sha256": "e6d0ad4f3ed3b80e5beb13bdb7a3be53a461b9ed5ed5290bc10e62f99cfc508e"
+    },
+    "therapist|足弓低不能单独解释崴脚，我们一起看其他因素。": {
+      "src": "./assets/dialogue-v20/7415266d25d7d5034170.mp3",
+      "role": "therapist",
+      "text": "足弓低不能单独解释崴脚，我们一起看其他因素。",
+      "duration": 5.261995464852608,
+      "sha256": "a145c9bae59ea82f6db65cabd8338c42bc096f785e9eee7b3a3cbae96f546276"
+    },
+    "patient|林治疗师，压力中心往内走，就能解释我为什么崴吗？": {
+      "src": "./assets/dialogue-v20/5f9e399a1583156a6563.mp3",
+      "role": "patient",
+      "text": "林治疗师，压力中心往内走，就能解释我为什么崴吗？",
+      "duration": 6.356961451247166,
+      "sha256": "212341e742d2e5ce46e19de10c1dcfcf7ea75a80eeaca6a3f4a61de369ffc0b3"
+    },
+    "therapist|这条线帮助看负荷转移，不能单凭它判断病因。": {
+      "src": "./assets/dialogue-v20/2677628817f1c85dd1f7.mp3",
+      "role": "therapist",
+      "text": "这条线帮助看负荷转移，不能单凭它判断病因。",
+      "duration": 5.2081179138322,
+      "sha256": "6ed4725df38725c518a87a4e462182896fa695d1356ba376a4dda139c93f8f09"
+    },
+    "therapist|谢谢您的配合。": {
+      "src": "./assets/dialogue-v20/07a671aea1d7fb7fe52c.mp3",
+      "role": "therapist",
+      "text": "谢谢您的配合。",
+      "duration": 2.0452607709750565,
+      "sha256": "342fed372d80a3a51d3baea5cf2ec5235b040f0b8ec953bd8717bbbf70100bb8"
+    },
+    "therapist|结合不稳与活动目标，讨论分级力量和控制练习。": {
+      "src": "./assets/dialogue-v20/dcbacb585c2f38dc331e.mp3",
+      "role": "therapist",
+      "text": "结合不稳与活动目标，讨论分级力量和控制练习。",
+      "duration": 5.329433106575964,
+      "sha256": "2fefe605fb1e79ae09d5d0bcf5082b62e9a75192fa1fc53cafa3dce3a002dae3"
+    },
+    "therapist|根据已有活动差异，讨论处理与同方法复评。": {
+      "src": "./assets/dialogue-v20/5cf5113a99718d913d7f.mp3",
+      "role": "therapist",
+      "text": "根据已有活动差异，讨论处理与同方法复评。",
+      "duration": 4.920816326530613,
+      "sha256": "2051afe136480289dcc09cb7d7a79c70f0da8630333024e304da93f8284c6a35"
+    },
+    "therapist|结合久站不适，讨论负荷调整或辅助支持试用。": {
+      "src": "./assets/dialogue-v20/04da61cd237f9b09a5d2.mp3",
+      "role": "therapist",
+      "text": "结合久站不适，讨论负荷调整或辅助支持试用。",
+      "duration": 5.114421768707483,
+      "sha256": "ebec1a4895bdde0086fbc3ae525ab2c28a212c208db1db36112de5b46a801d6d"
+    },
+    "therapist|先补足缺失评估，再讨论具体措施。": {
+      "src": "./assets/dialogue-v20/bc02595b710c9152d79e.mp3",
+      "role": "therapist",
+      "text": "先补足缺失评估，再讨论具体措施。",
+      "duration": 4.125034013605442,
+      "sha256": "ac261123042ffe654f248a80ad93f2cedb026d410f7ce2c63b61b9bf4b0896d5"
+    },
+    "therapist|做完动画就立即恢复跑步。": {
+      "src": "./assets/dialogue-v20/a9e28b21578f31326049.mp3",
+      "role": "therapist",
+      "text": "做完动画就立即恢复跑步。",
+      "duration": 3.0964172335600906,
+      "sha256": "edc0b93a89db390ac058c372b73bb972d138b0b2900c3b3ebc99230abe6cd4f1"
+    },
+    "patient|林治疗师，我愿意从简单的开始。": {
+      "src": "./assets/dialogue-v20/3eda82896ed033824148.mp3",
+      "role": "patient",
+      "text": "林治疗师，我愿意从简单的开始。",
+      "duration": 4.323038548752835,
+      "sha256": "ece2aa7e2c2890c09e0ca5d8107985808dcce2ee1368c14cff3cc2957310db84"
+    },
+    "therapist|不适先停，回到安全支撑。": {
+      "src": "./assets/dialogue-v20/08cce8af0f268bedcfbd.mp3",
+      "role": "therapist",
+      "text": "不适先停，回到安全支撑。",
+      "duration": 3.313061224489796,
+      "sha256": "731869b9259e50c81fe5bc326d7c7c729b84d18d703543c24236474d07a6f3b5"
+    },
+    "therapist|您能复述怎么做吗？": {
+      "src": "./assets/dialogue-v20/390431074bc1253c7fd9.mp3",
+      "role": "therapist",
+      "text": "您能复述怎么做吗？",
+      "duration": 2.3955102040816327,
+      "sha256": "d7d06df21df1ec6831ae7e95c7a050aa1bdecce2f9811479d3005c04d1357bc4"
+    },
+    "patient|下一位患者是高足弓，还能照搬本例结论吗？": {
+      "src": "./assets/dialogue-v20/13a924ec0155736ee580.mp3",
+      "role": "patient",
+      "text": "下一位患者是高足弓，还能照搬本例结论吗？",
+      "duration": 5.072607709750567,
+      "sha256": "cd75e498bf1905db2081f887fdd367a0b2f4e8638d8d0a791ce9d4e55f235fea"
+    },
+    "therapist|先安全休息，安排进一步医学评估。": {
+      "src": "./assets/dialogue-v20/6c36670e8275403f450b.mp3",
+      "role": "therapist",
+      "text": "先安全休息，安排进一步医学评估。",
+      "duration": 4.193514739229025,
+      "sha256": "838f56cf7bacd98723601f9c817e5f84812a9616001c23df0c6b427d6a07215e"
+    },
+    "patient|林治疗师，右脚这一年崴了三次，走路总怕发软。": {
+      "src": "./assets/dialogue-v20/c66ea72e1cb3fc30a57e.mp3",
+      "role": "patient",
+      "text": "林治疗师，右脚这一年崴了三次，走路总怕发软。",
+      "duration": 6.237369614512471,
+      "sha256": "3870db696bd39b2875201052c887794ebe352a1a8d771e0fb8dbbe7fb01d335c"
+    },
+    "patient|林治疗师，好，我想先说说走路时的担心。": {
+      "src": "./assets/dialogue-v20/1a5de7da3a87c0cd6954.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，我想先说说走路时的担心。",
+      "duration": 5.492925170068027,
+      "sha256": "23a8de99caf37bf1daab1f1eeb1f455c860c8cb4b9220f118f25b4a8f5e9b39d"
+    },
+    "patient|林治疗师，我想先了解一下，今天暂时不检查。": {
+      "src": "./assets/dialogue-v20/5db1400bea264ebbb730.mp3",
+      "role": "patient",
+      "text": "林治疗师，我想先了解一下，今天暂时不检查。",
+      "duration": 6.087573696145125,
+      "sha256": "f7da08014886cac873ac0a90c7f34ed686e7be2371a8e1fb6e1852c5324190c5"
+    },
+    "patient|林治疗师，好，发紧或害怕时，我会告诉您。": {
+      "src": "./assets/dialogue-v20/8d87897ed0bcb830a394.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，发紧或害怕时，我会告诉您。",
+      "duration": 6.062857142857143,
+      "sha256": "fa418636867b71c2a3bc9fa1bac6ad3313d96cbf57725526fa572b6a29e8efdc"
+    },
+    "patient|林治疗师，我先把最近的情况说清楚。": {
+      "src": "./assets/dialogue-v20/0e509d38eee869285cb4.mp3",
+      "role": "patient",
+      "text": "林治疗师，我先把最近的情况说清楚。",
+      "duration": 4.937641723356009,
+      "sha256": "02d7ad22e2851c17a9b6b4daf765d0e46fefec16690c17d8521d13ea2d0bf617"
+    },
+    "patient|林治疗师，刚又扭了，疼得踩不了地。": {
+      "src": "./assets/dialogue-v20/98a28ac2a74281c4c279.mp3",
+      "role": "patient",
+      "text": "林治疗师，刚又扭了，疼得踩不了地。",
+      "duration": 4.832925170068028,
+      "sha256": "cb234a743f7477f34436ff5fb84ec39d2377232ecffee22d2f460cbb17ddf26d"
+    },
+    "patient|林治疗师，我今天还是有点怕，想下次再检查。": {
+      "src": "./assets/dialogue-v20/bd64f0574279118fe84e.mp3",
+      "role": "patient",
+      "text": "林治疗师，我今天还是有点怕，想下次再检查。",
+      "duration": 6.207437641723356,
+      "sha256": "4e554c9d7dba2387d67de8ae6755674d47e91bd42d004ff6871c83221ddda572"
+    },
+    "patient|林治疗师，向上动时，右边有点紧。": {
+      "src": "./assets/dialogue-v20/71f6ff85af23d6e5e483.mp3",
+      "role": "patient",
+      "text": "林治疗师，向上动时，右边有点紧。",
+      "duration": 4.892925170068027,
+      "sha256": "3af83d2f2d66e64c9b9356e5f3bb1827933992e360d3a2be56fbb1fcf1d0877f"
+    },
+    "patient|林治疗师，请先讲一下会怎样检查。": {
+      "src": "./assets/dialogue-v20/6a78e6bb62f43a890421.mp3",
+      "role": "patient",
+      "text": "林治疗师，请先讲一下会怎样检查。",
+      "duration": 4.618049886621315,
+      "sha256": "2e5a56bd70a57acd998d46de8e00e639f813c0ce859bd7ef8d0b599f9582c879"
+    },
+    "patient|林治疗师，今天不想让人碰脚，可以先看演示吗？": {
+      "src": "./assets/dialogue-v20/c4e2d163599f518a293f.mp3",
+      "role": "patient",
+      "text": "林治疗师，今天不想让人碰脚，可以先看演示吗？",
+      "duration": 6.277369614512471,
+      "sha256": "7e2b8132c06780d1cfb953a97adb094fee7621465d974b33bb7176bd2bd97215"
+    },
+    "patient|林治疗师，先停一下，现在不舒服。": {
+      "src": "./assets/dialogue-v20/f6a80c05c407b02d3372.mp3",
+      "role": "patient",
+      "text": "林治疗师，先停一下，现在不舒服。",
+      "duration": 4.818049886621315,
+      "sha256": "acd22beac4da7a43e4a51fed0260c0d39b9ca1c6330bf70941f540efddba3ce5"
+    },
+    "patient|林治疗师，发紧就代表骨头错位了吗？": {
+      "src": "./assets/dialogue-v20/451063c20abcaacefad6.mp3",
+      "role": "patient",
+      "text": "林治疗师，发紧就代表骨头错位了吗？",
+      "duration": 4.692834467120181,
+      "sha256": "63d7db9811d7d0ee5c93f2e9334261a403de5018363dcdde239e66f345e7973a"
+    },
+    "patient|林治疗师，好，不用先给我下结论。": {
+      "src": "./assets/dialogue-v20/37ef3134a0dff1939718.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，不用先给我下结论。",
+      "duration": 4.827981859410431,
+      "sha256": "ce6876c3c0936354a1fedc4d575a91c55a51f90d77236de9da1a3d9065e465dc"
+    },
+    "patient|林治疗师，我暂时不想再试。": {
+      "src": "./assets/dialogue-v20/a6ec27a375ed2258f981.mp3",
+      "role": "patient",
+      "text": "林治疗师，我暂时不想再试。",
+      "duration": 4.028390022675737,
+      "sha256": "55c28296b67f0e0fc8e9be772f5337d2928221298d4e1ce7e54189a7de15a6c1"
+    },
+    "patient|林治疗师，往外稳住脚，是哪些肌肉呢？": {
+      "src": "./assets/dialogue-v20/3afd5c74c18a15078170.mp3",
+      "role": "patient",
+      "text": "林治疗师，往外稳住脚，是哪些肌肉呢？",
+      "duration": 5.147936507936508,
+      "sha256": "e61fee2c05105667bf72f6dfe0a475993fbf71c038819d91444b2ca653cfbed7"
+    },
+    "patient|林治疗师，好，之后再回来了解。": {
+      "src": "./assets/dialogue-v20/942fd813d163711f4f49.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，之后再回来了解。",
+      "duration": 4.643174603174603,
+      "sha256": "1426ee60aecb160a97dfa0a519803068a20071edf3db297dce1389a392b5ce24"
+    },
+    "patient|林治疗师，今天不想做对抗用力。": {
+      "src": "./assets/dialogue-v20/756d1b862327e542099f.mp3",
+      "role": "patient",
+      "text": "林治疗师，今天不想做对抗用力。",
+      "duration": 4.328163265306123,
+      "sha256": "c90e5b34c60aa4cc032e47ebb484406adf6b85feb0cd2049a680f9d508cc9c3f"
+    },
+    "patient|林治疗师，这样用力不舒服，我想停。": {
+      "src": "./assets/dialogue-v20/cf4d52ea79d27f43d285.mp3",
+      "role": "patient",
+      "text": "林治疗师，这样用力不舒服，我想停。",
+      "duration": 4.958049886621315,
+      "sha256": "f7e4163b396cc470598361212d7cd9f12a5ca83148e795c724400a4dab619996"
+    },
+    "patient|林治疗师，脚能往外动，为什么还是觉得没劲？": {
+      "src": "./assets/dialogue-v20/901236128cc82d6f6973.mp3",
+      "role": "patient",
+      "text": "林治疗师，脚能往外动，为什么还是觉得没劲？",
+      "duration": 5.8073922902494335,
+      "sha256": "ec1c9c86ca67e30386374c64b6f470f31dc673edd96aa358ca5b686e4a4f44e4"
+    },
+    "patient|林治疗师，那只看走路，也不能知道肌肉反应有多慢？": {
+      "src": "./assets/dialogue-v20/e8278fcc28b145ef266b.mp3",
+      "role": "patient",
+      "text": "林治疗师，那只看走路，也不能知道肌肉反应有多慢？",
+      "duration": 6.337233560090703,
+      "sha256": "ccd619093368197f20976a86c1ce43d2b8e40b6d58e394a738fa61e4deb81f7a"
+    },
+    "patient|林治疗师，好，先记下我的感受，需要时再查。": {
+      "src": "./assets/dialogue-v20/4a6dd3f18fb38f70647b.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，先记下我的感受，需要时再查。",
+      "duration": 6.21265306122449,
+      "sha256": "410e6b5af83f16171bc0a058b91598375c43c1a1188ddfcf2c69306c7a84a791"
+    },
+    "patient|林治疗师，今天先不做力量检查。": {
+      "src": "./assets/dialogue-v20/ce1ef17bab1deb82255c.mp3",
+      "role": "patient",
+      "text": "林治疗师，今天先不做力量检查。",
+      "duration": 4.403083900226758,
+      "sha256": "c28ee08f7379770a5d2182027a265cbc4c1c976920ef7cbb5358ddd8e531332f"
+    },
+    "patient|林治疗师，站久了，我的脚内侧会酸。": {
+      "src": "./assets/dialogue-v20/8278baa381215aa3f2ed.mp3",
+      "role": "patient",
+      "text": "林治疗师，站久了，我的脚内侧会酸。",
+      "duration": 4.778095238095238,
+      "sha256": "1da303a0e8a4aefe755297ecd3dc9c3e79142ce2f615ef31c9fd86d345aa9731"
+    },
+    "patient|林治疗师，好，我也想慢慢弄清哪里需要注意。": {
+      "src": "./assets/dialogue-v20/331249673716327a6c71.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，我也想慢慢弄清哪里需要注意。",
+      "duration": 5.9675736961451245,
+      "sha256": "e501dfe7b2a6048e821dd082523b179ede65d4668bb358923f02372fbe1d1a2f"
+    },
+    "patient|林治疗师，现在不想站起来。": {
+      "src": "./assets/dialogue-v20/1368b3511ed721595efe.mp3",
+      "role": "patient",
+      "text": "林治疗师，现在不想站起来。",
+      "duration": 3.9982312925170067,
+      "sha256": "4200f94b804663f0d5d9a45f2127bdfa1ff4029ef4f46c01f28efe850c752b70"
+    },
+    "patient|林治疗师，站着不太舒服，我想坐下。": {
+      "src": "./assets/dialogue-v20/1ab676014483b6f65f03.mp3",
+      "role": "patient",
+      "text": "林治疗师，站着不太舒服，我想坐下。",
+      "duration": 4.9229024943310655,
+      "sha256": "7ba15b0328d04d4039da1c11077207328f23a9037fac003bb24364b5a50da11c"
+    },
+    "patient|林治疗师，脚弓低，就是反复崴脚的原因吗？": {
+      "src": "./assets/dialogue-v20/ea2a63a486485a2afca4.mp3",
+      "role": "patient",
+      "text": "林治疗师，脚弓低，就是反复崴脚的原因吗？",
+      "duration": 5.632562358276644,
+      "sha256": "428fc6f0dbfdcbedb0c5801a82fea378bad7a6eb41ab94f4e5fece8131342b4c"
+    },
+    "patient|林治疗师，好，之后看资料再讨论。": {
+      "src": "./assets/dialogue-v20/ac91f19f11660c170dc0.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，之后看资料再讨论。",
+      "duration": 4.882857142857143,
+      "sha256": "b46fd495b972544bac94218463cf18bb0e73e807df241dd5bf05a94981c3e8d8"
+    },
+    "patient|林治疗师，这项先不继续了。": {
+      "src": "./assets/dialogue-v20/c15483aac2c7d3b028c8.mp3",
+      "role": "patient",
+      "text": "林治疗师，这项先不继续了。",
+      "duration": 3.8383219954648524,
+      "sha256": "c375ef42e432c498066584b344b9036cea5bc2bb1c6d93df538d7283355921bc"
+    },
+    "patient|林治疗师，我走快或变向时，总担心又崴。": {
+      "src": "./assets/dialogue-v20/c666879fcc822ea80fa3.mp3",
+      "role": "patient",
+      "text": "林治疗师，我走快或变向时，总担心又崴。",
+      "duration": 5.537641723356009,
+      "sha256": "3d8779433ca95cc423e8e1becfd4d96d2d96d92d26da526a16a57a98bd5898d3"
+    },
+    "patient|林治疗师，好，我先坐稳准备。": {
+      "src": "./assets/dialogue-v20/91e004a0ab01a6a56445.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，我先坐稳准备。",
+      "duration": 4.363265306122449,
+      "sha256": "589122c106f5febd9030022d7a7db0ee74a6b47a84e623f3df8086cc25a3cfde"
+    },
+    "patient|林治疗师，我现在不想走这段。": {
+      "src": "./assets/dialogue-v20/209c0af81ba0315cf1d3.mp3",
+      "role": "patient",
+      "text": "林治疗师，我现在不想走这段。",
+      "duration": 4.163219954648526,
+      "sha256": "806cf72f33297c5aec1560e2d40bee837b6cfbdc99f283be7e7fee2ed831bda2"
+    },
+    "patient|林治疗师，走起来更不舒服了，我想停。": {
+      "src": "./assets/dialogue-v20/25d56f9382e6b23fc369.mp3",
+      "role": "patient",
+      "text": "林治疗师，走起来更不舒服了，我想停。",
+      "duration": 5.157913832199546,
+      "sha256": "d81f5e1903902c8220ebb0784ff67091681d974995c81b765b2816406496c2e3"
+    },
+    "patient|林治疗师，左右走得不一样，就说明肌肉坏了吗？": {
+      "src": "./assets/dialogue-v20/aa0b5e180a50646f1314.mp3",
+      "role": "patient",
+      "text": "林治疗师，左右走得不一样，就说明肌肉坏了吗？",
+      "duration": 5.85265306122449,
+      "sha256": "aa9be6a3b7f638ce3b99183943b6e19b4e993e86b38af0a3ceaf0ba4b3a00eef"
+    },
+    "patient|林治疗师，好，先把方法弄明白。": {
+      "src": "./assets/dialogue-v20/0293ea1f8420b263c24e.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，先把方法弄明白。",
+      "duration": 4.647936507936508,
+      "sha256": "5398be2877fcbb18f251d003a2e7509b127f043feb7e986d2d749b02b0faf577"
+    },
+    "patient|林治疗师，明白，先弄清在比哪一步。": {
+      "src": "./assets/dialogue-v20/413dc19cd0737b7110e6.mp3",
+      "role": "patient",
+      "text": "林治疗师，明白，先弄清在比哪一步。",
+      "duration": 4.917913832199546,
+      "sha256": "df1a416c34bb8abcb60ca30e65f1f83185c850556e485079ddb86336b430f91d"
+    },
+    "patient|林治疗师，刚才中途停了，没走完。": {
+      "src": "./assets/dialogue-v20/b5a9c9c154d3a0f8c98d.mp3",
+      "role": "patient",
+      "text": "林治疗师，刚才中途停了，没走完。",
+      "duration": 4.85297052154195,
+      "sha256": "68255ef2fc0f8dabaafa0aec3bec431f80e5333e78336558bea4c96a5c7ce609"
+    },
+    "patient|林治疗师，颜色越红，就是越严重吗？": {
+      "src": "./assets/dialogue-v20/b82465eb3ec4eccf5d80.mp3",
+      "role": "patient",
+      "text": "林治疗师，颜色越红，就是越严重吗？",
+      "duration": 5.0678911564625855,
+      "sha256": "718319800056ff94040e4d599e02e6be5f45adc1c37de53716cf72cf77bd62e1"
+    },
+    "patient|林治疗师，没有可用的压力数据，还能解释吗？": {
+      "src": "./assets/dialogue-v20/1914c24becdf269389b2.mp3",
+      "role": "patient",
+      "text": "林治疗师，没有可用的压力数据，还能解释吗？",
+      "duration": 5.672426303854875,
+      "sha256": "92caa4e0ee459d449bef3d23295074e731d059a8e49c28f34f7ee0f92536a024"
+    },
+    "patient|林治疗师，我不想继续站或走了。": {
+      "src": "./assets/dialogue-v20/7569dfeaf5b5fc26a049.mp3",
+      "role": "patient",
+      "text": "林治疗师，我不想继续站或走了。",
+      "duration": 4.263310657596372,
+      "sha256": "27b8cb8670cbd65c6b74c38d31091738fac3f1000b1296436108a088c6b47665"
+    },
+    "patient|林治疗师，这条轨迹就是身体重心吗？": {
+      "src": "./assets/dialogue-v20/9f9e2d0fe042fe48e1b1.mp3",
+      "role": "patient",
+      "text": "林治疗师，这条轨迹就是身体重心吗？",
+      "duration": 4.6978231292517005,
+      "sha256": "160392068d3483cdd63faac2b7e4e193ede2cf154e0afc860b4b77cd10e182a0"
+    },
+    "patient|林治疗师，好，先确认是不是同一种测试。": {
+      "src": "./assets/dialogue-v20/e39ac8f87aa6afa03e4b.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，先确认是不是同一种测试。",
+      "duration": 5.602721088435374,
+      "sha256": "0a88d0de51d85fb7c1b73e36d009c9a21357dc5df9043178bbf9d44cfcdde0a0"
+    },
+    "patient|林治疗师，明白，等有了有效资料，再讨论我的情况。": {
+      "src": "./assets/dialogue-v20/ac827a7b42b3eb018c48.mp3",
+      "role": "patient",
+      "text": "林治疗师，明白，等有了有效资料，再讨论我的情况。",
+      "duration": 6.5672562358276645,
+      "sha256": "b58f3b0503972c270e55f7a5df9523c4e8857b3d478e2e3f55a6fd1950b61aea"
+    },
+    "patient|林治疗师，明白，那先不急着解释这条线。": {
+      "src": "./assets/dialogue-v20/fe9a2ae2b71a12c9f176.mp3",
+      "role": "patient",
+      "text": "林治疗师，明白，那先不急着解释这条线。",
+      "duration": 5.327800453514739,
+      "sha256": "ae9638656f3846008369b1d7de4651d79b559ce1124c60f9fde068acc6dc7582"
+    },
+    "patient|林治疗师，站着没动，这个点也会移动吗？": {
+      "src": "./assets/dialogue-v20/0bfdee4166fa0bbcb6b6.mp3",
+      "role": "patient",
+      "text": "林治疗师，站着没动，这个点也会移动吗？",
+      "duration": 5.167619047619048,
+      "sha256": "b109f118139c440c5147285e9d21835c1c6c736764c4ce7f49782f32ac67bf77"
+    },
+    "patient|林治疗师，今天我不想试单脚站。": {
+      "src": "./assets/dialogue-v20/223a2ce50b5f6484de64.mp3",
+      "role": "patient",
+      "text": "林治疗师，今天我不想试单脚站。",
+      "duration": 4.278004535147392,
+      "sha256": "89ac7facf61e2fb9ae3db38213b4ba620e0adb04e6e79f32ccacea9fb20c357d"
+    },
+    "patient|林治疗师，好，我不急着抬脚。": {
+      "src": "./assets/dialogue-v20/2d878427bc7df30b25bf.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，我不急着抬脚。",
+      "duration": 4.293378684807256,
+      "sha256": "3370bd3ed9475ef47c20bc12d322ad1fe72d61c09d808c24461f9f4cc4419b34"
+    },
+    "patient|林治疗师，站着不舒服，想先停。": {
+      "src": "./assets/dialogue-v20/55cbbfe9cb7583f64321.mp3",
+      "role": "patient",
+      "text": "林治疗师，站着不舒服，想先停。",
+      "duration": 4.683174603174603,
+      "sha256": "7bf5f598e66dd30510e38615c24d4ed6c064c4fa9cd72995afb0427d1e6f9c80"
+    },
+    "patient|林治疗师，另一只脚落地了，我想停一下。": {
+      "src": "./assets/dialogue-v20/53758b06268da840a4af.mp3",
+      "role": "patient",
+      "text": "林治疗师，另一只脚落地了，我想停一下。",
+      "duration": 5.307800453514739,
+      "sha256": "186945dcdac733c8e6cb70903106a922dee730c8de4300e8fd7f76c037d937e1"
+    },
+    "patient|林治疗师，主要是怕控制不住。": {
+      "src": "./assets/dialogue-v20/e999cc82b615a3121de3.mp3",
+      "role": "patient",
+      "text": "林治疗师，主要是怕控制不住。",
+      "duration": 3.953151927437642,
+      "sha256": "e77bf896a62a40098759a7cbc6e1fefc0509f0d98c78ad79110351f3fb5b5fb2"
+    },
+    "patient|林治疗师，好，之后愿意了再从简单的试。": {
+      "src": "./assets/dialogue-v20/c82befb03a1dc867a4c1.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，之后愿意了再从简单的试。",
+      "duration": 5.412879818594105,
+      "sha256": "0d6625cbd2d6b0a342ff76f56f250298533e9068a938478e874a6e7006530240"
+    },
+    "patient|林治疗师，刚才这一轮可以完成，但还是有点紧张。": {
+      "src": "./assets/dialogue-v20/7fc6d4643cbc386dfae1.mp3",
+      "role": "patient",
+      "text": "林治疗师，刚才这一轮可以完成，但还是有点紧张。",
+      "duration": 6.432335600907029,
+      "sha256": "96bacb9128be24ce64d3de54cf51b32ff520dfb85fd0fd08ac4fc7229f200af3"
+    },
+    "patient|林治疗师，现在疼得更明显了。": {
+      "src": "./assets/dialogue-v20/77a2b04fdd0c7fb858a2.mp3",
+      "role": "patient",
+      "text": "林治疗师，现在疼得更明显了。",
+      "duration": 4.143174603174603,
+      "sha256": "5e6f14bbebb911536cde8a14bd87c78fd21caf09ae54e9f7d33c922720d8c338"
+    },
+    "patient|林治疗师，我想先安心走路，再慢慢跑步。": {
+      "src": "./assets/dialogue-v20/fde84e9d14d4c271ebc9.mp3",
+      "role": "patient",
+      "text": "林治疗师，我想先安心走路，再慢慢跑步。",
+      "duration": 5.422675736961451,
+      "sha256": "536d833ad8486672bfa51d1d13dd0534e6bfb0a00e33820b4aa625fa39507ed3"
+    },
+    "patient|林治疗师，我想先安心走不平路。": {
+      "src": "./assets/dialogue-v20/6a78868c0033bd0cae6e.mp3",
+      "role": "patient",
+      "text": "林治疗师，我想先安心走不平路。",
+      "duration": 4.4931065759637185,
+      "sha256": "8f0bfb827e8e14397974d2024d52dc4b7b175aa681cf899575fe5e635d7238e3"
+    },
+    "patient|林治疗师，好，那就先查清楚，再决定怎么练。": {
+      "src": "./assets/dialogue-v20/ed1225a92d9d5abcdacb.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，那就先查清楚，再决定怎么练。",
+      "duration": 6.147619047619048,
+      "sha256": "db8dc1429880b86a6cf0072ac7ee78c8393f831dedaabd86ac23bdba8214390a"
+    },
+    "patient|林治疗师，好，先把这一步安排清楚。": {
+      "src": "./assets/dialogue-v20/7aa0e9f4450f6e653044.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，先把这一步安排清楚。",
+      "duration": 5.097868480725624,
+      "sha256": "cc9ffbd9ace346ddecfb0fc47d105c6b1466b2c077ae30e3545011ff26b05531"
+    },
+    "patient|林治疗师，明白了。": {
+      "src": "./assets/dialogue-v20/b0890d9181adb81f7240.mp3",
+      "role": "patient",
+      "text": "林治疗师，明白了。",
+      "duration": 2.898548752834467,
+      "sha256": "b3c932e2172c664572f5fffbdfdc5230f56fc45567cf1389e38c5ed4d4892566"
+    },
+    "patient|林治疗师，好，我先记下这一步。": {
+      "src": "./assets/dialogue-v20/147ecfe8ec208e681a85.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，我先记下这一步。",
+      "duration": 4.43827664399093,
+      "sha256": "aa3f376659765ced52f14d769ad10acabcb9a9451b4b5edf9c0f740dbdff8609"
+    },
+    "patient|林治疗师，我还是不太清楚，什么时候该停？": {
+      "src": "./assets/dialogue-v20/011b8d6ee9c24616c114.mp3",
+      "role": "patient",
+      "text": "林治疗师，我还是不太清楚，什么时候该停？",
+      "duration": 5.817551020408163,
+      "sha256": "7cd1be1480f166d55348d4698654304e13dd53f82c3c6f43fae9941092b69036"
+    },
+    "patient|林治疗师，好，谢谢您尊重我的选择。": {
+      "src": "./assets/dialogue-v20/70607df3eee06a1096ef.mp3",
+      "role": "patient",
+      "text": "林治疗师，好，谢谢您尊重我的选择。",
+      "duration": 5.068072562358276,
+      "sha256": "37bb785531a19b0058c8e078ef7bf967a058ff3126574063d409c46ecd7de284"
+    },
+    "patient|林治疗师，您还没有问清我的经历，怎么就确定是脚弓的问题？": {
+      "src": "./assets/dialogue-v20/4e7ea69a46aeb37dbfcb.mp3",
+      "role": "patient",
+      "text": "林治疗师，您还没有问清我的经历，怎么就确定是脚弓的问题？",
+      "duration": 7.271791383219955,
+      "sha256": "5b2545021fe0ee435da0a4636a43a1be7ecc945216989441e3ab310bf77f9844"
+    },
+    "patient|林治疗师，刚才的问题还没有解释清楚。": {
+      "src": "./assets/dialogue-v20/6d7f83f87a0e9adc2606.mp3",
+      "role": "patient",
+      "text": "林治疗师，刚才的问题还没有解释清楚。",
+      "duration": 4.977641723356009,
+      "sha256": "883e29fb8d5a81e9db04b5420f08e3006d40571ec0fe5ad65e63d400ef5a2427"
+    },
+    "patient|我越来越不放心，请您先说明依据和下一步。": {
+      "src": "./assets/dialogue-v20/c3e43a89fa0dd2c21153.mp3",
+      "role": "patient",
+      "text": "我越来越不放心，请您先说明依据和下一步。",
+      "duration": 5.322721088435374,
+      "sha256": "47c3f8817203fae725071d3782c015e0b94e01491ee6c8d979ae2390c0bfce25"
+    },
+    "patient|林治疗师，我担心站不稳。": {
+      "src": "./assets/dialogue-v20/1ded1301df491bf1d2d3.mp3",
+      "role": "patient",
+      "text": "林治疗师，我担心站不稳。",
+      "duration": 3.7183673469387757,
+      "sha256": "36efcf2c66c6e3fc38aa0d017b22757bfd893b010e4d6e72a8a13532c9fdf01c"
+    },
+    "patient|您能先说明为什么要做、怎样保护我吗？": {
+      "src": "./assets/dialogue-v20/c873b08435370ff99257.mp3",
+      "role": "patient",
+      "text": "您能先说明为什么要做、怎样保护我吗？",
+      "duration": 4.84766439909297,
+      "sha256": "1c5f4d3cdcbc83127acbbdeb81ea52c28475380065ca914dc55e3bf43953f7f1"
+    },
+    "patient|林治疗师，我已经表达了担心，您却还在催我做。": {
+      "src": "./assets/dialogue-v20/9479fe32dce4bd5a08da.mp3",
+      "role": "patient",
+      "text": "林治疗师，我已经表达了担心，您却还在催我做。",
+      "duration": 5.972562358276644,
+      "sha256": "15b0e9fc7edc4663ba0979088ebc1963e24d739e70faca91b7d1ed269f035bee"
+    },
+    "patient|我有点生气，请您先听我说完。": {
+      "src": "./assets/dialogue-v20/7a5e5f10695a41317111.mp3",
+      "role": "patient",
+      "text": "我有点生气，请您先听我说完。",
+      "duration": 4.20312925170068,
+      "sha256": "86aaa77ce372a5509e37a9ca5b6b5a1636b71484fad8949d7dd813f0ef6ecfca"
+    },
+    "patient|林治疗师，能走进来不代表我做动作不会不舒服。": {
+      "src": "./assets/dialogue-v20/6fc9ef5a7669aa63f28c.mp3",
+      "role": "patient",
+      "text": "林治疗师，能走进来不代表我做动作不会不舒服。",
+      "duration": 5.717233560090703,
+      "sha256": "00263f49e57508d97faf2fa8f4757dba56dfa970a369f12634c955432529ac57"
+    },
+    "patient|您先听听我的情况，好吗？": {
+      "src": "./assets/dialogue-v20/2d6ac7ea58ec9a1ccdd6.mp3",
+      "role": "patient",
+      "text": "您先听听我的情况，好吗？",
+      "duration": 3.5084807256235826,
+      "sha256": "f0085a85602e1271dcfd7437fd3a5e9f71dcb6668ac55590dd7fee4c0b01bd50"
+    },
+    "patient|林治疗师，我更在意能不能安心走路，不只是脚看起来像不像标准图。": {
+      "src": "./assets/dialogue-v20/72346ced2d3f4123b23d.mp3",
+      "role": "patient",
+      "text": "林治疗师，我更在意能不能安心走路，不只是脚看起来像不像标准图。",
+      "duration": 8.24657596371882,
+      "sha256": "73a15ef0952bc96a5ac5121a96f32c9cdcd6d961dd26a8f5e0fa1b92ab436e07"
+    },
+    "patient|林治疗师，我想先知道检查的目的。": {
+      "src": "./assets/dialogue-v20/67e5388b2c6f87a42bae.mp3",
+      "role": "patient",
+      "text": "林治疗师，我想先知道检查的目的。",
+      "duration": 4.398004535147392,
+      "sha256": "b38edda7ed3a273516ebf8fde7d693f9d9c8898273cc2e4de0dc48a2680bb0fb"
+    },
+    "patient|请您解释清楚，再让我决定。": {
+      "src": "./assets/dialogue-v20/be7c41165b74d126e7d7.mp3",
+      "role": "patient",
+      "text": "请您解释清楚，再让我决定。",
+      "duration": 3.9183219954648525,
+      "sha256": "5710bd2207d4006f841dea7c8158387e500324b1553b4684bc1921db7dccfe6d"
+    },
+    "patient|林治疗师，您说一定不会疼，我还是不放心。": {
+      "src": "./assets/dialogue-v20/94552610e45725dd3138.mp3",
+      "role": "patient",
+      "text": "林治疗师，您说一定不会疼，我还是不放心。",
+      "duration": 5.742766439909297,
+      "sha256": "3f3ac237a807bf3db7dacdcf709c4e3c3d07099939294ad352eca1a3a526d873"
+    },
+    "patient|如果不舒服，我可以停吗？": {
+      "src": "./assets/dialogue-v20/5133ff27126369a70f4d.mp3",
+      "role": "patient",
+      "text": "如果不舒服，我可以停吗？",
+      "duration": 3.493469387755102,
+      "sha256": "e030cc8dc262a661e9fc328de4286dd82843f95adf21fa2abe5edaa0b017389c"
+    },
+    "patient|林治疗师，屏幕转到最大，就是我的活动角度吗？": {
+      "src": "./assets/dialogue-v20/e610c9f810128c27a3bd.mp3",
+      "role": "patient",
+      "text": "林治疗师，屏幕转到最大，就是我的活动角度吗？",
+      "duration": 5.957460317460318,
+      "sha256": "282483dbacd216a7b8aa6b0d26fc858ecd722babde45d9076f6ea201d7a900d1"
+    },
+    "patient|我还没有做测量呢。": {
+      "src": "./assets/dialogue-v20/7046f3a16ee368b96703.mp3",
+      "role": "patient",
+      "text": "我还没有做测量呢。",
+      "duration": 2.4885714285714284,
+      "sha256": "f54b0b6f7564b1e8195457cc47ee66a52d0c1480089e06f05be20cee941ef6b1"
+    },
+    "patient|林治疗师，我已经踮起脚跟了。": {
+      "src": "./assets/dialogue-v20/b1ca6bc79fc018587fa9.mp3",
+      "role": "patient",
+      "text": "林治疗师，我已经踮起脚跟了。",
+      "duration": 4.068163265306122,
+      "sha256": "1c7e098b2479c798ffd45015026132fd6d72a32fa252d864dd69808c621fb1af"
+    },
+    "patient|这样得到的结果还能和刚才比吗？": {
+      "src": "./assets/dialogue-v20/beb9cf3c68e34541f86a.mp3",
+      "role": "patient",
+      "text": "这样得到的结果还能和刚才比吗？",
+      "duration": 3.91297052154195,
+      "sha256": "a2c4f6b950e47f279a3afe55db362a58916653c71b528cf04542b73aa434aae2"
+    },
+    "patient|林治疗师，两边姿势都不一样，您能说明为什么可以直接比较吗？": {
+      "src": "./assets/dialogue-v20/7d676f32f7df8cae7e68.mp3",
+      "role": "patient",
+      "text": "林治疗师，两边姿势都不一样，您能说明为什么可以直接比较吗？",
+      "duration": 7.4117913832199545,
+      "sha256": "96f64e6e8ec391ef443b71c4a0a4c76b2322d1cca8c54c0368e93eaec0214d06"
+    },
+    "patient|林治疗师，听到骨头错位我有点害怕。": {
+      "src": "./assets/dialogue-v20/b6b737de294969825f97.mp3",
+      "role": "patient",
+      "text": "林治疗师，听到骨头错位我有点害怕。",
+      "duration": 4.8126530612244895,
+      "sha256": "b95a955fc746c02164b4e8281302f6074cf1ec861f7b9d34461b44ccdfe084da"
+    },
+    "patient|您是根据哪项检查判断的？": {
+      "src": "./assets/dialogue-v20/c8f6f2dc8221769eda8c.mp3",
+      "role": "patient",
+      "text": "您是根据哪项检查判断的？",
+      "duration": 3.4182766439909296,
+      "sha256": "50f15f36d71cb0d588f57d7ed5d57fde15898eecb3b4c8c65e1d0bda405263a8"
+    },
+    "patient|林治疗师，为了踩准板子，我都不敢按平常的方式走了。": {
+      "src": "./assets/dialogue-v20/c1be3f5f9c7b5e281a63.mp3",
+      "role": "patient",
+      "text": "林治疗师，为了踩准板子，我都不敢按平常的方式走了。",
+      "duration": 6.532154195011338,
+      "sha256": "8a426eb4b6e3245ec5d23510a7fc291cb731d3e6c967088f4864e2f714aa6849"
+    },
+    "patient|这样能看出平时的问题吗？": {
+      "src": "./assets/dialogue-v20/11ac65589d8059870ac8.mp3",
+      "role": "patient",
+      "text": "这样能看出平时的问题吗？",
+      "duration": 3.0834920634920633,
+      "sha256": "69d4b0b74bff4c153a41ae02533f0641a73bcd44bd47a720770c7c4a6b70c6f3"
+    },
+    "patient|林治疗师，只看我走路就知道是哪块肌肉没力气吗？": {
+      "src": "./assets/dialogue-v20/a923d60cf6a22e88aaf0.mp3",
+      "role": "patient",
+      "text": "林治疗师，只看我走路就知道是哪块肌肉没力气吗？",
+      "duration": 5.887256235827665,
+      "sha256": "63c9a6a0395c6a3ab9709baa82cf14302b7d0bb1f59ad1a030114b40c3406143"
+    },
+    "patient|还需要检查吗？": {
+      "src": "./assets/dialogue-v20/82282033c9826b6d41e4.mp3",
+      "role": "patient",
+      "text": "还需要检查吗？",
+      "duration": 2.323764172335601,
+      "sha256": "ddd3778e3845bec58690f125d3c7b29779d0eb86b8b3d865db9f792e79513908"
+    },
+    "patient|林治疗师，您还没有检查韧带，怎么知道它一直受力太大？": {
+      "src": "./assets/dialogue-v20/e5a9c719d999bd874a96.mp3",
+      "role": "patient",
+      "text": "林治疗师，您还没有检查韧带，怎么知道它一直受力太大？",
+      "duration": 6.741814058956916,
+      "sha256": "5ae7cdcd49a91a6c89655541eec844dd6e994478716d5fda1b3599fe1506427f"
+    },
+    "patient|林治疗师，只要垫高脚弓就一定不再崴吗？": {
+      "src": "./assets/dialogue-v20/60e889ca39d16cc8387b.mp3",
+      "role": "patient",
+      "text": "林治疗师，只要垫高脚弓就一定不再崴吗？",
+      "duration": 5.057551020408163,
+      "sha256": "0a95344058a02d2a2048f9148c48f4f308a93e263a92c3d17bdb521667e22131"
+    },
+    "patient|我想了解您这样判断的依据。": {
+      "src": "./assets/dialogue-v20/68e63177ec57fc4b2cf6.mp3",
+      "role": "patient",
+      "text": "我想了解您这样判断的依据。",
+      "duration": 3.353151927437642,
+      "sha256": "d041655c804836420122e23f1f8fb438b288eba7ecce95df0468d832a452ee43"
+    },
+    "patient|林治疗师，红色就表示损伤严重吗？": {
+      "src": "./assets/dialogue-v20/9333ad5d6bf5e5cbfe09.mp3",
+      "role": "patient",
+      "text": "林治疗师，红色就表示损伤严重吗？",
+      "duration": 4.57297052154195,
+      "sha256": "12eceef29d899977cfebcd2da1cf166c5fa1b7f15db5b06e4fa1e79113480fd6"
+    },
+    "patient|听您这么说，我更担心了。": {
+      "src": "./assets/dialogue-v20/05e659aa300577f91642.mp3",
+      "role": "patient",
+      "text": "听您这么说，我更担心了。",
+      "duration": 3.3984126984126983,
+      "sha256": "4c0bbfb2f451ff2c14f28cec3f7d4642be57ec964e40399f96371bbd38f56cda"
+    },
+    "patient|林治疗师，脚心碰到地面就算有病吗？": {
+      "src": "./assets/dialogue-v20/5d3ac4a5bd34a232a644.mp3",
+      "role": "patient",
+      "text": "林治疗师，脚心碰到地面就算有病吗？",
+      "duration": 4.757732426303855,
+      "sha256": "31e968c275861a1c6f37d5c1800ef32f48e9d395d9417219986b14015376a370"
+    },
+    "patient|您能结合我的不适解释一下吗？": {
+      "src": "./assets/dialogue-v20/b38b79398a39d5a92914.mp3",
+      "role": "patient",
+      "text": "您能结合我的不适解释一下吗？",
+      "duration": 3.4834920634920636,
+      "sha256": "ccf04c0eed49aa3e5b0a3746b31dd58f6ea9a8475e5197c0e4dd410c51f9b921"
+    },
+    "patient|林治疗师，这条线就能说明我为什么反复崴脚吗？": {
+      "src": "./assets/dialogue-v20/342725495732e42d6acd.mp3",
+      "role": "patient",
+      "text": "林治疗师，这条线就能说明我为什么反复崴脚吗？",
+      "duration": 5.847256235827665,
+      "sha256": "f7f075651b9cd88b8edddac41d0006df22f33507ee484d905cc5242ced666ab8"
+    },
+    "patient|其他检查还要看吗？": {
+      "src": "./assets/dialogue-v20/1d3300475d7e3e07bd1e.mp3",
+      "role": "patient",
+      "text": "其他检查还要看吗？",
+      "duration": 2.7636281179138322,
+      "sha256": "a8e683f79235213f407609f9ef8e74bd672e1b6258a69cae28df200baedf7aca"
+    },
+    "patient|林治疗师，您能保证以后完全不崴吗？": {
+      "src": "./assets/dialogue-v20/0a2fcbae3afc9ee78ded.mp3",
+      "role": "patient",
+      "text": "林治疗师，您能保证以后完全不崴吗？",
+      "duration": 4.682902494331066,
+      "sha256": "610388c37249ac47f6a4dce65cc145f1caea7f2ffb96cd73b354f8e7b4298561"
+    },
+    "patient|我还想知道怎样训练、什么时候复查。": {
+      "src": "./assets/dialogue-v20/4be64bbc66f58806b93b.mp3",
+      "role": "patient",
+      "text": "我还想知道怎样训练、什么时候复查。",
+      "duration": 4.607891156462585,
+      "sha256": "c73dc60b752730fbeb2ae76932210c4813ecd4cc0819125afab9324039cc176b"
+    },
+    "patient|林治疗师，我现在还担心发软。": {
+      "src": "./assets/dialogue-v20/58b0d82ce2c1c93cac8f.mp3",
+      "role": "patient",
+      "text": "林治疗师，我现在还担心发软。",
+      "duration": 4.173151927437642,
+      "sha256": "9a8918aa0dfd782c97f80d2f7bd1fe9dd60a6094f195becdfc1203740c0819ab"
+    },
+    "patient|没有核对恢复情况，就让我去跑步，我不放心。": {
+      "src": "./assets/dialogue-v20/7c7a09c9036da151484c.mp3",
+      "role": "patient",
+      "text": "没有核对恢复情况，就让我去跑步，我不放心。",
+      "duration": 5.807482993197279,
+      "sha256": "84279ebc77c28a6b110a743841d38e60429e82b5184d850a1a0f1fb1db062a5e"
+    },
+    "patient|林治疗师，我已经说了不舒服，也想停下来。": {
+      "src": "./assets/dialogue-v20/6f8d53cb96fee73adf0e.mp3",
+      "role": "patient",
+      "text": "林治疗师，我已经说了不舒服，也想停下来。",
+      "duration": 5.732789115646258,
+      "sha256": "4712493153ff9da69a43e502d6ec04f82125cddf8b62c6fedfea50283a65ffa7"
+    },
+    "patient|请您尊重我的感受。": {
+      "src": "./assets/dialogue-v20/530b08c2b5a201fac1cc.mp3",
+      "role": "patient",
+      "text": "请您尊重我的感受。",
+      "duration": 2.623764172335601,
+      "sha256": "3b025ba6040048059e759136b8c9f53941f95457de6f127c96afbcd3a41e0ceb"
+    },
+    "patient|林治疗师，这个情境里我已经不能负重了。": {
+      "src": "./assets/dialogue-v20/6ddee3453f9b9d362e61.mp3",
+      "role": "patient",
+      "text": "林治疗师，这个情境里我已经不能负重了。",
+      "duration": 4.847755102040816,
+      "sha256": "c2af87acb0ef49093eb8ecd6266e0db8e1ff921be6a71e69a90ffd2884a2cc3e"
+    },
+    "patient|您还让我单脚站，我不敢，也不愿意。": {
+      "src": "./assets/dialogue-v20/02e404a73670cdf4145e.mp3",
+      "role": "patient",
+      "text": "您还让我单脚站，我不敢，也不愿意。",
+      "duration": 4.7030839002267575,
+      "sha256": "8327dbd04816a7c9049e84fa6f6bb40f3cd1b79f8e9c78ab258c53c2a4d78aaa"
+    },
+    "patient|林治疗师，您说这么多地方都坏了，我很害怕。": {
+      "src": "./assets/dialogue-v20/aea176f79d602103a50f.mp3",
+      "role": "patient",
+      "text": "林治疗师，您说这么多地方都坏了，我很害怕。",
+      "duration": 5.722448979591837,
+      "sha256": "0e7cd4e830307cb60365ddee1be27042ec64dbc90174498cb948ab22d2dd562a"
+    },
+    "patient|哪些有检查依据，哪些还不确定？": {
+      "src": "./assets/dialogue-v20/f0895110e898c82b18a2.mp3",
+      "role": "patient",
+      "text": "哪些有检查依据，哪些还不确定？",
+      "duration": 4.162766439909297,
+      "sha256": "86223c2f2180d5c513bd58e8ee028ca81cf8d6d2a2f10ceb663bef8334b37287"
+    },
+    "patient|林治疗师，脚弓低就是所有问题的原因吗？": {
+      "src": "./assets/dialogue-v20/a13f00a2dd7fddf8d96b.mp3",
+      "role": "patient",
+      "text": "林治疗师，脚弓低就是所有问题的原因吗？",
+      "duration": 5.042585034013605,
+      "sha256": "abc72f957a94cd7f44cd6c9f85a87177723166c1997cb9184735d824f15b7be1"
+    },
+    "patient|我希望您先把依据讲清楚。": {
+      "src": "./assets/dialogue-v20/dc66c53666fd599bfbde.mp3",
+      "role": "patient",
+      "text": "我希望您先把依据讲清楚。",
+      "duration": 3.4382766439909296,
+      "sha256": "bc66932e0d4ece2f7aaf70a40492a035cd65f55bc3619440126965aa16397836"
+    },
+    "patient|谢谢您愿意听我说，也重新解释。": {
+      "src": "./assets/dialogue-v20/7f92756762275c396877.mp3",
+      "role": "patient",
+      "text": "谢谢您愿意听我说，也重新解释。",
+      "duration": 4.338004535147392,
+      "sha256": "a11aacc56ff8a23eb13dd051b91f609388e56c3af3e69f0212bc8b3bb6b303f0"
+    },
+    "patient|接下来我们一步一步来，不舒服时我会告诉您。": {
+      "src": "./assets/dialogue-v20/332c09e26c69f4394a6f.mp3",
+      "role": "patient",
+      "text": "接下来我们一步一步来，不舒服时我会告诉您。",
+      "duration": 5.297687074829932,
+      "sha256": "72cdfadcf60bfdec1cc7e1ce89344c199628ec504d4f7c04f254822353ae326a"
+    },
+    "patient|林治疗师，走不平的路、走快转弯或跑步变向时，有时脚踝突然一软，像踩空了。": {
+      "src": "./assets/dialogue-v20/4b7a0776454d065e66c0.mp3",
+      "role": "patient",
+      "text": "林治疗师，走不平的路、走快转弯或跑步变向时，有时脚踝突然一软，像踩空了。",
+      "duration": 9.696235827664399,
+      "sha256": "30556e29f86d0f1725827bf6349db29818cfe5a98fbb11db3dd3fcac1c86c927"
+    },
+    "patient|林治疗师，我想先安心走不平的路，再逐渐恢复轻松跑步。": {
+      "src": "./assets/dialogue-v20/6edc4265193e2b68f608.mp3",
+      "role": "patient",
+      "text": "林治疗师，我想先安心走不平的路，再逐渐恢复轻松跑步。",
+      "duration": 6.99687074829932,
+      "sha256": "2e356e995044e9d3702e5fbb039eceb9beba7e4d1684a53add4f52ff8dcff385"
+    },
+    "therapist|最近又扭伤过吗？": {
+      "src": "./assets/dialogue-v20/a4cf3a4da8747397a648.mp3",
+      "role": "therapist",
+      "text": "最近又扭伤过吗？",
+      "duration": 2.3110204081632655,
+      "sha256": "9d8eb267bc5d4548466418d39b76ec75e2ce047d32a988b3d542e9cce2a33af6"
+    },
+    "therapist|有没有更疼、更肿、发麻，或痛得不敢踩地？": {
+      "src": "./assets/dialogue-v20/175c3030ebd241103f0d.mp3",
+      "role": "therapist",
+      "text": "有没有更疼、更肿、发麻，或痛得不敢踩地？",
+      "duration": 4.903265306122449,
+      "sha256": "4bc147eef79f5da2b4c3206e7ad2ad26097a557f1f2aa479b2bd5543bc2f4f7d"
+    },
+    "therapist|您都能走进来了，我们就直接做单脚站立吧。": {
+      "src": "./assets/dialogue-v20/08b9c28bfdde65e219a4.mp3",
+      "role": "therapist",
+      "text": "您都能走进来了，我们就直接做单脚站立吧。",
+      "duration": 4.700680272108843,
+      "sha256": "e4e819af5419d19a2998c56380427f78fb546c68a0420adb790317e2510b0ed0"
+    },
+    "therapist|换一种情况想一想：她刚扭伤，痛得不敢踩地。": {
+      "src": "./assets/dialogue-v20/a92a33d44b3357cd3997.mp3",
+      "role": "therapist",
+      "text": "换一种情况想一想：她刚扭伤，痛得不敢踩地。",
+      "duration": 5.126984126984127,
+      "sha256": "ed9c519f212523087c708a44be0c76093b1978849ff992a5d7f829794c458cd3"
+    },
+    "therapist|之前做过哪些处理？": {
+      "src": "./assets/dialogue-v20/2d1e3de7325693e712a7.mp3",
+      "role": "therapist",
+      "text": "之前做过哪些处理？",
+      "duration": 2.5220861678004534,
+      "sha256": "2e40afb97b0f8cac64cc3c196c1b0aa45603fd141f2c47711093145d3593f976"
+    },
+    "therapist|现在最想恢复哪项活动？": {
+      "src": "./assets/dialogue-v20/76b1229a256a70f2b8af.mp3",
+      "role": "therapist",
+      "text": "现在最想恢复哪项活动？",
+      "duration": 3.0649886621315194,
+      "sha256": "1c2e33e7ef0b87357e8fa93b9103a4222a42d3a1b70050a728229be62958dbe3"
+    },
+    "therapist|只要把脚弓的外形变好看，其他就不用管了。": {
+      "src": "./assets/dialogue-v20/8b1e135dbd2bb471c1d3.mp3",
+      "role": "therapist",
+      "text": "只要把脚弓的外形变好看，其他就不用管了。",
+      "duration": 4.834603174603175,
+      "sha256": "1a25ddd76d4f415bbf48554911a3bdf6c72d3e42b7d5e844b7b79e5cb4f6753e"
+    },
+    "therapist|我想看看您的脚踝怎么活动、平时怎么走路。": {
+      "src": "./assets/dialogue-v20/3615b28d54c669a49d25.mp3",
+      "role": "therapist",
+      "text": "我想看看您的脚踝怎么活动、平时怎么走路。",
+      "duration": 4.803945578231293,
+      "sha256": "f1e36b026df9da14fe0d6583a146f6cfe8655c36d2b2e98431d37fc243d3172c"
+    },
+    "therapist|每一步都会先解释，不舒服随时停，可以吗？": {
+      "src": "./assets/dialogue-v20/01fa723bce5ca693bc3f.mp3",
+      "role": "therapist",
+      "text": "每一步都会先解释，不舒服随时停，可以吗？",
+      "duration": 4.7942857142857145,
+      "sha256": "95a5a950e0b20b42e4f213416741f25f92f7f58b175aa263a8e496e337d4d43d"
+    },
+    "therapist|您先照我说的做完，问题一会儿再问。": {
+      "src": "./assets/dialogue-v20/6eb10598fdbc62278f29.mp3",
+      "role": "therapist",
+      "text": "您先照我说的做完，问题一会儿再问。",
+      "duration": 4.214965986394557,
+      "sha256": "375563a27e419b1d283b8c7b88b55a36f7e7484b25e175feed06bca039f8013d"
+    },
+    "therapist|我们先小幅度活动，我会在旁边保护。": {
+      "src": "./assets/dialogue-v20/ba3fa8f8904c2848a449.mp3",
+      "role": "therapist",
+      "text": "我们先小幅度活动，我会在旁边保护。",
+      "duration": 4.094512471655329,
+      "sha256": "448f332ff4930ab9a58031e9a33bdb8f45b9e519282b2f405e4543c4d46692e5"
+    },
+    "therapist|您觉得不舒服，我们马上停。": {
+      "src": "./assets/dialogue-v20/58d08367ae338d36c6a2.mp3",
+      "role": "therapist",
+      "text": "您觉得不舒服，我们马上停。",
+      "duration": 3.2495691609977326,
+      "sha256": "2a894deee7a99b0fa8fe658c719222f16fdae4071702e101f4e410d3557bd464"
+    },
+    "therapist|可以，今天先聊清楚。": {
+      "src": "./assets/dialogue-v20/1a57adc6a23ce4bf527f.mp3",
+      "role": "therapist",
+      "text": "可以，今天先聊清楚。",
+      "duration": 2.989251700680272,
+      "sha256": "dced66b528402b08ce15dfc3df5190d294858581ca516c6a56e7d104d4e865f2"
+    },
+    "therapist|您准备好了，我们再检查。": {
+      "src": "./assets/dialogue-v20/9a9fceade5047aea2d42.mp3",
+      "role": "therapist",
+      "text": "您准备好了，我们再检查。",
+      "duration": 3.2003174603174602,
+      "sha256": "79c46ed3151f0377e6915584a4578460f488f3cefbfe08668e5644a3b2c227d9"
+    },
+    "therapist|您放心，保证一点都不疼，以后也不会再崴。": {
+      "src": "./assets/dialogue-v20/fc88354124933b3b684c.mp3",
+      "role": "therapist",
+      "text": "您放心，保证一点都不疼，以后也不会再崴。",
+      "duration": 4.821950113378684,
+      "sha256": "2fb5cbe71e2b457c55233963ec98dcea385781879546fe5982991cfa487281a3"
+    },
+    "therapist|您说越来越不舒服，我们先停下来。": {
+      "src": "./assets/dialogue-v20/2628076a2dbf1bf1492b.mp3",
+      "role": "therapist",
+      "text": "您说越来越不舒服，我们先停下来。",
+      "duration": 3.9234013605442177,
+      "sha256": "3d24817d5d7078be5270aed3ef60957c3242f22882fd686b3676c6a2aeab540b"
+    },
+    "therapist|右脚往上活动时更紧一些。": {
+      "src": "./assets/dialogue-v20/b5295908c5481f86d728.mp3",
+      "role": "therapist",
+      "text": "右脚往上活动时更紧一些。",
+      "duration": 3.2546031746031745,
+      "sha256": "ba3df34c4686c8a67230cc470739d0b11e5888b8f81094defb9201ab1d12edbd"
+    },
+    "therapist|发紧不等于骨头错位，我们还要结合其他检查。": {
+      "src": "./assets/dialogue-v20/9905c34ab65a331b79a3.mp3",
+      "role": "therapist",
+      "text": "发紧不等于骨头错位，我们还要结合其他检查。",
+      "duration": 4.964988662131519,
+      "sha256": "e3e81fb0f74928ec21197fd2b4f69dd696d602b623d62db3e3b1095d6020855c"
+    },
+    "therapist|请按平常的方式往前走，不用特意踩准板子。": {
+      "src": "./assets/dialogue-v20/f31b8b31dcffe0b1bc61.mp3",
+      "role": "therapist",
+      "text": "请按平常的方式往前走，不用特意踩准板子。",
+      "duration": 4.91546485260771,
+      "sha256": "b0e6475e198908df3c2641d02397e0f89415bff31b5aed6c18ca45e61a811341"
+    },
+    "therapist|不舒服就告诉我。": {
+      "src": "./assets/dialogue-v20/40ce515f86d99d47ea74.mp3",
+      "role": "therapist",
+      "text": "不舒服就告诉我。",
+      "duration": 2.224761904761905,
+      "sha256": "81905b060312bbcd64de2a2b4055eed848adc6397777779df848e97ded268ef5"
+    },
+    "therapist|请每一步都踩准板子中间，不要踩偏。": {
+      "src": "./assets/dialogue-v20/c6a470a75c38e9a3ea4a.mp3",
+      "role": "therapist",
+      "text": "请每一步都踩准板子中间，不要踩偏。",
+      "duration": 4.251337868480726,
+      "sha256": "9b0c7940115f4d5ab068701325c56ed8a3676a0df3897e112fed26adf509f465"
+    },
+    "therapist|右脚踩地的时间较短，两边步长也不同。": {
+      "src": "./assets/dialogue-v20/9040db7b66924aa14f94.mp3",
+      "role": "therapist",
+      "text": "右脚踩地的时间较短，两边步长也不同。",
+      "duration": 4.561496598639456,
+      "sha256": "8a43ce91738b174e40cc3456f77b250065bf6f1a0fbe7afe5c0e5ee5ae6f419a"
+    },
+    "therapist|原因还要结合您的感受和其他检查。": {
+      "src": "./assets/dialogue-v20/b8edaaa2b84ad0ed6683.mp3",
+      "role": "therapist",
+      "text": "原因还要结合您的感受和其他检查。",
+      "duration": 4.107120181405896,
+      "sha256": "d4f2e29e44ec16e5c3252d297fb977691574b6318e0ba711ba1ce62644e28f08"
+    },
+    "therapist|脚弓低不一定就是反复崴脚的原因。": {
+      "src": "./assets/dialogue-v20/0537926165ec03deab89.mp3",
+      "role": "therapist",
+      "text": "脚弓低不一定就是反复崴脚的原因。",
+      "duration": 3.878140589569161,
+      "sha256": "dffa10be134aaae8eea7b4c86e410cd23f269a3598eeea65c30dda1afeb344a6"
+    },
+    "therapist|我们还要看看脚踝的活动和控制情况。": {
+      "src": "./assets/dialogue-v20/65513c426c57f05943ea.mp3",
+      "role": "therapist",
+      "text": "我们还要看看脚踝的活动和控制情况。",
+      "duration": 4.084399092970521,
+      "sha256": "6bd73204977957cdf61ac5a2c35363783401d50d79b9125573a02e8391db5265"
+    },
+    "therapist|这条线表示脚底受力的中心怎样移动。": {
+      "src": "./assets/dialogue-v20/62a39695d086259934b2.mp3",
+      "role": "therapist",
+      "text": "这条线表示脚底受力的中心怎样移动。",
+      "duration": 4.075555555555556,
+      "sha256": "6b675b45e984739728e7119877c2c00790c3fb46c667e781dd127ded19ea67b0"
+    },
+    "therapist|它能帮助我们观察，但不能单凭这条线确定病因。": {
+      "src": "./assets/dialogue-v20/ac6f0e96d6932614f277.mp3",
+      "role": "therapist",
+      "text": "它能帮助我们观察，但不能单凭这条线确定病因。",
+      "duration": 5.337777777777778,
+      "sha256": "cdda7fce06aa2c0e9e6618ec5374073c91f3db4581a81df163323ad128968c7b"
+    },
+    "therapist|请睁着眼，双脚自然站好。": {
+      "src": "./assets/dialogue-v20/11d0b0ab3e4900a8ff1e.mp3",
+      "role": "therapist",
+      "text": "请睁着眼，双脚自然站好。",
+      "duration": 3.3219954648526078,
+      "sha256": "97eb6dd2446ff2cbf9b8dd17b88835a6f738717080bd9af3bba696e860cfd384"
+    },
+    "therapist|屏幕上的点表示脚底受力的中心，我们看看它怎样移动。": {
+      "src": "./assets/dialogue-v20/f1aece7aa1a664f7444c.mp3",
+      "role": "therapist",
+      "text": "屏幕上的点表示脚底受力的中心，我们看看它怎样移动。",
+      "duration": 5.584716553287982,
+      "sha256": "cef95f118364dfd0e0e0667ed349b06f18afda7fe6ee3d80ffb3f6f18ec0399a"
+    },
+    "therapist|我们把刚才了解到的情况放在一起，围绕安心走路的目标商量下一步。": {
+      "src": "./assets/dialogue-v20/a68bed932e1df9a56bc5.mp3",
+      "role": "therapist",
+      "text": "我们把刚才了解到的情况放在一起，围绕安心走路的目标商量下一步。",
+      "duration": 6.932380952380952,
+      "sha256": "e7d48d690ee3665ea87bfac1a0f572f91d04519a9da383367f7ed7f5dc968e5d"
+    },
+    "therapist|我们先练习您能做到的力量和平衡动作，再根据表现逐渐增加难度。": {
+      "src": "./assets/dialogue-v20/e591029ebd184add31f6.mp3",
+      "role": "therapist",
+      "text": "我们先练习您能做到的力量和平衡动作，再根据表现逐渐增加难度。",
+      "duration": 6.7660770975056685,
+      "sha256": "29602ee07cd896848d1da128a6015851ded9f835c05be65c1f88b190f6d58969"
+    },
+    "therapist|我们先针对刚才发现的活动限制练习，之后用同一种方法再检查。": {
+      "src": "./assets/dialogue-v20/cd3afc2f45d2d21b7751.mp3",
+      "role": "therapist",
+      "text": "我们先针对刚才发现的活动限制练习，之后用同一种方法再检查。",
+      "duration": 6.878730158730159,
+      "sha256": "aa3e2a908f9ac7188483f3039dfea9eb267cf1f9909b68d80342af61c1b4b75c"
+    },
+    "therapist|针对久站后的不适，可以先调整活动量，再讨论是否需要辅助支撑，并观察效果。": {
+      "src": "./assets/dialogue-v20/6ff148b164bd2b503cd4.mp3",
+      "role": "therapist",
+      "text": "针对久站后的不适，可以先调整活动量，再讨论是否需要辅助支撑，并观察效果。",
+      "duration": 8.281043083900228,
+      "sha256": "7a5aeb7febf7f6ae1e7c37c0723917e6c858c332c315e7bdb92201e4bb84d97a"
+    },
+    "therapist|还有些情况没有查清楚，我们先补充检查，再商量具体训练。": {
+      "src": "./assets/dialogue-v20/1cf7adbfb7af9954df19.mp3",
+      "role": "therapist",
+      "text": "还有些情况没有查清楚，我们先补充检查，再商量具体训练。",
+      "duration": 6.592108843537415,
+      "sha256": "6c99bdf0e5128e0330ac58154e0868d538b70df213f264bef429cdd1c06baee9"
+    },
+    "therapist|这些动画看完，您今天就可以放心跑步了。": {
+      "src": "./assets/dialogue-v20/ce74bad8cdfe10ca46cc.mp3",
+      "role": "therapist",
+      "text": "这些动画看完，您今天就可以放心跑步了。",
+      "duration": 4.686757369614512,
+      "sha256": "1f6894598737e57dad78acd4b9d5b0ef69bdbd58b20a03e1960f686556686304"
+    },
+    "therapist|如果疼痛加重或站不稳，请先停下、扶稳。": {
+      "src": "./assets/dialogue-v20/add879905df1c414bcd1.mp3",
+      "role": "therapist",
+      "text": "如果疼痛加重或站不稳，请先停下、扶稳。",
+      "duration": 4.853469387755102,
+      "sha256": "b1c380c59228e2f457b05a7575a0d2d0c8712bc2df81f05470fa6b8cf29bef8d"
+    },
+    "therapist|为了确认我讲清楚了，您能说说遇到这种情况会怎么做吗？": {
+      "src": "./assets/dialogue-v20/6282a5920cd30eb25fc8.mp3",
+      "role": "therapist",
+      "text": "为了确认我讲清楚了，您能说说遇到这种情况会怎么做吗？",
+      "duration": 5.931292517006803,
+      "sha256": "220eaae8b918ed5e92dae259d5377d0e00a8766cebb781af996d77cc70ff2c58"
+    },
+    "therapist|此时结束站立和行走检查。": {
+      "src": "./assets/dialogue-v20/7908a2ea9cd79ac0a117.mp3",
+      "role": "therapist",
+      "text": "此时结束站立和行走检查。",
+      "duration": 3.3077551020408165,
+      "sha256": "6e05464fee54994246a84be96f504882e107181bc0aa8f7c4a97d26f95fce5bf"
+    },
+    "therapist|先别勉强踩地，请坐下休息。": {
+      "src": "./assets/dialogue-v20/01ba6de5327d25b03ba0.mp3",
+      "role": "therapist",
+      "text": "先别勉强踩地，请坐下休息。",
+      "duration": 3.685170068027211,
+      "sha256": "3053ed6d5e4a746553d72a45f72d0820139b9a194c29a32853b0a54730ea993e"
+    },
+    "therapist|需要请医生进一步检查。": {
+      "src": "./assets/dialogue-v20/557788798e9d94b409ff.mp3",
+      "role": "therapist",
+      "text": "需要请医生进一步检查。",
+      "duration": 3.0117006802721087,
+      "sha256": "59b2a2bfa728da374573251bd88ccd1ae02170ae7ea36c5c8261412bc2e68099"
+    },
+    "therapist|请先扶好、站稳，我再问清新症状，安排进一步评估。": {
+      "src": "./assets/dialogue-v20/d556a63cd33c71fabb05.mp3",
+      "role": "therapist",
+      "text": "请先扶好、站稳，我再问清新症状，安排进一步评估。",
+      "duration": 6.016916099773242,
+      "sha256": "77b324a1125ff6fe6a19fa1535bc1c57fd6db02c0b08eb3df5ff47c8b60f7c40"
+    },
+    "therapist|本轮站立和行走检查已结束。": {
+      "src": "./assets/dialogue-v20/062863f79a5505ea627c.mp3",
+      "role": "therapist",
+      "text": "本轮站立和行走检查已结束。",
+      "duration": 3.415238095238095,
+      "sha256": "c0038a3c172f07ed514f5e8298d8c3306b8167137020745cace0fcade5653fb6"
+    },
+    "therapist|先说清检查发现了什么、影响了哪些活动，再一起选训练方法，之后复查。": {
+      "src": "./assets/dialogue-v20/73429a8a8c8e1ef11001.mp3",
+      "role": "therapist",
+      "text": "先说清检查发现了什么、影响了哪些活动，再一起选训练方法，之后复查。",
+      "duration": 7.8533333333333335,
+      "sha256": "2e062f5f0f1db028acb960dbb03814d74dfcec2c36a3abcdd0684f1db4fbd269"
+    },
+    "therapist|接下来看看脚底哪些地方接触地面、哪些地方受力较多。": {
+      "src": "./assets/dialogue-v20/ccaeb9db97cb8f7ad849.mp3",
+      "role": "therapist",
+      "text": "接下来看看脚底哪些地方接触地面、哪些地方受力较多。",
+      "duration": 5.737777777777778,
+      "sha256": "eebb983302951a3aeff7054b043d4bee4838187160111acacb25ef8422d70246"
+    },
+    "therapist|先看站立，再看走路。": {
+      "src": "./assets/dialogue-v20/2c609dffd2df824cc67a.mp3",
+      "role": "therapist",
+      "text": "先看站立，再看走路。",
+      "duration": 2.8361451247165532,
+      "sha256": "a2f935fbb174584fd72d7886b23126f88a544b0c1e67ee440d3b8f37005bcead"
+    },
+    "therapist|今天先不做需要站立承重的检查。": {
+      "src": "./assets/dialogue-v20/2fcc06c8e787cc930ff7.mp3",
+      "role": "therapist",
+      "text": "今天先不做需要站立承重的检查。",
+      "duration": 3.874331065759637,
+      "sha256": "9f86a3526d9fe0682479dbee1ce6c22fe7b97cc04f96ccfc008ccc85ab0218d8"
+    },
+    "therapist|先看看您怎么活动，再结合其他检查判断。": {
+      "src": "./assets/dialogue-v20/2ba798e4589698ce5141.mp3",
+      "role": "therapist",
+      "text": "先看看您怎么活动，再结合其他检查判断。",
+      "duration": 4.984081632653061,
+      "sha256": "67a8d6875034168d57c5dc76570b476045a139ab0db958a96490da92982797b5"
+    },
+    "therapist|还要看看脚踝怎么活动、怎样承重，以及能不能稳住。": {
+      "src": "./assets/dialogue-v20/16d79e6e03aed78c31a9.mp3",
+      "role": "therapist",
+      "text": "还要看看脚踝怎么活动、怎样承重，以及能不能稳住。",
+      "duration": 5.6570975056689345,
+      "sha256": "966da0a86236c82184ab8e3e69f838582390f9cf1db934ffd84b5cfa421d885d"
+    },
+    "therapist|先看看每只脚踩地多久、迈了多远，再结合检查找原因。": {
+      "src": "./assets/dialogue-v20/f2e1d07a13ea1fe45a22.mp3",
+      "role": "therapist",
+      "text": "先看看每只脚踩地多久、迈了多远，再结合检查找原因。",
+      "duration": 5.922585034013605,
+      "sha256": "82a195827563087c9b0e44713bdda97f82e5cf5a13e73e1c9037f327a5e38d0c"
+    },
+    "therapist|先看颜色代表什么、当时是在站立还是走路，再结合您的不适来解释。": {
+      "src": "./assets/dialogue-v20/d75bc24e42a4fc8fb2de.mp3",
+      "role": "therapist",
+      "text": "先看颜色代表什么、当时是在站立还是走路，再结合您的不适来解释。",
+      "duration": 7.139727891156463,
+      "sha256": "767c3a850cb9a2f5bf736ee8159822cdb451fec64c1ba3e42949a05094d2def6"
+    },
+    "therapist|身体质心是全身质量的平均位置，和脚底这个点不一样。": {
+      "src": "./assets/dialogue-v20/3ba1c2d57cfac3f703db.mp3",
+      "role": "therapist",
+      "text": "身体质心是全身质量的平均位置，和脚底这个点不一样。",
+      "duration": 5.76421768707483,
+      "sha256": "7ac3433849dce1d6d15b7576769a347e783545f7ee4b56c8254c96ceced696d5"
+    },
+    "therapist|我们看看脚底受力的中心怎样移动。": {
+      "src": "./assets/dialogue-v20/ccf504f6e812883d2b0a.mp3",
+      "role": "therapist",
+      "text": "我们看看脚底受力的中心怎样移动。",
+      "duration": 3.7970068027210884,
+      "sha256": "e68d14a6bd4645b030ad138abac53b4eb8edb772c8c3287ada5c04ebda395ac3"
+    },
+    "therapist|好的，今天结束站立和行走检查。": {
+      "src": "./assets/dialogue-v20/4f7084b301eae5ac33c0.mp3",
+      "role": "therapist",
+      "text": "好的，今天结束站立和行走检查。",
+      "duration": 4.000090702947846,
+      "sha256": "9474484cec1677c309f768d1d3ae3ad84ecb5b140b12eb6836e88e227d68a59f"
+    },
+    "therapist|先从能完成的训练开始，不适就停，再按用同一种方法再检查一次。": {
+      "src": "./assets/dialogue-v20/743b4c2c4dcdb0e28475.mp3",
+      "role": "therapist",
+      "text": "先从能完成的训练开始，不适就停，再按用同一种方法再检查一次。",
+      "duration": 7.368979591836735,
+      "sha256": "624652ac67fb107822bfed67d321ec489eac5a93459568190fef4dbada1d1e00"
+    },
+    "patient|林治疗师，我的脚已经疼得不敢踩地了。": {
+      "src": "./assets/dialogue-v20/5bda5101f1595c4536d8.mp3",
+      "role": "patient",
+      "text": "林治疗师，我的脚已经疼得不敢踩地了。",
+      "duration": 4.702721088435374,
+      "sha256": "e06f353ebd497ac8feb4e1f52fd45d3d40738d789ab7320fa4e51f44caec6218"
+    }
+  },
+  "revision": "v26 respectful dialogue and patient reactions"
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "dxx-two-person-pilot-v18",
+  "userAuthorizedCreation": true,
+  "authorizationScope": "先试制02A约30秒双人交流样片，与逐步操作联动；其他15段仍待样片验收。",
+  "provider": "HeyGen",
+  "route": "heygen-video-1 visual two-person scene",
+  "pilotId": "02A",
+  "plannedParts": 2,
+  "plannedPartSeconds": 15,
+  "paidCreationCallsThisRound": 1,
+  "parts": [
+    {
+      "part": 1,
+      "videoId": "e5c72039cd904b13a1391525c578cdc4",
+      "status": "pending",
+      "requestedSeconds": 15,
+      "requestedResolution": "1080p",
+      "requestSHA256": "03776f8d5697da3e10bed34b6819e5dfa74ebb98c922f2fd103bcc54b941c962",
+      "previewShown": true,
+      "actualDuration": null,
+      "renderedReviewPassed": false
+    }
+  ],
+  "batchProductionStarted": false,
+  "studentAutoPlaybackEnabled": false,
+  "characterAppearanceAndVoices": "以首段样片实际结果供用户确认；没有已确认的最终人物look或voice ID。",
+  "creditsBeforeGeneration": {
+    "type": "premium_credits",
+    "remaining": 375,
+    "returnedPlan": "creator"
+  },
+  "actualChargedCredits": null,
+  "contentSubmitted": "原创虚构人物、中文对白及诊室镜头提示；未提交真实患者、学生记录、密钥或私人照片。",
+  "previousFilm": {
+    "videoId": "212d3b8c7b974c93966d4271055414fe",
+    "accepted": false,
+    "reason": "无可见人物的导学路线，不符合双人接诊要求。"
+  },
+  "clinicalTeacherSignoff": false,
+  "limits": [
+    "双人逐字中文、口型、倾听反应及人物一致性以实际样片验收为准。",
+    "准备和检查操作继续由交互课程承担，视频观看不记为检查完成。",
+    "尚未制作整套6—8分钟合格成片。"
+  ],
+  "updatedAt": "2026-10-18T12:15:58.135466+00:00",
+  "historicalRecord": true,
+  "v19Note": "Prior v18 submission status is historical; v19 uses the five user-supplied reviewed edits. No HeyGen generation or retrospective status probe was done in v19."
+}

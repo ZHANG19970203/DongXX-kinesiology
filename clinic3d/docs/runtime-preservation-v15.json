@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "before": {
+    "counts": {
+      "sessions": 1,
+      "events": 210
+    },
+    "contentSHA256": "1d1b7276799ecaf0de86a5d7e403032f56d59f24a94b112d83d009107799d94f"
+  },
+  "after": {
+    "counts": {
+      "sessions": 1,
+      "events": 210
+    },
+    "contentSHA256": "1d1b7276799ecaf0de86a5d7e403032f56d59f24a94b112d83d009107799d94f"
+  },
+  "serverReady": true,
+  "version": "15.0.4",
+  "apiConfigured": true,
+  "noExternalRequestMadeByThisPreservationCheck": true
+}

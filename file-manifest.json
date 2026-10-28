@@ -1,0 +1,5310 @@
+{
+  "schema": "dxx-file-manifest-v30",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ai_adapter.py",
+      "bytes": 6113,
+      "sha256": "ce4262b7a8385cf977de5b566ed3bb4d1caa2490192d27d2334a5582385125cd"
+    },
+    {
+      "path": "assembly/assets/catalog.js",
+      "bytes": 933067,
+      "sha256": "abc462c3608a9ee93bb5ce36a4c9ab89aa0f8becc001e7c427c45cef71946697"
+    },
+    {
+      "path": "assembly/assets/game.css",
+      "bytes": 19555,
+      "sha256": "f846560e90340c546bcafeee31f3001bf13f6b60ba133e6754360448b8f07e6b"
+    },
+    {
+      "path": "assembly/assets/game.js",
+      "bytes": 53257,
+      "sha256": "97accbae6062e6dc9629dbb5bd531fd2eefb9b1334149aa52b880fc6fc3a8b72"
+    },
+    {
+      "path": "assembly/assets/geometry-loader.js",
+      "bytes": 2958,
+      "sha256": "d71bfd039dca77c1d138bc2f2ff3b070b9742b108ad4e0df328f1ed53f4475ec"
+    },
+    {
+      "path": "assembly/assets/geometry-manifest.json",
+      "bytes": 2739,
+      "sha256": "ce24622f759ad7096d3ead502668db2fc6c5f87d8f8e050cb113e0dfb035bc58"
+    },
+    {
+      "path": "assembly/assets/mesh-00.bin",
+      "bytes": 4194304,
+      "sha256": "65d1c12fd4907e7f9a332db9dca61c49626f3055b03a3715da9a1a60cefd29b9"
+    },
+    {
+      "path": "assembly/assets/mesh-01.bin",
+      "bytes": 4194304,
+      "sha256": "fa67b0fcf49c320c111f77bc2bba37daa6ffd94a19c7026b72c564c01da6368e"
+    },
+    {
+      "path": "assembly/assets/mesh-02.bin",
+      "bytes": 4194304,
+      "sha256": "2206cd2fa18419987d599df972365d8c54c6439348dd54609e2d40f980c80ade"
+    },
+    {
+      "path": "assembly/assets/mesh-03.bin",
+      "bytes": 4194304,
+      "sha256": "d6e39ec20caef14b32a0777ba8368823fe6bd3a385453148b439410aad5e0815"
+    },
+    {
+      "path": "assembly/assets/mesh-04.bin",
+      "bytes": 4194304,
+      "sha256": "d834d1aa6d247df18de3bec88d7ddeaa66c143a233e49a6ebe8c9c70ec1c47aa"
+    },
+    {
+      "path": "assembly/assets/mesh-05.bin",
+      "bytes": 4194304,
+      "sha256": "cd1ce06c0094f0e1a9da94be6a52bcb95793dcbb69ab003f0bd73fc8b4d10b1f"
+    },
+    {
+      "path": "assembly/assets/mesh-06.bin",
+      "bytes": 4194304,
+      "sha256": "df5611baae96fa6df897c2a9395f2a7045d7845888040667fb28dbe57048c0cb"
+    },
+    {
+      "path": "assembly/assets/mesh-07.bin",
+      "bytes": 4194304,
+      "sha256": "941074c8576f4a85f4c15bd241e2dc48e7785bbc0e3f39ea282697c861819d15"
+    },
+    {
+      "path": "assembly/assets/mesh-08.bin",
+      "bytes": 4194304,
+      "sha256": "d8dc73b21dea419dd1622ad8191c84327dd26f6c37184bb2fe926634b42df538"
+    },
+    {
+      "path": "assembly/assets/mesh-09.bin",
+      "bytes": 4194304,
+      "sha256": "f9e9bec63ea0214bc49f1a54a2f0b780c826647fedd6359f9bad04e3aed078b1"
+    },
+    {
+      "path": "assembly/assets/mesh-10.bin",
+      "bytes": 4194304,
+      "sha256": "a0f1756e159bf8a323fb5583acf91f726d10bd813e0c22943c8301c7bbdc3bc6"
+    },
+    {
+      "path": "assembly/assets/mesh-11.bin",
+      "bytes": 4194304,
+      "sha256": "e1c3745e2036a1a1753960baaf580d807fdd276d9e850cf958398763e71563c9"
+    },
+    {
+      "path": "assembly/assets/mesh-12.bin",
+      "bytes": 4194304,
+      "sha256": "31d2a31d472c9c4f3b4201a8259fb37c66eb6f24e553c2280408ea63811dfe97"
+    },
+    {
+      "path": "assembly/assets/mesh-13.bin",
+      "bytes": 3076352,
+      "sha256": "44476fc94f88954143fa0ca7e4ba537209bdd42fb44e5cdb2eae2cbfaf34f39b"
+    },
+    {
+      "path": "assembly/assets/renderer.js",
+      "bytes": 20926,
+      "sha256": "d0a1ed18101c8a7ff74d0b4a142fdceb3fb5c997be61978a3dbc926c8215fbeb"
+    },
+    {
+      "path": "assembly/index.html",
+      "bytes": 10378,
+      "sha256": "8377a91b519395622aaf83e875695e959520dbb349702b18990a19492c03be36"
+    },
+    {
+      "path": "assembly/licenses/ASSET_PROVENANCE.json",
+      "bytes": 787689,
+      "sha256": "53994c38c588d0067f46165964c5af2998b0eb0a7895bd4e82132a3d9a65b9c0"
+    },
+    {
+      "path": "assembly/licenses/COORDINATE_VERIFICATION.json",
+      "bytes": 2308,
+      "sha256": "9503a0cd82a46a85b8d071d8bdedcf1bda370042acb54387f169c02261364916"
+    },
+    {
+      "path": "assembly/licenses/CURRENT_DELIVERY_SCOPE.txt",
+      "bytes": 1708,
+      "sha256": "43eb7fe5332818bcea108246927fe7dbbe53d54cc237d771db5ab7aaa8a08daf"
+    },
+    {
+      "path": "assembly/licenses/GEOMETRY_VERIFICATION.json",
+      "bytes": 803,
+      "sha256": "3f75f52a4786a20ec6ed8f0142127737e7899777cf1f23e0172b29e11199d5d8"
+    },
+    {
+      "path": "assembly/licenses/LICENSE.bodyparts3d-supplemental.txt",
+      "bytes": 343,
+      "sha256": "46d4146902d66c8ab70c80f4d5395841d0888233816f97d360aec451a2e3e259"
+    },
+    {
+      "path": "assembly/licenses/LICENSE.bodyparts3d.txt",
+      "bytes": 1183,
+      "sha256": "6b7f1a0d49df8a5145ebc5627c929c1449fc296e6bf1339bdc215dfaac47fa55"
+    },
+    {
+      "path": "assembly/licenses/LICENSE_SCOPE.txt",
+      "bytes": 831,
+      "sha256": "b8df97dfbc22996094c7a443b80dc0d6e8f32a83f4579e47e91d93d933115cde"
+    },
+    {
+      "path": "assembly/licenses/ORIGINAL_CODE_LICENSE.txt",
+      "bytes": 1519,
+      "sha256": "3ab0610db80b5bfc4c8bb70534085fa784904e0052d63e1f6e90644c779f9439"
+    },
+    {
+      "path": "assembly/licenses/REPRODUCTION_VERIFICATION.json",
+      "bytes": 3639,
+      "sha256": "7e8e4df256f3ae198921d017bd1f8758133922f8e4f678e879e22210c0fc9c90"
+    },
+    {
+      "path": "assembly/licenses/SOMAKINE_DATA_LICENSE",
+      "bytes": 437,
+      "sha256": "51f8ba2a3dae0f95a3fb43330cac28b267fc95f325063c13501be57066c458cc"
+    },
+    {
+      "path": "assembly/licenses/SOMAKINE_NOTICE",
+      "bytes": 946,
+      "sha256": "732ac1d12c37deae08be6e7be1d27b72f52ff4f0d03c4aff1043bfa48481484f"
+    },
+    {
+      "path": "assembly/licenses/source-manifest.json",
+      "bytes": 207961,
+      "sha256": "121b7438d38400c4e3253504ddbd174b6c3f636bba9cad75a6875c387e177d10"
+    },
+    {
+      "path": "assembly/licenses/STATIC_GEOMETRY_MODIFICATIONS.txt",
+      "bytes": 1069,
+      "sha256": "c86edf44ebb73de4e24bbc3eada75bc8b277ed5208d6ebc5bc423868a5c1e8a0"
+    },
+    {
+      "path": "assembly/licenses/supplemental-manifest.json",
+      "bytes": 21610,
+      "sha256": "b60b26bebf32db5d45761dce9a00048b271ea2d2db480cb1aaa7e86ab442353e"
+    },
+    {
+      "path": "assembly/licenses/upstream-manifest.json",
+      "bytes": 8360,
+      "sha256": "3072667749e4c64a0235b756a9ff565a2832a1382c20130a17e73b2e83d7cacb"
+    },
+    {
+      "path": "assembly/licenses/UPSTREAM_LICENSE_REVIEW_zh.txt",
+      "bytes": 2885,
+      "sha256": "4f3e895b2c8f565bd0d94b7503545e75b250798b39a7206c0fc30123653c5bfd"
+    },
+    {
+      "path": "assembly/tools/CATALOG_TEMPLATE.json",
+      "bytes": 203064,
+      "sha256": "afb98ca238a30f318a49697fbd020ea6158b9ff010aafd7727c06a31246697ad"
+    },
+    {
+      "path": "assembly/tools/OBJ_ELEMENT_IDS.json",
+      "bytes": 1684,
+      "sha256": "ca9bd5c456072c09126a9ea4061274126422a91df53ff8e3c0981a252f31bf6d"
+    },
+    {
+      "path": "assembly/tools/rebuild-official-assembly.cjs",
+      "bytes": 17708,
+      "sha256": "b319485ba9dd3e9681eecbf5c005d5607cbdd6390d3539a8234ac157073e6bd0"
+    },
+    {
+      "path": "assembly/tools/REBUILD_GEOMETRY.ps1",
+      "bytes": 2901,
+      "sha256": "12daf2aa542db2bab1904babbda18a4a86bdd2364efff8f43b8b72e3d3dc1717"
+    },
+    {
+      "path": "assembly/tools/REBUILD_INSTRUCTIONS.txt",
+      "bytes": 1420,
+      "sha256": "92c985cfe7f562f94f88e27813b070b64fe54e969949d72f2106da7d6c470da4"
+    },
+    {
+      "path": "assembly/tools/SOURCE_DOWNLOADS.json",
+      "bytes": 14935,
+      "sha256": "baf21a98d19e556268b354a9907d638e5ccf95d28b54b087edd78e04660c0b3d"
+    },
+    {
+      "path": "ASSET_GROUPS.json",
+      "bytes": 4041,
+      "sha256": "0e8b0112ce1f2ed62c9e65e9e64bc66d7d127df97122f4820becf24f3c7eea4d"
+    },
+    {
+      "path": "ASSET_INVENTORY.csv",
+      "bytes": 322407,
+      "sha256": "49bc75e92deba07db3e8d3df129a5f76404fcea269a1fe4372cea130a6335672"
+    },
+    {
+      "path": "assets/assistant-v24.css",
+      "bytes": 4940,
+      "sha256": "e96b31a18c13ec90c81813578bffce579eb1236001159bbad438c178fd4b6072"
+    },
+    {
+      "path": "assets/assistant-v24.js",
+      "bytes": 12786,
+      "sha256": "a16de509edd80b982882ef39222da9f95491adff3eb321a378c5db98aebda5c4"
+    },
+    {
+      "path": "assets/bridge.css",
+      "bytes": 1359,
+      "sha256": "7f5feef73237a521e831e5df1bbc84c5f5f92d11d298e85b43e1a9bff494c19a"
+    },
+    {
+      "path": "assets/bridge.js",
+      "bytes": 1867,
+      "sha256": "c89a2967f2e76be2865e76d866324bb926475eaa686a3af3915b13beb9b73244"
+    },
+    {
+      "path": "assets/entry-v21.css",
+      "bytes": 2503,
+      "sha256": "2530621a5df1b44cf63b9aecd859c5ce1705ad8cfb0f6967eff7afadfeacc39c"
+    },
+    {
+      "path": "assets/entry-v23.css",
+      "bytes": 3306,
+      "sha256": "5e66b645307cb977d4c9fafadeeb5209debd25bf94715808a9b43e84a397c2ab"
+    },
+    {
+      "path": "assets/home-visual.css",
+      "bytes": 12300,
+      "sha256": "5cc21fd03d678e1ce88cdbf53f8f81a3c04f3456cceeb160f5363d59397c02ac"
+    },
+    {
+      "path": "assets/home-visual.js",
+      "bytes": 2394,
+      "sha256": "b0ffcdbec38c5fc466019c942cfc1fd62f62367b308f89e0fe4bb55a9019145a"
+    },
+    {
+      "path": "assets/hub.css",
+      "bytes": 10977,
+      "sha256": "5b13bd244fa85acd6dd1eafb14831e84b619d519fb6097419649926dd3d5dfbe"
+    },
+    {
+      "path": "assets/hub.js",
+      "bytes": 10231,
+      "sha256": "f51f50e2239418fa341c9f9f31720ebe5049709db215cb16a95e3df1d5bee64a"
+    },
+    {
+      "path": "assets/immersion-v23.css",
+      "bytes": 4784,
+      "sha256": "2992c0debacb8cc2a2d6e317dc86db6ab9324c0362d7437ef91bfba2606f66e2"
+    },
+    {
+      "path": "assets/module-records-v24.js",
+      "bytes": 3053,
+      "sha256": "8417220e48c5cbaf17f5e6b14975d812639f31df60172f3d76dcaa32695a180e"
+    },
+    {
+      "path": "assets/runner-hero-v23-prompt.txt",
+      "bytes": 2189,
+      "sha256": "f8c40ddbb9da5be2803eeeb0e7f3ffb1cdd9daadce7019299211c497783341a9"
+    },
+    {
+      "path": "assets/runner-hero-v23.png",
+      "bytes": 1981489,
+      "sha256": "6654f75cddce7b6f9057df1db6007dc538b90486efa97fa59d522e36030af0f0"
+    },
+    {
+      "path": "assets/session.js",
+      "bytes": 2596,
+      "sha256": "79199f49e38477b000c209cee7e1444e4853046306b6bdd4d9ed09b92a61eed0"
+    },
+    {
+      "path": "assets/teacher-entry-v23.js",
+      "bytes": 191,
+      "sha256": "be14b3df2eef62b955cc9cebc367119b4ca34db92cc2997e7138be548a808b50"
+    },
+    {
+      "path": "assets/usage-v23.js",
+      "bytes": 1085,
+      "sha256": "4da7ccf2b249c14286109db87b3f9a8e3eab4eeb032eeb6fe86df1e16d01326c"
+    },
+    {
+      "path": "assets/v23-asset-inventory.json",
+      "bytes": 434,
+      "sha256": "f02bc80e50b2e04f516eceb33296578d779ada5c03c691b6d8f9738b87d86bda"
+    },
+    {
+      "path": "assets/visual/motion-art.svg",
+      "bytes": 1382,
+      "sha256": "6713e12b6b0e040729d0bbfda14eb60f68f5a67943bfa4dc2ae4e4023b08a89c"
+    },
+    {
+      "path": "assistant_knowledge.py",
+      "bytes": 2700,
+      "sha256": "928ce5f728b0f4892f719e6579e638166f836a2fe01b068c442b2e323927a307"
+    },
+    {
+      "path": "certificate/certificate.css",
+      "bytes": 8732,
+      "sha256": "c37c71eaf287071256201d08824954dded599ec32e63601ce6dcfc7b20216671"
+    },
+    {
+      "path": "certificate/certificate.js",
+      "bytes": 5427,
+      "sha256": "32f2e2e0a5cbdf4cac9408126c86a848caadb5b134dd4dc273be3c8ccda16926"
+    },
+    {
+      "path": "certificate/index.html",
+      "bytes": 3293,
+      "sha256": "5a96f0c563e44fb831a08a8fe80e179564e992dd607ac19c0028c5d2b7897101"
+    },
+    {
+      "path": "clinic/ASSET_INVENTORY.csv",
+      "bytes": 3144,
+      "sha256": "623da0ad53884a36adeca8f48bf75a3b57a8de1c92e0030d56f78b0055f2ae56"
+    },
+    {
+      "path": "clinic/ASSET_INVENTORY_V5.csv",
+      "bytes": 6212,
+      "sha256": "5987c12e36e3139e89e0f8907cbafcb9df10b3bd2378914a68aff8cdd00a23e4"
+    },
+    {
+      "path": "clinic/assets/arrival-v5.png",
+      "bytes": 1983025,
+      "sha256": "8d2599d8ad13676fe0f6170c5810ac546d92d378ede7bcb53adf970977add086"
+    },
+    {
+      "path": "clinic/assets/consultation.png",
+      "bytes": 1907700,
+      "sha256": "c1219ef0f3ab81d4739951f3977bd2a8e5f6db8506a838beffb573bcf1c232e4"
+    },
+    {
+      "path": "clinic/assets/conversation-v5.png",
+      "bytes": 1933929,
+      "sha256": "f1a8518840d76fc48581a630df42e4fef53c29bcebfa4e091fbadae5cc18d0b7"
+    },
+    {
+      "path": "clinic/assets/examination-v5.png",
+      "bytes": 1871504,
+      "sha256": "3c97949b67a7a83fde1cd7229d4ddaa2975a0dfb0c7483608297c8f354403429"
+    },
+    {
+      "path": "clinic/assets/IMAGE_GENERATION.txt",
+      "bytes": 1517,
+      "sha256": "b5c3ce660204099cc3d0a7a39bcb8ed26605e408d68fd9ec17ff2176c9bc39ef"
+    },
+    {
+      "path": "clinic/assets/IMAGE_GENERATION_V5.txt",
+      "bytes": 5881,
+      "sha256": "017b5e31583978245b3a2ad1a98e567e5fab2d7693b48ceb448340ab36190d87"
+    },
+    {
+      "path": "clinic/assets/movement-v5.png",
+      "bytes": 1918743,
+      "sha256": "9ce3dcc8821da112dc1d787816187fb99ccb0554513d5ab5b0882efa01b79233"
+    },
+    {
+      "path": "clinic/CASE_REVIEW.html",
+      "bytes": 11284,
+      "sha256": "ffe0f22303b7a0ef7cb45f02d1013e55f88189a35ed97c9f00bd6b452cead2f4"
+    },
+    {
+      "path": "clinic/cases.json",
+      "bytes": 72832,
+      "sha256": "a6958df84d72b3dd42a5868cfafe15715092530845b0003237555bf033bf89ea"
+    },
+    {
+      "path": "clinic/clinic.css",
+      "bytes": 35606,
+      "sha256": "1a94d29fab0b2dd31a32cd18b0db4b47b6a5388fa259fad216c12230a8243e8f"
+    },
+    {
+      "path": "clinic/clinic.js",
+      "bytes": 40531,
+      "sha256": "5e1bfba76589b28693cf68e31baeeacd743cf9954943bc18e6fe6a65acc139f0"
+    },
+    {
+      "path": "clinic/index.html",
+      "bytes": 13096,
+      "sha256": "d61d9a62ca1f1629a961baf2161d6fb7bebc424044f02a4ac8b61775500b5281"
+    },
+    {
+      "path": "clinic/scene-director.js",
+      "bytes": 12496,
+      "sha256": "408ff7936d9d8dffe3cba3850aabdd9888494629b2ee71c17796df312708bbf8"
+    },
+    {
+      "path": "clinic/SCENE_ASSET_MANIFEST_V5.json",
+      "bytes": 1470,
+      "sha256": "5f4d00de64838b25ac8c726dd4a0c28830dc11db1d6365158c45038e60888289"
+    },
+    {
+      "path": "clinic3d/actor-implementation.json",
+      "bytes": 17183,
+      "sha256": "b057a43b8183ad081ec11b67def8d86e4291fc6a8ce1136471ee1ae8754ecb6a"
+    },
+    {
+      "path": "clinic3d/actors.js",
+      "bytes": 36897,
+      "sha256": "f3274d9295f2b01b76ab229c40a06052710def4a7e9eff1eb1e0cdd4f9ec1709"
+    },
+    {
+      "path": "clinic3d/anatomy-viewer.js",
+      "bytes": 35118,
+      "sha256": "39303be812508e46535744e870e26d1ec92989b77194007908a49d7a182b89a7"
+    },
+    {
+      "path": "clinic3d/anatomy.html",
+      "bytes": 2785,
+      "sha256": "6d283a79876b77c97f399ce8796ee42896b09d3a3aefd81d62647d60979b015d"
+    },
+    {
+      "path": "clinic3d/app.js",
+      "bytes": 56914,
+      "sha256": "4c8bc9957c6d19a8b9caf9040964234d3fc895b9314dfea92201de6ab3356ace"
+    },
+    {
+      "path": "clinic3d/appearance.js",
+      "bytes": 14214,
+      "sha256": "67a403319ba9bb85055d7e2f27f46374636d803c5d4535d5e005dcf6bc140d29"
+    },
+    {
+      "path": "clinic3d/arch-comparison.js",
+      "bytes": 13623,
+      "sha256": "bfcd7570d731026b091dd4c25bfcdfecb3bee27b4bf58d80d8579077222dc744"
+    },
+    {
+      "path": "clinic3d/arch-knowledge.js",
+      "bytes": 8479,
+      "sha256": "c550fa8d7169ba4f407e937b1301fe0673a5eaf477f1f4fc6b38e75ee7ca5c8f"
+    },
+    {
+      "path": "clinic3d/ASSET_INVENTORY.json",
+      "bytes": 50401,
+      "sha256": "f11e77bec1db9acc9c875dd9b41f5655ec4f273c2ee4cf1c22bdc010eac4526e"
+    },
+    {
+      "path": "clinic3d/assets/bone_map.json",
+      "bytes": 152499,
+      "sha256": "0afbe42c706bd94da94499699d6177a9b922538eae34c0287e0e1a2594018b1e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0026fbad96ded37b5397.mp3",
+      "bytes": 28882,
+      "sha256": "13eb88548ce90d9b54dddff25652ad40a892d2d4e24b98d45bfdbd8a9d9a3aee"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0097848d90e805a89b5d.mp3",
+      "bytes": 29927,
+      "sha256": "7e2f7a1ae8ddbf646684b7b60af775369c4d734079a6c2f3b6ebf3994b5482dc"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/00c334f5c2407519de79.mp3",
+      "bytes": 32016,
+      "sha256": "35e424f44ee71a0ffbcff085eda9b79b0376dbb17dc1b892b2b3b104e0097148"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/011b8d6ee9c24616c114.mp3",
+      "bytes": 47272,
+      "sha256": "7cd1be1480f166d55348d4698654304e13dd53f82c3c6f43fae9941092b69036"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0165ce7be7fd530eb7c0.mp3",
+      "bytes": 23239,
+      "sha256": "ce022294519a634ed7a7797745bc84855359457d779c392e06262fd0f3d4a79f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/01908e80937c276284d6.mp3",
+      "bytes": 48108,
+      "sha256": "22cfb9e0203e8d0119ea08565c81f1bbab81b23e7f38a4eb491d667df557514a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/01ba6de5327d25b03ba0.mp3",
+      "bytes": 30345,
+      "sha256": "3053ed6d5e4a746553d72a45f72d0820139b9a194c29a32853b0a54730ea993e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/01fa723bce5ca693bc3f.mp3",
+      "bytes": 39122,
+      "sha256": "95a5a950e0b20b42e4f213416741f25f92f7f58b175aa263a8e496e337d4d43d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0293ea1f8420b263c24e.mp3",
+      "bytes": 37868,
+      "sha256": "5398be2877fcbb18f251d003a2e7509b127f043feb7e986d2d749b02b0faf577"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/02e404a73670cdf4145e.mp3",
+      "bytes": 38495,
+      "sha256": "8327dbd04816a7c9049e84fa6f6bb40f3cd1b79f8e9c78ab258c53c2a4d78aaa"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/02ecd39da80d8a118b78.mp3",
+      "bytes": 39122,
+      "sha256": "d06da1a3025327e0f19a96abc92de1ed7d9b01ab950f188bb3b6ae7f4e6bc0e1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0340488a7a99a8a427cb.mp3",
+      "bytes": 29091,
+      "sha256": "0c50eb262a4bd3288b70b5c48829d638c6fdb4bfd679784f3ca896c65bc3b2f3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/03466a2a32a66f1d8cca.mp3",
+      "bytes": 31180,
+      "sha256": "1406b9676b1781e230e65a798fb561151244c04d93e0aa1f02b5f8665120e29b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/03ef210604512cf2348c.mp3",
+      "bytes": 11118,
+      "sha256": "effa3ff950940575d0b91e60b36db84b551706b2773751b065b6caea96727e9b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0473e967346c937bc73b.mp3",
+      "bytes": 22403,
+      "sha256": "6e893951ee551b43a5e4080988126a345cf3be31540cb349f237579dc3bd150a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0483b8cc47c48bcae564.mp3",
+      "bytes": 57303,
+      "sha256": "e49637dcd2ca75ca3f58372f1d1343012118ab4ea30fa0df3628ebfb90ec2cc5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/048c1555c58c82ca9b97.mp3",
+      "bytes": 41212,
+      "sha256": "2882c7c43b43c7c5fded7a928b7fc5aa691e37ee24eaed959f4e27739471dae2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/04c11e0ed753caee9c5c.mp3",
+      "bytes": 25747,
+      "sha256": "27d478aa7f5115e28359f2b77e71f795cd793797276922d6c023af54139a06b3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/04da61cd237f9b09a5d2.mp3",
+      "bytes": 41629,
+      "sha256": "ebec1a4895bdde0086fbc3ae525ab2c28a212c208db1db36112de5b46a801d6d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0537926165ec03deab89.mp3",
+      "bytes": 31807,
+      "sha256": "dffa10be134aaae8eea7b4c86e410cd23f269a3598eeea65c30dda1afeb344a6"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/057bb8e27a19bf6cdca5.mp3",
+      "bytes": 38495,
+      "sha256": "8b3dbc1374b0c72cb46f7e32a593f2d8c24484f9112129976c32486d86b0b260"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/05e659aa300577f91642.mp3",
+      "bytes": 28046,
+      "sha256": "4c0bbfb2f451ff2c14f28cec3f7d4642be57ec964e40399f96371bbd38f56cda"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/062863f79a5505ea627c.mp3",
+      "bytes": 28046,
+      "sha256": "c0038a3c172f07ed514f5e8298d8c3306b8167137020745cace0fcade5653fb6"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0672e105b59d191f5602.mp3",
+      "bytes": 40794,
+      "sha256": "269719a182c3914dd67dc6e46b82293b2ba282652f0a7381b97a19ee0c6ad646"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/07031143cb6586d4507b.mp3",
+      "bytes": 34733,
+      "sha256": "f44cd817520595c50a85e932f0d61d38d753fab77750e15ecddabe8baa93a131"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/078672faacaeb6abbcd8.mp3",
+      "bytes": 39122,
+      "sha256": "79746d975456d7d602353002191a9e158f97a76de88c57364af48ae8213dff0b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/07a671aea1d7fb7fe52c.mp3",
+      "bytes": 17179,
+      "sha256": "342fed372d80a3a51d3baea5cf2ec5235b040f0b8ec953bd8717bbbf70100bb8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/08693badf72adebcda7b.mp3",
+      "bytes": 24911,
+      "sha256": "010e5eeeab29dff6761d6260ede74b51cebe1cd678b3078a314553bde86894c7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/08b9c28bfdde65e219a4.mp3",
+      "bytes": 38286,
+      "sha256": "e4e819af5419d19a2998c56380427f78fb546c68a0420adb790317e2510b0ed0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/08cce8af0f268bedcfbd.mp3",
+      "bytes": 27210,
+      "sha256": "731869b9259e50c81fe5bc326d7c7c729b84d18d703543c24236474d07a6f3b5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/095604d904333cf59c2f.mp3",
+      "bytes": 36405,
+      "sha256": "623b7ea095856f900157175b2d1479e35feaa59270f11e24a58a7a0e6b5c9b69"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0a2fcbae3afc9ee78ded.mp3",
+      "bytes": 38286,
+      "sha256": "610388c37249ac47f6a4dce65cc145f1caea7f2ffb96cd73b354f8e7b4298561"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0ab8ade3a844e30fcb46.mp3",
+      "bytes": 55840,
+      "sha256": "f0ea5401585ef00aca02c151f37f3ee0adc54885eb3c49e59984c36e3e6c0e67"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0aeb2ae4578bbbe0a134.mp3",
+      "bytes": 25538,
+      "sha256": "ad22837c04354b867cc72f679d1fb585a41f2a21e688db64f9f6a6d90ed8e0a4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0be6fb44d5b0ce1b7759.mp3",
+      "bytes": 50616,
+      "sha256": "f299917e97429a7d8c2b5a1ecc284f48b2f3eeb2d65cb5f902f7f098cc97552f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0bfdee4166fa0bbcb6b6.mp3",
+      "bytes": 42047,
+      "sha256": "b109f118139c440c5147285e9d21835c1c6c736764c4ce7f49782f32ac67bf77"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0c055eedbb78097ad5b1.mp3",
+      "bytes": 24075,
+      "sha256": "dfbbee9f85805d263c60cc434eb8a6288a7acdfb4735464cc8e38e295fcf3689"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0c55f8d1a8193860ab0f.mp3",
+      "bytes": 55213,
+      "sha256": "b26889bd9143fe9cba0a0cdfc80dbf89fae03688555f18233de51fd93570e167"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0c62f889ae2c7fe8f86b.mp3",
+      "bytes": 22194,
+      "sha256": "4e515551277ec4f311980f0e86c55c7cb1196723b2964427b26ec3fa7ca0921c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0c8e604624bff0420b1b.mp3",
+      "bytes": 24702,
+      "sha256": "64077e4f47230e30a9a3498c2599e94c1cc7a2f5ef9a47999a5900844c4a3491"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0d2f144d18ef4c5716d2.mp3",
+      "bytes": 15298,
+      "sha256": "41125ac36aabd90fdb29f941f8d7fa790c4e0cae6b37dab2749997fe295fb157"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0e509d38eee869285cb4.mp3",
+      "bytes": 40376,
+      "sha256": "02d7ad22e2851c17a9b6b4daf765d0e46fefec16690c17d8521d13ea2d0bf617"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0edb06e0c522f9cfc8e6.mp3",
+      "bytes": 27419,
+      "sha256": "0bacdb84481d1e8f2e30232ced7334c893245189488037fd95828df65d5f3972"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0f3999a683ea486bc1cb.mp3",
+      "bytes": 11745,
+      "sha256": "2215e305983f7973f4e58e99191868151d62540d1817c699f1cb811330b8e3f8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0f442c6c674ffd72ccb6.mp3",
+      "bytes": 38704,
+      "sha256": "7bda4770e63617626877cab4cb01a61b2e0eae77c2de0131e5f9ce73883b959d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0f90a84c4048b239359e.mp3",
+      "bytes": 22821,
+      "sha256": "36b6075650de4f17e187780582341efe5c5751e972cff7331ec01df04dd94559"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0f966a69c63e8abaf864.mp3",
+      "bytes": 10909,
+      "sha256": "0892a47c663c823d490981c4375c4952065df4d7362cba1b93258668dc95613f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/0fc6df0df35923388989.mp3",
+      "bytes": 46018,
+      "sha256": "6af8ee2d52e3e28618699be5aaac1d93d2eff7e1cf1c3272d666a80fc33e2464"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1109b656c6f1624c0c71.mp3",
+      "bytes": 25747,
+      "sha256": "1338d95bb79846565bb17fabfcb7fc88fb7c06351a2a8ecccc89ed0d44232e53"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/115aee3a9916aea613b9.mp3",
+      "bytes": 33061,
+      "sha256": "88e0d21ad5487ff10754d790d25feb5cfbfa2526944831dff8e31d4db9369a88"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/11ac65589d8059870ac8.mp3",
+      "bytes": 25538,
+      "sha256": "69d4b0b74bff4c153a41ae02533f0641a73bcd44bd47a720770c7c4a6b70c6f3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/11bf5fb52f45e989c20b.mp3",
+      "bytes": 36823,
+      "sha256": "c8269bfe2200e41a57f024e0ec3b97454a3b7bd2eab26a538186b8601fd20a33"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/11d0b0ab3e4900a8ff1e.mp3",
+      "bytes": 27419,
+      "sha256": "97eb6dd2446ff2cbf9b8dd17b88835a6f738717080bd9af3bba696e860cfd384"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1368b3511ed721595efe.mp3",
+      "bytes": 32852,
+      "sha256": "4200f94b804663f0d5d9a45f2127bdfa1ff4029ef4f46c01f28efe850c752b70"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/13a01be4c8c24245c7b6.mp3",
+      "bytes": 22194,
+      "sha256": "383b9a18a30229d79f53c62e8ba723b892e2389dbbc9b573789969c6f085770f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/13a924ec0155736ee580.mp3",
+      "bytes": 41420,
+      "sha256": "cd75e498bf1905db2081f887fdd367a0b2f4e8638d8d0a791ce9d4e55f235fea"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/13b415e12d19e3cc514c.mp3",
+      "bytes": 44346,
+      "sha256": "f0ceb81217fd3f62ac8f32eb9b13f05062b64955818d830b15388a8a7267f3bd"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/147ecfe8ec208e681a85.mp3",
+      "bytes": 36196,
+      "sha256": "aa3f376659765ced52f14d769ad10acabcb9a9451b4b5edf9c0f740dbdff8609"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/159081c78f2c13d3042f.mp3",
+      "bytes": 19478,
+      "sha256": "a9c87fa6828922bdbb96b46de42d263d4b93d7584cfdb24582d1f32f00b95dc0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/15a2d982b81a02fef813.mp3",
+      "bytes": 23657,
+      "sha256": "9119d00cd8c8a010ab7953c0e25ef1189f1453f98c6b429726cc90301dd182bd"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/15b44ab43108e024b947.mp3",
+      "bytes": 30345,
+      "sha256": "162c26befd1f8b359d5ff53de356dca06c05e58ce9bc820c77bf3153ea9a06e2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1663db29df8b12dc7b66.mp3",
+      "bytes": 31389,
+      "sha256": "dda06da55b960da44c2ae4f1b10bdcfb44d543b182cba8f828f0f4c6e6e185ce"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1697cd1618deced07a4e.mp3",
+      "bytes": 12790,
+      "sha256": "36b9f826d915390dea57255963c236a736c97ba6730169f4c70b7d3bc6bc8e43"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/16d79e6e03aed78c31a9.mp3",
+      "bytes": 46018,
+      "sha256": "966da0a86236c82184ab8e3e69f838582390f9cf1db934ffd84b5cfa421d885d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/16d8896c7d442902ab49.mp3",
+      "bytes": 27837,
+      "sha256": "9be86bd6a12025fcdbbd4a8430b09d1fe4c32ef04ae276ff3873dfed83f47020"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/175c3030ebd241103f0d.mp3",
+      "bytes": 39958,
+      "sha256": "4bc147eef79f5da2b4c3206e7ad2ad26097a557f1f2aa479b2bd5543bc2f4f7d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/178a3beb56ed975529e5.mp3",
+      "bytes": 28255,
+      "sha256": "48afae234ae98c26063ea8c9399726002deab322edc43386e20f57970d35651b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/19049903f082f3e977f0.mp3",
+      "bytes": 23866,
+      "sha256": "bd07859d3c3786f612848baaa970365aff2a8064f4195e73c181c96f9fa2da52"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1914c24becdf269389b2.mp3",
+      "bytes": 46227,
+      "sha256": "92caa4e0ee459d449bef3d23295074e731d059a8e49c28f34f7ee0f92536a024"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/196c6d0553954ef6b9d1.mp3",
+      "bytes": 28882,
+      "sha256": "7eaff3cbed16773f9823d419b58c0bd59ecc9b509e09f0b5e95108fd4c61f5ae"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/19762f33045e8e6c755a.mp3",
+      "bytes": 39958,
+      "sha256": "2f648ac820ef62821eca89a8329fcb576de0425e2259d6f19e267c41b93d130a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1a57adc6a23ce4bf527f.mp3",
+      "bytes": 24702,
+      "sha256": "dced66b528402b08ce15dfc3df5190d294858581ca516c6a56e7d104d4e865f2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1a5de7da3a87c0cd6954.mp3",
+      "bytes": 44764,
+      "sha256": "23a8de99caf37bf1daab1f1eeb1f455c860c8cb4b9220f118f25b4a8f5e9b39d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1ab676014483b6f65f03.mp3",
+      "bytes": 40167,
+      "sha256": "7ba15b0328d04d4039da1c11077207328f23a9037fac003bb24364b5a50da11c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1ba6430ba18383f1afa4.mp3",
+      "bytes": 40376,
+      "sha256": "1d61a896e3e943d8a0251e3b92bc840b1b942d0d8fe4cc24747516016f4c2905"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1cc89ddd73c4925931a1.mp3",
+      "bytes": 27419,
+      "sha256": "d30349d6ed649638c8ef70a284cee4ad97b1dde5630e936f38bcd48f0cf8eafb"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1cf7adbfb7af9954df19.mp3",
+      "bytes": 53541,
+      "sha256": "6c99bdf0e5128e0330ac58154e0868d538b70df213f264bef429cdd1c06baee9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1d1ddbf905004baa8be7.mp3",
+      "bytes": 30763,
+      "sha256": "3ebe59bd7a4d9131e372266a0df930da535e211b1da92c802785668f4f419be1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1d3300475d7e3e07bd1e.mp3",
+      "bytes": 22821,
+      "sha256": "a8e683f79235213f407609f9ef8e74bd672e1b6258a69cae28df200baedf7aca"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1ded1301df491bf1d2d3.mp3",
+      "bytes": 30554,
+      "sha256": "36efcf2c66c6e3fc38aa0d017b22757bfd893b010e4d6e72a8a13532c9fdf01c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1e9e06f115f2303e36e1.mp3",
+      "bytes": 33061,
+      "sha256": "b1660d7a058439585c9f36483959845a38b39bfefdb85022496787e7e95bd635"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1fa0dcbd853209961d28.mp3",
+      "bytes": 20314,
+      "sha256": "2258843a3a0acd44042c795080e00aad074ed69150ea7a90a1f83d178ae80b2a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1fd85a0e15c620cf0147.mp3",
+      "bytes": 32434,
+      "sha256": "93184e6d3272ec3ff0fec2f0a2449ecd5a74a30623d2eee40274b48d0723d448"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1fe6402bdced473d54c9.mp3",
+      "bytes": 28673,
+      "sha256": "1afa2213f1cb52242154fe4a76bf568a14b2ab81ba91057eeb4b2c145f362423"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1ff4591fcfad65652070.mp3",
+      "bytes": 21358,
+      "sha256": "f7408b2e47813a23c9a82226cf6f1e8a7d608412ab0fca958030d5117ec8a927"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/1fff03b99cfcef2ddd56.mp3",
+      "bytes": 50407,
+      "sha256": "70cd6a9e5a19ecdc3cccd3a9347ce01ce3406db5f0501817e6f0c0b465088760"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2077f3947a0f84b20e8a.mp3",
+      "bytes": 39749,
+      "sha256": "ebe5c5b754d6b69769c3fb58bca531e0edc87817bbcb4ce3fbcc4029bad78596"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/209c0af81ba0315cf1d3.mp3",
+      "bytes": 34106,
+      "sha256": "806cf72f33297c5aec1560e2d40bee837b6cfbdc99f283be7e7fee2ed831bda2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/20a398a1e805da607c8d.mp3",
+      "bytes": 30136,
+      "sha256": "05128f40300987709a12f6b8ce30f9fb7fbfff3088f64c66e2173158a9fc1afa"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/215411bf7ed5baf59247.mp3",
+      "bytes": 24493,
+      "sha256": "dd0874dbb124dad944690e4eac62f344a5e1b87e82103936e39d0d992825a395"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2155d13546c40a6ac141.mp3",
+      "bytes": 40794,
+      "sha256": "3f3f8446082320ac902bc1ed34535096b3f52fa24aace0e7b74d321acacaaa76"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/223a2ce50b5f6484de64.mp3",
+      "bytes": 34942,
+      "sha256": "89ac7facf61e2fb9ae3db38213b4ba620e0adb04e6e79f32ccacea9fb20c357d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/223ba9675d4455c01bc6.mp3",
+      "bytes": 37659,
+      "sha256": "c303c44696af45aefbb66de9421c7d3cee9f4879be15a0aff7eb107cb86e8c20"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/224777b4f05f5ebbb5fe.mp3",
+      "bytes": 43719,
+      "sha256": "57861d244e4fd4d777130012a19a17635b3ad6bfaa9ac8ccccb7a342c47cd66a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/22d5b67e60000b3b49ec.mp3",
+      "bytes": 38077,
+      "sha256": "a3318e218e691ba529302db842b4b1289d786d74043f5f3079d4e58edec7d5e4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/23e889fc077eba235778.mp3",
+      "bytes": 31389,
+      "sha256": "4fb4ef0bcb13e2e80d5d28059328dab932df00a555bdc4e2a03e0383cd0d0098"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/241d002049cd02302bb3.mp3",
+      "bytes": 35151,
+      "sha256": "d505f7ab7715c46e776c65e4bf817fb093b61b36fc4939b846fb80169fe5f687"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2444a127c9a10064cf2b.mp3",
+      "bytes": 28255,
+      "sha256": "e646b514928da37c4e0f69615af6edc85f672d2a3c589c6a7f91828c5875de61"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/24ef02a5300759919c05.mp3",
+      "bytes": 18642,
+      "sha256": "ad4db37ae68d73a28468d43d2caa9a4e6c47e7fb7f9efbe70a04ef310e0ae9dc"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/25d56f9382e6b23fc369.mp3",
+      "bytes": 42047,
+      "sha256": "d81f5e1903902c8220ebb0784ff67091681d974995c81b765b2816406496c2e3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/25f5860c9e1869ed9d84.mp3",
+      "bytes": 32852,
+      "sha256": "940b132cbc1c747617b7016e6cbae796a53b90b57b503aa93a079d44ce0603f8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2628076a2dbf1bf1492b.mp3",
+      "bytes": 32225,
+      "sha256": "3d24817d5d7078be5270aed3ef60957c3242f22882fd686b3676c6a2aeab540b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/26596aa521fb0d9b52d3.mp3",
+      "bytes": 32434,
+      "sha256": "31ca312cd16727bd1cb15e8e833979a2fefb471d566e549c291c2134ff7f07b4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2677628817f1c85dd1f7.mp3",
+      "bytes": 42465,
+      "sha256": "6ed4725df38725c518a87a4e462182896fa695d1356ba376a4dda139c93f8f09"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/27cf9bd47c20b862a5d0.mp3",
+      "bytes": 38913,
+      "sha256": "18ad7bf92f7079164c44fd28a28283f96d759476680ac741b9ba4e8cdb25efc7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/28f82b0373f10adbe270.mp3",
+      "bytes": 21567,
+      "sha256": "7240395fabe807ad8427ef3d3223a162aa8f4b035aa17a187ccf26f98d28eae9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2936391a8e8bc717faef.mp3",
+      "bytes": 27210,
+      "sha256": "766f54b4085bbd54ea99e98caaa95283e7c89d4a89aed5e0e68a3ff309a3d8af"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2b3fc8275b60f8f9a0ad.mp3",
+      "bytes": 40376,
+      "sha256": "910afd3051b6130f091acfa0bc3b257064199f1c5f6066dce8840fefbbce0bbe"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2ba798e4589698ce5141.mp3",
+      "bytes": 40585,
+      "sha256": "67a8d6875034168d57c5dc76570b476045a139ab0db958a96490da92982797b5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2c609dffd2df824cc67a.mp3",
+      "bytes": 23448,
+      "sha256": "a2f935fbb174584fd72d7886b23126f88a544b0c1e67ee440d3b8f37005bcead"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2d1e3de7325693e712a7.mp3",
+      "bytes": 20940,
+      "sha256": "2e40afb97b0f8cac64cc3c196c1b0aa45603fd141f2c47711093145d3593f976"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2d6ac7ea58ec9a1ccdd6.mp3",
+      "bytes": 28882,
+      "sha256": "f0085a85602e1271dcfd7437fd3a5e9f71dcb6668ac55590dd7fee4c0b01bd50"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2d878427bc7df30b25bf.mp3",
+      "bytes": 35151,
+      "sha256": "3370bd3ed9475ef47c20bc12d322ad1fe72d61c09d808c24461f9f4cc4419b34"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2ef34c4c088d579334bb.mp3",
+      "bytes": 22403,
+      "sha256": "9b8ad1d5690e49a4beeed3f7a83250efe326b394c9194b23891752081dee9f7b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2fcc06c8e787cc930ff7.mp3",
+      "bytes": 31807,
+      "sha256": "9f86a3526d9fe0682479dbee1ce6c22fe7b97cc04f96ccfc008ccc85ab0218d8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/2fedd65512f752a1d480.mp3",
+      "bytes": 38704,
+      "sha256": "187bebac0aa3740888e82d13054624ba044a9f69c1dac8d3684554bd859dea1c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/31033c841bdcff85c2b2.mp3",
+      "bytes": 35360,
+      "sha256": "18ade7e383aa6d8da5dd74ab044351026816ac81fbd793608f8df8e186f18003"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/31670ab7e4c3c828fcc4.mp3",
+      "bytes": 22612,
+      "sha256": "4587a07c9b304428ad077ebee3e63e58de284facf0363cf5aec963efd2eab826"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/3188e96ab119f704ceb6.mp3",
+      "bytes": 18433,
+      "sha256": "206187a83f022f1a4be5b4ced47c2db8ef02e332f7b7a1d60527aa5d7f131dd2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/31fea2a103e47112a3ce.mp3",
+      "bytes": 43928,
+      "sha256": "ab38ca4d2a4964d5a5d32baacde97762a2d620a8e2bcbb30a8e90d55c21982ec"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/331249673716327a6c71.mp3",
+      "bytes": 48526,
+      "sha256": "e501dfe7b2a6048e821dd082523b179ede65d4668bb358923f02372fbe1d1a2f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/332c09e26c69f4394a6f.mp3",
+      "bytes": 43092,
+      "sha256": "72cdfadcf60bfdec1cc7e1ce89344c199628ec504d4f7c04f254822353ae326a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/33b213d0f1cac630fb38.mp3",
+      "bytes": 26792,
+      "sha256": "d3cdda7c5b615a6826f318576b41fb79e3e76191381704db1981f5044781c029"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/33ed9052218f8feacf90.mp3",
+      "bytes": 23866,
+      "sha256": "b62a57affe63d7f839cc3abc5e27e470ca67ffcb1e187de83db94e2b95dc946a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/342725495732e42d6acd.mp3",
+      "bytes": 47481,
+      "sha256": "f7f075651b9cd88b8edddac41d0006df22f33507ee484d905cc5242ced666ab8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/3505ed34752dd419b159.mp3",
+      "bytes": 28255,
+      "sha256": "2fc79234f84d43edcf574fd3e489f20c0b5fd09777a7d116661199e38a5546a6"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/35264120e5bb720931cb.mp3",
+      "bytes": 22403,
+      "sha256": "fb95af74136b25dc2a3577e07f70a72e403a2f76504a5272c0f863cc6bf28565"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/3615b28d54c669a49d25.mp3",
+      "bytes": 39122,
+      "sha256": "f1e36b026df9da14fe0d6583a146f6cfe8655c36d2b2e98431d37fc243d3172c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/376dc29b3f1f665545dc.mp3",
+      "bytes": 22612,
+      "sha256": "a247694a706ea7231e061590c838736a6e7c9f0210428135b3ab493ee71fa38e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/37ef3134a0dff1939718.mp3",
+      "bytes": 39331,
+      "sha256": "ce6876c3c0936354a1fedc4d575a91c55a51f90d77236de9da1a3d9065e465dc"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/390431074bc1253c7fd9.mp3",
+      "bytes": 19896,
+      "sha256": "d7d06df21df1ec6831ae7e95c7a050aa1bdecce2f9811479d3005c04d1357bc4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/3934984c5d9ce108d7b8.mp3",
+      "bytes": 26792,
+      "sha256": "8b53d483f5b5baf32d1690821b1c0770b148677470c90796954dcf0bec47b03b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/396a985539aa7c037d73.mp3",
+      "bytes": 46436,
+      "sha256": "740178856cb7a1713f7b41aab5595235f6fa715321f3fb39ae86b01929a0bb5d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/3afd5c74c18a15078170.mp3",
+      "bytes": 42047,
+      "sha256": "e61fee2c05105667bf72f6dfe0a475993fbf71c038819d91444b2ca653cfbed7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/3ba1c2d57cfac3f703db.mp3",
+      "bytes": 46854,
+      "sha256": "7ac3433849dce1d6d15b7576769a347e783545f7ee4b56c8254c96ceced696d5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/3bc955b98ea6881ffe7e.mp3",
+      "bytes": 48108,
+      "sha256": "4559100ae4e2ed4b2fafdae4a55ddce994045a0e968e95e87d3a61e9dec197ac"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/3dab594ff0d31990bc68.mp3",
+      "bytes": 28464,
+      "sha256": "a7361f4de510e42750c85f3695741472bc7ed50ec2fa563f43c7b553342d702d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/3e9dd7fc335fda2c3f09.mp3",
+      "bytes": 43928,
+      "sha256": "4f2ede9ed4343e9a23e5e568b01b46a355464442fe320f1d9a9c6eee485f9e6f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/3eda82896ed033824148.mp3",
+      "bytes": 35360,
+      "sha256": "ece2aa7e2c2890c09e0ca5d8107985808dcce2ee1368c14cff3cc2957310db84"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/40ce515f86d99d47ea74.mp3",
+      "bytes": 18642,
+      "sha256": "81905b060312bbcd64de2a2b4055eed848adc6397777779df848e97ded268ef5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/413dc19cd0737b7110e6.mp3",
+      "bytes": 40167,
+      "sha256": "df1a416c34bb8abcb60ca30e65f1f83185c850556e485079ddb86336b430f91d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4180b1fc072221b22627.mp3",
+      "bytes": 46436,
+      "sha256": "791089e96a37e92e4683c06f8c9b4b04f14744f85a1c902d671df111cf8a293f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/41c41b2116e446e5c836.mp3",
+      "bytes": 35569,
+      "sha256": "e6d0ad4f3ed3b80e5beb13bdb7a3be53a461b9ed5ed5290bc10e62f99cfc508e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/422b89a95d1e7dacdaa2.mp3",
+      "bytes": 44764,
+      "sha256": "c037192d160ade333c39011a874f09b00ef852ab8d9f7303bfc6329b89ff97e1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4339c422149c3e141df0.mp3",
+      "bytes": 39540,
+      "sha256": "d013a2bb865917c23c9614113053169e959545135838ed011eba5ecfa2d7d18a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/451063c20abcaacefad6.mp3",
+      "bytes": 38286,
+      "sha256": "63d7db9811d7d0ee5c93f2e9334261a403de5018363dcdde239e66f345e7973a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/453aaa2306fa57064e32.mp3",
+      "bytes": 14462,
+      "sha256": "d973b11d2cd70111f13f05c8d62df4c9aba010aaa44e450a744ac88b967b70d0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4550c1a0e74a74f41ce0.mp3",
+      "bytes": 23657,
+      "sha256": "56fe0d82f62b67a8f1be6085a90d11f39a76d42ba337a078503da79bc5328568"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/46722916d2ab11556dbe.mp3",
+      "bytes": 40376,
+      "sha256": "fbd9a0483534a68f35f480e132ebe176d2102de3081ebd2cf2c02c2e4a7d8eac"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/469d60d07decb490fdb4.mp3",
+      "bytes": 29718,
+      "sha256": "dae60232ec456f0ff71a880c4ceabf409239b323ef9b071689e8aa2eabae1a23"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/47292c09dbb6c4f168a2.mp3",
+      "bytes": 26165,
+      "sha256": "0c85e0433e9ace9bda5fc2b96a2253490667779e9fb07c09fef696639219f58b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/478cf76600646d1de7a3.mp3",
+      "bytes": 25120,
+      "sha256": "3fbd5eb13822764f8a6b81853dbcc75b16b4536fb04c57db5dad6a74041d2505"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/487b0831fe7699ba8c43.mp3",
+      "bytes": 40794,
+      "sha256": "fde6670fbce6a39640eacd8d86cf5fc26f2ba57e57ec0a9c57efba20eb999bee"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/487fe1a58a4e2fe4931f.mp3",
+      "bytes": 11745,
+      "sha256": "4103e76c6202031f2bb4504ad5c42746600a16bfa1d7b6a82af098a2485a7182"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/49d1823ab37ec52ce42e.mp3",
+      "bytes": 20523,
+      "sha256": "9850fc6b4d36e3b11a9761c793adc11a733776e1d3936067ff5883667b806b61"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4a2f4fa1793eac0d8543.mp3",
+      "bytes": 41003,
+      "sha256": "f5bed86298129293f05db13981cd305316a449aa649d8cfeadfb58de14621897"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4a6dd3f18fb38f70647b.mp3",
+      "bytes": 50407,
+      "sha256": "410e6b5af83f16171bc0a058b91598375c43c1a1188ddfcf2c69306c7a84a791"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4a6fab815dcdfe05fa00.mp3",
+      "bytes": 17388,
+      "sha256": "637fd121b4790e3110e2224c007ae43bdb00607ef17ce6b2973e2a64a8dcdfab"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4abc5f08f486bc7a5fdd.mp3",
+      "bytes": 16970,
+      "sha256": "62990ee4a6ffb552b206ffd8b958cba3f50f3b58f870074f7e971163dddb6039"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4b7a0776454d065e66c0.mp3",
+      "bytes": 78410,
+      "sha256": "30556e29f86d0f1725827bf6349db29818cfe5a98fbb11db3dd3fcac1c86c927"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4be64bbc66f58806b93b.mp3",
+      "bytes": 37659,
+      "sha256": "c73dc60b752730fbeb2ae76932210c4813ecd4cc0819125afab9324039cc176b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4d147b778dcf982c7f46.mp3",
+      "bytes": 33897,
+      "sha256": "975fe3ff24d5aa044eda119a9f43adfc8615ce954face45695de74c25bbc6de5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4d3092f7fd7103c727ca.mp3",
+      "bytes": 46854,
+      "sha256": "340a9c1599f69b0e20aaa7a602269f06d623708f7c37a0ba3d81aee35ac9684d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4d806641c4d79fb528c7.mp3",
+      "bytes": 34524,
+      "sha256": "a0ba86b6f8d496cb1e3cd4dfdfd05100cfae50f2ea5fafdd95346ec4596821be"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4d9eb7c51cd965742448.mp3",
+      "bytes": 27210,
+      "sha256": "1274decda91b714078aac525ff617bb7f7cf3ef42e187ed890c57d0f70a4fa32"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4da3847478c4164a1974.mp3",
+      "bytes": 30136,
+      "sha256": "6207c47b5bfd326d7c649860b3d3ac0a1125340abb653f281bcb3e52cc3c03f1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4dbf20ca282162b2a553.mp3",
+      "bytes": 26583,
+      "sha256": "dc5a5dc6d4dce3f0c7ce9a9ca5266fa25e0a14aa05856e342942e6238c46a676"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4e7ea69a46aeb37dbfcb.mp3",
+      "bytes": 58975,
+      "sha256": "5b2545021fe0ee435da0a4636a43a1be7ecc945216989441e3ab310bf77f9844"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/4f7084b301eae5ac33c0.mp3",
+      "bytes": 32852,
+      "sha256": "9474484cec1677c309f768d1d3ae3ad84ecb5b140b12eb6836e88e227d68a59f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/50898919ef1c365d297f.mp3",
+      "bytes": 19687,
+      "sha256": "0e2e5bd2f1a84164748ee339db2c410b9af14cc480c9ad50ae77c470c7d294ec"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5133ff27126369a70f4d.mp3",
+      "bytes": 28673,
+      "sha256": "e030cc8dc262a661e9fc328de4286dd82843f95adf21fa2abe5edaa0b017389c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5154c862ed2eaeca5df0.mp3",
+      "bytes": 34733,
+      "sha256": "aeba9b4fff445b73664c4088a273fb7e8df2f1d7261930eca76820d5d7a925ad"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/518fb5acd16e51e138f1.mp3",
+      "bytes": 38704,
+      "sha256": "525987250dc903ec6bb388276666774569d99e3b67e793bee923dd31bae250e9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/52efdb7d6d0e32fc4e82.mp3",
+      "bytes": 21567,
+      "sha256": "1e3d30dbe1fa9a582c870b2791ff26e33752abda72cfa91cc4a9f0b22dc66f51"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/530b08c2b5a201fac1cc.mp3",
+      "bytes": 21776,
+      "sha256": "3b025ba6040048059e759136b8c9f53941f95457de6f127c96afbcd3a41e0ceb"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/53758b06268da840a4af.mp3",
+      "bytes": 43301,
+      "sha256": "186945dcdac733c8e6cb70903106a922dee730c8de4300e8fd7f76c037d937e1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5437868d547f2e51b741.mp3",
+      "bytes": 40167,
+      "sha256": "9b8f9fccac0813022927a5fef624599d03b25d92af637ac822228118bf6d29d0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/557788798e9d94b409ff.mp3",
+      "bytes": 24911,
+      "sha256": "59b2a2bfa728da374573251bd88ccd1ae02170ae7ea36c5c8261412bc2e68099"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/55cbbfe9cb7583f64321.mp3",
+      "bytes": 38286,
+      "sha256": "7bf5f598e66dd30510e38615c24d4ed6c064c4fa9cd72995afb0427d1e6f9c80"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5613c603398c9b87daf2.mp3",
+      "bytes": 25120,
+      "sha256": "1bc95205a1f422eeef9422fa132bf7a585333348156b8f5042364d563c509f58"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/56538e19e084363bb174.mp3",
+      "bytes": 28046,
+      "sha256": "03919f2795b7d8d9d79d80ea81ed33595fa54e3511988a4ea456541eeba3b06a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/57d9615f3adff072c5e6.mp3",
+      "bytes": 25538,
+      "sha256": "c87067cdcb346175718c6b75177be918b623feecc4229c269bc51b761beb107c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/58511432f1e6ee501519.mp3",
+      "bytes": 20732,
+      "sha256": "1aadee14805ca2ad6e85173a99a7b932abdfc578d5595b2f8926361520e8584f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/58b0d82ce2c1c93cac8f.mp3",
+      "bytes": 34106,
+      "sha256": "9a8918aa0dfd782c97f80d2f7bd1fe9dd60a6094f195becdfc1203740c0819ab"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/58cf47007ba3d1fb797c.mp3",
+      "bytes": 26374,
+      "sha256": "f779777573ef8824d0393fb9c29a3501575a9ec137929f7ab55a061cc4c38252"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/58d08367ae338d36c6a2.mp3",
+      "bytes": 26792,
+      "sha256": "2a894deee7a99b0fa8fe658c719222f16fdae4071702e101f4e410d3557bd464"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/58e40040fdd5caee8278.mp3",
+      "bytes": 45391,
+      "sha256": "ab5b3447d7acbf04898d9853a1881bf2232029a323610112fea98671673a22be"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5aa1ea88f546b5de92a6.mp3",
+      "bytes": 23657,
+      "sha256": "283a89459799de28d5c734532ebab2932a74ef7934d3b655e154abc3cdef4490"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5b5ea7eb898e4cbe5033.mp3",
+      "bytes": 30136,
+      "sha256": "27881ab1a336d0e64ceee9fe8c2c2519e9a9fa306944bc9adb17132f086b0a4a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5b6ef2192253c55b5113.mp3",
+      "bytes": 26583,
+      "sha256": "938095abd3138d2707846b0cf4fb78ab2a42f1480b4fa0840c0c47bbeb960f07"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5bda5101f1595c4536d8.mp3",
+      "bytes": 38495,
+      "sha256": "e06f353ebd497ac8feb4e1f52fd45d3d40738d789ab7320fa4e51f44caec6218"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5be4cf7b21cd1e62c28f.mp3",
+      "bytes": 34733,
+      "sha256": "91c984376a59fbbcf4b904ae5b81013d1e43c005e8dbf86754665808475a2911"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5c83ccb8fb06e8c9a779.mp3",
+      "bytes": 23448,
+      "sha256": "1fc4216c2ce87c6359e1191585faa3c3f629fbaecc35e6a10eb9716ab302a208"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5cf5113a99718d913d7f.mp3",
+      "bytes": 40167,
+      "sha256": "2051afe136480289dcc09cb7d7a79c70f0da8630333024e304da93f8284c6a35"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5d3ac4a5bd34a232a644.mp3",
+      "bytes": 38913,
+      "sha256": "31e968c275861a1c6f37d5c1800ef32f48e9d395d9417219986b14015376a370"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5db1400bea264ebbb730.mp3",
+      "bytes": 49571,
+      "sha256": "f7da08014886cac873ac0a90c7f34ed686e7be2371a8e1fb6e1852c5324190c5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5f5455f67ed88e3a3868.mp3",
+      "bytes": 24284,
+      "sha256": "c9daf6bf3ffe2e948be20ef37c99d073f4e7f07334c11489e9166eb7226a92a0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5f9c92b2969fd1700da7.mp3",
+      "bytes": 25747,
+      "sha256": "28169e501661ba4c9b3622e15758230f74f5e5a03c2019bab04b8c90ca6eb574"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5f9e399a1583156a6563.mp3",
+      "bytes": 51660,
+      "sha256": "212341e742d2e5ce46e19de10c1dcfcf7ea75a80eeaca6a3f4a61de369ffc0b3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/5ff27c93bb989e207aaf.mp3",
+      "bytes": 46645,
+      "sha256": "514ff37d3e4a60487766b154961ac50d1f9109a43e6593bdaf08df71e5cab86c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6000ea3c91bc7c728a88.mp3",
+      "bytes": 33061,
+      "sha256": "12446cef080f50484522f6b74d2c953513967b862d7297620c49f07779ef16c9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/60e889ca39d16cc8387b.mp3",
+      "bytes": 41212,
+      "sha256": "0a95344058a02d2a2048f9148c48f4f308a93e263a92c3d17bdb521667e22131"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/612a1e544b08ff67dd9a.mp3",
+      "bytes": 23239,
+      "sha256": "84294bf5aa6eb4462a290a68c44e51d400303ad388fdc7baab2908e14c5069aa"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/616b3b43e49e584f7b9f.mp3",
+      "bytes": 18015,
+      "sha256": "a51fe0f5c18ad0746f85715eb3df8178b6561f3f4cbeeae897a2cf638c1f84cc"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/622137acaa25fb0f64a4.mp3",
+      "bytes": 31180,
+      "sha256": "a83073da6e1a982405c1d202fd9c9d1c9faf1b9b35862b4e6809c76f4ca17887"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6282a5920cd30eb25fc8.mp3",
+      "bytes": 48317,
+      "sha256": "220eaae8b918ed5e92dae259d5377d0e00a8766cebb781af996d77cc70ff2c58"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/62a39695d086259934b2.mp3",
+      "bytes": 33479,
+      "sha256": "6b675b45e984739728e7119877c2c00790c3fb46c667e781dd127ded19ea67b0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/634d9cf7654a35cd28c6.mp3",
+      "bytes": 26374,
+      "sha256": "1dacbc63f27a840c38be1f9721c8a8dd04ffca629725a7c414350caa7e32e9f9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6380c4919627ecd50d33.mp3",
+      "bytes": 47272,
+      "sha256": "d25c0dca7aa75f614cd7f86c40eb309abb5dda39e754bef864ac4b1bfa5484d6"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/63ebd1ebecf37f9a4337.mp3",
+      "bytes": 33061,
+      "sha256": "e0dcccaf48dac80dced7d15eecaf015e9c1fc99b9b97d238432e0fbe93f22794"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/64eb668f835ff471de15.mp3",
+      "bytes": 19269,
+      "sha256": "947655a7f21e161c07e4c22d80c2ac67d538c236791019fbc9c827fea73ba3ab"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/64ebaf0d83936d5b4712.mp3",
+      "bytes": 30972,
+      "sha256": "f9bd7119148f07140649336f92089a52ca0b88f10ce29504cf56f4907cd27217"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/652d79c4e96d97ae9c3a.mp3",
+      "bytes": 27419,
+      "sha256": "9c13548e90fe5c5c8e6d16d938cc69048d95aa78ffdfd0bf98d639fc605cd784"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6538c7cceeb029d15cac.mp3",
+      "bytes": 38704,
+      "sha256": "0629620d9babe0d089cede3e6fbd51b0e55baadfdc730667dd2d8aaad3de2398"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/65513c426c57f05943ea.mp3",
+      "bytes": 33479,
+      "sha256": "6bd73204977957cdf61ac5a2c35363783401d50d79b9125573a02e8391db5265"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/660557095ba1f9ef9f34.mp3",
+      "bytes": 24075,
+      "sha256": "e7e61e4bb8cbc33ec040f13170ec115a40bf9550ca9687b9ad06ee0ec9df61d7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/67e5388b2c6f87a42bae.mp3",
+      "bytes": 35987,
+      "sha256": "b38edda7ed3a273516ebf8fde7d693f9d9c8898273cc2e4de0dc48a2680bb0fb"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/68e63177ec57fc4b2cf6.mp3",
+      "bytes": 27628,
+      "sha256": "d041655c804836420122e23f1f8fb438b288eba7ecce95df0468d832a452ee43"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6a04e73bc841b3026121.mp3",
+      "bytes": 18224,
+      "sha256": "9c81d3f11335a94ffaea6e61bbe8fbf6c704e4e9b7f8ec86551aa935ca90e713"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6a78868c0033bd0cae6e.mp3",
+      "bytes": 36823,
+      "sha256": "8f0bfb827e8e14397974d2024d52dc4b7b175aa681cf899575fe5e635d7238e3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6a78e6bb62f43a890421.mp3",
+      "bytes": 37659,
+      "sha256": "2e5a56bd70a57acd998d46de8e00e639f813c0ce859bd7ef8d0b599f9582c879"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6b9a43061f35690e3f40.mp3",
+      "bytes": 20105,
+      "sha256": "c53df068239c8d8f94a70e553f9e1b60d0eff41e0a8dba9d999b8f0608ea614b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6ba703ce211c36299d80.mp3",
+      "bytes": 32016,
+      "sha256": "fd4b31197d16026fb15e93678a69e7cdcb54ad573c4ba0e6ff759328701fff2f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6be1951a1566b73e786d.mp3",
+      "bytes": 27837,
+      "sha256": "daf31e4db43b70996147ea86724b97aa174c7f084a4bfda54eb0683b61e15212"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6c36670e8275403f450b.mp3",
+      "bytes": 34315,
+      "sha256": "838f56cf7bacd98723601f9c817e5f84812a9616001c23df0c6b427d6a07215e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6c460a902d2244807be7.mp3",
+      "bytes": 28046,
+      "sha256": "84b816bd3d48c4fef0636c75c22bce7a899676cefa50e50c73a1319135e62732"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6d15240e3de22ea45f3e.mp3",
+      "bytes": 44137,
+      "sha256": "4aaf6467db2a86fd7fc07b22501227149d9d049631aa93288a473fd8d0b80a50"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6d7f83f87a0e9adc2606.mp3",
+      "bytes": 40585,
+      "sha256": "883e29fb8d5a81e9db04b5420f08e3006d40571ec0fe5ad65e63d400ef5a2427"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6d83267e5cb93e9989a4.mp3",
+      "bytes": 41212,
+      "sha256": "9d2f086fdc4cd2ac78048a7f28e8251ccff47850f09b8ca617082cc8cf8c1429"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6ddee3453f9b9d362e61.mp3",
+      "bytes": 39540,
+      "sha256": "c2af87acb0ef49093eb8ecd6266e0db8e1ff921be6a71e69a90ffd2884a2cc3e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6e0085bb2eb25afe2ef4.mp3",
+      "bytes": 26165,
+      "sha256": "3107d2c6d823800b3d911b38abcffe2d1607786d60391a23184b081e1ad042cb"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6e2685d97d95495ffd7a.mp3",
+      "bytes": 25747,
+      "sha256": "4a1bda7a3f3424781f0045b2dd2807dae644e96909738a5944a8ef8e98559b01"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6eb10598fdbc62278f29.mp3",
+      "bytes": 34524,
+      "sha256": "375563a27e419b1d283b8c7b88b55a36f7e7484b25e175feed06bca039f8013d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6edc4265193e2b68f608.mp3",
+      "bytes": 56676,
+      "sha256": "2e356e995044e9d3702e5fbb039eceb9beba7e4d1684a53add4f52ff8dcff385"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6f8d53cb96fee73adf0e.mp3",
+      "bytes": 46645,
+      "sha256": "4712493153ff9da69a43e502d6ec04f82125cddf8b62c6fedfea50283a65ffa7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6fc9ef5a7669aa63f28c.mp3",
+      "bytes": 46436,
+      "sha256": "00263f49e57508d97faf2fa8f4757dba56dfa970a369f12634c955432529ac57"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/6ff148b164bd2b503cd4.mp3",
+      "bytes": 67125,
+      "sha256": "7a5aeb7febf7f6ae1e7c37c0723917e6c858c332c315e7bdb92201e4bb84d97a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/702273117927108a6b13.mp3",
+      "bytes": 66916,
+      "sha256": "839d575912906063cb5c79b31ec0a577f7b337cf06009ae1410e12f7fe71acfb"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7046f3a16ee368b96703.mp3",
+      "bytes": 20732,
+      "sha256": "f54b0b6f7564b1e8195457cc47ee66a52d0c1480089e06f05be20cee941ef6b1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/705ae845ac4521d19b1f.mp3",
+      "bytes": 24284,
+      "sha256": "3303ca8572dd211a25face0635374c67d999b27e7b3923e4ddc16094fe8b5bca"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/70607df3eee06a1096ef.mp3",
+      "bytes": 41420,
+      "sha256": "37bb785531a19b0058c8e078ef7bf967a058ff3126574063d409c46ecd7de284"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7115f1e8b972832ce9d5.mp3",
+      "bytes": 43510,
+      "sha256": "f7e038ef99a6e12abfa7d7cdcc63176870fa97c7581771e6dba19158fdb06e91"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/71a28b10ecd5243d947c.mp3",
+      "bytes": 46227,
+      "sha256": "f5035a2a888912fb27da8d3aefe7936b20396f6261cae015ae6c5b8cccf3cd9c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/71f6ff85af23d6e5e483.mp3",
+      "bytes": 39958,
+      "sha256": "3af83d2f2d66e64c9b9356e5f3bb1827933992e360d3a2be56fbb1fcf1d0877f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/72346ced2d3f4123b23d.mp3",
+      "bytes": 66707,
+      "sha256": "73a15ef0952bc96a5ac5121a96f32c9cdcd6d961dd26a8f5e0fa1b92ab436e07"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7292cc55636d0a111ce5.mp3",
+      "bytes": 28255,
+      "sha256": "7137215fabbe19aac0e5a263cc6a1a58f7a96ac6c1b8995a44c8f75c920aa034"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/72bfe7880d294912270b.mp3",
+      "bytes": 32016,
+      "sha256": "35b9a6a2ba8183c37171a651462910c2e9d3b6549647dfa7f1f952a9dff66086"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/733f320243aa9db490f7.mp3",
+      "bytes": 42883,
+      "sha256": "d337f5614d2b2944bff5ef0bd15e7dad62de3267079d28ab6e2c73e3391e9b84"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/73429a8a8c8e1ef11001.mp3",
+      "bytes": 63572,
+      "sha256": "2e062f5f0f1db028acb960dbb03814d74dfcec2c36a3abcdd0684f1db4fbd269"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7415266d25d7d5034170.mp3",
+      "bytes": 42883,
+      "sha256": "a145c9bae59ea82f6db65cabd8338c42bc096f785e9eee7b3a3cbae96f546276"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/743b4c2c4dcdb0e28475.mp3",
+      "bytes": 59811,
+      "sha256": "624652ac67fb107822bfed67d321ec489eac5a93459568190fef4dbada1d1e00"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/74ed5ae1be38993a39d6.mp3",
+      "bytes": 41420,
+      "sha256": "c631e0917220796e2f88ff2a57c77df43ea75b5a0eb18cd1d907a079c5c1475e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7569dfeaf5b5fc26a049.mp3",
+      "bytes": 34942,
+      "sha256": "27b8cb8670cbd65c6b74c38d31091738fac3f1000b1296436108a088c6b47665"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/756d1b862327e542099f.mp3",
+      "bytes": 35360,
+      "sha256": "c90e5b34c60aa4cc032e47ebb484406adf6b85feb0cd2049a680f9d508cc9c3f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/756f8c82adaa647eb897.mp3",
+      "bytes": 36405,
+      "sha256": "3abcb8f9197480bf4e3c8d0e4a1f3b11d44e286a751566d30673e6e761b4925c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/75d671155bf0943cb122.mp3",
+      "bytes": 28464,
+      "sha256": "2cf4a4fc040a92a282bd3f425535979f02475b2c3b9ed6e1025edcdc1686b8d3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/76b1229a256a70f2b8af.mp3",
+      "bytes": 25329,
+      "sha256": "1c2e33e7ef0b87357e8fa93b9103a4222a42d3a1b70050a728229be62958dbe3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/76b1d0003e3ea4de1c40.mp3",
+      "bytes": 23866,
+      "sha256": "ee5c40ce31a04e324c0f81ca17db45b18d8a31264ab09ea5e54c019d9839ad99"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7716252925be1ea27caa.mp3",
+      "bytes": 38704,
+      "sha256": "18e3e3f6c5602fb6cdbc953e3b6a700a097dacfd27d9f29be3aa142d7d5059fb"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/776869d2443d0c43a335.mp3",
+      "bytes": 58139,
+      "sha256": "507c8a62fd07d8375f517e1e5fcf9b76bab0ead52fc536236b35029296921a44"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/778b054d8d2f65d557c0.mp3",
+      "bytes": 25538,
+      "sha256": "aaa244affab936aa74fa894d875653b6f81927bf17f022f3b66319bf1d0f95df"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/77a2b04fdd0c7fb858a2.mp3",
+      "bytes": 33897,
+      "sha256": "5e6f14bbebb911536cde8a14bd87c78fd21caf09ae54e9f7d33c922720d8c338"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/77d6e6f43f6cea1935c4.mp3",
+      "bytes": 35987,
+      "sha256": "1d99468558d67a9b73007e45ec6bd06f1032835a9570e3efa198e2d9f5bb15d7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7815c1f51bbae543a237.mp3",
+      "bytes": 18642,
+      "sha256": "9ef490570a367e65414229d471ee6020b282080a8e9ebfadb4be0070f608d9ff"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/788a19c75e8d44a3a406.mp3",
+      "bytes": 23657,
+      "sha256": "1b6fe5423bb32df03bc30175e78c4a9d4459bff64ca6b314c41d9874bc7e1fae"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7908a2ea9cd79ac0a117.mp3",
+      "bytes": 27210,
+      "sha256": "6e05464fee54994246a84be96f504882e107181bc0aa8f7c4a97d26f95fce5bf"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7915b5a623a58b88819a.mp3",
+      "bytes": 29927,
+      "sha256": "77609d8b1b0d9201fca135f4d3487c201a062abfccff878610f542f347dcd30c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7a5e5f10695a41317111.mp3",
+      "bytes": 34315,
+      "sha256": "86aaa77ce372a5509e37a9ca5b6b5a1636b71484fad8949d7dd813f0ef6ecfca"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7a8dc82e7ec3773a329c.mp3",
+      "bytes": 17388,
+      "sha256": "9ab71dd9e1d91738b1166fc99af2303543115f264f3f7dfd4fa9a588eb70b0ef"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7aa0e9f4450f6e653044.mp3",
+      "bytes": 41629,
+      "sha256": "cc9ffbd9ace346ddecfb0fc47d105c6b1466b2c077ae30e3545011ff26b05531"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7b67dc97c154e38fd1d5.mp3",
+      "bytes": 27419,
+      "sha256": "9c96fa8a604c8c7710ad16d65e569faca793a266de4a4ff400ba2ec982cbbd15"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7c7a09c9036da151484c.mp3",
+      "bytes": 47272,
+      "sha256": "84279ebc77c28a6b110a743841d38e60429e82b5184d850a1a0f1fb1db062a5e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7d676f32f7df8cae7e68.mp3",
+      "bytes": 60020,
+      "sha256": "96f64e6e8ec391ef443b71c4a0a4c76b2322d1cca8c54c0368e93eaec0214d06"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7dc2c5aed3e7eb4d9474.mp3",
+      "bytes": 43719,
+      "sha256": "8f033b9f6c3e804982573977d53631b8f46bde4ac8ac0554974ad382287d1b21"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7ef2e7b6cf3637f17b88.mp3",
+      "bytes": 21985,
+      "sha256": "d83447bb9f699cf37525427557743f1490b426ed93adc2de68e32d01f47263a0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7f92756762275c396877.mp3",
+      "bytes": 35569,
+      "sha256": "a11aacc56ff8a23eb13dd051b91f609388e56c3af3e69f0212bc8b3bb6b303f0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7fa15d460f69cda992d6.mp3",
+      "bytes": 30763,
+      "sha256": "df177273aab1a439e9fb1f0967b154c4a2092e25e83957f14735a36a2f5778fa"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/7fc6d4643cbc386dfae1.mp3",
+      "bytes": 52287,
+      "sha256": "96bacb9128be24ce64d3de54cf51b32ff520dfb85fd0fd08ac4fc7229f200af3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/813b7a09f7e58506a26e.mp3",
+      "bytes": 62109,
+      "sha256": "fc13b891b80644b8cf4e0e02a39a4c9f9ae68a861fe943fccb29c4ae8801e6e5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8152b287c527f70fae02.mp3",
+      "bytes": 32225,
+      "sha256": "21d0ca62b4d190483d2c43bbb26a309083779fb50cdccbb370f779aa8dd3cc39"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/82282033c9826b6d41e4.mp3",
+      "bytes": 19269,
+      "sha256": "ddd3778e3845bec58690f125d3c7b29779d0eb86b8b3d865db9f792e79513908"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8278baa381215aa3f2ed.mp3",
+      "bytes": 38913,
+      "sha256": "1da303a0e8a4aefe755297ecd3dc9c3e79142ce2f615ef31c9fd86d345aa9731"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8358dec1dffd4d3e9fe0.mp3",
+      "bytes": 34106,
+      "sha256": "8e19c70cb594061ffb9cf3dc00fec49126d6efc3f886e9adcd28e4cf1ec12153"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/836b89e9825af9a68a4f.mp3",
+      "bytes": 25538,
+      "sha256": "1141d809261757d9e7d65774f5e580c39783a7a808269eed24d4c1f74f443cb4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/83e185700505f8cb838d.mp3",
+      "bytes": 22821,
+      "sha256": "4695108e77e91efe1d5fc043b1085531ab91bf6642e21002db81751134dc8257"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/84d17d604dd6acaeb544.mp3",
+      "bytes": 36196,
+      "sha256": "48597cabe8a3cae51c87f466384080451e5057dae4ac450855fff2849e05114c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/84d9137c9fe0e217115c.mp3",
+      "bytes": 41629,
+      "sha256": "dc347e7ec2c0f8d75db734befaac13ba5c0e14bb0b242deebd87aff67198a5da"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/851f42a05f23095731a1.mp3",
+      "bytes": 28673,
+      "sha256": "faead65b10956e60818f2b231984db2dd8f749562d30e34b00cce524c8a651d2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/854995ed33a4f0360a2e.mp3",
+      "bytes": 26374,
+      "sha256": "d938b65b244d5d4c721b31a8af4e69fe776641dfb267e4f2527c6ad1cd2899c2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/858a54490f3a68e81e8a.mp3",
+      "bytes": 54377,
+      "sha256": "2756da903dc70a84bc696c9ee94a286f67bff6a6c64f0e2a29a04993e54b2315"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/85bbff3c81f580a1a083.mp3",
+      "bytes": 35151,
+      "sha256": "f429a764f48f867c33db693645c395ff8cbc2d36288cec246a1c6ea60a98a5c7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8670fcd009be4c00d61c.mp3",
+      "bytes": 26792,
+      "sha256": "a343ca23d0560a884b66062e1fd84385ecf6ec03ce342aa30e45e0541d42de2f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/879a712838eca02698f4.mp3",
+      "bytes": 52078,
+      "sha256": "e05c75b2c13dd47d79ed7fe10ccfba873de2f7320c80b9b599a6537688dc5acd"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/888ff1e020deb6155389.mp3",
+      "bytes": 23866,
+      "sha256": "0df8fdfba9bfdd1416d51d337811f2421791679d3accffa9e623d31f5f6bf68f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8a5b990214c61449eef1.mp3",
+      "bytes": 26165,
+      "sha256": "c3dade4cf587e4f5548ef420f9bb79fa6fa7abe4b567a29071f87b8ccb3918b8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8a9da865feebd69e28e6.mp3",
+      "bytes": 45182,
+      "sha256": "beae5d46195e3d461de93e1c98833557e7b48635707c0b6074ee4df0d00b2e36"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8b1e135dbd2bb471c1d3.mp3",
+      "bytes": 39540,
+      "sha256": "1a25ddd76d4f415bbf48554911a3bdf6c72d3e42b7d5e844b7b79e5cb4f6753e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8b6145dea2e7337da42f.mp3",
+      "bytes": 20314,
+      "sha256": "70f7d05b90a7a421cfbdad0e108a898377372fcf147ed9bf34cf8c0585210e6c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8ce9c0d0f8863a923ef8.mp3",
+      "bytes": 29091,
+      "sha256": "c14a674e2a268323ad2e9fe5a02ed0ad7fb3a6c2c244a2fb27a480deeed833b5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8cf50ef5e2040fd29947.mp3",
+      "bytes": 22821,
+      "sha256": "22d0aa0c18264187c3351114e303c9a10bc1ce20539ec86a7c01cf7225864ae1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8d7980ab2c8d0c2fa1fc.mp3",
+      "bytes": 19687,
+      "sha256": "4c9ebeb9eef168abbf16d47bb25dc9236be28873c1b9ce93c50869e9533c9471"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8d87897ed0bcb830a394.mp3",
+      "bytes": 49362,
+      "sha256": "fa418636867b71c2a3bc9fa1bac6ad3313d96cbf57725526fa572b6a29e8efdc"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8e12af39e1590203f67f.mp3",
+      "bytes": 31180,
+      "sha256": "9c23e72264ee93480e53c8c53d73e6ab33419c47d8b8894685802fc1f94865c7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8e54f1f0d255a9dd0745.mp3",
+      "bytes": 18642,
+      "sha256": "785847ab25d60247483b266bd34bf3f3e71539781a0305a5bbd9a0c8d7485582"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8f32704cd6fed5b627cf.mp3",
+      "bytes": 29927,
+      "sha256": "6ecf34362b104cb01e5a487e65d1d05ab4a35ac6023c16152ac94e33432e28a1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/8f42e2c466e618f0a0b1.mp3",
+      "bytes": 23448,
+      "sha256": "713291ec924ecaaa6f64df78abafd8f118c4d451ba0828c9d7ef8a66a09a9182"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/901236128cc82d6f6973.mp3",
+      "bytes": 47272,
+      "sha256": "ec1c9c86ca67e30386374c64b6f470f31dc673edd96aa358ca5b686e4a4f44e4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9040db7b66924aa14f94.mp3",
+      "bytes": 37241,
+      "sha256": "8a43ce91738b174e40cc3456f77b250065bf6f1a0fbe7afe5c0e5ee5ae6f419a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/910827facdb4752d01bf.mp3",
+      "bytes": 9865,
+      "sha256": "a2c32baa19c48eb9b8b882cce37c49eee9132c051e4ba3224e37dc8285cd2435"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/91785fe3550b6c903757.mp3",
+      "bytes": 22612,
+      "sha256": "c21ad9e85b66c293c282e03c79ba135c2f390e9e45d266888393a1871fc37c48"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/91e004a0ab01a6a56445.mp3",
+      "bytes": 35778,
+      "sha256": "589122c106f5febd9030022d7a7db0ee74a6b47a84e623f3df8086cc25a3cfde"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/92b5f831951877b7fe91.mp3",
+      "bytes": 17179,
+      "sha256": "82a289a293d7203beceef3d56c937f9b119194f7bd783f9abb2eab686dc8f878"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/92eabb8d605dd5d9d4c0.mp3",
+      "bytes": 14253,
+      "sha256": "3cda685df31bc682b73d38bf07ef895d04a341108709b076d2890576ec265178"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9333ad5d6bf5e5cbfe09.mp3",
+      "bytes": 37450,
+      "sha256": "12eceef29d899977cfebcd2da1cf166c5fa1b7f15db5b06e4fa1e79113480fd6"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/93542d6fd4a3185bb3c0.mp3",
+      "bytes": 23657,
+      "sha256": "2ed279a2ce3aaf360535439b7c6b174ce0a6f7c9ae64eb51e698590e311666b2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/93be46e19a79363b333d.mp3",
+      "bytes": 23448,
+      "sha256": "bf454ee611edefc2dc7656b7566d7566961412eb9b8a360b1df9a500fad2ef94"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/941064d3a1bbc84739d1.mp3",
+      "bytes": 41003,
+      "sha256": "f77953ceaf068636a1ce83d8c93d971db5686b2d52d3009a67cac36d25adfd61"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/942fd813d163711f4f49.mp3",
+      "bytes": 37868,
+      "sha256": "1426ee60aecb160a97dfa0a519803068a20071edf3db297dce1389a392b5ce24"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/94552610e45725dd3138.mp3",
+      "bytes": 46645,
+      "sha256": "3f3ac237a807bf3db7dacdcf709c4e3c3d07099939294ad352eca1a3a526d873"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9479fe32dce4bd5a08da.mp3",
+      "bytes": 48526,
+      "sha256": "15b0e9fc7edc4663ba0979088ebc1963e24d739e70faca91b7d1ed269f035bee"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/948c5a7e4b5d4450092e.mp3",
+      "bytes": 25538,
+      "sha256": "b22717defb9e79249d0806a91e04c49f13c224535dd060e5f5e0e836d699f5c1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/969ab994ab473305a4ca.mp3",
+      "bytes": 31598,
+      "sha256": "37d62b013648d33676b584cb6eb3efc7e800f89907e030173b70a4db65cead4e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9794422c4e8cce571098.mp3",
+      "bytes": 31389,
+      "sha256": "ba6497f976b63aad84e3d6fc7f2c983260a75768e778dad64c69214ce979e833"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/97fa1cf24566033e4b61.mp3",
+      "bytes": 50198,
+      "sha256": "38f948733c78e8828f551965a54dac79a721287440c8b8f1b73b06eba2b49a91"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9800b00b606057a3c422.mp3",
+      "bytes": 19896,
+      "sha256": "2c9fa2421d20795027bab0c951ffd59b868cbc661191d36217eeb10b464bccfa"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/98a28ac2a74281c4c279.mp3",
+      "bytes": 39540,
+      "sha256": "cb234a743f7477f34436ff5fb84ec39d2377232ecffee22d2f460cbb17ddf26d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/98b3c94ae2c769a8d186.mp3",
+      "bytes": 15507,
+      "sha256": "01617484106dbc7d2aa477c2f740c1851055c59fa13fa742b91e537a0f5b3bd6"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9905c34ab65a331b79a3.mp3",
+      "bytes": 40585,
+      "sha256": "e3e81fb0f74928ec21197fd2b4f69dd696d602b623d62db3e3b1095d6020855c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9a101953f6efed9d792f.mp3",
+      "bytes": 20314,
+      "sha256": "19515131c95a210d21670b83228756f9945f8f6e8c13dd5f812f20937cf8df76"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9a431855907b4ead9bb9.mp3",
+      "bytes": 26583,
+      "sha256": "094a6aade86ea9935150c599a8b56b534c0d72863be33a40a5a49117cb187a02"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9a9fceade5047aea2d42.mp3",
+      "bytes": 26374,
+      "sha256": "79c46ed3151f0377e6915584a4578460f488f3cefbfe08668e5644a3b2c227d9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9d303d751e7f681c342e.mp3",
+      "bytes": 30345,
+      "sha256": "43879c916c40853c73c40ee456b9e971a741281084c8e7083afdcb94aa36567d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9ecdff7195176ffc1557.mp3",
+      "bytes": 32852,
+      "sha256": "26c7af7087adf3b703690f6dfd673e0214b0076425f24bf0e1cef3229b625690"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9f9e2d0fe042fe48e1b1.mp3",
+      "bytes": 38286,
+      "sha256": "160392068d3483cdd63faac2b7e4e193ede2cf154e0afc860b4b77cd10e182a0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/9fcd0f543f5a3a19e4f3.mp3",
+      "bytes": 18642,
+      "sha256": "ad8c679a6ca636d6e7fe98b5d7dd46cfae5d57f161235f423a1ccb75dbd7e5ae"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a01412f29a32f5efe6a9.mp3",
+      "bytes": 30345,
+      "sha256": "d6c4ac95429f80be4fb5f39b96f55aba5aa8c31186195f53a6560fa1feb5c533"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a08c6ba9b1f4fe6da0e9.mp3",
+      "bytes": 22612,
+      "sha256": "39fd92e9e7b217179093dfc3084f2f6ac7e012e6ead65d7c0f65b2bb56bc6d28"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a08d175b37515cd94c1b.mp3",
+      "bytes": 34733,
+      "sha256": "424fd71085c19907d2e82ddd7b83164cd8213e27754da6cdc30eb8ed80aaa0dc"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a0f6709e9e410504aee4.mp3",
+      "bytes": 27419,
+      "sha256": "2b46591898da6489cafbc60a354cda27a166ce504e31d4549085e939dae82ea2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a12057061e4490b6e420.mp3",
+      "bytes": 50198,
+      "sha256": "3d7e6be56ef46146430acce02a0390845f19b8416ead627f85e70b60a7977f37"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a13f00a2dd7fddf8d96b.mp3",
+      "bytes": 41212,
+      "sha256": "abc72f957a94cd7f44cd6c9f85a87177723166c1997cb9184735d824f15b7be1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a193b97b01ddb2fbca3e.mp3",
+      "bytes": 22821,
+      "sha256": "a1d7e1059d3860b6647542742d1c00721f8480ee161637b86db59c9a91b3e962"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a1df4cb2d4bd43575a28.mp3",
+      "bytes": 42883,
+      "sha256": "ceaf7e59c8de6d3c40c8cc59132ed1eda26a9235d35af40f39c985654fb5b7c1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a1f46623e710afa995b0.mp3",
+      "bytes": 39122,
+      "sha256": "df433c31a1a25e30e3c0e8bdc2a3ae174f9589e75ab6e4d271136c51f0db38e4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a3f840f4bb02b784f370.mp3",
+      "bytes": 11954,
+      "sha256": "e3c553456303ff931a1ab96ec7a9e07751d3890ec352f42f8a4334a5843af8a2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a487811d96544a4e7d46.mp3",
+      "bytes": 19478,
+      "sha256": "78ef2243f75fa388575aebc4dbe03ee56292560cbb6d5b6bedd9ab717b07a334"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a4cdbdfb625ecd9a887a.mp3",
+      "bytes": 23657,
+      "sha256": "17415c1fa10154d7d06de8a9843f85dccc2cc9e37d0e3281b1b197b53c37045c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a4cf3a4da8747397a648.mp3",
+      "bytes": 19269,
+      "sha256": "9d8eb267bc5d4548466418d39b76ec75e2ce047d32a988b3d542e9cce2a33af6"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a4e91d275ac0ab06d2bf.mp3",
+      "bytes": 20314,
+      "sha256": "add99d34ef97e452d41c97f100110039719e19ffd1aecf24e9c45d09b381e9bf"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a53500e19e7b841273f0.mp3",
+      "bytes": 37032,
+      "sha256": "01dfabf986dbef29ca931e0ac9246072c78512674d9936d8c5333def05491919"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a67206b14f9fe840d597.mp3",
+      "bytes": 23239,
+      "sha256": "4fd355c5b3c14d9d2eab59a94d6cab4788062e0027e285762c93c55010470a13"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a68bed932e1df9a56bc5.mp3",
+      "bytes": 56258,
+      "sha256": "e7d48d690ee3665ea87bfac1a0f572f91d04519a9da383367f7ed7f5dc968e5d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a6ec27a375ed2258f981.mp3",
+      "bytes": 33061,
+      "sha256": "55c28296b67f0e0fc8e9be772f5337d2928221298d4e1ce7e54189a7de15a6c1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a78c9402d2c3b9377507.mp3",
+      "bytes": 22194,
+      "sha256": "a3fae85fb84705d17aa2c7505f0b2672afdc8bd58adb141352815bb291250584"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a7b34d8b9674ff0938cf.mp3",
+      "bytes": 37868,
+      "sha256": "dc3033fc8c72984b597a476351b424111d6ed491e6ad48be001e5abfd28d9ddd"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a830bc52b81bfc68d183.mp3",
+      "bytes": 26165,
+      "sha256": "5c3233a473b1af6f14da44967df06401f6ea0274e3299754f7b13ad6caab5668"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a923d60cf6a22e88aaf0.mp3",
+      "bytes": 47899,
+      "sha256": "63c9a6a0395c6a3ab9709baa82cf14302b7d0bb1f59ad1a030114b40c3406143"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a92a33d44b3357cd3997.mp3",
+      "bytes": 41838,
+      "sha256": "ed9c519f212523087c708a44be0c76093b1978849ff992a5d7f829794c458cd3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/a9e28b21578f31326049.mp3",
+      "bytes": 25538,
+      "sha256": "edc0b93a89db390ac058c372b73bb972d138b0b2900c3b3ebc99230abe6cd4f1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/aa0b5e180a50646f1314.mp3",
+      "bytes": 47690,
+      "sha256": "aa9be6a3b7f638ce3b99183943b6e19b4e993e86b38af0a3ceaf0ba4b3a00eef"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/abbf3f585d978cb072a4.mp3",
+      "bytes": 41003,
+      "sha256": "934755850838ebcde474479003083ac6ca6ce1a8ece2e4234d80b21bc4dbf2ad"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ac0f04bc9f3957df9597.mp3",
+      "bytes": 17597,
+      "sha256": "d9fbb566ea6a6a4bc5e55c9deeddd25d0c4054f5ebfb68ef4a032eecf797bd1a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ac6f0e96d6932614f277.mp3",
+      "bytes": 43510,
+      "sha256": "cdda7fce06aa2c0e9e6618ec5374073c91f3db4581a81df163323ad128968c7b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ac827a7b42b3eb018c48.mp3",
+      "bytes": 53332,
+      "sha256": "b58f3b0503972c270e55f7a5df9523c4e8857b3d478e2e3f55a6fd1950b61aea"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ac91f19f11660c170dc0.mp3",
+      "bytes": 39749,
+      "sha256": "b46fd495b972544bac94218463cf18bb0e73e807df241dd5bf05a94981c3e8d8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/acebbe21575a3002baa2.mp3",
+      "bytes": 35151,
+      "sha256": "bb847a8b4dca5ad0c7ee4aeb2e53e773018991e40057adecc34cc01c100959f6"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ad2c5c207d7683d277b5.mp3",
+      "bytes": 35778,
+      "sha256": "ed27168613d7ef3cfe5bf3e0eaf8b1f76781069ee2d3862a60fb75032d0e1e18"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ad5cb8b9e43164113f3c.mp3",
+      "bytes": 43092,
+      "sha256": "1fdf6b16e1fc99b3ceeda7ebded56edeff81157407ae6f8b6290175122a1a080"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/adcea05dafa8ae1320ad.mp3",
+      "bytes": 29509,
+      "sha256": "7502b0d228d3f922ebe14af4c0705638046b1867f05315b39798fe2662e70640"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/add879905df1c414bcd1.mp3",
+      "bytes": 39540,
+      "sha256": "b1c380c59228e2f457b05a7575a0d2d0c8712bc2df81f05470fa6b8cf29bef8d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ae9dcc40d3be73ad7813.mp3",
+      "bytes": 21776,
+      "sha256": "cc65756b2cf207875b37c0fbd76a6a7ff89b8f3c2c098879903ea9b49d4e489b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/aea176f79d602103a50f.mp3",
+      "bytes": 46645,
+      "sha256": "0e7cd4e830307cb60365ddee1be27042ec64dbc90174498cb948ab22d2dd562a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/af4a818c03547fd10569.mp3",
+      "bytes": 16552,
+      "sha256": "11a1be1ace6b1e5c7c698933a7e19b87953d4b2067893f4fd52a9a8b6d098f34"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/af50c8b06a09f169a003.mp3",
+      "bytes": 22612,
+      "sha256": "a887959e3815294d28ab8c5f5079839cebe7e626e1d921f99e1af98e213439b1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b02813ade11fea7fa598.mp3",
+      "bytes": 28255,
+      "sha256": "a790d858d267efb7fe89958fcfdd20251ccc0ef6e2fd1faadf2b130ff4a115c4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b0890d9181adb81f7240.mp3",
+      "bytes": 23866,
+      "sha256": "b3c932e2172c664572f5fffbdfdc5230f56fc45567cf1389e38c5ed4d4892566"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b13471c4adcb99c0bc01.mp3",
+      "bytes": 20105,
+      "sha256": "4926ba307ac4279d22b16457219dc4fa8a4e2a7c8fb59633abc512b2e375d2b7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b1ca6bc79fc018587fa9.mp3",
+      "bytes": 33270,
+      "sha256": "1c7e098b2479c798ffd45015026132fd6d72a32fa252d864dd69808c621fb1af"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b36ebde2f87f2db6e4a2.mp3",
+      "bytes": 29927,
+      "sha256": "f25009e86f4678d100c67d96257e88ccc756288afe826e977826d4d155f44b50"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b38b79398a39d5a92914.mp3",
+      "bytes": 28673,
+      "sha256": "ccf04c0eed49aa3e5b0a3746b31dd58f6ea9a8475e5197c0e4dd410c51f9b921"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b3ca8aca9b0c28cd9b9b.mp3",
+      "bytes": 11536,
+      "sha256": "b959e3ac56d59f4fe79a8da90771483e54ed23f4d912edde1a2f74d9fb38354f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b47a6d0e99a6e6b9870b.mp3",
+      "bytes": 18433,
+      "sha256": "ffd638c442a659048cba3fb6c4ab97a9f154eb22fb2beacbc53af79b3a3d9e34"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b4cb18df3097b695924a.mp3",
+      "bytes": 53541,
+      "sha256": "69f10b363de50f256a2668534450ea51357dbe819ebf534252a425834aa244aa"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b5295908c5481f86d728.mp3",
+      "bytes": 26792,
+      "sha256": "ba3df34c4686c8a67230cc470739d0b11e5888b8f81094defb9201ab1d12edbd"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b54452bedd5cc44070f9.mp3",
+      "bytes": 33061,
+      "sha256": "3017ed73be2ed87d76091bb1fb5526ba36bbf36501520d60deeb20a01edfa8d0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b54bdac68abe822b2434.mp3",
+      "bytes": 32225,
+      "sha256": "1be00bc2914c725669071515f25dc8164f67519c2940e54f21efb56413b46934"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b579629c30c40f6d50fe.mp3",
+      "bytes": 24284,
+      "sha256": "4cdb6ce1914d55a8d8aa2a26b8cf04b0b8bca2746eb363191f9e9fba51b9da31"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b57fcb0438eee65cb835.mp3",
+      "bytes": 27001,
+      "sha256": "c25d404bd562d327bc8ce64aebaec328865e4228197625048e661f00d7ae0fe4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b5a9c9c154d3a0f8c98d.mp3",
+      "bytes": 39540,
+      "sha256": "68255ef2fc0f8dabaafa0aec3bec431f80e5333e78336558bea4c96a5c7ce609"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b65b0e4dc009d6f148fd.mp3",
+      "bytes": 33688,
+      "sha256": "73a23bfe63c2bcacb3f1b6d7476f316462f5eddaed4ec4033467c6f0b7a1c0b9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b6b737de294969825f97.mp3",
+      "bytes": 39331,
+      "sha256": "b95a955fc746c02164b4e8281302f6074cf1ec861f7b9d34461b44ccdfe084da"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b77111ff8650c359f6a2.mp3",
+      "bytes": 27837,
+      "sha256": "206d722c631831a574d7633147f88820edfa290c8f4ca29cc478deb1a6d733ec"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b82465eb3ec4eccf5d80.mp3",
+      "bytes": 41420,
+      "sha256": "718319800056ff94040e4d599e02e6be5f45adc1c37de53716cf72cf77bd62e1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b8edaaa2b84ad0ed6683.mp3",
+      "bytes": 33688,
+      "sha256": "d4f2e29e44ec16e5c3252d297fb977691574b6318e0ba711ba1ce62644e28f08"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/b9cb8252f02e42a93052.mp3",
+      "bytes": 25120,
+      "sha256": "b9126db45abf2501756e4e2288312051277095a927cc9d4761cee93dc1922d3b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ba3fa8f8904c2848a449.mp3",
+      "bytes": 33479,
+      "sha256": "448f332ff4930ab9a58031e9a33bdb8f45b9e519282b2f405e4543c4d46692e5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bab41fe75fb008f6577e.mp3",
+      "bytes": 33897,
+      "sha256": "1074a0ced3e3d257436e2b60cf97eab5a4fc8df7182fcb02c6179b4d8e96609f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bb4c3fc3a0584df65683.mp3",
+      "bytes": 30554,
+      "sha256": "c40257ef3cd25159e3b7448832ae22dc728d9c4c71e9d1183eb07eb47afec9aa"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bc02595b710c9152d79e.mp3",
+      "bytes": 33688,
+      "sha256": "ac261123042ffe654f248a80ad93f2cedb026d410f7ce2c63b61b9bf4b0896d5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bc4062fa097c884a2f00.mp3",
+      "bytes": 30345,
+      "sha256": "dbd7424b0848aa9a1732c85b09bfe8c867528f365903b1e6582fd6b1b04b8fe5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bc8aa3377705317fa2a2.mp3",
+      "bytes": 12581,
+      "sha256": "08ee727b51cfe01e974c90dc64389b34a7a91918333ac74fb09ef43b802702ef"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bd48a12da91e556e4f28.mp3",
+      "bytes": 46645,
+      "sha256": "a34e1a7ccb581d92eb3259886940ff075e5f89a6cb6c8c408ada51f326882458"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bd64f0574279118fe84e.mp3",
+      "bytes": 50407,
+      "sha256": "4e554c9d7dba2387d67de8ae6755674d47e91bd42d004ff6871c83221ddda572"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bde8cee0f7bc06b90293.mp3",
+      "bytes": 42674,
+      "sha256": "17efece51de6c3981520ec541ad2ed4ff4ad86ff9e5d7391b6d628383421c410"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/be20653e247749dd0cda.mp3",
+      "bytes": 37868,
+      "sha256": "539a289b92b4eccf65096c94ed35b3e253df793d4a53cf531630b047a4abb9bc"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/be7c41165b74d126e7d7.mp3",
+      "bytes": 32016,
+      "sha256": "5710bd2207d4006f841dea7c8158387e500324b1553b4684bc1921db7dccfe6d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/be8797c28ca566841f3f.mp3",
+      "bytes": 33479,
+      "sha256": "67812d5abb4439ef05397d16eb11add4e0af2e7e3a2cbb2e2abb28b289a16f3e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/beb9cf3c68e34541f86a.mp3",
+      "bytes": 32016,
+      "sha256": "a2c4f6b950e47f279a3afe55db362a58916653c71b528cf04542b73aa434aae2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bf87abc380406ce4f357.mp3",
+      "bytes": 32225,
+      "sha256": "87aae032640579136ab8be3e9346a212c3766c3cb0c67f972af038afe6211d9b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bf8906b1f03fbb46afd1.mp3",
+      "bytes": 24493,
+      "sha256": "1616d49cb59ce0d4898ef6b2c523d70af81507f86a43d74b0f2df87d772f61f1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/bfa8b4faebe28fe3cee0.mp3",
+      "bytes": 25956,
+      "sha256": "15b792d2658af8c9115324a2bdddcf537ec5fe58ed8848c8e4fa221cdc1d7225"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c0d4cad5b8d800866857.mp3",
+      "bytes": 20732,
+      "sha256": "59c3d0b3ba83c42bb88961b1bb9c9dd6caa290934af6aac95572ada0a4770dc0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c0d669efd8b255dfe278.mp3",
+      "bytes": 12372,
+      "sha256": "fe173f771c00ddb97dc2f32512e295b4741b4dbe96500027fe643ff1bbefbf09"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c13402a00ce3d7d0dc22.mp3",
+      "bytes": 27837,
+      "sha256": "f65f0493b24b5c380917d0c370d07ced8862a0543b28cb4a638c9be7a492b6d2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c15483aac2c7d3b028c8.mp3",
+      "bytes": 31389,
+      "sha256": "c375ef42e432c498066584b344b9036cea5bc2bb1c6d93df538d7283355921bc"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c1be3f5f9c7b5e281a63.mp3",
+      "bytes": 53123,
+      "sha256": "8a426eb4b6e3245ec5d23510a7fc291cb731d3e6c967088f4864e2f714aa6849"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c22eb1fea44cf53855fb.mp3",
+      "bytes": 38286,
+      "sha256": "34982060343555e31f1fc206ec909cc3de4e2bedff11c8c54a04a18edb87af68"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c23f6036c0568ba23c12.mp3",
+      "bytes": 39749,
+      "sha256": "1a23cdd6371665199faed1372a7932d5e046bb9787384acbe6ccc30c91816a41"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c32f075d62787a795b70.mp3",
+      "bytes": 24075,
+      "sha256": "bcb504ff07ab926f78449026f98d8eb456264905ea58820799e8108b45ddfee3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c34751f5e5579f9830d4.mp3",
+      "bytes": 27419,
+      "sha256": "c46cb472bad97d686a559d14b414487ff1df7615938f53496fee41dd4ae499fd"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c3541008df8c791e20b0.mp3",
+      "bytes": 29718,
+      "sha256": "ce63de965fb0b7f328868cbde17106bebc5c9590e9d37496c36d7f9e828685bc"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c37703178839010fea82.mp3",
+      "bytes": 30554,
+      "sha256": "facd5dcafe59a32a06b0c6f05f5135840b7ab98b452a5b50d40276ed995d79c3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c3e43a89fa0dd2c21153.mp3",
+      "bytes": 43301,
+      "sha256": "47c3f8817203fae725071d3782c015e0b94e01491ee6c8d979ae2390c0bfce25"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c4b6422e99b091d25b9c.mp3",
+      "bytes": 27628,
+      "sha256": "7acd9af2af05cfa900ac6ca3b9d52ed1c1a7a332b071604b684a3a4c22de6545"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c4e2d163599f518a293f.mp3",
+      "bytes": 51034,
+      "sha256": "7e2b8132c06780d1cfb953a97adb094fee7621465d974b33bb7176bd2bd97215"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c666879fcc822ea80fa3.mp3",
+      "bytes": 44973,
+      "sha256": "3d8779433ca95cc423e8e1becfd4d96d2d96d92d26da526a16a57a98bd5898d3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c66ea72e1cb3fc30a57e.mp3",
+      "bytes": 50616,
+      "sha256": "3870db696bd39b2875201052c887794ebe352a1a8d771e0fb8dbbe7fb01d335c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c680efafcfe04a5625ba.mp3",
+      "bytes": 27001,
+      "sha256": "159796ddab626f57c3aadf310ab017a94cd97d9a30c269b242b7e181c411ede2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c6a470a75c38e9a3ea4a.mp3",
+      "bytes": 34733,
+      "sha256": "9b0c7940115f4d5ab068701325c56ed8a3676a0df3897e112fed26adf509f465"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c71f1b09ee3d8c0fed08.mp3",
+      "bytes": 41629,
+      "sha256": "8fb98aacbb102b8388e15f19eea24c6b93d5fb7bd6633bff3e978e24b3a730a7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c755df34178218b1d7a3.mp3",
+      "bytes": 36405,
+      "sha256": "fdf8ce6a98e685c48936c443a807f76a698b46e59a93947d1a1d310d5e42abf2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c7e9893716e3ffcdc9d7.mp3",
+      "bytes": 38495,
+      "sha256": "fc1ed687162db7840c2e9482cb13cfa2ac196a50b491380f2e0cc0ad46db45f0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c82befb03a1dc867a4c1.mp3",
+      "bytes": 44137,
+      "sha256": "0d6625cbd2d6b0a342ff76f56f250298533e9068a938478e874a6e7006530240"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c855e454a91951c27ee6.mp3",
+      "bytes": 26583,
+      "sha256": "caf51d3274a9e28dc46f800cf79f9958a9cf221f65a4b387144e3c35e46a544b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c873b08435370ff99257.mp3",
+      "bytes": 39540,
+      "sha256": "1c5f4d3cdcbc83127acbbdeb81ea52c28475380065ca914dc55e3bf43953f7f1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c8a63da1dff30210d8fd.mp3",
+      "bytes": 25538,
+      "sha256": "ed06b9751d28758e91e8bddf03735d9eeace004b378912dd9a66edaa50d1280d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c8f6f2dc8221769eda8c.mp3",
+      "bytes": 28046,
+      "sha256": "50f15f36d71cb0d588f57d7ed5d57fde15898eecb3b4c8c65e1d0bda405263a8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c8f7f448900b970b4417.mp3",
+      "bytes": 14044,
+      "sha256": "9d441b92f7e4fb5e8caf426ffe11efeaacccaf0cceccfcd69112686996c51af9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/c94dad2ab38afa62710e.mp3",
+      "bytes": 33479,
+      "sha256": "a9a5a65ddcbc356aa45ac28f15cae8750cde82d49c5a666e196a525953b55232"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ca4c4c29b0c09f92fe35.mp3",
+      "bytes": 23657,
+      "sha256": "fe281f79cf445958ed8a4d60474307ce7fa08a72e762da24b67962da9dfca133"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/cab6cf0c5d58b031dbff.mp3",
+      "bytes": 20940,
+      "sha256": "2e5965ce3b459af1155f95c558e265ceecf1bbb4d392d199a1709bf0738acb7c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ccaeb9db97cb8f7ad849.mp3",
+      "bytes": 46645,
+      "sha256": "eebb983302951a3aeff7054b043d4bee4838187160111acacb25ef8422d70246"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ccf504f6e812883d2b0a.mp3",
+      "bytes": 31180,
+      "sha256": "e68d14a6bd4645b030ad138abac53b4eb8edb772c8c3287ada5c04ebda395ac3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/cd3afc2f45d2d21b7751.mp3",
+      "bytes": 55840,
+      "sha256": "aa3e2a908f9ac7188483f3039dfea9eb267cf1f9909b68d80342af61c1b4b75c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/cdae54304d0c753999d8.mp3",
+      "bytes": 38286,
+      "sha256": "809acdf507a76d26dd361921a96569d6c471ae2603c6061fd5eefab3b4ffa954"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ce1ef17bab1deb82255c.mp3",
+      "bytes": 35987,
+      "sha256": "c28ee08f7379770a5d2182027a265cbc4c1c976920ef7cbb5358ddd8e531332f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ce425e31e61340ef6f2b.mp3",
+      "bytes": 32852,
+      "sha256": "82cc27e0e0853096a3546820af3af325f8092a783d8f1d7c509e23aeb5dcb760"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ce74bad8cdfe10ca46cc.mp3",
+      "bytes": 38286,
+      "sha256": "1f6894598737e57dad78acd4b9d5b0ef69bdbd58b20a03e1960f686556686304"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/cf15e4c73b1eb2290cbf.mp3",
+      "bytes": 32643,
+      "sha256": "0eae8cde0ece75f1c997d50ea048298ac4bdd5e15934bde9544a9e2935eb2b95"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/cf4d52ea79d27f43d285.mp3",
+      "bytes": 40376,
+      "sha256": "f7e4163b396cc470598361212d7cd9f12a5ca83148e795c724400a4dab619996"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/cf5865de77602b7c85be.mp3",
+      "bytes": 31807,
+      "sha256": "97b59f6917c0e18d5dc0625d42eef6e3ba9ef750d8139a8f0723a8b5f1f60fa4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d014b204b799add70c9f.mp3",
+      "bytes": 20732,
+      "sha256": "a8a0edf6de30cd08a063111cc58557a13cd3c2794a574ff4df847cebd5b827d9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d10c4dfd0f8743ae35c7.mp3",
+      "bytes": 26792,
+      "sha256": "918b8e228d021b8144f5157a9790ea365cf400ba2299dd1f6576047dd593de09"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d234ac9057987e6d5039.mp3",
+      "bytes": 30763,
+      "sha256": "b6a893e6a6de08a24029c4a7d049aab5c021dd6362f38e82c9bcac1003973af8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d2cafd4e83d3c83ed261.mp3",
+      "bytes": 27210,
+      "sha256": "1f42600f3afd50ce3c5728e9ef0131775a947226639ebaabceeb3390ca0fd271"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d2e42b214445e3aeb7a0.mp3",
+      "bytes": 41420,
+      "sha256": "152ef0e5c2e97121dd692318f19af719e2df9863d51540ef5018a4df34bd94b2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d32697e95cbbe8242c90.mp3",
+      "bytes": 31807,
+      "sha256": "d806a5b6ecf510264b8e80174c4c5689468ca58d56141374ac439a947500720c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d38327a75930f6e45b9e.mp3",
+      "bytes": 25120,
+      "sha256": "8d99180e555a527f858bc42d1a83cd895685ff9814c9baf039c373697c88b048"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d3c4eb15e303d62bda63.mp3",
+      "bytes": 35987,
+      "sha256": "0e79379df5f3c3df154d44c8cf1951c149584376faa6ad8e22d3d8ead0f28e73"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d3dd3356b5d1934c17a0.mp3",
+      "bytes": 20314,
+      "sha256": "dc92a48b760b2ad52f6acb8ea135a2baf4b349835c48fba36068e378599e9d96"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d4893914013209de5a63.mp3",
+      "bytes": 28464,
+      "sha256": "065e6bdc9f6a170eeb76189770b807399fbf762792bfef9815e5102daaf59838"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d556a63cd33c71fabb05.mp3",
+      "bytes": 48944,
+      "sha256": "77b324a1125ff6fe6a19fa1535bc1c57fd6db02c0b08eb3df5ff47c8b60f7c40"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d580b1ebc1aed1b3644f.mp3",
+      "bytes": 43928,
+      "sha256": "9983bd2abf4cbf915300d47f4f9eeeb8493d34272ee4db9c580b86fc0a02cf6f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d6af5368b8cb23d6f790.mp3",
+      "bytes": 17806,
+      "sha256": "86c94fee754d518071fe3c2ce9445a6cd93c2705266d094a1b0573c426250900"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d6fe499d9acfa0782ba4.mp3",
+      "bytes": 35778,
+      "sha256": "115b1f594105140387e694eef6e50111d8c0e8597373357a51f563b42a8ceed3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d75bc24e42a4fc8fb2de.mp3",
+      "bytes": 57930,
+      "sha256": "767c3a850cb9a2f5bf736ee8159822cdb451fec64c1ba3e42949a05094d2def6"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d790a9813cc8ee9a087d.mp3",
+      "bytes": 40376,
+      "sha256": "569019236092b9956a88495e26246c3b5b7ac46046e28a6deb410e74a710983d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d7e360080990566ccca5.mp3",
+      "bytes": 37241,
+      "sha256": "fcf4df10b293a7663e0655602aec79d669088d50fa0b66e901853e359a260fd0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d8d7fd15a6e689042319.mp3",
+      "bytes": 33270,
+      "sha256": "609f2eac58b219ad680f9e8321e82626928d1a47cc0923a87766f71f03929368"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d9c56a4baf52551fe396.mp3",
+      "bytes": 40376,
+      "sha256": "ced9446c8cead5c3b18902f5359200f39591da43351d8ab7f8a2e3d564826b93"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/d9e440be84b50c5b02c5.mp3",
+      "bytes": 49571,
+      "sha256": "e15df60ebbb2dc3e9cb6040dd170f67bb4facca51c3bfc5b06eda3177f5a325c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/da1da0dac129e9bf7733.mp3",
+      "bytes": 46645,
+      "sha256": "fe93fa110b78ffd2d95aa1bd448ff8c201fadbd0aae03086194b70791defdd91"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/db2075ec7668ed19c001.mp3",
+      "bytes": 24702,
+      "sha256": "66ddbd264e8afe9053e36f484e7bbd42a846191d13132502c9f754651921d8d9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/dc66c53666fd599bfbde.mp3",
+      "bytes": 28255,
+      "sha256": "bc66932e0d4ece2f7aaf70a40492a035cd65f55bc3619440126965aa16397836"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/dcbacb585c2f38dc331e.mp3",
+      "bytes": 43510,
+      "sha256": "2fefe605fb1e79ae09d5d0bcf5082b62e9a75192fa1fc53cafa3dce3a002dae3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/dceb22783ab12a175d35.mp3",
+      "bytes": 29718,
+      "sha256": "bea83164dc4003612185609b4661ec1b89c2eb8763cdda957a1224206595e2b0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/df2680f367482d7a0260.mp3",
+      "bytes": 11745,
+      "sha256": "c3354b78d42f7bcbc531e99b10fbb686ea42fb84be73eec556c6e58e9bc78a15"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/df853368c5d245f1f937.mp3",
+      "bytes": 19269,
+      "sha256": "fcc264f5109524201a81cf6d9491bcf84eb4e393d422e58c55793e8c904aa5b5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e0c53f1b0487f979d040.mp3",
+      "bytes": 18015,
+      "sha256": "c9036f5ec3f622f32ce67e88e75d0b8cefb5983e28ce579de18142afb3bdb2dc"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e0e1bd1484d1c0d86f52.mp3",
+      "bytes": 24911,
+      "sha256": "9b54bd65b783388124387ae19b0443974411573af318df479ca4a3c997fe48c7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e2ddb07ef5b297b7014f.mp3",
+      "bytes": 26792,
+      "sha256": "6cbea964de2447607682690d879cdd2f8bbe23378c44cd4760b3a7fbaf877034"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e39ac8f87aa6afa03e4b.mp3",
+      "bytes": 45600,
+      "sha256": "0a88d0de51d85fb7c1b73e36d009c9a21357dc5df9043178bbf9d44cfcdde0a0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e591029ebd184add31f6.mp3",
+      "bytes": 55004,
+      "sha256": "29602ee07cd896848d1da128a6015851ded9f835c05be65c1f88b190f6d58969"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e5a9c719d999bd874a96.mp3",
+      "bytes": 54795,
+      "sha256": "5ae7cdcd49a91a6c89655541eec844dd6e994478716d5fda1b3599fe1506427f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e610c9f810128c27a3bd.mp3",
+      "bytes": 48526,
+      "sha256": "282483dbacd216a7b8aa6b0d26fc858ecd722babde45d9076f6ea201d7a900d1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e687022e3816e853dca8.mp3",
+      "bytes": 21985,
+      "sha256": "dc8c28b7c1ee5fc9f97794c46d6e9289f953a919550c69424baa5265e29ad906"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e6afdfa7e3ba4a7561e7.mp3",
+      "bytes": 34942,
+      "sha256": "714be845127e163060a3d8a824ab24b8f1165d593e3c738348d1370e92c6376e"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e8278fcc28b145ef266b.mp3",
+      "bytes": 51452,
+      "sha256": "ccd619093368197f20976a86c1ce43d2b8e40b6d58e394a738fa61e4deb81f7a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e850c7ad66de8d680454.mp3",
+      "bytes": 40794,
+      "sha256": "a0fc6b5a6e2a92362133159750f8a1946af08fa22e41f827618ac0a867c69d9b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e8cde2332b0a96440a94.mp3",
+      "bytes": 23239,
+      "sha256": "216a93bb8bc61dab554ec797d36e9668a9e69d2cbd91bbb975216c054ebe17cb"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e8fbc064ff2325260d38.mp3",
+      "bytes": 34315,
+      "sha256": "78b94fc6b581a0ff773aeabcfdbe2f0fa6c8ed04ce8bf0b4c3edd9dab3f5b77d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e999cc82b615a3121de3.mp3",
+      "bytes": 32434,
+      "sha256": "e77bf896a62a40098759a7cbc6e1fefc0509f0d98c78ad79110351f3fb5b5fb2"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/e9d58aae8baeceef2ae2.mp3",
+      "bytes": 16970,
+      "sha256": "761bc473bdf050a5256348a6e8553f386759c83580c1ba1f6153bddc797681a5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ea1f6e2a2ca22d5d1116.mp3",
+      "bytes": 45182,
+      "sha256": "95bb5262962f5222b63e446898e94c786d646379434550858195deece305253f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ea2a63a486485a2afca4.mp3",
+      "bytes": 45809,
+      "sha256": "428fc6f0dbfdcbedb0c5801a82fea378bad7a6eb41ab94f4e5fece8131342b4c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ea47443eb5df2e732057.mp3",
+      "bytes": 40794,
+      "sha256": "8fca3c4e181b1f80aefdbe3d3ef049810f04abfa74ee4bf3509d230929ad3df1"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/eb375d4be038187d200d.mp3",
+      "bytes": 37241,
+      "sha256": "1f9ff888d2fe9d896672495483296c5417ef4352924114bc56620c468f698463"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/eb858c7057b263cb8518.mp3",
+      "bytes": 12163,
+      "sha256": "f08ea1c40d1c2f5095e2092b7079dfddb400c8f49a6f2e9dc0251dd0d3feaf03"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ed1225a92d9d5abcdacb.mp3",
+      "bytes": 49989,
+      "sha256": "db8dc1429880b86a6cf0072ac7ee78c8393f831dedaabd86ac23bdba8214390a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ed2a002fc702c57dd26b.mp3",
+      "bytes": 39958,
+      "sha256": "b2d79cd3a96852cea6b91e16af299fcd3ad0cab7c5e362ae912dce9bad7c184f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ed2c6c233a18b66143ea.mp3",
+      "bytes": 42047,
+      "sha256": "dc89c0155de6d25ad77722cc40e7aaa84f4a1dad6ac42c66110dd5949a5ff51a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ed6e681f8401c8387322.mp3",
+      "bytes": 44764,
+      "sha256": "87b8e69c0815c2c8ffef36629b04c4892332dc2b8dabb790acaef78421bf3ce3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ee2173a94e2e8ccf79fc.mp3",
+      "bytes": 33479,
+      "sha256": "94167af5bbd7bb465fde7f42500714e5e561b7109f0db5c238ae63df1b634e87"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/efa5e698dd725ebe0854.mp3",
+      "bytes": 23448,
+      "sha256": "5a8f341a70e843e9914d1c62c398caf2778922c6b197fb491509f1a1379e9210"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f00b1a95f317f655fd6c.mp3",
+      "bytes": 45809,
+      "sha256": "707820890fa08c19a7ece27b8ee005fbb9f6821300fed0e9725582478b05044d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f0895110e898c82b18a2.mp3",
+      "bytes": 34106,
+      "sha256": "86223c2f2180d5c513bd58e8ee028ca81cf8d6d2a2f10ceb663bef8334b37287"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f1aece7aa1a664f7444c.mp3",
+      "bytes": 45391,
+      "sha256": "cef95f118364dfd0e0e0667ed349b06f18afda7fe6ee3d80ffb3f6f18ec0399a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f1eacd28f2c1c8dcaf02.mp3",
+      "bytes": 29718,
+      "sha256": "bc7e9d99d28f765750664bd55978d7ca326e4bb7ae29a7a8acdf41ec3aed9c06"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f1f33907c1c7cada5a36.mp3",
+      "bytes": 36823,
+      "sha256": "0021c9c49e3a4358006fbafde2fa68cebd2ba3b081a04f3d1e4bb3e51c2d08ca"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f2e1d07a13ea1fe45a22.mp3",
+      "bytes": 48108,
+      "sha256": "82a195827563087c9b0e44713bdda97f82e5cf5a13e73e1c9037f327a5e38d0c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f312e9a1f3afecb30327.mp3",
+      "bytes": 41212,
+      "sha256": "85fd9b1712f96473b1603bf894f653759d71a79f197b60b234d44a6548418739"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f31b8b31dcffe0b1bc61.mp3",
+      "bytes": 40167,
+      "sha256": "b0e6475e198908df3c2641d02397e0f89415bff31b5aed6c18ca45e61a811341"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f3acaff36d7c49c1c1b9.mp3",
+      "bytes": 18433,
+      "sha256": "c4b74c83c2b61046facf18e0568a21f83b6ec2a8a515ac8e50eadfb5b34bdf4b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f45d106163f4e6cb2637.mp3",
+      "bytes": 33688,
+      "sha256": "830cee1e6e02285ce07a6e20f0eddc85d2b28519b945058c86dad8345e71c99b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f46644caace3e87ae633.mp3",
+      "bytes": 28673,
+      "sha256": "bcc7144e98302f19a1aa054d489a35808be1fa1d1f84115e9243f4381375230a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f47ba0b3b40fd6a38c76.mp3",
+      "bytes": 32643,
+      "sha256": "c893cdb4aa1f703d9e479e662b747a95c5644d4054260a75f64c46ae99e6283d"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f4b71f8eeb242ba66788.mp3",
+      "bytes": 40585,
+      "sha256": "8b47f2619787ef3c4f251c7cac235bdbf308fda8b67114dfe71c8303adba179c"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f53965cd5214c041b015.mp3",
+      "bytes": 28046,
+      "sha256": "ed19def88e7cc716576d846974aac7fbc7900a5a8d8876ca929ecda37735c44f"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f5932f1a99a719e579d8.mp3",
+      "bytes": 29300,
+      "sha256": "8f32a44b7cd8f46aaec91bc90042f992c9543d5b86cdf0009907c8872cfee149"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f61550ea8a5a0d43aa1e.mp3",
+      "bytes": 33688,
+      "sha256": "cef96938bc1c7026dda432006d831c84a4a6694a3ac2b7aa12f065131ed14a65"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f63606a6872bfd83ce23.mp3",
+      "bytes": 34524,
+      "sha256": "9e50a5d1fbe9944f2076d4851beaf794b0137531760ea17bd541e68787ba62e4"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f6a80c05c407b02d3372.mp3",
+      "bytes": 39331,
+      "sha256": "acd22beac4da7a43e4a51fed0260c0d39b9ca1c6330bf70941f540efddba3ce5"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f773466f06361206cba7.mp3",
+      "bytes": 35778,
+      "sha256": "5cc60cfede83d1b80708a19d0ae71714f81732da150c8bad39e25957ad7a8b01"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f80bded130b34c92a297.mp3",
+      "bytes": 56676,
+      "sha256": "0735d23e3aa37ab0830c9717deeeb0360ec884ebbb3787fc7cc81f242ea3e5b7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f8a753ed4583853eaa4e.mp3",
+      "bytes": 34315,
+      "sha256": "db0a54671b4213f7cc8b419aa96eaaac9024941cb02c733556d46b5fef4ba5d7"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f8abc7c2cee8d27c5bf3.mp3",
+      "bytes": 44764,
+      "sha256": "4810592149ef01dff6a4ae9ac51976aca822ee509905e3f6277c2a934fa5d7c8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f8c7bb9569cba3efb4e5.mp3",
+      "bytes": 18851,
+      "sha256": "3522d9247098489dd568b798da4c85512e11171107ca28b3a3982a6dc5d84874"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f8f0f781417cb0ff0581.mp3",
+      "bytes": 34942,
+      "sha256": "bc21383508737831a4e73a67d68398cd5414306f492edb6ec22c73482d5bb9f9"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f9964ec34fcc774df4d6.mp3",
+      "bytes": 45391,
+      "sha256": "4895e4c4aa26557ad71ec62ed783ff8f09b42e0fcaaaf9a5eaa2321e820de87b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f9d6391b3204f08a14f0.mp3",
+      "bytes": 25329,
+      "sha256": "70294696a2c3f56ad40f6ad1ff7d5e4af409e8a1ab9a5274d561c8bf25758f74"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/f9db24d277da8e2ffdf1.mp3",
+      "bytes": 34733,
+      "sha256": "4be9f3da90a61f127b4916c431b7ebccea42778cb2b3b588cd563114ebcc7fba"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/facc3023fb116c216296.mp3",
+      "bytes": 31389,
+      "sha256": "59e3ed3ccfa03d320970aa3d8169d04e715a99694016d09433fe6fb7ceaec1d8"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/fc88354124933b3b684c.mp3",
+      "bytes": 39331,
+      "sha256": "2fb5cbe71e2b457c55233963ec98dcea385781879546fe5982991cfa487281a3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/fca89b9f7f92120804b2.mp3",
+      "bytes": 23239,
+      "sha256": "20553f34ac101c45a6ce8eb0f51754fb3ead6a7fe517d13fabc286c27a72e05b"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/fcd118fe913b214cc24a.mp3",
+      "bytes": 39749,
+      "sha256": "d3b300c04eefae7707eb683412ccd1defbff54c004331e34d33e176848d7bf98"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/fd57c7677b1ada4a8907.mp3",
+      "bytes": 39540,
+      "sha256": "a801aca50dadbeac64ed1e2d569ae3cd2754458e1db8086c1dd8d899c40c4ac0"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/fde84e9d14d4c271ebc9.mp3",
+      "bytes": 44137,
+      "sha256": "536d833ad8486672bfa51d1d13dd0534e6bfb0a00e33820b4aa625fa39507ed3"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/fe9a2ae2b71a12c9f176.mp3",
+      "bytes": 43301,
+      "sha256": "ae9638656f3846008369b1d7de4651d79b559ce1124c60f9fde068acc6dc7582"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/febdd2904cd1b6ae2166.mp3",
+      "bytes": 56258,
+      "sha256": "a98501394b53e834aa4d21198e0ef821a44545fe7972e3f6a429da200844f889"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ff3655a5e07fd3037520.mp3",
+      "bytes": 27837,
+      "sha256": "759cc34bed5cfbf12a6526784691a1a6a0840b5c4889c54d179df2ace4645d6a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/ffff7792b03319cbcd8a.mp3",
+      "bytes": 35569,
+      "sha256": "9d56c853dffae968b8f4f801e541266b4384356084f73db4e96ce79868cbef2a"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/manifest.json",
+      "bytes": 191596,
+      "sha256": "410bc2504e1ec8c22abd09300b923d2733391752b584622ca0ad6e89084ee8f5"
+    },
+    {
+      "path": "clinic3d/assets/MPFB_ASSETS_CC0.txt",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+    },
+    {
+      "path": "clinic3d/assets/MPFB_LICENSE_SETUP.txt",
+      "bytes": 3188,
+      "sha256": "5cefb60680cb9efd4550a2e65d719021cfbec9dad3658481d11d48ae863ce04d"
+    },
+    {
+      "path": "clinic3d/assets/patient-motion.glb",
+      "bytes": 1557900,
+      "sha256": "76bf711327b68b1a803fd46de493b1e34933f0f591fa27b5b75f2361918ed4d2"
+    },
+    {
+      "path": "clinic3d/assets/patient.glb",
+      "bytes": 1432360,
+      "sha256": "0a0f51f466478f0d9196e9b57c6028c8daa40bb580c7373299d547c0a75aaf27"
+    },
+    {
+      "path": "clinic3d/assets/PATIENT_PROVENANCE.json",
+      "bytes": 1685,
+      "sha256": "f1fd54ffab188397f353e853cf3879734fcf361598c9a070f864b300c790a551"
+    },
+    {
+      "path": "clinic3d/assets/posters/ankle-muscles.png",
+      "bytes": 146943,
+      "sha256": "17f6b33ba14fda586921250d08e2948dc3af8e1fd0b7857eb17204615fe31432"
+    },
+    {
+      "path": "clinic3d/assets/posters/human-muscles.png",
+      "bytes": 331628,
+      "sha256": "616acaaeec1bbe60b514fb1f325ba2e1c1aa5158dadf6e318845fbf5c2e209f3"
+    },
+    {
+      "path": "clinic3d/assets/posters/human-skeleton.png",
+      "bytes": 173498,
+      "sha256": "b4394641a0416a4ba2699e595d1dd60b105a87a0d064cdf11ab8bf5991a9739f"
+    },
+    {
+      "path": "clinic3d/case-flow.js",
+      "bytes": 59188,
+      "sha256": "622760e6bc2b73c678a5d3d7bc9b26f33d5ffc2ca6a2c14b0a99affbc07d03f9"
+    },
+    {
+      "path": "clinic3d/case-lesson-v14.js",
+      "bytes": 17065,
+      "sha256": "fd19b53e82060707715bc923ead47e417d9ef4104e5dc7a93b1a7ec143bba4b4"
+    },
+    {
+      "path": "clinic3d/case-muscle-v14.js",
+      "bytes": 5784,
+      "sha256": "ff7e948deff425b8f1dcf853987f32480e1a4f7e6ed8077b949ca6c466f69cdc"
+    },
+    {
+      "path": "clinic3d/characters.html",
+      "bytes": 6865,
+      "sha256": "740632d84748c07a38bb1b04698fb67c4babffb2d032a8a90bec228ec56edb40"
+    },
+    {
+      "path": "clinic3d/clinic.css",
+      "bytes": 50437,
+      "sha256": "339abca009284ddd6d9f420ba007a8f72f76b40d07553fd87941dc9b0eca6f4e"
+    },
+    {
+      "path": "clinic3d/communication-v26.js",
+      "bytes": 4604,
+      "sha256": "a2e2fded167d66b008e8a2ab6d269fd31d66283055055ddc8504bb09128bf077"
+    },
+    {
+      "path": "clinic3d/dialogue-audio.js",
+      "bytes": 2050,
+      "sha256": "6ee8ab39178c39aaa7d9aa6ad531ea1553b714cc639632a8b99b482b71b9843a"
+    },
+    {
+      "path": "clinic3d/dialogue-player.js",
+      "bytes": 3252,
+      "sha256": "aed47d605875b9b7de0b06077f75abbcd49562930d4727284346e2cfa2064f25"
+    },
+    {
+      "path": "clinic3d/docs/actor-regression-v12.json",
+      "bytes": 984,
+      "sha256": "7a0b950a0175949fec0f6d040c37baef268a1ea1b97aa4ea54bb4e1a926e14fa"
+    },
+    {
+      "path": "clinic3d/docs/actor-regression-v13.json",
+      "bytes": 984,
+      "sha256": "7a0b950a0175949fec0f6d040c37baef268a1ea1b97aa4ea54bb4e1a926e14fa"
+    },
+    {
+      "path": "clinic3d/docs/actor-structure-v10.json",
+      "bytes": 984,
+      "sha256": "7a0b950a0175949fec0f6d040c37baef268a1ea1b97aa4ea54bb4e1a926e14fa"
+    },
+    {
+      "path": "clinic3d/docs/actor-v10-validate.mjs",
+      "bytes": 8129,
+      "sha256": "594cabd6974520f7d4820abfc743e1b388fa26a185ec9a9db82834b9853cc21b"
+    },
+    {
+      "path": "clinic3d/docs/ai-live-v15.json",
+      "bytes": 1234,
+      "sha256": "febea22462a542ee94cad24cc94bbf29a9ab7d5906fbe0de248e0847b009c24c"
+    },
+    {
+      "path": "clinic3d/docs/anatomy-v10-API.txt",
+      "bytes": 3190,
+      "sha256": "82da4dd1b002899353d4570a83604c70c93df1e2e8aeeaab401d86e17c97e344"
+    },
+    {
+      "path": "clinic3d/docs/anatomy-v10-provenance.json",
+      "bytes": 83169,
+      "sha256": "b23813b5ed64c25ae284af0aaeba5502c12f047862e9bbb03781508fd542efbf"
+    },
+    {
+      "path": "clinic3d/docs/anatomy-v10-structure-check.json",
+      "bytes": 933,
+      "sha256": "78696deb0f57d68ad730cbc9b57be0f8a202173eb0a0d80f2c92388b67a5f812"
+    },
+    {
+      "path": "clinic3d/docs/anatomy-v10-validate.mjs",
+      "bytes": 7352,
+      "sha256": "41ea8b03a65c21d4bf4123f480ba07a26cf6346b2e852e7d43ac8a8fb4a2e76f"
+    },
+    {
+      "path": "clinic3d/docs/anatomy-v9-API.txt",
+      "bytes": 3861,
+      "sha256": "ec68a874680ae6c1315c8c1d7a125e842b7816ba833d171e2ca274621a958bf6"
+    },
+    {
+      "path": "clinic3d/docs/anatomy-v9-provenance.json",
+      "bytes": 60688,
+      "sha256": "8d30b72c64df72286d911f6194db15da9d8adc2d2af034f402aa4a83b4d5b0b8"
+    },
+    {
+      "path": "clinic3d/docs/anatomy-v9-structure-check.json",
+      "bytes": 1101,
+      "sha256": "8f4d4e1e2d63dd6a62ff254650398b0cc4f7351155912e086d4f6c1e287057c2"
+    },
+    {
+      "path": "clinic3d/docs/appearance-regression-v12.json",
+      "bytes": 1372,
+      "sha256": "3b6cb8a355fc25525cc0761b0a6dfa30c875813a54a9c88775aeecfb281bacc3"
+    },
+    {
+      "path": "clinic3d/docs/appearance-regression-v13.json",
+      "bytes": 1372,
+      "sha256": "3b6cb8a355fc25525cc0761b0a6dfa30c875813a54a9c88775aeecfb281bacc3"
+    },
+    {
+      "path": "clinic3d/docs/appearance-v11-check.json",
+      "bytes": 1372,
+      "sha256": "84abd448029aed46aca76779bc8a520c40138e3ea9a2db8079d38e23bfc25962"
+    },
+    {
+      "path": "clinic3d/docs/appearance-v11-contract.json",
+      "bytes": 3068,
+      "sha256": "64b300f7e199c31375e10831e52bd8ee268bf7e1be968ce2b628d0a483d582be"
+    },
+    {
+      "path": "clinic3d/docs/appearance-v11-validate.mjs",
+      "bytes": 4212,
+      "sha256": "948b14503db11196f43c87e3c3b9f60fbd87bc84665fa8d915c2a07b331e9708"
+    },
+    {
+      "path": "clinic3d/docs/arch-v13-API.txt",
+      "bytes": 3407,
+      "sha256": "3e0440ce4a1dea066aace867b951dbe261a1b91f217a0edfbb090a07c7ca7a34"
+    },
+    {
+      "path": "clinic3d/docs/arch-v13-content-check.json",
+      "bytes": 715,
+      "sha256": "ed6b34e6fd6f14b91771b09ca58730cf29abc764e234faf0d3871cc51019ed8c"
+    },
+    {
+      "path": "clinic3d/docs/arch-v13-integration-review.json",
+      "bytes": 5160,
+      "sha256": "94a73013caf2d0568ba34e503db1df789d007e2dd4495edf375110f9e2f50ffc"
+    },
+    {
+      "path": "clinic3d/docs/arch-v13-integration-test-results.json",
+      "bytes": 2332,
+      "sha256": "1387365a3ab04bc51d578c0e1035e5da63859cedccc97227b1f41b54324b35e7"
+    },
+    {
+      "path": "clinic3d/docs/arch-v13-integration-tests.mjs",
+      "bytes": 4390,
+      "sha256": "ee252d7fa0aa9b8ce7cc922c6363f7c7cf3df9a9c8290cb97230bbd6196f7c50"
+    },
+    {
+      "path": "clinic3d/docs/arch-v13-sources.json",
+      "bytes": 8908,
+      "sha256": "fadfd7a326fd92e0042d4b335e4ea79c0a58fdd723a29213f3844bdd6b7aacba"
+    },
+    {
+      "path": "clinic3d/docs/arch-v13-test-results.json",
+      "bytes": 6672,
+      "sha256": "ad55aaab27644f4962c187582eac6fa6f9b838a31e2d626c950bc09b11ee16e0"
+    },
+    {
+      "path": "clinic3d/docs/arch-v13-tests.mjs",
+      "bytes": 7472,
+      "sha256": "c99e20225efb8efab5d8243c64face4ea138467194472f8ab36c5d1de32b9386"
+    },
+    {
+      "path": "clinic3d/docs/ASSET_INVENTORY-v12-fragment.json",
+      "bytes": 16387,
+      "sha256": "08826525702b94e65705cba070a14cde6625ca4c33ea8e5b1219115935c60bf5"
+    },
+    {
+      "path": "clinic3d/docs/ASSET_MANIFEST.json",
+      "bytes": 2320,
+      "sha256": "3aa822fde52797ee41d3ecb68fc2a6367816dd068583fabf53cbb4fbcba5f377"
+    },
+    {
+      "path": "clinic3d/docs/browser-v12.json",
+      "bytes": 2074,
+      "sha256": "7c3fc4123818312c1d153245ef6202a6f9db6d8eb533e0801c22e52703132587"
+    },
+    {
+      "path": "clinic3d/docs/browser-v13.json",
+      "bytes": 1879,
+      "sha256": "0126f78d9b53a99274bacdfa30a189a2bcff1090dcf1f6a1ff566189ddb780c8"
+    },
+    {
+      "path": "clinic3d/docs/browser-v14.json",
+      "bytes": 3578,
+      "sha256": "d90d298a352bbde88ffbb10c86d4eccb6765dd31269ce677714b64a281656a95"
+    },
+    {
+      "path": "clinic3d/docs/browser-v15.json",
+      "bytes": 2933,
+      "sha256": "f574678a5c63265ab76d8f025f208b2064cfee5fe668fc983ebbe8245d652163"
+    },
+    {
+      "path": "clinic3d/docs/browser-v16.json",
+      "bytes": 1694,
+      "sha256": "6e49f7af0014236739d5d37eb134b0032a94dcde77697f4b40dda2e4d5448d75"
+    },
+    {
+      "path": "clinic3d/docs/browser-validation.json",
+      "bytes": 1133,
+      "sha256": "c319a34194cd8a3c255f3ee59780253ed3c632ea896d1c7d2e45cea4f7ce041a"
+    },
+    {
+      "path": "clinic3d/docs/care-content-v9-review.json",
+      "bytes": 8875,
+      "sha256": "14a370f3ec2e8b1d3e74431156a36ecd96dbbcb52e652e4e04b89f0758864d00"
+    },
+    {
+      "path": "clinic3d/docs/clinical-audit.json",
+      "bytes": 23878,
+      "sha256": "3f180cb37dfc26c7a9fd62fa4e9e7bde3f7aae3205440361284aa46f5827a198"
+    },
+    {
+      "path": "clinic3d/docs/deepseek-v15-sources.json",
+      "bytes": 2169,
+      "sha256": "dedafa9dfd3295d9aa30bf19a49c497a107a138ade5e0b6c535ea72e26c3ce72"
+    },
+    {
+      "path": "clinic3d/docs/document-preview.png",
+      "bytes": 90877,
+      "sha256": "2be66b8fa6717608334de7a8a070b1595a908d8a07ffdfeffebf9fcbabceac0e"
+    },
+    {
+      "path": "clinic3d/docs/documentation-v13-API.txt",
+      "bytes": 1871,
+      "sha256": "0c46a2555d678a7f49f2e27730e2b3fb4efd10970da51fd77a035a09a0f72735"
+    },
+    {
+      "path": "clinic3d/docs/documentation-v13-check.json",
+      "bytes": 760,
+      "sha256": "04db51800da5ff1fd4a5c5fc712395242d8060885f20727a89c2051d038d83bb"
+    },
+    {
+      "path": "clinic3d/docs/documentation-v13-validate.mjs",
+      "bytes": 5447,
+      "sha256": "7fa62ecae6de16e862661b5133bfb7681752aaf812fc63628d4d97cf6074e35d"
+    },
+    {
+      "path": "clinic3d/docs/eight-act-route-v14.json",
+      "bytes": 2648,
+      "sha256": "8cf9290ed4f87d16fe3e694d12ba01e241e9a87c25d803ed4d0aac6934f6643f"
+    },
+    {
+      "path": "clinic3d/docs/eight-act-script-v14.html",
+      "bytes": 29742,
+      "sha256": "786bdc5a3fc83bedd4e9f669bcdc3e32ad7c5247318c831610500974dca1abf0"
+    },
+    {
+      "path": "clinic3d/docs/film-dialogue-v18.json",
+      "bytes": 62115,
+      "sha256": "83c96eac812bb024b7698a02f85019135dcf840deef46eebd44ef0cfac46f00e"
+    },
+    {
+      "path": "clinic3d/docs/film-events-v18-validation.json",
+      "bytes": 613,
+      "sha256": "7dbf04eff86596b00ca89671686cd8bd384873f462079d690016c7f92029983e"
+    },
+    {
+      "path": "clinic3d/docs/film-sequence-v18-tests.json",
+      "bytes": 4240,
+      "sha256": "2691f3a50f99916bd9edf82c6fceba6ceecef55234d722a0c51caefbe2a4437d"
+    },
+    {
+      "path": "clinic3d/docs/flow-tests-v9.json",
+      "bytes": 4245,
+      "sha256": "2e521805ca3b361c3fc417cab1688b1c89a968cd39ccd8bf829ce6b471bb5db5"
+    },
+    {
+      "path": "clinic3d/docs/flow-v12-results.json",
+      "bytes": 4246,
+      "sha256": "a8760e40fc8321aebc41c8126898849829d4ad9b1d5187077124dbd9fba21d7b"
+    },
+    {
+      "path": "clinic3d/docs/flow-v13-results.json",
+      "bytes": 4246,
+      "sha256": "2550cd6273043a0c8ce77bd07c70a805580381ef887d0b58f47a6ae506adbff9"
+    },
+    {
+      "path": "clinic3d/docs/flow-v14.json",
+      "bytes": 5211,
+      "sha256": "618cbad8904a7af7459379498646bafde3b9fcd7715d21e1c94e5023a26b62e4"
+    },
+    {
+      "path": "clinic3d/docs/flow-v15.json",
+      "bytes": 5211,
+      "sha256": "1111f267f8a75bcb9a85a66e257541254bb4e3090e9f05048a89f89a5008db9b"
+    },
+    {
+      "path": "clinic3d/docs/gait-v10-review.txt",
+      "bytes": 2894,
+      "sha256": "f3c40c193d630025b49637b00ad07f9f6ef3c8fcf9c9b35a3cda3a52f01b7db0"
+    },
+    {
+      "path": "clinic3d/docs/gait-v10-selftest.mjs",
+      "bytes": 6767,
+      "sha256": "bd316d75cf1987e4460ef3779d6e02afe136d9766207478b5a21f7440be0eea4"
+    },
+    {
+      "path": "clinic3d/docs/gait-v10-sources.json",
+      "bytes": 1874,
+      "sha256": "afcf8e39817110e637f5de73ca4b9041e454fe0f70d8330d8c0e58a0d6e55842"
+    },
+    {
+      "path": "clinic3d/docs/heygen-v16-production.json",
+      "bytes": 2264,
+      "sha256": "71c367461680b722281a5cafc862958673fda4653af91780a55d77a9262700d3"
+    },
+    {
+      "path": "clinic3d/docs/heygen-v16-script.html",
+      "bytes": 29305,
+      "sha256": "8f10d9d747ea1017aba732afb6fc10dcd17508544e9c02c3d5420914cb67d212"
+    },
+    {
+      "path": "clinic3d/docs/heygen-v16-script.json",
+      "bytes": 28907,
+      "sha256": "607ada7c0553d468e7a67df6ae067fdc2ce0a034b62f23b3b05abcd0e11e2242"
+    },
+    {
+      "path": "clinic3d/docs/heygen-v18-pilot-request.json",
+      "bytes": 3788,
+      "sha256": "03776f8d5697da3e10bed34b6819e5dfa74ebb98c922f2fd103bcc54b941c962"
+    },
+    {
+      "path": "clinic3d/docs/heygen-v18-production.json",
+      "bytes": 2042,
+      "sha256": "72f2786d09d0aa48fbf38ecff3adc1947eaf6d1f929021c757ae0f55e01d28ca"
+    },
+    {
+      "path": "clinic3d/docs/independent-review.json",
+      "bytes": 4576,
+      "sha256": "2def4e337781964bd4bbb5d38cad6bce3e9847f7cce69f8273d49e31dbc83939"
+    },
+    {
+      "path": "clinic3d/docs/learning-v15-backend-contract.json",
+      "bytes": 8029,
+      "sha256": "b2bb6d381dbddae4542d010f6bf95db7ee484f0842d9602179e1d8ddc70d9ae1"
+    },
+    {
+      "path": "clinic3d/docs/learning-v15-backend-tests.json",
+      "bytes": 10590,
+      "sha256": "2b514882c72de3fffa191216a8d1e15700662606fbf653fc2d7c7cb2392d945c"
+    },
+    {
+      "path": "clinic3d/docs/LICENSE_SCOPE-v12-append.txt",
+      "bytes": 1569,
+      "sha256": "ce786f793675f4f30c4c669e027c785d2a704c5d975c3ef0cc83bf8f3ca4fee5"
+    },
+    {
+      "path": "clinic3d/docs/navigation-v16-events-tests.json",
+      "bytes": 1134,
+      "sha256": "28924da87c23c4922956162e1a1c9f3f21dfbdb517642dd3ab1a815e4eb9a055"
+    },
+    {
+      "path": "clinic3d/docs/navigation-v16-prior-flow-tests.json",
+      "bytes": 5211,
+      "sha256": "06dc2ef0f60fa92b2b651d28fbdc54a8c9c8a6f3f264d82afe7bf1a226233e9a"
+    },
+    {
+      "path": "clinic3d/docs/navigation-v16-tests.json",
+      "bytes": 4814,
+      "sha256": "9b136d46af586019fb50d6be947f93a19a712c3ed6ffa9b1741db8a9a3742ca2"
+    },
+    {
+      "path": "clinic3d/docs/NOTICE_V9.txt",
+      "bytes": 1087,
+      "sha256": "6c6b15b7b5fea91eef95e5e3af5f5304155724a6041f0921f2ed55a99994c2b2"
+    },
+    {
+      "path": "clinic3d/docs/objectives-v15.json",
+      "bytes": 20775,
+      "sha256": "a147eb81d53f7373686073b3485bec2acad80c06265d05a1eed068f8e362aed1"
+    },
+    {
+      "path": "clinic3d/docs/patient-v11-content-review.json",
+      "bytes": 912,
+      "sha256": "202f1c7477a1f38ce329f011057ae66466e44e2d31eef98079f19e3be2991e72"
+    },
+    {
+      "path": "clinic3d/docs/pressure-v12-actor-integration-results.json",
+      "bytes": 1434,
+      "sha256": "482bcf6644da723508fe9d124abd297778f9ac6395ea27318116fc8f04f38710"
+    },
+    {
+      "path": "clinic3d/docs/pressure-v12-actor-integration.mjs",
+      "bytes": 5085,
+      "sha256": "acfbb1acbe58217459602d236173bfac933dfac61804fd46c90573a7c5a7e04a"
+    },
+    {
+      "path": "clinic3d/docs/pressure-v12-API.txt",
+      "bytes": 3273,
+      "sha256": "740be48d0cbf0270f9fffbcaead1ce30d73e7a66fc570457662576d216e21c84"
+    },
+    {
+      "path": "clinic3d/docs/pressure-v12-integration-review.json",
+      "bytes": 5827,
+      "sha256": "086eddfa28ead5a8fc7a48161463ce8560f96481c561959d96df4a1161cb971e"
+    },
+    {
+      "path": "clinic3d/docs/pressure-v12-sources.json",
+      "bytes": 4741,
+      "sha256": "46e554fa4ed59007292b9edb38650b5f978e9b130e3b0780ff1555496e19115b"
+    },
+    {
+      "path": "clinic3d/docs/pressure-v12-test-results.json",
+      "bytes": 1592,
+      "sha256": "3c1d58da650ac72771894bb7e64a7516130f69a292040a8d8c65a3eee22794f4"
+    },
+    {
+      "path": "clinic3d/docs/pressure-v12-tests.mjs",
+      "bytes": 8271,
+      "sha256": "2f5efca63106f4587150232605d41581d030d1c222bfb8d851e52f5b2e18485a"
+    },
+    {
+      "path": "clinic3d/docs/production.json",
+      "bytes": 11484,
+      "sha256": "0f385c1652b98bab6be6c18ee13a90ab244a033b793bd95ce0b6919154d35c92"
+    },
+    {
+      "path": "clinic3d/docs/progress-v14.json",
+      "bytes": 397,
+      "sha256": "d7d7465b8f72180cf42cf7f68e9426f5b7c618b1fbf4b2e8ce741d9d9968f658"
+    },
+    {
+      "path": "clinic3d/docs/project-guide-v16-tests.json",
+      "bytes": 2118,
+      "sha256": "074074c02fe789fd532411da4c1f903bdf13cfa38878d6bc0418ba650d695daf"
+    },
+    {
+      "path": "clinic3d/docs/README-v12-fragment.md",
+      "bytes": 4745,
+      "sha256": "114fd457779be106df86fe07543250a68528db4aa6f29afa90b7f6744098e3fc"
+    },
+    {
+      "path": "clinic3d/docs/README-v13-fragment.md",
+      "bytes": 1520,
+      "sha256": "245429f8d6e6b042c0e7da6a31747473eafba173ff0a58a14008f71469dbcaad"
+    },
+    {
+      "path": "clinic3d/docs/README.txt",
+      "bytes": 1833,
+      "sha256": "216e0b861be86ab8129e3b8e384dda42753d4b69e6198722acdc57b136a833cd"
+    },
+    {
+      "path": "clinic3d/docs/README_v12_historical.md",
+      "bytes": 4745,
+      "sha256": "114fd457779be106df86fe07543250a68528db4aa6f29afa90b7f6744098e3fc"
+    },
+    {
+      "path": "clinic3d/docs/README_v5_historical.md",
+      "bytes": 11055,
+      "sha256": "439e1981b188856aceefd669fc91834777366cb039593e37122e9ec47b32bac6"
+    },
+    {
+      "path": "clinic3d/docs/README_v8_historical.md",
+      "bytes": 4749,
+      "sha256": "71bf684f4e63f4e9abd3b0f0361e2d76259242a4274a01ab469d596c0a4455b2"
+    },
+    {
+      "path": "clinic3d/docs/render-script-v14.mjs",
+      "bytes": 6250,
+      "sha256": "9ab2c2e4d7cfcd5ccd28d5bad213dd873dae0a6541d34deeb15ae35f9c3cb0ff"
+    },
+    {
+      "path": "clinic3d/docs/review-v15-round-1.md",
+      "bytes": 2297,
+      "sha256": "74a5019300e4486710f32e64bb32597bf83cd808947c31dbfe657502336e9869"
+    },
+    {
+      "path": "clinic3d/docs/review-v15-round-2.md",
+      "bytes": 2741,
+      "sha256": "e37bb5fc74b846d17b90ca44eef61081554f039873cf7d302f70f9d6cab1f2f1"
+    },
+    {
+      "path": "clinic3d/docs/review-v15-round-3.md",
+      "bytes": 2918,
+      "sha256": "59d440c51402ccd9293aa31c07e09d399f1d7a09ed6914d739f255494157dded"
+    },
+    {
+      "path": "clinic3d/docs/review-v15-round-4.md",
+      "bytes": 2592,
+      "sha256": "c2181fa4b84659506f8bbc6c5a81d0f8f12feed91c7d048b43203915c303cf6c"
+    },
+    {
+      "path": "clinic3d/docs/review-v15-summary.json",
+      "bytes": 5154,
+      "sha256": "b685f43e8358db53570749221695cbfaafde6e712b46ec423309f4c376ed3b3e"
+    },
+    {
+      "path": "clinic3d/docs/review-v20.html",
+      "bytes": 3322,
+      "sha256": "2f02926ba8d69d40d51c9c0927a07484acbfdd7cac6a8c42359eb78d766540c3"
+    },
+    {
+      "path": "clinic3d/docs/review-v21.html",
+      "bytes": 2521,
+      "sha256": "fd4caf81c6ba0b16a25d6a9d22d8f9b6ec31bb970afd9495f705928ee1e61d7b"
+    },
+    {
+      "path": "clinic3d/docs/room-feasibility.json",
+      "bytes": 15155,
+      "sha256": "57387600a909723d8e198709bfc237857d652a12a8c4acbd0b3ca4a8f6fd22e7"
+    },
+    {
+      "path": "clinic3d/docs/room-layout-preview.png",
+      "bytes": 169929,
+      "sha256": "5a9f538d0f188ad1b04c390040c733a639d1d4338d01aec5bd8a269c53bb6e25"
+    },
+    {
+      "path": "clinic3d/docs/room-layout.svg",
+      "bytes": 13331,
+      "sha256": "e53ac9c5924fa8151cab977e32a687fa9e495ecf876c0c923c5704d6f107915c"
+    },
+    {
+      "path": "clinic3d/docs/room-structure-v10.json",
+      "bytes": 400,
+      "sha256": "f87192348a6c9e949147d591cc3ce94b5ad2970351ba7c2d9dcd67e23835b0f3"
+    },
+    {
+      "path": "clinic3d/docs/room-validation.json",
+      "bytes": 1723,
+      "sha256": "755b2f110f705656b365aae32529251994246d562f60ee857064eeefb4bd0177"
+    },
+    {
+      "path": "clinic3d/docs/runtime-preservation-v15.json",
+      "bytes": 508,
+      "sha256": "944067de00772a6a93012659513a77922749031b0dd5591a5d5fa0e13cd93ec3"
+    },
+    {
+      "path": "clinic3d/docs/script-v7.html",
+      "bytes": 91372,
+      "sha256": "ca425eccddd6fdd8442ff2492e3e1bbf43f89092970521fcc06c89a906195a97"
+    },
+    {
+      "path": "clinic3d/docs/script.json",
+      "bytes": 31728,
+      "sha256": "6761ed867fbb4ccd3f921b538b6842a1cda63a223716aca2cf9e7cb7732e984b"
+    },
+    {
+      "path": "clinic3d/docs/shelf-v11-notice.txt",
+      "bytes": 882,
+      "sha256": "bcf9fc6dfccfe7572c412b66c3cedaee3c634a7f2142c6eb0d691c5aacd4d0d4"
+    },
+    {
+      "path": "clinic3d/docs/shelf-v11-structure.json",
+      "bytes": 2027,
+      "sha256": "93164b032676016ed32b6a095c9fed993f9a26606adbe9aba3d3c167c693c703"
+    },
+    {
+      "path": "clinic3d/docs/shelf-v11-validate.mjs",
+      "bytes": 4100,
+      "sha256": "40de53a0637d37b4260a0c64ef0f413a6dc6b00f9dbc1d4131e01188a14aac88"
+    },
+    {
+      "path": "clinic3d/docs/shot-plan.csv",
+      "bytes": 1712,
+      "sha256": "ce1a8f7122d97c26316109d9001e2c210bfc80a30a0f17c9a81da0d8f496118c"
+    },
+    {
+      "path": "clinic3d/docs/siliconflow-v15-sources.json",
+      "bytes": 2529,
+      "sha256": "1b05b35b0698addb1f0a68827a252f94afb21c262e054567ab66996eb79aa461"
+    },
+    {
+      "path": "clinic3d/docs/socks-v12-API.txt",
+      "bytes": 1824,
+      "sha256": "2e3c3a75adc26267ee37b7a3299e337a354595f58e8edf4283a2c838fd52e40b"
+    },
+    {
+      "path": "clinic3d/docs/socks-v12-check.json",
+      "bytes": 2412,
+      "sha256": "babf97ec602fb428008e05602576628dd7cbf7b2529f35b15e21e2b361ae2d8b"
+    },
+    {
+      "path": "clinic3d/docs/socks-v12-integration-review.json",
+      "bytes": 1938,
+      "sha256": "df8fe0e5d365ce79c4da3184386afe258c9a9664f374698c4273bc1a83965e3c"
+    },
+    {
+      "path": "clinic3d/docs/socks-v12-validate.mjs",
+      "bytes": 6531,
+      "sha256": "ff957289d7cdbca64311030a1c9393f676c5d7b11ece8022436ccde3c68e8969"
+    },
+    {
+      "path": "clinic3d/docs/student-v15-ui-tests.json",
+      "bytes": 1660,
+      "sha256": "a9e16a906c32741c481670a9511cabce60e3985a334b367c43f6566def3398de"
+    },
+    {
+      "path": "clinic3d/docs/teacher-review-v10.json",
+      "bytes": 1617,
+      "sha256": "ec8ecd460aac85bd08999c8cd946424d9d677a46e8f2d241bd4764dc260ac1d4"
+    },
+    {
+      "path": "clinic3d/docs/teacher-review-v11.json",
+      "bytes": 2265,
+      "sha256": "248b9d298fe77cf4f97bae944cc8d3401895b60ceacba115164f5fda7ddb2058"
+    },
+    {
+      "path": "clinic3d/docs/teacher-review-v12.md",
+      "bytes": 5015,
+      "sha256": "3d813f54efe7dbaa219cac65ed0c6d0c9e20aa819c63533f5eb519ce8e192462"
+    },
+    {
+      "path": "clinic3d/docs/teacher-review-v13.md",
+      "bytes": 3564,
+      "sha256": "2a4b0e432838db10918d4de183dadea32822f5d1b4d9a118f24b2fc7f5ebfc1b"
+    },
+    {
+      "path": "clinic3d/docs/teacher-review-v14.md",
+      "bytes": 2229,
+      "sha256": "3064938014e443f98180e90a1636ee464e7a7567708e10ef2f80cb9bcab3afc4"
+    },
+    {
+      "path": "clinic3d/docs/teacher-v15-api-smoke.json",
+      "bytes": 2708,
+      "sha256": "4d5bd041d2794e0bde2fc5edde46f9b871e8f83d9a0b6fef4e1dc49d3d8bb1a3"
+    },
+    {
+      "path": "clinic3d/docs/teacher-v15-ui-tests.json",
+      "bytes": 2537,
+      "sha256": "552ab629ce326b8c4829269b0927f22e7002a1e6b4c731e073f250e5be2c1812"
+    },
+    {
+      "path": "clinic3d/docs/ui-check-v9.json",
+      "bytes": 1977,
+      "sha256": "07d32578bb081449e81271093c1b20ff22aac998f4fbcc9b075265c0a6f221db"
+    },
+    {
+      "path": "clinic3d/docs/v12-anatomy-posters.json",
+      "bytes": 14804,
+      "sha256": "8f157b6ac690bdf1b5241f3c1f34ebf82f7253c943819a8ed13c8449bb2443c6"
+    },
+    {
+      "path": "clinic3d/docs/v12-dialogue-review.json",
+      "bytes": 533,
+      "sha256": "a8df04b42ca701262c9809e3f25c6236dca4027e32ffca2393413ff28823af4a"
+    },
+    {
+      "path": "clinic3d/docs/v12-render-atlas.py",
+      "bytes": 8357,
+      "sha256": "7f440f6b3ecb23a8de21a939301deb431081dca17e77933a09d1542550e23e77"
+    },
+    {
+      "path": "clinic3d/docs/v12-room-structure.json",
+      "bytes": 3353,
+      "sha256": "dc08073fbbc1ab5aeec0b9bcfa637be2cc994eee04b25ba5dfd1a9b0ce593e2e"
+    },
+    {
+      "path": "clinic3d/docs/v12-room-validate.mjs",
+      "bytes": 6184,
+      "sha256": "199b8cacea501fe4ee7eb119711f65b78df9238cb4cb6e33e1519900e4cfb761"
+    },
+    {
+      "path": "clinic3d/docs/v13-room-structure.json",
+      "bytes": 3353,
+      "sha256": "e0fcf23fb0c746be4529caa6002f1923f867a905454b0b3b7bd2be4f3654b2e5"
+    },
+    {
+      "path": "clinic3d/docs/v13-room-validate.mjs",
+      "bytes": 6184,
+      "sha256": "a8aadad7a8791b0d4a5b5ca849d9706def3052ea1f129415e82896a8a9485bab"
+    },
+    {
+      "path": "clinic3d/docs/v14-clinical-integration-check.json",
+      "bytes": 6533,
+      "sha256": "5cbd2a8eed62603d4871ce87fa7b70d5c73f241f09830418888ccc7b69d6f549"
+    },
+    {
+      "path": "clinic3d/docs/v14-clinical-script-review.md",
+      "bytes": 6560,
+      "sha256": "52c2bea7cabecc28a6ccf2d67ffe3c359e8858225a26673f9144b0f59cce776a"
+    },
+    {
+      "path": "clinic3d/docs/v14-clinical-sources.json",
+      "bytes": 12215,
+      "sha256": "6532b4933581b058fc996827bfee909075b3c7d04c5c5f06daf60a61a93fc80b"
+    },
+    {
+      "path": "clinic3d/docs/v14-flow-migration-audit.md",
+      "bytes": 12857,
+      "sha256": "6faf73b41c80b0633a7ac02e6e8a68decb3279185f465b207469cc0354a22151"
+    },
+    {
+      "path": "clinic3d/docs/v14-new-task-ui-tests.json",
+      "bytes": 1388,
+      "sha256": "2064047ed31605eae7fbe8f414784869bb170e5d3d91522e0635eb82f04e836d"
+    },
+    {
+      "path": "clinic3d/docs/v14-new-task-ui-tests.mjs",
+      "bytes": 9443,
+      "sha256": "49e500ff898dc540d84ba49335aaf59f98860ccb148edba004c6aa3ebf66863a"
+    },
+    {
+      "path": "clinic3d/docs/v14-progress-tests.mjs",
+      "bytes": 2036,
+      "sha256": "0f3f3415be25a5abffd7b254d1324d9559e54325265e7bc930c956e16578d064"
+    },
+    {
+      "path": "clinic3d/docs/v14-retained-regression.json",
+      "bytes": 20085,
+      "sha256": "90f94abc4d9c72823319518677bd0a2aa421f8cc4308fa9b34015910f83153aa"
+    },
+    {
+      "path": "clinic3d/docs/v14-rom-mmt-review.md",
+      "bytes": 8547,
+      "sha256": "66c7138ee5a9ac5f526f7e216287903a203fa6dc2eb2e6c53077918887fc4d02"
+    },
+    {
+      "path": "clinic3d/docs/v14-rom-mmt-sources.json",
+      "bytes": 7939,
+      "sha256": "2cb4b6654cdc70130310b7fad05f67ba38030fce5518e4c7c91735963e29badd"
+    },
+    {
+      "path": "clinic3d/docs/v14-script-content-check.json",
+      "bytes": 721,
+      "sha256": "8e045f866de5a05b1f369d88f27c85ee28289afcf94ad439f1543cfc8fc7a78b"
+    },
+    {
+      "path": "clinic3d/docs/v8-flow-test.json",
+      "bytes": 4245,
+      "sha256": "a6eeb5800bebf097c9d4a106fa69200da736fc99f24c9aee5f1fa69a8143ffa8"
+    },
+    {
+      "path": "clinic3d/docs/v8-ui-test.json",
+      "bytes": 1357,
+      "sha256": "130b3a6c583d2d61781854d6417ddd6497668475bac7766a6ca4796120b4c54b"
+    },
+    {
+      "path": "clinic3d/docs/validation-v12.md",
+      "bytes": 5118,
+      "sha256": "f100f49104f89c0b5167038c196390f31b1e3c65671a092c09895bab0c2a35f1"
+    },
+    {
+      "path": "clinic3d/docs/validation-v13.md",
+      "bytes": 3404,
+      "sha256": "ce423a7a9c983aee353d74091a69441a6c6ac2fed1eb324045a9729d9fa24c0b"
+    },
+    {
+      "path": "clinic3d/docs/validation-v14.md",
+      "bytes": 2659,
+      "sha256": "df41370e66a6575c40cd797f9250d50a8be940610403de672bdb8b87bad90aa3"
+    },
+    {
+      "path": "clinic3d/docs/validation-v15.md",
+      "bytes": 2423,
+      "sha256": "6c1eaf38174f09c1a15b7fe43f7083e20b6c6ab61f1f9d1321c5df4ce70b319e"
+    },
+    {
+      "path": "clinic3d/docs/validation-v16.txt",
+      "bytes": 1065,
+      "sha256": "43715033146f246d973b125b1594d90a7b29e9840b7827d4b3e76895bb04a4fb"
+    },
+    {
+      "path": "clinic3d/docs/validation.json",
+      "bytes": 3945,
+      "sha256": "a4835eac8c26b7a91cbcce32234fbcd21fb09d35b7432b32b11c062046976ec4"
+    },
+    {
+      "path": "clinic3d/film-media-v18.json",
+      "bytes": 1947,
+      "sha256": "5c646810cf9970ac4d5a433cb5bae8b7ab32c44ee8037fa8c0248e4a678b8a5f"
+    },
+    {
+      "path": "clinic3d/film-sequence-data.js",
+      "bytes": 55299,
+      "sha256": "a91eb67b4ab8163363cd0adfe28b839b9dfcebd752af8266d8555479e1e34dc1"
+    },
+    {
+      "path": "clinic3d/film-sequence.js",
+      "bytes": 9198,
+      "sha256": "5edfc58c00282d3f0391d8a3b1f2249565ee06efa8ad0d877572cec4f7b49189"
+    },
+    {
+      "path": "clinic3d/focus-v21.css",
+      "bytes": 1883,
+      "sha256": "f17bd6077bc31a525b75e3c056d4c872407285c06927eadcc4126dc671ea4426"
+    },
+    {
+      "path": "clinic3d/gait-lesson.js",
+      "bytes": 8776,
+      "sha256": "78f8615fac18bf13d94e1d6b5c137cd9f49520eb949856598eff7c978e59306d"
+    },
+    {
+      "path": "clinic3d/immersion-v23.js",
+      "bytes": 7505,
+      "sha256": "47a86605c780fbb2feeaa68d6ee09f521e8f76017d7a90345293698e77e4e50c"
+    },
+    {
+      "path": "clinic3d/index.html",
+      "bytes": 12267,
+      "sha256": "cb13091df6e1fdd497c4a9a49489c87e7fd65127febe39b3cc12afec82e1c77f"
+    },
+    {
+      "path": "clinic3d/learning-bubbles-v25.css",
+      "bytes": 2258,
+      "sha256": "d74ea0721cd0ddead078423f3a4a0c039b154ccc6abe792283c8fffe0751f374"
+    },
+    {
+      "path": "clinic3d/learning-bubbles-v25.js",
+      "bytes": 4267,
+      "sha256": "71bebda537d53bf172e69f8a76559685f979f07031fb11316e922e0eb3c424ca"
+    },
+    {
+      "path": "clinic3d/learning-ui.js",
+      "bytes": 27404,
+      "sha256": "e53818c364f8c93c9154dd4956e7233bb96276f07aaaebca0d68d696047d6193"
+    },
+    {
+      "path": "clinic3d/lesson-coach.js",
+      "bytes": 8326,
+      "sha256": "525dcae493e0eaaf9aba12e696562193f3ac60476185ba118fc186b67ffecc10"
+    },
+    {
+      "path": "clinic3d/natural-language-v26.js",
+      "bytes": 5333,
+      "sha256": "c9170f5fa361d9271a1ab955c28d1ec412be7e81ac593c3cdbf5baae87bed4b4"
+    },
+    {
+      "path": "clinic3d/patient-suit.js",
+      "bytes": 10599,
+      "sha256": "17a8b7caf1cba22dfe1bf1bd81c4440a9c5a512e648db0dbdfc117fc7458757e"
+    },
+    {
+      "path": "clinic3d/portraits-v21.js",
+      "bytes": 533,
+      "sha256": "c4175fd7e086fbf67cc725c33f0ac13937293524ff1774fcb6e635f450990e85"
+    },
+    {
+      "path": "clinic3d/pressure-engine.js",
+      "bytes": 26796,
+      "sha256": "a1ef616d21eb14fcc4c385a678d9e32bcb7cfdcb818b39a843d30b22742a630e"
+    },
+    {
+      "path": "clinic3d/pressure-stage.js",
+      "bytes": 2886,
+      "sha256": "69ad2a91a2c383b7df25becfb6abdb8c3781064ed4e8d55de877d31359578e1a"
+    },
+    {
+      "path": "clinic3d/progress-migration.js",
+      "bytes": 1094,
+      "sha256": "6f2d987e0cac85b7502f27f1040904046f71c38c2e9205460d76a19dab161b77"
+    },
+    {
+      "path": "clinic3d/realistic-panels.js",
+      "bytes": 11346,
+      "sha256": "cae65fc47ce0ac480b3afb93e89da1f3cc286c3e3432d4095fe0477b6b93fe94"
+    },
+    {
+      "path": "clinic3d/refinement-v26.css",
+      "bytes": 968,
+      "sha256": "c48202a4f7cee7095a0f7691b4b1a7e8f721f51ca103bf21f47435188062224a"
+    },
+    {
+      "path": "clinic3d/room-implementation.json",
+      "bytes": 14241,
+      "sha256": "ba89bf23a1bb668bfc8c897a9224ae85e591c43c118154424c81cdc5b96aad47"
+    },
+    {
+      "path": "clinic3d/scene-room.js",
+      "bytes": 31375,
+      "sha256": "79840ce6b15567f2f2a406acf4a43d6dd3412eb954403ebcbb66d660fc10a895"
+    },
+    {
+      "path": "clinic3d/soap-route-v20.js",
+      "bytes": 8700,
+      "sha256": "12106f6ab5f942cb1d2332e83b2fe3a088470cc9f04c163768e5393d65fabe18"
+    },
+    {
+      "path": "clinic3d/soap-tasks-v20.js",
+      "bytes": 2173,
+      "sha256": "e9603c82093e6c57021f2516479191cafae8e464d6cec10c8f308d6f43d03753"
+    },
+    {
+      "path": "clinic3d/test-film-sequence-v18.mjs",
+      "bytes": 12888,
+      "sha256": "3de2fd5b8c4839577027e7e790f41c957aa1f6abad22639fa92f3a7795fddc25"
+    },
+    {
+      "path": "clinic3d/test-flow.mjs",
+      "bytes": 20309,
+      "sha256": "38d7d7021c6bd6bc78c5804dcd29a115edd9c95865ef750a5dd42b9af0b41364"
+    },
+    {
+      "path": "clinic3d/test-navigation-v16.mjs",
+      "bytes": 16875,
+      "sha256": "2d32d097c3fefc5e5cd6b1889ec837e0327dcbb1a20edb002e0cda011a7fcc18"
+    },
+    {
+      "path": "clinic3d/vendor/THIRD_PARTY.json",
+      "bytes": 1110,
+      "sha256": "1de0fcdfa19884fb8b415e90c4f8ec99add07d09c21876a7bb23480e1fab4cc7"
+    },
+    {
+      "path": "clinic3d/vendor/three/build/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "clinic3d/vendor/three/build/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "clinic3d/vendor/three/examples/jsm/controls/OrbitControls.js",
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "path": "clinic3d/vendor/three/examples/jsm/loaders/GLTFLoader.js",
+      "bytes": 114739,
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    {
+      "path": "clinic3d/vendor/three/examples/jsm/utils/BufferGeometryUtils.js",
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "path": "clinic3d/vendor/three/LICENSE",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "clinic3d/walking-panel-v26.css",
+      "bytes": 2704,
+      "sha256": "9a9484cefb61c187844830052905383aa7b43e2091ca35fe45a2853a751b7b01"
+    },
+    {
+      "path": "clinic3d/walking-panel-v26.js",
+      "bytes": 15256,
+      "sha256": "b338ccacd9b1023baf38b898dade9a331964bf3ee1b9d7910d4395a740bd6d3b"
+    },
+    {
+      "path": "clinic3d/walking-pose-v27.js",
+      "bytes": 1765,
+      "sha256": "6019e07b007370fb3531e7dc79d61dc69bc0f0c3a09e1e9536d83c44c8cdd12b"
+    },
+    {
+      "path": "clinic3d/walking-principles-v26.js",
+      "bytes": 2627,
+      "sha256": "90fecd68c7b55f7ef278b414304b73a4f86302c5765e7296b89424c222e87893"
+    },
+    {
+      "path": "DEPLOY_GUIDE.html",
+      "bytes": 2499,
+      "sha256": "5cd9653d4cd165eaec65bfa58a052ca193fbfbefe0d8359b84b826fe9fab806c"
+    },
+    {
+      "path": "docs/assets-v26.json",
+      "bytes": 1763,
+      "sha256": "39672aa27bfc796fbe27cfcfc96337b0b88fd403bda577a1078e14af25dbdd13"
+    },
+    {
+      "path": "docs/assets-v27.json",
+      "bytes": 477,
+      "sha256": "9a05b896f8a0fb828c428f1bba0284fa12cde63987d3d07a7ee788206aad77ab"
+    },
+    {
+      "path": "docs/backend-v24.json",
+      "bytes": 10590,
+      "sha256": "8c121187f45108e9a446f44342280cb38daf058e619727b122e15bac161fd308"
+    },
+    {
+      "path": "docs/data-review-v26.html",
+      "bytes": 18148,
+      "sha256": "a1c8250275391015d6f172d3bb91a645fc4af94eaeb3b8bf94de95b3957a9c41"
+    },
+    {
+      "path": "docs/encounter-v4-export-verification.json",
+      "bytes": 823,
+      "sha256": "8bebbc01d21240dcdc0d965bff511a08cacc327a8b51bee223461731258e1df4"
+    },
+    {
+      "path": "docs/encounter-v4-service-checks.json",
+      "bytes": 1834,
+      "sha256": "3f33087bc1494531626fa1c712016bdf9a3f4eeab64e55cb3a3988b3ee8a7c88"
+    },
+    {
+      "path": "docs/encounter-v4-ui-smoke-check.json",
+      "bytes": 2751,
+      "sha256": "857ebbf2351e5a65c27ca155ef0688ec75efd81de402434e79ef297c8efb51a3"
+    },
+    {
+      "path": "docs/encounter-v5-export-verification.json",
+      "bytes": 627,
+      "sha256": "a64acbd164ff5a6d088ae00071991d30b9dff02408c0631120aa66e7b89e9868"
+    },
+    {
+      "path": "docs/encounter-v5-service-checks.json",
+      "bytes": 8447,
+      "sha256": "c44f55088b3226a0b6252820ccab946d577c3b15ab44a9d2771d852dad04064c"
+    },
+    {
+      "path": "docs/encounter-v5-stage-checks.json",
+      "bytes": 2715,
+      "sha256": "02caa3b85021b882dc1872594d230891ded6558b95b1c2bebbf34180c7cad427"
+    },
+    {
+      "path": "docs/encounter-v5-ui-smoke-check.json",
+      "bytes": 2866,
+      "sha256": "7b6eea99bd8a054d0be00d49b0664f5827457ecc319e7e2c3ee32c1bed843b80"
+    },
+    {
+      "path": "docs/excluded-file-hashes.json",
+      "bytes": 7342,
+      "sha256": "0b9f88e2eb5c04128880e87f47568a06e34674c1a0c2d3a91391ae495e6d480a"
+    },
+    {
+      "path": "docs/gait-rig-check-v27.json",
+      "bytes": 15761,
+      "sha256": "abb389654e3939ced92d95848f12882b0552c33ff47bf8f7bf9ded7cd786b1ae"
+    },
+    {
+      "path": "docs/input-audit.json",
+      "bytes": 992,
+      "sha256": "af7a5023a7492e79f1d041352882ae69d66a6e585ce7969ebcbcc5813bf41205"
+    },
+    {
+      "path": "docs/joint-check-v30.json",
+      "bytes": 347,
+      "sha256": "af4064db6243369fe3d9e4e734622ee7ddab3350ef31252ba2d2b0099d143f76"
+    },
+    {
+      "path": "docs/joint-landmarks-v30.json",
+      "bytes": 1492,
+      "sha256": "1547837f3c14c8b1350433f1094f70f8928b77ffe715b4d937c61d613e9d7919"
+    },
+    {
+      "path": "docs/lab-actions-v24.json",
+      "bytes": 48566,
+      "sha256": "7c153b6fa2aa47035d5ee203a946f6640f44032675cdef224dfdbf61607e74c8"
+    },
+    {
+      "path": "docs/live-ai-excel-v24.json",
+      "bytes": 320,
+      "sha256": "0f4e02e615a316412a380f22c836882acc07df98bca5b436ed1ffafd5f92a253"
+    },
+    {
+      "path": "docs/prearchive-check.json",
+      "bytes": 802,
+      "sha256": "31b53216043265ba98da32e303352f24a1ba520c48e8c97ed018a95bd36e9a11"
+    },
+    {
+      "path": "docs/pressure-export-verification.json",
+      "bytes": 1414,
+      "sha256": "877f9fc6ac9ae9143df5d18b420aa896a632186342131c840429d09928d39a98"
+    },
+    {
+      "path": "docs/pressure-inquiry-export-verification.json",
+      "bytes": 1303,
+      "sha256": "dd8bbde1651a554ff0becba8736c2ef4cce8e2fe7d209a17ff4dccff20643781"
+    },
+    {
+      "path": "docs/pressure-inquiry-ui-smoke-check.json",
+      "bytes": 2755,
+      "sha256": "5bca2bf943b89471a5906da1a96bd005f34fa70485e9a8d03fc714aa231305c8"
+    },
+    {
+      "path": "docs/pressure-ui-smoke-check.json",
+      "bytes": 2475,
+      "sha256": "6d3ba7d492b6d9485b64c90f92b1c27da196a18dbf8d1b6e10c628c63b48f5d3"
+    },
+    {
+      "path": "docs/private-access-v24.json",
+      "bytes": 585,
+      "sha256": "339ae91f57d8380347cdab5b3812375d172fb2787ac8e27162078386e4492c97"
+    },
+    {
+      "path": "docs/README_CLINIC_V4_HISTORY.md",
+      "bytes": 8316,
+      "sha256": "da47b846add3e8c081a4752e33ef859db34d0906718f2ee6c337567e052964cc"
+    },
+    {
+      "path": "docs/README_PRESSURE_V3_HISTORY.md",
+      "bytes": 9559,
+      "sha256": "45b2f774db60d75128af6d5111ee2200de225de4764c955bc06a25977f423061"
+    },
+    {
+      "path": "docs/retention-and-removal.json",
+      "bytes": 29096,
+      "sha256": "0208fd18f20cc2e391d2722d95354fd1540334a28c4374df794b667c7a9feec4"
+    },
+    {
+      "path": "docs/review-v22.html",
+      "bytes": 3807,
+      "sha256": "9af2e8233a67ed0a353241724914e92d4ab2f656759b9a44133f3e019a55247e"
+    },
+    {
+      "path": "docs/review-v23.html",
+      "bytes": 3311,
+      "sha256": "f1114ce23bb5a7993c6d015c184e1caafff6cde0bb4401338a5635d0c05c2d34"
+    },
+    {
+      "path": "docs/TASK_MIGRATION_REVIEW.csv",
+      "bytes": 28310,
+      "sha256": "2363799a2f1436e5eb60073694df808a2b297dbb23c478359bc735f08d14fe91"
+    },
+    {
+      "path": "docs/ui-smoke-check.json",
+      "bytes": 1811,
+      "sha256": "19d29efee54c116823beb34e9f7964be5fdcecabdf681c760da5dd1702d34dc3"
+    },
+    {
+      "path": "docs/update-v28.html",
+      "bytes": 1870,
+      "sha256": "d08b9271626a926f17c92ec3f3d691c99cc489443d558f8de4b710d07949a975"
+    },
+    {
+      "path": "docs/v24-asset-changes.json",
+      "bytes": 1395,
+      "sha256": "4d710633721703d5dc22ce9fc7a01634c08e8cdfdb71618ebcb836112cd277c8"
+    },
+    {
+      "path": "docs/wardrobe-check-v29.json",
+      "bytes": 361,
+      "sha256": "026dd35a368658d407cec00761673d2bd6079f6657f35ce5fe23f58589b26686"
+    },
+    {
+      "path": "excel_export.py",
+      "bytes": 10139,
+      "sha256": "95956fb44e7960dc27dc9b6ffc19606ce87bb0585b8d8043b000410fe2685fed"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 258,
+      "sha256": "8595bc251f54b13c9a4954d5982cd4503efd4f4de39a1056de49b9784a082824"
+    },
+    {
+      "path": "file-manifest-v5.json",
+      "bytes": 24517,
+      "sha256": "6419fbfe23012e5f697d46463c33c7f7c651916f50bbcaee40e254b51c64bdb0"
+    },
+    {
+      "path": "guide/guide.js",
+      "bytes": 5110,
+      "sha256": "072015b36b151d147f58b778550448a544f1a27eb202d35c0332d87c05490db8"
+    },
+    {
+      "path": "guide/NOTICE.txt",
+      "bytes": 350,
+      "sha256": "b6643a0038cd985cc4e79671b46dfc5d33715789abf2b81cf8da560b166a9078"
+    },
+    {
+      "path": "guide/tutor.svg",
+      "bytes": 782,
+      "sha256": "bfb138998dcbc7a68bd44796239d0e2883d3f1b130917b6e2c6e45c0517d2046"
+    },
+    {
+      "path": "index.html",
+      "bytes": 15359,
+      "sha256": "340065e22a498ceaf8c7bf2aed958953efee1044f4dee5b7566f4a64c5f931a5"
+    },
+    {
+      "path": "lab/assets/app-data.json",
+      "bytes": 1250651,
+      "sha256": "01c3c990e5a26859de082ccdefaafc6d6ba35e87eb68c3a6f2461603883506d2"
+    },
+    {
+      "path": "lab/assets/app.js",
+      "bytes": 267957,
+      "sha256": "ec8514620c795c155bc51c48692656a37bf7d546de193d94d03dba5643bb70fa"
+    },
+    {
+      "path": "lab/assets/bridge-v24.js",
+      "bytes": 3938,
+      "sha256": "2ae5a6e9bab4303d0fd16adb6c94ca98aa7db9ee179a233bca2847449b13b3b5"
+    },
+    {
+      "path": "lab/assets/joint-landmarks-v30.js",
+      "bytes": 60445,
+      "sha256": "1d5e72ea09ed7d9c9edaf62208a12726e9d8ea5e56fcac145ec705a5530bc56d"
+    },
+    {
+      "path": "lab/assets/joint-rig-v30.js",
+      "bytes": 8175,
+      "sha256": "5beb20cc38e7ce1dd59cd7c3f96ae85109aaa5f6ff318b15a9ef5dc721c2c4a7"
+    },
+    {
+      "path": "lab/assets/lab-support-v24.css",
+      "bytes": 1311,
+      "sha256": "7b5baf5e990b933405e12553048b594e0b8b4009ddf319e5cf2f1f1df78e9f9b"
+    },
+    {
+      "path": "lab/assets/lab-support-v24.js",
+      "bytes": 7113,
+      "sha256": "53d87e7eb2e6f2e012c1dc4682ca4e56921b2dbe1bcac1048806e0a944e6ca36"
+    },
+    {
+      "path": "lab/assets/loader-v24.js",
+      "bytes": 1566,
+      "sha256": "73de96182928e5e823227161dbd78b685bb7dc720bd544464a32fec1658f72e7"
+    },
+    {
+      "path": "lab/atlas.html",
+      "bytes": 8392,
+      "sha256": "7902ef0db6f000a0a35b1f8d2620b2697c7314e44d8b2fada05219abea3bbbe0"
+    },
+    {
+      "path": "lab/courses.json",
+      "bytes": 15217,
+      "sha256": "8d80ceb77a005c619becf1ebe3d9399e84ef958b0f98f2653a33bcfdd06802ad"
+    },
+    {
+      "path": "lab/index.html",
+      "bytes": 62177,
+      "sha256": "8643c744c40a8b3d62a2eb41ed667ed5944b0ba3d9e33464d03bf082459ba9e9"
+    },
+    {
+      "path": "lab/lab.css",
+      "bytes": 9658,
+      "sha256": "e3c7c3b292f2ab926dc3eced5b407b1393743b7ff7ce444c9ceb790e5b7a331f"
+    },
+    {
+      "path": "lab/lab.js",
+      "bytes": 16889,
+      "sha256": "3a17c72533f4f01e9c85f3e632f36c939a0905429fa372c6b6ba0ddc26b70a72"
+    },
+    {
+      "path": "lab/teacher-restoration.html",
+      "bytes": 942,
+      "sha256": "b9e472773ea68fb5b9bcb3fb853398b49009dd3e7880c83299035a3474ba4a0c"
+    },
+    {
+      "path": "learning/index.html",
+      "bytes": 359,
+      "sha256": "9a1c371016aad7c94e798a488a407e7c172bda8d1718948ad07d41ac58306f42"
+    },
+    {
+      "path": "learning/learning-hub.js",
+      "bytes": 23383,
+      "sha256": "64318cf676d8c480b5681e3b2e2a85ec7170565098d409598c6dd6d75288f21f"
+    },
+    {
+      "path": "learning/learning.css",
+      "bytes": 5165,
+      "sha256": "ffb0e5027852e2ad3ecbd2116604d3233390ceed6e0006937253b5e3578c81fc"
+    },
+    {
+      "path": "learning/objectives-v15.json",
+      "bytes": 20775,
+      "sha256": "a147eb81d53f7373686073b3485bec2acad80c06265d05a1eed068f8e362aed1"
+    },
+    {
+      "path": "learning/review-v15.html",
+      "bytes": 7711,
+      "sha256": "e5e22129c6759bb51a9ef4720f07b3e0b2cd46f4c8240e6a62f83e494646826e"
+    },
+    {
+      "path": "learning/standalone.js",
+      "bytes": 100,
+      "sha256": "696ed3d890bda37eec1bda76cb800461cde6b2e4ef969835cead1930c9a2dec2"
+    },
+    {
+      "path": "learning_service.py",
+      "bytes": 58296,
+      "sha256": "251f1347c6dbb5e8e9daf17177a611964a33814136bdb459e82a63805f543632"
+    },
+    {
+      "path": "licenses/LICENSE_SCOPE.txt",
+      "bytes": 7476,
+      "sha256": "7231bed2b6a542749006858e6f0f6a8d09ce195f81ac83ad85547477f3e70885"
+    },
+    {
+      "path": "licenses/ORIGINAL_CODE_LICENSE.txt",
+      "bytes": 1519,
+      "sha256": "3ab0610db80b5bfc4c8bb70534085fa784904e0052d63e1f6e90644c779f9439"
+    },
+    {
+      "path": "licenses/v22-additions.txt",
+      "bytes": 348,
+      "sha256": "229196767f40468548c7937b044829f46652acdbfb5462cff8f7a2ec14ad1403"
+    },
+    {
+      "path": "licenses/v23-additions.txt",
+      "bytes": 312,
+      "sha256": "3d757a0612bacbce29f419915fbcfb7d79e789a916b3047fb4559fa44e750cfa"
+    },
+    {
+      "path": "licenses/v24-additions.txt",
+      "bytes": 1103,
+      "sha256": "b0c57242a40992637966c21e6d34d820413fea330de54e393ebb1c8efe932ed0"
+    },
+    {
+      "path": "painting/asset-hashes.json",
+      "bytes": 2060,
+      "sha256": "404c4d16261692f0c5f241fa8a9db1b75fd217f59b9f23d9b6c388079743c113"
+    },
+    {
+      "path": "painting/assets/body-back.webp",
+      "bytes": 17102,
+      "sha256": "39922fdaff49c7fcc45efb3302fc45e9651d6f5c5ca7350dd93ec14336fcda68"
+    },
+    {
+      "path": "painting/assets/body-front.webp",
+      "bytes": 18592,
+      "sha256": "c274fcc946a1658c805a0a437ec62f035badb670d4cab2348206b221bec500e7"
+    },
+    {
+      "path": "painting/assets/body-left.webp",
+      "bytes": 11628,
+      "sha256": "7fa17bac8588e2d2951ab601a654f31255fc6a0ac9848812f15b114077b377a8"
+    },
+    {
+      "path": "painting/assets/body-right.webp",
+      "bytes": 11826,
+      "sha256": "404372f83cda80549c1708fffe941874756e4b3f3d3672cd71d2ce6b56be515e"
+    },
+    {
+      "path": "painting/assets/extra.bin",
+      "bytes": 7887864,
+      "sha256": "ed4b60529d4da73221f6d22ddbe051a58b9d7336c864d86530ac97e34a7180b4"
+    },
+    {
+      "path": "painting/assets/extra.json",
+      "bytes": 16818,
+      "sha256": "9e71b76a18e473c775307ae4ea24e7b43174c5227a06c27c6a507785f6efeb10"
+    },
+    {
+      "path": "painting/assets/skin-back.png",
+      "bytes": 2973,
+      "sha256": "96e968a2d549a5dce294610bba7dbe87698fea21996d7f53744ce8ae4fba9dd5"
+    },
+    {
+      "path": "painting/assets/skin-front.png",
+      "bytes": 2971,
+      "sha256": "eeefd000f9a2e758475b0490995821f05932297fec79aa78d5bcce283b98e588"
+    },
+    {
+      "path": "painting/assets/skin-left.png",
+      "bytes": 2206,
+      "sha256": "a71e9add1c0062c627a9b2c258134053308777240c6f9a6ce69aaf5713a52759"
+    },
+    {
+      "path": "painting/assets/skin-right.png",
+      "bytes": 2332,
+      "sha256": "4310a9058dc79dd1ea7363b85b74cb53bd3613819ca6d119c399326bbe48aa8e"
+    },
+    {
+      "path": "painting/ASSETS-v25.csv",
+      "bytes": 8554,
+      "sha256": "2aef63072ccccfc4741d16837b8b34304a908d3962116e3e34ef72e1336eacc8"
+    },
+    {
+      "path": "painting/catalog.json",
+      "bytes": 280169,
+      "sha256": "86cd5bb4745430223ae93aa3165e285d48ebaa7b676f7b5abd8490de77eb835d"
+    },
+    {
+      "path": "painting/index.html",
+      "bytes": 4492,
+      "sha256": "a8568f501141b5dd19dcb2a049c601086ef060c434b6c3d2373ff485c7ec9b36"
+    },
+    {
+      "path": "painting/model.js",
+      "bytes": 1944,
+      "sha256": "494acbabb5ddfb93853c666077e7f45743a6d910e2a01880c4c08e22bcff1f89"
+    },
+    {
+      "path": "painting/painting.css",
+      "bytes": 6824,
+      "sha256": "e189f0976dfe97e97d4ef9730fe33734e316a6f68b8cceac2a7e11e124292d3e"
+    },
+    {
+      "path": "painting/painting.js",
+      "bytes": 16853,
+      "sha256": "be01c4ab109cdf5cd93055b05a1035b49accc3709166333ef880c682a2d7a048"
+    },
+    {
+      "path": "painting/review.html",
+      "bytes": 4540,
+      "sha256": "558e9bd2b2d6c1b8b0e982dc1eef9bef6a2b3c99f9be86f01ae3020feca28da6"
+    },
+    {
+      "path": "painting_service.py",
+      "bytes": 12108,
+      "sha256": "207cec058aa6342b61bf551d45408c04407641d51e39b6eb775318413c74a6ec"
+    },
+    {
+      "path": "posture/app.js",
+      "bytes": 23352,
+      "sha256": "9a16c10b3044977685e9e7b79adec2ecc3e3d7aac8e16b06e2adadc2ba1f9a17"
+    },
+    {
+      "path": "posture/index.html",
+      "bytes": 5693,
+      "sha256": "c8c9ab2a52dbebfe33c788cc6ad9082e9187312a6777a642126eb50cd86f41db"
+    },
+    {
+      "path": "posture/mpfb-scene.js",
+      "bytes": 3113,
+      "sha256": "5b92eb9ac7ee3a2fc4c6ea466f4f5d846275436cea28ba3fe0e945f289969d22"
+    },
+    {
+      "path": "posture/style.css",
+      "bytes": 5964,
+      "sha256": "8486725785c5bd45d5eeb30a1e34f46c81e0495b94a61e638cde814d594c7e57"
+    },
+    {
+      "path": "posture/TEACHER_GUIDE.html",
+      "bytes": 5995,
+      "sha256": "788505d17d3dfe424c4e9ae6aa92de57a0ed3a1b198af967b54b30ac58b0990b"
+    },
+    {
+      "path": "pressure/data/case-p1-np-1.json",
+      "bytes": 409837,
+      "sha256": "68e678f45e7db057d57e01adf38c998f4848b793157edee82cabb223631aa3a0"
+    },
+    {
+      "path": "pressure/data/DATA_README.txt",
+      "bytes": 3783,
+      "sha256": "1aaaf08c4f7ebc388c2341cf6e2d9289975a636633202604fc45794aa5a07b7f"
+    },
+    {
+      "path": "pressure/data/inquiry-case-verification.json",
+      "bytes": 3790,
+      "sha256": "30697a0e6e6743690579df6c7ba4e220b4aa3b8c4bbf8e3e77821b9878bfd4b9"
+    },
+    {
+      "path": "pressure/data/preparation-summary.json",
+      "bytes": 1254,
+      "sha256": "8961c31efc6f6f965d13bfbd3cf5c0568ffc42332d2e7807d89dbe058a4e41c4"
+    },
+    {
+      "path": "pressure/data/source/P1_NP_1_L.csv",
+      "bytes": 47625,
+      "sha256": "9b97000f31a9b34781d59066fda83c81fec71b21984e9ec873e6ef4a9964c1e3"
+    },
+    {
+      "path": "pressure/data/source/P1_NP_1_R.csv",
+      "bytes": 48521,
+      "sha256": "290c83f57bbb89cd26b43af9ec44afadbbe11e6eacdb4aad211493f3f25b8289"
+    },
+    {
+      "path": "pressure/data/source/P1_NP_1_sync_auto.json",
+      "bytes": 503,
+      "sha256": "bd00e5d8616d49bc4b777b72204c73c19d0184e10b68046c6ed2c60e2013df96"
+    },
+    {
+      "path": "pressure/data/source/sensors_map_left.svg",
+      "bytes": 60822,
+      "sha256": "c9dedfce3561b92d8fe0795ca17072330cb5e021474514542982792f79beaa36"
+    },
+    {
+      "path": "pressure/data/source/sensors_map_right.svg",
+      "bytes": 58191,
+      "sha256": "54e8df5d8337c0efbd6d3fc4747c5a9a5120ae3b946b36fb90398256a1b2e6e3"
+    },
+    {
+      "path": "pressure/data/validation-results.json",
+      "bytes": 2065,
+      "sha256": "8e31de3d90b3328cf7cf66ce98fd7f0645551510f2afbea911707c26904ca8c0"
+    },
+    {
+      "path": "pressure/index.html",
+      "bytes": 23580,
+      "sha256": "c073049e24a767362626282d32df008109fe54e9fd9d22e33502b5ec8faee782"
+    },
+    {
+      "path": "pressure/licenses/ASSET_INVENTORY.csv",
+      "bytes": 5035,
+      "sha256": "7929f61a68b12f57b935e3e36cb1832c2c89f0fa0c9e2f4892af1a5f5a42758f"
+    },
+    {
+      "path": "pressure/licenses/DATA_ATTRIBUTION_AND_CHANGES.txt",
+      "bytes": 2435,
+      "sha256": "65edbb67cc6fec34ee17c011f778fc503d5c5b01c1d5db8a45b8a0b13caebb4e"
+    },
+    {
+      "path": "pressure/licenses/NOTICE.md",
+      "bytes": 1859,
+      "sha256": "80e68789131d5828feb2b04277b629ed64e0e3c719107faf9377bef60f92e02b"
+    },
+    {
+      "path": "pressure/licenses/source-zip-file-index.json",
+      "bytes": 431905,
+      "sha256": "6c2906020bfdf65612c1396c9c39557a13a9721daeb3d0313c92a6aed7b6e72b"
+    },
+    {
+      "path": "pressure/licenses/zenodo-api-record-snapshot.json",
+      "bytes": 12872,
+      "sha256": "176d62beb19818946a01157efa940a27cb47cdde2363d58e781adafb8298650d"
+    },
+    {
+      "path": "pressure/licenses/ZIP_LICENSE_REVIEW.json",
+      "bytes": 1082,
+      "sha256": "96f7c1763ced3a111d9b6437a74fd8973368b7c6c9a63e7654b16067e5ef2d8c"
+    },
+    {
+      "path": "pressure/orthosis-model.js",
+      "bytes": 2174,
+      "sha256": "1d218031ea7c2a8b9ef2e1b405ea5b10872fbc894ec3c0ec82ead935409ede26"
+    },
+    {
+      "path": "pressure/orthosis-view.js",
+      "bytes": 2662,
+      "sha256": "8a91c95758aa1f27e3d000cca19e4ce6926b431c6325d661869fb656854415ce"
+    },
+    {
+      "path": "pressure/orthosis.css",
+      "bytes": 3325,
+      "sha256": "39b5d32b5ddbe619f662bf4233d4f1fab31cc90d409b5a3396a8fe2f1130f79a"
+    },
+    {
+      "path": "pressure/orthosis.js",
+      "bytes": 7358,
+      "sha256": "5e7c13e875171832ccb93c3dffc882ed20d328b218f423863f12846e0fa7c0b6"
+    },
+    {
+      "path": "pressure/pressure-experience.js",
+      "bytes": 14749,
+      "sha256": "a7e3664c039053d59a850d904bac62c6fda5a85bf564a79c7223f0186cdf69cb"
+    },
+    {
+      "path": "pressure/pressure-stage.js",
+      "bytes": 19891,
+      "sha256": "e06ae6cc2fcb59c6dfa0ca369501a899491fdfe917c181b4e00ba35761d6c540"
+    },
+    {
+      "path": "pressure/pressure.css",
+      "bytes": 38477,
+      "sha256": "003600ddfea90a0b8e8fa31a6d5f5a597b7c3e35521a757f4a15a168b90a461c"
+    },
+    {
+      "path": "pressure/pressure.js",
+      "bytes": 27921,
+      "sha256": "e9b5958be3d1f99a890531a8fe00f2e633d1f0945ba4f20a3fff3a9cf96fc8c7"
+    },
+    {
+      "path": "pressure/tools/check_inquiry_case.py",
+      "bytes": 10050,
+      "sha256": "10df562413b263ed096a7d16738d443803f0220cd57b5d3a43a160ea699bdb76"
+    },
+    {
+      "path": "pressure/tools/check_pressure_data.py",
+      "bytes": 9748,
+      "sha256": "ad32427e2a88a89ec3df5cca5b8a6710559c9d631ed324c113ed05a00dd3c786"
+    },
+    {
+      "path": "preview.cmd",
+      "bytes": 279,
+      "sha256": "4952e247d3662def867d3b16209d7504e909ced6d78788f13a525d3494913c80"
+    },
+    {
+      "path": "private_access.py",
+      "bytes": 8897,
+      "sha256": "06a7bdb6ef4a4b8ba7271f50d3b364a64aa5915580d502c25f3fcc00bc495702"
+    },
+    {
+      "path": "project-guide/film.html",
+      "bytes": 2529,
+      "sha256": "a5ee798d9a567508dea006993eebe4028a24ba4335dfe6cda1731891845661b9"
+    },
+    {
+      "path": "project-guide/guide-data.js",
+      "bytes": 4719,
+      "sha256": "61b189e9c0e01599d0783b01101ddc815b5695590d574aedb648f5c4712038f9"
+    },
+    {
+      "path": "project-guide/guide-v26.css",
+      "bytes": 2209,
+      "sha256": "bd822f08100f7363fcc285cc54675beef71f3d03e1d36388362e7edc7489604e"
+    },
+    {
+      "path": "project-guide/guide-v26.js",
+      "bytes": 1064,
+      "sha256": "3447d49f352031331bbdb7065e9a30d24691b032e779a069b7c533b86cbd1b4b"
+    },
+    {
+      "path": "project-guide/guide.css",
+      "bytes": 9169,
+      "sha256": "7c77dc087c3e532b13c71a2e88cc4951fdc3667bf3c3198fe3cab877a5b05e8a"
+    },
+    {
+      "path": "project-guide/guide.js",
+      "bytes": 2511,
+      "sha256": "882589348dc2365c7dffb10082d6b08b74770852cf5e2de8cd76026259e3fca8"
+    },
+    {
+      "path": "project-guide/index.html",
+      "bytes": 3340,
+      "sha256": "2b43e5c1a40c9e0c13e97f9c39e6b1808005574ab751bbf8a48a8509064f7e2d"
+    },
+    {
+      "path": "README-v20.md",
+      "bytes": 872,
+      "sha256": "19e49066b8b0018766eeeb19e3af9eccd4bc569f4ce6cbad452145dbb9ac82e6"
+    },
+    {
+      "path": "README-v21.md",
+      "bytes": 1909,
+      "sha256": "40bb5e1de204a8158a1569b423f83883b3317a575870279712281d84245bd031"
+    },
+    {
+      "path": "README-v22.md",
+      "bytes": 3651,
+      "sha256": "f022d1309ed816161bf971dfad015cc89550377e4a6feb0654b6c7911b0b091e"
+    },
+    {
+      "path": "README-v23.md",
+      "bytes": 4342,
+      "sha256": "877d6ed85b6842caeea80760dfff1a42603c0a5d31c1b0e9f3218dda1e6b59bd"
+    },
+    {
+      "path": "README-v24.md",
+      "bytes": 4650,
+      "sha256": "03d04169ef7eabda08f1ebe3efb6d0fdb67b467b684dae1874a44b64c3f7044c"
+    },
+    {
+      "path": "README-v25.md",
+      "bytes": 4457,
+      "sha256": "5a6a08fbfab3f338d231348ac6062fddaf31b429af0313dea3ab04f134f0d573"
+    },
+    {
+      "path": "README-v26.txt",
+      "bytes": 2830,
+      "sha256": "b292c6f43cb30c8d5c6205a89895e6d9a8228035d4dbfdfa02aef7b33224a010"
+    },
+    {
+      "path": "README-v27.txt",
+      "bytes": 881,
+      "sha256": "aeb83f7a3e6e1bbb53e489127f574c85be8149bf775ebc1f5c56d752f8f896b4"
+    },
+    {
+      "path": "README-v28.txt",
+      "bytes": 1086,
+      "sha256": "318454ad0f75665fa0ca65099c8908a56216db79c30f4871fc51a371d63452e8"
+    },
+    {
+      "path": "README-v29.txt",
+      "bytes": 646,
+      "sha256": "a9774c4020ab45dab6f437f329a62d56e101343ad8a8cd12105eb2385f30abfe"
+    },
+    {
+      "path": "README-v30.txt",
+      "bytes": 1095,
+      "sha256": "42a19b3a9c3132b0d2f8f3f2f67b77a6bc68c46c5819c83553ea3ae765b29107"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4457,
+      "sha256": "5a6a08fbfab3f338d231348ac6062fddaf31b429af0313dea3ab04f134f0d573"
+    },
+    {
+      "path": "requirements-v25.txt",
+      "bytes": 152,
+      "sha256": "1c719e74b3eb22a4116dadbc09ae4c5854365505946effda52f6d3f53748c584"
+    },
+    {
+      "path": "serve_lab.py",
+      "bytes": 39617,
+      "sha256": "aea3975a95fd1b585b163fcc2c948803081bac05ad12f4fa7cbe2f370245b5a3"
+    },
+    {
+      "path": "site-check.html",
+      "bytes": 922,
+      "sha256": "9535b62ed1f154bee8c9677837d026f2ea3a6bd899e4703871d46a10608c468d"
+    },
+    {
+      "path": "soap/ASSET_INVENTORY.json",
+      "bytes": 5476,
+      "sha256": "d4d175ee68f125eaa0e64f1f85716fcad8324ab16be3cf395c51ff23725b9b31"
+    },
+    {
+      "path": "soap/case-profile.json",
+      "bytes": 3335,
+      "sha256": "f4cd01aa4664c76ed636aa865e171186066faf576d4b98401e88f14b4ebeac3e"
+    },
+    {
+      "path": "soap/explorers-data.js",
+      "bytes": 9838,
+      "sha256": "ba9b9c833499a7ee7b9cada31f11df9db801b158df5478c011737423054884ef"
+    },
+    {
+      "path": "soap/explorers.css",
+      "bytes": 2987,
+      "sha256": "741b939faecd3d65d46101a867c3a1c837989166c0d7d690ac0b84d58cbdc5ab"
+    },
+    {
+      "path": "soap/explorers.js",
+      "bytes": 7922,
+      "sha256": "197e8ee8e72dc9b51da6231e74647809838bd90b5d10d2ac47cc546cece4e2c2"
+    },
+    {
+      "path": "soap/focus-v21.css",
+      "bytes": 2899,
+      "sha256": "cfc76c292dff758bb60be685452a8e8e13f5344067fe5102f3e4159a9a5198a2"
+    },
+    {
+      "path": "soap/index.html",
+      "bytes": 2895,
+      "sha256": "4555b3c69ecdcbe7813d3d2d81265af490730782310823a5340ead352d8277a1"
+    },
+    {
+      "path": "soap/interview-dialogue.json",
+      "bytes": 1227,
+      "sha256": "65b281fe1bfabed0feeaf599bdf628c0ed965141461bd81f85917c1bdbbd8fb7"
+    },
+    {
+      "path": "soap/live-verification.json",
+      "bytes": 589,
+      "sha256": "5246433f871ea9825ac6b26b6bfbb72b3122adc61d336402e607ea945797e941"
+    },
+    {
+      "path": "soap/media/arch.jpg",
+      "bytes": 37851,
+      "sha256": "32495cb4dffcea35e3a5e09de5132743cdaa9c680e9dc0c7c3419f4946b20c99"
+    },
+    {
+      "path": "soap/media/arch.mp4",
+      "bytes": 2196121,
+      "sha256": "536485f1a0ef67d4def86055895899ffbd4a78d8f469d30d76473453dfc74f0e"
+    },
+    {
+      "path": "soap/media/gait.jpg",
+      "bytes": 53411,
+      "sha256": "f00c7e7aa4458c914c8d529f940a9ee547001d417bf0887dc5664bd9c71767e5"
+    },
+    {
+      "path": "soap/media/gait.mp4",
+      "bytes": 3189561,
+      "sha256": "d464c8e412c131d22017b7fbe44ef6c51513229aaa6d4a15b7f9eb16282ef151"
+    },
+    {
+      "path": "soap/media/intro-original.jpg",
+      "bytes": 25351,
+      "sha256": "663adcc877084d59d096641d635bbd60e3f5a23c9a001c224ef3f30e594a9b02"
+    },
+    {
+      "path": "soap/media/intro-original.mp4",
+      "bytes": 26054310,
+      "sha256": "e3d7b4eb71636a3d13e1e205ca7baf0e749ffc366ac5864e4f3c99205d05929f"
+    },
+    {
+      "path": "soap/media/intro-playback.mp4",
+      "bytes": 2493711,
+      "sha256": "4c0edf0f88a706ba9284e5b4a316f69079ec50e8cf2b718e397e2e77191e4e5f"
+    },
+    {
+      "path": "soap/media/intro.jpg",
+      "bytes": 47067,
+      "sha256": "269a7db3e076045bf134c261a48874a798d34df05b450e7d7bedc0127f78c18b"
+    },
+    {
+      "path": "soap/media/intro.mp4",
+      "bytes": 2935423,
+      "sha256": "688404cf3d407735b63a94d6d7409826ce8a9798869328ea1c37780fbc972f26"
+    },
+    {
+      "path": "soap/media/plan.jpg",
+      "bytes": 70915,
+      "sha256": "5c5ee3696340ae7f5d93b0a0107990c5e92209cc782f052d7a4143df215a16ab"
+    },
+    {
+      "path": "soap/media/plan.mp4",
+      "bytes": 2868476,
+      "sha256": "5452f94182ccc80d712ee65136e656f709e4e8661e847ddf454078ecde6e1bce"
+    },
+    {
+      "path": "soap/media/portrait-patient.jpg",
+      "bytes": 8490,
+      "sha256": "2fa7a2fa5c8fb18cfd2c0d9f78271f7757a311f0bbd3202d50d4b632b0212ce5"
+    },
+    {
+      "path": "soap/media/portrait-therapist.jpg",
+      "bytes": 11102,
+      "sha256": "b2520c8e81b303bdcc8aa9936bad90fc9fecce5bd6a13be20cb78f35b0d8951f"
+    },
+    {
+      "path": "soap/media/scan.jpg",
+      "bytes": 32966,
+      "sha256": "82188f5b213149fa58e0083e390236dc22c394b2771622ed9a41b4caa887c23e"
+    },
+    {
+      "path": "soap/media/scan.mp4",
+      "bytes": 1070058,
+      "sha256": "c1126985bdefd0a73c34b30239cc205b411ba1c8b0742e46613cbcbeb2006cb7"
+    },
+    {
+      "path": "soap/media-experience.js",
+      "bytes": 6142,
+      "sha256": "57d76b0f7d10ddb51e61dc661d3800dfa84dd830dc42ca4733d9e248820cd580"
+    },
+    {
+      "path": "soap/media-provenance.json",
+      "bytes": 3293,
+      "sha256": "6433234223905d27f4e794dd006c24206b16e8b87e1e43e91f578203fab1dde7"
+    },
+    {
+      "path": "soap/media.json",
+      "bytes": 2259,
+      "sha256": "14aa5e2ac355db1eb9eeee57254b8312fed16089dc12b90f8b5d2e39911a7805"
+    },
+    {
+      "path": "soap/references.json",
+      "bytes": 6920,
+      "sha256": "f5f5321adfc4a122eb10d957c12e752837e792ebe8c57cbf34120073e82c33af"
+    },
+    {
+      "path": "soap/review-v19.html",
+      "bytes": 6188,
+      "sha256": "0b37c7a50478d7bce98e4739b749362e69fa145825c96578b1cbbf8f534cf09f"
+    },
+    {
+      "path": "soap/soap.css",
+      "bytes": 7965,
+      "sha256": "7dae92d1ab4b17bbc14e70212edb84ba98d1fcea5cadd5d497e2ab00e9797003"
+    },
+    {
+      "path": "soap/soap.js",
+      "bytes": 34087,
+      "sha256": "8ef3c8ba13b940e17cb497e612aba06c2e901d821bc85fa67dced818c0a8e30a"
+    },
+    {
+      "path": "soap/teaching-data.js",
+      "bytes": 2752,
+      "sha256": "75187ab5d01feed07c19f9cea04931daf0ff2a11b75b7b1533ae0743b241f71e"
+    },
+    {
+      "path": "soap/verification/browser-verification-v19.json",
+      "bytes": 999,
+      "sha256": "214162e6635cbed930033d8ceb274aed605ec8d770b7f9b0af2399918857bdd2"
+    },
+    {
+      "path": "soap/verification/technical-tests-v19.json",
+      "bytes": 1188,
+      "sha256": "d3b4a7321d997faf63d262ce3f500740ad04bc01ae75ef740ce7e7a5e649b7d5"
+    },
+    {
+      "path": "soap_service.py",
+      "bytes": 14677,
+      "sha256": "8baaee51700b18b3609b336c6cad0235cb633def8b5d5d05ef092d3db2ec6bcb"
+    },
+    {
+      "path": "start_local.py",
+      "bytes": 758,
+      "sha256": "acf6a5d660caa9daba84120439dbcb5c2a9f4a16665e57a65d9e9b4141518faf"
+    },
+    {
+      "path": "teacher/experience-v25.html",
+      "bytes": 1162,
+      "sha256": "1aea31eebd51b75ca64fc7b7edc50220a2232b85631eea66a8676ebfcd963182"
+    },
+    {
+      "path": "teacher/experience-v25.js",
+      "bytes": 1683,
+      "sha256": "3dc09c9626a22434ac18aab071de0436c4e2deec032fdc5f8a746241c563d7b5"
+    },
+    {
+      "path": "teacher/index.html",
+      "bytes": 8686,
+      "sha256": "91fae80af60871f98bbe7caea8b59ddb2ed7bfaa01d0e13eae69be4eec749eef"
+    },
+    {
+      "path": "teacher/login.css",
+      "bytes": 931,
+      "sha256": "387e88a4627a6d1b7992b068bde2609751e0a8c4397b179930efa9b21f0b16d0"
+    },
+    {
+      "path": "teacher/login.html",
+      "bytes": 1306,
+      "sha256": "6497f15b154a2f663fcdf8b8551f029dee665a1d4ad8e5a9878083b20791e5e5"
+    },
+    {
+      "path": "teacher/login.js",
+      "bytes": 1543,
+      "sha256": "c22d54142637985d1cbde98b6724902f123e6072797d89119a678fdabf598bd8"
+    },
+    {
+      "path": "teacher/storage-v24.js",
+      "bytes": 1631,
+      "sha256": "22370ec4388630cfaf1bd9b9b0c27bcdaeaeaa5be22e969fea7d82475ef2fc52"
+    },
+    {
+      "path": "teacher/teacher.css",
+      "bytes": 10657,
+      "sha256": "a0aa7e0bd8d14efe1c7b69bd3a2e2acb0ef0f08576cf060831af90f6268168cc"
+    },
+    {
+      "path": "teacher/teacher.js",
+      "bytes": 33321,
+      "sha256": "a90ed5f1e8c3005ce6ed8019015e67284f52906beb55e64ba30a3e97117fd8a4"
+    },
+    {
+      "path": "teacher/usage-v23.css",
+      "bytes": 1857,
+      "sha256": "014c730e2d294b5ed88f45b90b7d63561a50d2f19e404c7608c3fefc031506d2"
+    },
+    {
+      "path": "teacher/usage-v23.html",
+      "bytes": 1775,
+      "sha256": "96a4f6634b529a8a8bb3a0d099281be2c2e790e10d715ffc7e7a57981605d1b1"
+    },
+    {
+      "path": "teacher/usage-v23.js",
+      "bytes": 6727,
+      "sha256": "3840c86a997a594ed3f39fb7410082306b94da43124a5ad08845cfaf794cc229"
+    },
+    {
+      "path": "teacher-review.html",
+      "bytes": 13565,
+      "sha256": "6ba47f1a1823aadd30358e7f0925d1a7935f7bfd5e7499fbf03506a2ef5848d4"
+    },
+    {
+      "path": "tests/joint-rig-v30.cjs",
+      "bytes": 4461,
+      "sha256": "88eb181bdfb98c5c7f162369b092450492df85747fceca69a908335577f627b6"
+    },
+    {
+      "path": "tests/run_learning_v15.py",
+      "bytes": 2526,
+      "sha256": "56eb271050567c7eb97d5d4efc7aa67def128a5436a83ffff8f0f1f026dcfa89"
+    },
+    {
+      "path": "tests/student-v15-results.json",
+      "bytes": 1376,
+      "sha256": "94f71e8ee0eefd50331e0212d1dbe15db96180d6c6dede5d0dfa9b8e8c39bb5a"
+    },
+    {
+      "path": "tests/student-v15-tests.mjs",
+      "bytes": 7968,
+      "sha256": "c9bb3c61f095f6bcca6177085237c37d6a14045e74dbf5a31f5a8230bb35cc91"
+    },
+    {
+      "path": "tests/teacher-v15-api-smoke.py",
+      "bytes": 10084,
+      "sha256": "345466799fdd3a230bb05e6b8b7c1096e385a6aefb274c10fabd8bcd7d71cd6d"
+    },
+    {
+      "path": "tests/teacher-v15-ui.mjs",
+      "bytes": 15611,
+      "sha256": "e79fcb9c480eac1399dcba9e3bdea8b45f9d24febe7d47903fed99c85ab5fe13"
+    },
+    {
+      "path": "tests/test_case_v21.py",
+      "bytes": 2149,
+      "sha256": "4ee7bfb5cec303f26835e4e729b3c1913ccb16d66aa522f1ac525c93d2895c47"
+    },
+    {
+      "path": "tests/test_communication_v26.mjs",
+      "bytes": 1630,
+      "sha256": "39966023e6999c87d2544cf700aeec8a3d43769077ee065bb79da6f7493b249a"
+    },
+    {
+      "path": "tests/test_explorers_v22.mjs",
+      "bytes": 2511,
+      "sha256": "abf2d9177354e5a3e7da76d19741557c9535ff800e071d0da9276a4fa1df321b"
+    },
+    {
+      "path": "tests/test_gait_pose_v27.mjs",
+      "bytes": 1044,
+      "sha256": "943e4f10514526d20cd6d8986aac638b36edd3845c4723e0699798abede0adbd"
+    },
+    {
+      "path": "tests/test_learning_v15.py",
+      "bytes": 37109,
+      "sha256": "1a5c539c3df1daf1dc16794f7b42c3f6f20aeb4bed045a3885e5b0b343cc27e8"
+    },
+    {
+      "path": "tests/test_navigation_events_v16.py",
+      "bytes": 6398,
+      "sha256": "95c8c38e292015cee58b1c6efefd95830acc890f01b48dcfa61fecd3d5f64d18"
+    },
+    {
+      "path": "tests/test_orthosis_v28.mjs",
+      "bytes": 1205,
+      "sha256": "c76f20e295e37566d491e5a45a293d8200e2131518a0fbd040804cfb49c1f618"
+    },
+    {
+      "path": "tests/test_painting_v25.py",
+      "bytes": 9275,
+      "sha256": "7ab7584cd4f9c84c2644fc2130be5bc13bf8eb2917bc82a5f9c0f98043f7da77"
+    },
+    {
+      "path": "tests/test_project_guide_v16.mjs",
+      "bytes": 7321,
+      "sha256": "2b5d156f2f90303df5bf23313656b685b2c70c588398655edd58f73e68029c2f"
+    },
+    {
+      "path": "tests/test_soap_v19.py",
+      "bytes": 8485,
+      "sha256": "db429dd6d61a512482f495139025acbbaf6a7e70dcac29de2b0fc78f97dc51b8"
+    },
+    {
+      "path": "tests/test_updates_v28.py",
+      "bytes": 2237,
+      "sha256": "12879ffa817c920dbbc02dbecf50eb8080630061528fdc3c801e82f101fd05f8"
+    },
+    {
+      "path": "tests/test_usage_v23.py",
+      "bytes": 3760,
+      "sha256": "6928ac527631df45024f695e8005ff55448490a4d6357dede94976675a67f89f"
+    },
+    {
+      "path": "tests/test_walking_v26.mjs",
+      "bytes": 1986,
+      "sha256": "1ddfdd61e5f8afa8597f01f96c19ea8b8a98be7ab3b1edd35732c1eae693d37c"
+    },
+    {
+      "path": "tools/browser-check.js",
+      "bytes": 1176,
+      "sha256": "3e76927b7d3b8f7bb1c5f7c48482e92799d5263d37bd10b740402bd3874bc027"
+    },
+    {
+      "path": "tools/check_clinic_cases.py",
+      "bytes": 3547,
+      "sha256": "dfa0f5350aa28261029e0da1100a2ec07568aa679f6c8fb27224eed7e04f66b4"
+    },
+    {
+      "path": "tools/export-learning.mjs",
+      "bytes": 3576,
+      "sha256": "b54bc3af797729ae32ac4c1f067c3d20ef1c7d278f8b54ec90618eba025698a4"
+    },
+    {
+      "path": "tools/test_ai_adapter.py",
+      "bytes": 2353,
+      "sha256": "3e575804031a958899d2372e27e13d14abd582599671bf493e5d257417a1b2b0"
+    },
+    {
+      "path": "tools/test_learning_server.py",
+      "bytes": 11643,
+      "sha256": "f4b23e08ab9f5d3654b05b6d64ed09b85f15a81273f07dd28a2f27daef91335c"
+    },
+    {
+      "path": "tools/verify.py",
+      "bytes": 21930,
+      "sha256": "a5578ab9eb9cd18519db0b1f7bcd349ec9435c3b09cdf931723a4dcfb934b0ca"
+    },
+    {
+      "path": "topics/demo.css",
+      "bytes": 7960,
+      "sha256": "311d51cf4d691f33a4edb47f2ed1c876028afb0ba39b13b3f38ca09a1f5814e8"
+    },
+    {
+      "path": "topics/demo.js",
+      "bytes": 17682,
+      "sha256": "78d26c5716015a9cd8e0949855dfe7873972794d8c1edda02796bd2347d6b51d"
+    },
+    {
+      "path": "topics/index.html",
+      "bytes": 10059,
+      "sha256": "9dde635df9c59f545a3de7bdbf9bb4c33f798af35dc6bcbd8e0deb1935364369"
+    },
+    {
+      "path": "usage.html",
+      "bytes": 3801,
+      "sha256": "5188209edad2441e06b9f42e2d258d3436fed30061cd76efecb5ae050cc11d56"
+    },
+    {
+      "path": "usage_service.py",
+      "bytes": 4660,
+      "sha256": "a71db93e8f44e9633cc85fbd102aba0f1b6c62e987ae0e62eae8b45395df6ddf"
+    },
+    {
+      "path": "VALIDATION-v24.md",
+      "bytes": 1974,
+      "sha256": "c02bb1ce2e31bcc3801e2f7aede759ef900c8ecbe48b48bcb35abdce0662b3ed"
+    },
+    {
+      "path": "VALIDATION-v25.md",
+      "bytes": 3803,
+      "sha256": "9dea8a5b1ded5f0a27d124acaed4b7578149ab769c318b2a3e9258d0e657d21e"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "bytes": 2116,
+      "sha256": "7d3ddd11dd8bc6d089c296064f7b425759199eae36e51aa579c77f4f12fd99dc"
+    },
+    {
+      "path": "VALIDATION_REPORT.txt",
+      "bytes": 246,
+      "sha256": "673b2ca45968f496794fa01320950f52a750a9cf12a7534aa229351f0ccb1f16"
+    }
+  ]
+}

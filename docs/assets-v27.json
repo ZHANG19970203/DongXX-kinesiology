@@ -1,0 +1,15 @@
+{
+  "schema": "v27-motion-update",
+  "changed": [
+    "clinic3d/actors.js",
+    "clinic3d/walking-principles-v26.js",
+    "clinic3d/walking-pose-v27.js",
+    "clinic3d/walking-panel-v26.js"
+  ],
+  "rights": "Original authored motion and UI using existing CC0 rig; no new paid generation or downloaded motion",
+  "limits": [
+    "Not motion capture",
+    "Not clinically validated gait",
+    "COM teaching function is not a segment-mass estimate of this rig"
+  ]
+}

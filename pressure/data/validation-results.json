@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "schemaVersion": "dxx-pressure-case-v1",
+  "caseSHA256": "68e678f45e7db057d57e01adf38c998f4848b793157edee82cabb223631aa3a0",
+  "checkerSHA256": "ad32427e2a88a89ec3df5cca5b8a6710559c9d631ed324c113ed05a00dd3c786",
+  "checks": [
+    {
+      "name": "Source file hashes and byte counts",
+      "passed": true,
+      "files": 7
+    },
+    {
+      "name": "Licence snapshot, published SVG checksums and ZIP terms search",
+      "passed": true,
+      "indexedEntries": 4724,
+      "termsMatches": []
+    },
+    {
+      "name": "All 498 frames and 15,936 source channel values retained; independent Decimal CoP recomputation",
+      "passed": true,
+      "sides": {
+        "L": {
+          "frames": 249,
+          "channels": 32,
+          "originalSourceValuesUnchanged": true,
+          "originalCoPAndSumUnchanged": true,
+          "maxCoPAbsoluteErrorDrawingUnits": "7.85268414481897627965044E-14",
+          "minimumSum": "1022",
+          "maximumSum": "25031",
+          "defaultTeachingRatio": 0.15,
+          "defaultIncludedFrames": 154,
+          "svgLabels": 32,
+          "sourceSHA256": "9b97000f31a9b34781d59066fda83c81fec71b21984e9ec873e6ef4a9964c1e3"
+        },
+        "R": {
+          "frames": 249,
+          "channels": 32,
+          "originalSourceValuesUnchanged": true,
+          "originalCoPAndSumUnchanged": true,
+          "maxCoPAbsoluteErrorDrawingUnits": "7.89000528820729772607086E-14",
+          "minimumSum": "1006",
+          "maximumSum": "28876",
+          "defaultTeachingRatio": 0.15,
+          "defaultIncludedFrames": 151,
+          "svgLabels": 32,
+          "sourceSHA256": "290c83f57bbb89cd26b43af9ec44afadbbe11e6eacdb4aad211493f3f25b8289"
+        }
+      }
+    }
+  ],
+  "limits": [
+    "These checks establish source preservation and numerical consistency in drawing coordinates.",
+    "They do not establish pressure calibration, sensor effective area, physical CoP distance, contact-event accuracy, L/R synchronization or clinical validity."
+  ]
+}

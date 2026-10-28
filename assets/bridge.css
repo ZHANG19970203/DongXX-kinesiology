@@ -1,0 +1,12 @@
+/* Navigation only; no model or lesson styling is altered. */
+.hub-linkbar{box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:10px max(16px,calc((100vw - 1480px)/2));background:#edf3ff;border-bottom:1px solid #ccd9ed;color:#143755;font:14px/1.6 system-ui,-apple-system,"Microsoft YaHei",sans-serif}
+.hub-linkbar .hub-user{overflow-wrap:anywhere;color:#516582}
+.hub-linkbar nav{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.hub-linkbar a{border:1px solid #cad8ed;background:#fff;color:#24559a;padding:5px 11px;border-radius:9px;min-height:34px;box-sizing:border-box;text-decoration:none;display:inline-flex;align-items:center;cursor:pointer;font:inherit}
+.hub-linkbar a:hover{background:#dceaff}
+.hub-linkbar[data-app="assembly"]{background:#102838;color:#e1f1ff;border-color:#234451}
+.hub-linkbar[data-app="assembly"] .hub-user{color:#b2cbdd}
+.hub-linkbar[data-app="assembly"] a{background:#173447;color:#e5f1ff;border-color:#365265}
+.hub-linkbar[data-app="assembly"] a:hover{background:#254e63}
+.hub-integration-note{font:13px/1.6 system-ui;color:#71849d;padding:8px 14px}
+@media(max-width:580px){.hub-linkbar{padding:9px 12px;gap:7px}.hub-linkbar nav{gap:6px}.hub-linkbar .hub-user{font-size:12px;flex-basis:100%}.hub-linkbar a{font-size:13px}.hub-linkbar strong{font-size:14px}}

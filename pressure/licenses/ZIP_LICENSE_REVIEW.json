@@ -1,0 +1,24 @@
+{
+  "source": "https://zenodo.org/records/19662017",
+  "sourceZip": "insole-gaitrite-dataset.zip",
+  "sourceZipBytes": 1686755134,
+  "sourceZipDeclaredMD5": "33063fb8b638c87085a157c44fc6eb1c",
+  "wholeZipDownloaded": false,
+  "wholeZipHashVerified": false,
+  "method": "HTTP byte ranges read ZIP central directory and the three selected small members; no video or full ZIP was downloaded.",
+  "indexedEntries": 4724,
+  "indexSHA256": "6c2906020bfdf65612c1396c9c39557a13a9721daeb3d0313c92a6aed7b6e72b",
+  "termsNameSearch": [
+    "readme",
+    "license",
+    "licence",
+    "terms",
+    "usage",
+    "copyright",
+    "citation"
+  ],
+  "matchedTermsFiles": [],
+  "conclusion": "No additional licence/README/terms files were found in this published ZIP. The archived record metadata declares CC BY 4.0 and open access. This observation is limited to this version and the listed names; it is not an ownership warranty.",
+  "programCodeRedistributed": false,
+  "otherDatasetExcluded": "CAD WALK is not used; its record/README rights conflict was not resolved."
+}

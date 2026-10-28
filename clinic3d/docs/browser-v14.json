@@ -1,0 +1,108 @@
+{
+  "release": "v14",
+  "checkedAt": "2026-10-18",
+  "method": "Actual in-app browser clicks, select controls, accessibility text, screenshots and console logs; no runtime state injection. Teacher previews are explicitly labelled and do not store learning results.",
+  "passed": true,
+  "checks": [
+    {
+      "id": "entry-and-intake",
+      "passed": true,
+      "observed": "Normal arrival and intake choices reached mandatory footwear preparation."
+    },
+    {
+      "id": "muscle-wrong-answer",
+      "passed": true,
+      "observed": "Wrong dorsiflexion group gave retry feedback and 0/4."
+    },
+    {
+      "id": "muscle-four-matches",
+      "passed": true,
+      "observed": "Four real select controls reached 4/4 knowledge matches, not patient MMT grade."
+    },
+    {
+      "id": "folded-narration",
+      "passed": true,
+      "observed": "Why/knowledge narration was folded by default; opened correctly."
+    },
+    {
+      "id": "arch-two-conditions",
+      "passed": true,
+      "observed": "Switch seated to standing reached 2/2 and displayed corresponding original outline."
+    },
+    {
+      "id": "arch-comparison-return",
+      "passed": true,
+      "observed": "Opened normal/low/high pressure comparison and returned with standing and 2/2 retained."
+    },
+    {
+      "id": "user-resume",
+      "passed": true,
+      "observed": {
+        "before": {
+          "node": "pressure_compare",
+          "act": "act4",
+          "count": "12",
+          "phase": "0",
+          "modes": [
+            {
+              "mode": "static",
+              "pressed": "false"
+            },
+            {
+              "mode": "dynamic",
+              "pressed": "false"
+            },
+            {
+              "mode": "maximum",
+              "pressed": "true"
+            }
+          ]
+        },
+        "after": {
+          "node": "pressure_compare",
+          "act": "act6",
+          "count": "12",
+          "phase": "0",
+          "modes": [
+            {
+              "mode": "static",
+              "pressed": "false"
+            },
+            {
+              "mode": "dynamic",
+              "pressed": "false"
+            },
+            {
+              "mode": "maximum",
+              "pressed": "true"
+            }
+          ]
+        },
+        "retainedNode": true,
+        "retainedEvidence": true,
+        "retainedPhase": true,
+        "retainedMode": true
+      }
+    },
+    {
+      "id": "missing-new-tasks",
+      "passed": true,
+      "observed": "User notes list muscle matching and seated/standing arch as not performed; existing 12 evidence entries preserved."
+    },
+    {
+      "id": "console",
+      "passed": true,
+      "observed": "No warning/error logs returned for inspected latest preview and user tabs."
+    }
+  ],
+  "screenshots": [
+    "muscle-v14.png",
+    "arch-standing-v14.png",
+    "resumed-pressure-v14.png"
+  ],
+  "limits": [
+    "Full new-session eight-act path is tested with actual app control functions and DOM fixtures, not claimed as a complete realtime browser performance walk-through.",
+    "Background browser animation was heavily throttled; footwear preparation was observed progressing but its full new-session playback was not re-certified in this run. Actors/pressure/geometry match v13 byte-for-byte; prior numerical checks retain only their original scope.",
+    "No clinical validity, professional signoff, validated MMT, pressure calibration or patient-specific anatomy inferred."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "actions": 48,
+  "sides": 2,
+  "frames": 2016,
+  "anchorChecks": 7266,
+  "maxAnchorErrorM": 1.2578108186999605e-7,
+  "fixedBoneChecks": 3696,
+  "cameraCornerChecks": 1300320,
+  "limits": [
+    "Finite teaching articulation; does not validate clinical joint contact, scapulohumeral rhythm or individual range of motion."
+  ]
+}

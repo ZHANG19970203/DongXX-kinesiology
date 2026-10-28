@@ -1,0 +1,134 @@
+{
+  "schema": "dxx-socks-action-v12",
+  "durationSeconds": 17.6,
+  "states": [
+    {
+      "t": 0.1,
+      "side": "L",
+      "phase": "sit"
+    },
+    {
+      "t": 1.6,
+      "side": "L",
+      "phase": "lift"
+    },
+    {
+      "t": 2.5,
+      "side": "L",
+      "phase": "shoe_reach"
+    },
+    {
+      "t": 3,
+      "side": "L",
+      "phase": "shoe_pull"
+    },
+    {
+      "t": 3.8,
+      "side": "L",
+      "phase": "shoe_deposit"
+    },
+    {
+      "t": 4.5,
+      "side": "L",
+      "phase": "sock_reach"
+    },
+    {
+      "t": 5.1,
+      "side": "L",
+      "phase": "sock_pull"
+    },
+    {
+      "t": 6.3,
+      "side": "L",
+      "phase": "sock_deposit"
+    },
+    {
+      "t": 7.3,
+      "side": "L",
+      "phase": "release"
+    },
+    {
+      "t": 7.7,
+      "side": "L",
+      "phase": "lower"
+    },
+    {
+      "t": 8.8,
+      "side": "L",
+      "phase": "rest"
+    },
+    {
+      "t": 9.7,
+      "side": "R",
+      "phase": "lift"
+    },
+    {
+      "t": 10.6,
+      "side": "R",
+      "phase": "shoe_reach"
+    },
+    {
+      "t": 11,
+      "side": "R",
+      "phase": "shoe_pull"
+    },
+    {
+      "t": 11.8,
+      "side": "R",
+      "phase": "shoe_deposit"
+    },
+    {
+      "t": 12.6,
+      "side": "R",
+      "phase": "sock_reach"
+    },
+    {
+      "t": 13.1,
+      "side": "R",
+      "phase": "sock_pull"
+    },
+    {
+      "t": 14.3,
+      "side": "R",
+      "phase": "sock_deposit"
+    },
+    {
+      "t": 15.3,
+      "side": "R",
+      "phase": "release"
+    },
+    {
+      "t": 15.7,
+      "side": "R",
+      "phase": "lower"
+    },
+    {
+      "t": 16.8,
+      "side": "R",
+      "phase": "rest"
+    },
+    {
+      "t": 17.6,
+      "side": "R",
+      "phase": "completed"
+    }
+  ],
+  "allFinite": true,
+  "minimumVisiblePropY": 0.0010000923185840074,
+  "maximumSampledWristStepMetres": 0.08087271484890472,
+  "initialSocksWorn": true,
+  "initialShoesWorn": true,
+  "completed": true,
+  "bothSocksDeposited": true,
+  "depositsStable": true,
+  "removedGarmentsStayInRoom": true,
+  "rewearResets": true,
+  "manualToStaticFootMaxErrorMetres": 0,
+  "manualToStaticImmediate": true,
+  "stopPausesRemoval": true,
+  "therapistRemainsShod": true,
+  "originalPaidJobs": 0,
+  "externalDownloads": 0,
+  "scope": "CPU finite transforms, sequential visible garment states and prop floor clearance only; visual review and clinical dressing/contact review remain separate.",
+  "passed": true
+}

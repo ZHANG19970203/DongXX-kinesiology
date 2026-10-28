@@ -1,0 +1,13 @@
+License scope for this independent deliverable
+
+1. BodyParts3D-derived meshes retain the source data license and notices in this
+   directory. Source attribution: BodyParts3D, © The Database Center for Life
+   Science licensed under CC Attribution 4.0 International.
+2. renderer.js was adapted from the supplied application's renderer. Retain the
+   supplied ORIGINAL_CODE_LICENSE.txt for its reused MIT-licensed portions.
+3. No third-party font files are included. The game does not claim that the
+   brand or a general usage notice cancels rights granted under open licenses.
+4. The newly created classroom game flow and brand presentation are supplied
+   for the requesting teacher's review and use. This scope note does not make
+   an ownership guarantee over third-party anatomy, code, or the teacher's own
+   source slides.

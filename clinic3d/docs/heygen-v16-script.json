@@ -1,0 +1,478 @@
+{
+  "schema": "dxx-heygen-orientation-script-v16",
+  "version": "16.0.2",
+  "title": "从反复崴脚到共同计划：足踝评估八幕导学",
+  "language": "zh-CN",
+  "status": "authored_script_for_root_production_not_a_generated_video",
+  "productionOwner": "root",
+  "paidGenerationPerformedByThisAuthor": false,
+  "targetDurationSeconds": {
+    "min": 360,
+    "max": 480,
+    "isEstimate": true
+  },
+  "sourceCourse": {
+    "learningObjectivesVersion": "15.0.4",
+    "learningObjectivesRecord": "../../migration-site/learning/objectives-v15.json",
+    "learningObjectivesSHA256": "a147eb81d53f7373686073b3485bec2acad80c06265d05a1eed068f8e362aed1",
+    "clinicalScriptRecord": "../case-lesson-v14.js",
+    "clinicalSourceRecord": "v14-clinical-sources.json",
+    "methodSourceRecord": "v14-rom-mmt-sources.json",
+    "archSourceRecord": "arch-v13-sources.json"
+  },
+  "roles": [
+    {
+      "id": "narrator",
+      "displayName": "导学旁白",
+      "genderPresentation": "neutral",
+      "voiceDirection": "温和、清晰、自然；不模仿林治疗师或陈女士；口语停顿，不念章节代码",
+      "wardrobe": null
+    },
+    {
+      "id": "therapist",
+      "displayName": "林治疗师",
+      "genderPresentation": "male",
+      "voiceDirection": "成年男性，平视交流、耐心、尊重；无训斥或夸张权威腔",
+      "wardrobe": "上下统一深蓝色治疗师服装，整洁合脚的封闭式鞋；全片一致"
+    },
+    {
+      "id": "patient",
+      "displayName": "陈女士",
+      "genderPresentation": "female",
+      "age": 28,
+      "voiceDirection": "成年女性，自然表达担忧、主动提问；不幼态、不夸张疼痛",
+      "wardrobe": "便于观察小腿的运动服、运动鞋与袜；检查准备后交互三维场景按流程赤足；不跳切成穿鞋受检"
+    }
+  ],
+  "caseContinuity": {
+    "patient": "28岁陈女士",
+    "history": "14个月前右踝首次扭伤，此后再扭伤两次，反复不稳、走不平路面担心打软腿",
+    "goal": "先安心走不平路面，再讨论回到篮球",
+    "lowArchRole": "检查资料中逐步发现的特征，不能预设为唯一病因",
+    "highArchRole": "独立知识拓展，不改变陈女士低足弓病例主线",
+    "fictionalCase": true,
+    "clinicalMeasurementPerformed": false
+  },
+  "deliveryPolicy": {
+    "speakOnlyUtteranceText": true,
+    "showOneSubtitleAtATime": true,
+    "subtitlePlacement": "左下安全区，最多两行；不覆盖脚、量角器、时间轴或压力图",
+    "chapterTitles": "每幕短标题，2—3秒后收起",
+    "cameraContinuity": "第三视角接诊建立环境，问答切换自然的近景或视线匹配；教学说明可切既有授权图谱与真实平台录屏",
+    "clinicalActions": "不由生成视频冒充规范手法、精准关节配准、施阻、保护接触或真实步态采集；检查操作明确交回当前互动三维课程",
+    "scientificVisuals": "足压、COP、COM、量角器与步态参数只使用根代理核实的现有平台录屏；缺少录屏时用简洁章节卡或既有授权图谱，不生成貌似实测的科学图像",
+    "navigationContract": "总项目导引选择幕名进入相应练习；跳过项目不自动生成检查结果或计为完成。具体界面按钮文案以根代理实现核对为准",
+    "noQuizKeyOverlay": "不出现题库正确选项、答案ID或逐题解答；讲解概念与学习方法",
+    "noUnsupportedClaims": [
+      "低足弓唯一致病链",
+      "已测得患者角度、肌力或真实平衡时间",
+      "固定正常S形COP",
+      "足压等于全身重心",
+      "高足弓一律外侧COP",
+      "AI检查动作临床准确",
+      "专业教师已经签审",
+      "完成课程即可独立临床诊疗",
+      "国家申报认证成品"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "opening",
+      "title": "从真实生活问题开始",
+      "objectiveIds": [
+        "O1",
+        "O8"
+      ],
+      "visualPlan": "明亮整洁的运动康复诊室全景。林治疗师深蓝上下装，陈女士穿鞋坐在接诊位。可以用静态人物构图或说话头像，避免无意义手部摆动。显示八幕目录的真实平台录屏；尚未有录屏则只显示八幕名称。",
+      "studentTask": "理解病例问题和学习路径，选择顺序学习或按幕进入。",
+      "learningAim": "把人体运动学用于问题提出、证据收集和解释。",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "欢迎来到足踝评估诊室。反复崴脚后，有人害怕走不平的路，也有人不敢重新运动。人体运动学要帮助我们把这些困扰变成可以观察、讨论和验证的问题。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "今天的虚构患者陈女士二十八岁，十四个月前右踝扭伤，此后又扭伤两次。你将跟随林治疗师，经历问诊、活动度、肌力、足弓、步态、足压、平衡与共同计划八幕。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "可按顺序学习，也可从总项目导引选择幕名，进入对应练习。跳过的检查保留未完成，不自动补结果。片中先讲清目的，具体操作回到互动三维诊室，由动小助逐步提示。"
+        }
+      ],
+      "estimatedDurationSeconds": 52
+    },
+    {
+      "id": "act1",
+      "title": "第一幕：先听见患者",
+      "objectiveIds": [
+        "O1"
+      ],
+      "visualPlan": "接诊桌前中景与自然近景，电脑屏幕朝向林治疗师。对话时自然放松双手。只做问答，不叠加多个文本框。",
+      "studentTask": "选择问诊回应，收集症状、既往受伤、安全信息和生活目标。",
+      "learningAim": "以患者问题和安全为先，避免先确定病因。",
+      "utterances": [
+        {
+          "speaker": "therapist",
+          "text": "陈女士，您好。今天最想解决哪件事？我们先聊一聊，再商量检查，您随时可以提问或暂停。"
+        },
+        {
+          "speaker": "patient",
+          "text": "我走不平的路总怕脚一软。现在想先走稳，以后还想打篮球。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "明白，我们先围绕走路的担心来了解情况。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "在这一幕，选择合适的回应，追问受伤经过、疼肿和不稳发生的情境，也留意新伤与负重困难。把她的目标记下来，后面的每项检查都要回答一个明确问题。"
+        }
+      ],
+      "estimatedDurationSeconds": 38
+    },
+    {
+      "id": "act2",
+      "title": "第二幕：看清怎样活动",
+      "objectiveIds": [
+        "O2"
+      ],
+      "visualPlan": "说话近景后切授权足踝图谱或当前关节查看器真实录屏。脱鞋袜、赤足准备和运动控制均交回互动三维场景，不用生成视频伪造完整脱袜或量角测量。",
+      "studentTask": "按提示完成检查准备，操作运动滑块与图层，识别量角器参考标志和比较条件。",
+      "learningAim": "区分运动方向，理解轴面与统一测法。",
+      "utterances": [
+        {
+          "speaker": "therapist",
+          "text": "接下来要观察踝足活动。请先坐稳，再按提示脱下鞋袜；活动到哪里紧或不舒服，都请告诉我。"
+        },
+        {
+          "speaker": "patient",
+          "text": "可以，我右脚往上时会担心又崴到。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "我们从您能接受的小幅度开始。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "拖动滑块，认识踝关节背屈和跖屈，再切换骨骼、肌肉、运动轴与运动面。左右比较前，核对体位、膝角、足位和对线。图谱帮助理解方向与配合，显示的教学运动不能直接当作陈女士的实测角度。"
+        }
+      ],
+      "estimatedDurationSeconds": 39
+    },
+    {
+      "id": "act3",
+      "title": "第三幕：用力表现怎样比较",
+      "objectiveIds": [
+        "O3"
+      ],
+      "visualPlan": "保持人物服装与环境连续；使用真实肌群查看器录屏展示四组肌群。不得生成手按脚踝施阻、手法固定或测力读数。",
+      "studentTask": "选择肌群、动作方向和检查条件，讨论疼痛与代偿的影响。",
+      "learningAim": "区别活动、肌力分级与肌电信息。",
+      "utterances": [
+        {
+          "speaker": "therapist",
+          "text": "这一步先说明怎样检查，您可以先不使劲。"
+        },
+        {
+          "speaker": "patient",
+          "text": "是不是越用力，结果越准？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "还要把体位、方向和支撑统一，也看疼痛和代偿。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "在图谱中认识胫骨前肌、胫骨后肌、腓骨肌群和小腿三头肌，完成动作与肌群配对。学习怎样提出检查方案，并分清肌力等级、定量测力和肌电各自能提供什么。这里的角色演示不输出患者肌力成绩。"
+        }
+      ],
+      "estimatedDurationSeconds": 35
+    },
+    {
+      "id": "act4",
+      "title": "第四幕：足弓是线索",
+      "objectiveIds": [
+        "O4"
+      ],
+      "visualPlan": "先用医患近景，再用实际课程坐站病例资料比较和授权足弓解剖图谱。禁止生成未经配准的脚型形变来充当患者测量。",
+      "studentTask": "对照坐位和站立病例资料，描述变化并区分观察与因果推断。",
+      "learningAim": "联系负重、足弓与症状，保留综合解释。",
+      "utterances": [
+        {
+          "speaker": "patient",
+          "text": "脚弓低，就是我总崴脚的原因吗？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "它是需要结合症状理解的线索。我们把其他检查一起看。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "对比坐位与站立病例资料，描述负重后的足弓变化，再联系骨、关节、筋膜、韧带和肌肉的共同作用。低足弓可以没有症状；外形相似的人，困扰和功能也可能不同。先写清看到了什么，再讨论还缺少哪些证据。"
+        }
+      ],
+      "estimatedDurationSeconds": 33
+    },
+    {
+      "id": "act5",
+      "title": "第五幕：把走路放慢来看",
+      "objectiveIds": [
+        "O5"
+      ],
+      "visualPlan": "医患简短问答后切当前交互三维课程的核实录屏：同一时间轴、足接触/离地标记、双侧条图和空间参数。无录屏时只用图谱与章节文字，不能AI生成定量步态或COM曲线。",
+      "studentTask": "拖动时间轴，标记事件并比较双侧时空表现。",
+      "learningAim": "认识支撑、摆动、步长、步宽、步速及身体移动的不同信息。",
+      "utterances": [
+        {
+          "speaker": "therapist",
+          "text": "走路观察时按平常的方式走，不用刻意踩准位置，也不用赶速度。"
+        },
+        {
+          "speaker": "patient",
+          "text": "好，我会把哪里不放心告诉您。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "拖动同一时间轴，标记接触和离地，比较右侧与对侧的支撑与摆动。步长看两侧相邻足印的前后距离，步宽看两脚行进线的横向间距，步速联系距离和时间。结合事件观察差异，别只盯一个数。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "常见平地步行参考中，足跟接触后有受控跖屈，随后逐步背屈，再到末期推进。单支撑中段全身重心通常较高。观察窗中的骨盆参考点帮助看身体移动，仍需与全身重心分清；片中的双侧差异是教学设定。"
+        }
+      ],
+      "estimatedDurationSeconds": 54
+    },
+    {
+      "id": "act6",
+      "title": "第六幕：读懂足下负荷",
+      "objectiveIds": [
+        "O6"
+      ],
+      "visualPlan": "使用现有合成足压的真实平台录屏：静态双足固定、动态连续齐平板、瞬时压力与COP同步、参考/低/高足弓固定色标对照。持续小字标注合成教学示意；禁止新造设备数据、压力数值或曲线。",
+      "studentTask": "先静态后动态，暂停看瞬时帧，切换峰值图和足型对照。",
+      "learningAim": "区分压力图、压力中心和全身重心，认识同条件比较。",
+      "utterances": [
+        {
+          "speaker": "patient",
+          "text": "红色多的地方，是不是就受伤了？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "先看色标、任务和接触时刻，再结合症状判断。颜色本身不能给出诊断。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "先看静态站立，再看连续齐平压力板上的行走演示。暂停同一时刻，观察足底接触与压力中心怎样变化。压力中心是当下接触负荷的加权位置，与全身重心是不同概念。峰值合成图汇集不同时刻的局部峰值，也要单独辨认。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "比较参考足弓、低足弓与高足弓，保持任务、相位和色标一致。中足接触少，仍可能有局部负荷集中；足型不能决定所有人的压力轨迹。这里采用合成教学数据，帮助你练习提问和判读，不替陈女士下病因结论。"
+        }
+      ],
+      "estimatedDurationSeconds": 58
+    },
+    {
+      "id": "act7",
+      "title": "第七幕：安全地理解平衡",
+      "objectiveIds": [
+        "O7"
+      ],
+      "visualPlan": "医患近景，宽景仅展示扶手和清空的稳定地面。保护、停下和回稳交回当前互动场景；不生成推拉、失衡跌落或未经审核的搀扶动作。",
+      "studentTask": "选择安全起点，核对视觉、地面、支撑和停止条件。",
+      "learningAim": "理解多感觉整合，尊重患者意愿并记录条件。",
+      "utterances": [
+        {
+          "speaker": "patient",
+          "text": "闭眼我会害怕，能先不闭吗？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "当然。先睁眼，扶手就在旁边，想停就停。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "从稳定地面、可保护的条件开始，再学习如何一次改变一个条件。视觉、前庭和体感共同参与平衡；闭眼后，身体需要重新整合信息。记录扶持与停止原因，结合疼痛、力量和策略解释表现，不能凭一次站立时长确定某条感觉通路受损。"
+        }
+      ],
+      "estimatedDurationSeconds": 34
+    },
+    {
+      "id": "act8",
+      "title": "第八幕：把证据连到生活",
+      "objectiveIds": [
+        "O8"
+      ],
+      "visualPlan": "回到接诊位，温和医患近景。用真实证据板录屏展示已有与待补项目；没有证据的项目保持待完成，不生成诊断证书或固定处方。",
+      "studentTask": "区分发现、解释和证据缺口，选择有依据的下一步并约定复评。",
+      "learningAim": "围绕患者目标共同计划，不用单一发现保证疗效。",
+      "utterances": [
+        {
+          "speaker": "patient",
+          "text": "我想先安心走路，从简单的开始。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "我们围绕这个目标商量方案，再约定怎样复评。您觉得哪里难实施，也请告诉我。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "把已知发现、可能解释、尚缺证据分开，说明每个建议依据什么。力量与控制练习、负荷调整或辅助支持，需要结合评估和使用反应讨论。新伤或明显加重时重新评估。最后邀请陈女士复述重点，确认我们是否讲清楚，也给她表达偏好的机会。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "谢谢您把担心告诉我。我们一起记录变化，按您的进展再调整。"
+        }
+      ],
+      "estimatedDurationSeconds": 46
+    },
+    {
+      "id": "closing",
+      "title": "带着问题回到互动学习",
+      "objectiveIds": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8"
+      ],
+      "visualPlan": "真实总项目导引、深入学习入口和教师反馈入口录屏；不显示测验答案、学生身份或真实课堂数据。结尾显示既有授权图谱署名和教学范围说明。",
+      "studentTask": "进入所选一幕，完成自测，按需扩展或深入讨论并反馈疑问。",
+      "learningAim": "形成可追溯的知识学习与反思记录。",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "现在，选一幕进入练习，也可回看已经学过的环节。八个学习目标对应十六道知识自测题，帮助你发现理解上的缺口；观看和操作记录不代替作答。"
+        },
+        {
+          "speaker": "narrator",
+          "text": "需要时，在深入学习中选择扩展或深入讨论，用DeepSeek辅助梳理问题，再核对来源，把疑问反馈给教师。知识理解还要走向经教师指导的技能练习。本课程现阶段为净化迁移教学版，动作与资料仍需专业审核。带着问题学习，让每个检查都服务于患者的生活。"
+        }
+      ],
+      "estimatedDurationSeconds": 44
+    }
+  ],
+  "reviews": [
+    {
+      "round": 1,
+      "type": "内容与临床推断边界",
+      "inputVersion": "16.0.0",
+      "outputVersion": "16.0.1",
+      "reviewer": "AI内容代理；非临床教师签审",
+      "findings": [
+        "步态段将对侧直接叫健侧，容易把未独立评估的左侧视为正常参照。",
+        "步长仅写前后距离，缺少相邻双侧落脚关系。"
+      ],
+      "changes": [
+        "改成右侧与对侧。",
+        "步长明确为两侧相邻足印的前后距离，步宽明确为两脚行进线的横向间距。"
+      ],
+      "confirmed": [
+        "林治疗师为男性深蓝上下装，患者为28岁陈女士，14月右踝史与再次扭伤两次一致。",
+        "低足弓只作综合线索，高足弓为独立拓展。",
+        "单支撑中段通常较高的全身重心、骨盆参考点、COP相互区分。",
+        "病例与压力为教学内容；未宣称患者角度、肌力、肌电或平衡时间已经测出。",
+        "未由生成片承担规范检查动作、精准手法或真实步态验证。"
+      ],
+      "sourceUse": "沿用冻结课程与原始/官方来源记录；本轮未新增临床数值、阈值或处方。NHS足形和OUHSC加载反应页面本轮可读；NICE与JOSPT直接访问403，不据此冒称重新阅读全文。",
+      "remaining": "规范检查动作、病例适配及教学科学性仍需专业教师审核。"
+    },
+    {
+      "round": 2,
+      "type": "修订后连贯性、口播与制作适配",
+      "inputVersion": "16.0.1",
+      "outputVersion": "16.0.2",
+      "reviewer": "AI内容代理；非成片质量或临床验证",
+      "findings": [
+        "结尾将品牌译成深度求索且说由接入模型解释，可能与界面DeepSeek不一致，并容易混同服务连通性已验证。"
+      ],
+      "changes": [
+        "统一用DeepSeek名称；只引导辅助梳理、核对来源和反馈教师，不声称已生成回答或已通过后端连通测试。"
+      ],
+      "confirmed": [
+        "开场与结尾保留礼貌和共同目标，中段每幕只保留一次短问答。",
+        "八幕各有学生任务与学习目的，导航允许选幕，但未做项目不补结果。",
+        "口播无逐题答案、正确选项或测验答案ID。",
+        "视觉限制只允许核实录屏和既有授权解剖图，不让AI新造足压/COM曲线或检查读数。",
+        "时长仅由稿长与语速估算，实际片长、声音角色、人物连续性和画面仍由根代理制作后检查。"
+      ],
+      "remaining": "根代理须核对真实导引跳步行为、DeepSeek入口及最终字幕，视频生成服务可能改写文字，需与本稿逐场对照。"
+    }
+  ],
+  "textMetrics": {
+    "hanCharacters": 1569,
+    "allSpokenTextCharactersIncludingPunctuationAndLatin": 1767,
+    "utterances": 35,
+    "scenes": 10,
+    "estimatedSpeechRateHanCharactersPerSecond": {
+      "min": 3.6,
+      "max": 4.2
+    },
+    "estimatedTransitionAndBreathSeconds": 30,
+    "estimatedDurationSeconds": {
+      "min": 404,
+      "max": 466
+    },
+    "actualRenderedDurationVerified": false,
+    "countMethod": "Count only utterances[].text. Han is U+4E00..U+9FFF. Role labels, titles, visual plans, reviews and page copy are excluded. Timing includes an authored 30-second pacing allowance; service output may differ."
+  },
+  "fullSpokenText": "[导学旁白] 欢迎来到足踝评估诊室。反复崴脚后，有人害怕走不平的路，也有人不敢重新运动。人体运动学要帮助我们把这些困扰变成可以观察、讨论和验证的问题。\n[导学旁白] 今天的虚构患者陈女士二十八岁，十四个月前右踝扭伤，此后又扭伤两次。你将跟随林治疗师，经历问诊、活动度、肌力、足弓、步态、足压、平衡与共同计划八幕。\n[导学旁白] 可按顺序学习，也可从总项目导引选择幕名，进入对应练习。跳过的检查保留未完成，不自动补结果。片中先讲清目的，具体操作回到互动三维诊室，由动小助逐步提示。\n\n[林治疗师] 陈女士，您好。今天最想解决哪件事？我们先聊一聊，再商量检查，您随时可以提问或暂停。\n[陈女士] 我走不平的路总怕脚一软。现在想先走稳，以后还想打篮球。\n[林治疗师] 明白，我们先围绕走路的担心来了解情况。\n[导学旁白] 在这一幕，选择合适的回应，追问受伤经过、疼肿和不稳发生的情境，也留意新伤与负重困难。把她的目标记下来，后面的每项检查都要回答一个明确问题。\n\n[林治疗师] 接下来要观察踝足活动。请先坐稳，再按提示脱下鞋袜；活动到哪里紧或不舒服，都请告诉我。\n[陈女士] 可以，我右脚往上时会担心又崴到。\n[林治疗师] 我们从您能接受的小幅度开始。\n[导学旁白] 拖动滑块，认识踝关节背屈和跖屈，再切换骨骼、肌肉、运动轴与运动面。左右比较前，核对体位、膝角、足位和对线。图谱帮助理解方向与配合，显示的教学运动不能直接当作陈女士的实测角度。\n\n[林治疗师] 这一步先说明怎样检查，您可以先不使劲。\n[陈女士] 是不是越用力，结果越准？\n[林治疗师] 还要把体位、方向和支撑统一，也看疼痛和代偿。\n[导学旁白] 在图谱中认识胫骨前肌、胫骨后肌、腓骨肌群和小腿三头肌，完成动作与肌群配对。学习怎样提出检查方案，并分清肌力等级、定量测力和肌电各自能提供什么。这里的角色演示不输出患者肌力成绩。\n\n[陈女士] 脚弓低，就是我总崴脚的原因吗？\n[林治疗师] 它是需要结合症状理解的线索。我们把其他检查一起看。\n[导学旁白] 对比坐位与站立病例资料，描述负重后的足弓变化，再联系骨、关节、筋膜、韧带和肌肉的共同作用。低足弓可以没有症状；外形相似的人，困扰和功能也可能不同。先写清看到了什么，再讨论还缺少哪些证据。\n\n[林治疗师] 走路观察时按平常的方式走，不用刻意踩准位置，也不用赶速度。\n[陈女士] 好，我会把哪里不放心告诉您。\n[导学旁白] 拖动同一时间轴，标记接触和离地，比较右侧与对侧的支撑与摆动。步长看两侧相邻足印的前后距离，步宽看两脚行进线的横向间距，步速联系距离和时间。结合事件观察差异，别只盯一个数。\n[导学旁白] 常见平地步行参考中，足跟接触后有受控跖屈，随后逐步背屈，再到末期推进。单支撑中段全身重心通常较高。观察窗中的骨盆参考点帮助看身体移动，仍需与全身重心分清；片中的双侧差异是教学设定。\n\n[陈女士] 红色多的地方，是不是就受伤了？\n[林治疗师] 先看色标、任务和接触时刻，再结合症状判断。颜色本身不能给出诊断。\n[导学旁白] 先看静态站立，再看连续齐平压力板上的行走演示。暂停同一时刻，观察足底接触与压力中心怎样变化。压力中心是当下接触负荷的加权位置，与全身重心是不同概念。峰值合成图汇集不同时刻的局部峰值，也要单独辨认。\n[导学旁白] 比较参考足弓、低足弓与高足弓，保持任务、相位和色标一致。中足接触少，仍可能有局部负荷集中；足型不能决定所有人的压力轨迹。这里采用合成教学数据，帮助你练习提问和判读，不替陈女士下病因结论。\n\n[陈女士] 闭眼我会害怕，能先不闭吗？\n[林治疗师] 当然。先睁眼，扶手就在旁边，想停就停。\n[导学旁白] 从稳定地面、可保护的条件开始，再学习如何一次改变一个条件。视觉、前庭和体感共同参与平衡；闭眼后，身体需要重新整合信息。记录扶持与停止原因，结合疼痛、力量和策略解释表现，不能凭一次站立时长确定某条感觉通路受损。\n\n[陈女士] 我想先安心走路，从简单的开始。\n[林治疗师] 我们围绕这个目标商量方案，再约定怎样复评。您觉得哪里难实施，也请告诉我。\n[导学旁白] 把已知发现、可能解释、尚缺证据分开，说明每个建议依据什么。力量与控制练习、负荷调整或辅助支持，需要结合评估和使用反应讨论。新伤或明显加重时重新评估。最后邀请陈女士复述重点，确认我们是否讲清楚，也给她表达偏好的机会。\n[林治疗师] 谢谢您把担心告诉我。我们一起记录变化，按您的进展再调整。\n\n[导学旁白] 现在，选一幕进入练习，也可回看已经学过的环节。八个学习目标对应十六道知识自测题，帮助你发现理解上的缺口；观看和操作记录不代替作答。\n[导学旁白] 需要时，在深入学习中选择扩展或深入讨论，用DeepSeek辅助梳理问题，再核对来源，把疑问反馈给教师。知识理解还要走向经教师指导的技能练习。本课程现阶段为净化迁移教学版，动作与资料仍需专业审核。带着问题学习，让每个检查都服务于患者的生活。",
+  "validation": {
+    "performedBy": "content author",
+    "checks": [
+      {
+        "id": "eight_ordered_acts",
+        "passed": true
+      },
+      {
+        "id": "three_roles",
+        "passed": true
+      },
+      {
+        "id": "all_speakers_defined",
+        "passed": true
+      },
+      {
+        "id": "each_act_has_patient_and_therapist",
+        "passed": true
+      },
+      {
+        "id": "each_act_has_task_and_objective",
+        "passed": true
+      },
+      {
+        "id": "script_length_1500_1900_han",
+        "passed": true
+      },
+      {
+        "id": "two_recorded_revisions",
+        "passed": true
+      },
+      {
+        "id": "all_local_source_records_exist",
+        "passed": true
+      },
+      {
+        "id": "frozen_15_0_4_hash_matches",
+        "passed": true
+      },
+      {
+        "id": "not_generated_or_clinically_measured",
+        "passed": true
+      }
+    ],
+    "allPassed": true,
+    "notVerified": [
+      "generated video existence and duration",
+      "rendered character identities and wardrobe",
+      "rendered narration accuracy",
+      "final navigation behavior",
+      "DeepSeek provider connectivity",
+      "professional teacher approval",
+      "clinical movement accuracy"
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "title": "慢性踝关节不稳与柔韧性低足弓情境脚本：临床与运动学逐项审查",
+  "review_date": "2026-10-18",
+  "status": "供编剧与教师复核；不是临床诊断或已通过的动作认证",
+  "input_path": "用户本次提供的七幕病例脚本文本",
+  "central_revision": "保留反复崴脚就诊、逐步发现低足弓的叙事；将预设低足弓根因改成检验多因素假设。低足弓可以是本案例重要的负荷相关发现，但不能先验地当作反复内翻扭伤的根本病因。",
+  "evidence_scope": "证据用于限定台词和解释范围。研究中的组间差异不能直接移植成该虚构患者的诊断、测量结果或动作参数。",
+  "items": [
+    {
+      "id": "C01",
+      "location": "核心逻辑、总体病因链、幕3、幕4、幕6、幕7",
+      "original_claim": "低足弓是反复内翻崴脚的底层生物力学病因；低足弓→距骨内倾内旋→外侧韧带持续高张力→反复扭伤。",
+      "risk": "把并存足姿和横断面关联升级成已证实因果；还把跟骨外翻、足内侧下沉与内翻崴脚机械地串成单一路径。CAI的足姿特征研究并无一致结论，部分样本表现为高弓或后足内翻。",
+      "recommended_rewrite": "你反复崴脚与不稳感，需要结合既往损伤、关节活动、力量和运动控制一起判断。检查还发现右侧足弓负重后较低；它是否参与了你的负荷不适和运动策略，我们还要通过多项检查及干预后的复测来验证。",
+      "visual_rule": "用多因素问题图呈现：既往损伤、不稳感、活动度、力量、平衡、足姿、活动需求相互关联。足姿与症状之间用‘待验证’联系，不能播成确定的单向病因动画。",
+      "evidence": [
+        {
+          "source_id": "S01",
+          "supports": "CAI的足姿与足踝排列证据不一致；不支持所有CAI有同一足弓根因。",
+          "limit": "综述不能证明低足弓在这个个体完全无关，也不能证明高足弓必然致病。"
+        },
+        {
+          "source_id": "S02",
+          "supports": "CAI模型包含病理机械、感觉知觉、运动行为等相互影响的因素。",
+          "limit": "作者明确模型仍需验证，不应将模型本身当作个体因果证据。"
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "location": "幕1患者入室及病史",
+      "original_claim": "患者平时走路不怎么疼，却持续跛行、前足点地、足跟不敢负重；同时把受伤时‘脚勾着’直接解释成跖屈内翻。",
+      "risk": "症状表演与病史不一致；勾脚通常指背屈，不能在台词里悄悄等同跖屈。患者回忆也不足以确定损伤瞬间的全部三维角度。",
+      "recommended_rewrite": "入室自然步行，转向或接近凳子时稍谨慎。患者说：‘一年前落地踩到别人脚上，脚向里翻了；具体是勾着还是绷着，我记不清。后来不平路和变向时常觉得要崴。’治疗师继续问最近一次损伤、肿痛、承重、卡锁和既往康复。",
+      "visual_rule": "只有脚本另行设定并解释急性加重时，才用明显疼痛性跛行和拒绝足跟负重。检查前先征得同意并确认安全承重。",
+      "evidence": [
+        {
+          "source_id": "S02",
+          "supports": "CAI症状与功能表现多样，包含不稳感、再扭伤以及疼痛或活动改变。",
+          "limit": "不规定所有CAI患者应有某一种入室步态。"
+        },
+        {
+          "source_id": "S03",
+          "supports": "评估应纳入病史、疼痛、功能、自述不稳和安全可耐受的功能活动。",
+          "limit": "临床指南不能用来从患者一句回忆推算受伤时角度。"
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "location": "幕2量角器测量",
+      "original_claim": "正常踝背屈至少15°；右侧9°差了快一半。",
+      "risk": "背屈结果受膝位、负重、主动/被动、固定方式与测量轴定义影响。把15°当所有体位和人的硬阈值会误判，角度‘差一半’也没有临床含义。",
+      "recommended_rewrite": "在同一体位和测量方法下，你右侧这次的活动范围比左侧小。我们记录疼痛和终末感，并用标准化负重弓步测试补充观察走路所需的背屈。单次角度先作为病例线索。",
+      "visual_rule": "明确膝位、主动或被动、量角器轴点和固定臂/移动臂；量角器刻度精度不等于测量准确度。9°、11°、17°若保留，应标为预设案例数据，不能与任意动画角度混用。",
+      "evidence": [
+        {
+          "source_id": "S04",
+          "supports": "原始测量研究显示膝位及负重条件显著影响背屈数值。",
+          "limit": "20名健康受试者的结果不是通用诊断阈值。"
+        },
+        {
+          "source_id": "S05",
+          "supports": "负重弓步需统一足跟接触、膝对准与重复测量程序。",
+          "limit": "该可靠性研究不提供CAI的单一正常下限。"
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "location": "幕2距骨解释；幕6松动术",
+      "original_claim": "前面顶得慌+背屈9°，所以不是筋短，而是距骨卡住、前移和瘢痕粘连；松动术把距骨推回去。",
+      "risk": "症状和关节角度不能确诊距骨位置、粘连或排除肌腱肌肉因素。把手法效果说成复位会误导患者并夸大虚拟动作的诊断能力。",
+      "recommended_rewrite": "前方顶痛和背屈减少可能有多种原因，我们需要结合肌肉长度、关节附属活动、疼痛位置及其他检查。适合时，可由有资质治疗师尝试分级关节松动，并复测活动和功能；不把它解释成把卡住的骨头推回去。若持续卡锁或疼痛与预期不符，进一步评估。",
+      "visual_rule": "关节解剖动画需标明非负重足相对小腿或负重小腿相对足的参考系。可示意常用滚动/滑动概念，不能演成该患者真实距骨已移位或可见瘢痕。",
+      "evidence": [
+        {
+          "source_id": "S01",
+          "supports": "部分CAI样本距骨前移/内旋证据为低确定性。",
+          "limit": "群体影像发现不能经9°量角器读数推定到个体。"
+        },
+        {
+          "source_id": "S03",
+          "supports": "指南支持合适的手法短期改善负重背屈和动态平衡。",
+          "limit": "改善不证明骨头被复位或某个病因已确认。"
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "location": "幕2被动内外翻和外翻抗阻",
+      "original_claim": "被动内翻比左侧大就说明外侧韧带松；外翻抗阻差就说明腓骨肌反应延迟、本体感觉坏了。",
+      "risk": "被动总活动度不等同特定韧带病理性松弛；力量、反应时和感觉是不同构念。一次徒手抗阻不能测得腓骨肌神经肌肉反应潜伏期。",
+      "recommended_rewrite": "这次右侧抗阻外翻表现较弱，我们还要区分疼痛抑制、力量和控制因素。被动活动差异需要结合规范的稳定性检查和症状判断；目前不能凭这两项检查说韧带松了或肌肉反应延迟。",
+      "visual_rule": "把活动度、规范韧带稳定性检查、力量、感觉和功能控制分开记录。若没有反应时测量，不在界面展示虚构的腓骨肌延迟数值。",
+      "evidence": [
+        {
+          "source_id": "S06",
+          "supports": "ROAST将机械与感觉运动损害分项评估，包含关节、肌肉及功能维度。",
+          "limit": "该共识主要针对急性外侧踝扭伤评估，应用于慢性脚本时应结合CAI指南。"
+        },
+        {
+          "source_id": "S02",
+          "supports": "力量不足、感觉改变、反应或运动策略不能混为同一损害。",
+          "limit": "模型中可能存在的损害不是每名患者都已有。"
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "location": "幕3步态分期、内翻与足弓动画",
+      "original_claim": "支撑相中期踝中立位；足跟触地后快速内翻又立即内侧下沉；支撑早中末三段等同完整标准分期，60%/40%为固定时序。",
+      "risk": "中期小腿向前推进通常伴随踝背屈，不能冻结为中立位；内翻、外翻和足弓形变的方向/时点应分清。固定百分比和三段简化若冒称标准，可造成时序错误。",
+      "recommended_rewrite": "先让学生识别初始接触、承重反应、支撑中期、支撑末期、预摆动和摆动等事件，再观察本病例。一般舒适步速下约60%支撑、40%摆动，仅作概览；数值随速度和个体变化。承重时观察足部缓冲与小腿前移，后期观察足跟抬起和推进，避免预设每个异常都存在。",
+      "visual_rule": "镜头至少有同一循环的后方和侧面；前足接触、足跟抬起和离趾事件必须与标记对齐。未经配准/验证的角色步态只能作时序示意，不能给出精确的病理内翻角或据此诊断。",
+      "evidence": [
+        {
+          "source_id": "S07",
+          "supports": "研究综述采用八个常用步态分期，并描述承重后的踝跖屈与小腿前移时背屈。",
+          "limit": "用于教学时序框架，不是该患者的正常模板或测量数据。"
+        },
+        {
+          "source_id": "S03",
+          "supports": "CAI评估应观察个体动态姿势与功能动作。",
+          "limit": "指南不支持用单一动画作为患者病理步态证据。"
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "location": "幕4柔韧性足弓判断",
+      "original_claim": "坐位足弓存在、站立塌陷就完成低足弓病因确诊，足底内侧酸也必由足弓塌陷造成。",
+      "risk": "可支持柔韧性足姿观察，但低足弓常无症状；单侧新出现、进展或内踝痛时，需要考虑成人获得性问题等其他病因，不能把形态和疼痛简单画等号。",
+      "recommended_rewrite": "非负重时足弓较明显、负重后变低，提示足弓具有可变性。我们会继续看足姿、后足、提踵时表现以及疼痛部位和病程，判断它是否与你的不适相关。低足弓本身并不必然需要治疗。",
+      "visual_rule": "负重与非负重用同一角色、同一足部尺度；未有可靠足弓形变绑定时，采用独立教具或对照图，不把刚性模型简单缩扁。",
+      "evidence": [
+        {
+          "source_id": "S08",
+          "supports": "NHS说明扁平足常不引起问题；疼痛、单侧或新出现改变值得评估。",
+          "limit": "患者教育页不提供本病例的鉴别诊断结论。"
+        },
+        {
+          "source_id": "S09",
+          "supports": "成人获得性低足弓可能涉及胫后肌腱功能问题，需要相应评估。",
+          "limit": "不能仅因内侧酸就给患者写成胫后肌腱病。"
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "location": "幕4静态足压和‘正常三点承重’",
+      "original_claim": "正常足底只在足跟外侧、第1和第5跖骨头三点承重，足弓区基本不接触；接触和高压直接证明足弓病因及疼痛来源。",
+      "risk": "三点支撑是简化教具模型，不是所有正常静站压力图。接触面积、峰值压强、力及接触时间不同；体重、姿势、速度和设备也影响图像。",
+      "recommended_rewrite": "看足跟、前足和中足各区域的接触与负荷分配；三点支撑只是帮助理解的简化概念。本例中足接触较多是一个观察结果，要结合足姿、症状与标准化重复测量解释。",
+      "visual_rule": "压力云图必须附条件、单位、色标、静态/动态类别和数据来源。学生先分清‘接触较多’与‘峰值压强较高’，不要仅凭颜色判断疼痛原因。",
+      "evidence": [
+        {
+          "source_id": "S10",
+          "supports": "原始研究显示足印/足压形态指标与影像指标相关但并非同一信息；可作筛查。",
+          "limit": "特定样本的阈值和准确度不能泛化到所有仪器或年龄。"
+        },
+        {
+          "source_id": "S11",
+          "supports": "原始步行研究显示速度条件及个体运动控制与足底压力变异有关。",
+          "limit": "不提供本病例的诊断参考区间。"
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "location": "幕4动态COP，教具区白板和幕7总结",
+      "original_claim": "正常COP必须是足跟外侧→中足→前足内侧的平滑S形；轨迹全程内移就证明低足弓、力线内倾、外侧韧带紧张和反复扭伤根因。",
+      "risk": "COP是足底接触压力合力作用点，不等同身体重心、距骨轨迹或韧带拉力。轨迹受足姿、着地、速度和任务影响，不能用固定S形作确诊金标准。",
+      "recommended_rewrite": "压力中心描述接触地面期间合力作用位置如何移动。观察前后推进、内外侧位置、接触时序及多次重复的一致性；轨迹偏移是需要结合其他检查解释的负荷线索，不能单独诊断不稳或证明病因。",
+      "visual_rule": "白板改为‘COP：观察接触期负荷作用点的移动，结合任务与重复测量解释’。若只提供报告图片，可讲解报告已有轨迹；没有时间序列就不声称重新计算了真实COP。",
+      "evidence": [
+        {
+          "source_id": "S12",
+          "supports": "13名健康者原始实验显示有意改变足位即可改变COP走向。",
+          "limit": "模拟足位实验不是扁平足或CAI诊断验证。"
+        },
+        {
+          "source_id": "S13",
+          "supports": "原始CAI研究可见较外侧鞋内负荷，与‘必然内移’不符。",
+          "limit": "单项病例对照研究不能规定所有CAI均外移。"
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "location": "幕5单腿站及平衡垫",
+      "original_claim": "睁眼22秒、闭眼8秒就是本体感觉受损和感受器坏了；默认闭眼单腿站/平衡垫进入流程。",
+      "risk": "站立时间反映综合姿势控制，受到视觉、前庭、感觉、力量、疼痛、恐惧和任务策略等影响，不能孤立确诊感受器损坏。无分级保护的难度安排也不合适。",
+      "recommended_rewrite": "这次右侧在减少视觉帮助后更难维持姿势，提示我们还需要评估感觉运动控制。先在硬地、睁眼条件下熟悉并比较双侧，再根据表现决定是否增加难度；触地、抓扶或明显失稳时即结束这次尝试。",
+      "visual_rule": "保留稳定支撑物与治疗师保护位；先硬地睁眼，再决定是否闭眼或软垫，避免一次叠加全部难度。22秒/8秒只可作预设情境结果，不应写成病理阈值。",
+      "evidence": [
+        {
+          "source_id": "S14",
+          "supports": "原始研究使用不同感觉条件评价CAI的感觉组织与姿势表现，体现任务和感觉条件的作用。",
+          "limit": "不支持用单次站立时间定位某类感受器损伤。"
+        },
+        {
+          "source_id": "S15",
+          "supports": "NHS单腿站演示采用近墙支撑、轻屈膝与缓慢落脚。",
+          "limit": "一般练习说明不是CAI诊断测试及统一时限。"
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "location": "幕6康复方案与短足训练",
+      "original_claim": "依次复位距骨、支撑垫把力线正过来、内在肌把足弓撑回去、闭眼训练修复本体感受器；核心不是力量。",
+      "risk": "把干预目标说成已证实的结构复位或修复；固定阶段忽略个体需求。力量和感觉运动控制都可能重要，不能相互否定。",
+      "recommended_rewrite": "方案根据已证实的功能限制设定：恢复可耐受的活动、渐进力量与耐力、平衡和任务训练，并定期复测。手法及鞋具/支撑作为合适时的辅助；短足训练用于练习足内肌控制，不承诺改变所有人的足形。各模块可重叠推进，达到任务标准再增加难度。",
+      "visual_rule": "训练演示分别列目标、起始条件、动作要点、停止条件和复测任务；不把一套动画套给全部足型。未经审核不制作高速度变向、跳落和治疗师手法为学生跟练。",
+      "evidence": [
+        {
+          "source_id": "S03",
+          "supports": "CAI指南支持针对性的运动与平衡训练及适用的手法，外部支撑不能作为单一平衡治疗。",
+          "limit": "不等于任意支撑垫都有效，也不证明足弓结构可被训练恢复。"
+        },
+        {
+          "source_id": "S08",
+          "supports": "鞋具、足垫和练习可帮助症状，但不等于改变足形。",
+          "limit": "患者教育建议不代替个体处方。"
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "location": "全部结果画面、教学交互、最终诊断",
+      "original_claim": "预先写定背屈9°、外翻弱、足弓低、内侧COP、22秒/8秒，再通过镜头逐步‘发现’并显示为检查所得。",
+      "risk": "把剧本预设值冒充设备实测或动画计算，会让学生误以为视频姿态、足压图和诊断之间已有量化验证；让所有检查都验证初始根因也抹去临床推理。",
+      "recommended_rewrite": "开场用简短身份标识‘教学模拟病例’，病例资料注明预设数据。每幕允许学生判断‘能支持什么、尚不能支持什么、还需什么检查’，并保留一个不支持原假设的发现。最终总结问题清单、证据与待验证假设，再提出复测。",
+      "visual_rule": "预设数据、文献示例、设备实测使用清晰且一致的数据身份；没有真实数据则选教学演示模式。教师记录保存来源与审核状态，学生界面只呈现与任务有关的资料身份和推理证据。",
+      "evidence": [
+        {
+          "source_id": "S02",
+          "supports": "作者倡导针对个体损害进行评估—干预—再评估；模型并未证实所有损害的因果联系。",
+          "limit": "这里关于模拟数据身份的规则是本项目的制作与教学诚信要求，不冒称该文献提出的特定技术标准。"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Abnormalities of foot and ankle alignment in individuals with chronic ankle instability: a systematic review",
+      "year": 2021,
+      "type": "同行评议研究综述，官方期刊/PMC存档",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8361650/",
+      "doi": "10.1186/s12891-021-04537-6"
+    },
+    {
+      "id": "S02",
+      "title": "An Updated Model of Chronic Ankle Instability",
+      "year": 2019,
+      "type": "Journal of Athletic Training概念模型，作者原文/PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6602403/",
+      "doi": "10.4085/1062-6050-344-18"
+    },
+    {
+      "id": "S03",
+      "title": "Ankle Stability and Movement Coordination Impairments: Lateral Ankle Ligament Sprains Revision 2021",
+      "year": 2021,
+      "type": "JOSPT临床实践指南，官方发布",
+      "url": "https://www.jospt.org/doi/10.2519/jospt.2021.0302",
+      "doi": "10.2519/jospt.2021.0302"
+    },
+    {
+      "id": "S04",
+      "title": "The influence of knee position on ankle dorsiflexion – a biometric study",
+      "year": 2014,
+      "type": "原始测量研究，官方期刊/PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4118219/",
+      "doi": "10.1186/1471-2474-15-246"
+    },
+    {
+      "id": "S05",
+      "title": "Reliability of Three Measures of Ankle Dorsiflexion Range of Motion",
+      "year": 2012,
+      "type": "原始可靠性研究，PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3362988/"
+    },
+    {
+      "id": "S06",
+      "title": "Clinical assessment of acute lateral ankle sprain injuries (ROAST): 2019 consensus statement and recommendations of the International Ankle Consortium",
+      "year": 2018,
+      "type": "BJSM国际踝关节联盟共识，官方期刊",
+      "url": "https://bjsm.bmj.com/content/52/20/1304",
+      "doi": "10.1136/bjsports-2017-098885"
+    },
+    {
+      "id": "S07",
+      "title": "Gait Analysis Using Wearable Sensors",
+      "year": 2012,
+      "type": "同行评议方法综述，官方期刊/PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3304165/",
+      "doi": "10.3390/s120202255"
+    },
+    {
+      "id": "S08",
+      "title": "Flat feet",
+      "type": "NHS官方患者资料",
+      "url": "https://www.nhs.uk/conditions/flat-feet/"
+    },
+    {
+      "id": "S09",
+      "title": "Adult Acquired Flat Foot (Posterior Tibial Tendon Dysfunction)",
+      "type": "Royal Orthopaedic Hospital NHS官方患者资料",
+      "url": "https://roh.nhs.uk/services-information/foot-and-ankle/adult-acquired-flat-foot-posterior-tibial-tendon-dysfunction"
+    },
+    {
+      "id": "S10",
+      "title": "Examination of the Correlation Between Foot Morphology Measurements Using Pedography and Radiographic Measurements",
+      "year": 2017,
+      "type": "原始诊断相关研究，PubMed官方摘要",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28117255/"
+    },
+    {
+      "id": "S11",
+      "title": "The nature of functional variability in plantar pressure during a range of controlled walking speeds",
+      "year": 2016,
+      "type": "原始步行实验，官方期刊/PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5108968/"
+    },
+    {
+      "id": "S12",
+      "title": "Center of pressure trajectory during gait: a comparison of four foot positions",
+      "year": 2014,
+      "type": "原始步行实验，PubMed官方摘要；使用匹配题名的PMID以避开PMC存档元数据不一致",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25052586/",
+      "doi": "10.1016/j.gaitpost.2014.07.001"
+    },
+    {
+      "id": "S13",
+      "title": "Increased in-shoe lateral plantar pressures with chronic ankle instability",
+      "year": 2012,
+      "type": "原始病例对照研究，PubMed官方摘要",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22338958/"
+    },
+    {
+      "id": "S14",
+      "title": "Sensory organization during balance and gait in people with and without chronic ankle instability",
+      "year": 2025,
+      "type": "原始研究，官方期刊/PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12263912/",
+      "doi": "10.3389/fspor.2025.1569407"
+    },
+    {
+      "id": "S15",
+      "title": "Balance exercises",
+      "type": "NHS官方练习资料",
+      "url": "https://www.nhs.uk/live-well/exercise/balance-exercises/"
+    }
+  ],
+  "review_notes": [
+    "部分PMC全文直接打开出现验证码；相应摘要、结果段及官方索引搜索已核对，不宣称已下载受阻全文。JOSPT官方全文打开间歇报错，指南推荐段经官方搜索索引核对。",
+    "此审查未调用HeyGen、未生成视频、未改变现有网站或资产；只写入本审查文件。",
+    "临床动作的体位、接触手位、施力方向与终止方式仍需在可回放画面上逐项由专业教师审核；文献核对不能替代该步骤。"
+  ]
+}

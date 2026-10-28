@@ -1,0 +1,123 @@
+{
+  "format": "dxx-rom-mmt-clinical-method-review-v14",
+  "verifiedAt": "2026-10-18",
+  "copiedExternalAssets": [],
+  "clinicalApproval": false,
+  "sources": [
+    {
+      "id": "rom_openstax",
+      "type": "official_university_textbook",
+      "title": "OpenStax Anatomy and Physiology 2e — 9.6 Anatomy of Selected Synovial Joints",
+      "publisher": "OpenStax, Rice University",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints",
+      "supports": "距小腿关节由胫腓骨远端与距骨组成，基础分类为滑车/铰链型；距下及其他跗骨间关节共同参与足内外翻。不能把整个踝足复合体等同一个三自由度滑车。",
+      "limits": "教材分类用于入门，不否认实际关节轴倾斜、耦合和个体差异。",
+      "access": "官方教材正文成功核对；只转述概念并链接，不复制插图。"
+    },
+    {
+      "id": "rom_ouhsc",
+      "type": "official_university_teaching_material",
+      "title": "Ankle (talocrural) joint — Arthrokinematics",
+      "publisher": "University of Oklahoma Health Sciences Center, Dave Thompson PT",
+      "url": "https://www.ouhsc.edu/bserdac/dthompso/web/namics/ankle.htm",
+      "supports": "开链理想化模型：凸距骨相对凹胫腓踝穴，背屈前滚后滑，跖屈后滚前滑。",
+      "limits": "页面为2000年教学资料；这里只用作凹凸规则示意，不用于量化患者关节面运动或推导手法处方。",
+      "access": "大学官方页面正文成功核对；未复制其照片或外链图片。"
+    },
+    {
+      "id": "rom_in_vivo1989",
+      "type": "primary_research",
+      "title": "Kinematics of the ankle/foot complex: plantarflexion and dorsiflexion",
+      "authors": "Lundberg A, Goldie I, Kalin B, Selvik G",
+      "year": 1989,
+      "doi": "10.1177/107110078900900409",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2731829/",
+      "supports": "在体三维研究表明距小腿关节贡献主要背屈/跖屈，足弓关节仍有贡献，支持区分单关节与踝足复合体。",
+      "limits": "研究条件和样本有限；不把其范围或比例移植成患者阈值或当前骨网格驱动参数。",
+      "access": "官方PubMed索引摘要核对。"
+    },
+    {
+      "id": "rom_knee2016",
+      "type": "primary_research_and_protocol",
+      "title": "Diagnosis of Musculus Gastrocnemius Tightness — Key Factors for the Clinical Examination",
+      "authors": "Baumbach SF, Braunstein M, Regauer M, Böcker W, Polzer H",
+      "year": 2016,
+      "doi": "10.3791/53446",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27500825/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4993373/",
+      "supports": "膝屈伸、负重/非负重、足位和标志会改变背屈检查条件；膝角需记录并统一。",
+      "limits": "不把该小样本研究中的具体膝角或诊断流程推广成所有病人的通用正常值；不能仅凭一项检查把发紧定位为某组织病变。",
+      "access": "官方PubMed摘要与PMC索引全文内容核对；直接PMC部分请求触发反爬验证。"
+    },
+    {
+      "id": "rom_wblt2012",
+      "type": "primary_research",
+      "title": "Reliability and Validity of a Weight-Bearing Measure of Ankle Dorsiflexion Range of Motion",
+      "authors": "Chisholm MD, Birmingham TB, Brown J, Macdermid J, Chesworth BM",
+      "year": 2012,
+      "doi": "10.3138/ptc.2011-41",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23997389/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3484905/",
+      "supports": "负重弓步试验是一项有规定方法的功能性背屈测量；胫骨相对足前移，记录方法、侧别和复测条件重要。",
+      "limits": "测距与测角不能混为一个量；信度、最小可检测变化和正常阈值不是同一概念。",
+      "access": "官方PubMed摘要和PMC索引全文核对；未复制患者数据或图像。"
+    },
+    {
+      "id": "rom_reliability2012",
+      "type": "primary_research",
+      "title": "Reliability of Three Measures of Ankle Dorsiflexion Range of Motion",
+      "authors": "Konor MM, Morton S, Eckerson JM, Grindstaff TL",
+      "year": 2012,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22666642/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3362988/",
+      "supports": "同一负重任务可用量角器、倾角仪或触墙距离记录；应保留具体方法和单位及相应测量误差，不能把这些读数直接互换。",
+      "limits": "研究的健康受试者及方法不等于陈女士的实测记录，本项目不导入其数值当患者正常值。",
+      "access": "官方PubMed研究摘要核对。"
+    },
+    {
+      "id": "mmt_mrc",
+      "type": "official_original_assessment_manual",
+      "title": "Aids to the Examination of the Peripheral Nervous System, Memorandum No.45",
+      "publisher": "Medical Research Council / UKRI official hosting",
+      "year": 1976,
+      "url": "https://www.ukri.org/wp-content/uploads/2021/12/MRC-011221-AidsToTheExaminationOfThePeripheralNervousSystem.pdf",
+      "locations": "PDF第7—8页说明分级与检查原则；第45—49页为腓肠肌、比目鱼肌、胫骨后肌、胫骨前肌和腓骨长短肌等动作图示。",
+      "supports": "MRC0—5是依收缩、重力和抵抗表现进行的临床分级；肌群应按目标动作与体位检查，不是所有肌肉都用同一俯卧姿势。",
+      "limits": "不能把顺序等级当成等距力量百分比；图示不能替代对患者实施检查。",
+      "access": "UKRI官方70页PDF正文成功核对；不复制照片、图版或原始量表版面。"
+    },
+    {
+      "id": "mmt_nih",
+      "type": "official_clinical_research_protocol",
+      "title": "Muscle Grading and Testing Procedures — IMACS Form04",
+      "publisher": "NIH / NIEHS",
+      "url": "https://www.niehs.nih.gov/sites/default/files/research/resources/assets/docs/muscle_grading_and_testing_procedures_508.pdf",
+      "supports": "官方流程区分背屈坐位、跖屈俯卧/站立及必要减重体位，强调固定方法、休息及检查者条件。",
+      "limits": "该研究协议包含0—10的扩展方案；本项目不能把该方案的数字与MRC0—5混用，也不直接移植其特定人群命令。",
+      "access": "官方5页PDF表格成功核对；仅转述体位与标准化概念。"
+    },
+    {
+      "id": "mmt_quantitative1997",
+      "type": "primary_research",
+      "title": "A Comparative Study of Isokinetic Dynamometry and Manual Muscle Testing of Ankle Dorsal and Plantar Flexors and Knee Extensors and Flexors",
+      "authors": "Andersen H, Jakobsen J",
+      "year": 1997,
+      "doi": "10.1159/000117450",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9208265/",
+      "supports": "原始研究比较MMT与等速测力，提示两类测量不等价；徒手表现不能直接当作精确力/力矩读数。",
+      "limits": "研究人群并非本病例的慢性踝不稳人群，不移植患病比例、误差率或个体诊断。",
+      "access": "官方PubMed摘要成功核对。"
+    },
+    {
+      "id": "emg_seniam",
+      "type": "official_research_standards_project",
+      "title": "SENIAM — Sensor Locations; Placement and Fixation of the Sensor",
+      "publisher": "SENIAM European Biomedical Health and Research project",
+      "url": "https://seniam.org/sensor_location.htm",
+      "additionalUrl": "https://www.seniam.org/fixation.htm",
+      "supports": "肌电需要实际电极/传感、定位、固定与信号处理条件。当前无EMG采集，不能由MMT、压力颜色或肌肉网格显隐生成患者激活时序。",
+      "limits": "SENIAM用于方法边界说明；本项目没有实施其采集、分析或患者诊断。",
+      "access": "官方项目页面正文成功核对；不复制图示。"
+    }
+  ]
+}

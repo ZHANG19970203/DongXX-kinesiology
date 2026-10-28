@@ -1,0 +1,1 @@
+(()=>{const b=document.getElementById('teacherRole');if(b)b.onclick=()=>location.href='teacher/login.html';if(location.hash.startsWith('#teacher'))location.replace('teacher/login.html');})();

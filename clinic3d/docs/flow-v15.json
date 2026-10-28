@@ -1,0 +1,195 @@
+{
+  "schema": "dxx-clinic-v14-flow-function-tests",
+  "generatedAt": "2026-10-18T08:50:51.992Z",
+  "passed": true,
+  "total": 16,
+  "passedCount": 16,
+  "testedFiles": [
+    {
+      "path": "app.js",
+      "sha256": "760a227b9cae3d7aa18b86b2ee04f5162238654a36e09ed3d04e8381557c809a"
+    },
+    {
+      "path": "case-flow.js",
+      "sha256": "2871bb6ce473eb9c5506ce393ca7d37b22a3e403f0322772ed295477fea2eab0"
+    }
+  ],
+  "actualFunctions": [
+    "record",
+    "persist",
+    "addEvidence",
+    "appendLine",
+    "currentAct",
+    "drawRail",
+    "goto",
+    "choose",
+    "taskComplete",
+    "complete"
+  ],
+  "testMethod": "Extracted unchanged app control functions; in-memory DOM, localStorage and scene stubs. Exact content graph imported from case-flow.js. No browser, network, backend mutation or paid generation.",
+  "limits": [
+    "Does not validate visual quality, collision, anatomy, motion accuracy, clinical validity, actual browser storage or backend delivery.",
+    "Task fixtures supply authored operation receipts; browser interaction requires separate verification."
+  ],
+  "results": [
+    {
+      "id": "content-links",
+      "label": "内容节点与证据引用完整",
+      "passed": true,
+      "detail": {
+        "nodes": 48
+      }
+    },
+    {
+      "id": "eight-act-route",
+      "label": "八幕顺序及新增任务无跳过主线",
+      "passed": true,
+      "detail": {
+        "acts": [
+          "act1",
+          "act2",
+          "act3",
+          "act4",
+          "act5",
+          "act6",
+          "act7",
+          "act8",
+          "debrief"
+        ],
+        "nodeCount": 44
+      }
+    },
+    {
+      "id": "muscle-arch-gates",
+      "label": "新增肌群与足弓任务需实际核对且不造测量",
+      "passed": true,
+      "detail": {
+        "emptyMuscleBlocked": true,
+        "singleArchBlocked": true,
+        "receiptScope": "teaching-operation-only"
+      }
+    },
+    {
+      "id": "teacher-preview-isolated",
+      "label": "教师单项预览不保存、不发事件、不推进病例",
+      "passed": true,
+      "detail": {
+        "saved": false,
+        "events": 0,
+        "clinicalMeasurement": false,
+        "restrictedNode": "muscle_match"
+      }
+    },
+    {
+      "id": "same-screen-choice-lock",
+      "label": "同屏改选与重复点击被阻止",
+      "passed": true,
+      "detail": {
+        "choiceEventsAtNode": 1,
+        "next": "decline_stop"
+      }
+    },
+    {
+      "id": "persisted-choice-lock",
+      "label": "待继续的选择在真实保存与恢复后仍锁定",
+      "passed": true,
+      "detail": {
+        "persistedNext": "decline_stop",
+        "restoredNext": "decline_stop"
+      }
+    },
+    {
+      "id": "immediate-safety-lock",
+      "label": "选中安全分支立即锁路线且可继续到安全结局",
+      "passed": true,
+      "detail": {
+        "exitReason": "medical_stop",
+        "terminal": "safe_finish"
+      }
+    },
+    {
+      "id": "symptom-stop-route",
+      "label": "加载中不适分支退出剩余体能任务",
+      "passed": true,
+      "detail": {
+        "terminal": "safe_finish",
+        "physicalContinuationBlocked": true
+      }
+    },
+    {
+      "id": "normal-finish",
+      "label": "正常主线完成八幕与复盘后才到终结",
+      "passed": true,
+      "detail": {
+        "terminal": "finish",
+        "transitions": 43,
+        "completeEvents": 1
+      }
+    },
+    {
+      "id": "completion-idempotent",
+      "label": "终结保存幂等，非终结不能保存为完成",
+      "passed": true,
+      "detail": {
+        "completeEvents": 1,
+        "summaryEntries": 1
+      }
+    },
+    {
+      "id": "completed-readonly-restore",
+      "label": "已完成记录恢复为终结并禁止改写证据",
+      "passed": true,
+      "detail": {
+        "normalizedNode": "finish",
+        "readOnly": true
+      }
+    },
+    {
+      "id": "safe-completion-restore",
+      "label": "安全结局保存后保持安全终结与原停止原因",
+      "passed": true,
+      "detail": {
+        "terminal": "safe_finish",
+        "exitReason": "decline_stop"
+      }
+    },
+    {
+      "id": "pressure-gating",
+      "label": "足压静态与不足区间被拒，动态有效区间可通过",
+      "passed": true,
+      "detail": {
+        "staticAccepted": false,
+        "shortDynamicAccepted": false,
+        "validDynamicAccepted": true
+      }
+    },
+    {
+      "id": "task-guard",
+      "label": "量角器与步态任务未核对前不能取得对应操作证据",
+      "passed": true,
+      "detail": {
+        "incompleteLandmarksBlocked": true,
+        "incorrectEventMarksBlocked": true
+      }
+    },
+    {
+      "id": "skip-local-plan-guard",
+      "label": "跳过局部检查不补写活动结果且不能据此选活动度方案",
+      "passed": true,
+      "detail": {
+        "missingLocalEvidence": true,
+        "unsupportedPlanBlocked": true,
+        "alternativeAccepted": true
+      }
+    },
+    {
+      "id": "progress-only-rail",
+      "label": "章节栏仅显示进度，不能重开互斥分支",
+      "passed": true,
+      "detail": {
+        "chapters": 9,
+        "navigationEnabled": false
+      }
+    }
+  ]
+}

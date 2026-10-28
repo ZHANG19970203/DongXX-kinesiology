@@ -1,0 +1,26 @@
+{
+  "format": "dxx-patient-content-review-v11",
+  "patient": {
+    "name": "陈女士",
+    "gender": "female",
+    "age": 28,
+    "fictional": true
+  },
+  "therapist": {
+    "name": "林治疗师",
+    "gender": "male"
+  },
+  "review": [
+    "当前病例称呼、患者对白归属与指向患者的代词统一为陈女士/她。",
+    "保留原病例受伤经过、活动目标、教学步态参数、任务门槛与安全退出，不因性别改变病因或诊断。",
+    "未推断或添加妊娠、激素状态等未经提供的临床信息。",
+    "其他等非患者指代文字保留原义。",
+    "外观为当前实时三维原型，非精细写实数字人。"
+  ],
+  "changedFiles": [
+    "case-flow.js",
+    "index.html",
+    "test-flow.mjs"
+  ],
+  "historicalDocuments": "保留旧版制作记录的历史病例称呼；不把历史文件改写为本轮产物。"
+}

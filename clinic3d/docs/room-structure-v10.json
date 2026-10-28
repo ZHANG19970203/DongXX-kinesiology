@@ -1,0 +1,18 @@
+{
+  "roomMeshes": 599,
+  "roomVertices": 45082,
+  "invalidVertices": 0,
+  "monitorNormal": [
+    1.2246467991473532e-16,
+    0,
+    -1
+  ],
+  "monitorFacesTherapist": true,
+  "monitorAssemblyYaw": 3.141592653589793,
+  "keyboardWorldPosition": [
+    1.78,
+    0.76,
+    -2.04
+  ],
+  "scope": "Geometry and orientation only; scene composition and clinical process require visual/professional review."
+}

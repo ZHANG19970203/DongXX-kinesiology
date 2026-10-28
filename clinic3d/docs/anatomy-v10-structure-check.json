@@ -1,0 +1,23 @@
+{
+  "schema": "dxx-anatomy-v10-driver-check",
+  "passed": true,
+  "assets": 35,
+  "bones": 28,
+  "muscles": 7,
+  "vertices": 29081,
+  "triangles": 42312,
+  "transformedPoints": 290810,
+  "maxNeutralError": 0,
+  "chunkIntegrity": "SHA-256 for chunks 0 and 12",
+  "assetIntegrity": "SHA-256 of source positions + normals + indices for all 35 assets",
+  "checks": [
+    "All source vertices retain neutral atlas coordinates",
+    "Tibia/fibula fixed in both modes; talus fixed in frontal mode; muscle meshes fixed",
+    "Positive dorsiflexion raises anterior foot",
+    "Positive inversion raises medial edge of right foot",
+    "Driver clamps teaching angles",
+    "Nonfinite control input resets to neutral",
+    "Muscle mode forces neutral bone geometry"
+  ],
+  "limitation": "Numerical/structural verification only; no clinical registration, anatomical contact/axis validation, muscle dynamics or professional teaching sign-off."
+}

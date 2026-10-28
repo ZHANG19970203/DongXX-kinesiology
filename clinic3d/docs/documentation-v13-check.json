@@ -1,0 +1,20 @@
+{
+  "schema": "dxx-documentation-v13-check",
+  "noDocumentationTray": true,
+  "existingMedicalTrolleyRetained": true,
+  "notesDirectlyOnDesk": true,
+  "penDirectlyOnDesk": true,
+  "allFinite": true,
+  "carriedByHands": true,
+  "followsTherapist": true,
+  "maximumSettledPenTipPaperGapMetres": 3.516375246537251e-10,
+  "deskStationaryMaxErrorMetres": 0,
+  "deskOrientationMaxErrorRadians": 0,
+  "returnedToDesk": true,
+  "patientRemovalStillCompletes": true,
+  "independentSkeletons": true,
+  "paidGenerationJobs": 0,
+  "externalDownloads": 0,
+  "scope": "CPU scene hierarchy, finite transforms, stationery ownership and reach targets only. Writing is an authored visual cue; no finger-grasp, ink or clinical documentation skill validation.",
+  "passed": true
+}

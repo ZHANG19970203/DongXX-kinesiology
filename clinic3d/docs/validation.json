@@ -1,0 +1,171 @@
+{
+  "schema": "dxx-script-v7-validation",
+  "date": "2026-10-18",
+  "passed": true,
+  "checks": {
+    "html_and_inline_svg_tags_balanced": {
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "unclosed": []
+      }
+    },
+    "unique_html_and_svg_ids": {
+      "passed": true,
+      "detail": 37
+    },
+    "local_links_and_anchors_exist": {
+      "passed": true,
+      "detail": [
+        {
+          "reference": "#summary",
+          "exists": true
+        },
+        {
+          "reference": "#room",
+          "exists": true
+        },
+        {
+          "reference": "#act1",
+          "exists": true
+        },
+        {
+          "reference": "#production",
+          "exists": true
+        },
+        {
+          "reference": "#firstclip",
+          "exists": true
+        },
+        {
+          "reference": "script.json",
+          "exists": true
+        },
+        {
+          "reference": "production.json",
+          "exists": true
+        },
+        {
+          "reference": "clinical-audit.json",
+          "exists": true
+        },
+        {
+          "reference": "room-feasibility.json",
+          "exists": true
+        },
+        {
+          "reference": "shot-plan.csv",
+          "exists": true
+        }
+      ]
+    },
+    "no_remote_runtime_scripts_or_media": {
+      "passed": true,
+      "detail": null
+    },
+    "standalone_svg_xml_parses": {
+      "passed": true,
+      "detail": null
+    },
+    "all_json_parse": {
+      "passed": true,
+      "detail": [
+        "browser-validation.json",
+        "clinical-audit.json",
+        "independent-review.json",
+        "production.json",
+        "room-feasibility.json",
+        "room-validation.json",
+        "script.json"
+      ]
+    },
+    "six_scenes_plus_debrief": {
+      "passed": true,
+      "detail": null
+    },
+    "all_interactions_have_one_valid_answer": {
+      "passed": true,
+      "detail": null
+    },
+    "dialogue_and_acceptance_present": {
+      "passed": true,
+      "detail": null
+    },
+    "clinical_evidence_ids_resolve": {
+      "passed": true,
+      "detail": null
+    },
+    "no_heygen_generation_or_quote_fabricated": {
+      "passed": true,
+      "detail": null
+    },
+    "room_dimensions_and_area": {
+      "passed": true,
+      "detail": null
+    },
+    "short_walkway_scope": {
+      "passed": true,
+      "detail": null
+    },
+    "inline_javascript_syntax": {
+      "passed": true,
+      "detail": ""
+    },
+    "shot_scene_exists:S01": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S02": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S03": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S04": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S05": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S06": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S07": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S08": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S09": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S10": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S11": {
+      "passed": true,
+      "detail": null
+    },
+    "shot_scene_exists:S12": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "failureCount": 0,
+  "failures": [],
+  "limits": [
+    "HTML/document/interactive review only; no new clinical motion implementation.",
+    "Independent review findings were addressed in the final authored files; earlier report retained as review history.",
+    "No clinical sign-off or clinical kinematic validation.",
+    "No HeyGen generation."
+  ]
+}

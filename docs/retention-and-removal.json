@@ -1,0 +1,678 @@
+{
+  "sourceEntries": 112,
+  "files": [
+    {
+      "sourcePath": ".gitignore",
+      "sourceBytes": 80,
+      "sourceSha256": "8719492da088b005c8f2202adad2cb08c92bd4753a3e7b8d6e6a16d916bd7e09",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": ".nojekyll",
+      "sourceBytes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "404.html",
+      "sourceBytes": 512,
+      "sourceSha256": "ede1531bcf03cd744eba8f7f4ef569ce56221d6a6eec34a20848f43116d38e99",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "_headers",
+      "sourceBytes": 80,
+      "sourceSha256": "5cc41a3de23ecb4f721351126de7942c8395a2c6b721b61fa2dfa24d6ee21028",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "APPEARANCE_GUIDE.html",
+      "sourceBytes": 7221,
+      "sourceSha256": "0a97d9858c0f76139782b5738ae52edab2016a2b66f8287e40e9247550a8a1ae",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "assembly/assets/catalog.js",
+      "sourceBytes": 476232,
+      "sourceSha256": "2482bc39a47c951040a8892a98957ca61cceb29927eebbbce034a8f68eda50f8",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "assembly/assets/game.css",
+      "sourceBytes": 19555,
+      "sourceSha256": "f846560e90340c546bcafeee31f3001bf13f6b60ba133e6754360448b8f07e6b",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assembly/assets/game.js",
+      "sourceBytes": 53694,
+      "sourceSha256": "65a367dc2bd07c770d416cc26a5d0d28a164ea40eb72f87d63c2d32583644f6b",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "assembly/assets/geometry-loader.js",
+      "sourceBytes": 2962,
+      "sourceSha256": "8bae175153e6a5587a102f2500fd163c11c1440f5aac2aec0533681190694d13",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assembly/assets/geometry-manifest.json",
+      "sourceBytes": 1633,
+      "sourceSha256": "690664f2f161f8b5142484de5c6461c8b1bd9291ca8c9f2c653befc67b13d106",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "assembly/assets/mesh-00.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "03a47d9a431bbd47b7c0b85ea02f6d7900cccc0e882bdce126ae80828e9cd1f4",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "assembly/assets/mesh-01.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "15cf8db412165e1dfa6fc0b036947ebfda3e6afb09b2e0dded7da248312c4d00",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "assembly/assets/mesh-02.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "c42acbfa71859b08367d9aae5aea53e78d8eb4b00a1c2e4905358ffe204d03b1",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "assembly/assets/mesh-03.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "52cd7ccd4fce3de0669be5b4c8546f97b391a0671ca3cfde05707289804e791b",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "assembly/assets/mesh-04.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "6b63aea6f09e8d84b4774afff79ef700b1e7c32d5e7322e6708aa9ea9b267fb4",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "assembly/assets/mesh-05.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "d715180eedb0dcc7fb8b3e86db3629675c26efd0fc3de0534d93d69ee8be1bce",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "assembly/assets/mesh-06.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "84538af3dec98bbc7ea0ebf4e5fc6043c813ae51d40e0558eb019ac15d268431",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "assembly/assets/mesh-07.bin",
+      "sourceBytes": 3805376,
+      "sourceSha256": "e78bc6db31955ca56a5765ce2578e78eca9f5539f0bbb45adc3eea1f8708e5d8",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "assembly/assets/renderer.js",
+      "sourceBytes": 20926,
+      "sourceSha256": "d0a1ed18101c8a7ff74d0b4a142fdceb3fb5c997be61978a3dbc926c8215fbeb",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assembly/index.html",
+      "sourceBytes": 10287,
+      "sourceSha256": "601cdab8ca8ad96f9dadf0d59d96b348c2e0619e1bad9cf28b79a540e7ad773a",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "assembly/licenses/CURRENT_DELIVERY_SCOPE.txt",
+      "sourceBytes": 1143,
+      "sourceSha256": "edd61a0f4cb4b5ac2d86e9b867d9fce1edadf419d92e5d56dc00807f5650021d",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assembly/licenses/LICENSE.bodyparts3d-supplemental.txt",
+      "sourceBytes": 343,
+      "sourceSha256": "46d4146902d66c8ab70c80f4d5395841d0888233816f97d360aec451a2e3e259",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assembly/licenses/LICENSE.bodyparts3d.txt",
+      "sourceBytes": 1183,
+      "sourceSha256": "6b7f1a0d49df8a5145ebc5627c929c1449fc296e6bf1339bdc215dfaac47fa55",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assembly/licenses/LICENSE_SCOPE.txt",
+      "sourceBytes": 831,
+      "sourceSha256": "b8df97dfbc22996094c7a443b80dc0d6e8f32a83f4579e47e91d93d933115cde",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assembly/licenses/ORIGINAL_CODE_LICENSE.txt",
+      "sourceBytes": 1519,
+      "sourceSha256": "3ab0610db80b5bfc4c8bb70534085fa784904e0052d63e1f6e90644c779f9439",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assembly/licenses/SOMAKINE_DATA_LICENSE",
+      "sourceBytes": 437,
+      "sourceSha256": "51f8ba2a3dae0f95a3fb43330cac28b267fc95f325063c13501be57066c458cc",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assembly/licenses/SOMAKINE_NOTICE",
+      "sourceBytes": 946,
+      "sourceSha256": "732ac1d12c37deae08be6e7be1d27b72f52ff4f0d03c4aff1043bfa48481484f",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assets/bridge.css",
+      "sourceBytes": 1359,
+      "sourceSha256": "7f5feef73237a521e831e5df1bbc84c5f5f92d11d298e85b43e1a9bff494c19a",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assets/bridge.js",
+      "sourceBytes": 3447,
+      "sourceSha256": "5a5b7f958f0b7c8ccd8f6371340ff6c7ad88285a3eab966f29f1b9caf8afd4b5",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "assets/home-visual.css",
+      "sourceBytes": 12240,
+      "sourceSha256": "346e96b02df6b208ac0e893810f427b998478d3b5bc94230b6d2f8b7eb224a4d",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "assets/home-visual.js",
+      "sourceBytes": 2394,
+      "sourceSha256": "b0ffcdbec38c5fc466019c942cfc1fd62f62367b308f89e0fe4bb55a9019145a",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assets/hub.css",
+      "sourceBytes": 10977,
+      "sourceSha256": "5b13bd244fa85acd6dd1eafb14831e84b619d519fb6097419649926dd3d5dfbe",
+      "decision": "retained-byte-identical"
+    },
+    {
+      "sourcePath": "assets/hub.js",
+      "sourceBytes": 8046,
+      "sourceSha256": "2913fbb1e125036e590876b1fd50de22ea68f0798a3f92e40d1a8eda1018bfed",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "assets/session.js",
+      "sourceBytes": 1778,
+      "sourceSha256": "edfb8db0224862fe46337c81e9b6140efb9948d0492f1a8c4c7d6d163705ff4e",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "assets/visual/home-anatomy-mobile.webp",
+      "sourceBytes": 85594,
+      "sourceSha256": "f574e2f6a6d1e50e2633398ee1aa9d4f5560b266bc08541c48cc8b2cd232d68d",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "assets/visual/home-anatomy.webp",
+      "sourceBytes": 1448626,
+      "sourceSha256": "d376132258f8febd312f253b2ddcb5437969d8ff24ef9087e92f2b9d1a9a2fca",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "check_files.py",
+      "sourceBytes": 672,
+      "sourceSha256": "e9e8e1eed04f79ad25634fec9a04da7d235b3d6cdf758d2b5ba3eaad21b20b2e",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "CHECKSUMS.json",
+      "sourceBytes": 15368,
+      "sourceSha256": "569b41820be1ccebdaf67bfe80dfadddc95103deb3be5eb8838c4aa677245383",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "DEPLOY_GUIDE.html",
+      "sourceBytes": 2652,
+      "sourceSha256": "f3523b5366d79f843f4672228aca91edd7422af11fe3cc457a86867681bbc290",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "docs/assembly-guide.html",
+      "sourceBytes": 70350,
+      "sourceSha256": "938910a5c21ab5c77f8e613d1baeb2c7f7721e6eff8cc83eaed07993df31c850",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "docs/lab-guide.html",
+      "sourceBytes": 80209,
+      "sourceSha256": "ee0e79d3c2006d494dd8303d9c92f6fea91544ffa2efa96f7edf5e89d367149f",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "docs/previous-avatar-guide.html",
+      "sourceBytes": 8366,
+      "sourceSha256": "07a77e75e19db492104b48a76ef90af7855977add4cb5edf9f41bd806bafc6f8",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "docs/previous-direct-upload-guide.html",
+      "sourceBytes": 7152,
+      "sourceSha256": "944b384faa2c5f0bcbd8f56e3df8931d4ffb8d890e9c27a656f7f7fe8474fa74",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "docs/previous-direct_upload_check.json",
+      "sourceBytes": 7005,
+      "sourceSha256": "cc1ed91b0354ca7bafb4a576830a6731407d0aacaf86370ffc83589b7765d25a",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "docs/previous-github-deploy-guide.html",
+      "sourceBytes": 14114,
+      "sourceSha256": "c7017439985d4dba463f42642fb8f96f3569edb3d3514fb28b54056ea384d2ae",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "docs/previous-guide-release.json",
+      "sourceBytes": 849,
+      "sourceSha256": "43ee81534f2ce74685b6bda0755986d7d55b2ac5b98112db17904920a6d95b8d",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "docs/previous-packaging_check.json",
+      "sourceBytes": 11078,
+      "sourceSha256": "e3ce48415656b63ede927f721fdf4bc0cea810d2c1d0b287c0f8dcd440e16f9d",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "docs/visual-first-pass.json",
+      "sourceBytes": 5172,
+      "sourceSha256": "e8540ffa454c25886be07f8d5eff21ccdc2a92e2e30a1a1bcd8b20099b5139f0",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "guide/assets/explain-fallback.webp",
+      "sourceBytes": 175458,
+      "sourceSha256": "1952e2524100d1c863029ce4f4c9615d3b60ab58252c2cf1196480e2ff142a96",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/assets/idle-fallback.webp",
+      "sourceBytes": 130974,
+      "sourceSha256": "09d82dcc7374dc8a1704d2ce1b9ee1f10f233b4f7f2d9522c85f08a9197f9d42",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/assets/model.json",
+      "sourceBytes": 796,
+      "sourceSha256": "d9e3ed48ae62cc77a8ab9a3a7ff935bb8274710bb9215b44729b1d55b42fe6a4",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/assets/wave-fallback.webp",
+      "sourceBytes": 99922,
+      "sourceSha256": "b5e5e829d38420157d9a789d304ae6d97a7f2c6c8501dcbe29f58c7060565a79",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/assets/zhixing-00.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "3144b6eca84cc033dc669fc2f2a9c43e5ef47256a1caef86e89e6761b87b0e95",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/assets/zhixing-01.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "3064ca1ebca6759f5296f88aa4c9abe80fc5c516d225846bbf6fe51d6cb6d736",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/assets/zhixing-02.bin",
+      "sourceBytes": 2787400,
+      "sourceSha256": "092e4be32f8f90e2d355fedc8c3342e1441e6de52b336352dab3e5d8082b171e",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/assets/zhixing-poster.png",
+      "sourceBytes": 88257,
+      "sourceSha256": "e8277adc38f140ac21495ece5711c1df1015a18a417268d86cc608528ea55764",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/avatar-engine.js",
+      "sourceBytes": 16898,
+      "sourceSha256": "27b1d84f650488c5454b8aa0b897bcf6742565f2be4b1cd6d2c0cb4872731a5b",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/avatar-frame.js",
+      "sourceBytes": 3720,
+      "sourceSha256": "db21735fb86b1a60625fa71d783c4575b6f828c4fa4f9d85c45ff8c934c10c62",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/avatar.html",
+      "sourceBytes": 1753,
+      "sourceSha256": "725da4797ccba2b33f2a0123f1d10552cad6609752a6fcf90da35c1950085f8e",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/guide.js",
+      "sourceBytes": 18173,
+      "sourceSha256": "ed6202c0b10904d8a969ca6abca5098b15ba1a7a957b9e0e8541b44405a1db7a",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/integration-checks.json",
+      "sourceBytes": 3261,
+      "sourceSha256": "090b11ff175426ffcf7cb1614f81520b6d23c3d788b383d702661bcdad82462a",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/INTEGRATION.md",
+      "sourceBytes": 1840,
+      "sourceSha256": "aebba8dd99c3ee84e6f5c463ffde4979ea1f68dfb3d92709fb1f523cd1347635",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/model-inspection.json",
+      "sourceBytes": 2913,
+      "sourceSha256": "663b98a3dbc97f0dbae657db22ee28b3484d0931b0cc26f24506205ba190e921",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/NOTICE.txt",
+      "sourceBytes": 1164,
+      "sourceSha256": "790fce2a4a11b5344df02907bc5a18def1074814665e2cad0e651cdc01034d96",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/preview-checks.json",
+      "sourceBytes": 997,
+      "sourceSha256": "58add046d31f3d52e3b5079d793869f0d74e1eeb82366b8197eea6b9edb8f1c6",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "guide/preview.html",
+      "sourceBytes": 3534,
+      "sourceSha256": "8dc906531e4c059b46adc88dfc5e87da14a0c01960c94f6b18e14eb2749c1a50",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "index.html",
+      "sourceBytes": 12265,
+      "sourceSha256": "d71d4d367725a3d63c2fd082d174cda1af1b1bab0b35e26f3d0fa906c602b88c",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "lab/assets/actor-01.bin",
+      "sourceBytes": 1998072,
+      "sourceSha256": "93467fbcca7a7930bd9788011ad2d186758c1e1a9f8a293444b32ff2dd5758d8",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/anatomy-01.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "890f86d726d097c3e427835bc982f5a217604883ce96b4cce3f0ef09261721d9",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/anatomy-02.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "600adcbe09b528294c7d4a10b336768f6e196490b728ef28c7654e59e76ee7fb",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/anatomy-03.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "f3f3e369075633bfa8e488b2388ce609eb3ef830f4daf9f7602b5af636554294",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/anatomy-04.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "4688229a05d5508a5c6ec9963a979b0a35bc0cc3bb0656e62de02bb4af7c65d4",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/anatomy-05.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "2d83ae4368007bbf55b525833d04f31652ea8a074b649f00ae4c10c2015a0e0a",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/anatomy-06.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "3761d6142971ae763f28085ad64eaddcccec4f2c107e2631a7c6face08b4d831",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/anatomy-07.bin",
+      "sourceBytes": 29256,
+      "sourceSha256": "79cea56c95ee6d250d23789bb1b0ae16d2530789bf2203f51e60a9a811b4be56",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/app-data.json",
+      "sourceBytes": 1687942,
+      "sourceSha256": "fcfb29bc3f292c8c6ade39df395c7c3ba830c0b5c98cd488262e76f7b6346491",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/app.js",
+      "sourceBytes": 300122,
+      "sourceSha256": "10750ec94aaedef92da4591603db2aaa011fc5327984b7c2328d4fc437428550",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/deploy-manifest.json",
+      "sourceBytes": 3122,
+      "sourceSha256": "840e4ab41d09015a0b76c79f4028ecf5716316ca407b0cfb72c02b573712dac3",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/loader.js",
+      "sourceBytes": 6893,
+      "sourceSha256": "22abbbef4a0cda59c97a394b7ab2bc6efc3b5ded7f31d41c0c1aaefa8c508a3a",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/native-01.bin",
+      "sourceBytes": 4194304,
+      "sourceSha256": "668a87de59662d9ec2198f9e4c900efc03217326d1fc4531a425dc2a988a5bd4",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/assets/native-02.bin",
+      "sourceBytes": 2336984,
+      "sourceSha256": "79952c1b7a8186b11a7c13980c9b94f0f93817ff13149074c6e410a20ad3e98b",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/index.html",
+      "sourceBytes": 59681,
+      "sourceSha256": "73dca6f2cb0767815cc62e93f9622dce9bb575a8a45650dee9cfe0abc3c06586",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/CHARACTER_ATTRIBUTION.txt",
+      "sourceBytes": 1702,
+      "sourceSha256": "c74c60251ebc92570548a1606a1d49afc064dfd56a856fe2d579ef15bbc0e39f",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/HUMAN_ATLAS_CODE_LICENSE.txt",
+      "sourceBytes": 1064,
+      "sourceSha256": "db7a953239922e6e6460885afcbd47834fcb89f069b0b8c30f338cd76b322ded",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/LICENSE.bodyparts3d-supplemental.txt",
+      "sourceBytes": 343,
+      "sourceSha256": "46d4146902d66c8ab70c80f4d5395841d0888233816f97d360aec451a2e3e259",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/LICENSE.bodyparts3d.txt",
+      "sourceBytes": 1183,
+      "sourceSha256": "6b7f1a0d49df8a5145ebc5627c929c1449fc296e6bf1339bdc215dfaac47fa55",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/MUSCLEMIMIC_LICENSE.txt",
+      "sourceBytes": 11357,
+      "sourceSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/MUSCLEMIMIC_NOTICE.txt",
+      "sourceBytes": 4180,
+      "sourceSha256": "a8fe335a8c75e51bccec277b5262e7411d30df1cea6e4f0d3b79d7f1f8147933",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/ORIGINAL_CODE_LICENSE.txt",
+      "sourceBytes": 1519,
+      "sourceSha256": "3ab0610db80b5bfc4c8bb70534085fa784904e0052d63e1f6e90644c779f9439",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/SOMAKINE_CODE_LICENSE",
+      "sourceBytes": 1078,
+      "sourceSha256": "33452ca6feb890c3f8791adcb759ebe890e3a546e26ceffca1a13ee0d230bb65",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/SOMAKINE_DATA_LICENSE",
+      "sourceBytes": 437,
+      "sourceSha256": "51f8ba2a3dae0f95a3fb43330cac28b267fc95f325063c13501be57066c458cc",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/SOMAKINE_NOTICE",
+      "sourceBytes": 946,
+      "sourceSha256": "732ac1d12c37deae08be6e7be1d27b72f52ff4f0d03c4aff1043bfa48481484f",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/V75_CHANGES_AND_SCOPE.txt",
+      "sourceBytes": 1413,
+      "sourceSha256": "dee87e8076b59cfa8a5ae85eab1e712180d60ada8546f343cb9ee762e244827b",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/V76A_CHANGES.txt",
+      "sourceBytes": 320,
+      "sourceSha256": "b04560807e55b75231db1f091963168c8d51a328ac25ca3183ea2096d4dce18c",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/V84_CHANGES",
+      "sourceBytes": 349,
+      "sourceSha256": "b173356b4600b1fdecdd3c0510b9104db4d1adc924bf04c223174ac4af825add",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/V89_BRAND_AND_USE_NOTICE.txt",
+      "sourceBytes": 660,
+      "sourceSha256": "bad6104c47c16e781f8058ed0473c0e6ca477e7e50871f417a33faceeef5618c",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/V89_CHANGELOG.txt",
+      "sourceBytes": 291,
+      "sourceSha256": "82b333ad2347bf25afc2f72db2e590a71f6c4fbd1284db384377bb3630123def",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/V89_NEW_MESH_ATTRIBUTION.txt",
+      "sourceBytes": 592,
+      "sourceSha256": "f8c77fa926e9c866c2ae1b44f2148060fc99d8cd95b11571abe030eb5d30d5a1",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "lab/licenses/WEB_DEPLOY_PACKAGING_NOTICE.txt",
+      "sourceBytes": 518,
+      "sourceSha256": "18bcf5d9d74e34b12503e72b60d7e5bc687e00ef980c6392f082dc427d99f8db",
+      "decision": "excluded-original-payload; independently rebuilt replacement where available"
+    },
+    {
+      "sourcePath": "PRESERVATION_CHECK.json",
+      "sourceBytes": 5599,
+      "sourceSha256": "04aed7c37575aad4bee358bb6f9cb04f4d0cfcd9a359d9bcaf9502e9935919ce",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "README.md",
+      "sourceBytes": 1647,
+      "sourceSha256": "65fc9ea4324fe1ae72ca3f34736b8aba7daa46905d5547f15ebc1f3637d96bed",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "RELEASE_CHECK.json",
+      "sourceBytes": 700,
+      "sourceSha256": "1f1c9e56ff4ec06381fa163a1ccf033f3461646db2ee7417516e42ae634b91f5",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "site-check-manifest.json",
+      "sourceBytes": 15802,
+      "sourceSha256": "c9a35dbe336ffbd958cde25790df31e030dbd16c2ee3d93b442a2dd132aa57a3",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "site-check.html",
+      "sourceBytes": 9154,
+      "sourceSha256": "52f8fead4da393901345772d1d0f415d678771db2dc5c81053bcbba348812fdc",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "start_local.py",
+      "sourceBytes": 762,
+      "sourceSha256": "a5862156c4304d011d6f2e582a2888af46aeecc06b1040ba2298794ffcf099ff",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "tools/refresh_checks.py",
+      "sourceBytes": 1459,
+      "sourceSha256": "ce6e17dff73d5fea93c050c324e5a7236d47e75fbcf7009cd1e70c0bc66862d6",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "tools/ui_test_reference.py",
+      "sourceBytes": 12080,
+      "sourceSha256": "04276ac55a45b5d291284baa5ce6e16aea8e4df4a9ff07d33659e56f61914c2a",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "topics/index.html",
+      "sourceBytes": 66538,
+      "sourceSha256": "ac8dac33f15c9f012f3f21c6f9291414ade72f6cf68f4e266f07c7b56b2b4e1d",
+      "decision": "modified-or-rebuilt"
+    },
+    {
+      "sourcePath": "topics/TEACHER_GUIDE.html",
+      "sourceBytes": 8353,
+      "sourceSha256": "f0bb3c259607171a94135105ec0c86969bf6b7488964c6c685fc5b3077182429",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "ui-checks.json",
+      "sourceBytes": 5481,
+      "sourceSha256": "de1b67857eeb40c715d1215378fd27bbc1a5208520f7e6cf7feb8897a117623d",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "UPGRADE_AUDIT.json",
+      "sourceBytes": 704,
+      "sourceSha256": "7eac754dcbd891106f8c15d85759f2501e40999534964306bcf701aeefe76f5c",
+      "decision": "excluded-legacy-file"
+    },
+    {
+      "sourcePath": "ZHIXING_GUIDE.html",
+      "sourceBytes": 261,
+      "sourceSha256": "277514acd473fc6b80e66abbb038bd42f3112d05b26f78a04b86eb6a1deb42f4",
+      "decision": "excluded-legacy-file"
+    }
+  ],
+  "note": "Replacement geometry is sourced afresh. Byte identity in official elements does not imply reuse of the excluded original binary package."
+}

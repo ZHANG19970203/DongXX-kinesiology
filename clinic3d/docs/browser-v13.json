@@ -1,0 +1,45 @@
+{
+  "release": "v13",
+  "browser": "Codex in-app browser",
+  "qaOrigin": "http://localhost:8775",
+  "observations": [
+    "Original pressure_compare node restored with 12 evidence items and original current task values",
+    "Normal/low/high reference map side by side using shared colour scale; independent static/dynamic/MPP modes",
+    "At comparison phase .7 all three right feet swing with no current COP",
+    "MPP has no instantaneous load or COP and no play slider",
+    "High-arch quiz: wrong answer explanation, correction and other question feedback; keyboard focus retained",
+    "Symmetric gait reference at phase .58 shows right support while case shows right swing",
+    "Returning from independent comparison phase .7 leaves main phase .35, region and 12 evidence items unchanged",
+    "Portable clinical notes visibly carried by therapist, paper not hidden by palm, pen moved to hand; duplicate stationary notebook/pen and tray removed",
+    "Final QA console warnings/errors empty"
+  ],
+  "mainPhaseBefore": 0.35,
+  "independentPhase": 0.7,
+  "mainPhaseAfter": 0.35,
+  "evidenceBefore": 12,
+  "evidenceAfter": 12,
+  "clinicalValidated": false,
+  "heygenJobs": 0,
+  "screenshots": [
+    {
+      "name": "arch-comparison-v13.png",
+      "bytes": 67173,
+      "sha256": "97e4ba965eae4d6ced261558f452da1d75368c6dc597c183c4b3b50db71eb426"
+    },
+    {
+      "name": "high-arch-v13.png",
+      "bytes": 77212,
+      "sha256": "5f9aaaa911bc7f1c83031f056c9f6cd1272a9989769226381593ad6a1146bb72"
+    },
+    {
+      "name": "gait-reference-v13.png",
+      "bytes": 61707,
+      "sha256": "a6a220ace75c618cd3fa39c440a4852b092f35a638efd352282ced8bc47c3faf"
+    },
+    {
+      "name": "therapist-notes-v13.png",
+      "bytes": 91116,
+      "sha256": "2128734a9ba502e7f09670406a51617a7387e6909e347b70d105bc242cba0361"
+    }
+  ]
+}

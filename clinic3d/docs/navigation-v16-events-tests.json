@@ -1,0 +1,21 @@
+{
+  "schema": "dxx-navigation-event-tests-v16",
+  "generatedAt": "2026-10-18T09:39:46.272631+00:00",
+  "passed": true,
+  "total": 3,
+  "checks": [
+    "test_actual_navigation_payload_is_accepted_once_and_preserved",
+    "test_enrolled_learner_keeps_attempts_separate_from_jump_events",
+    "test_jump_never_counts_as_learning_completion_or_knowledge_score"
+  ],
+  "collectorCodeChangedForV16": false,
+  "externalRequests": 0,
+  "paidRequests": 0,
+  "method": "Real loopback HTTP and isolated temporary SQLite; legacy collector accepts student_navigation_jump by existing lowercase event type validation. No live learner records or credentials accessed.",
+  "analytics": "A navigation event counts as an event only; no learningCompleteCount, assessment, knowledge score or provider use is fabricated.",
+  "sha256": {
+    "serve_lab.py": "e5c300c4bfc1dc840dfb54735c021e974cb40611d98b4f19ac6ab86f7bb9cf38",
+    "learning_service.py": "91b0496d456f1fc66c87e3c239617dea59a6a35c2bccb3a2b7d1ce7f948dd685",
+    "tests/test_navigation_events_v16.py": "95c8c38e292015cee58b1c6efefd95830acc890f01b48dcfa61fecd3d5f64d18"
+  }
+}

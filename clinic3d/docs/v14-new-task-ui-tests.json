@@ -1,0 +1,57 @@
+{
+  "schema": "dxx-v14-new-task-ui-tests",
+  "passed": true,
+  "total": 12,
+  "passedCount": 12,
+  "checks": [
+    {
+      "id": "four-real-selects-four-muscle-options",
+      "passed": true
+    },
+    {
+      "id": "narration-remains-folded",
+      "passed": true
+    },
+    {
+      "id": "coach-locates-first-muscle-control",
+      "passed": true
+    },
+    {
+      "id": "correct-match-grants-only-knowledge-flag",
+      "passed": true
+    },
+    {
+      "id": "changing-to-wrong-clears-gate",
+      "passed": true
+    },
+    {
+      "id": "all-four-match-with-real-flags",
+      "passed": true
+    },
+    {
+      "id": "restores-matching-answer-and-gate",
+      "passed": true
+    },
+    {
+      "id": "initial-seated-does-not-grant-standing",
+      "passed": true
+    },
+    {
+      "id": "coach-locates-unseen-standing",
+      "passed": true
+    },
+    {
+      "id": "standing-switch-fulfills-second-view",
+      "passed": true
+    },
+    {
+      "id": "standing-only-restore-does-not-invent-seated",
+      "passed": true
+    },
+    {
+      "id": "coach-uses-task-type-for-eight-act-stage",
+      "passed": true
+    }
+  ],
+  "scope": "Actual learning-ui.js and lesson-coach.js with actual MUSCLE_ITEMS; DOM stub only. Anatomy/comparison viewers are stubbed and not tested. No browser rendering, clinical strength assessment, patient foot deformation, network or paid generation."
+}

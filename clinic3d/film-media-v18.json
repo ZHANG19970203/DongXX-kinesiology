@@ -1,0 +1,55 @@
+{
+  "schema": "dxx-film-media-v19",
+  "clips": {
+    "01A": {
+      "normal": {
+        "approved": true,
+        "reviewStatus": "accepted",
+        "sha256": "4c0edf0f88a706ba9284e5b4a316f69079ec50e8cf2b718e397e2e77191e4e5f",
+        "src": "../soap/media/intro-playback.mp4",
+        "clinicalValidated": false,
+        "reviewScope": "communication edit and technical review; not clinical action approval"
+      }
+    },
+    "04A": {
+      "normal": {
+        "approved": true,
+        "reviewStatus": "accepted",
+        "sha256": "536485f1a0ef67d4def86055895899ffbd4a78d8f469d30d76473453dfc74f0e",
+        "src": "../soap/media/arch.mp4",
+        "clinicalValidated": false,
+        "reviewScope": "communication edit and technical review; not clinical action approval"
+      }
+    },
+    "05A": {
+      "normal": {
+        "approved": true,
+        "reviewStatus": "accepted",
+        "sha256": "d464c8e412c131d22017b7fbe44ef6c51513229aaa6d4a15b7f9eb16282ef151",
+        "src": "../soap/media/gait.mp4",
+        "clinicalValidated": false,
+        "reviewScope": "communication edit and technical review; not clinical action approval"
+      }
+    },
+    "06A": {
+      "normal": {
+        "approved": true,
+        "reviewStatus": "accepted",
+        "sha256": "c1126985bdefd0a73c34b30239cc205b411ba1c8b0742e46613cbcbeb2006cb7",
+        "src": "../soap/media/scan.mp4",
+        "clinicalValidated": false,
+        "reviewScope": "communication edit and technical review; not clinical action approval"
+      }
+    },
+    "08A": {
+      "normal": {
+        "approved": true,
+        "reviewStatus": "accepted",
+        "sha256": "5452f94182ccc80d712ee65136e656f709e4e8661e847ddf454078ecde6e1bce",
+        "src": "../soap/media/plan.mp4",
+        "clinicalValidated": false,
+        "reviewScope": "communication edit and technical review; not clinical action approval"
+      }
+    }
+  }
+}

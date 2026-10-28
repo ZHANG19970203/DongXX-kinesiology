@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>13项课程实验 · 动小学</title>
+  <link rel="stylesheet" href="lab.css">
+  <script defer src="../assets/session.js"></script>
+  <script defer src="../assembly/assets/catalog.js"></script>
+  <script defer src="../assembly/assets/geometry-loader.js"></script>
+  <script defer src="../assembly/assets/renderer.js"></script>
+  <script defer src="lab.js"></script>
+  <script defer src="../guide/guide.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../index.html#home"><span class="brand-mark">动</span><span>动小学<small>人体运动学虚拟实验室</small></span></a>
+    <nav aria-label="平台导航"><a href="../index.html#home">学习首页</a><a href="../assembly/index.html">骨肌拼接</a><a href="../topics/index.html">机制示意</a><a href="../index.html#finish">本机记录</a></nav>
+  </header>
+  <main>
+    <section class="intro">
+      <div><span class="eyebrow">OBSERVE · DESCRIBE · EXPLAIN</span><h1>从结构出发，<br>把运动说清楚。</h1><p>选择课程，在静态图谱中辨认骨与肌肉；借助有限示意讨论相对运动，再写下观察和解释。</p></div>
+      <div class="identity-card"><b id="identity">课堂学习</b><p>13项课程 · 11个解剖部位</p><a href="../teacher-review.html">实验与教师审查记录 ↗</a><p class="small">学习记录保存在此浏览器，需自行导出提交。</p></div>
+    </section>
+    <div id="entryNotice" class="notice" hidden>当前以访客身份浏览。<a href="../index.html#login">完成课堂登记</a>后可按学号保存学习记录；访客记录仍可单独导出。</div>
+    <div id="pageStatus" class="notice" role="status">正在准备课程目录…</div>
+    <div class="layout">
+      <aside class="course-nav"><div class="panel-heading"><h2>课程实验</h2><span>13</span></div><div id="courseNav" aria-label="13项课程"></div><a class="material-link" href="?topic=muscles">肌肉图谱素材入口 →</a></aside>
+      <div class="workspace">
+        <section class="panel course-panel" aria-labelledby="courseTitle">
+          <span id="courseAvailability" class="pill"></span><h2 id="courseTitle">课程实验</h2><p id="courseSummary"></p><div id="courseTasks" class="task-list"></div><a id="relatedLink" class="link-button" hidden>进入关联示意 →</a><a id="clinicLink" class="link-button" hidden>进入足踝病例接诊 →</a>
+        </section>
+        <section class="panel atlas-panel" aria-labelledby="atlasTitle">
+          <div class="section-title"><div><span class="eyebrow">STATIC ANATOMY</span><h2 id="atlasTitle">骨与肌肉 · 静态观察</h2></div><a id="assemblyLink" href="../assembly/index.html">在拼接工坊练习 →</a></div>
+          <p class="small">静态图谱用于形态与位置辨认。选择结构可查看来源标识与课程说明；显示颜色用于识别。</p>
+          <div class="atlas-toolbar"><label>观察部位<select id="regionSelect" aria-label="观察部位"></select></label><label><input id="showBones" type="checkbox" checked> 骨性结构</label><label><input id="showMuscles" type="checkbox"> 肌肉</label><label>侧别<select id="sideSelect"><option value="both">双侧</option><option value="R">右侧</option><option value="L">左侧</option></select></label><button id="loadAtlas" type="button">打开三维图谱</button></div>
+          <div class="atlas-workspace">
+            <div class="stage"><canvas id="scene" tabindex="0" aria-label="静态三维解剖图谱，可用方向键旋转" width="800" height="620"></canvas><div id="viewerPlaceholder" class="placeholder"><span class="atlas-symbol">◎</span><b>选择一个部位开始观察</b><p>点击“打开三维图谱”读取本地模型。<br>拖动旋转，滚轮或双指缩放，点击选择结构。</p></div><div id="loading" class="viewer-status" role="status"><b>模型尚未打开</b></div><div class="view-buttons" aria-label="观察视图"><button data-view="front">正视</button><button data-view="side">侧视</button><button data-view="back">后视</button><button id="fitView">适合窗口</button></div></div>
+            <div class="structure-panel"><label for="structureSearch">查找本部位结构</label><input type="search" id="structureSearch" placeholder="输入中文名或来源标识"><p id="structureCount" class="small"></p><div id="structureList" aria-label="结构列表"></div></div>
+          </div>
+          <div id="selectionDetails" class="selection-details" aria-live="polite"><b>选择一个结构</b><p>可以在图谱中点击，也可使用右侧列表选择。</p></div>
+        </section>
+        <section id="mechanism" class="panel mechanism-panel" aria-labelledby="mechanismTitle" hidden>
+          <div class="section-title"><div><span class="eyebrow">FINITE GEOMETRIC DEMONSTRATION</span><h2 id="mechanismTitle">相对运动 · 理想杆件示意</h2></div><span class="pill">有限机制示意</span></div>
+          <p>一根杆固定，另一根杆绕端点旋转，用于讨论参考段、相对方向与夹角。两根杆件是原创几何图形，不对应人体关节标定，不驱动上方解剖网格。</p>
+          <div class="mechanism-inner"><svg id="rodDiagram" viewBox="0 0 500 260" role="img" aria-labelledby="rodTitle rodDesc"><title id="rodTitle">两根理想杆件的相对角度</title><desc id="rodDesc">固定杆从左侧延伸至中央支点，活动杆围绕支点改变角度。</desc><defs><pattern id="rodGrid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#e0ecf1"/></pattern></defs><rect width="500" height="260" fill="url(#rodGrid)"/><path d="M70 185H240" stroke="#668195" stroke-width="20" stroke-linecap="round"/><g id="movingRod"><path d="M240 185H410" stroke="#168b95" stroke-width="20" stroke-linecap="round"/><circle cx="410" cy="185" r="14" fill="#e0a54b"/></g><circle cx="240" cy="185" r="16" fill="#fff" stroke="#284d65" stroke-width="6"/><path id="angleArc" d="M295 185A55 55 0 0 0 267.5 137.4" fill="none" stroke="#d69032" stroke-width="3"/><text x="90" y="225" fill="#3e596d" font-size="17">固定参考杆</text><text x="300" y="35" fill="#168b95" font-size="17">活动杆</text><text id="angleLabel" x="305" y="163" fill="#9f6c20" font-size="18">60°</text></svg><div><label for="rodAngle">几何夹角 <output id="rodAngleOutput">60°</output></label><input type="range" id="rodAngle" min="0" max="150" value="60" step="1"><p id="mechanismPrompt"></p><p class="small">滑条只改变平面几何角。这里不计算人体活动度、肌力、接触力或组织变形。</p></div></div>
+        </section>
+        <section class="panel record-panel" aria-labelledby="recordTitle"><div class="section-title"><div><span class="eyebrow">LEARNING EVIDENCE</span><h2 id="recordTitle">写下观察，再给出解释</h2></div><span id="recordCount" class="pill">0项观察</span></div><label for="observationText">我看到了什么？</label><textarea id="observationText" rows="3" placeholder="例如：我在侧视中识别到……；观察部位和参考结构是……"></textarea><label for="explanationText">我如何解释？还需要什么证据？</label><textarea id="explanationText" rows="3" placeholder="区分直接观察、课程知识与待验证的推测。"></textarea><div class="record-actions"><button id="saveObservation" class="primary">保存观察与解释</button><button id="exportRecords">导出本页记录</button><a href="../index.html#finish">查看合并记录 →</a></div><p id="recordStatus" role="status" class="small">记录只保存在本机，不自动上传或生成临床技能成绩。</p><div id="recentRecords"></div></section>
+      </div>
+    </div>
+    <noscript><p class="notice">此页面需要启用JavaScript。可先阅读包内README与教师审查记录。</p></noscript>
+  </main>
+  <footer><span>动小学 · 研发者：张积众</span><span>静态解剖观察与有限机制教学</span><a href="../teacher-review.html">教师审查与使用范围</a></footer>
+</body>
+</html>

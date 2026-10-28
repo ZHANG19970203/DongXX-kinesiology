@@ -1,0 +1,64 @@
+{
+  "version": "v5",
+  "status": "passed",
+  "scope": "Staging integrity checks executed by stage_encounter_v5.py; no browser or clinical result is implied",
+  "checks": {
+    "scenePNGs": [
+      {
+        "path": "clinic/assets/arrival-v5.png",
+        "view": "Third-person reception",
+        "bytes": 1983025,
+        "sha256": "8d2599d8ad13676fe0f6170c5810ac546d92d378ede7bcb53adf970977add086",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "path": "clinic/assets/conversation-v5.png",
+        "view": "First-person interview",
+        "bytes": 1933929,
+        "sha256": "f1a8518840d76fc48581a630df42e4fef53c29bcebfa4e091fbadae5cc18d0b7",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "path": "clinic/assets/examination-v5.png",
+        "view": "First-person gentle ankle support preparation",
+        "bytes": 1871504,
+        "sha256": "3c97949b67a7a83fde1cd7229d4ddaa2975a0dfb0c7483608297c8f354403429",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "path": "clinic/assets/movement-v5.png",
+        "view": "Third-person rail-supported task preparation",
+        "bytes": 1918743,
+        "sha256": "9ce3dcc8821da112dc1d787816187fb99ccb0554513d5ab5b0882efa01b79233",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "pythonSourcesParsed": 9,
+    "runtimeFilesExcluded": true,
+    "unchangedFromV4": {
+      "clinic/cases.json": "a6958df84d72b3dd42a5868cfafe15715092530845b0003237555bf033bf89ea",
+      "serve_lab.py": "f737de4b6104be4871c21ce9823c3e531424479da40c61a9a5926dd8970a926d",
+      "ai_adapter.py": "ce4262b7a8385cf977de5b566ed3bb4d1caa2490192d27d2334a5582385125cd",
+      "teacher/teacher.js": "dfce53cf6006afa7790ed659d6fd21c09d02c295ca3bd7823d9a3d6197cdf740",
+      "tools/test_learning_server.py": "f4b23e08ab9f5d3654b05b6d64ed09b85f15a81273f07dd28a2f27daef91335c",
+      "tools/test_ai_adapter.py": "3e575804031a958899d2372e27e13d14abd582599671bf493e5d257417a1b2b0",
+      "tools/check_clinic_cases.py": "dfa0f5350aa28261029e0da1100a2ec07568aa679f6c8fb27224eed7e04f66b4"
+    }
+  },
+  "v4Baseline": {
+    "archive": "dongxiaoxue_virtual_clinic_v4_20261018.zip",
+    "bytes": 36905784,
+    "entries": 131,
+    "sha256": "42cb2e237d62954692c0ee224159db9e1d9303a68e97f0f7555adfdcf22cc967"
+  },
+  "v5UIEvidence": "docs/encounter-v5-ui-smoke-check.json",
+  "v5ServiceEvidence": "docs/encounter-v5-service-checks.json",
+  "limits": [
+    "Staging does not execute browser interaction, backend tests, AI tests, clinical validation or the ZIP verifier.",
+    "Historical encounter-v4 evidence remains historical and is not relabelled v5."
+  ]
+}

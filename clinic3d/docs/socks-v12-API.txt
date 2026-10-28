@@ -1,0 +1,20 @@
+v12 患者坐位脱鞋脱袜动作
+
+patient.startFootwearRemoval()
+- 17.6 秒原创连续动作：坐稳；左足抬起、脱鞋放地面、拉下袜子放地面、落足；再做右足；结束赤足。
+- 动作期间 root 需要锁定下一步并保持坐姿；不得提前调用 setFootwear('barefoot')。
+- 如需自动恢复存档，setFootwear('barefoot') 是状态恢复，不冒称已播放动作。
+- getState().footwearRemoval 返回 active/completed/elapsed/duration/phase/side/progress。
+- phase 包含 sit/lift/shoe_reach/shoe_pull/shoe_deposit/sock_reach/sock_pull/sock_deposit/release/lower/rest/completed。
+- repeated start after completion is a no-op；setFootwear('shoes') resets and permits replay。
+- stop() 停止更新时间；setPose('seated') 可解除 halted，外层全局暂停也可通过不调用 update 实现。
+
+视觉与来源
+浅灰短袜由 CC0 身体足部/踝部的三角面生成外壳，穿着时保留原蒙皮权重。拉袜开始时取当前姿态表面，随后连续向足前方拉出并放到地面。鞋沿用项目原创无商标鞋。未调用 HeyGen，未用付费生成。
+
+教师审查边界
+此处是可见的有限教学动作，不是织物仿真；没有模拟真实指尖抓握、袜口翻卷、碰撞和临床脱袜操作质量。须做画面与专业审查；CPU 检查仅验证有限数值、阶段次序、道具地面间隙与恢复状态。
+
+落地与静态归位
+- 完成时鞋袜从患者根节点转到诊室场景，保留世界坐标；患者继续走动时它们留在原地。重穿鞋袜会重置对应附着关系。
+- setGaitPhase(null) 从手动步态退出时立即清除 walking/walkWeight 并重算静态姿势，不让摆动脚残留在静态站立。对非手动的普通行走调用 null 不会自行打断普通行走。

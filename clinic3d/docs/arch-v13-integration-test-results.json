@@ -1,0 +1,81 @@
+{
+  "format": "dxx-arch-independent-integration-tests-v13",
+  "passed": true,
+  "tests": [
+    {
+      "name": "Importing the reference requires no document or UI initialization",
+      "passed": true
+    },
+    {
+      "name": "44 cm symmetric steps produce an 88 cm stride, common 1.20 s cycle and equal speed/cadence",
+      "passed": true
+    },
+    {
+      "name": "Reference stance and swing durations are symmetric 60/40 and contact occurs half a cycle apart",
+      "passed": true
+    },
+    {
+      "name": "At phase 58% the reference right foot is still in stance while the authored patient right foot swings",
+      "passed": true
+    },
+    {
+      "name": "Reference landing footprints agree with displayed 44/44 cm and fixed world stance anchors",
+      "passed": true
+    },
+    {
+      "name": "Independent comparison samples do not mutate patient profile or change its contact clock",
+      "passed": true
+    }
+  ],
+  "referenceMetrics": {
+    "right": {
+      "stepLength": 0.44,
+      "stanceSeconds": 0.72,
+      "swingSeconds": 0.48,
+      "stepSeconds": 0.6,
+      "singleSupportSeconds": 0.47999999999999987
+    },
+    "left": {
+      "stepLength": 0.44,
+      "stanceSeconds": 0.72,
+      "swingSeconds": 0.48,
+      "stepSeconds": 0.6,
+      "singleSupportSeconds": 0.48
+    },
+    "cycleSeconds": 1.2,
+    "strideLength": 0.88,
+    "stepWidth": 0.14,
+    "speed": 0.7333333333333334,
+    "cadence": 100,
+    "doubleSupportFraction": 0.20000000000000007,
+    "doubleSupportSeconds": 0.24000000000000007,
+    "meanStepLength": 0.44
+  },
+  "patientMetrics": {
+    "right": {
+      "stepLength": 0.48,
+      "stanceSeconds": 0.672,
+      "swingSeconds": 0.5279999999999999,
+      "stepSeconds": 0.648,
+      "singleSupportSeconds": 0.4319999999999999
+    },
+    "left": {
+      "stepLength": 0.4,
+      "stanceSeconds": 0.768,
+      "swingSeconds": 0.432,
+      "stepSeconds": 0.552,
+      "singleSupportSeconds": 0.5279999999999999
+    },
+    "cycleSeconds": 1.2,
+    "strideLength": 0.88,
+    "stepWidth": 0.14,
+    "speed": 0.7333333333333334,
+    "cadence": 100,
+    "doubleSupportFraction": 0.20000000000000012,
+    "doubleSupportSeconds": 0.24000000000000013,
+    "meanStepLength": 0.44
+  },
+  "staticDOMFunctionsCalled": false,
+  "clinicalValidation": false,
+  "checkedAt": "2026-10-18T07:43:11.653Z"
+}

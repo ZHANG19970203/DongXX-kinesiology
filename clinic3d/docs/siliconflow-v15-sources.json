@@ -1,0 +1,12 @@
+{
+  "schema": "dxx-siliconflow-official-review-v15",
+  "checkedAt": "2026-10-18",
+  "sources": [
+    {"id":"siliconflow_chat","title":"SiliconFlow official Chat Completions API","url":"https://docs.siliconflow.cn/docs/api/chat-completions-post","applied":"Fixed HTTPS endpoint https://api.siliconflow.cn/v1/chat/completions; Bearer authentication; messages/model; bounded max_tokens; stream:false; enable_thinking:false. The example uses deepseek-ai/DeepSeek-V4-Flash. No arbitrary client endpoint or silent model substitution."},
+    {"id":"siliconflow_models","title":"SiliconFlow official List Models API","url":"https://docs.siliconflow.cn/docs/api/models-get","applied":"Authenticated GET https://api.siliconflow.cn/v1/models?sub_type=chat returns model information. No automatic availability probe is implemented; the parent task may explicitly verify the user's exact model with the user's consent. This listing is not a clinical validation or a successful generation test."},
+    {"id":"siliconflow_v41_catalog","title":"SiliconFlow official model centre","url":"https://cloud-rd.siliconflow.cn/models","applied":"Public official catalogue explicitly lists deepseek-ai/DeepSeek-V4.1-Flash. This supports the exact model name; individual account access and live generation remain unverified by backend mock tests."},
+    {"id":"siliconflow_v41_release","title":"硅基流动上线高速版 DeepSeek V4.1 Flash","url":"https://www.siliconflow.cn/news/qwoa3oxughhkwuoh9k2ci7xz","publishedAt":"2026-10-16","applied":"Official release announcement confirms SiliconFlow deployment of DeepSeek V4.1 Flash; prior DeepSeek generations also remain offered. Model marketing claims are not treated as validation of this teaching application."}
+  ],
+  "configuration": {"provider":"siliconflow","providerLabel":"硅基流动（DeepSeek）","endpoint":"https://api.siliconflow.cn/v1/chat/completions","exactRequestedModel":"deepseek-ai/DeepSeek-V4.1-Flash","otherExplicitAllowedModel":"deepseek-ai/DeepSeek-V4-Flash","environmentVariable":"SILICONFLOW_API_KEY","officialDeepSeekRemainsDefault":true,"automaticKeyTransfer":false,"arbitraryEndpoint":false,"automaticModelReplacement":false},
+  "developmentBoundary": {"realKeysRead":false,"runtimeConfigurationRead":false,"externalInferenceRequests":0,"actualAccountModelAvailabilityVerified":false,"realConnectivityVerified":false,"note":"The root agent owns any later user-authorized availability lookup or live test; those results must be separately recorded without credentials."}
+}

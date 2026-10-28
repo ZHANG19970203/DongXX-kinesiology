@@ -1,0 +1,40 @@
+PUBLIC RESEARCH DATA SUBSET — INSOLE-GAITRITE
+
+Title: An Open Insole-Based Plantar Pressure Dataset at Varying Cadences Compared Against GAITRite
+Creators: Dobrescu, C. Cosmin; González Díaz, Iván; Carneros Prado, David; Fontecha Diezma, Jesús; Redondo Madruga, Marcos; Nugent, Chris; Zhang, Shuai
+DOI: https://doi.org/10.5281/zenodo.19662017
+Source record: https://zenodo.org/records/19662017
+Published version: 1, 20 April 2026
+
+The source record metadata declares Creative Commons Attribution 4.0 International
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+This permits sharing and adaptation, including commercial use, subject to its
+terms, including attribution, a licence link, and indication of modifications.
+No endorsement by the data creators is implied.
+
+Subset: P1/NP/1/L.csv, R.csv, sync_auto.json; sensors_map_left.svg and
+sensors_map_right.svg. Original bytes are included in ../data/source/.
+SHA-256 hashes and changes are listed in ../data/case-p1-np-1.json.
+The original full ZIP was not downloaded; the index and selected members were
+read via HTTP byte ranges. No README/LICENSE/terms files were found in the
+published 4,724-entry ZIP index. See ZIP_LICENSE_REVIEW.json and the API snapshot.
+
+Modifications by this teaching project:
+- Extracted one publicly released normal-pace clip, two 249-frame CSV files.
+- Converted 32 channels and original copX/copY/sumP to JSON, without changing
+  values or applying calibration/filtering/normalization.
+- Omitted IMU channels from teaching JSON while retaining original source CSV.
+- Reconstructed the drawing-coordinate system already implicit in the source
+  CoP export; checked channel numbering/layout against the released SVGs.
+- Added zero-based frame indices, provenance, limits and adjustable teaching
+  analysis suggestions.
+
+No GaitScope application source code or coordinate JSON from its repository is
+redistributed here. Its existence was a cross-check only. No CAD WALK material
+is used. New classroom code is separately licensed by its own notice.
+
+Limits: source channel units and CoP physical scale are unverified. sumP is not
+labelled as force. No timestamps or validated contact labels are supplied.
+Nominal time index/64 does not prove actual L/R synchronization. This subset is
+not LTM-ZDYL-200 output and does not validate diagnosis, physiological pressure
+prediction or clinical thresholds.

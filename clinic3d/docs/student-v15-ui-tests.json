@@ -1,0 +1,80 @@
+{
+  "schema": "dxx-v15-student-ui-tests",
+  "passed": true,
+  "total": 18,
+  "checks": [
+    {
+      "id": "eight-goals-rendered",
+      "passed": true
+    },
+    {
+      "id": "modal-pauses-and-inerts",
+      "passed": true
+    },
+    {
+      "id": "modal-has-accessible-name",
+      "passed": true
+    },
+    {
+      "id": "capability-stays-local-header",
+      "passed": true
+    },
+    {
+      "id": "incomplete-answer-does-not-submit",
+      "passed": true
+    },
+    {
+      "id": "complete-answers-server-graded",
+      "passed": true
+    },
+    {
+      "id": "server-result-not-client-recomputed",
+      "passed": true
+    },
+    {
+      "id": "submit-restored-after-result-render",
+      "passed": true
+    },
+    {
+      "id": "feedback-consent-required",
+      "passed": true
+    },
+    {
+      "id": "feedback-not-biased-by-default-rating",
+      "passed": true
+    },
+    {
+      "id": "feedback-stored-by-endpoint",
+      "passed": true
+    },
+    {
+      "id": "no-key-send-disabled",
+      "passed": true
+    },
+    {
+      "id": "close-restores-clinic",
+      "passed": true
+    },
+    {
+      "id": "actual-provider-in-consent",
+      "passed": true
+    },
+    {
+      "id": "ai-consent-required",
+      "passed": true
+    },
+    {
+      "id": "request-binds-consented-provider",
+      "passed": true
+    },
+    {
+      "id": "failed-request-keeps-question-and-no-assistant",
+      "passed": true
+    },
+    {
+      "id": "upstream-failure-resets-send",
+      "passed": true
+    }
+  ],
+  "limits": "Actual student module with DOM and API response fixtures. Does not validate browser layout, backend scoring or external DeepSeek connection."
+}

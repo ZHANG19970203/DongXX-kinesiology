@@ -1,0 +1,69 @@
+{
+  "release": "v15",
+  "checkedAt": "2026-10-18",
+  "passed": true,
+  "method": "Actual in-app browser, real local HTTP/SQLite on isolated test-data service; separate live teacher and explicitly authorized SiliconFlow configuration/test. No JavaScript runtime state injection. Live provider evidence is separated in ai-live-v15.json.",
+  "checks": [
+    {
+      "id": "student-objectives",
+      "passed": true,
+      "detail": "8 goals rendered; source-backed criteria and separate formative scope."
+    },
+    {
+      "id": "incomplete-form",
+      "passed": true,
+      "detail": "Empty 16-item form blocked; located first incomplete goal."
+    },
+    {
+      "id": "baseline-post-repeat",
+      "passed": true,
+      "detail": "Via real controls: baseline5/16 and0/8; firstPost6/16 and0/8; latestPost7/16 and1/8. First result retained."
+    },
+    {
+      "id": "feedback",
+      "passed": true,
+      "detail": "No default rating/category; explicitly selected4/content; saved original test feedback to server and viewed from teacher."
+    },
+    {
+      "id": "no-key",
+      "passed": true,
+      "detail": "Discussion UI says not configured, disables paid send; live teacher says not actually connected."
+    },
+    {
+      "id": "teacher-partitions",
+      "passed": true,
+      "detail": "Default classroom filter excluded test session; test filter showed1/8 goal count, paired changes and feedback."
+    },
+    {
+      "id": "clinic-overlay",
+      "passed": true,
+      "detail": "Top Deep Learning opens integrated target/discussion/self-test/feedback overlay over inert scene; actual Return action restored clinic and main controls."
+    },
+    {
+      "id": "live-legacy-records",
+      "passed": true,
+      "detail": "Live8774 teacher showed1 legacy guest session,210 events,0 new assessments and no invented goals."
+    },
+    {
+      "id": "configuration-entry",
+      "passed": true,
+      "detail": "User confirmed SiliconFlow. Agent saved supplied existing key only to local external data config, exact requested model unchanged; password field cleared after save."
+    },
+    {
+      "id": "live-siliconflow",
+      "passed": true,
+      "detail": "One actual short connection test succeeded for specified V4.1-Flash; returned13 input/5 output/18total tokens. No full educational dialogue generated."
+    }
+  ],
+  "screenshots": [
+    "learning-goals-v15.png",
+    "student-assessment-v15.png",
+    "teacher-dashboard-test-v15.png",
+    "teacher-siliconflow-connected-v15.png"
+  ],
+  "limits": [
+    "Browser test data are isolated and explicitly markedtest; not learner outcome or teaching-effect evidence.",
+    "Initial no-key display and disabled send were checked before live configuration. Successful connectivity does not certify generated medical teaching content.",
+    "No new clinical, MMT or physical kinematics validation."
+  ]
+}

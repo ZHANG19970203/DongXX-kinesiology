@@ -1,0 +1,77 @@
+{
+  "schema": "dxx-script-v7-manifest",
+  "date": "2026-10-18",
+  "selfExcluded": true,
+  "files": [
+    {
+      "path": "browser-validation.json",
+      "bytes": 1133,
+      "sha256": "c319a34194cd8a3c255f3ee59780253ed3c632ea896d1c7d2e45cea4f7ce041a"
+    },
+    {
+      "path": "clinical-audit.json",
+      "bytes": 23878,
+      "sha256": "3f180cb37dfc26c7a9fd62fa4e9e7bde3f7aae3205440361284aa46f5827a198"
+    },
+    {
+      "path": "document-preview.png",
+      "bytes": 90877,
+      "sha256": "2be66b8fa6717608334de7a8a070b1595a908d8a07ffdfeffebf9fcbabceac0e"
+    },
+    {
+      "path": "independent-review.json",
+      "bytes": 4576,
+      "sha256": "2def4e337781964bd4bbb5d38cad6bce3e9847f7cce69f8273d49e31dbc83939"
+    },
+    {
+      "path": "index.html",
+      "bytes": 91372,
+      "sha256": "ca425eccddd6fdd8442ff2492e3e1bbf43f89092970521fcc06c89a906195a97"
+    },
+    {
+      "path": "production.json",
+      "bytes": 11484,
+      "sha256": "0f385c1652b98bab6be6c18ee13a90ab244a033b793bd95ce0b6919154d35c92"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 1833,
+      "sha256": "216e0b861be86ab8129e3b8e384dda42753d4b69e6198722acdc57b136a833cd"
+    },
+    {
+      "path": "room-feasibility.json",
+      "bytes": 15155,
+      "sha256": "57387600a909723d8e198709bfc237857d652a12a8c4acbd0b3ca4a8f6fd22e7"
+    },
+    {
+      "path": "room-layout-preview.png",
+      "bytes": 169929,
+      "sha256": "5a9f538d0f188ad1b04c390040c733a639d1d4338d01aec5bd8a269c53bb6e25"
+    },
+    {
+      "path": "room-layout.svg",
+      "bytes": 13331,
+      "sha256": "e53ac9c5924fa8151cab977e32a687fa9e495ecf876c0c923c5704d6f107915c"
+    },
+    {
+      "path": "room-validation.json",
+      "bytes": 1723,
+      "sha256": "755b2f110f705656b365aae32529251994246d562f60ee857064eeefb4bd0177"
+    },
+    {
+      "path": "script.json",
+      "bytes": 31728,
+      "sha256": "6761ed867fbb4ccd3f921b538b6842a1cda63a223716aca2cf9e7cb7732e984b"
+    },
+    {
+      "path": "shot-plan.csv",
+      "bytes": 1712,
+      "sha256": "ce1a8f7122d97c26316109d9001e2c210bfc80a30a0f17c9a81da0d8f496118c"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 3945,
+      "sha256": "a4835eac8c26b7a91cbcce32234fbcd21fb09d35b7432b32b11c062046976ec4"
+    }
+  ]
+}

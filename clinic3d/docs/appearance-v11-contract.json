@@ -1,0 +1,51 @@
+{
+  "schema": "dxx-appearance-replacement-contract-v11",
+  "currentImplementation": "appearance.js",
+  "roles": {
+    "therapist": "fictional adult male",
+    "patient": "fictional adult female"
+  },
+  "sourceAsset": {
+    "path": "assets/patient-motion.glb",
+    "sha256": "76bf711327b68b1a803fd46de493b1e34933f0f591fa27b5b75f2361918ed4d2",
+    "surfaceAndRig": "MPFB core adult surface, default skeleton and weights, CC0-1.0",
+    "sourceGenderMacro": 1.0,
+    "sourceGenderDisclosure": "The frozen source asset was built with a male macro. Current female appearance is a project-authored visual adaptation of this source topology, not an independently generated female macro or a scan.",
+    "originalAssetUnmodified": true
+  },
+  "modifications": [
+    "Independent per-role geometry clones preserve original skin indices and weights.",
+    "Female jaw/cheek/nose/brow surface refinements, lightly adjusted practical clothing surface.",
+    "Original fitted scalp, low ponytail and tapered framing locks for patient; short side sweep for therapist.",
+    "Original oval eyes, upper eyelids, brows and restrained eye highlights replace source sphere details.",
+    "Role-specific skin vertex colours and clothing materials.",
+    "No lower-leg vertices below0.60m changed; no skeleton bones changed."
+  ],
+  "futureReplacement": {
+    "possible": true,
+    "requiredMedia": "Licensed rigged 3D mesh with proper deformation weights; a talking-avatar video alone cannot replace the interactive avatar.",
+    "integrationOwner": "actors.js createActor / createActors; appearance.js applyActorAppearance",
+    "requiredRuntimeContract": [
+      "root Y-up metres and local+Z forward; separate skeleton per actor",
+      "bone map for root, head, jaw, upperleg01.L/R, lowerleg01.L/R, foot.L/R, upperarm01.L/R, lowerarm01.L/R and wrist.L/R, or an explicit adapter",
+      "actor methods setPose, setPosition, face, setLocomotion, setGaitPhase, setTalking, setFootwear, stop, update and getBodyReferencePosition",
+      "role-aware footwear and clothing states, suitable seated/exam/gait poses",
+      "professor review of contact, limb reach and pedagogical labels after replacement"
+    ],
+    "checks": [
+      "Record source licence and author attribution.",
+      "Check separate skeletons, finite geometry and stable ankle targets.",
+      "Inspect close frontal/side face, seated view, standing view and face motion.",
+      "Inspect shoe-floor alignment, chair contact, hair/clothing collisions and examination visibility.",
+      "Do not reuse source-specific surface refinement on a different topology without adapting it."
+    ]
+  },
+  "limits": [
+    "First visual refinement of a fictional teaching character; not photorealistic.",
+    "No actual person identity or exact likeness.",
+    "No new patient scan, gait calibration or clinical validity.",
+    "Appearance is subjective and should be reviewed separately from clinical teaching accuracy."
+  ],
+  "paidGenerationJobs": 0,
+  "externalDownloads": 0
+}

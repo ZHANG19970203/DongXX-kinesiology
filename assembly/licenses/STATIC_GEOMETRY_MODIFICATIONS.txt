@@ -1,0 +1,8 @@
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+License: https://creativecommons.org/licenses/by/4.0/
+Official license record: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+Somakine commit: 179ed2c33a4a519027c6657f2c465bd1b66f9cd9
+
+All 495 geometry entries from the supplied binary were discarded. This build freshly imports 358 elements from the official pinned Somakine GLBs and 137 from a digest-verified official BodyParts3D OBJ archive. Every element is mapped in ASSET_PROVENANCE.json.
+Official scene transforms were baked into Y-up metres. OBJ supplementation uses (x,y,z) -> (0.001x,0.001z,-0.001y), triangulation and recomputed normals. No new mirrored anatomy was inferred. No clinical joint registration, muscle force, tissue deformation, or gait validation is claimed.
+The anatomy data and adaptations retain CC BY 4.0; framework MIT terms do not relicense third-party data. This provenance audit cannot certify rights in unrelated course text, branding, teacher materials, or other assets.

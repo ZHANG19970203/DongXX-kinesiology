@@ -1,0 +1,41 @@
+{
+  "schema": "v26-change-inventory",
+  "source": "Existing v25 release plus project-authored changes",
+  "assets": [
+    {
+      "path": "clinic3d/appearance.js",
+      "change": "Original layered shoulder-length hair geometry and restrained eye details",
+      "rights": "Project-authored refinements of existing MPFB CC0 base; no new downloaded model"
+    },
+    {
+      "path": "clinic3d/actors.js",
+      "change": "Black patient trousers; subtle authored head gestures for concern",
+      "rights": "Project-authored code; existing CC0 base preserved"
+    },
+    {
+      "path": "clinic3d/assets/dialogue-v20/manifest.json",
+      "change": "197 new locally synthesized dialogue clips; 541 total entries",
+      "rights": "Local installed Windows SAPI Kangkang/Huihui speech; not a real-person voice clone; no HeyGen generation"
+    },
+    {
+      "path": "clinic3d/communication-v26.js",
+      "change": "23 authored patient responses and repair flow",
+      "rights": "Project-authored dialogue; fictional teaching scenario"
+    },
+    {
+      "path": "clinic3d/walking-principles-v26.js",
+      "change": "Original analytic COM motion and vertical force coupling; clearly marked teaching-only",
+      "rights": "Project-authored mathematics and plots; no digitized figures or patient measurements"
+    },
+    {
+      "path": "project-guide/index.html",
+      "change": "Single-column learning list with collapsed optional details",
+      "rights": "Project-authored layout"
+    }
+  ],
+  "limits": [
+    "Appearance is stylized realtime 3D, not an exact video likeness.",
+    "Underlying anatomical and clinical limitations are unchanged.",
+    "Existing video and upstream license notices remain applicable."
+  ]
+}

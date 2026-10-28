@@ -1,0 +1,7926 @@
+{
+  "version": "2.1.0",
+  "title": "动小学 · 骨肌拼接工坊 2.1",
+  "developer": "张积众",
+  "chapters": [
+    {
+      "id": "shoulder",
+      "name": "肩与肩带",
+      "description": "肩袖四肌、三角肌与跨肩上臂肌分组安放，颜色区分相邻结构。",
+      "bones": [
+        "clavicle",
+        "scapula",
+        "humerus"
+      ],
+      "muscles": [
+        "supra",
+        "infra",
+        "teresMinor",
+        "subscap",
+        "deltoidAnt",
+        "deltoidMid",
+        "deltoidPost",
+        "biceps",
+        "coraco",
+        "tricepsLong",
+        "pecMajor",
+        "pecMinor",
+        "subclavius",
+        "teresMajor",
+        "serratus",
+        "levator",
+        "rhomboid",
+        "rhomboidMinor",
+        "trapUpper",
+        "trapMid",
+        "trapLower"
+      ],
+      "context": [
+        "clavicle",
+        "scapula",
+        "humerus",
+        "radius",
+        "ulna",
+        "manubrium",
+        "sternum",
+        "xiphoid",
+        "C7",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "rib1",
+        "rib2",
+        "rib3",
+        "rib4",
+        "rib5",
+        "rib6",
+        "rib7",
+        "rib8",
+        "occiput",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "view": "front",
+      "note": "肩部共21项任务（含分部与跨章节条目）。肩袖组包含小圆肌；肱二头肌在“跨肩上臂肌”组。背阔肌无本包可核对独立网格，暂未提供。",
+      "muscleGroups": [
+        {
+          "name": "肩袖四肌",
+          "view": "back",
+          "keys": [
+            "supra",
+            "infra",
+            "teresMinor",
+            "subscap"
+          ]
+        },
+        {
+          "name": "三角肌三部",
+          "view": "side",
+          "keys": [
+            "deltoidAnt",
+            "deltoidMid",
+            "deltoidPost"
+          ]
+        },
+        {
+          "name": "跨肩上臂肌：肱二头肌等",
+          "view": "front",
+          "keys": [
+            "biceps",
+            "coraco",
+            "tricepsLong"
+          ]
+        },
+        {
+          "name": "胸前与大圆肌",
+          "view": "front",
+          "keys": [
+            "pecMajor",
+            "pecMinor",
+            "subclavius",
+            "teresMajor"
+          ]
+        },
+        {
+          "name": "肩胛定位与胸壁",
+          "view": "back",
+          "keys": [
+            "serratus",
+            "levator",
+            "rhomboid",
+            "rhomboidMinor"
+          ]
+        },
+        {
+          "name": "斜方肌三部",
+          "view": "back",
+          "keys": [
+            "trapUpper",
+            "trapMid",
+            "trapLower"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elbow",
+      "name": "肘与前臂",
+      "description": "桡骨、尺骨不能因外形相近而互换。",
+      "bones": [
+        "humerus",
+        "radius",
+        "ulna"
+      ],
+      "muscles": [
+        "brachialis",
+        "biceps",
+        "brachiorad",
+        "triceps",
+        "anconeus",
+        "pronatorTeres",
+        "supinator",
+        "pronatorQuad"
+      ],
+      "context": [
+        "clavicle",
+        "scapula",
+        "humerus",
+        "radius",
+        "ulna"
+      ],
+      "view": "front",
+      "note": ""
+    },
+    {
+      "id": "wrist",
+      "name": "腕",
+      "description": "将8块腕骨分别归位，注意掌侧和桡尺侧。",
+      "bones": [
+        "scaphoid",
+        "lunate",
+        "triquetral",
+        "pisiform",
+        "trapezium",
+        "trapezoid",
+        "capitate",
+        "hamate"
+      ],
+      "muscles": [
+        "fcr",
+        "fcu",
+        "ecrl",
+        "ecrb",
+        "ecu",
+        "pl"
+      ],
+      "context": [
+        "humerus",
+        "radius",
+        "ulna",
+        "scaphoid",
+        "lunate",
+        "triquetral",
+        "pisiform",
+        "trapezium",
+        "trapezoid",
+        "capitate",
+        "hamate",
+        "mc1",
+        "mc2",
+        "mc3",
+        "mc4",
+        "mc5",
+        "finger1_proximal",
+        "finger1_distal",
+        "finger2_proximal",
+        "finger2_middle",
+        "finger2_distal",
+        "finger3_proximal",
+        "finger3_middle",
+        "finger3_distal",
+        "finger4_proximal",
+        "finger4_middle",
+        "finger4_distal",
+        "finger5_proximal",
+        "finger5_middle",
+        "finger5_distal"
+      ],
+      "view": "front",
+      "note": ""
+    },
+    {
+      "id": "hand",
+      "name": "手与手指",
+      "description": "5掌骨与14指骨分别拼接，不把整只手当一块。",
+      "bones": [
+        "mc1",
+        "mc2",
+        "mc3",
+        "mc4",
+        "mc5",
+        "finger1_proximal",
+        "finger1_distal",
+        "finger2_proximal",
+        "finger2_middle",
+        "finger2_distal",
+        "finger3_proximal",
+        "finger3_middle",
+        "finger3_distal",
+        "finger4_proximal",
+        "finger4_middle",
+        "finger4_distal",
+        "finger5_proximal",
+        "finger5_middle",
+        "finger5_distal"
+      ],
+      "muscles": [
+        "apb",
+        "opp",
+        "addPol",
+        "flexPolBrevis",
+        "handAbdDigMin",
+        "lumbricalHand",
+        "fpl",
+        "epl",
+        "epb",
+        "apl",
+        "fds",
+        "fdp",
+        "ed",
+        "edm"
+      ],
+      "context": [
+        "humerus",
+        "radius",
+        "ulna",
+        "scaphoid",
+        "lunate",
+        "triquetral",
+        "pisiform",
+        "trapezium",
+        "trapezoid",
+        "capitate",
+        "hamate",
+        "mc1",
+        "mc2",
+        "mc3",
+        "mc4",
+        "mc5",
+        "finger1_proximal",
+        "finger1_distal",
+        "finger2_proximal",
+        "finger2_middle",
+        "finger2_distal",
+        "finger3_proximal",
+        "finger3_middle",
+        "finger3_distal",
+        "finger4_proximal",
+        "finger4_middle",
+        "finger4_distal",
+        "finger5_proximal",
+        "finger5_middle",
+        "finger5_distal"
+      ],
+      "view": "front",
+      "note": ""
+    },
+    {
+      "id": "hip",
+      "name": "骨盆与髋",
+      "description": "股骨头向内，髋臼朝外；以骶骨作为中线参照。",
+      "bones": [
+        "hip",
+        "femur"
+      ],
+      "muscles": [
+        "gluteMax",
+        "gluteMed",
+        "gluteMin",
+        "piriformis",
+        "obturator",
+        "quadratusFem",
+        "iliacus",
+        "psoas",
+        "pectineus",
+        "addLong",
+        "addBrevis",
+        "addMagnus",
+        "tfl"
+      ],
+      "context": [
+        "sacrum",
+        "hip",
+        "femur",
+        "tibia",
+        "fibula",
+        "patella",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "view": "front",
+      "note": ""
+    },
+    {
+      "id": "knee",
+      "name": "膝",
+      "description": "髌骨关节面朝后，腓骨在外侧。",
+      "bones": [
+        "femur",
+        "tibia",
+        "fibula",
+        "patella"
+      ],
+      "muscles": [
+        "vastusInt",
+        "vastusLat",
+        "vastusMed",
+        "rectusFem",
+        "bicepsFem",
+        "semitend",
+        "semimem",
+        "popliteus",
+        "sartorius",
+        "gracilis"
+      ],
+      "context": [
+        "hip",
+        "sacrum",
+        "femur",
+        "patella",
+        "tibia",
+        "fibula"
+      ],
+      "view": "front",
+      "note": ""
+    },
+    {
+      "id": "ankle",
+      "name": "踝与后足",
+      "description": "围绕踝穴辨认距骨、跟骨和内外踝。",
+      "bones": [
+        "tibia",
+        "fibula",
+        "talus",
+        "calcaneus"
+      ],
+      "muscles": [
+        "tibAnt",
+        "tibPost",
+        "gastrocnemius",
+        "soleus",
+        "fibLong",
+        "fibBrevis",
+        "plantaris"
+      ],
+      "context": [
+        "femur",
+        "tibia",
+        "fibula",
+        "patella",
+        "talus",
+        "calcaneus",
+        "navicular",
+        "cuboid",
+        "cuneiformM",
+        "cuneiformI",
+        "cuneiformL",
+        "mt1",
+        "mt2",
+        "mt3",
+        "mt4",
+        "mt5",
+        "toe1_proximal",
+        "toe1_distal",
+        "toe2_proximal",
+        "toe2_middle",
+        "toe2_distal",
+        "toe3_proximal",
+        "toe3_middle",
+        "toe3_distal",
+        "toe4_proximal",
+        "toe4_middle",
+        "toe4_distal",
+        "toe5_proximal",
+        "toe5_middle",
+        "toe5_distal"
+      ],
+      "view": "front",
+      "note": ""
+    },
+    {
+      "id": "foot",
+      "name": "足与足趾",
+      "description": "跗骨、跖骨、趾骨分批拼接，保持原有足弓。",
+      "bones": [
+        "talus",
+        "calcaneus",
+        "navicular",
+        "cuboid",
+        "cuneiformM",
+        "cuneiformI",
+        "cuneiformL",
+        "mt1",
+        "mt2",
+        "mt3",
+        "mt4",
+        "mt5",
+        "toe1_proximal",
+        "toe1_distal",
+        "toe2_proximal",
+        "toe2_middle",
+        "toe2_distal",
+        "toe3_proximal",
+        "toe3_middle",
+        "toe3_distal",
+        "toe4_proximal",
+        "toe4_middle",
+        "toe4_distal",
+        "toe5_proximal",
+        "toe5_middle",
+        "toe5_distal"
+      ],
+      "muscles": [
+        "fdb",
+        "abh",
+        "fhb",
+        "adh",
+        "edl",
+        "fdl",
+        "ehl",
+        "fhl"
+      ],
+      "context": [
+        "tibia",
+        "fibula",
+        "talus",
+        "calcaneus",
+        "navicular",
+        "cuboid",
+        "cuneiformM",
+        "cuneiformI",
+        "cuneiformL",
+        "mt1",
+        "mt2",
+        "mt3",
+        "mt4",
+        "mt5",
+        "toe1_proximal",
+        "toe1_distal",
+        "toe2_proximal",
+        "toe2_middle",
+        "toe2_distal",
+        "toe3_proximal",
+        "toe3_middle",
+        "toe3_distal",
+        "toe4_proximal",
+        "toe4_middle",
+        "toe4_distal",
+        "toe5_proximal",
+        "toe5_middle",
+        "toe5_distal"
+      ],
+      "view": "top",
+      "note": ""
+    },
+    {
+      "id": "spine",
+      "name": "脊柱",
+      "description": "C1—C7、T1—T12、L1—L5按节段复原；中线骨不分左右。",
+      "bones": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "muscles": [
+        "ilioLumbar",
+        "longissimus",
+        "spleniusCapitis",
+        "spleniusCervicis",
+        "scm",
+        "extOblique"
+      ],
+      "context": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "sacrum",
+        "hip",
+        "occiput",
+        "temporal",
+        "clavicle",
+        "manubrium",
+        "sternum",
+        "xiphoid",
+        "rib1",
+        "rib2",
+        "rib3",
+        "rib4",
+        "rib5",
+        "rib6",
+        "rib7",
+        "rib8",
+        "rib9",
+        "rib10",
+        "rib11",
+        "rib12",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12"
+      ],
+      "view": "back",
+      "note": "骨性拼接覆盖颈、胸、腰椎24块，骶骨作为定位参照；肌肉任务保留有来源的主要躯干与颈部肌肉，不代表全身所有肌肉。"
+    },
+    {
+      "id": "tmj",
+      "name": "头颅与颞下颌",
+      "description": "完整双侧头颅作为固定参照，安放下颌骨、颞骨与颧骨。",
+      "bones": [
+        "mandible",
+        "temporal",
+        "zygomatic"
+      ],
+      "muscles": [
+        "digastric",
+        "mylohyoid",
+        "geniohyoid"
+      ],
+      "context": [
+        "frontal",
+        "parietal",
+        "temporal",
+        "occiput",
+        "sphenoid",
+        "ethmoid",
+        "zygomatic",
+        "maxilla",
+        "mandible",
+        "nasal",
+        "lacrimal",
+        "palatine",
+        "inferiorConcha",
+        "vomer",
+        "hyoid",
+        "C1",
+        "C2"
+      ],
+      "view": "side",
+      "note": "完整参照包含22块颅骨与28颗来源牙齿（未含第三磨牙，不计入骨块数量）。拼接时待放骨块离开其位置不表示模型缺失；可先看完整参照。咬肌、颞肌、翼内肌、翼外肌仍无本包独立网格，肌肉任务仅含张口协同肌。"
+    },
+    {
+      "id": "thorax",
+      "name": "胸廓",
+      "description": "胸骨三部分与12对肋骨分批拼接；肋软骨保留作参照。",
+      "bones": [
+        "manubrium",
+        "sternum",
+        "xiphoid",
+        "rib1",
+        "rib2",
+        "rib3",
+        "rib4",
+        "rib5",
+        "rib6",
+        "rib7",
+        "rib8",
+        "rib9",
+        "rib10",
+        "rib11",
+        "rib12"
+      ],
+      "muscles": [
+        "diaphragm",
+        "externalIntercostals",
+        "internalIntercostals",
+        "pecMinor",
+        "subclavius",
+        "scaleneAnterior",
+        "scaleneMiddle",
+        "scalenePosterior"
+      ],
+      "context": [
+        "manubrium",
+        "sternum",
+        "xiphoid",
+        "rib1",
+        "rib2",
+        "rib3",
+        "rib4",
+        "rib5",
+        "rib6",
+        "rib7",
+        "rib8",
+        "rib9",
+        "rib10",
+        "rib11",
+        "rib12",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "clavicle",
+        "scapula",
+        "humerus",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "view": "front",
+      "note": ""
+    }
+  ],
+  "bones": {
+    "clavicle": {
+      "key": "clavicle",
+      "name": "锁骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3362"
+        ],
+        "L": [
+          "FJ3237"
+        ]
+      },
+      "tip": "胸骨端在内侧，肩峰端在外侧；观察S形曲度。",
+      "region": null
+    },
+    "scapula": {
+      "key": "scapula",
+      "name": "肩胛骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3384"
+        ],
+        "L": [
+          "FJ3279"
+        ]
+      },
+      "tip": "关节盂朝外，肩胛冈朝后，肩胛下窝朝前。",
+      "region": null
+    },
+    "humerus": {
+      "key": "humerus",
+      "name": "肱骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3368"
+        ],
+        "L": [
+          "FJ3262"
+        ]
+      },
+      "tip": "肱骨头朝内上，鹰嘴窝在远端后面。",
+      "region": null
+    },
+    "radius": {
+      "key": "radius",
+      "name": "桡骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3349"
+        ],
+        "L": [
+          "FJ3277"
+        ]
+      },
+      "tip": "解剖位居前臂外侧（拇指侧）；桡骨头在近端，远端较宽。",
+      "region": null
+    },
+    "ulna": {
+      "key": "ulna",
+      "name": "尺骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3391"
+        ],
+        "L": [
+          "FJ3286"
+        ]
+      },
+      "tip": "解剖位居前臂内侧；滑车切迹向前，鹰嘴位于近端后方。",
+      "region": null
+    },
+    "hip": {
+      "key": "hip",
+      "name": "髋骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3152"
+        ],
+        "L": [
+          "FJ3288"
+        ]
+      },
+      "tip": "髋臼朝外、闭孔在下方；耻骨在前、坐骨在后下方。",
+      "region": null
+    },
+    "femur": {
+      "key": "femur",
+      "name": "股骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3365"
+        ],
+        "L": [
+          "FJ3259"
+        ]
+      },
+      "tip": "股骨头朝内，髌面朝前，粗线在骨干后面。",
+      "region": null
+    },
+    "tibia": {
+      "key": "tibia",
+      "name": "胫骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3387"
+        ],
+        "L": [
+          "FJ3282"
+        ]
+      },
+      "tip": "小腿内侧大骨；胫骨粗隆在近端前面，内踝在远端内侧。",
+      "region": null
+    },
+    "fibula": {
+      "key": "fibula",
+      "name": "腓骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3366"
+        ],
+        "L": [
+          "FJ3260"
+        ]
+      },
+      "tip": "位于小腿外侧；外踝在远端，不与股骨构成直接关节。",
+      "region": null
+    },
+    "patella": {
+      "key": "patella",
+      "name": "髌骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3381"
+        ],
+        "L": [
+          "FJ3275"
+        ]
+      },
+      "tip": "尖端朝下、关节面朝后；不能把前后面翻倒。",
+      "region": null
+    },
+    "scaphoid": {
+      "key": "scaphoid",
+      "name": "舟骨（腕）",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3383"
+        ],
+        "L": [
+          "FJ3278"
+        ]
+      },
+      "tip": "先辨掌侧/背侧与桡侧/尺侧，再观察近排或远排关系；豌豆骨在三角骨掌侧。",
+      "region": null
+    },
+    "lunate": {
+      "key": "lunate",
+      "name": "月骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3374"
+        ],
+        "L": [
+          "FJ3268"
+        ]
+      },
+      "tip": "先辨掌侧/背侧与桡侧/尺侧，再观察近排或远排关系；豌豆骨在三角骨掌侧。",
+      "region": null
+    },
+    "triquetral": {
+      "key": "triquetral",
+      "name": "三角骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3390"
+        ],
+        "L": [
+          "FJ3285"
+        ]
+      },
+      "tip": "先辨掌侧/背侧与桡侧/尺侧，再观察近排或远排关系；豌豆骨在三角骨掌侧。",
+      "region": null
+    },
+    "pisiform": {
+      "key": "pisiform",
+      "name": "豌豆骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3382"
+        ],
+        "L": [
+          "FJ3276"
+        ]
+      },
+      "tip": "先辨掌侧/背侧与桡侧/尺侧，再观察近排或远排关系；豌豆骨在三角骨掌侧。",
+      "region": null
+    },
+    "trapezium": {
+      "key": "trapezium",
+      "name": "大多角骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3388"
+        ],
+        "L": [
+          "FJ3283"
+        ]
+      },
+      "tip": "先辨掌侧/背侧与桡侧/尺侧，再观察近排或远排关系；豌豆骨在三角骨掌侧。",
+      "region": null
+    },
+    "trapezoid": {
+      "key": "trapezoid",
+      "name": "小多角骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3389"
+        ],
+        "L": [
+          "FJ3284"
+        ]
+      },
+      "tip": "先辨掌侧/背侧与桡侧/尺侧，再观察近排或远排关系；豌豆骨在三角骨掌侧。",
+      "region": null
+    },
+    "capitate": {
+      "key": "capitate",
+      "name": "头状骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3361"
+        ],
+        "L": [
+          "FJ3257"
+        ]
+      },
+      "tip": "先辨掌侧/背侧与桡侧/尺侧，再观察近排或远排关系；豌豆骨在三角骨掌侧。",
+      "region": null
+    },
+    "hamate": {
+      "key": "hamate",
+      "name": "钩骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3367"
+        ],
+        "L": [
+          "FJ3261"
+        ]
+      },
+      "tip": "先辨掌侧/背侧与桡侧/尺侧，再观察近排或远排关系；豌豆骨在三角骨掌侧。",
+      "region": null
+    },
+    "mc1": {
+      "key": "mc1",
+      "name": "第1掌骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3350"
+        ],
+        "L": [
+          "FJ3240"
+        ]
+      },
+      "tip": "第1掌骨在拇指侧；掌骨底朝腕，掌骨头朝指骨。",
+      "region": null
+    },
+    "mt1": {
+      "key": "mt1",
+      "name": "第1跖骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3351"
+        ],
+        "L": [
+          "FJ3241"
+        ]
+      },
+      "tip": "第1跖骨在内侧，第5跖骨在外侧；跖骨底朝跗骨，跖骨头朝足趾。",
+      "region": null
+    },
+    "mc2": {
+      "key": "mc2",
+      "name": "第2掌骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3352"
+        ],
+        "L": [
+          "FJ3243"
+        ]
+      },
+      "tip": "第1掌骨在拇指侧；掌骨底朝腕，掌骨头朝指骨。",
+      "region": null
+    },
+    "mt2": {
+      "key": "mt2",
+      "name": "第2跖骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3353"
+        ],
+        "L": [
+          "FJ3244"
+        ]
+      },
+      "tip": "第1跖骨在内侧，第5跖骨在外侧；跖骨底朝跗骨，跖骨头朝足趾。",
+      "region": null
+    },
+    "mc3": {
+      "key": "mc3",
+      "name": "第3掌骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3354"
+        ],
+        "L": [
+          "FJ3246"
+        ]
+      },
+      "tip": "第1掌骨在拇指侧；掌骨底朝腕，掌骨头朝指骨。",
+      "region": null
+    },
+    "mt3": {
+      "key": "mt3",
+      "name": "第3跖骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3355"
+        ],
+        "L": [
+          "FJ3247"
+        ]
+      },
+      "tip": "第1跖骨在内侧，第5跖骨在外侧；跖骨底朝跗骨，跖骨头朝足趾。",
+      "region": null
+    },
+    "mc4": {
+      "key": "mc4",
+      "name": "第4掌骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3356"
+        ],
+        "L": [
+          "FJ3249"
+        ]
+      },
+      "tip": "第1掌骨在拇指侧；掌骨底朝腕，掌骨头朝指骨。",
+      "region": null
+    },
+    "mt4": {
+      "key": "mt4",
+      "name": "第4跖骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3357"
+        ],
+        "L": [
+          "FJ3250"
+        ]
+      },
+      "tip": "第1跖骨在内侧，第5跖骨在外侧；跖骨底朝跗骨，跖骨头朝足趾。",
+      "region": null
+    },
+    "mc5": {
+      "key": "mc5",
+      "name": "第5掌骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3358"
+        ],
+        "L": [
+          "FJ3252"
+        ]
+      },
+      "tip": "第1掌骨在拇指侧；掌骨底朝腕，掌骨头朝指骨。",
+      "region": null
+    },
+    "mt5": {
+      "key": "mt5",
+      "name": "第5跖骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3359"
+        ],
+        "L": [
+          "FJ3253"
+        ]
+      },
+      "tip": "第1跖骨在内侧，第5跖骨在外侧；跖骨底朝跗骨，跖骨头朝足趾。",
+      "region": null
+    },
+    "talus": {
+      "key": "talus",
+      "name": "距骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3385"
+        ],
+        "L": [
+          "FJ3280"
+        ]
+      },
+      "tip": "先看足背/足底，再看内外侧：距骨居跟骨上方，足舟骨偏内，骰骨偏外。",
+      "region": null
+    },
+    "calcaneus": {
+      "key": "calcaneus",
+      "name": "跟骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3360"
+        ],
+        "L": [
+          "FJ3256"
+        ]
+      },
+      "tip": "先看足背/足底，再看内外侧：距骨居跟骨上方，足舟骨偏内，骰骨偏外。",
+      "region": null
+    },
+    "navicular": {
+      "key": "navicular",
+      "name": "足舟骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3308"
+        ],
+        "L": [
+          "FJ3307"
+        ]
+      },
+      "tip": "先看足背/足底，再看内外侧：距骨居跟骨上方，足舟骨偏内，骰骨偏外。",
+      "region": null
+    },
+    "cuboid": {
+      "key": "cuboid",
+      "name": "骰骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3364"
+        ],
+        "L": [
+          "FJ3258"
+        ]
+      },
+      "tip": "先看足背/足底，再看内外侧：距骨居跟骨上方，足舟骨偏内，骰骨偏外。",
+      "region": null
+    },
+    "cuneiformM": {
+      "key": "cuneiformM",
+      "name": "内侧楔骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3377"
+        ],
+        "L": [
+          "FJ3271"
+        ]
+      },
+      "tip": "先看足背/足底，再看内外侧：距骨居跟骨上方，足舟骨偏内，骰骨偏外。",
+      "region": null
+    },
+    "cuneiformI": {
+      "key": "cuneiformI",
+      "name": "中间楔骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3370"
+        ],
+        "L": [
+          "FJ3264"
+        ]
+      },
+      "tip": "先看足背/足底，再看内外侧：距骨居跟骨上方，足舟骨偏内，骰骨偏外。",
+      "region": null
+    },
+    "cuneiformL": {
+      "key": "cuneiformL",
+      "name": "外侧楔骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3373"
+        ],
+        "L": [
+          "FJ3267"
+        ]
+      },
+      "tip": "先看足背/足底，再看内外侧：距骨居跟骨上方，足舟骨偏内，骰骨偏外。",
+      "region": null
+    },
+    "finger1_proximal": {
+      "key": "finger1_proximal",
+      "name": "拇指近节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3327"
+        ],
+        "L": [
+          "FJ3318"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger1_distal": {
+      "key": "finger1_distal",
+      "name": "拇指远节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3198"
+        ],
+        "L": [
+          "FJ3188"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger2_proximal": {
+      "key": "finger2_proximal",
+      "name": "食指近节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3322"
+        ],
+        "L": [
+          "FJ3313"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger2_middle": {
+      "key": "finger2_middle",
+      "name": "食指中节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3303"
+        ],
+        "L": [
+          "FJ3296"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger2_distal": {
+      "key": "finger2_distal",
+      "name": "食指远节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3193"
+        ],
+        "L": [
+          "FJ3183"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger3_proximal": {
+      "key": "finger3_proximal",
+      "name": "中指近节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3325"
+        ],
+        "L": [
+          "FJ3316"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger3_middle": {
+      "key": "finger3_middle",
+      "name": "中指中节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3306"
+        ],
+        "L": [
+          "FJ3299"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger3_distal": {
+      "key": "finger3_distal",
+      "name": "中指远节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3196"
+        ],
+        "L": [
+          "FJ3186"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger4_proximal": {
+      "key": "finger4_proximal",
+      "name": "环指近节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3326"
+        ],
+        "L": [
+          "FJ3317"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger4_middle": {
+      "key": "finger4_middle",
+      "name": "环指中节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3292"
+        ],
+        "L": [
+          "FJ3291"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger4_distal": {
+      "key": "finger4_distal",
+      "name": "环指远节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3197"
+        ],
+        "L": [
+          "FJ3187"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger5_proximal": {
+      "key": "finger5_proximal",
+      "name": "小指近节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3323"
+        ],
+        "L": [
+          "FJ3314"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger5_middle": {
+      "key": "finger5_middle",
+      "name": "小指中节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3304"
+        ],
+        "L": [
+          "FJ3297"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "finger5_distal": {
+      "key": "finger5_distal",
+      "name": "小指远节指骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3194"
+        ],
+        "L": [
+          "FJ3184"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe1_proximal": {
+      "key": "toe1_proximal",
+      "name": "拇趾近节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3310"
+        ],
+        "L": [
+          "FJ3329"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe1_distal": {
+      "key": "toe1_distal",
+      "name": "拇趾远节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3192"
+        ],
+        "L": [
+          "FJ3182"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe2_proximal": {
+      "key": "toe2_proximal",
+      "name": "第2趾近节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3319"
+        ],
+        "L": [
+          "FJ3328"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe2_middle": {
+      "key": "toe2_middle",
+      "name": "第2趾中节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3300"
+        ],
+        "L": [
+          "FJ3293"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe2_distal": {
+      "key": "toe2_distal",
+      "name": "第2趾远节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3189"
+        ],
+        "L": [
+          "FJ3179"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe3_proximal": {
+      "key": "toe3_proximal",
+      "name": "第3趾近节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3320"
+        ],
+        "L": [
+          "FJ3311"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe3_middle": {
+      "key": "toe3_middle",
+      "name": "第3趾中节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3301"
+        ],
+        "L": [
+          "FJ3294"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe3_distal": {
+      "key": "toe3_distal",
+      "name": "第3趾远节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3190"
+        ],
+        "L": [
+          "FJ3180"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe4_proximal": {
+      "key": "toe4_proximal",
+      "name": "第4趾近节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3321"
+        ],
+        "L": [
+          "FJ3312"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe4_middle": {
+      "key": "toe4_middle",
+      "name": "第4趾中节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3302"
+        ],
+        "L": [
+          "FJ3295"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe4_distal": {
+      "key": "toe4_distal",
+      "name": "第4趾远节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3191"
+        ],
+        "L": [
+          "FJ3181"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe5_proximal": {
+      "key": "toe5_proximal",
+      "name": "小趾近节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3324"
+        ],
+        "L": [
+          "FJ3315"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe5_middle": {
+      "key": "toe5_middle",
+      "name": "小趾中节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3305"
+        ],
+        "L": [
+          "FJ3298"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "toe5_distal": {
+      "key": "toe5_distal",
+      "name": "小趾远节趾骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3195"
+        ],
+        "L": [
+          "FJ3185"
+        ]
+      },
+      "tip": "拇指/拇趾只有近节与远节，不能多拼一节；远节的末端朝指/趾尖。",
+      "region": null
+    },
+    "sacrum": {
+      "key": "sacrum",
+      "name": "骶骨",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3393"
+        ]
+      },
+      "tip": "底朝上，尖朝下；骶骨耳状面连向髋骨。",
+      "region": null
+    },
+    "C1": {
+      "key": "C1",
+      "name": "C1 寰椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3176"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "C2": {
+      "key": "C2",
+      "name": "C2 枢椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3177"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "C3": {
+      "key": "C3",
+      "name": "C3 颈椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3161"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "C4": {
+      "key": "C4",
+      "name": "C4 颈椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3164"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "C5": {
+      "key": "C5",
+      "name": "C5 颈椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3167"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "C6": {
+      "key": "C6",
+      "name": "C6 颈椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3170"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "C7": {
+      "key": "C7",
+      "name": "C7 颈椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3172"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T1": {
+      "key": "T1",
+      "name": "T1 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3158"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T2": {
+      "key": "T2",
+      "name": "T2 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3160"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T3": {
+      "key": "T3",
+      "name": "T3 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3163"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T4": {
+      "key": "T4",
+      "name": "T4 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3166"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T5": {
+      "key": "T5",
+      "name": "T5 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3169"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T6": {
+      "key": "T6",
+      "name": "T6 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3171"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T7": {
+      "key": "T7",
+      "name": "T7 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3173"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T8": {
+      "key": "T8",
+      "name": "T8 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3174"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T9": {
+      "key": "T9",
+      "name": "T9 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3175"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T10": {
+      "key": "T10",
+      "name": "T10 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3154"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T11": {
+      "key": "T11",
+      "name": "T11 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3155"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "T12": {
+      "key": "T12",
+      "name": "T12 胸椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3156"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "L1": {
+      "key": "L1",
+      "name": "L1 腰椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3157"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "L2": {
+      "key": "L2",
+      "name": "L2 腰椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3159"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "L3": {
+      "key": "L3",
+      "name": "L3 腰椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3162"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "L4": {
+      "key": "L4",
+      "name": "L4 腰椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3165"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "L5": {
+      "key": "L5",
+      "name": "L5 腰椎",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3168"
+        ]
+      },
+      "tip": "椎体在前、椎弓及棘突在后；C1没有椎体，C2有齿突；按节段顺序复原。",
+      "region": null
+    },
+    "manubrium": {
+      "key": "manubrium",
+      "name": "胸骨柄",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3290"
+        ]
+      },
+      "tip": "先判断上下和前后；这是中线结构，不人为分成左右两块。",
+      "region": null
+    },
+    "sternum": {
+      "key": "sternum",
+      "name": "胸骨体",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3178"
+        ]
+      },
+      "tip": "先判断上下和前后；这是中线结构，不人为分成左右两块。",
+      "region": null
+    },
+    "xiphoid": {
+      "key": "xiphoid",
+      "name": "剑突",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3153"
+        ]
+      },
+      "tip": "先判断上下和前后；这是中线结构，不人为分成左右两块。",
+      "region": null
+    },
+    "mandible": {
+      "key": "mandible",
+      "name": "下颌骨",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3289"
+        ]
+      },
+      "tip": "先判断上下和前后；这是中线结构，不人为分成左右两块。",
+      "region": null
+    },
+    "frontal": {
+      "key": "frontal",
+      "name": "额骨",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3200"
+        ]
+      },
+      "tip": "先判断上下和前后；这是中线结构，不人为分成左右两块。",
+      "region": null
+    },
+    "occiput": {
+      "key": "occiput",
+      "name": "枕骨",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3309"
+        ]
+      },
+      "tip": "先判断上下和前后；这是中线结构，不人为分成左右两块。",
+      "region": null
+    },
+    "sphenoid": {
+      "key": "sphenoid",
+      "name": "蝶骨",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3394"
+        ]
+      },
+      "tip": "先判断上下和前后；这是中线结构，不人为分成左右两块。",
+      "region": null
+    },
+    "hyoid": {
+      "key": "hyoid",
+      "name": "舌骨",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3201"
+        ]
+      },
+      "tip": "先判断上下和前后；这是中线结构，不人为分成左右两块。",
+      "region": null
+    },
+    "temporal": {
+      "key": "temporal",
+      "name": "颞骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3386"
+        ],
+        "L": [
+          "FJ3281"
+        ]
+      },
+      "tip": "保持颅骨原有关系；下颌骨两侧髁突共同与两侧颞骨相对，不能把下颌骨一分为二。",
+      "region": null
+    },
+    "zygomatic": {
+      "key": "zygomatic",
+      "name": "颧骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3392"
+        ],
+        "L": [
+          "FJ3287"
+        ]
+      },
+      "tip": "保持颅骨原有关系；下颌骨两侧髁突共同与两侧颞骨相对，不能把下颌骨一分为二。",
+      "region": null
+    },
+    "maxilla": {
+      "key": "maxilla",
+      "name": "上颌骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3375"
+        ],
+        "L": [
+          "FJ3269"
+        ]
+      },
+      "tip": "保持颅骨原有关系；下颌骨两侧髁突共同与两侧颞骨相对，不能把下颌骨一分为二。",
+      "region": null
+    },
+    "parietal": {
+      "key": "parietal",
+      "name": "顶骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3380"
+        ],
+        "L": [
+          "FJ3274"
+        ]
+      },
+      "tip": "保持颅骨原有关系；下颌骨两侧髁突共同与两侧颞骨相对，不能把下颌骨一分为二。",
+      "region": null
+    },
+    "rib1": {
+      "key": "rib1",
+      "name": "第1肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3334"
+        ],
+        "L": [
+          "FJ3228"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib2": {
+      "key": "rib2",
+      "name": "第2肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3336"
+        ],
+        "L": [
+          "FJ3229"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib3": {
+      "key": "rib3",
+      "name": "第3肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3338"
+        ],
+        "L": [
+          "FJ3230"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib4": {
+      "key": "rib4",
+      "name": "第4肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3340"
+        ],
+        "L": [
+          "FJ3231"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib5": {
+      "key": "rib5",
+      "name": "第5肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3342"
+        ],
+        "L": [
+          "FJ3232"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib6": {
+      "key": "rib6",
+      "name": "第6肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3344"
+        ],
+        "L": [
+          "FJ3233"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib7": {
+      "key": "rib7",
+      "name": "第7肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3346"
+        ],
+        "L": [
+          "FJ3234"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib8": {
+      "key": "rib8",
+      "name": "第8肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3347"
+        ],
+        "L": [
+          "FJ3235"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib9": {
+      "key": "rib9",
+      "name": "第9肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3348"
+        ],
+        "L": [
+          "FJ3236"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib10": {
+      "key": "rib10",
+      "name": "第10肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3330"
+        ],
+        "L": [
+          "FJ3225"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib11": {
+      "key": "rib11",
+      "name": "第11肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3331"
+        ],
+        "L": [
+          "FJ3226"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "rib12": {
+      "key": "rib12",
+      "name": "第12肋",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3332"
+        ],
+        "L": [
+          "FJ3227"
+        ]
+      },
+      "tip": "肋头朝后内，肋沟主要在内面下缘；第11、12肋前端游离。",
+      "region": null
+    },
+    "ethmoid": {
+      "key": "ethmoid",
+      "name": "筛骨",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3199"
+        ]
+      },
+      "tip": "头颅固定参照。保持来源图谱的前后、上下和侧别；眼眶、鼻腔及孔道不补成实心。",
+      "region": "skull"
+    },
+    "vomer": {
+      "key": "vomer",
+      "name": "犁骨",
+      "type": "bone",
+      "sides": {
+        "M": [
+          "FJ3395"
+        ]
+      },
+      "tip": "头颅固定参照。保持来源图谱的前后、上下和侧别；眼眶、鼻腔及孔道不补成实心。",
+      "region": "skull"
+    },
+    "nasal": {
+      "key": "nasal",
+      "name": "鼻骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3378"
+        ],
+        "L": [
+          "FJ3272"
+        ]
+      },
+      "tip": "头颅固定参照。保持来源图谱的前后、上下和侧别；眼眶、鼻腔及孔道不补成实心。",
+      "region": "skull"
+    },
+    "lacrimal": {
+      "key": "lacrimal",
+      "name": "泪骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3371"
+        ],
+        "L": [
+          "FJ3265"
+        ]
+      },
+      "tip": "头颅固定参照。保持来源图谱的前后、上下和侧别；眼眶、鼻腔及孔道不补成实心。",
+      "region": "skull"
+    },
+    "palatine": {
+      "key": "palatine",
+      "name": "腭骨",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3379"
+        ],
+        "L": [
+          "FJ3273"
+        ]
+      },
+      "tip": "头颅固定参照。保持来源图谱的前后、上下和侧别；眼眶、鼻腔及孔道不补成实心。",
+      "region": "skull"
+    },
+    "inferiorConcha": {
+      "key": "inferiorConcha",
+      "name": "下鼻甲",
+      "type": "bone",
+      "sides": {
+        "R": [
+          "FJ3369"
+        ],
+        "L": [
+          "FJ3263"
+        ]
+      },
+      "tip": "头颅固定参照。保持来源图谱的前后、上下和侧别；眼眶、鼻腔及孔道不补成实心。",
+      "region": "skull"
+    }
+  },
+  "muscles": {
+    "scm": {
+      "key": "scm",
+      "name": "胸锁乳突肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1595"
+        ],
+        "L": [
+          "FJ1573"
+        ]
+      },
+      "origin": "胸骨柄前面、锁骨内侧段上面",
+      "insertion": "颞骨乳突及上项线外侧部",
+      "function": "单侧收缩可使头颈向同侧侧屈、向对侧旋转；双侧参与颈屈曲，作用随头颈姿势及固定条件改变。",
+      "tip": "颈前外侧的浅层带状肌，自胸锁部斜行至耳后乳突。",
+      "references": [
+        "ANAT_HEAD",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [
+        "manubrium",
+        "clavicle"
+      ],
+      "insertionBones": [
+        "temporal",
+        "occiput"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "单侧收缩可使头颈向同侧侧屈、向对侧旋转；双侧参与颈屈曲，作用随头颈姿势及固定条件改变。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DAB877"
+    },
+    "scaleneAnterior": {
+      "key": "scaleneAnterior",
+      "name": "前斜角肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1592"
+        ],
+        "L": [
+          "FJ1570"
+        ]
+      },
+      "origin": "第3—6颈椎横突前结节",
+      "insertion": "第1肋斜角肌结节",
+      "function": "参与颈侧屈；颈部固定时辅助提起第1肋。",
+      "tip": "颈侧深部，胸锁乳突肌深面；不是肩关节外展肌。",
+      "references": [
+        "ANAT_HEAD",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "参与颈侧屈；颈部固定时辅助提起第1肋。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#9B77DA"
+    },
+    "scaleneMiddle": {
+      "key": "scaleneMiddle",
+      "name": "中斜角肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1593"
+        ],
+        "L": [
+          "FJ1571"
+        ]
+      },
+      "origin": "第2—7颈椎横突后结节",
+      "insertion": "第1肋上面、锁骨下动脉沟后方",
+      "function": "参与颈侧屈；颈部固定时可辅助提起第1肋。",
+      "tip": "位于前斜角肌后方的颈侧深层肌。",
+      "references": [
+        "ANAT_HEAD",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "参与颈侧屈；颈部固定时可辅助提起第1肋。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DA7E"
+    },
+    "scalenePosterior": {
+      "key": "scalenePosterior",
+      "name": "后斜角肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1594"
+        ],
+        "L": [
+          "FJ1572"
+        ]
+      },
+      "origin": "第4—6颈椎横突后结节",
+      "insertion": "第2肋外面",
+      "function": "参与颈侧屈，固定条件适当时可辅助提起第2肋。",
+      "tip": "斜角肌群后部，自下位颈椎斜向第2肋。",
+      "references": [
+        "ANAT_HEAD",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "参与颈侧屈，固定条件适当时可辅助提起第2肋。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA778C"
+    },
+    "spleniusCapitis": {
+      "key": "spleniusCapitis",
+      "name": "头夹肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1545"
+        ],
+        "L": [
+          "FJ1545M"
+        ]
+      },
+      "origin": "项韧带下部、C7及上位胸椎棘突",
+      "insertion": "乳突、上项线外侧部",
+      "function": "双侧共同参与头颈后伸；单侧可使头颈同侧侧屈和旋转。",
+      "tip": "颈后部，在斜方肌深面向外上方走行。",
+      "references": [
+        "ANAT_HEAD",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "双侧共同参与头颈后伸；单侧可使头颈同侧侧屈和旋转。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77A9DA"
+    },
+    "spleniusCervicis": {
+      "key": "spleniusCervicis",
+      "name": "颈夹肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1546"
+        ],
+        "L": [
+          "FJ1546M"
+        ]
+      },
+      "origin": "上位胸椎棘突（主要T3—T6）",
+      "insertion": "上位颈椎横突（主要C1—C3）",
+      "function": "参与颈后伸、同侧侧屈和旋转。",
+      "tip": "头夹肌下外侧的颈后深层肌。",
+      "references": [
+        "ANAT_HEAD",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "参与颈后伸、同侧侧屈和旋转。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#C6DA77"
+    },
+    "supra": {
+      "key": "supra",
+      "name": "冈上肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1506"
+        ],
+        "L": [
+          "FJ1506M"
+        ]
+      },
+      "origin": "肩胛骨冈上窝",
+      "insertion": "肱骨大结节上小面",
+      "function": "参与肩外展，并与肩袖共同稳定肱骨头。",
+      "tip": "肩胛冈上方的冈上窝；向外经过肩峰下方，止于肱骨大结节上小面。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "scapula"
+      ],
+      "insertionBones": [
+        "humerus"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "参与肩外展，并与肩袖共同稳定肱骨头。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "bestView": "back",
+      "displayColor": "#E8B550"
+    },
+    "infra": {
+      "key": "infra",
+      "name": "冈下肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1500"
+        ],
+        "L": [
+          "FJ1500M"
+        ]
+      },
+      "origin": "肩胛骨冈下窝",
+      "insertion": "肱骨大结节中小面",
+      "function": "肩外旋；参与盂肱关节稳定。",
+      "tip": "肩胛冈下方的冈下窝；位于肩胛骨后面。小圆肌在其下外侧。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "scapula"
+      ],
+      "insertionBones": [
+        "humerus"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩外旋；参与盂肱关节稳定。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "bestView": "back",
+      "displayColor": "#4DA7DA"
+    },
+    "subscap": {
+      "key": "subscap",
+      "name": "肩胛下肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1504"
+        ],
+        "L": [
+          "FJ1504M"
+        ]
+      },
+      "origin": "肩胛骨肩胛下窝",
+      "insertion": "肱骨小结节",
+      "function": "肩内旋；参与盂肱关节稳定。",
+      "tip": "肩胛骨前面的肩胛下窝，面向胸廓；观察时可单独显示，并开启骨骼透视。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "scapula"
+      ],
+      "insertionBones": [
+        "humerus"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩内旋；参与盂肱关节稳定。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "bestView": "front",
+      "displayColor": "#EA957A"
+    },
+    "teresMinor": {
+      "key": "teresMinor",
+      "name": "小圆肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1508"
+        ],
+        "L": [
+          "FJ1508M"
+        ]
+      },
+      "origin": "肩胛骨外侧缘后面",
+      "insertion": "肱骨大结节下小面",
+      "function": "肩外旋；协助肩内收和稳定。",
+      "tip": "肩胛骨外侧缘后面；位于冈下肌下方、大圆肌上方，止于肱骨大结节下小面。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "scapula"
+      ],
+      "insertionBones": [
+        "humerus"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩外旋；协助肩内收和稳定。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "bestView": "back",
+      "displayColor": "#B38CEC"
+    },
+    "teresMajor": {
+      "key": "teresMajor",
+      "name": "大圆肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1507"
+        ],
+        "L": [
+          "FJ1507M"
+        ]
+      },
+      "origin": "肩胛骨下角后面",
+      "insertion": "肱骨小结节嵴",
+      "function": "肩后伸、内收、内旋。",
+      "tip": "肩胛下角后面向外上方走行；不属于肩袖四肌。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "scapula"
+      ],
+      "insertionBones": [
+        "humerus"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩后伸、内收、内旋。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "bestView": "back",
+      "displayColor": "#C47856"
+    },
+    "deltoidAnt": {
+      "key": "deltoidAnt",
+      "name": "三角肌前部",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1468"
+        ],
+        "L": [
+          "FJ1468M"
+        ]
+      },
+      "origin": "锁骨外侧段前缘",
+      "insertion": "肱骨三角肌粗隆",
+      "function": "肩前屈；协助肩内旋。",
+      "tip": "在肩带或上臂区域，结合肩胛骨、肱骨和前臂骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "clavicle"
+      ],
+      "insertionBones": [
+        "humerus"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩前屈；协助肩内旋。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "displayColor": "#EDACC0"
+    },
+    "deltoidMid": {
+      "key": "deltoidMid",
+      "name": "三角肌中部",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1467"
+        ],
+        "L": [
+          "FJ1467M"
+        ]
+      },
+      "origin": "肩胛骨肩峰",
+      "insertion": "肱骨三角肌粗隆",
+      "function": "主要参与肩外展。",
+      "tip": "在肩带或上臂区域，结合肩胛骨、肱骨和前臂骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "scapula"
+      ],
+      "insertionBones": [
+        "humerus"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "主要参与肩外展。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "displayColor": "#E3A767"
+    },
+    "deltoidPost": {
+      "key": "deltoidPost",
+      "name": "三角肌后部",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1513"
+        ],
+        "L": [
+          "FJ1513M"
+        ]
+      },
+      "origin": "肩胛骨肩胛冈",
+      "insertion": "肱骨三角肌粗隆",
+      "function": "肩后伸；协助肩外旋。",
+      "tip": "在肩带或上臂区域，结合肩胛骨、肱骨和前臂骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "scapula"
+      ],
+      "insertionBones": [
+        "humerus"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩后伸；协助肩外旋。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "displayColor": "#65C8D4"
+    },
+    "biceps": {
+      "key": "biceps",
+      "name": "肱二头肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1478",
+          "FJ1512"
+        ],
+        "L": [
+          "FJ1478M",
+          "FJ1512M"
+        ]
+      },
+      "origin": "长头：肩胛骨盂上结节；短头：喙突",
+      "insertion": "桡骨粗隆及前臂筋膜（腱膜）",
+      "function": "屈肘、前臂旋后；跨肩的两头还参与肩部动作。",
+      "tip": "上臂前面；长头起于盂上结节，短头起于喙突。两头向远端汇合到桡骨粗隆及腱膜。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "scapula"
+      ],
+      "insertionBones": [
+        "radius"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈肘、前臂旋后；跨肩的两头还参与肩部动作。",
+        "主要使肩胛骨上回旋并贴紧胸壁。",
+        "主要使拇指在第一腕掌关节完成对掌。"
+      ],
+      "answer": 0,
+      "bestView": "front",
+      "displayColor": "#EA86AF"
+    },
+    "brachialis": {
+      "key": "brachialis",
+      "name": "肱肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1486"
+        ],
+        "L": [
+          "FJ1486M"
+        ]
+      },
+      "origin": "肱骨下半部前面",
+      "insertion": "尺骨粗隆和冠突",
+      "function": "屈肘；止于尺骨，不随桡骨旋前旋后改变附着骨。",
+      "tip": "在肩带或上臂区域，结合肩胛骨、肱骨和前臂骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "humerus"
+      ],
+      "insertionBones": [
+        "ulna"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈肘；止于尺骨，不随桡骨旋前旋后改变附着骨。",
+        "主要使肩胛骨上回旋并贴紧胸壁。",
+        "主要使拇指在第一腕掌关节完成对掌。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DA93"
+    },
+    "brachiorad": {
+      "key": "brachiorad",
+      "name": "肱桡肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1487"
+        ],
+        "L": [
+          "FJ1487M"
+        ]
+      },
+      "origin": "肱骨外上髁上嵴",
+      "insertion": "桡骨茎突近侧",
+      "function": "参与屈肘，前臂中立位时尤其便于观察。",
+      "tip": "在肩带或上臂区域，结合肩胛骨、肱骨和前臂骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "humerus"
+      ],
+      "insertionBones": [
+        "radius"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "参与屈肘，前臂中立位时尤其便于观察。",
+        "主要使肩胛骨上回旋并贴紧胸壁。",
+        "主要使拇指在第一腕掌关节完成对掌。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA7778"
+    },
+    "triceps": {
+      "key": "triceps",
+      "name": "肱三头肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1479",
+          "FJ1480",
+          "FJ1477"
+        ],
+        "L": [
+          "FJ1479M",
+          "FJ1480M",
+          "FJ1477M"
+        ]
+      },
+      "origin": "长头：盂下结节；其余头：肱骨后面",
+      "insertion": "尺骨鹰嘴",
+      "function": "伸肘；长头还跨肩关节。",
+      "tip": "在肩带或上臂区域，结合肩胛骨、肱骨和前臂骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "scapula",
+        "humerus"
+      ],
+      "insertionBones": [
+        "ulna"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "伸肘；长头还跨肩关节。",
+        "主要使肩胛骨上回旋并贴紧胸壁。",
+        "主要使拇指在第一腕掌关节完成对掌。"
+      ],
+      "answer": 0,
+      "displayColor": "#7795DA"
+    },
+    "pronatorTeres": {
+      "key": "pronatorTeres",
+      "name": "旋前圆肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1474",
+          "FJ1516"
+        ],
+        "L": [
+          "FJ1474M",
+          "FJ1516M"
+        ]
+      },
+      "origin": "肱骨内上髁、尺骨冠突",
+      "insertion": "桡骨中段外侧面",
+      "function": "前臂旋前；协助屈肘。",
+      "tip": "在肩带或上臂区域，结合肩胛骨、肱骨和前臂骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "humerus",
+        "ulna"
+      ],
+      "insertionBones": [
+        "radius"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "前臂旋前；协助屈肘。",
+        "主要使肩胛骨上回旋并贴紧胸壁。",
+        "主要使拇指在第一腕掌关节完成对掌。"
+      ],
+      "answer": 0,
+      "displayColor": "#B1DA77"
+    },
+    "pronatorQuad": {
+      "key": "pronatorQuad",
+      "name": "旋前方肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1503"
+        ],
+        "L": [
+          "FJ1503M"
+        ]
+      },
+      "origin": "尺骨远端前面",
+      "insertion": "桡骨远端前面",
+      "function": "前臂旋前，并稳定远侧桡尺关系。",
+      "tip": "在肩带或上臂区域，结合肩胛骨、肱骨和前臂骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "ulna"
+      ],
+      "insertionBones": [
+        "radius"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "前臂旋前，并稳定远侧桡尺关系。",
+        "主要使肩胛骨上回旋并贴紧胸壁。",
+        "主要使拇指在第一腕掌关节完成对掌。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA77CE"
+    },
+    "supinator": {
+      "key": "supinator",
+      "name": "旋后肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1505"
+        ],
+        "L": [
+          "FJ1505M"
+        ]
+      },
+      "origin": "肱骨外上髁、尺骨旋后肌嵴及邻近韧带",
+      "insertion": "桡骨近端周围",
+      "function": "前臂旋后。",
+      "tip": "在肩带或上臂区域，结合肩胛骨、肱骨和前臂骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "humerus",
+        "ulna"
+      ],
+      "insertionBones": [
+        "radius"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "前臂旋后。",
+        "主要使肩胛骨上回旋并贴紧胸壁。",
+        "主要使拇指在第一腕掌关节完成对掌。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DAC8"
+    },
+    "anconeus": {
+      "key": "anconeus",
+      "name": "肘肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1485"
+        ],
+        "L": [
+          "FJ1485M"
+        ]
+      },
+      "origin": "肱骨外上髁后面",
+      "insertion": "尺骨鹰嘴外侧及近端后面",
+      "function": "辅助伸肘，并参与肘关节稳定。",
+      "tip": "肘后外侧的小三角形肌。",
+      "references": [
+        "ANAT_UPPER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [
+        "humerus"
+      ],
+      "insertionBones": [
+        "ulna"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "辅助伸肘，并参与肘关节稳定。",
+        "主要使肩胛骨上回旋并贴紧胸壁。",
+        "主要使拇指在第一腕掌关节完成对掌。"
+      ],
+      "answer": 0,
+      "displayColor": "#DAAB77"
+    },
+    "serratus": {
+      "key": "serratus",
+      "name": "前锯肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1459"
+        ],
+        "L": [
+          "FJ1459M"
+        ]
+      },
+      "origin": "上部肋骨外侧面",
+      "insertion": "肩胛骨内侧缘前面",
+      "function": "肩胛骨前伸、上回旋；使肩胛贴近胸壁。",
+      "tip": "结合脊柱、肩胛骨及胸廓定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_TRUNK"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩胛骨前伸、上回旋；使肩胛贴近胸壁。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "displayColor": "#60BFA5"
+    },
+    "levator": {
+      "key": "levator",
+      "name": "肩胛提肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1532"
+        ],
+        "L": [
+          "FJ1532M"
+        ]
+      },
+      "origin": "C1—C4横突",
+      "insertion": "肩胛骨上角及邻近内侧缘",
+      "function": "肩胛上提、下回旋；颈部功能取决于固定端。",
+      "tip": "结合脊柱、肩胛骨及胸廓定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_TRUNK"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩胛上提、下回旋；颈部功能取决于固定端。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "displayColor": "#DBB268"
+    },
+    "rhomboid": {
+      "key": "rhomboid",
+      "name": "大菱形肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1536"
+        ],
+        "L": [
+          "FJ1536M"
+        ]
+      },
+      "origin": "T2—T5棘突",
+      "insertion": "肩胛骨内侧缘",
+      "function": "肩胛后缩、下回旋并稳定。",
+      "tip": "结合脊柱、肩胛骨及胸廓定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_TRUNK"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩胛后缩、下回旋并稳定。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "displayColor": "#869EE0"
+    },
+    "pecMinor": {
+      "key": "pecMinor",
+      "name": "胸小肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1456"
+        ],
+        "L": [
+          "FJ1456M"
+        ]
+      },
+      "origin": "第3—5肋前部",
+      "insertion": "肩胛骨喙突",
+      "function": "肩胛前倾、下压等；固定肩胛时可辅助吸气。",
+      "tip": "结合脊柱、肩胛骨及胸廓定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_TRUNK"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩胛前倾、下压等；固定肩胛时可辅助吸气。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#C3A1DE"
+    },
+    "pecMajor": {
+      "key": "pecMajor",
+      "name": "胸大肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1446",
+          "FJ1464",
+          "FJ1447"
+        ],
+        "L": [
+          "FJ1446M",
+          "FJ1464M",
+          "FJ1447M"
+        ]
+      },
+      "origin": "锁骨内侧段、胸骨、上部肋软骨及腹外斜肌腱膜",
+      "insertion": "肱骨大结节嵴",
+      "function": "肩内收和内旋；锁骨部还参与肩前屈。",
+      "tip": "结合脊柱、肩胛骨及胸廓定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_TRUNK"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "肩内收和内旋；锁骨部还参与肩前屈。",
+        "主要使前臂旋前，以桡骨与尺骨为局部参考。",
+        "主要使拇指掌指关节屈曲，属于手内在肌。"
+      ],
+      "answer": 0,
+      "displayColor": "#70C8B7"
+    },
+    "ilioLumbar": {
+      "key": "ilioLumbar",
+      "name": "髂肋肌腰部",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1527"
+        ],
+        "L": [
+          "FJ1527M"
+        ]
+      },
+      "origin": "骶骨、髂嵴等共同起始腱",
+      "insertion": "下位肋骨与腰椎横突等",
+      "function": "双侧参与躯干后伸，单侧同侧侧屈。",
+      "tip": "结合脊柱、肩胛骨及胸廓定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_TRUNK"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "双侧参与躯干后伸，单侧同侧侧屈。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#C477DA"
+    },
+    "longissimus": {
+      "key": "longissimus",
+      "name": "最长肌胸部",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1535"
+        ],
+        "L": [
+          "FJ1535M"
+        ]
+      },
+      "origin": "竖脊肌共同起始腱及腰椎横突",
+      "insertion": "胸椎横突及邻近肋骨",
+      "function": "双侧参与后伸，单侧同侧侧屈。",
+      "tip": "结合脊柱、肩胛骨及胸廓定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_TRUNK"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "双侧参与后伸，单侧同侧侧屈。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DAA7"
+    },
+    "subclavius": {
+      "key": "subclavius",
+      "name": "锁骨下肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1460"
+        ],
+        "L": [
+          "FJ1460M"
+        ]
+      },
+      "origin": "第1肋及肋软骨交界附近",
+      "insertion": "锁骨中段下沟",
+      "function": "参与锁骨固定和下降，稳定胸锁关节区域。",
+      "tip": "第1肋与锁骨之间的小肌，位于锁骨下方。",
+      "references": [
+        "ANAT_AXIAL",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "参与锁骨固定和下降，稳定胸锁关节区域。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DCC878"
+    },
+    "diaphragm": {
+      "key": "diaphragm",
+      "name": "膈肌",
+      "type": "muscle",
+      "sides": {
+        "M": [
+          "FJ3131"
+        ]
+      },
+      "origin": "剑突、下6肋及其肋软骨内面、腰椎及弓状韧带等",
+      "insertion": "中心腱",
+      "function": "主要吸气肌：收缩使穹隆下降，增加胸腔上下径；也参与腹压调节。",
+      "tip": "分隔胸腔和腹腔的穹隆形肌性结构。",
+      "references": [
+        "ANAT_AXIAL",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "主要吸气肌：收缩使穹隆下降，增加胸腔上下径；也参与腹压调节。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#7780DA"
+    },
+    "externalIntercostals": {
+      "key": "externalIntercostals",
+      "name": "肋间外肌群",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1451"
+        ],
+        "L": [
+          "FJ1451M"
+        ]
+      },
+      "origin": "各相邻肋间上位肋骨下缘",
+      "insertion": "相邻下位肋骨上缘",
+      "function": "参与提肋、维持肋间隙，辅助吸气。",
+      "tip": "肋间隙浅层；本资源为右侧多束集合，不是单块肌。",
+      "references": [
+        "ANAT_AXIAL",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "参与提肋、维持肋间隙，辅助吸气。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#9DDA77"
+    },
+    "internalIntercostals": {
+      "key": "internalIntercostals",
+      "name": "肋间内肌群",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1455"
+        ],
+        "L": [
+          "FJ1455M"
+        ]
+      },
+      "origin": "各相邻肋间上位肋骨内面、肋沟区域",
+      "insertion": "相邻下位肋骨上缘",
+      "function": "骨间部可参与用力呼气；软骨间部可参与吸气，不能把所有纤维统称为呼气肌。",
+      "tip": "肋间外肌深面；本资源为右侧多束集合。",
+      "references": [
+        "ANAT_AXIAL",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "骨间部可参与用力呼气；软骨间部可参与吸气，不能把所有纤维统称为呼气肌。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA77BA"
+    },
+    "fcr": {
+      "key": "fcr",
+      "name": "桡侧腕屈肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1496"
+        ],
+        "L": [
+          "FJ1496M"
+        ]
+      },
+      "origin": "肱骨内上髁",
+      "insertion": "第二掌骨底为主，常延至第三掌骨底",
+      "function": "腕掌屈和桡偏。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "humerus"
+      ],
+      "insertionBones": [
+        "mc2",
+        "mc3"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "腕掌屈和桡偏。",
+        "主要完成前臂旋前，不以腕部运动为主要作用。",
+        "主要完成肩胛后缩，是肩胛带肌肉。"
+      ],
+      "answer": 0,
+      "displayColor": "#77D7DA"
+    },
+    "fcu": {
+      "key": "fcu",
+      "name": "尺侧腕屈肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1473",
+          "FJ1518"
+        ],
+        "L": [
+          "FJ1473M",
+          "FJ1518M"
+        ]
+      },
+      "origin": "肱骨内上髁、尺骨鹰嘴及后缘",
+      "insertion": "豌豆骨，并经韧带连至钩骨和第五掌骨底",
+      "function": "腕掌屈和尺偏。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "humerus",
+        "ulna"
+      ],
+      "insertionBones": [
+        "pisiform",
+        "hamate",
+        "mc5"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "腕掌屈和尺偏。",
+        "主要完成前臂旋前，不以腕部运动为主要作用。",
+        "主要完成肩胛后缩，是肩胛带肌肉。"
+      ],
+      "answer": 0,
+      "displayColor": "#DAC077"
+    },
+    "pl": {
+      "key": "pl",
+      "name": "掌长肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1502"
+        ],
+        "L": [
+          "FJ1502M"
+        ]
+      },
+      "origin": "肱骨内上髁",
+      "insertion": "掌腱膜和屈肌支持带",
+      "function": "张紧掌腱膜，协助腕掌屈；个体可缺如。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "张紧掌腱膜，协助腕掌屈；个体可缺如。",
+        "主要完成前臂旋前，不以腕部运动为主要作用。",
+        "主要完成肩胛后缩，是肩胛带肌肉。"
+      ],
+      "answer": 0,
+      "displayColor": "#A377DA"
+    },
+    "ecrl": {
+      "key": "ecrl",
+      "name": "桡侧腕长伸肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1490"
+        ],
+        "L": [
+          "FJ1490M"
+        ]
+      },
+      "origin": "肱骨外上髁上嵴",
+      "insertion": "第二掌骨底背面",
+      "function": "腕背伸和桡偏。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "humerus"
+      ],
+      "insertionBones": [
+        "mc2"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "腕背伸和桡偏。",
+        "主要完成前臂旋前，不以腕部运动为主要作用。",
+        "主要完成肩胛后缩，是肩胛带肌肉。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DA86"
+    },
+    "ecrb": {
+      "key": "ecrb",
+      "name": "桡侧腕短伸肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1489"
+        ],
+        "L": [
+          "FJ1489M"
+        ]
+      },
+      "origin": "肱骨外上髁",
+      "insertion": "第三掌骨底背面",
+      "function": "腕背伸，协助桡偏。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "humerus"
+      ],
+      "insertionBones": [
+        "mc3"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "腕背伸，协助桡偏。",
+        "主要完成前臂旋前，不以腕部运动为主要作用。",
+        "主要完成肩胛后缩，是肩胛带肌肉。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA7784"
+    },
+    "ecu": {
+      "key": "ecu",
+      "name": "尺侧腕伸肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1472",
+          "FJ1517"
+        ],
+        "L": [
+          "FJ1472M",
+          "FJ1517M"
+        ]
+      },
+      "origin": "肱骨外上髁、尺骨后缘",
+      "insertion": "第五掌骨底背面",
+      "function": "腕背伸和尺偏。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "humerus",
+        "ulna"
+      ],
+      "insertionBones": [
+        "mc5"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "腕背伸和尺偏。",
+        "主要完成前臂旋前，不以腕部运动为主要作用。",
+        "主要完成肩胛后缩，是肩胛带肌肉。"
+      ],
+      "answer": 0,
+      "displayColor": "#77A1DA"
+    },
+    "fds": {
+      "key": "fds",
+      "name": "指浅屈肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1475",
+          "FJ1499"
+        ],
+        "L": [
+          "FJ1475M",
+          "FJ1499M"
+        ]
+      },
+      "origin": "肱骨内上髁、尺骨冠突和桡骨前面",
+      "insertion": "第2—5指中节指骨两侧",
+      "function": "屈近侧指间关节；兼助掌指关节和腕掌屈。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈近侧指间关节；兼助掌指关节和腕掌屈。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#BEDA77"
+    },
+    "fdp": {
+      "key": "fdp",
+      "name": "指深屈肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1497"
+        ],
+        "L": [
+          "FJ1497M"
+        ]
+      },
+      "origin": "尺骨前内侧面及骨间膜",
+      "insertion": "第2—5指末节指骨底",
+      "function": "屈远侧指间关节；兼助其他屈指动作。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈远侧指间关节；兼助其他屈指动作。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#D977DA"
+    },
+    "ed": {
+      "key": "ed",
+      "name": "指伸肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1492"
+        ],
+        "L": [
+          "FJ1492M"
+        ]
+      },
+      "origin": "肱骨外上髁",
+      "insertion": "第2—5指指背腱膜，延至中、末节指骨",
+      "function": "伸指；参与腕背伸。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "伸指；参与腕背伸。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DABC"
+    },
+    "edm": {
+      "key": "edm",
+      "name": "小指伸肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1491"
+        ],
+        "L": [
+          "FJ1491M"
+        ]
+      },
+      "origin": "肱骨外上髁",
+      "insertion": "第5指指背腱膜",
+      "function": "伸小指。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "伸小指。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA9F77"
+    },
+    "fpl": {
+      "key": "fpl",
+      "name": "拇长屈肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1498"
+        ],
+        "L": [
+          "FJ1498M"
+        ]
+      },
+      "origin": "桡骨前面和骨间膜",
+      "insertion": "拇指末节指骨底掌侧",
+      "function": "主要屈拇指指间关节。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "主要屈拇指指间关节。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#8277DA"
+    },
+    "epl": {
+      "key": "epl",
+      "name": "拇长伸肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1495"
+        ],
+        "L": [
+          "FJ1495M"
+        ]
+      },
+      "origin": "尺骨后面及骨间膜",
+      "insertion": "拇指末节指骨底背侧",
+      "function": "伸拇指指间关节，并参与其他拇指伸展。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "伸拇指指间关节，并参与其他拇指伸展。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#89DA77"
+    },
+    "epb": {
+      "key": "epb",
+      "name": "拇短伸肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1494"
+        ],
+        "L": [
+          "FJ1494M"
+        ]
+      },
+      "origin": "桡骨后面和骨间膜",
+      "insertion": "拇指近节指骨底背侧",
+      "function": "主要伸拇指掌指关节。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "主要伸拇指掌指关节。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA77A5"
+    },
+    "apl": {
+      "key": "apl",
+      "name": "拇长展肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1484"
+        ],
+        "L": [
+          "FJ1484M"
+        ]
+      },
+      "origin": "桡、尺骨后面及骨间膜",
+      "insertion": "第一掌骨底",
+      "function": "使拇指在第一腕掌关节外展、伸展。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "使拇指在第一腕掌关节外展、伸展。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77C2DA"
+    },
+    "apb": {
+      "key": "apb",
+      "name": "拇短展肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1483"
+        ],
+        "L": [
+          "FJ1483M"
+        ]
+      },
+      "origin": "舟骨、 大多角骨及屈肌支持带",
+      "insertion": "拇指近节指骨底桡侧",
+      "function": "拇指掌侧外展，参与对掌。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "拇指掌侧外展，参与对掌。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DAD477"
+    },
+    "opp": {
+      "key": "opp",
+      "name": "拇对掌肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1501"
+        ],
+        "L": [
+          "FJ1501M"
+        ]
+      },
+      "origin": "大多角骨与屈肌支持带",
+      "insertion": "第一掌骨桡侧缘",
+      "function": "使第一掌骨屈曲并旋转，参与对掌。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "使第一掌骨屈曲并旋转，参与对掌。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#B877DA"
+    },
+    "addPol": {
+      "key": "addPol",
+      "name": "拇收肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1481",
+          "FJ1515"
+        ],
+        "L": [
+          "FJ1481M",
+          "FJ1515M"
+        ]
+      },
+      "origin": "头状骨、邻近掌骨底和第三掌骨",
+      "insertion": "拇指近节指骨底尺侧",
+      "function": "拇指内收；参与捏持。",
+      "tip": "在前臂或手部，观察肌腹与肌腱向手部的连续关系。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "拇指内收；参与捏持。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DA9B"
+    },
+    "flexPolBrevis": {
+      "key": "flexPolBrevis",
+      "name": "拇短屈肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1514"
+        ],
+        "L": [
+          "FJ1514M"
+        ]
+      },
+      "origin": "屈肌支持带及大多角骨等腕骨，深浅头起点不同",
+      "insertion": "拇指近节指骨底桡侧及桡侧籽骨",
+      "function": "主要屈拇指掌指关节，参与拇指精细活动。",
+      "tip": "大鱼际肌群中，位于拇短展肌邻近深面。",
+      "references": [
+        "ANAT_UPPER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "主要屈拇指掌指关节，参与拇指精细活动。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA7E77"
+    },
+    "handAbdDigMin": {
+      "key": "handAbdDigMin",
+      "name": "小指展肌（手）",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1466"
+        ],
+        "L": [
+          "FJ1466M"
+        ]
+      },
+      "origin": "豌豆骨及邻近肌腱、韧带",
+      "insertion": "小指近节指骨底尺侧及伸肌装置",
+      "function": "外展小指，并参与小指掌指关节屈曲。",
+      "tip": "小鱼际尺侧浅层，注意与足的小趾展肌区别。",
+      "references": [
+        "ANAT_UPPER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "外展小指，并参与小指掌指关节屈曲。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#778DDA"
+    },
+    "lumbricalHand": {
+      "key": "lumbricalHand",
+      "name": "蚓状肌群（手）",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1510"
+        ],
+        "L": [
+          "FJ1510M"
+        ]
+      },
+      "origin": "指深屈肌腱",
+      "insertion": "第2—5指伸肌腱扩张的桡侧缘",
+      "function": "屈掌指关节并伸指间关节；起点位于肌腱而不是骨。",
+      "tip": "手掌内4条细小肌的集合。",
+      "references": [
+        "ANAT_UPPER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈掌指关节并伸指间关节；起点位于肌腱而不是骨。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#AADA77"
+    },
+    "gluteMax": {
+      "key": "gluteMax",
+      "name": "臀大肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1418"
+        ],
+        "L": [
+          "FJ1418M"
+        ]
+      },
+      "origin": "髂骨后部、骶尾骨等",
+      "insertion": "髂胫束与股骨臀肌粗隆",
+      "function": "髋后伸、外旋；上、下部纤维作用有别。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip",
+        "sacrum"
+      ],
+      "insertionBones": [
+        "femur"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋后伸、外旋；上、下部纤维作用有别。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA77C6"
+    },
+    "gluteMed": {
+      "key": "gluteMed",
+      "name": "臀中肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1419"
+        ],
+        "L": [
+          "FJ1419M"
+        ]
+      },
+      "origin": "髂骨外面",
+      "insertion": "股骨大转子外侧面",
+      "function": "髋外展；单腿支持时参与维持骨盆稳定。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "femur"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋外展；单腿支持时参与维持骨盆稳定。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DAD0"
+    },
+    "gluteMin": {
+      "key": "gluteMin",
+      "name": "臀小肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1420"
+        ],
+        "L": [
+          "FJ1420M"
+        ]
+      },
+      "origin": "髂骨外面，位于臀中肌深层",
+      "insertion": "股骨大转子前面",
+      "function": "髋外展并参与髋内旋、稳定。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "femur"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋外展并参与髋内旋、稳定。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DAB377"
+    },
+    "iliacus": {
+      "key": "iliacus",
+      "name": "髂肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1422"
+        ],
+        "L": [
+          "FJ1422M"
+        ]
+      },
+      "origin": "髂窝",
+      "insertion": "与腰大肌经髂腰肌腱止于股骨小转子",
+      "function": "主要参与髋前屈。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "femur"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "主要参与髋前屈。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#9677DA"
+    },
+    "psoas": {
+      "key": "psoas",
+      "name": "腰大肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1431"
+        ],
+        "L": [
+          "FJ1431M"
+        ]
+      },
+      "origin": "T12—L5椎体、椎间盘及腰椎横突",
+      "insertion": "股骨小转子",
+      "function": "髋前屈；近端固定条件改变时功能不同。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "T12",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "insertionBones": [
+        "femur"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋前屈；近端固定条件改变时功能不同。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DA7A"
+    },
+    "piriformis": {
+      "key": "piriformis",
+      "name": "梨状肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1428"
+        ],
+        "L": [
+          "FJ1428M"
+        ]
+      },
+      "origin": "骶骨前面",
+      "insertion": "股骨大转子上缘",
+      "function": "髋伸位时外旋；屈髋时作用方向会变化。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "sacrum"
+      ],
+      "insertionBones": [
+        "femur"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋伸位时外旋；屈髋时作用方向会变化。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA7791"
+    },
+    "obturator": {
+      "key": "obturator",
+      "name": "闭孔内肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1426"
+        ],
+        "L": [
+          "FJ1426M"
+        ]
+      },
+      "origin": "闭孔膜内面及邻骨",
+      "insertion": "股骨大转子内侧",
+      "function": "髋外旋；屈髋时协助外展。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "femur"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋外旋；屈髋时协助外展。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77AEDA"
+    },
+    "addLong": {
+      "key": "addLong",
+      "name": "长收肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1402"
+        ],
+        "L": [
+          "FJ1402M"
+        ]
+      },
+      "origin": "耻骨体",
+      "insertion": "股骨粗线中段",
+      "function": "髋内收；不同髋角度下屈伸作用不同。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋内收；不同髋角度下屈伸作用不同。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#CBDA77"
+    },
+    "addBrevis": {
+      "key": "addBrevis",
+      "name": "短收肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1401"
+        ],
+        "L": [
+          "FJ1401M"
+        ]
+      },
+      "origin": "耻骨体及下支",
+      "insertion": "股骨粗线上段",
+      "function": "髋内收，协助髋前屈。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋内收，协助髋前屈。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#CC77DA"
+    },
+    "addMagnus": {
+      "key": "addMagnus",
+      "name": "大收肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1403"
+        ],
+        "L": [
+          "FJ1403M"
+        ]
+      },
+      "origin": "耻、坐骨支及坐骨结节",
+      "insertion": "股骨粗线及收肌结节",
+      "function": "髋内收；坐骨部参与髋后伸。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋内收；坐骨部参与髋后伸。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DAAF"
+    },
+    "gracilis": {
+      "key": "gracilis",
+      "name": "股薄肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1421"
+        ],
+        "L": [
+          "FJ1421M"
+        ]
+      },
+      "origin": "耻骨体及下支",
+      "insertion": "胫骨上端内侧（鹅足）",
+      "function": "髋内收、膝屈曲；屈膝时使小腿内旋。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "tibia"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋内收、膝屈曲；屈膝时使小腿内旋。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA9277"
+    },
+    "sartorius": {
+      "key": "sartorius",
+      "name": "缝匠肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1434"
+        ],
+        "L": [
+          "FJ1434M"
+        ]
+      },
+      "origin": "髂前上棘",
+      "insertion": "胫骨上端内侧（鹅足）",
+      "function": "髋屈曲、外展、外旋，同时屈膝。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "tibia"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋屈曲、外展、外旋，同时屈膝。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#7778DA"
+    },
+    "rectusFem": {
+      "key": "rectusFem",
+      "name": "股直肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1433"
+        ],
+        "L": [
+          "FJ1433M"
+        ]
+      },
+      "origin": "髂前下棘及髋臼上缘",
+      "insertion": "经髌骨、髌韧带连至胫骨粗隆",
+      "function": "伸膝；还可使髋前屈。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "patella",
+        "tibia"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "伸膝；还可使髋前屈。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#95DA77"
+    },
+    "vastusLat": {
+      "key": "vastusLat",
+      "name": "股外侧肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1442"
+        ],
+        "L": [
+          "FJ1442M"
+        ]
+      },
+      "origin": "股骨大转子及粗线外侧唇",
+      "insertion": "经股四头肌腱、髌骨与髌韧带至胫骨粗隆",
+      "function": "伸膝，参与髌骨稳定。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "femur"
+      ],
+      "insertionBones": [
+        "patella",
+        "tibia"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "伸膝，参与髌骨稳定。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA77B2"
+    },
+    "vastusMed": {
+      "key": "vastusMed",
+      "name": "股内侧肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1443"
+        ],
+        "L": [
+          "FJ1443M"
+        ]
+      },
+      "origin": "股骨转子间线及粗线内侧唇",
+      "insertion": "经髌骨、髌韧带连至胫骨粗隆",
+      "function": "伸膝，参与髌骨稳定。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "femur"
+      ],
+      "insertionBones": [
+        "patella",
+        "tibia"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "伸膝，参与髌骨稳定。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77CFDA"
+    },
+    "vastusInt": {
+      "key": "vastusInt",
+      "name": "股中间肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1441"
+        ],
+        "L": [
+          "FJ1441M"
+        ]
+      },
+      "origin": "股骨前面与外侧面",
+      "insertion": "经髌骨、髌韧带连至胫骨粗隆",
+      "function": "伸膝，位于股直肌深层。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "femur"
+      ],
+      "insertionBones": [
+        "patella",
+        "tibia"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "伸膝，位于股直肌深层。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DAC877"
+    },
+    "bicepsFem": {
+      "key": "bicepsFem",
+      "name": "股二头肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1395",
+          "FJ1444"
+        ],
+        "L": [
+          "FJ1395M",
+          "FJ1444M"
+        ]
+      },
+      "origin": "长头：坐骨结节；短头：股骨粗线等",
+      "insertion": "腓骨头",
+      "function": "屈膝并使屈位小腿外旋；长头参与髋后伸。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip",
+        "femur"
+      ],
+      "insertionBones": [
+        "fibula"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈膝并使屈位小腿外旋；长头参与髋后伸。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#AB77DA"
+    },
+    "semitend": {
+      "key": "semitend",
+      "name": "半腱肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1436"
+        ],
+        "L": [
+          "FJ1436M"
+        ]
+      },
+      "origin": "坐骨结节",
+      "insertion": "胫骨上端内侧（鹅足）",
+      "function": "屈膝、髋后伸；屈位小腿内旋。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "tibia"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈膝、髋后伸；屈位小腿内旋。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DA8E"
+    },
+    "semimem": {
+      "key": "semimem",
+      "name": "半膜肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1435"
+        ],
+        "L": [
+          "FJ1435M"
+        ]
+      },
+      "origin": "坐骨结节",
+      "insertion": "胫骨内侧髁后面",
+      "function": "屈膝、髋后伸；屈位小腿内旋。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "tibia"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈膝、髋后伸；屈位小腿内旋。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA777D"
+    },
+    "popliteus": {
+      "key": "popliteus",
+      "name": "腘肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1430"
+        ],
+        "L": [
+          "FJ1430M"
+        ]
+      },
+      "origin": "股骨外侧髁等",
+      "insertion": "胫骨近端后面",
+      "function": "参与膝关节解锁与屈曲起始；旋转方向须说明开闭链。",
+      "tip": "结合骨盆、股骨及膝部骨性结构定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "femur"
+      ],
+      "insertionBones": [
+        "tibia"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "参与膝关节解锁与屈曲起始；旋转方向须说明开闭链。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#7799DA"
+    },
+    "tfl": {
+      "key": "tfl",
+      "name": "阔筋膜张肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1438"
+        ],
+        "L": [
+          "FJ1438M"
+        ]
+      },
+      "origin": "髂前上棘和邻近髂嵴前部",
+      "insertion": "髂胫束；经髂胫束传递至胫骨外侧髁",
+      "function": "参与髋屈曲、外展和内旋；经髂胫束参与下肢稳定。",
+      "tip": "髋前外侧，自髂嵴过渡至阔筋膜和髂胫束。",
+      "references": [
+        "ANAT_LOWER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "参与髋屈曲、外展和内旋；经髂胫束参与下肢稳定。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#B6DA77"
+    },
+    "pectineus": {
+      "key": "pectineus",
+      "name": "耻骨肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1427"
+        ],
+        "L": [
+          "FJ1427M"
+        ]
+      },
+      "origin": "耻骨上支及耻骨梳",
+      "insertion": "股骨耻骨肌线",
+      "function": "主要参与髋内收及屈曲。",
+      "tip": "大腿近端内侧前方的小扁肌。",
+      "references": [
+        "ANAT_LOWER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "femur"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "主要参与髋内收及屈曲。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA77D3"
+    },
+    "quadratusFem": {
+      "key": "quadratusFem",
+      "name": "股方肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1432"
+        ],
+        "L": [
+          "FJ1432M"
+        ]
+      },
+      "origin": "坐骨结节外侧缘",
+      "insertion": "股骨转子间嵴方形结节及邻近骨面",
+      "function": "髋外旋，协助髋关节稳定。",
+      "tip": "髋后深层近水平排列的短肌。",
+      "references": [
+        "ANAT_LOWER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [
+        "hip"
+      ],
+      "insertionBones": [
+        "femur"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "髋外旋，协助髋关节稳定。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DAC4"
+    },
+    "tibAnt": {
+      "key": "tibAnt",
+      "name": "胫骨前肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1439"
+        ],
+        "L": [
+          "FJ1439M"
+        ]
+      },
+      "origin": "胫骨外侧面及骨间膜",
+      "insertion": "内侧楔骨和第一跖骨底",
+      "function": "踝背伸（背屈）、足内翻。",
+      "tip": "结合胫腓骨、跗骨、跖骨及趾骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "tibia"
+      ],
+      "insertionBones": [
+        "cuneiformM",
+        "mt1"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "踝背伸（背屈）、足内翻。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DAA777"
+    },
+    "gastrocnemius": {
+      "key": "gastrocnemius",
+      "name": "腓肠肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1394",
+          "FJ1397"
+        ],
+        "L": [
+          "FJ1394M",
+          "FJ1397M"
+        ]
+      },
+      "origin": "股骨内、外侧髁上方",
+      "insertion": "经跟腱至跟骨结节",
+      "function": "踝跖屈；还可屈膝。",
+      "tip": "结合胫腓骨、跗骨、跖骨及趾骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "femur"
+      ],
+      "insertionBones": [
+        "calcaneus"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "踝跖屈；还可屈膝。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#8A77DA"
+    },
+    "soleus": {
+      "key": "soleus",
+      "name": "比目鱼肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1437"
+        ],
+        "L": [
+          "FJ1437M"
+        ]
+      },
+      "origin": "腓骨头近端、胫骨比目鱼肌线等",
+      "insertion": "经跟腱至跟骨结节",
+      "function": "踝跖屈，站立时参与姿势控制。",
+      "tip": "结合胫腓骨、跗骨、跖骨及趾骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "tibia",
+        "fibula"
+      ],
+      "insertionBones": [
+        "calcaneus"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "踝跖屈，站立时参与姿势控制。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#81DA77"
+    },
+    "plantaris": {
+      "key": "plantaris",
+      "name": "跖肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1429"
+        ],
+        "L": [
+          "FJ1429M"
+        ]
+      },
+      "origin": "股骨外侧髁上方",
+      "insertion": "跟骨附近，腱附着存在变异",
+      "function": "较弱地协助屈膝、踝跖屈。",
+      "tip": "结合胫腓骨、跗骨、跖骨及趾骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "较弱地协助屈膝、踝跖屈。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA779E"
+    },
+    "tibPost": {
+      "key": "tibPost",
+      "name": "胫骨后肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1440"
+        ],
+        "L": [
+          "FJ1440M"
+        ]
+      },
+      "origin": "胫、腓骨后面和骨间膜",
+      "insertion": "舟骨粗隆及多处跗、跖骨底",
+      "function": "足内翻、跖屈并参与足弓支持。",
+      "tip": "结合胫腓骨、跗骨、跖骨及趾骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "tibia",
+        "fibula"
+      ],
+      "insertionBones": [
+        "navicular",
+        "cuneiformM",
+        "cuneiformI",
+        "cuneiformL"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "足内翻、跖屈并参与足弓支持。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77BADA"
+    },
+    "fibLong": {
+      "key": "fibLong",
+      "name": "腓骨长肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1410"
+        ],
+        "L": [
+          "FJ1410M"
+        ]
+      },
+      "origin": "腓骨头及上部外面",
+      "insertion": "内侧楔骨和第一跖骨底足底面",
+      "function": "足外翻、协助跖屈，参与足弓支持。",
+      "tip": "结合胫腓骨、跗骨、跖骨及趾骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "fibula"
+      ],
+      "insertionBones": [
+        "cuneiformM",
+        "mt1"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "足外翻、协助跖屈，参与足弓支持。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#D7DA77"
+    },
+    "fibBrevis": {
+      "key": "fibBrevis",
+      "name": "腓骨短肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1409"
+        ],
+        "L": [
+          "FJ1409M"
+        ]
+      },
+      "origin": "腓骨下部外面",
+      "insertion": "第五跖骨粗隆",
+      "function": "足外翻，协助跖屈。",
+      "tip": "结合胫腓骨、跗骨、跖骨及趾骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [
+        "fibula"
+      ],
+      "insertionBones": [
+        "mt5"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "足外翻，协助跖屈。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#BF77DA"
+    },
+    "edl": {
+      "key": "edl",
+      "name": "趾长伸肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1406"
+        ],
+        "L": [
+          "FJ1406M"
+        ]
+      },
+      "origin": "胫骨外侧髁、腓骨前面和骨间膜",
+      "insertion": "第2—5趾趾背腱膜",
+      "function": "伸第2—5趾，协助踝背伸。",
+      "tip": "结合胫腓骨、跗骨、跖骨及趾骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "伸第2—5趾，协助踝背伸。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DAA2"
+    },
+    "fdl": {
+      "key": "fdl",
+      "name": "趾长屈肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1414"
+        ],
+        "L": [
+          "FJ1414M"
+        ]
+      },
+      "origin": "胫骨后面",
+      "insertion": "第2—5趾末节趾骨底",
+      "function": "屈趾并参与足弓支持。",
+      "tip": "结合胫腓骨、跗骨、跖骨及趾骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈趾并参与足弓支持。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA8677"
+    },
+    "fdb": {
+      "key": "fdb",
+      "name": "趾短屈肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1413"
+        ],
+        "L": [
+          "FJ1413M"
+        ]
+      },
+      "origin": "跟骨结节内侧突、足底腱膜",
+      "insertion": "第2—5趾中节趾骨",
+      "function": "主要屈近侧趾间关节，支持纵弓。",
+      "tip": "结合胫腓骨、跗骨、跖骨及趾骨定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_LOWER"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "主要屈近侧趾间关节，支持纵弓。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#7785DA"
+    },
+    "ehl": {
+      "key": "ehl",
+      "name": "拇长伸肌（足）",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1408"
+        ],
+        "L": [
+          "FJ1408M"
+        ]
+      },
+      "origin": "腓骨中段前面及骨间膜",
+      "insertion": "足拇趾远节趾骨底背侧",
+      "function": "伸拇趾，辅助踝背伸。",
+      "tip": "小腿前群深部，肌腱经足背至拇趾。",
+      "references": [
+        "ANAT_LOWER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "伸拇趾，辅助踝背伸。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#A2DA77"
+    },
+    "fhl": {
+      "key": "fhl",
+      "name": "拇长屈肌（足）",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1415"
+        ],
+        "L": [
+          "FJ1415M"
+        ]
+      },
+      "origin": "腓骨后面及骨间膜",
+      "insertion": "足拇趾远节趾骨底跖侧",
+      "function": "屈拇趾，辅助跖屈，参与蹬离与足弓支撑。",
+      "tip": "小腿后群深层，肌腱经内踝后方至足底拇趾。",
+      "references": [
+        "ANAT_LOWER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈拇趾，辅助跖屈，参与蹬离与足弓支撑。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA77BF"
+    },
+    "abh": {
+      "key": "abh",
+      "name": "拇展肌（足）",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1400"
+        ],
+        "L": [
+          "FJ1400M"
+        ]
+      },
+      "origin": "跟骨结节内侧突、屈肌支持带及足底腱膜",
+      "insertion": "拇趾近节趾骨底内侧",
+      "function": "拇趾外展并辅助屈曲，参与内侧足弓支撑。",
+      "tip": "足底内侧缘浅层肌。",
+      "references": [
+        "ANAT_LOWER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "拇趾外展并辅助屈曲，参与内侧足弓支撑。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DAD8"
+    },
+    "fhb": {
+      "key": "fhb",
+      "name": "拇短屈肌（足）",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1393",
+          "FJ1396"
+        ],
+        "L": [
+          "FJ1393M",
+          "FJ1396M"
+        ]
+      },
+      "origin": "骰骨、外侧楔骨足底面及邻近肌腱",
+      "insertion": "经内外侧籽骨至拇趾近节趾骨底两侧",
+      "function": "屈拇趾跖趾关节，参与前足支撑。",
+      "tip": "第一跖骨足底面，两头分别经过籽骨。",
+      "references": [
+        "ANAT_LOWER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "屈拇趾跖趾关节，参与前足支撑。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#DABB77"
+    },
+    "adh": {
+      "key": "adh",
+      "name": "拇收肌（足）",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1398",
+          "FJ1445"
+        ],
+        "L": [
+          "FJ1398M",
+          "FJ1445M"
+        ]
+      },
+      "origin": "斜头起自第2—4跖骨底等；横头起自外侧跖趾关节周围结构",
+      "insertion": "拇趾近节趾骨底外侧及外侧籽骨",
+      "function": "拇趾内收，参与前足横弓稳定。",
+      "tip": "足底深层，由斜头与横头共同构成。",
+      "references": [
+        "ANAT_LOWER",
+        "ATLAS_GEOMETRY"
+      ],
+      "originBones": [],
+      "insertionBones": [],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "拇趾内收，参与前足横弓稳定。",
+        "主要作用于另一部位：完成肩胛骨上回旋，而非当前所跨关节。",
+        "主要作用于另一部位：完成前臂旋前，而非当前所跨关节。"
+      ],
+      "answer": 0,
+      "displayColor": "#9E77DA"
+    },
+    "digastric": {
+      "key": "digastric",
+      "name": "二腹肌（前后腹组合）",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1556",
+          "FJ1579"
+        ],
+        "L": [
+          "FJ1555",
+          "FJ1578"
+        ]
+      },
+      "origin": "前腹起于下颌骨二腹肌窝；后腹起于颞骨乳突切迹",
+      "insertion": "经中间腱及纤维环联系舌骨",
+      "function": "舌骨固定时可协助下颌下降；下颌固定时可上提舌骨。",
+      "tip": "先辨舌骨上区；本关是张口协同肌定位，不代表完整咀嚼肌群。",
+      "references": [
+        "ANAT_HEAD"
+      ],
+      "originBones": [
+        "mandible",
+        "temporal"
+      ],
+      "insertionBones": [
+        "hyoid"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "舌骨固定时可协助下颌下降；下颌固定时可上提舌骨。",
+        "以跟骨为止点，主要参与踝跖屈。",
+        "主要在前臂产生旋前运动，与舌骨位置无关。"
+      ],
+      "answer": 0,
+      "displayColor": "#77DA81"
+    },
+    "mylohyoid": {
+      "key": "mylohyoid",
+      "name": "下颌舌骨肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1583"
+        ],
+        "L": [
+          "FJ1562"
+        ]
+      },
+      "origin": "下颌骨下颌舌骨肌线",
+      "insertion": "下颌舌骨肌缝及舌骨体",
+      "function": "上提口底和舌骨；舌骨固定时可协助张口。",
+      "tip": "先辨舌骨上区；本关是张口协同肌定位，不代表完整咀嚼肌群。",
+      "references": [
+        "ANAT_HEAD"
+      ],
+      "originBones": [
+        "mandible"
+      ],
+      "insertionBones": [
+        "hyoid"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "上提口底和舌骨；舌骨固定时可协助张口。",
+        "以跟骨为止点，主要参与踝跖屈。",
+        "主要在前臂产生旋前运动，与舌骨位置无关。"
+      ],
+      "answer": 0,
+      "displayColor": "#DA7789"
+    },
+    "geniohyoid": {
+      "key": "geniohyoid",
+      "name": "颏舌骨肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1580"
+        ],
+        "L": [
+          "FJ1559"
+        ]
+      },
+      "origin": "下颌骨下颏棘",
+      "insertion": "舌骨体前面",
+      "function": "上提并前拉舌骨；舌骨固定时可协助下颌下降。",
+      "tip": "先辨舌骨上区；本关是张口协同肌定位，不代表完整咀嚼肌群。",
+      "references": [
+        "ANAT_HEAD"
+      ],
+      "originBones": [
+        "mandible"
+      ],
+      "insertionBones": [
+        "hyoid"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "options": [
+        "上提并前拉舌骨；舌骨固定时可协助下颌下降。",
+        "以跟骨为止点，主要参与踝跖屈。",
+        "主要在前臂产生旋前运动，与舌骨位置无关。"
+      ],
+      "answer": 0,
+      "displayColor": "#77A6DA"
+    },
+    "coraco": {
+      "key": "coraco",
+      "name": "喙肱肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1488"
+        ],
+        "L": [
+          "FJ1488M"
+        ]
+      },
+      "origin": "肩胛骨喙突",
+      "insertion": "肱骨中段内侧面",
+      "function": "肩前屈与内收。",
+      "tip": "喙突至肱骨中段内侧；邻近肱二头肌短头，不要把两者合成同一块。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "answer": 0,
+      "options": [
+        "肩前屈与内收。",
+        "主要参与前臂旋前，以桡骨和尺骨为局部参考。",
+        "主要参与拇指第一腕掌关节的对掌。"
+      ],
+      "originBones": [
+        "scapula"
+      ],
+      "insertionBones": [
+        "humerus"
+      ],
+      "bestView": "front",
+      "displayColor": "#A4C274"
+    },
+    "trapMid": {
+      "key": "trapMid",
+      "name": "斜方肌中部",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1554"
+        ],
+        "L": [
+          "FJ1554M"
+        ]
+      },
+      "origin": "下颈、上胸段棘突及相邻韧带",
+      "insertion": "肩峰及肩胛冈",
+      "function": "肩胛后缩。当前模型只显示中部，不代表全斜方肌。",
+      "tip": "结合脊柱、肩胛骨及胸廓定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_TRUNK"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "answer": 0,
+      "options": [
+        "肩胛后缩。当前模型只显示中部，不代表全斜方肌。",
+        "主要参与前臂旋前，以桡骨和尺骨为局部参考。",
+        "主要参与拇指第一腕掌关节的对掌。"
+      ],
+      "originBones": [
+        "C7",
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "insertionBones": [
+        "scapula"
+      ],
+      "displayColor": "#93C7A7"
+    },
+    "trapUpper": {
+      "key": "trapUpper",
+      "name": "斜方肌上部",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1521"
+        ],
+        "L": [
+          "FJ1521M"
+        ]
+      },
+      "origin": "上项线内侧部、枕外隆凸、项韧带",
+      "insertion": "锁骨外侧1/3",
+      "function": "肩胛上提；与斜方肌下部和前锯肌共同参与肩胛上回旋。",
+      "tip": "颈肩后方，自枕颈部向外下走向锁骨。",
+      "references": [
+        "ANAT_UPPER",
+        "ATLAS_GEOMETRY"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "answer": 0,
+      "options": [
+        "肩胛上提；与斜方肌下部和前锯肌共同参与肩胛上回旋。",
+        "主要参与前臂旋前，以桡骨和尺骨为局部参考。",
+        "主要参与拇指第一腕掌关节的对掌。"
+      ],
+      "originBones": [
+        "occiput"
+      ],
+      "insertionBones": [
+        "clavicle",
+        "scapula"
+      ],
+      "displayColor": "#7CAEDA"
+    },
+    "trapLower": {
+      "key": "trapLower",
+      "name": "斜方肌下部",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1520"
+        ],
+        "L": [
+          "FJ1520M"
+        ]
+      },
+      "origin": "中下位胸椎棘突及棘上韧带",
+      "insertion": "肩胛冈内侧部",
+      "function": "肩胛下降，并参与上回旋和肩胛稳定。",
+      "tip": "背部浅层三角区的下部纤维，向外上方汇聚。",
+      "references": [
+        "ANAT_UPPER",
+        "ATLAS_GEOMETRY"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "answer": 0,
+      "options": [
+        "肩胛下降，并参与上回旋和肩胛稳定。",
+        "主要参与前臂旋前，以桡骨和尺骨为局部参考。",
+        "主要参与拇指第一腕掌关节的对掌。"
+      ],
+      "originBones": [
+        "T5",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12"
+      ],
+      "insertionBones": [
+        "scapula"
+      ],
+      "displayColor": "#D3B780"
+    },
+    "rhomboidMinor": {
+      "key": "rhomboidMinor",
+      "name": "小菱形肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1537"
+        ],
+        "L": [
+          "FJ1537M"
+        ]
+      },
+      "origin": "项韧带下部、C7—T1棘突",
+      "insertion": "肩胛冈根部附近的肩胛骨内侧缘",
+      "function": "肩胛后缩、下回旋并协助稳定肩胛。",
+      "tip": "肩胛骨内侧，大菱形肌上方，位于斜方肌深面。",
+      "references": [
+        "ANAT_UPPER",
+        "ATLAS_GEOMETRY"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "answer": 0,
+      "options": [
+        "肩胛后缩、下回旋并协助稳定肩胛。",
+        "主要参与前臂旋前，以桡骨和尺骨为局部参考。",
+        "主要参与拇指第一腕掌关节的对掌。"
+      ],
+      "originBones": [
+        "C7",
+        "T1"
+      ],
+      "insertionBones": [
+        "scapula"
+      ],
+      "displayColor": "#DC99C4"
+    },
+    "extOblique": {
+      "key": "extOblique",
+      "name": "腹外斜肌",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1452"
+        ],
+        "L": [
+          "FJ1452M"
+        ]
+      },
+      "origin": "下部肋骨外面",
+      "insertion": "髂嵴、腹白线等腱膜附着",
+      "function": "双侧使躯干前屈并压腹；单侧参与对侧旋转。",
+      "tip": "结合肋骨、胸骨、脊柱与腹壁方向定位。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_TRUNK"
+      ],
+      "question": "关于这块肌肉，哪项功能描述正确？",
+      "answer": 0,
+      "options": [
+        "双侧使躯干前屈并压腹；单侧参与对侧旋转。",
+        "主要参与前臂旋前，以桡骨和尺骨为局部参考。",
+        "主要参与拇指第一腕掌关节的对掌。"
+      ],
+      "originBones": [
+        "rib5",
+        "rib6",
+        "rib7",
+        "rib8",
+        "rib9",
+        "rib10",
+        "rib11",
+        "rib12"
+      ],
+      "insertionBones": [
+        "hip"
+      ],
+      "displayColor": "#8DDA77"
+    },
+    "tricepsLong": {
+      "key": "tricepsLong",
+      "name": "肱三头肌长头",
+      "type": "muscle",
+      "sides": {
+        "R": [
+          "FJ1479"
+        ],
+        "L": [
+          "FJ1479M"
+        ]
+      },
+      "origin": "肩胛骨盂下结节",
+      "insertion": "经肱三头肌腱止于尺骨鹰嘴",
+      "function": "伸肘；跨肩的长头协助肩后伸与内收。",
+      "tip": "上臂后面；长头起于肩胛骨，在小圆肌与大圆肌附近向下走行。不是整块肱三头肌的全部肌头。",
+      "references": [
+        "ATLAS_GEOMETRY",
+        "ANAT_UPPER"
+      ],
+      "originBones": [
+        "scapula"
+      ],
+      "insertionBones": [
+        "ulna"
+      ],
+      "question": "肱三头肌长头的跨关节功能，哪项正确？",
+      "options": [
+        "伸肘；跨肩的长头协助肩后伸与内收。",
+        "仅完成前臂旋前，不跨肩关节。",
+        "主要完成肩外展与前臂旋后。"
+      ],
+      "answer": 0,
+      "bestView": "back",
+      "displayColor": "#9DAAEA"
+    }
+  },
+  "assets": {
+    "FJ3362": {
+      "id": "FJ3362",
+      "english": "Right clavicle"
+    },
+    "FJ3237": {
+      "id": "FJ3237",
+      "english": "Left clavicle"
+    },
+    "FJ3384": {
+      "id": "FJ3384",
+      "english": "Right scapula"
+    },
+    "FJ3279": {
+      "id": "FJ3279",
+      "english": "Left scapula"
+    },
+    "FJ3368": {
+      "id": "FJ3368",
+      "english": "Right humerus"
+    },
+    "FJ3262": {
+      "id": "FJ3262",
+      "english": "Left humerus"
+    },
+    "FJ3349": {
+      "id": "FJ3349",
+      "english": "Right radius"
+    },
+    "FJ3277": {
+      "id": "FJ3277",
+      "english": "Left radius"
+    },
+    "FJ3391": {
+      "id": "FJ3391",
+      "english": "Right ulna"
+    },
+    "FJ3286": {
+      "id": "FJ3286",
+      "english": "Left ulna"
+    },
+    "FJ3152": {
+      "id": "FJ3152",
+      "english": "Right hip bone"
+    },
+    "FJ3288": {
+      "id": "FJ3288",
+      "english": "Left hip bone"
+    },
+    "FJ3365": {
+      "id": "FJ3365",
+      "english": "Right femur"
+    },
+    "FJ3259": {
+      "id": "FJ3259",
+      "english": "Left femur"
+    },
+    "FJ3387": {
+      "id": "FJ3387",
+      "english": "Right tibia"
+    },
+    "FJ3282": {
+      "id": "FJ3282",
+      "english": "Left tibia"
+    },
+    "FJ3366": {
+      "id": "FJ3366",
+      "english": "Right fibula"
+    },
+    "FJ3260": {
+      "id": "FJ3260",
+      "english": "Left fibula"
+    },
+    "FJ3381": {
+      "id": "FJ3381",
+      "english": "Right patella"
+    },
+    "FJ3275": {
+      "id": "FJ3275",
+      "english": "Left patella"
+    },
+    "FJ3383": {
+      "id": "FJ3383",
+      "english": "Right scaphoid"
+    },
+    "FJ3278": {
+      "id": "FJ3278",
+      "english": "Left scaphoid"
+    },
+    "FJ3374": {
+      "id": "FJ3374",
+      "english": "Right lunate"
+    },
+    "FJ3268": {
+      "id": "FJ3268",
+      "english": "Left lunate"
+    },
+    "FJ3390": {
+      "id": "FJ3390",
+      "english": "Right triquetral"
+    },
+    "FJ3285": {
+      "id": "FJ3285",
+      "english": "Left triquetral"
+    },
+    "FJ3382": {
+      "id": "FJ3382",
+      "english": "Right pisiform"
+    },
+    "FJ3276": {
+      "id": "FJ3276",
+      "english": "Left pisiform"
+    },
+    "FJ3388": {
+      "id": "FJ3388",
+      "english": "Right trapezium"
+    },
+    "FJ3283": {
+      "id": "FJ3283",
+      "english": "Left trapezium"
+    },
+    "FJ3389": {
+      "id": "FJ3389",
+      "english": "Right trapezoid"
+    },
+    "FJ3284": {
+      "id": "FJ3284",
+      "english": "Left trapezoid"
+    },
+    "FJ3361": {
+      "id": "FJ3361",
+      "english": "Right capitate"
+    },
+    "FJ3257": {
+      "id": "FJ3257",
+      "english": "Left capitate"
+    },
+    "FJ3367": {
+      "id": "FJ3367",
+      "english": "Right hamate"
+    },
+    "FJ3261": {
+      "id": "FJ3261",
+      "english": "Left hamate"
+    },
+    "FJ3350": {
+      "id": "FJ3350",
+      "english": "Right first metacarpal bone"
+    },
+    "FJ3240": {
+      "id": "FJ3240",
+      "english": "Left first metacarpal bone"
+    },
+    "FJ3351": {
+      "id": "FJ3351",
+      "english": "Right first metatarsal bone"
+    },
+    "FJ3241": {
+      "id": "FJ3241",
+      "english": "Left first metatarsal bone"
+    },
+    "FJ3352": {
+      "id": "FJ3352",
+      "english": "Right second metacarpal bone"
+    },
+    "FJ3243": {
+      "id": "FJ3243",
+      "english": "Left second metacarpal bone"
+    },
+    "FJ3353": {
+      "id": "FJ3353",
+      "english": "Right second metatarsal bone"
+    },
+    "FJ3244": {
+      "id": "FJ3244",
+      "english": "Left second metatarsal bone"
+    },
+    "FJ3354": {
+      "id": "FJ3354",
+      "english": "Right third metacarpal bone"
+    },
+    "FJ3246": {
+      "id": "FJ3246",
+      "english": "Left third metacarpal bone"
+    },
+    "FJ3355": {
+      "id": "FJ3355",
+      "english": "Right third metatarsal bone"
+    },
+    "FJ3247": {
+      "id": "FJ3247",
+      "english": "Left third metatarsal bone"
+    },
+    "FJ3356": {
+      "id": "FJ3356",
+      "english": "Right fourth metacarpal bone"
+    },
+    "FJ3249": {
+      "id": "FJ3249",
+      "english": "Left fourth metacarpal bone"
+    },
+    "FJ3357": {
+      "id": "FJ3357",
+      "english": "Right fourth metatarsal bone"
+    },
+    "FJ3250": {
+      "id": "FJ3250",
+      "english": "Left fourth metatarsal bone"
+    },
+    "FJ3358": {
+      "id": "FJ3358",
+      "english": "Right fifth metacarpal bone"
+    },
+    "FJ3252": {
+      "id": "FJ3252",
+      "english": "Left fifth metacarpal bone"
+    },
+    "FJ3359": {
+      "id": "FJ3359",
+      "english": "Right fifth metatarsal bone"
+    },
+    "FJ3253": {
+      "id": "FJ3253",
+      "english": "Left fifth metatarsal bone"
+    },
+    "FJ3385": {
+      "id": "FJ3385",
+      "english": "Right talus"
+    },
+    "FJ3280": {
+      "id": "FJ3280",
+      "english": "Left talus"
+    },
+    "FJ3360": {
+      "id": "FJ3360",
+      "english": "Right calcaneus"
+    },
+    "FJ3256": {
+      "id": "FJ3256",
+      "english": "Left calcaneus"
+    },
+    "FJ3308": {
+      "id": "FJ3308",
+      "english": "Navicular bone of right foot"
+    },
+    "FJ3307": {
+      "id": "FJ3307",
+      "english": "Navicular bone of left foot"
+    },
+    "FJ3364": {
+      "id": "FJ3364",
+      "english": "Right cuboid bone"
+    },
+    "FJ3258": {
+      "id": "FJ3258",
+      "english": "Left cuboid bone"
+    },
+    "FJ3377": {
+      "id": "FJ3377",
+      "english": "Right medial cuneiform bone"
+    },
+    "FJ3271": {
+      "id": "FJ3271",
+      "english": "Left medial cuneiform bone"
+    },
+    "FJ3370": {
+      "id": "FJ3370",
+      "english": "Right intermediate cuneiform bone"
+    },
+    "FJ3264": {
+      "id": "FJ3264",
+      "english": "Left intermediate cuneiform bone"
+    },
+    "FJ3373": {
+      "id": "FJ3373",
+      "english": "Right lateral cuneiform bone"
+    },
+    "FJ3267": {
+      "id": "FJ3267",
+      "english": "Left lateral cuneiform bone"
+    },
+    "FJ3327": {
+      "id": "FJ3327",
+      "english": "Proximal phalanx of right thumb"
+    },
+    "FJ3318": {
+      "id": "FJ3318",
+      "english": "Proximal phalanx of left thumb"
+    },
+    "FJ3198": {
+      "id": "FJ3198",
+      "english": "Distal phalanx of right thumb"
+    },
+    "FJ3188": {
+      "id": "FJ3188",
+      "english": "Distal phalanx of left thumb"
+    },
+    "FJ3322": {
+      "id": "FJ3322",
+      "english": "Proximal phalanx of right index finger"
+    },
+    "FJ3313": {
+      "id": "FJ3313",
+      "english": "Proximal phalanx of left index finger"
+    },
+    "FJ3303": {
+      "id": "FJ3303",
+      "english": "Middle phalanx of right index finger"
+    },
+    "FJ3296": {
+      "id": "FJ3296",
+      "english": "Middle phalanx of left index finger"
+    },
+    "FJ3193": {
+      "id": "FJ3193",
+      "english": "Distal phalanx of right index finger"
+    },
+    "FJ3183": {
+      "id": "FJ3183",
+      "english": "Distal phalanx of left index finger"
+    },
+    "FJ3325": {
+      "id": "FJ3325",
+      "english": "Proximal phalanx of right middle finger"
+    },
+    "FJ3316": {
+      "id": "FJ3316",
+      "english": "Proximal phalanx of left middle finger"
+    },
+    "FJ3306": {
+      "id": "FJ3306",
+      "english": "Middle phalanx of right middle finger"
+    },
+    "FJ3299": {
+      "id": "FJ3299",
+      "english": "Middle phalanx of left middle finger"
+    },
+    "FJ3196": {
+      "id": "FJ3196",
+      "english": "Distal phalanx of right middle finger"
+    },
+    "FJ3186": {
+      "id": "FJ3186",
+      "english": "Distal phalanx of left middle finger"
+    },
+    "FJ3326": {
+      "id": "FJ3326",
+      "english": "Proximal phalanx of right ring finger"
+    },
+    "FJ3317": {
+      "id": "FJ3317",
+      "english": "Proximal phalanx of left ring finger"
+    },
+    "FJ3292": {
+      "id": "FJ3292",
+      "english": "Middle phalanx of right ring finger"
+    },
+    "FJ3291": {
+      "id": "FJ3291",
+      "english": "Middle phalanx of left ring finger"
+    },
+    "FJ3197": {
+      "id": "FJ3197",
+      "english": "Distal phalanx of right ring finger"
+    },
+    "FJ3187": {
+      "id": "FJ3187",
+      "english": "Distal phalanx of left ring finger"
+    },
+    "FJ3323": {
+      "id": "FJ3323",
+      "english": "Proximal phalanx of right little finger"
+    },
+    "FJ3314": {
+      "id": "FJ3314",
+      "english": "Proximal phalanx of left little finger"
+    },
+    "FJ3304": {
+      "id": "FJ3304",
+      "english": "Middle phalanx of right little finger"
+    },
+    "FJ3297": {
+      "id": "FJ3297",
+      "english": "Middle phalanx of left little finger"
+    },
+    "FJ3194": {
+      "id": "FJ3194",
+      "english": "Distal phalanx of right little finger"
+    },
+    "FJ3184": {
+      "id": "FJ3184",
+      "english": "Distal phalanx of left little finger"
+    },
+    "FJ3310": {
+      "id": "FJ3310",
+      "english": "Proximal phalanx of right big toe"
+    },
+    "FJ3329": {
+      "id": "FJ3329",
+      "english": "Proximal phalanx of left big toe"
+    },
+    "FJ3192": {
+      "id": "FJ3192",
+      "english": "Distal phalanx of right big toe"
+    },
+    "FJ3182": {
+      "id": "FJ3182",
+      "english": "Distal phalanx of left big toe"
+    },
+    "FJ3319": {
+      "id": "FJ3319",
+      "english": "Proximal phalanx of right second toe"
+    },
+    "FJ3328": {
+      "id": "FJ3328",
+      "english": "Proximal phalanx of left second toe"
+    },
+    "FJ3300": {
+      "id": "FJ3300",
+      "english": "Middle phalanx of right second toe"
+    },
+    "FJ3293": {
+      "id": "FJ3293",
+      "english": "Middle phalanx of left second toe"
+    },
+    "FJ3189": {
+      "id": "FJ3189",
+      "english": "Distal phalanx of right second toe"
+    },
+    "FJ3179": {
+      "id": "FJ3179",
+      "english": "Distal phalanx of left second toe"
+    },
+    "FJ3320": {
+      "id": "FJ3320",
+      "english": "Proximal phalanx of right third toe"
+    },
+    "FJ3311": {
+      "id": "FJ3311",
+      "english": "Proximal phalanx of left third toe"
+    },
+    "FJ3301": {
+      "id": "FJ3301",
+      "english": "Middle phalanx of right third toe"
+    },
+    "FJ3294": {
+      "id": "FJ3294",
+      "english": "Middle phalanx of left third toe"
+    },
+    "FJ3190": {
+      "id": "FJ3190",
+      "english": "Distal phalanx of right third toe"
+    },
+    "FJ3180": {
+      "id": "FJ3180",
+      "english": "Distal phalanx of left third toe"
+    },
+    "FJ3321": {
+      "id": "FJ3321",
+      "english": "Proximal phalanx of right fourth toe"
+    },
+    "FJ3312": {
+      "id": "FJ3312",
+      "english": "Proximal phalanx of left fourth toe"
+    },
+    "FJ3302": {
+      "id": "FJ3302",
+      "english": "Middle phalanx of right fourth toe"
+    },
+    "FJ3295": {
+      "id": "FJ3295",
+      "english": "Middle phalanx of left fourth toe"
+    },
+    "FJ3191": {
+      "id": "FJ3191",
+      "english": "Distal phalanx of right fourth toe"
+    },
+    "FJ3181": {
+      "id": "FJ3181",
+      "english": "Distal phalanx of left fourth toe"
+    },
+    "FJ3324": {
+      "id": "FJ3324",
+      "english": "Proximal phalanx of right little toe"
+    },
+    "FJ3315": {
+      "id": "FJ3315",
+      "english": "Proximal phalanx of left little toe"
+    },
+    "FJ3305": {
+      "id": "FJ3305",
+      "english": "Middle phalanx of right little toe"
+    },
+    "FJ3298": {
+      "id": "FJ3298",
+      "english": "Middle phalanx of left little toe"
+    },
+    "FJ3195": {
+      "id": "FJ3195",
+      "english": "Distal phalanx of right little toe"
+    },
+    "FJ3185": {
+      "id": "FJ3185",
+      "english": "Distal phalanx of left little toe"
+    },
+    "FJ3393": {
+      "id": "FJ3393",
+      "english": "Sacrum"
+    },
+    "FJ3176": {
+      "id": "FJ3176",
+      "english": "Atlas"
+    },
+    "FJ3177": {
+      "id": "FJ3177",
+      "english": "Axis"
+    },
+    "FJ3161": {
+      "id": "FJ3161",
+      "english": "Third cervical vertebra"
+    },
+    "FJ3164": {
+      "id": "FJ3164",
+      "english": "Fourth cervical vertebra"
+    },
+    "FJ3167": {
+      "id": "FJ3167",
+      "english": "Fifth cervical vertebra"
+    },
+    "FJ3170": {
+      "id": "FJ3170",
+      "english": "Sixth cervical vertebra"
+    },
+    "FJ3172": {
+      "id": "FJ3172",
+      "english": "Seventh cervical vertebra"
+    },
+    "FJ3158": {
+      "id": "FJ3158",
+      "english": "First thoracic vertebra"
+    },
+    "FJ3160": {
+      "id": "FJ3160",
+      "english": "Second thoracic vertebra"
+    },
+    "FJ3163": {
+      "id": "FJ3163",
+      "english": "Third thoracic vertebra"
+    },
+    "FJ3166": {
+      "id": "FJ3166",
+      "english": "Fourth thoracic vertebra"
+    },
+    "FJ3169": {
+      "id": "FJ3169",
+      "english": "Fifth thoracic vertebra"
+    },
+    "FJ3171": {
+      "id": "FJ3171",
+      "english": "Sixth thoracic vertebra"
+    },
+    "FJ3173": {
+      "id": "FJ3173",
+      "english": "Seventh thoracic vertebra"
+    },
+    "FJ3174": {
+      "id": "FJ3174",
+      "english": "Eighth thoracic vertebra"
+    },
+    "FJ3175": {
+      "id": "FJ3175",
+      "english": "Ninth thoracic vertebra"
+    },
+    "FJ3154": {
+      "id": "FJ3154",
+      "english": "Tenth thoracic vertebra"
+    },
+    "FJ3155": {
+      "id": "FJ3155",
+      "english": "Eleventh thoracic vertebra"
+    },
+    "FJ3156": {
+      "id": "FJ3156",
+      "english": "Twelfth thoracic vertebra"
+    },
+    "FJ3157": {
+      "id": "FJ3157",
+      "english": "First lumbar vertebra"
+    },
+    "FJ3159": {
+      "id": "FJ3159",
+      "english": "Second lumbar vertebra"
+    },
+    "FJ3162": {
+      "id": "FJ3162",
+      "english": "Third lumbar vertebra"
+    },
+    "FJ3165": {
+      "id": "FJ3165",
+      "english": "Fourth lumbar vertebra"
+    },
+    "FJ3168": {
+      "id": "FJ3168",
+      "english": "Fifth lumbar vertebra"
+    },
+    "FJ3290": {
+      "id": "FJ3290",
+      "english": "Manubrium"
+    },
+    "FJ3178": {
+      "id": "FJ3178",
+      "english": "Body of sternum"
+    },
+    "FJ3153": {
+      "id": "FJ3153",
+      "english": "Xiphoid process"
+    },
+    "FJ3289": {
+      "id": "FJ3289",
+      "english": "Mandible"
+    },
+    "FJ3200": {
+      "id": "FJ3200",
+      "english": "Frontal bone"
+    },
+    "FJ3309": {
+      "id": "FJ3309",
+      "english": "Occipital bone"
+    },
+    "FJ3394": {
+      "id": "FJ3394",
+      "english": "Sphenoid bone"
+    },
+    "FJ3201": {
+      "id": "FJ3201",
+      "english": "Hyoid bone"
+    },
+    "FJ3386": {
+      "id": "FJ3386",
+      "english": "Right temporal bone"
+    },
+    "FJ3281": {
+      "id": "FJ3281",
+      "english": "Left temporal bone"
+    },
+    "FJ3392": {
+      "id": "FJ3392",
+      "english": "Right zygomatic bone"
+    },
+    "FJ3287": {
+      "id": "FJ3287",
+      "english": "Left zygomatic bone"
+    },
+    "FJ3375": {
+      "id": "FJ3375",
+      "english": "Right maxilla"
+    },
+    "FJ3269": {
+      "id": "FJ3269",
+      "english": "Left maxilla"
+    },
+    "FJ3380": {
+      "id": "FJ3380",
+      "english": "Right parietal bone"
+    },
+    "FJ3274": {
+      "id": "FJ3274",
+      "english": "Left parietal bone"
+    },
+    "FJ3334": {
+      "id": "FJ3334",
+      "english": "Right first rib"
+    },
+    "FJ3228": {
+      "id": "FJ3228",
+      "english": "Left first rib"
+    },
+    "FJ3336": {
+      "id": "FJ3336",
+      "english": "Right second rib"
+    },
+    "FJ3229": {
+      "id": "FJ3229",
+      "english": "Left second rib"
+    },
+    "FJ3338": {
+      "id": "FJ3338",
+      "english": "Right third rib"
+    },
+    "FJ3230": {
+      "id": "FJ3230",
+      "english": "Left third rib"
+    },
+    "FJ3340": {
+      "id": "FJ3340",
+      "english": "Right fourth rib"
+    },
+    "FJ3231": {
+      "id": "FJ3231",
+      "english": "Left fourth rib"
+    },
+    "FJ3342": {
+      "id": "FJ3342",
+      "english": "Right fifth rib"
+    },
+    "FJ3232": {
+      "id": "FJ3232",
+      "english": "Left fifth rib"
+    },
+    "FJ3344": {
+      "id": "FJ3344",
+      "english": "Right sixth rib"
+    },
+    "FJ3233": {
+      "id": "FJ3233",
+      "english": "Left sixth rib"
+    },
+    "FJ3346": {
+      "id": "FJ3346",
+      "english": "Right seventh rib"
+    },
+    "FJ3234": {
+      "id": "FJ3234",
+      "english": "Left seventh rib"
+    },
+    "FJ3347": {
+      "id": "FJ3347",
+      "english": "Right eighth rib"
+    },
+    "FJ3235": {
+      "id": "FJ3235",
+      "english": "Left eighth rib"
+    },
+    "FJ3348": {
+      "id": "FJ3348",
+      "english": "Right ninth rib"
+    },
+    "FJ3236": {
+      "id": "FJ3236",
+      "english": "Left ninth rib"
+    },
+    "FJ3330": {
+      "id": "FJ3330",
+      "english": "Right tenth rib"
+    },
+    "FJ3225": {
+      "id": "FJ3225",
+      "english": "Left tenth rib"
+    },
+    "FJ3331": {
+      "id": "FJ3331",
+      "english": "Right eleventh rib"
+    },
+    "FJ3226": {
+      "id": "FJ3226",
+      "english": "Left eleventh rib"
+    },
+    "FJ3332": {
+      "id": "FJ3332",
+      "english": "Right twelfth rib"
+    },
+    "FJ3227": {
+      "id": "FJ3227",
+      "english": "Left twelfth rib"
+    },
+    "FJ3202": {
+      "id": "FJ3202",
+      "english": "Intervertebral disk of axis"
+    },
+    "FJ3203": {
+      "id": "FJ3203",
+      "english": "Intervertebral disk of fourth thoracic vertebra"
+    },
+    "FJ3204": {
+      "id": "FJ3204",
+      "english": "Intervertebral disk of fifth thoracic vertebra"
+    },
+    "FJ3205": {
+      "id": "FJ3205",
+      "english": "Intervertebral disk of sixth thoracic vertebra"
+    },
+    "FJ3206": {
+      "id": "FJ3206",
+      "english": "Intervertebral disk of seventh thoracic vertebra"
+    },
+    "FJ3207": {
+      "id": "FJ3207",
+      "english": "Intervertebral disk of eighth thoracic vertebra"
+    },
+    "FJ3208": {
+      "id": "FJ3208",
+      "english": "Intervertebral disk of ninth thoracic vertebra"
+    },
+    "FJ3209": {
+      "id": "FJ3209",
+      "english": "Intervertebral disk of tenth thoracic vertebra"
+    },
+    "FJ3210": {
+      "id": "FJ3210",
+      "english": "Intervertebral disk of eleventh thoracic vertebra"
+    },
+    "FJ3211": {
+      "id": "FJ3211",
+      "english": "Intervertebral disk"
+    },
+    "FJ3212": {
+      "id": "FJ3212",
+      "english": "Intervertebral disk of first lumbar vertebra"
+    },
+    "FJ3213": {
+      "id": "FJ3213",
+      "english": "Intervertebral disk of third cervical vertebra"
+    },
+    "FJ3214": {
+      "id": "FJ3214",
+      "english": "Intervertebral disk of second lumbar vertebra"
+    },
+    "FJ3215": {
+      "id": "FJ3215",
+      "english": "Intervertebral disk of third lumbar vertebra"
+    },
+    "FJ3216": {
+      "id": "FJ3216",
+      "english": "Intervertebral disk of fourth lumbar vertebra"
+    },
+    "FJ3217": {
+      "id": "FJ3217",
+      "english": "Intervertebral disk of fifth lumbar vertebra"
+    },
+    "FJ3218": {
+      "id": "FJ3218",
+      "english": "Intervertebral disk of fourth cervical vertebra"
+    },
+    "FJ3219": {
+      "id": "FJ3219",
+      "english": "Intervertebral disk of fifth cervical vertebra"
+    },
+    "FJ3220": {
+      "id": "FJ3220",
+      "english": "Intervertebral disk of sixth cervical vertebra"
+    },
+    "FJ3221": {
+      "id": "FJ3221",
+      "english": "Intervertebral disk of seventh cervical vertebra"
+    },
+    "FJ3222": {
+      "id": "FJ3222",
+      "english": "Intervertebral disk of first thoracic vertebra"
+    },
+    "FJ3223": {
+      "id": "FJ3223",
+      "english": "Intervertebral disk of second thoracic vertebra"
+    },
+    "FJ3224": {
+      "id": "FJ3224",
+      "english": "Intervertebral disk of third thoracic vertebra"
+    },
+    "FJ3239": {
+      "id": "FJ3239",
+      "english": "Left first costal cartilage"
+    },
+    "FJ3242": {
+      "id": "FJ3242",
+      "english": "Left second costal cartilage"
+    },
+    "FJ3245": {
+      "id": "FJ3245",
+      "english": "Left third costal cartilage"
+    },
+    "FJ3248": {
+      "id": "FJ3248",
+      "english": "Left fourth costal cartilage"
+    },
+    "FJ3251": {
+      "id": "FJ3251",
+      "english": "Left fifth costal cartilage"
+    },
+    "FJ3254": {
+      "id": "FJ3254",
+      "english": "Left sixth costal cartilage"
+    },
+    "FJ3255": {
+      "id": "FJ3255",
+      "english": "Left seventh costal cartilage"
+    },
+    "FJ3333": {
+      "id": "FJ3333",
+      "english": "Right first costal cartilage"
+    },
+    "FJ3335": {
+      "id": "FJ3335",
+      "english": "Right second costal cartilage"
+    },
+    "FJ3337": {
+      "id": "FJ3337",
+      "english": "Right third costal cartilage"
+    },
+    "FJ3339": {
+      "id": "FJ3339",
+      "english": "Right fourth costal cartilage"
+    },
+    "FJ3341": {
+      "id": "FJ3341",
+      "english": "Right fifth costal cartilage"
+    },
+    "FJ3343": {
+      "id": "FJ3343",
+      "english": "Right sixth costal cartilage"
+    },
+    "FJ3345": {
+      "id": "FJ3345",
+      "english": "Right seventh costal cartilage"
+    },
+    "FJ1595": {
+      "id": "FJ1595",
+      "english": "Right sternocleidomastoid"
+    },
+    "FJ1573": {
+      "id": "FJ1573",
+      "english": "Left sternocleidomastoid"
+    },
+    "FJ1592": {
+      "id": "FJ1592",
+      "english": "Right scalenus anterior"
+    },
+    "FJ1570": {
+      "id": "FJ1570",
+      "english": "Left scalenus anterior"
+    },
+    "FJ1593": {
+      "id": "FJ1593",
+      "english": "Right scalenus medius"
+    },
+    "FJ1571": {
+      "id": "FJ1571",
+      "english": "Left scalenus medius"
+    },
+    "FJ1594": {
+      "id": "FJ1594",
+      "english": "Right scalenus posterior"
+    },
+    "FJ1572": {
+      "id": "FJ1572",
+      "english": "Left scalenus posterior"
+    },
+    "FJ1545": {
+      "id": "FJ1545",
+      "english": "Right splenius capitis"
+    },
+    "FJ1545M": {
+      "id": "FJ1545M",
+      "english": "Left splenius capitis"
+    },
+    "FJ1546": {
+      "id": "FJ1546",
+      "english": "Right splenius cervicis"
+    },
+    "FJ1546M": {
+      "id": "FJ1546M",
+      "english": "Left splenius cervicis"
+    },
+    "FJ1506": {
+      "id": "FJ1506",
+      "english": "Right supraspinatus"
+    },
+    "FJ1506M": {
+      "id": "FJ1506M",
+      "english": "Left supraspinatus"
+    },
+    "FJ1500": {
+      "id": "FJ1500",
+      "english": "Right infraspinatus muscle"
+    },
+    "FJ1500M": {
+      "id": "FJ1500M",
+      "english": "Left infraspinatus muscle"
+    },
+    "FJ1504": {
+      "id": "FJ1504",
+      "english": "Right subscapularis"
+    },
+    "FJ1504M": {
+      "id": "FJ1504M",
+      "english": "Left subscapularis"
+    },
+    "FJ1508": {
+      "id": "FJ1508",
+      "english": "Right teres minor"
+    },
+    "FJ1508M": {
+      "id": "FJ1508M",
+      "english": "Left teres minor"
+    },
+    "FJ1507": {
+      "id": "FJ1507",
+      "english": "Right teres major"
+    },
+    "FJ1507M": {
+      "id": "FJ1507M",
+      "english": "Left teres major"
+    },
+    "FJ1468": {
+      "id": "FJ1468",
+      "english": "Clavicular part of right deltoid"
+    },
+    "FJ1468M": {
+      "id": "FJ1468M",
+      "english": "Clavicular part of left deltoid"
+    },
+    "FJ1467": {
+      "id": "FJ1467",
+      "english": "Acromial part of right deltoid"
+    },
+    "FJ1467M": {
+      "id": "FJ1467M",
+      "english": "Acromial part of left deltoid"
+    },
+    "FJ1513": {
+      "id": "FJ1513",
+      "english": "Spinal part of right deltoid"
+    },
+    "FJ1513M": {
+      "id": "FJ1513M",
+      "english": "Spinal part of left deltoid"
+    },
+    "FJ1488": {
+      "id": "FJ1488",
+      "english": "Right coracobrachialis"
+    },
+    "FJ1488M": {
+      "id": "FJ1488M",
+      "english": "Left coracobrachialis"
+    },
+    "FJ1478": {
+      "id": "FJ1478",
+      "english": "Long head of right biceps brachii"
+    },
+    "FJ1512": {
+      "id": "FJ1512",
+      "english": "Short head of right biceps brachii"
+    },
+    "FJ1478M": {
+      "id": "FJ1478M",
+      "english": "Long head of left biceps brachii"
+    },
+    "FJ1512M": {
+      "id": "FJ1512M",
+      "english": "Short head of left biceps brachii"
+    },
+    "FJ1486": {
+      "id": "FJ1486",
+      "english": "Right brachialis"
+    },
+    "FJ1486M": {
+      "id": "FJ1486M",
+      "english": "Left brachialis"
+    },
+    "FJ1487": {
+      "id": "FJ1487",
+      "english": "Right brachioradialis"
+    },
+    "FJ1487M": {
+      "id": "FJ1487M",
+      "english": "Left brachioradialis"
+    },
+    "FJ1479": {
+      "id": "FJ1479",
+      "english": "Long head of right triceps brachii"
+    },
+    "FJ1480": {
+      "id": "FJ1480",
+      "english": "Medial head of right triceps brachii"
+    },
+    "FJ1477": {
+      "id": "FJ1477",
+      "english": "Lateral head of right triceps brachii"
+    },
+    "FJ1479M": {
+      "id": "FJ1479M",
+      "english": "Long head of left triceps brachii"
+    },
+    "FJ1480M": {
+      "id": "FJ1480M",
+      "english": "Medial head of left triceps brachii"
+    },
+    "FJ1477M": {
+      "id": "FJ1477M",
+      "english": "Lateral head of left triceps brachii"
+    },
+    "FJ1474": {
+      "id": "FJ1474",
+      "english": "Humeral head of right pronator teres"
+    },
+    "FJ1516": {
+      "id": "FJ1516",
+      "english": "Ulnar head of right pronator teres"
+    },
+    "FJ1474M": {
+      "id": "FJ1474M",
+      "english": "Humeral head of left pronator teres"
+    },
+    "FJ1516M": {
+      "id": "FJ1516M",
+      "english": "Ulnar head of left pronator teres"
+    },
+    "FJ1503": {
+      "id": "FJ1503",
+      "english": "Right pronator quadratus"
+    },
+    "FJ1503M": {
+      "id": "FJ1503M",
+      "english": "Left pronator quadratus"
+    },
+    "FJ1505": {
+      "id": "FJ1505",
+      "english": "Right supinator"
+    },
+    "FJ1505M": {
+      "id": "FJ1505M",
+      "english": "Left supinator"
+    },
+    "FJ1485": {
+      "id": "FJ1485",
+      "english": "Right anconeus"
+    },
+    "FJ1485M": {
+      "id": "FJ1485M",
+      "english": "Left anconeus"
+    },
+    "FJ1459": {
+      "id": "FJ1459",
+      "english": "Right serratus anterior"
+    },
+    "FJ1459M": {
+      "id": "FJ1459M",
+      "english": "Left serratus anterior"
+    },
+    "FJ1532": {
+      "id": "FJ1532",
+      "english": "Right levator scapulae"
+    },
+    "FJ1532M": {
+      "id": "FJ1532M",
+      "english": "Left levator scapulae"
+    },
+    "FJ1536": {
+      "id": "FJ1536",
+      "english": "Right rhomboid major"
+    },
+    "FJ1536M": {
+      "id": "FJ1536M",
+      "english": "Left rhomboid major"
+    },
+    "FJ1554": {
+      "id": "FJ1554",
+      "english": "Transverse part of right trapezius"
+    },
+    "FJ1554M": {
+      "id": "FJ1554M",
+      "english": "Transverse part of left trapezius"
+    },
+    "FJ1456": {
+      "id": "FJ1456",
+      "english": "Right pectoralis minor"
+    },
+    "FJ1456M": {
+      "id": "FJ1456M",
+      "english": "Left pectoralis minor"
+    },
+    "FJ1446": {
+      "id": "FJ1446",
+      "english": "Abdominal part of right pectoralis major"
+    },
+    "FJ1464": {
+      "id": "FJ1464",
+      "english": "Sternocostal part of right pectoralis major"
+    },
+    "FJ1447": {
+      "id": "FJ1447",
+      "english": "Clavicular part of right pectoralis major"
+    },
+    "FJ1446M": {
+      "id": "FJ1446M",
+      "english": "Abdominal part of left pectoralis major"
+    },
+    "FJ1464M": {
+      "id": "FJ1464M",
+      "english": "Sternocostal part of left pectoralis major"
+    },
+    "FJ1447M": {
+      "id": "FJ1447M",
+      "english": "Clavicular part of left pectoralis major"
+    },
+    "FJ1527": {
+      "id": "FJ1527",
+      "english": "Right iliocostalis lumborum"
+    },
+    "FJ1527M": {
+      "id": "FJ1527M",
+      "english": "Left iliocostalis lumborum"
+    },
+    "FJ1535": {
+      "id": "FJ1535",
+      "english": "Right longissimus thoracis"
+    },
+    "FJ1535M": {
+      "id": "FJ1535M",
+      "english": "Left longissimus thoracis"
+    },
+    "FJ1521": {
+      "id": "FJ1521",
+      "english": "Descending part of right trapezius"
+    },
+    "FJ1521M": {
+      "id": "FJ1521M",
+      "english": "Descending part of left trapezius"
+    },
+    "FJ1520": {
+      "id": "FJ1520",
+      "english": "Ascending part of right trapezius"
+    },
+    "FJ1520M": {
+      "id": "FJ1520M",
+      "english": "Ascending part of left trapezius"
+    },
+    "FJ1537": {
+      "id": "FJ1537",
+      "english": "Right rhomboid minor"
+    },
+    "FJ1537M": {
+      "id": "FJ1537M",
+      "english": "Left rhomboid minor"
+    },
+    "FJ1460": {
+      "id": "FJ1460",
+      "english": "Right subclavius"
+    },
+    "FJ1460M": {
+      "id": "FJ1460M",
+      "english": "Left subclavius"
+    },
+    "FJ1452": {
+      "id": "FJ1452",
+      "english": "Right external oblique"
+    },
+    "FJ1452M": {
+      "id": "FJ1452M",
+      "english": "Left external oblique"
+    },
+    "FJ3131": {
+      "id": "FJ3131",
+      "english": "Diaphragm"
+    },
+    "FJ1451": {
+      "id": "FJ1451",
+      "english": "external intercostal muscle"
+    },
+    "FJ1451M": {
+      "id": "FJ1451M",
+      "english": "External intercostal muscle"
+    },
+    "FJ1455": {
+      "id": "FJ1455",
+      "english": "internal intercostal muscle"
+    },
+    "FJ1455M": {
+      "id": "FJ1455M",
+      "english": "Internal intercostal muscle"
+    },
+    "FJ1496": {
+      "id": "FJ1496",
+      "english": "Right flexor carpi radialis"
+    },
+    "FJ1496M": {
+      "id": "FJ1496M",
+      "english": "Left flexor carpi radialis"
+    },
+    "FJ1473": {
+      "id": "FJ1473",
+      "english": "Humeral head of right flexor carpi ulnaris"
+    },
+    "FJ1518": {
+      "id": "FJ1518",
+      "english": "Ulnar head of right flexor carpi ulnaris"
+    },
+    "FJ1473M": {
+      "id": "FJ1473M",
+      "english": "Humeral head of left flexor carpi ulnaris"
+    },
+    "FJ1518M": {
+      "id": "FJ1518M",
+      "english": "Ulnar head of left flexor carpi ulnaris"
+    },
+    "FJ1502": {
+      "id": "FJ1502",
+      "english": "Right palmaris longus"
+    },
+    "FJ1502M": {
+      "id": "FJ1502M",
+      "english": "Left palmaris longus"
+    },
+    "FJ1490": {
+      "id": "FJ1490",
+      "english": "Right extensor carpi radialis longus"
+    },
+    "FJ1490M": {
+      "id": "FJ1490M",
+      "english": "Left extensor carpi radialis longus"
+    },
+    "FJ1489": {
+      "id": "FJ1489",
+      "english": "Right extensor carpi radialis brevis"
+    },
+    "FJ1489M": {
+      "id": "FJ1489M",
+      "english": "Left extensor carpi radialis brevis"
+    },
+    "FJ1472": {
+      "id": "FJ1472",
+      "english": "Right extensor carpi ulnaris"
+    },
+    "FJ1517": {
+      "id": "FJ1517",
+      "english": "Right extensor carpi ulnaris"
+    },
+    "FJ1472M": {
+      "id": "FJ1472M",
+      "english": "Left extensor carpi ulnaris"
+    },
+    "FJ1517M": {
+      "id": "FJ1517M",
+      "english": "Left extensor carpi ulnaris"
+    },
+    "FJ1475": {
+      "id": "FJ1475",
+      "english": "Right flexor digitorum superficialis"
+    },
+    "FJ1499": {
+      "id": "FJ1499",
+      "english": "Right flexor digitorum superficialis"
+    },
+    "FJ1475M": {
+      "id": "FJ1475M",
+      "english": "Left flexor digitorum superficialis"
+    },
+    "FJ1499M": {
+      "id": "FJ1499M",
+      "english": "Left flexor digitorum superficialis"
+    },
+    "FJ1497": {
+      "id": "FJ1497",
+      "english": "Right flexor digitorum profundus"
+    },
+    "FJ1497M": {
+      "id": "FJ1497M",
+      "english": "Left flexor digitorum profundus"
+    },
+    "FJ1492": {
+      "id": "FJ1492",
+      "english": "Right extensor digitorum"
+    },
+    "FJ1492M": {
+      "id": "FJ1492M",
+      "english": "Left extensor digitorum"
+    },
+    "FJ1491": {
+      "id": "FJ1491",
+      "english": "Right extensor digiti minimi"
+    },
+    "FJ1491M": {
+      "id": "FJ1491M",
+      "english": "Left extensor digiti minimi"
+    },
+    "FJ1498": {
+      "id": "FJ1498",
+      "english": "Right flexor pollicis longus"
+    },
+    "FJ1498M": {
+      "id": "FJ1498M",
+      "english": "Left flexor pollicis longus"
+    },
+    "FJ1495": {
+      "id": "FJ1495",
+      "english": "Right extensor pollicis longus"
+    },
+    "FJ1495M": {
+      "id": "FJ1495M",
+      "english": "Left extensor pollicis longus"
+    },
+    "FJ1494": {
+      "id": "FJ1494",
+      "english": "Right extensor pollicis brevis"
+    },
+    "FJ1494M": {
+      "id": "FJ1494M",
+      "english": "Left extensor pollicis brevis"
+    },
+    "FJ1484": {
+      "id": "FJ1484",
+      "english": "Right abductor pollicis longus"
+    },
+    "FJ1484M": {
+      "id": "FJ1484M",
+      "english": "Left abductor pollicis longus"
+    },
+    "FJ1483": {
+      "id": "FJ1483",
+      "english": "Right abductor pollicis brevis"
+    },
+    "FJ1483M": {
+      "id": "FJ1483M",
+      "english": "Left abductor pollicis brevis"
+    },
+    "FJ1501": {
+      "id": "FJ1501",
+      "english": "Right opponens pollicis"
+    },
+    "FJ1501M": {
+      "id": "FJ1501M",
+      "english": "Left opponens pollicis"
+    },
+    "FJ1481": {
+      "id": "FJ1481",
+      "english": "Oblique head of right adductor pollicis"
+    },
+    "FJ1515": {
+      "id": "FJ1515",
+      "english": "Transverse head of right adductor pollicis"
+    },
+    "FJ1481M": {
+      "id": "FJ1481M",
+      "english": "Oblique head of left adductor pollicis"
+    },
+    "FJ1515M": {
+      "id": "FJ1515M",
+      "english": "Transverse head of left adductor pollicis"
+    },
+    "FJ1514": {
+      "id": "FJ1514",
+      "english": "Superficial head of right flexor pollicis brevis"
+    },
+    "FJ1514M": {
+      "id": "FJ1514M",
+      "english": "Superficial head of left flexor pollicis brevis"
+    },
+    "FJ1466": {
+      "id": "FJ1466",
+      "english": "Abductor digiti minimi of right hand"
+    },
+    "FJ1466M": {
+      "id": "FJ1466M",
+      "english": "Abductor digiti minimi of left hand"
+    },
+    "FJ1510": {
+      "id": "FJ1510",
+      "english": "Set of lumbricals of right hand"
+    },
+    "FJ1510M": {
+      "id": "FJ1510M",
+      "english": "Set of lumbricals of left hand"
+    },
+    "FJ1418": {
+      "id": "FJ1418",
+      "english": "Right gluteus maximus"
+    },
+    "FJ1418M": {
+      "id": "FJ1418M",
+      "english": "Left gluteus maximus"
+    },
+    "FJ1419": {
+      "id": "FJ1419",
+      "english": "Right gluteus medius"
+    },
+    "FJ1419M": {
+      "id": "FJ1419M",
+      "english": "Left gluteus medius"
+    },
+    "FJ1420": {
+      "id": "FJ1420",
+      "english": "Right gluteus minimus"
+    },
+    "FJ1420M": {
+      "id": "FJ1420M",
+      "english": "Left gluteus minimus"
+    },
+    "FJ1422": {
+      "id": "FJ1422",
+      "english": "Right iliacus"
+    },
+    "FJ1422M": {
+      "id": "FJ1422M",
+      "english": "Left iliacus"
+    },
+    "FJ1431": {
+      "id": "FJ1431",
+      "english": "Right psoas major"
+    },
+    "FJ1431M": {
+      "id": "FJ1431M",
+      "english": "Left psoas major"
+    },
+    "FJ1428": {
+      "id": "FJ1428",
+      "english": "Right piriformis"
+    },
+    "FJ1428M": {
+      "id": "FJ1428M",
+      "english": "Left piriformis"
+    },
+    "FJ1426": {
+      "id": "FJ1426",
+      "english": "Right obturator internus"
+    },
+    "FJ1426M": {
+      "id": "FJ1426M",
+      "english": "Left obturator internus"
+    },
+    "FJ1402": {
+      "id": "FJ1402",
+      "english": "Right adductor longus"
+    },
+    "FJ1402M": {
+      "id": "FJ1402M",
+      "english": "Left adductor longus"
+    },
+    "FJ1401": {
+      "id": "FJ1401",
+      "english": "Right adductor brevis"
+    },
+    "FJ1401M": {
+      "id": "FJ1401M",
+      "english": "Left adductor brevis"
+    },
+    "FJ1403": {
+      "id": "FJ1403",
+      "english": "Right adductor magnus"
+    },
+    "FJ1403M": {
+      "id": "FJ1403M",
+      "english": "Left adductor magnus"
+    },
+    "FJ1421": {
+      "id": "FJ1421",
+      "english": "Right gracilis"
+    },
+    "FJ1421M": {
+      "id": "FJ1421M",
+      "english": "Left gracilis"
+    },
+    "FJ1434": {
+      "id": "FJ1434",
+      "english": "Right sartorius"
+    },
+    "FJ1434M": {
+      "id": "FJ1434M",
+      "english": "Left sartorius"
+    },
+    "FJ1433": {
+      "id": "FJ1433",
+      "english": "Right rectus femoris"
+    },
+    "FJ1433M": {
+      "id": "FJ1433M",
+      "english": "Left rectus femoris"
+    },
+    "FJ1442": {
+      "id": "FJ1442",
+      "english": "Right vastus lateralis"
+    },
+    "FJ1442M": {
+      "id": "FJ1442M",
+      "english": "Left vastus lateralis"
+    },
+    "FJ1443": {
+      "id": "FJ1443",
+      "english": "Right vastus medialis"
+    },
+    "FJ1443M": {
+      "id": "FJ1443M",
+      "english": "Left vastus medialis"
+    },
+    "FJ1441": {
+      "id": "FJ1441",
+      "english": "Right vastus intermedius"
+    },
+    "FJ1441M": {
+      "id": "FJ1441M",
+      "english": "Left vastus intermedius"
+    },
+    "FJ1395": {
+      "id": "FJ1395",
+      "english": "Long head of right biceps femoris"
+    },
+    "FJ1444": {
+      "id": "FJ1444",
+      "english": "Short head of right biceps femoris"
+    },
+    "FJ1395M": {
+      "id": "FJ1395M",
+      "english": "Long head of left biceps femoris"
+    },
+    "FJ1444M": {
+      "id": "FJ1444M",
+      "english": "Short head of left biceps femoris"
+    },
+    "FJ1436": {
+      "id": "FJ1436",
+      "english": "Right semitendinosus"
+    },
+    "FJ1436M": {
+      "id": "FJ1436M",
+      "english": "Left semitendinosus"
+    },
+    "FJ1435": {
+      "id": "FJ1435",
+      "english": "Right semimembranosus"
+    },
+    "FJ1435M": {
+      "id": "FJ1435M",
+      "english": "Left semimembranosus"
+    },
+    "FJ1430": {
+      "id": "FJ1430",
+      "english": "Right popliteus"
+    },
+    "FJ1430M": {
+      "id": "FJ1430M",
+      "english": "Left popliteus"
+    },
+    "FJ1438": {
+      "id": "FJ1438",
+      "english": "Right tensor fasciae latae"
+    },
+    "FJ1438M": {
+      "id": "FJ1438M",
+      "english": "Left tensor fasciae latae"
+    },
+    "FJ1427": {
+      "id": "FJ1427",
+      "english": "Right pectineus"
+    },
+    "FJ1427M": {
+      "id": "FJ1427M",
+      "english": "Left pectineus"
+    },
+    "FJ1432": {
+      "id": "FJ1432",
+      "english": "Right quadratus femoris"
+    },
+    "FJ1432M": {
+      "id": "FJ1432M",
+      "english": "Left quadratus femoris"
+    },
+    "FJ1439": {
+      "id": "FJ1439",
+      "english": "Right tibialis anterior"
+    },
+    "FJ1439M": {
+      "id": "FJ1439M",
+      "english": "Left tibialis anterior"
+    },
+    "FJ1394": {
+      "id": "FJ1394",
+      "english": "Lateral head of right gastrocnemius"
+    },
+    "FJ1397": {
+      "id": "FJ1397",
+      "english": "Medial head of right gastrocnemius"
+    },
+    "FJ1394M": {
+      "id": "FJ1394M",
+      "english": "Lateral head of left gastrocnemius"
+    },
+    "FJ1397M": {
+      "id": "FJ1397M",
+      "english": "Medial head of left gastrocnemius"
+    },
+    "FJ1437": {
+      "id": "FJ1437",
+      "english": "Right soleus"
+    },
+    "FJ1437M": {
+      "id": "FJ1437M",
+      "english": "Left soleus"
+    },
+    "FJ1429": {
+      "id": "FJ1429",
+      "english": "Right plantaris"
+    },
+    "FJ1429M": {
+      "id": "FJ1429M",
+      "english": "Left plantaris"
+    },
+    "FJ1440": {
+      "id": "FJ1440",
+      "english": "Right tibialis posterior"
+    },
+    "FJ1440M": {
+      "id": "FJ1440M",
+      "english": "Left tibialis posterior"
+    },
+    "FJ1410": {
+      "id": "FJ1410",
+      "english": "Right fibularis longus"
+    },
+    "FJ1410M": {
+      "id": "FJ1410M",
+      "english": "Left fibularis longus"
+    },
+    "FJ1409": {
+      "id": "FJ1409",
+      "english": "Right fibularis brevis"
+    },
+    "FJ1409M": {
+      "id": "FJ1409M",
+      "english": "Left fibularis brevis"
+    },
+    "FJ1406": {
+      "id": "FJ1406",
+      "english": "Right extensor digitorum longus"
+    },
+    "FJ1406M": {
+      "id": "FJ1406M",
+      "english": "Left extensor digitorum longus"
+    },
+    "FJ1414": {
+      "id": "FJ1414",
+      "english": "Right flexor digitorum longus"
+    },
+    "FJ1414M": {
+      "id": "FJ1414M",
+      "english": "Left flexor digitorum longus"
+    },
+    "FJ1413": {
+      "id": "FJ1413",
+      "english": "Right flexor digitorum brevis"
+    },
+    "FJ1413M": {
+      "id": "FJ1413M",
+      "english": "Left flexor digitorum brevis"
+    },
+    "FJ1408": {
+      "id": "FJ1408",
+      "english": "Right extensor hallucis longus"
+    },
+    "FJ1408M": {
+      "id": "FJ1408M",
+      "english": "Left extensor hallucis longus"
+    },
+    "FJ1415": {
+      "id": "FJ1415",
+      "english": "Right flexor hallucis longus"
+    },
+    "FJ1415M": {
+      "id": "FJ1415M",
+      "english": "Left flexor hallucis longus"
+    },
+    "FJ1400": {
+      "id": "FJ1400",
+      "english": "Right abductor hallucis"
+    },
+    "FJ1400M": {
+      "id": "FJ1400M",
+      "english": "Left abductor hallucis"
+    },
+    "FJ1393": {
+      "id": "FJ1393",
+      "english": "Lateral head of right flexor hallucis brevis"
+    },
+    "FJ1396": {
+      "id": "FJ1396",
+      "english": "Medial head of right flexor hallucis brevis"
+    },
+    "FJ1393M": {
+      "id": "FJ1393M",
+      "english": "Lateral head of left flexor hallucis brevis"
+    },
+    "FJ1396M": {
+      "id": "FJ1396M",
+      "english": "Medial head of left flexor hallucis brevis"
+    },
+    "FJ1398": {
+      "id": "FJ1398",
+      "english": "Oblique head of right adductor hallucis"
+    },
+    "FJ1445": {
+      "id": "FJ1445",
+      "english": "Transverse head of right adductor hallucis"
+    },
+    "FJ1398M": {
+      "id": "FJ1398M",
+      "english": "Oblique head of left adductor hallucis"
+    },
+    "FJ1445M": {
+      "id": "FJ1445M",
+      "english": "Transverse head of left adductor hallucis"
+    },
+    "FJ1556": {
+      "id": "FJ1556",
+      "english": "Right digastric"
+    },
+    "FJ1579": {
+      "id": "FJ1579",
+      "english": "Right digastric"
+    },
+    "FJ1555": {
+      "id": "FJ1555",
+      "english": "Left digastric"
+    },
+    "FJ1578": {
+      "id": "FJ1578",
+      "english": "Left digastric"
+    },
+    "FJ1583": {
+      "id": "FJ1583",
+      "english": "Right mylohyoid"
+    },
+    "FJ1562": {
+      "id": "FJ1562",
+      "english": "Left mylohyoid"
+    },
+    "FJ1580": {
+      "id": "FJ1580",
+      "english": "Right geniohyoid"
+    },
+    "FJ1559": {
+      "id": "FJ1559",
+      "english": "Left geniohyoid"
+    },
+    "FJ3199": {
+      "id": "FJ3199",
+      "english": "Ethmoid"
+    },
+    "FJ3395": {
+      "id": "FJ3395",
+      "english": "Vomer"
+    },
+    "FJ3378": {
+      "id": "FJ3378",
+      "english": "Right nasal bone"
+    },
+    "FJ3272": {
+      "id": "FJ3272",
+      "english": "Left nasal bone"
+    },
+    "FJ3371": {
+      "id": "FJ3371",
+      "english": "Right lacrimal bone"
+    },
+    "FJ3265": {
+      "id": "FJ3265",
+      "english": "Left lacrimal bone"
+    },
+    "FJ3379": {
+      "id": "FJ3379",
+      "english": "Right palatine bone"
+    },
+    "FJ3273": {
+      "id": "FJ3273",
+      "english": "Left palatine bone"
+    },
+    "FJ3369": {
+      "id": "FJ3369",
+      "english": "Right inferior nasal concha"
+    },
+    "FJ3263": {
+      "id": "FJ3263",
+      "english": "Left inferior nasal concha"
+    },
+    "FJ1254": {
+      "id": "FJ1254",
+      "english": "Left lower first secondary molar tooth"
+    },
+    "FJ1255": {
+      "id": "FJ1255",
+      "english": "Left lower first secondary premolar tooth"
+    },
+    "FJ1256": {
+      "id": "FJ1256",
+      "english": "Left lower second secondary molar tooth"
+    },
+    "FJ1257": {
+      "id": "FJ1257",
+      "english": "Left lower second secondary premolar tooth"
+    },
+    "FJ1258": {
+      "id": "FJ1258",
+      "english": "Left lower central secondary incisor tooth"
+    },
+    "FJ1259": {
+      "id": "FJ1259",
+      "english": "Left lower lateral secondary incisor tooth"
+    },
+    "FJ1260": {
+      "id": "FJ1260",
+      "english": "Left lower secondary canine tooth"
+    },
+    "FJ1261": {
+      "id": "FJ1261",
+      "english": "Left upper first secondary molar tooth"
+    },
+    "FJ1262": {
+      "id": "FJ1262",
+      "english": "Left upper first secondary premolar tooth"
+    },
+    "FJ1263": {
+      "id": "FJ1263",
+      "english": "Left upper second secondary molar tooth"
+    },
+    "FJ1264": {
+      "id": "FJ1264",
+      "english": "Left upper second secondary premolar tooth"
+    },
+    "FJ1265": {
+      "id": "FJ1265",
+      "english": "Left upper central secondary incisor tooth"
+    },
+    "FJ1266": {
+      "id": "FJ1266",
+      "english": "Left upper lateral secondary incisor tooth"
+    },
+    "FJ1267": {
+      "id": "FJ1267",
+      "english": "Left upper secondary canine tooth"
+    },
+    "FJ1268": {
+      "id": "FJ1268",
+      "english": "Right lower first secondary molar tooth"
+    },
+    "FJ1269": {
+      "id": "FJ1269",
+      "english": "Right lower first secondary premolar tooth"
+    },
+    "FJ1270": {
+      "id": "FJ1270",
+      "english": "Right lower second secondary molar tooth"
+    },
+    "FJ1271": {
+      "id": "FJ1271",
+      "english": "Right lower second secondary premolar tooth"
+    },
+    "FJ1272": {
+      "id": "FJ1272",
+      "english": "Right lower central secondary incisor tooth"
+    },
+    "FJ1273": {
+      "id": "FJ1273",
+      "english": "Right lower lateral secondary incisor tooth"
+    },
+    "FJ1274": {
+      "id": "FJ1274",
+      "english": "Right lower secondary canine tooth"
+    },
+    "FJ1275": {
+      "id": "FJ1275",
+      "english": "Right upper second secondary molar tooth"
+    },
+    "FJ1276": {
+      "id": "FJ1276",
+      "english": "Right upper first secondary molar tooth"
+    },
+    "FJ1277": {
+      "id": "FJ1277",
+      "english": "Right upper first secondary premolar tooth"
+    },
+    "FJ1278": {
+      "id": "FJ1278",
+      "english": "Right upper second secondary premolar tooth"
+    },
+    "FJ1279": {
+      "id": "FJ1279",
+      "english": "Right upper central secondary incisor tooth"
+    },
+    "FJ1280": {
+      "id": "FJ1280",
+      "english": "Right upper lateral secondary incisor tooth"
+    },
+    "FJ1281": {
+      "id": "FJ1281",
+      "english": "Right upper secondary canine tooth"
+    }
+  },
+  "cartilage": [
+    "FJ3202",
+    "FJ3203",
+    "FJ3204",
+    "FJ3205",
+    "FJ3206",
+    "FJ3207",
+    "FJ3208",
+    "FJ3209",
+    "FJ3210",
+    "FJ3211",
+    "FJ3212",
+    "FJ3213",
+    "FJ3214",
+    "FJ3215",
+    "FJ3216",
+    "FJ3217",
+    "FJ3218",
+    "FJ3219",
+    "FJ3220",
+    "FJ3221",
+    "FJ3222",
+    "FJ3223",
+    "FJ3224",
+    "FJ3239",
+    "FJ3242",
+    "FJ3245",
+    "FJ3248",
+    "FJ3251",
+    "FJ3254",
+    "FJ3255",
+    "FJ3333",
+    "FJ3335",
+    "FJ3337",
+    "FJ3339",
+    "FJ3341",
+    "FJ3343",
+    "FJ3345"
+  ],
+  "sources": {
+    "models": {
+      "title": "BodyParts3D 4.0 / official source import specification",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+      "license": "CC BY 4.0"
+    },
+    "upper": {
+      "title": "OpenStax A&P 2e §§8.2, 11.5",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+    },
+    "lower": {
+      "title": "OpenStax A&P 2e §11.6",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+    },
+    "axial": {
+      "title": "OpenStax A&P 2e §11.3",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back"
+    },
+    "thorax": {
+      "title": "OpenStax A&P 2e §7.4",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage"
+    },
+    "ANAT_SKULL": {
+      "title": "OpenStax Anatomy and Physiology 2e 7.2 The Skull",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull"
+    }
+  },
+  "scope": "Spatial assembly of a supplied standard atlas. Muscle placement uses rigid full-shape reference samples, not measured clinical attachment coordinates. No dynamic muscle-force or tissue-deformation solver.",
+  "skullBoneKeys": [
+    "frontal",
+    "parietal",
+    "temporal",
+    "occiput",
+    "sphenoid",
+    "ethmoid",
+    "zygomatic",
+    "maxilla",
+    "mandible",
+    "nasal",
+    "lacrimal",
+    "palatine",
+    "inferiorConcha",
+    "vomer"
+  ],
+  "teeth": {
+    "upperR": [
+      "FJ1275",
+      "FJ1276",
+      "FJ1277",
+      "FJ1278",
+      "FJ1279",
+      "FJ1280",
+      "FJ1281"
+    ],
+    "upperL": [
+      "FJ1261",
+      "FJ1262",
+      "FJ1263",
+      "FJ1264",
+      "FJ1265",
+      "FJ1266",
+      "FJ1267"
+    ],
+    "lowerR": [
+      "FJ1268",
+      "FJ1269",
+      "FJ1270",
+      "FJ1271",
+      "FJ1272",
+      "FJ1273",
+      "FJ1274"
+    ],
+    "lowerL": [
+      "FJ1254",
+      "FJ1255",
+      "FJ1256",
+      "FJ1257",
+      "FJ1258",
+      "FJ1259",
+      "FJ1260"
+    ]
+  },
+  "displayColorMeaning": "教学识别色，不表示真实组织颜色、收缩、激活或肌力；正误由红/绿短暂闪烁和符号另行提示。"
+}

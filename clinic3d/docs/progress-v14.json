@@ -1,0 +1,19 @@
+{
+  "schema": "v14-progress-tests",
+  "passed": true,
+  "tests": 4,
+  "retained": [
+    "node",
+    "history",
+    "evidence",
+    "events",
+    "taskState.phase",
+    "taskState.mode",
+    "taskState.values",
+    "barefootPrepared",
+    "safeExit",
+    "completion"
+  ],
+  "noUnseenReceipts": true,
+  "limits": "Pure migration fixture. Browser actual storage and resume require separate check."
+}

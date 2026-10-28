@@ -1,0 +1,433 @@
+{
+  "version": "v13",
+  "module": "scene-room.js",
+  "interface": "createClinicRoom(scene) -> {anchors, objects, setActivity, dispose}",
+  "source_layout": "work/script-v7/room-feasibility.json",
+  "units": "metres",
+  "coordinate_transform": {
+    "x": "plan x - 2.25",
+    "y": "height",
+    "z": "plan y - 3"
+  },
+  "dimensions": {
+    "width": 4.5,
+    "depth": 6,
+    "height": 2.8
+  },
+  "floor": {
+    "support_y": 0,
+    "pressure_plate_top_y": 0,
+    "transition_top_y": 0,
+    "floor_has_cutout": true,
+    "marking_height_max_m": 0.0011,
+    "pressure_texture_y": 0.00035,
+    "pressure_plate_count": 5,
+    "plate_outer_width_m": 0.8,
+    "plate_outer_length_m": 0.55,
+    "walkway_extent_z": [
+      -0.725,
+      2.025
+    ],
+    "effective_plate_width_m": 0.784,
+    "effective_plate_length_m": 0.55
+  },
+  "walls": "North, east and west interior-facing single-sided planes; no south wall or opaque ceiling. Exterior orbit cameras can see into the room.",
+  "lighting": "Visible LED fixture geometry only. Actual lighting is added by the host.",
+  "anchors_are": "Actor sole/root support positions, not hip positions or clinical fixed test distances.",
+  "anchors": {
+    "patientStand": [
+      -0.1,
+      0,
+      -0.5
+    ],
+    "patientSeat": [
+      0.8,
+      0,
+      -0.85
+    ],
+    "therapistSeat": [
+      1.3,
+      0,
+      -2.66
+    ],
+    "entrance": [
+      -1.65,
+      0,
+      -2
+    ],
+    "wallLunge": [
+      -0.25,
+      0,
+      -2.25
+    ],
+    "balance": [
+      -0.1,
+      0,
+      -0.2
+    ],
+    "pressure": [
+      -0.1,
+      0,
+      1.1
+    ],
+    "staticExam": [
+      -1.03,
+      0,
+      0.05
+    ],
+    "examSeat": [
+      -0.97,
+      0,
+      0.05
+    ],
+    "examTherapist": [
+      0.15,
+      0,
+      0.05
+    ],
+    "teaching": [
+      1,
+      0,
+      1.93
+    ],
+    "therapistProtection": [
+      0.65,
+      0,
+      -0.025
+    ],
+    "equipmentView": {
+      "position": [
+        -0.95,
+        1.3,
+        1.92
+      ],
+      "target": [
+        1.825,
+        1.23,
+        2
+      ]
+    },
+    "pressureStand": [
+      -0.1,
+      0,
+      1.1
+    ],
+    "pressureWalkStart": [
+      -0.1,
+      0,
+      1.45
+    ],
+    "pressureWalkEnd": [
+      -0.1,
+      0,
+      -0.31
+    ]
+  },
+  "orientation_advice": {
+    "patientYaw": 3.141592653589793,
+    "therapistYaw": 0,
+    "examPatientYaw": 1.5707963267948966,
+    "examTherapistYaw": -1.5707963267948966,
+    "patient_at_stool_facing": "north / -Z, yaw PI if the avatar front is +Z",
+    "therapist_at_chair_facing": "south / +Z, yaw 0 if the avatar front is +Z",
+    "exam_patient_facing": "east / +X, yaw PI/2; seated root is 0.06m east of stool centre",
+    "exam_therapist_facing": "west / -X, yaw -PI/2; standing reference is not verified manual contact",
+    "wall_lunge_facing": "north / -Z",
+    "supported_heel_raise_facing": "south / +Z"
+  },
+  "seated_clearance_iteration": {
+    "patient_stool_centre": [
+      0.8,
+      0,
+      -0.79
+    ],
+    "patient_root_distance_to_desk_south_edge_m": 0.55,
+    "clinician_chair_centre": [
+      1.3,
+      0,
+      -2.72
+    ],
+    "clinician_caster_radius_m": 0.245,
+    "clinician_seat_centre_y": 0.4125,
+    "clinician_seat_top_y": 0.45,
+    "exam_stool_centre": [
+      -1.03,
+      0,
+      0.05
+    ],
+    "exam_stool_top_y": 0.45,
+    "exam_stool_west_edge_x": -1.23,
+    "bed_east_edge_x": -1.39,
+    "exam_stool_to_bed_gap_m": 0.16,
+    "note": "Adjusted to the authored seated clip feet extending 0.38–0.43m toward local +Z and seat centre 0.06m behind root. Bedside check uses its own stool, not the higher bed. Actual skin collision remains to be viewed."
+  },
+  "desk_iteration": {
+    "monitor_local_x": 0.48,
+    "keyboard_local_x": 0.48,
+    "mouse_local_x": 0.23,
+    "reason": "Complete monitor assembly rotated toward the therapist; keyboard and mouse moved to the therapist side. Mouse sits on the therapist right. Side offset still clears the dialogue sightline.",
+    "monitor_local_z": 0.05,
+    "monitor_faces_world": "north / -Z toward seated therapist",
+    "monitor_yaw_radians": 3.141592653589793,
+    "keyboard_local_z": -0.24,
+    "keyboard_yaw_radians": 3.141592653589793,
+    "mouse_local_z": -0.24,
+    "documentation": "Clinical notes and pen directly on desk when not carried; no standalone PreparationTray"
+  },
+  "setActivity": {
+    "accepted": "string or object with id/activity/zone, optional mat and supportRail booleans",
+    "zones": [
+      "reception",
+      "static",
+      "gait",
+      "pressure",
+      "balance",
+      "teaching",
+      "wall"
+    ],
+    "balance_mat_default": false,
+    "mat_visible": "balance zone AND mat=true or soft/foam/mat suffix",
+    "rail_visible": "heel/heel_raise or supportRail=true",
+    "zone_markers": "Only selected zone corner markings appear"
+  },
+  "props": [
+    "Rounded reception desk with monitor and keyboard; original portable notes and pen directly on desk, without a stationery tray",
+    "Clinician office chair, two patient reception stools and separate 0.45m bedside examination stool",
+    "Examination bed with cover, pillow, runner and conditionally visible lamp",
+    "Existing bedside trolley with goniometer and sealed swabs; blocks retained",
+    "Five contiguous floor-level pressure teaching plates, each .8 m × .55 m; no real device specification",
+    "2.5 metre short observation guide and red marks",
+    "Wall-mounted observation cameras",
+    "Three original mesh-based anatomy posters: skeleton/joint landmarks, anterior/posterior muscles, right lower-leg/ankle muscles",
+    "Teaching shelf: upper foot silhouette teaching props, 2 flat-base kettlebells, 2 hex dumbbells, 1 spiked massage ball, 1 smooth fascia ball, 3 flat resistance loops, slant board and stored balance pad",
+    "Original educational whiteboard",
+    "Optional balance pad and temporary support rail; host can enable the rail for hard-ground balance teaching"
+  ],
+  "intellectual_property": {
+    "mesh_source": "Room and equipment meshes are original procedural geometry authored in scene-room.js; poster image anatomy is derived from verified BodyParts3D/Somakine static atlas meshes.",
+    "textures": "Original canvas labels and original orthographic atlas renders in assets/posters; no upstream raster illustration copied.",
+    "anatomy_scope": "Anatomical posters are static source-atlas renderings with original layout. Data CC BY 4.0 with exact IDs/hashes in docs/v12-anatomy-posters.json. Shelf foot silhouette props remain simplified shapes.",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+    "license_url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+  },
+  "review_pending": [
+    "Actor sitting and standing alignment, collision and transfers",
+    "Support rail reach, actual hand-skin contact, non-contact protection position and stopping response require visual and professional review; geometry alone is not clinical approval",
+    "Room dimensions are a teaching design, not a certification of hospital construction, illumination, air quality or infection control",
+    "The pressure plate prop has no real device sensor specification or calibration",
+    "The short observation line does not establish steady natural gait or clinical motion capture"
+  ],
+  "support_rail_iteration": {
+    "root": [
+      -0.1,
+      0,
+      -0.2
+    ],
+    "bar_centre_world": [
+      -0.1,
+      1,
+      0.15
+    ],
+    "balance_patient_root": [
+      -0.1,
+      0,
+      -0.2
+    ],
+    "bar_forward_distance_m": 0.35,
+    "protection_reference": [
+      0.65,
+      0,
+      -0.025
+    ],
+    "protection_lateral_distance_m": 0.75,
+    "status": "Reachable prop and non-contact static protection position; actual hands, protection response and collision need teacher review."
+  },
+  "equipment_shelf_iteration": {
+    "origin": "Original code-authored procedural geometry, no external mesh, brand or paid asset",
+    "inventory": {
+      "kettlebells": 2,
+      "hexDumbbells": 2,
+      "spikedMassageBalls": 1,
+      "smoothFasciaBalls": 1,
+      "flatResistanceLoops": 3
+    },
+    "arrangement": "Heavy weights on bottom shelf, balls and flat resistance bands on middle shelf, light foot teaching props on upper shelves",
+    "board_top_y_m": [
+      0.2375,
+      0.8075,
+      1.3775,
+      1.9475
+    ],
+    "equipment_view": {
+      "position": [
+        -0.95,
+        1.3,
+        1.92
+      ],
+      "target": [
+        1.825,
+        1.23,
+        2
+      ]
+    },
+    "verification": "docs/shelf-v11-structure.json",
+    "limits": "Scene props only; do not encode actual resistance, weight or device specifications. Original foot silhouettes remain schematic anatomy props."
+  },
+  "equipmentInspection": {
+    "position": [
+      -1.25,
+      1.53,
+      1.92
+    ],
+    "target": [
+      1.825,
+      1.46,
+      2.0
+    ],
+    "rendering": "Dedicated equipment view hides dialogue, task dock and pressure prompt sign only while inspecting; returning restores clinical scene."
+  },
+  "historical_structural_checks": {
+    "javascript_syntax": "pass",
+    "instantiation_without_webgl": "pass with original CanvasTexture drawing calls stubbed",
+    "finite_vertex_coordinates": "pass, 0 invalid",
+    "meshes_before_pedal_bin_addition": 493,
+    "vertices_before_pedal_bin_addition": 33207,
+    "default_balance_pad_hidden": "pass",
+    "hard_ground_balance_hides_pad": "pass",
+    "soft_balance_shows_pad": "pass",
+    "heel_activity_shows_support_rail": "pass",
+    "reception_clears_optional_props": "pass",
+    "dispose_removes_root": "pass",
+    "browser_render_review": "Pending host/root composition review for v11",
+    "meshes": 508,
+    "vertices": 34599,
+    "exam_stool_support_top_y": 0.45,
+    "lamp_hidden_except_static": "pass",
+    "clinician_seat_top_y": 0.45,
+    "clinician_wheel_bottom_y": 0,
+    "roomMeshes": 599,
+    "roomVertices": 45082,
+    "invalidVertices": 0,
+    "monitorNormal": [
+      1.2246467991473532e-16,
+      0,
+      -1
+    ],
+    "monitorFacesTherapist": true,
+    "monitorAssemblyYaw": 3.141592653589793,
+    "keyboardWorldPosition": [
+      1.78,
+      0.76,
+      -2.04
+    ],
+    "scope": "Geometry and orientation only; scene composition and clinical process require visual/professional review.",
+    "invalidCoordinates": 0,
+    "equipment_shelf_checks": {
+      "finiteCoordinates": true,
+      "weightSupports": true,
+      "equipmentWithinShelfFootprint": true,
+      "separateWeightFootprints": true,
+      "separateMiddleShelfFootprints": true,
+      "monitorFacesTherapist": true
+    }
+  },
+  "structural_checks": {
+    "release": "v12",
+    "scope": "Finite original room/equipment geometry, five contiguous floor plates, three atlas posters, and monitor direction; no clinical approval.",
+    "roomMeshes": 497,
+    "roomVertices": 42534,
+    "invalidCoordinates": 0,
+    "checks": {
+      "finiteCoordinates": true,
+      "weightSupports": true,
+      "equipmentWithinShelfFootprint": true,
+      "separateWeightFootprints": true,
+      "separateMiddleShelfFootprints": true,
+      "monitorFacesTherapist": true,
+      "fiveFlushPressurePlates": true,
+      "plateSurfaceOrder": true,
+      "platesHaveNoRaisedObstacle": true,
+      "noLengthwisePressureGaps": true,
+      "threeLicensedPosters": true,
+      "allPositivePressureCellsCovered": true
+    },
+    "passed": true,
+    "report": "docs/v12-room-structure.json",
+    "browser_review": "Host/root review pending at generation time"
+  },
+  "pressure_walkway": {
+    "interface": "objects.pressureWalkSurfaces: Array<{mesh,center,width,length}>; mesh is horizontal PlaneGeometry, can be assigned pressure texture.",
+    "centres_z": [
+      1.75,
+      1.2,
+      0.65,
+      0.1,
+      -0.45
+    ],
+    "width": 0.8,
+    "length_per_plate": 0.55,
+    "support_height": 0,
+    "teaching_texture_height": 0.00035,
+    "uv_orientation": "u grows world +X; v grows toward world -Z after rotation X=-PI/2",
+    "scope": "Illustrative display; no sensor, calibration, measurement accuracy, actual sampled COP, or established flatfoot diagnosis is implied.",
+    "effective_width": 0.784,
+    "effective_length_per_plate": 0.55,
+    "extent_x": [
+      -0.492,
+      0.292
+    ],
+    "extent_z": [
+      -0.725,
+      2.025
+    ],
+    "lengthwise_gaps": false,
+    "coverage_review": {
+      "samples": 401,
+      "cycleInterval": [
+        0,
+        2
+      ],
+      "positiveCells": 342486,
+      "uncoveredPositiveCells": 0,
+      "minimumWorld": [
+        -0.21500000000000002,
+        -0.3075000000000001
+      ],
+      "maximumWorld": [
+        0.015,
+        1.7275
+      ],
+      "source": "Independent v12-room-validate.mjs run using current pressure-engine.js; all current positive-load cells checked against effective scene plate rectangles."
+    }
+  },
+  "anatomy_posters": {
+    "files": [
+      "assets/posters/human-skeleton.png",
+      "assets/posters/human-muscles.png",
+      "assets/posters/ankle-muscles.png"
+    ],
+    "provenance": "docs/v12-anatomy-posters.json",
+    "renderer": "docs/v12-render-atlas.py",
+    "width_px": 900,
+    "height_px": 1350,
+    "data_license": "CC BY 4.0",
+    "new_network_downloads": false
+  },
+  "documentation": {
+    "objects": [
+      "clinicalNotes",
+      "clinicalPen",
+      "documentationDeskParent"
+    ],
+    "api": "therapist.bindDocumentation(props); setDocumentation(desk|carry|write)",
+    "clinicPolicy": {
+      "consult": "desk",
+      "exam": "desk, hands available for examination",
+      "wall": "desk",
+      "gait": "carry",
+      "pressure": "carry",
+      "balance": "desk, hands available for protection"
+    },
+    "scope": "Original portable geometry; finite carry/write cue, no validated finger grasp or ink simulation."
+  }
+}

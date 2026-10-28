@@ -1,0 +1,16 @@
+{
+  "format": "dxx-v12-concise-dialogue-review",
+  "nodes": 41,
+  "optionLabels": 58,
+  "beforeMainCharacters": 1523,
+  "afterMainCharacters": 947,
+  "gatesChanged": false,
+  "preserved": [
+    "前后礼貌、患者顾虑、检查目的、随时暂停、拒绝分支、证据门控、低足弓不等于唯一病因、COP不等于重心"
+  ],
+  "changed": [
+    "局部检查脱鞋袜后保持赤足",
+    "第三幕连续压力板自然步行，不凑步踩板",
+    "第四幕静态站立与动态行走分开"
+  ]
+}

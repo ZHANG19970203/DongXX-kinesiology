@@ -1,0 +1,19 @@
+{
+  "schema": "dxx-film-event-validation-v18",
+  "passed": true,
+  "acceptedEventTypes": [
+    "clinic3d_film_segment_open",
+    "clinic3d_film_segment_replay",
+    "clinic3d_film_dialogue_read",
+    "clinic3d_film_video_open",
+    "clinic3d_film_video_ended",
+    "clinic3d_film_video_pause",
+    "clinic3d_film_return",
+    "clinic3d_film_handoff_needs_consent"
+  ],
+  "assessmentCredits": 0,
+  "clinicalEvidenceGranted": 0,
+  "userDatabaseOpened": false,
+  "networkRequests": 0,
+  "method": "Call actual serve_lab.validate_batch on synthetic in-memory events; no store or server started."
+}

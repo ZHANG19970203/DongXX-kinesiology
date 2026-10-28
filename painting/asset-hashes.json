@@ -1,0 +1,61 @@
+{
+  "source": "BodyParts3D skin and muscle projections, same anatomy coordinates",
+  "sourceArchiveSha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "files": [
+    {
+      "path": "painting/catalog.json",
+      "bytes": 280169,
+      "sha256": "86cd5bb4745430223ae93aa3165e285d48ebaa7b676f7b5abd8490de77eb835d"
+    },
+    {
+      "path": "painting/assets/body-back.webp",
+      "bytes": 17102,
+      "sha256": "39922fdaff49c7fcc45efb3302fc45e9651d6f5c5ca7350dd93ec14336fcda68"
+    },
+    {
+      "path": "painting/assets/body-front.webp",
+      "bytes": 18592,
+      "sha256": "c274fcc946a1658c805a0a437ec62f035badb670d4cab2348206b221bec500e7"
+    },
+    {
+      "path": "painting/assets/body-left.webp",
+      "bytes": 11628,
+      "sha256": "7fa17bac8588e2d2951ab601a654f31255fc6a0ac9848812f15b114077b377a8"
+    },
+    {
+      "path": "painting/assets/body-right.webp",
+      "bytes": 11826,
+      "sha256": "404372f83cda80549c1708fffe941874756e4b3f3d3672cd71d2ce6b56be515e"
+    },
+    {
+      "path": "painting/assets/extra.bin",
+      "bytes": 7887864,
+      "sha256": "ed4b60529d4da73221f6d22ddbe051a58b9d7336c864d86530ac97e34a7180b4"
+    },
+    {
+      "path": "painting/assets/extra.json",
+      "bytes": 16818,
+      "sha256": "9e71b76a18e473c775307ae4ea24e7b43174c5227a06c27c6a507785f6efeb10"
+    },
+    {
+      "path": "painting/assets/skin-back.png",
+      "bytes": 2973,
+      "sha256": "96e968a2d549a5dce294610bba7dbe87698fea21996d7f53744ce8ae4fba9dd5"
+    },
+    {
+      "path": "painting/assets/skin-front.png",
+      "bytes": 2971,
+      "sha256": "eeefd000f9a2e758475b0490995821f05932297fec79aa78d5bcce283b98e588"
+    },
+    {
+      "path": "painting/assets/skin-left.png",
+      "bytes": 2206,
+      "sha256": "a71e9add1c0062c627a9b2c258134053308777240c6f9a6ce69aaf5713a52759"
+    },
+    {
+      "path": "painting/assets/skin-right.png",
+      "bytes": 2332,
+      "sha256": "4310a9058dc79dd1ea7363b85b74cb53bd3613819ca6d119c399326bbe48aa8e"
+    }
+  ]
+}

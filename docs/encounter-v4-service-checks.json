@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "backendIntegrationTests": 15,
+  "aiGroundingTests": 5,
+  "caseContract": "passed",
+  "backendCommand": "python -B -X utf8 tools/test_learning_server.py",
+  "aiCommand": "python -B -X utf8 tools/test_ai_adapter.py",
+  "testDatabase": "temporary, separate from site and removed by test harness",
+  "backendCoverage": [
+    "idempotence and six-thread duplicate race",
+    "transaction rollback on conflicting IDs",
+    "real evidence IDs accepted; fabricated IDs and coverage rejected",
+    "mismatched/illegal sessions and malformed/oversized/nonfinite JSON rejected",
+    "cross-origin and non-JSON POST rejected",
+    "teacher token required, query token insufficient",
+    "static traversal, hidden and database file exposure rejected",
+    "site-internal runtime data directory rejected",
+    "public status has no identities or records",
+    "grounded question endpoint and input limits"
+  ],
+  "aiCoverage": [
+    "authored question produces authored answer",
+    "unavailable clinical facts not invented",
+    "mocked provider cannot override answer",
+    "unknown provider ID falls back",
+    "provider timeout falls back"
+  ],
+  "liveProviderTested": false,
+  "sourceHashes": {
+    "serve_lab.py": "f737de4b6104be4871c21ce9823c3e531424479da40c61a9a5926dd8970a926d",
+    "ai_adapter.py": "ce4262b7a8385cf977de5b566ed3bb4d1caa2490192d27d2334a5582385125cd",
+    "teacher/teacher.js": "dfce53cf6006afa7790ed659d6fd21c09d02c295ca3bd7823d9a3d6197cdf740",
+    "tools/test_learning_server.py": "f4b23e08ab9f5d3654b05b6d64ed09b85f15a81273f07dd28a2f27daef91335c",
+    "tools/test_ai_adapter.py": "3e575804031a958899d2372e27e13d14abd582599671bf493e5d257417a1b2b0",
+    "tools/check_clinic_cases.py": "dfa0f5350aa28261029e0da1100a2ec07568aa679f6c8fb27224eed7e04f66b4"
+  }
+}

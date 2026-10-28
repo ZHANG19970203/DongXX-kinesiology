@@ -1,0 +1,201 @@
+{
+  "release": "v12",
+  "scope": "Finite original room/equipment geometry, five contiguous floor plates, three atlas posters, and monitor direction; no clinical approval.",
+  "roomMeshes": 497,
+  "roomVertices": 42534,
+  "invalidCoordinates": 0,
+  "inventory": {
+    "kettlebells": 2,
+    "hexDumbbells": 2,
+    "spikedMassageBalls": 1,
+    "smoothFasciaBalls": 1,
+    "flatResistanceLoops": 3
+  },
+  "roomShelfFootprint": {
+    "min": [
+      1.5499999999999998,
+      0,
+      1.2
+    ],
+    "max": [
+      2.1,
+      2.8,
+      2.8
+    ]
+  },
+  "items": {
+    "TealKettlebell": {
+      "min": [
+        1.739,
+        0.2375,
+        1.354
+      ],
+      "max": [
+        1.911,
+        0.4855,
+        1.526
+      ]
+    },
+    "GraphiteKettlebell": {
+      "min": [
+        1.75104,
+        0.2375,
+        1.63604
+      ],
+      "max": [
+        1.89896,
+        0.45078,
+        1.78396
+      ]
+    },
+    "HexDumbbellA": {
+      "min": [
+        1.763,
+        0.2375,
+        2.075
+      ],
+      "max": [
+        1.887,
+        0.344887,
+        2.325
+      ]
+    },
+    "HexDumbbellB": {
+      "min": [
+        1.763,
+        0.2375,
+        2.425
+      ],
+      "max": [
+        1.887,
+        0.344887,
+        2.675
+      ]
+    },
+    "MassageBallTray": {
+      "min": [
+        1.665,
+        0.8075,
+        1.31
+      ],
+      "max": [
+        1.985,
+        0.9155,
+        1.67
+      ]
+    },
+    "FlatLoopResistanceBands": {
+      "min": [
+        1.662676,
+        0.8075,
+        1.922
+      ],
+      "max": [
+        1.913,
+        0.9055,
+        2.228477
+      ]
+    }
+  },
+  "pressureCoverage": {
+    "samples": 401,
+    "cycleInterval": [
+      0,
+      2
+    ],
+    "positiveCells": 342486,
+    "uncoveredPositiveCells": 0,
+    "minimumWorld": [
+      -0.21500000000000002,
+      -0.3075000000000001
+    ],
+    "maximumWorld": [
+      0.015,
+      1.7275
+    ]
+  },
+  "pressureWalkSurfaces": [
+    {
+      "center": [
+        -0.1,
+        0.00035,
+        1.75
+      ],
+      "width": 0.784,
+      "length": 0.55
+    },
+    {
+      "center": [
+        -0.1,
+        0.00035,
+        1.2
+      ],
+      "width": 0.784,
+      "length": 0.55
+    },
+    {
+      "center": [
+        -0.1,
+        0.00035,
+        0.65
+      ],
+      "width": 0.784,
+      "length": 0.55
+    },
+    {
+      "center": [
+        -0.1,
+        0.00035,
+        0.1
+      ],
+      "width": 0.784,
+      "length": 0.55
+    },
+    {
+      "center": [
+        -0.1,
+        0.00035,
+        -0.45
+      ],
+      "width": 0.784,
+      "length": 0.55
+    }
+  ],
+  "anatomyPosters": [
+    "人体骨与关节",
+    "骨骼肌解剖",
+    "小腿与足踝骨肌"
+  ],
+  "equipmentView": {
+    "position": [
+      -1.25,
+      1.53,
+      1.92
+    ],
+    "target": [
+      1.825,
+      1.46,
+      2
+    ]
+  },
+  "monitorNormal": [
+    1.2246467991473532e-16,
+    0,
+    -1
+  ],
+  "checks": {
+    "finiteCoordinates": true,
+    "weightSupports": true,
+    "equipmentWithinShelfFootprint": true,
+    "separateWeightFootprints": true,
+    "separateMiddleShelfFootprints": true,
+    "monitorFacesTherapist": true,
+    "fiveFlushPressurePlates": true,
+    "plateSurfaceOrder": true,
+    "platesHaveNoRaisedObstacle": true,
+    "noLengthwisePressureGaps": true,
+    "threeLicensedPosters": true,
+    "allPositivePressureCellsCovered": true
+  },
+  "passed": true
+}

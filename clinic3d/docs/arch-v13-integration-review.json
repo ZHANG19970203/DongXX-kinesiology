@@ -1,0 +1,82 @@
+{
+  "format": "dxx-arch-comparison-integration-review-v13",
+  "reviewedAt": "2026-10-18",
+  "scope": "只读审查arch-comparison.js和learning-ui.js接入，并直接导入GAIT_REFERENCE运行纯数据测试；未修改APP/UI/场景。",
+  "passed": true,
+  "blockingIssues": [],
+  "resolvedFinding": {
+    "id": "reference-inherited-affected-side",
+    "before": "GAIT_REFERENCE初版由GAIT_CASE展开，遗留affectedSide:right，虽绘图未使用，但参考资料不应带患者患侧身份。",
+    "fix": "根代理已明确affectedSide:null、sourceType:authored_controlled_reference，并独立说明是对称教学参考而非临床正常范围。",
+    "evidence": "当前代码已只读确认；arch-v13-integration-tests.mjs对该元数据及冻结性断言通过。"
+  },
+  "checks": [
+    {
+      "id": "pressure-mode-and-phase",
+      "passed": true,
+      "evidence": "paint()以renderArchComparison(svg,{mode,phase,side:right,width:720,height:350})调用同一引擎。static/dynamic/maximum枚举一致，phase为独立0..1周期，不额外乘2或把百分数当秒。动态状态文字也用sampleGait(phase)读取同一时钟。"
+    },
+    {
+      "id": "maximum-no-cop",
+      "passed": true,
+      "evidence": "maximum模式不显示独立播放时间轴；pressure-engine中的MPP无瞬时载荷/COP且renderer不画COP圆点。6项arch-v13-tests包含最大图无circle与载荷分母为null检查，全部通过。"
+    },
+    {
+      "id": "independent-main-case",
+      "passed": true,
+      "evidence": "对照窗mode/phase/running/answers为createArchComparison内部变量；没有ctx.setPhase、ctx.setPressureMode、stepBook或taskReceipts写入。打开仅暂停主线任务，记录单独对照事件；learning-ui的当前主线paintTask仍读取原getCurrent。独立相位未传给患者演员、主线压力板或主线证据门槛。"
+    },
+    {
+      "id": "main-render-and-input-pause",
+      "passed": true,
+      "evidence": "打开对照调用pauseTask并使clinic.inert=true。learning-ui.anatomyIsOpen()包含comparison.isOpen()，主渲染循环因此停止绘制其后场景；关闭解除inert，未自动推进主线。"
+    },
+    {
+      "id": "reference-distance-speed-arithmetic",
+      "passed": true,
+      "evidence": "双侧步长0.44+0.44=0.88米跨步长；周期1.20秒；步速0.88/1.20=0.733333米/秒，步频120/1.20=100步/分。与主病例保持相同周期、跨步长、速度和0.14米步宽。步印落点独立计算也得到连续0.44米。"
+    },
+    {
+      "id": "reference-stance-and-swing",
+      "passed": true,
+      "evidence": "右足初始接触0、左足0.50；每足支撑0.60周期=0.72秒，摆动0.40周期=0.48秒。1000个周期等间隔样本各有600个支撑样本，两足相差半周期而对称。双足支撑合计0.20周期=0.24秒，未把两足60%相加误称120%的周期。"
+    },
+    {
+      "id": "same-time-contrast",
+      "passed": true,
+      "evidence": "phase=0.58时，两者均为0.696秒；对称参考右足仍支撑，患者病例右足已摆动；两者左足均支撑。图中时间指示线及各支撑区间按同一profile计算，可呈现该差异。"
+    },
+    {
+      "id": "summary-deduplication-and-scroll",
+      "passed": true,
+      "evidence": "根代理已移除重复的独立metrics块，保留图内统一占比和可展开分母说明；render()清空内容后body.scrollTop=0，切页不会继承旧页底部位置。"
+    },
+    {
+      "id": "reference-scope-and-case-mutation",
+      "passed": true,
+      "evidence": "导出参考可在无document环境导入，不调用任何DOM创建函数。Reference及自有stance/stepLength已冻结。多种mode/phase采样前后GAIT_CASE序列化完全一致；phase0.58患者时钟保持右足摆动，不被参考60%覆盖。"
+    },
+    {
+      "id": "initial-contact-versus-swing-zero-load",
+      "passed": true,
+      "evidence": "arch-v13-tests.mjs已覆盖dynamic phase=0与1：contact=true但零载荷，显示刚接触·尚未承重/COP；phase=.7：contact=false，显示离地·无接触载荷/COP。6项压力对照与6项接入测试重跑全过。"
+    }
+  ],
+  "testArtifacts": [
+    "arch-v13-tests.mjs",
+    "arch-v13-test-results.json",
+    "arch-v13-integration-tests.mjs",
+    "arch-v13-integration-test-results.json"
+  ],
+  "numericalTestsPassed": 6,
+  "DOMFunctionsInvokedByNumericalTests": false,
+  "clinicalValidation": false,
+  "syntheticTeachingData": true,
+  "remainingScope": "这些核对证明调用与示例算术一致，不证明角色具有临床正常步态；浏览器实际画面、滚动、键盘和各入口仍由根代理进行交互验收。",
+  "reviewedSourceSha256": {
+    "arch-comparison.js": "11728f240b014c33e6d7cb31d9668b034d848afbd218f887cf8cac145ff56160",
+    "learning-ui.js": "bf4a4098dbea59da72b33ab1e0d125490e70a5800b8c82803d8b6ad891cef993",
+    "pressure-engine.js": "1b6411b413ccfcd0a1cbd9cfc9d6ce3470b6a589d7b65b4bb722ca5e60a1fe16",
+    "gait-lesson.js": "1d6cbe45697dd1b25f261cd72827b602a679924fbe5cefc41ca45caa1b3a99b0"
+  }
+}

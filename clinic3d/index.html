@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#173455">
+<title>足踝虚拟诊室 · 动小学</title>
+<link rel="stylesheet" href="clinic.css"><link rel="stylesheet" href="../learning/learning.css"><script src="../assets/session.js"></script>
+<script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+<script type="module" src="app.js"></script>
+<link rel="stylesheet" href="focus-v21.css"><script type="module" src="portraits-v21.js"></script><link rel="stylesheet" href="../assets/immersion-v23.css"><link rel="stylesheet" href="refinement-v26.css"></head>
+<body>
+<main id="clinic" aria-label="足踝运动康复评估诊室">
+<canvas id="scene" tabindex="0" aria-label="可交互的三维诊室、治疗师与患者"></canvas>
+<header class="topbar"><a class="brand" href="../index.html#home"><span aria-hidden="true">动</span><div><b>足踝虚拟诊室</b><small>运动康复 · 情境学习</small></div></a><div class="patient-label"><span class="status-dot"></span><b>陈女士</b><span>22岁 · 反复崴脚</span><small>虚构教学病例</small></div><div class="header-actions"><button id="menuOpen" type="button" aria-label="打开记录与设置" aria-expanded="false">•••</button></div></header>
+<div class="settings" id="settings" hidden><span class="menu-caption">诊室工具</span><a hidden href="../soap/" class="soap-link">SOAP综合实训</a><button id="projectGuideOpen" type="button" aria-haspopup="dialog">总项目导引</button><button id="learningOpen" type="button">动小助 · 问答与学习</button><button hidden id="notesOpen" type="button">接诊记录 <span id="evidenceCount">0</span></button><button hidden type="button" id="save">保存进度</button><button hidden type="button" id="export">导出学习记录</button><button type="button" id="voice" aria-pressed="true">朗读开启</button><button hidden type="button" id="teacherOpen">教师制作记录</button><a hidden href="anatomy.html">足踝解剖教具</a><a hidden href="characters.html">角色外观预览</a><button hidden type="button" id="archExplore">足弓对照与高足弓拓展</button><button hidden type="button" id="prepReplay">观看脱鞋袜准备</button><a hidden href="../clinic/index.html?demo=1">其他教学病例</a><a href="../index.html#home">返回学习首页</a></div>
+<nav class="view-switch" aria-label="观察视角"><button type="button" data-view="third" class="active" aria-pressed="true">第三视角</button><button type="button" data-view="first" aria-pressed="false">治疗师视角</button><button type="button" data-view="feet" aria-pressed="false">足踝近景</button></nav>
+<div class="equipment-note">康复器材观察 · 点击「第三视角」返回接诊</div>
+<section class="chapter-label" aria-live="polite"><span id="chapterNumber">初次来访</span><h1 id="chapterTitle">从认真倾听开始</h1><p id="purpose">先了解患者，再共同选择检查。</p></section>
+<div class="room-note"><span id="cameraNote">第三视角 · 可拖动观察</span><span id="saveStatus">进度保存在本机</span></div>
+<section id="loading" class="loading" role="status"><span class="loader"></span><h2>正在准备诊室</h2><p id="loadMessage">准备患者、治疗师与教具…</p></section>
+<section id="welcome" class="welcome" hidden><span class="eyebrow">今日来访 · 01</span><h2>“走不平的路，总怕又崴。”</h2><p>她希望先安心走路，再恢复轻松跑步。</p><button type="button" id="begin" class="primary">开始接诊 <span>→</span></button><button type="button" id="resume" class="quiet" hidden>继续上次接诊</button><button type="button" id="projectGuideWelcome" class="quiet">先看项目导引 · 选择环节</button></section>
+<aside id="coach" data-collapsed="true" class="lesson-coach" hidden aria-label="动小助操作指导"><header><span class="coach-face" aria-hidden="true">助</span><div><b>动小助</b><small id="coachStage">下一步怎么做</small></div><button type="button" id="coachToggle" aria-expanded="false">操作指导</button></header><div class="coach-body"><p id="coachText" aria-live="polite"></p><button id="coachAction" type="button">定位操作</button><button id="prepPause" type="button" hidden>暂停动作</button></div></aside>
+<section id="conversation" class="conversation" aria-label="当前对话与行动" hidden>
+  <div class="conversation-head">
+    <img id="speakerPortrait" class="speaker-portrait" alt="" hidden><span id="speakerAvatar" class="speaker-avatar" aria-hidden="true">林</span>
+    <div class="speaker-identity"><span id="dialogueKind" class="dialogue-kind">治疗师说明</span><span id="speaker">林治疗师</span></div>
+    <span id="taskLabel" class="task-label"></span>
+    <button id="pause" type="button" aria-pressed="false" aria-label="暂停场景" title="暂停场景">Ⅱ</button>
+  </div>
+  <p id="communicationState" class="communication-state" hidden role="status"></p>
+  <p id="careCue" class="care-cue" hidden></p>
+  <div id="filmCue" class="film-cue" hidden><span id="filmSegmentName"></span><button id="filmReplay" type="button" hidden>再听一遍</button><button id="filmWatch" type="button" hidden>观看交流</button></div>
+  <p id="line" aria-live="polite"></p><small id="audioStatus" role="status" hidden></small>
+  <p id="filmHandoff" class="film-handoff" hidden></p>
+  <details id="learningGuide" class="learning-guide" hidden>
+    <summary><span class="guide-icon" aria-hidden="true">?</span><span id="whyTitle">为什么做这项检查</span><span class="guide-toggle" aria-hidden="true">⌄</span></summary>
+    <div class="guide-content"><p id="whyText"></p><div class="knowledge-note"><span>运动学联系</span><p id="knowledgeText"></p></div></div>
+  </details>
+  <p id="actionPrompt" class="action-prompt" hidden></p>
+  <ol id="taskSteps" class="task-steps" hidden></ol>
+  <p id="feedback" class="feedback" role="status" hidden></p>
+  <div id="options" class="options" aria-label="选择下一步"></div>
+  <div class="conversation-foot"><div class="line-controls"><button type="button" id="linePrevious" hidden>上一句</button><span id="lineCount"></span><button type="button" id="lineNext" hidden>下一句 →</button></div><button type="button" id="next" class="primary">继续 <span>→</span></button><button type="button" id="stop" class="quiet">暂停检查</button><span id="progressText"></span></div>
+</section>
+<aside id="taskDock" class="task-dock" aria-label="观察与操作" hidden><header><b id="dockTitle">观察与操作</b><button type="button" id="dockToggle" aria-expanded="true">收起操作</button></header><div class="dock-content"><div id="taskSurface" class="task-surface" hidden></div><p id="taskStatus" class="task-status" role="status" hidden></p></div></aside>
+<nav id="chapterRail" class="chapter-rail" aria-label="诊疗环节"></nav>
+<div id="toast" class="toast" role="status" hidden></div>
+<aside id="filmOverlay" class="film-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="filmVideoTitle"><section class="film-screen"><header><b id="filmVideoTitle">接诊交流</b><button id="filmVideoClose" type="button">返回诊室 ×</button></header><video id="filmVideo" playsinline controls preload="none" tabindex="0" aria-label="治疗师与患者交流片段"></video><footer><p id="filmVideoStatus" role="status">看完交流，再回到诊室完成这一步。</p><button id="filmVideoContinue" type="button">返回接诊</button></footer></section></aside>
+</main>
+<aside id="projectGuide" class="project-guide" role="dialog" aria-modal="true" aria-labelledby="projectGuideTitle" hidden>
+ <section class="project-guide-shell"><header class="project-guide-head"><div><span class="eyebrow">动小学 · 项目导引</span><h2 id="projectGuideTitle">从实际问题出发，选择你的学习路径。</h2><p>先了解困扰，再用观察和知识形成解释；可以顺序学习，也可以从任一环节继续。</p></div><button id="projectGuideClose" type="button" aria-label="关闭项目导引">返回诊室 ×</button></header>
+ <div class="project-guide-body"><div class="guide-route-intro"><div><b>本病例：反复崴脚与不稳感</b><p id="guidePosition">选择一个环节开始。</p><small id="guideProgress">到访记录不等于知识或临床技能达标。</small></div><a href="../project-guide/" class="guide-overview-link">查看全项目 · 13个实验 ↗</a></div>
+ <p id="guideAccessNote" class="guide-access-note" role="status"></p><div id="guideStageCards" class="guide-stage-grid"></div>
+ <div class="guide-footnote"><p>切换会保留本轮证据、讨论和已经做过的操作。跳过的检查不会补记为完成；知识目标需在“深入学习”中实际作答。</p><a id="guideNewSession" target="_blank" rel="noopener">另开新接诊，保留本轮记录 ↗</a></div></div></section>
+</aside>
+<aside class="drawer" id="notes" role="dialog" aria-modal="true" aria-labelledby="notesTitle" hidden><header><div><span class="eyebrow">倾听 · 观察 · 解释</span><h2 id="notesTitle">我的接诊记录</h2></div><button type="button" data-close="notes" aria-label="关闭接诊记录">×</button></header><p class="drawer-intro">认真记下患者在意的事，也留出尚未弄清的问题。你的对话和操作会保存在这里。</p><div id="noteEvidence"></div><h3>对话与操作</h3><div id="transcript" class="transcript"></div><label for="reflection">我的判断与下一步</label><textarea id="reflection" rows="5" maxlength="4000" placeholder="哪些发现支持你的判断？还有什么不确定？"></textarea><button type="button" id="saveReflection" class="primary">保存反思</button></aside>
+<aside class="drawer teacher" id="teacher" role="dialog" aria-modal="true" aria-labelledby="teacherTitle" hidden><header><div><span class="eyebrow">教师专用 · 制作与审核</span><h2 id="teacherTitle">制作与审核记录</h2></div><button type="button" data-close="teacher" aria-label="关闭教师制作记录">×</button></header><p>本版是可操作的实时三维教学原型。所有病例为虚构；动画和病例记录不等于真实患者测量。尚未通过临床运动学验证，不能视为国家申报成品。</p><div id="teacherFacts"></div><p><a href="../learning/review-v15.html">四轮内容审查与学习目标</a> · <a href="../teacher/">教师学习看板（需本机令牌）</a></p><p><a href="../project-guide/film.html">五段情境短片与剪辑记录</a> · <a href="docs/heygen-v16-script.html">前版导学脚本（旧记录）</a></p><h3>制作边界</h3><ul><li>场景为原创27平方米布局，非医院实景测绘或医疗建筑认证。</li><li>本轮为男治疗师、女患者的三维原型，基于MPFB核心CC0资产制作；尚非精细写实人物或真人数字分身。</li><li>步行、转移、检查动作是受控示意，精细接触、临床关节轴和保护动作仍须专业教师逐项审核。</li><li>默认本机男女分角色录音，字幕至少显示1.5秒并等待朗读结束；旧版无可见人物的影片未验收。五段用户情境短片已剪辑并接入相应节点；仅用于沟通和观察，三维角色尚无精确语音口型同步。</li><li>足压示意使用课程合成字段，无kPa/N实测含义，不用于判定本例扭伤病因。</li><li>仅保存实际发生的学习选择；不因播放动画就记为通过临床检查。</li></ul><a href="docs/teacher-review-v14.md">查看本轮动作与资产审查记录</a> · <a href="docs/eight-act-script-v14.html">旧版八幕脚本与审查依据</a><p><a target="_blank" rel="noopener" href="index.html?demo=1&amp;review=muscle_match">单项预览：肌群与方法</a> · <a target="_blank" rel="noopener" href="index.html?demo=1&amp;review=arch_compare">单项预览：静态足弓</a>（不保存成绩）</p><button id="exportReview" type="button" class="primary">导出技术核对记录</button></aside>
+</body></html>

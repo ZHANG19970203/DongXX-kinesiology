@@ -1,0 +1,64 @@
+{
+  "schema": "dxx-pressure-actor-integration-v12",
+  "frames": 401,
+  "actorFootSamples": 802,
+  "maximumPlanarFootAnchorErrorMetres": 8.897486851229855e-8,
+  "maximumXErrorMetres": 2.2996366290384262e-8,
+  "maximumZErrorMetres": 8.723049704784103e-8,
+  "maximumStanceBoneDriftMetres": 1.213614175540533e-7,
+  "maximumErrorSample": {
+    "cycle": 0.165,
+    "side": "left",
+    "actual": [
+      -0.16999998246809733,
+      0.08363653719649747,
+      1.6312173329680149
+    ],
+    "expected": {
+      "x": -0.17,
+      "z": 1.6312172457375178
+    }
+  },
+  "plateProposal": [
+    {
+      "x": -0.1,
+      "z": 1.75,
+      "width": 0.784,
+      "length": 0.55
+    },
+    {
+      "x": -0.1,
+      "z": 1.2,
+      "width": 0.784,
+      "length": 0.55
+    },
+    {
+      "x": -0.1,
+      "z": 0.65,
+      "width": 0.784,
+      "length": 0.55
+    },
+    {
+      "x": -0.1,
+      "z": 0.1,
+      "width": 0.784,
+      "length": 0.55
+    },
+    {
+      "x": -0.1,
+      "z": -0.45,
+      "width": 0.784,
+      "length": 0.55
+    }
+  ],
+  "positiveCellWorldExtremesMetres": {
+    "minX": -0.21500000000000002,
+    "maxX": 0.015,
+    "minZ": -0.3075000000000001,
+    "maxZ": 1.7275
+  },
+  "outsidePositiveCells": 0,
+  "maximumUncapturedForce": 0,
+  "scope": "Actual independent GLB skeleton, project IK and five continuous proposed pressure surfaces; CPU transform and support coverage checks only, no clinical validation.",
+  "passed": true
+}

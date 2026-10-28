@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-17 Asia/Shanghai",
+  "version": "clean-pressure-v3",
+  "environment": "Codex in-app browser, local HTTP 127.0.0.1:8769, actual WebGL at ordinary app size and browser fullscreen",
+  "passed": [
+    "New purpose briefing and staged inquiry render with original three-dimensional data laboratory",
+    "Initial reference L25 renders bars from unchanged source values; toe/heel orientation visible",
+    "Mission start hides CoP in main HUD, 2D drawing and 3D marker/trace; empty prediction cannot advance",
+    "Incorrect heel-direction prediction retained, not scored as clinical skill; submit reveals source CoP",
+    "Direct native click on 3D bar selected channel25 value2644 with non-maximum feedback",
+    "Projected 3D number buttons select L25 channel27 value2781 and L50 channel8 value2312",
+    "Incorrect L50 channel0 value414 gives retry feedback and is preserved in process record",
+    "Cannot advance until both reference frames and their maxima are marked",
+    "L25 andL50 snapshots pin A/B; comparison reports sum+3685 and source-coordinate y change-262.66",
+    "Highest-point conceptual answer receives corrective feedback; weighted-centre answer accepted",
+    "Empty observation/explanation cannot complete; open text is checked only for presence, not auto-graded",
+    "Completed inquiry stored under synthetic QA identity; initial incorrect prediction gets evidence-based correction feedback",
+    "Four actual HTML/JSON exports downloaded and parsed; module and merged records identical with exact source snapshots",
+    "Unanswered additional quiz exported as unanswered, not zero score; user text safely escaped",
+    "Fullscreen includes playback and evidence controls; Escape returns to page",
+    "Native pointer drag visibly rotates scene; wheel visibly zooms; top and oblique view buttons work",
+    "Fresh page opens as guest briefing, with no synthetic profile/record seed in release"
+  ],
+  "sourceCodeReviewed": [
+    "3D and 2D traces stop at current frame and break at excluded frames",
+    "Columns and colours share a fixed per-side clip maximum across compared frames",
+    "Three-dimensional geometry is original data display, not anatomical registration",
+    "Storage-denied completion wording follows persisted flag; no false saved-success claim"
+  ],
+  "representativeBrowserErrorOrWarnLogs": [],
+  "notExhaustivelyTested": [
+    "All browsers, GPU drivers, mobile gestures and accessibility devices",
+    "Storage-denied branch was reviewed in source; not induced by changing user browser settings",
+    "Clinical, physical calibration, real device interface, school authentication or national submission readiness"
+  ],
+  "testRecordsBundled": false
+}

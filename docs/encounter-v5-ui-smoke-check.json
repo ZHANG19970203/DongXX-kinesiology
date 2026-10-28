@@ -1,0 +1,42 @@
+{
+  "version": "v5",
+  "status": "passed",
+  "date": "2026-10-18",
+  "environment": {
+    "browser": "Codex in-app browser",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "url": "http://localhost:8771/clinic/?demo=1&case=cai",
+    "mode": "local synthetic visitor QA"
+  },
+  "executed": [
+    "Third-person reception loads; all four generated scene assets inspected in the browser.",
+    "Start consultation switches to first-person therapist view; patient replies appear as short subtitles; scene offers at most three action buttons.",
+    "CAI main flow: two questions, observe/movement/unsafe_test/pressure_scope explanations and four decision records, one evidence, one explanation, one plan, open reflection and save.",
+    "Check preparation appears only after explanation and explicit preparation step for normal unfinished exams.",
+    "Unsafe pathway stays in conversation and records non-execution; pressure_scope stays in conversation and states no patient pressure measurement.",
+    "Balance preparation independently checked: full-body observation image, third-person status and pressed state, first-person button disabled with task explanation.",
+    "All four cases selected and started; fresh flatfoot notes contain no previous CAI notes; inactive notes/transcript/workflow are disabled.",
+    "Workflow/notebook/transcript/case drawers open and close; transcript retained 26 main-flow messages.",
+    "Shift+Tab wraps within workflow drawer, Escape closes it, and keyboard focus remains on a visible scene control.",
+    "Reload and resume retain questions/decisions/summary; full JSON download parsed and 52 events exactly match the local collector database.",
+    "Final camera/crop: reception and conversation retain head, ankle preparation retains foot; desktop examination subtitles sit to the left of ankle.",
+    "Final browser warning/error logs empty; no horizontal/vertical page overflow at the tested 1280x720 viewport."
+  ],
+  "exportReceipt": "v5-export-verification.json",
+  "screenshots": [
+    "第三视角接诊_v5.png",
+    "第一视角问诊_v5.png",
+    "第一视角检查_v5.png",
+    "功能任务观察_v5.png"
+  ],
+  "limits": [
+    "Four generated stills, not real patient imagery, continuous animation, lip sync, live video or real-time 3D.",
+    "One generic fictional visual actor is shared by four teaching cases; image appearance does not establish case identity, age, gender, pathology or measured results.",
+    "Only desktop 1280x720 browser interactions verified. No mobile, screen-reader, real voice, or live DeepSeek test this round.",
+    "Two of seven essential questions in the synthetic main-flow record; summary submission is not an examination pass.",
+    "Does not validate clinical kinematics, treatment effect, teaching effectiveness or national application readiness."
+  ]
+}

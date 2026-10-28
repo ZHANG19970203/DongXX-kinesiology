@@ -1,0 +1,82 @@
+{
+  "schema": "dxx-project-guide-tests-v16",
+  "generatedAt": "2026-10-18T09:38:12.375Z",
+  "passed": true,
+  "total": 8,
+  "results": [
+    {
+      "id": "real-thirteen-course-map",
+      "passed": true,
+      "detail": {
+        "courses": 13,
+        "static": 6,
+        "limited": 4,
+        "discussion": 3
+      }
+    },
+    {
+      "id": "eight-acts-map-to-current-objectives",
+      "passed": true,
+      "detail": {
+        "acts": 8,
+        "objectives": 8,
+        "bankVersion": "15.0.4"
+      }
+    },
+    {
+      "id": "actual-dom-renders-thirteen-links",
+      "passed": true,
+      "detail": {
+        "renderedLinks": 13,
+        "requests": 1,
+        "onlyCourseCatalogue": true
+      }
+    },
+    {
+      "id": "act-selection-only-changes-orientation",
+      "passed": true,
+      "detail": {
+        "selectedAct": "act6",
+        "noClinicalProgressMutation": true
+      }
+    },
+    {
+      "id": "guide-only-hash-selects-act",
+      "passed": true,
+      "detail": {
+        "guideHashOnly": true
+      }
+    },
+    {
+      "id": "fetch-failure-honest-fallback",
+      "passed": true,
+      "detail": {
+        "fallback": true
+      }
+    },
+    {
+      "id": "invalid-catalogue-not-silently-shortened",
+      "passed": true,
+      "detail": {
+        "unknownStatusRejected": true
+      }
+    },
+    {
+      "id": "all-local-html-resources-exist",
+      "passed": true,
+      "detail": {
+        "references": 19,
+        "noCredentialsOrStudentWrites": true
+      }
+    }
+  ],
+  "testMethod": "Actual guide ES module executed against minimal DOM and actual current course catalogue; file references and objective mapping checked. No browser layout or clinical validation claim.",
+  "externalRequests": 0,
+  "paidRequests": 0,
+  "sha256": {
+    "index.html": "c1b3a9b75ceac1824cff2e633eae07b06703adb803bdfbd17d623b16e278d3fd",
+    "guide.css": "7c77dc087c3e532b13c71a2e88cc4951fdc3667bf3c3198fe3cab877a5b05e8a",
+    "guide.js": "882589348dc2365c7dffb10082d6b08b74770852cf5e2de8cd76026259e3fca8",
+    "guide-data.js": "61b189e9c0e01599d0783b01101ddc815b5695590d574aedb648f5c4712038f9"
+  }
+}

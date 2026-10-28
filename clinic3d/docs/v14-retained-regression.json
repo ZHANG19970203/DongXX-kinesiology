@@ -1,0 +1,540 @@
+{
+  "schema": "dxx-v14-retained-regression",
+  "generatedAt": "2026-10-18T08:37:07.883882+00:00",
+  "baselineArchive": "D:\\CodexDeliveries\\dongxiaoxue\\20261018-v13\\dongxiaoxue_arch_comparison_v13_20261018.zip",
+  "baselineArchiveBytes": 47476291,
+  "baselineArchiveSha256": "c78467e3402f24a2f773096f41b8e8f81a905f901eb043b4bdf8f32aa8b86709",
+  "authoringRoot": "C:\\Users\\张积众\\Documents\\Codex\\2026-10-17\\referenced-chatgpt-conversation-this-is-an\\work\\clinic-v8",
+  "runtimeRetainedFiles": [
+    {
+      "path": "clinic3d/actors.js",
+      "baselineBytes": 33770,
+      "currentBytes": 33770,
+      "baselineSha256": "ef0fe814a245e2cf037057793f6344a0ea76831853b0881bbe0780ae2c37ab18",
+      "currentSha256": "ef0fe814a245e2cf037057793f6344a0ea76831853b0881bbe0780ae2c37ab18",
+      "unchanged": true,
+      "publicCopyMatchesAuthoring": true
+    },
+    {
+      "path": "clinic3d/appearance.js",
+      "baselineBytes": 11463,
+      "currentBytes": 11463,
+      "baselineSha256": "b63b5d211ad9d7567b95e1a785ace1fa9bc912777063e648812c9fd302817b45",
+      "currentSha256": "b63b5d211ad9d7567b95e1a785ace1fa9bc912777063e648812c9fd302817b45",
+      "unchanged": true,
+      "publicCopyMatchesAuthoring": true
+    },
+    {
+      "path": "clinic3d/scene-room.js",
+      "baselineBytes": 31375,
+      "currentBytes": 31375,
+      "baselineSha256": "79840ce6b15567f2f2a406acf4a43d6dd3412eb954403ebcbb66d660fc10a895",
+      "currentSha256": "79840ce6b15567f2f2a406acf4a43d6dd3412eb954403ebcbb66d660fc10a895",
+      "unchanged": true,
+      "publicCopyMatchesAuthoring": true
+    },
+    {
+      "path": "clinic3d/pressure-engine.js",
+      "baselineBytes": 26412,
+      "currentBytes": 26412,
+      "baselineSha256": "1b6411b413ccfcd0a1cbd9cfc9d6ce3470b6a589d7b65b4bb722ca5e60a1fe16",
+      "currentSha256": "1b6411b413ccfcd0a1cbd9cfc9d6ce3470b6a589d7b65b4bb722ca5e60a1fe16",
+      "unchanged": true,
+      "publicCopyMatchesAuthoring": true
+    },
+    {
+      "path": "clinic3d/pressure-stage.js",
+      "baselineBytes": 2844,
+      "currentBytes": 2844,
+      "baselineSha256": "c953730feaf5d14f8d9114c389056c09fea387424ef5e6c582e19abcc578e9ce",
+      "currentSha256": "c953730feaf5d14f8d9114c389056c09fea387424ef5e6c582e19abcc578e9ce",
+      "unchanged": true,
+      "publicCopyMatchesAuthoring": true
+    },
+    {
+      "path": "clinic3d/gait-lesson.js",
+      "baselineBytes": 8601,
+      "currentBytes": 8601,
+      "baselineSha256": "1d6cbe45697dd1b25f261cd72827b602a679924fbe5cefc41ca45caa1b3a99b0",
+      "currentSha256": "1d6cbe45697dd1b25f261cd72827b602a679924fbe5cefc41ca45caa1b3a99b0",
+      "unchanged": true,
+      "publicCopyMatchesAuthoring": true
+    },
+    {
+      "path": "clinic3d/anatomy-viewer.js",
+      "baselineBytes": 34497,
+      "currentBytes": 34497,
+      "baselineSha256": "764c383dbc903eea71420373114b86ed41f506f516a7568286341707b3e94c54",
+      "currentSha256": "764c383dbc903eea71420373114b86ed41f506f516a7568286341707b3e94c54",
+      "unchanged": true,
+      "publicCopyMatchesAuthoring": true
+    },
+    {
+      "path": "clinic3d/assets/patient-motion.glb",
+      "baselineBytes": 1557900,
+      "currentBytes": 1557900,
+      "baselineSha256": "76bf711327b68b1a803fd46de493b1e34933f0f591fa27b5b75f2361918ed4d2",
+      "currentSha256": "76bf711327b68b1a803fd46de493b1e34933f0f591fa27b5b75f2361918ed4d2",
+      "unchanged": true,
+      "publicCopyMatchesAuthoring": true
+    }
+  ],
+  "allRequestedRuntimeFilesUnchanged": true,
+  "atlasRetainedFiles": [
+    {
+      "path": "assembly/assets/catalog.js",
+      "baselineBytes": 933067,
+      "currentBytes": 933067,
+      "baselineSha256": "abc462c3608a9ee93bb5ce36a4c9ab89aa0f8becc001e7c427c45cef71946697",
+      "currentSha256": "abc462c3608a9ee93bb5ce36a4c9ab89aa0f8becc001e7c427c45cef71946697",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/game.css",
+      "baselineBytes": 19555,
+      "currentBytes": 19555,
+      "baselineSha256": "f846560e90340c546bcafeee31f3001bf13f6b60ba133e6754360448b8f07e6b",
+      "currentSha256": "f846560e90340c546bcafeee31f3001bf13f6b60ba133e6754360448b8f07e6b",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/game.js",
+      "baselineBytes": 53257,
+      "currentBytes": 53257,
+      "baselineSha256": "97accbae6062e6dc9629dbb5bd531fd2eefb9b1334149aa52b880fc6fc3a8b72",
+      "currentSha256": "97accbae6062e6dc9629dbb5bd531fd2eefb9b1334149aa52b880fc6fc3a8b72",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/geometry-loader.js",
+      "baselineBytes": 2958,
+      "currentBytes": 2958,
+      "baselineSha256": "d71bfd039dca77c1d138bc2f2ff3b070b9742b108ad4e0df328f1ed53f4475ec",
+      "currentSha256": "d71bfd039dca77c1d138bc2f2ff3b070b9742b108ad4e0df328f1ed53f4475ec",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/geometry-manifest.json",
+      "baselineBytes": 2739,
+      "currentBytes": 2739,
+      "baselineSha256": "ce24622f759ad7096d3ead502668db2fc6c5f87d8f8e050cb113e0dfb035bc58",
+      "currentSha256": "ce24622f759ad7096d3ead502668db2fc6c5f87d8f8e050cb113e0dfb035bc58",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-00.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "65d1c12fd4907e7f9a332db9dca61c49626f3055b03a3715da9a1a60cefd29b9",
+      "currentSha256": "65d1c12fd4907e7f9a332db9dca61c49626f3055b03a3715da9a1a60cefd29b9",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-01.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "fa67b0fcf49c320c111f77bc2bba37daa6ffd94a19c7026b72c564c01da6368e",
+      "currentSha256": "fa67b0fcf49c320c111f77bc2bba37daa6ffd94a19c7026b72c564c01da6368e",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-02.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "2206cd2fa18419987d599df972365d8c54c6439348dd54609e2d40f980c80ade",
+      "currentSha256": "2206cd2fa18419987d599df972365d8c54c6439348dd54609e2d40f980c80ade",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-03.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "d6e39ec20caef14b32a0777ba8368823fe6bd3a385453148b439410aad5e0815",
+      "currentSha256": "d6e39ec20caef14b32a0777ba8368823fe6bd3a385453148b439410aad5e0815",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-04.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "d834d1aa6d247df18de3bec88d7ddeaa66c143a233e49a6ebe8c9c70ec1c47aa",
+      "currentSha256": "d834d1aa6d247df18de3bec88d7ddeaa66c143a233e49a6ebe8c9c70ec1c47aa",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-05.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "cd1ce06c0094f0e1a9da94be6a52bcb95793dcbb69ab003f0bd73fc8b4d10b1f",
+      "currentSha256": "cd1ce06c0094f0e1a9da94be6a52bcb95793dcbb69ab003f0bd73fc8b4d10b1f",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-06.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "df5611baae96fa6df897c2a9395f2a7045d7845888040667fb28dbe57048c0cb",
+      "currentSha256": "df5611baae96fa6df897c2a9395f2a7045d7845888040667fb28dbe57048c0cb",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-07.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "941074c8576f4a85f4c15bd241e2dc48e7785bbc0e3f39ea282697c861819d15",
+      "currentSha256": "941074c8576f4a85f4c15bd241e2dc48e7785bbc0e3f39ea282697c861819d15",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-08.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "d8dc73b21dea419dd1622ad8191c84327dd26f6c37184bb2fe926634b42df538",
+      "currentSha256": "d8dc73b21dea419dd1622ad8191c84327dd26f6c37184bb2fe926634b42df538",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-09.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "f9e9bec63ea0214bc49f1a54a2f0b780c826647fedd6359f9bad04e3aed078b1",
+      "currentSha256": "f9e9bec63ea0214bc49f1a54a2f0b780c826647fedd6359f9bad04e3aed078b1",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-10.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "a0f1756e159bf8a323fb5583acf91f726d10bd813e0c22943c8301c7bbdc3bc6",
+      "currentSha256": "a0f1756e159bf8a323fb5583acf91f726d10bd813e0c22943c8301c7bbdc3bc6",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-11.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "e1c3745e2036a1a1753960baaf580d807fdd276d9e850cf958398763e71563c9",
+      "currentSha256": "e1c3745e2036a1a1753960baaf580d807fdd276d9e850cf958398763e71563c9",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-12.bin",
+      "baselineBytes": 4194304,
+      "currentBytes": 4194304,
+      "baselineSha256": "31d2a31d472c9c4f3b4201a8259fb37c66eb6f24e553c2280408ea63811dfe97",
+      "currentSha256": "31d2a31d472c9c4f3b4201a8259fb37c66eb6f24e553c2280408ea63811dfe97",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/mesh-13.bin",
+      "baselineBytes": 3076352,
+      "currentBytes": 3076352,
+      "baselineSha256": "44476fc94f88954143fa0ca7e4ba537209bdd42fb44e5cdb2eae2cbfaf34f39b",
+      "currentSha256": "44476fc94f88954143fa0ca7e4ba537209bdd42fb44e5cdb2eae2cbfaf34f39b",
+      "unchanged": true
+    },
+    {
+      "path": "assembly/assets/renderer.js",
+      "baselineBytes": 20926,
+      "currentBytes": 20926,
+      "baselineSha256": "d0a1ed18101c8a7ff74d0b4a142fdceb3fb5c997be61978a3dbc926c8215fbeb",
+      "currentSha256": "d0a1ed18101c8a7ff74d0b4a142fdceb3fb5c997be61978a3dbc926c8215fbeb",
+      "unchanged": true
+    },
+    {
+      "path": "clinic3d/assets/posters/ankle-muscles.png",
+      "baselineBytes": 146943,
+      "currentBytes": 146943,
+      "baselineSha256": "17f6b33ba14fda586921250d08e2948dc3af8e1fd0b7857eb17204615fe31432",
+      "currentSha256": "17f6b33ba14fda586921250d08e2948dc3af8e1fd0b7857eb17204615fe31432",
+      "unchanged": true
+    },
+    {
+      "path": "clinic3d/assets/posters/human-muscles.png",
+      "baselineBytes": 331628,
+      "currentBytes": 331628,
+      "baselineSha256": "616acaaeec1bbe60b514fb1f325ba2e1c1aa5158dadf6e318845fbf5c2e209f3",
+      "currentSha256": "616acaaeec1bbe60b514fb1f325ba2e1c1aa5158dadf6e318845fbf5c2e209f3",
+      "unchanged": true
+    },
+    {
+      "path": "clinic3d/assets/posters/human-skeleton.png",
+      "baselineBytes": 173498,
+      "currentBytes": 173498,
+      "baselineSha256": "b4394641a0416a4ba2699e595d1dd60b105a87a0d064cdf11ab8bf5991a9739f",
+      "currentSha256": "b4394641a0416a4ba2699e595d1dd60b105a87a0d064cdf11ab8bf5991a9739f",
+      "unchanged": true
+    },
+    {
+      "path": "clinic3d/docs/anatomy-v10-provenance.json",
+      "baselineBytes": 83169,
+      "currentBytes": 83169,
+      "baselineSha256": "b23813b5ed64c25ae284af0aaeba5502c12f047862e9bbb03781508fd542efbf",
+      "currentSha256": "b23813b5ed64c25ae284af0aaeba5502c12f047862e9bbb03781508fd542efbf",
+      "unchanged": true
+    },
+    {
+      "path": "clinic3d/docs/anatomy-v9-provenance.json",
+      "baselineBytes": 60688,
+      "currentBytes": 60688,
+      "baselineSha256": "8d30b72c64df72286d911f6194db15da9d8adc2d2af034f402aa4a83b4d5b0b8",
+      "currentSha256": "8d30b72c64df72286d911f6194db15da9d8adc2d2af034f402aa4a83b4d5b0b8",
+      "unchanged": true
+    },
+    {
+      "path": "clinic3d/docs/v12-anatomy-posters.json",
+      "baselineBytes": 14804,
+      "currentBytes": 14804,
+      "baselineSha256": "8f157b6ac690bdf1b5241f3c1f34ebf82f7253c943819a8ed13c8449bb2443c6",
+      "currentSha256": "8f157b6ac690bdf1b5241f3c1f34ebf82f7253c943819a8ed13c8449bb2443c6",
+      "unchanged": true
+    }
+  ],
+  "atlasFileCount": 26,
+  "allAtlasBytesUnchanged": true,
+  "functionalZoneAndDocumentationMapping": {
+    "method": "Extracted actual current app.js setVisual with scene/actor stubs; no browser, storage, backend or physical animation runs.",
+    "allPassed": true,
+    "results": [
+      {
+        "act": "act1",
+        "visualMode": "consult",
+        "taskType": null,
+        "zone": "consult",
+        "documentation": "desk",
+        "patientFootwear": "shoes",
+        "therapistFootwear": "shoes",
+        "activity": "reception",
+        "poses": [
+          {
+            "actor": "patient",
+            "pose": "seated"
+          },
+          {
+            "actor": "therapist",
+            "pose": "seated"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "act": "act2",
+        "visualMode": "goniometer",
+        "taskType": "goniometer",
+        "zone": "exam",
+        "documentation": "desk",
+        "patientFootwear": "barefoot",
+        "therapistFootwear": "shoes",
+        "activity": "static",
+        "poses": [
+          {
+            "actor": "patient",
+            "pose": "seated"
+          },
+          {
+            "actor": "therapist",
+            "pose": "examine"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "act": "act2",
+        "visualMode": "wall",
+        "taskType": "trial",
+        "zone": "wall",
+        "documentation": "desk",
+        "patientFootwear": "barefoot",
+        "therapistFootwear": "shoes",
+        "activity": "wall",
+        "poses": [
+          {
+            "actor": "patient",
+            "pose": "standing"
+          },
+          {
+            "actor": "therapist",
+            "pose": "standing"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "act": "act3",
+        "visualMode": "exam",
+        "taskType": "muscle",
+        "zone": "exam",
+        "documentation": "desk",
+        "patientFootwear": "barefoot",
+        "therapistFootwear": "shoes",
+        "activity": "static",
+        "poses": [
+          {
+            "actor": "patient",
+            "pose": "seated"
+          },
+          {
+            "actor": "therapist",
+            "pose": "examine"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "act": "act4",
+        "visualMode": "exam",
+        "taskType": "arch",
+        "zone": "exam",
+        "documentation": "desk",
+        "patientFootwear": "barefoot",
+        "therapistFootwear": "shoes",
+        "activity": "static",
+        "poses": [
+          {
+            "actor": "patient",
+            "pose": "seated"
+          },
+          {
+            "actor": "therapist",
+            "pose": "examine"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "act": "act5",
+        "visualMode": "gait",
+        "taskType": "gait",
+        "zone": "gait",
+        "documentation": "carry",
+        "patientFootwear": "barefoot",
+        "therapistFootwear": "shoes",
+        "activity": "gait",
+        "poses": [
+          {
+            "actor": "patient",
+            "pose": "standing"
+          },
+          {
+            "actor": "therapist",
+            "pose": "standing"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "act": "act6",
+        "visualMode": "pressure",
+        "taskType": "pressure",
+        "zone": "pressure",
+        "documentation": "carry",
+        "patientFootwear": "barefoot",
+        "therapistFootwear": "shoes",
+        "activity": "pressure",
+        "poses": [
+          {
+            "actor": "patient",
+            "pose": "standing"
+          },
+          {
+            "actor": "therapist",
+            "pose": "standing"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "act": "act7",
+        "visualMode": "balance",
+        "taskType": "balance",
+        "zone": "balance",
+        "documentation": "desk",
+        "patientFootwear": "barefoot",
+        "therapistFootwear": "shoes",
+        "activity": {
+          "zone": "balance",
+          "supportRail": true
+        },
+        "poses": [
+          {
+            "actor": "patient",
+            "pose": "standing"
+          },
+          {
+            "actor": "therapist",
+            "pose": "standing"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "act": "act8",
+        "visualMode": "consult",
+        "taskType": "plan",
+        "zone": "consult",
+        "documentation": "desk",
+        "patientFootwear": "shoes",
+        "therapistFootwear": "shoes",
+        "activity": "reception",
+        "poses": [
+          {
+            "actor": "patient",
+            "pose": "seated"
+          },
+          {
+            "actor": "therapist",
+            "pose": "seated"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "act": "debrief",
+        "visualMode": "evidence",
+        "taskType": "evidence",
+        "zone": "consult",
+        "documentation": "desk",
+        "patientFootwear": "shoes",
+        "therapistFootwear": "shoes",
+        "activity": "reception",
+        "poses": [
+          {
+            "actor": "patient",
+            "pose": "seated"
+          },
+          {
+            "actor": "therapist",
+            "pose": "seated"
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "appSha256": "63701d6265be544d0f86a57b879e62a5375fb75548e258abb4f8e698448f864a"
+  },
+  "retainedCapabilities": [
+    "Independent male therapist/female patient source rig and appearance refinements unchanged.",
+    "Deep navy therapist clothing, footwear and 17.6 second authored shoe/sock action unchanged.",
+    "Stationary removed garments and desk/carry documentation prop implementation unchanged.",
+    "Five pressure plates, shared gait/pressure sampler, COP rendering and static return implementation unchanged.",
+    "Licensed BodyParts3D/Somakine atlas bytes, poster rasters and anatomy viewer unchanged."
+  ],
+  "scope": "Hash/byte comparison and current chapter-to-zone/documentation mapping only. No repetition of unchanged motion/pressure numerical suites. Prior v13 numerical regression evidence can be retained for the byte-identical implementations within its original scope.",
+  "limitations": [
+    "No new clinical validation, certification, diagnostic accuracy or patient-specific registration is established.",
+    "Actor motion, simulated pressure, COP and bounded anatomy drivers retain their prior teaching-only limitations.",
+    "The new static arch task uses fictional 2D side-foot records; act4 currently reuses the exam camera/actor zone and does not add validated real foot deformation or sit-to-stand testing.",
+    "Hashes do not replace browser visual QA, source provenance review or professional sign-off."
+  ],
+  "clinicalValidated": false,
+  "passed": true,
+  "postPreviewEntryReview": {
+    "trigger": "Root added a clearly labelled teacher-only single-task review entry for muscle_match/arch_compare after initial audit.",
+    "reviewedChangeScope": "app init/startReview and goto preview restrictions; setVisual mapping rechecked from current frozen source.",
+    "appSha256": "63701d6265be544d0f86a57b879e62a5375fb75548e258abb4f8e698448f864a",
+    "mappingCasesRechecked": 10,
+    "mappingPassed": true,
+    "actorPressureSuitesRepeated": false,
+    "notes": "Teacher preview must not persist learning grades; this refresh checks unchanged mapping only and does not assert a new clinical or storage validation."
+  }
+}

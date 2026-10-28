@@ -1,0 +1,304 @@
+{
+  "format": "dxx-clinic-asset-inventory-v12-merge-fragment",
+  "baseFile": "clinic3d/ASSET_INVENTORY.json",
+  "createdAt": "2026-10-18",
+  "mergeRule": "Apply topLevelPatch, replace entries by exact id, append new entries by unique id, append evidence files by unique path, then apply licenseAuditPatch. Refresh every referenced path hash from final source after integration. Do not infer completion from this fragment.",
+  "topLevelPatch": {
+    "schema": "dxx-clinic3d-asset-inventory-v12",
+    "scope": "v12 concise left-side dialogue and step guidance, finite shoe/sock removal, licensed mesh anatomy posters, five contiguous pressure plates and original synthetic static/walking/maximum pressure/COP teaching. Complete-site 13-experiment navigation retained.",
+    "reviewedOn": "2026-10-18"
+  },
+  "entriesReplaceById": [
+    {
+      "id": "original-room",
+      "path": "scene-room.js",
+      "bytes": 30839,
+      "sha256": "516e327fb3b3098f012a4343e879755a6e3fcd8165cac6991ccbc6194da1fd17",
+      "source": "Original procedural clinic/equipment geometry, labels and five contiguous flush plates. Three local poster textures are original orthographic renders of verified BodyParts3D/Somakine atlas meshes.",
+      "license": "Room/application code follows the complete-site MIT scope; anatomical poster data derivatives retain CC BY 4.0 with attribution, modification notes and source IDs in docs/v12-anatomy-posters.json.",
+      "includes": [
+        "Original27m² clinic layout, therapist-facing monitor and instruments",
+        "Original 2 kettlebells, 2 hex dumbbells, spiked massage ball, smooth fascia ball, 3 flat resistance loops and folded band tail",
+        "Foot props retained upper shelf; original equipment-view camera",
+        "Five contiguous floor-level .80 m × .55 m teaching pressure plates with replaceable horizontal surface textures",
+        "Three mesh-based anatomy posters: skeleton/joint landmarks, anterior/posterior muscles, right lower-leg and ankle anatomy"
+      ],
+      "limits": [
+        "Room props are not a hospital construction or infection-control certification",
+        "Pressure instrument appearance does not establish a real sensor technology, calibration or sampling specification",
+        "Selected support/standing positions are scene design references, not patient-specific test distances",
+        "Support rail hand contact and seated/transferring skin clearance require actual scene review",
+        "Shelf foot silhouettes remain simplified props. Wall posters are static atlas renders, not patient-specific anatomy, registered joints or diagnostic evidence."
+      ]
+    },
+    {
+      "id": "original-actor-procedures",
+      "path": "actors.js",
+      "bytes": 28664,
+      "sha256": "4ae8aadd21e23b6b01cbe7ead3add81eae4a226d485de818497e42165e66baec",
+      "source": "Original project code using the CC0-derived skinned mesh and rig.",
+      "license": "Original application code follows licenses/ORIGINAL_CODE_LICENSE.txt MIT scope; the source core mesh and skin weights remain attributed to MPFB CC0.",
+      "includes": [
+        "Original deep navy therapist top and trousers, unbranded bone-attached shoes for both roles",
+        "Stage footwear visibility, relaxed hands, shared asymmetric authored gait sampler; no paid generation",
+        "Separate male therapist and female patient display roles with original CC0-derived surface refinements; default shoes and stage barefoot states preserved",
+        "Original finite 17.6 second seated left-then-right shoe/sock removal; barefoot state after completion",
+        "Sock surfaces reuse CC0-derived foot/ankle triangles and weights; no external shoe or sock asset"
+      ],
+      "limits": [
+        "Visual teaching transitions do not certify natural gait, clinical positioning, clinical examination accuracy or speech synchronization",
+        "Independent skeletons do not imply independently validated patient and therapist motion",
+        "No fabric simulation, true fingertip grasp, sock-cuff rollover or collision/contact validation; visual and professional review pending."
+      ]
+    },
+    {
+      "id": "teaching-pressure-illustration",
+      "source": "Original pressure-engine.js equal-area sole cells, non-negative synthetic contact weights, force-weighted COP, static sway and asynchronous peak image. pressure-stage.js paints the same frame on scene plates; original case-flow.js and learning-ui.js present task logic.",
+      "license": "Original application code follows licenses/ORIGINAL_CODE_LICENSE.txt MIT scope; fictional case prose and teaching visuals are project content under the complete-site scope.",
+      "dataStatus": "Original synthetic relative-load teaching data; no patient, sensor, device-calibrated pressure, or sampled full-body COM. Separate retained public research samples are explicitly independent.",
+      "measuredUnits": false,
+      "limits": [
+        "No clinical kPa, N, sensor calibration or patient measurements",
+        "Current COP is weighted by current synthetic non-negative contact loads; zero load and swing yield null COP",
+        "Walking feet share one authored gait clock; standing foot anchors remain fixed",
+        "The per-cell maximum image combines peaks from different times and has no instantaneous total force or COP",
+        "COP is not full-body COM or the actor pelvis reference point",
+        "Low-arch contact illustration is not flatfoot diagnosis or evidence of a sole CAI cause",
+        "Static, dynamic and maximum modes keep fixed relative colour scale and condition labels"
+      ],
+      "path": "pressure-engine.js",
+      "bytes": 17408,
+      "sha256": "0033bd145e879c936c0ad0f200bbb3d9762d145023e520f3d5d784d2d26aee20"
+    },
+    {
+      "id": "original-gait-lesson",
+      "path": "gait-lesson.js",
+      "source": "Original project code, no imported motion capture or clinical data",
+      "license": "MIT under original project code scope",
+      "limits": [
+        "Authored teaching case and presentation; not clinical validation"
+      ],
+      "bytes": 8601,
+      "sha256": "1d6cbe45697dd1b25f261cd72827b602a679924fbe5cefc41ca45caa1b3a99b0"
+    },
+    {
+      "id": "original-dialogue-player",
+      "path": "dialogue-player.js",
+      "source": "Original project code, no imported motion capture or clinical data",
+      "license": "MIT under original project code scope",
+      "limits": [
+        "Authored teaching case and presentation; not clinical validation"
+      ],
+      "bytes": 1654,
+      "sha256": "24e32f5d73e69e65febcb1fd8826f665fa56125c84c685789298f2cff0722b4b"
+    },
+    {
+      "id": "original-learning-ui",
+      "path": "learning-ui.js",
+      "source": "Original project code, no imported motion capture or clinical data",
+      "license": "MIT under original project code scope",
+      "limits": [
+        "Authored teaching case and presentation; not clinical validation"
+      ],
+      "bytes": 19969,
+      "sha256": "7adf6955fac8e8e34eec811f6e5eb05231050ec9dc15aa8412749a800ea16ecf"
+    }
+  ],
+  "entriesAppend": [
+    {
+      "id": "original-lesson-coach",
+      "path": "lesson-coach.js",
+      "bytes": 6320,
+      "sha256": "4d9334ae3ef4e476dc3eaffd323588cf53e14f339f186419ec9cf725c8652241",
+      "source": "Original project implementation; no external media/model or patient data",
+      "license": "MIT under original application code scope",
+      "limits": [
+        "Teaching interaction/display; no clinical validation"
+      ]
+    },
+    {
+      "id": "original-pressure-stage",
+      "path": "pressure-stage.js",
+      "bytes": 2844,
+      "sha256": "c953730feaf5d14f8d9114c389056c09fea387424ef5e6c582e19abcc578e9ce",
+      "source": "Original project implementation; no external media/model or patient data",
+      "license": "MIT under original application code scope",
+      "limits": [
+        "Teaching interaction/display; no clinical validation"
+      ]
+    },
+    {
+      "id": "original-concise-case-v12",
+      "path": "case-flow.js",
+      "bytes": 51605,
+      "sha256": "a6c80123302357687651ff6787fe92f00df654433389decb081f9242e767f4f8",
+      "source": "Original fictional case and teaching choices; 41 nodes shortened without replacing evidence/safety paths",
+      "license": "Application logic follows complete-site MIT scope; fictional case prose remains separate project teaching content",
+      "limits": [
+        "Fictional patient, authored gait/pressure conditions, not diagnosis or a clinically verified treatment plan"
+      ]
+    },
+    {
+      "id": "licensed-wall-skeleton-v12",
+      "path": "assets/posters/human-skeleton.png",
+      "bytes": 173498,
+      "sha256": "b4394641a0416a4ba2699e595d1dd60b105a87a0d064cdf11ab8bf5991a9739f",
+      "title": "人体骨与关节",
+      "source": "Original orthographic visualization of existing verified BodyParts3D/Somakine static atlas geometry",
+      "license": "CC BY 4.0",
+      "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+      "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "provenance": "docs/v12-anatomy-posters.json",
+      "sourceAssetCount": 201,
+      "modifications": [
+        "Orthographic rendering of unedited licensed positions and indices with original lighting, colors, layout and Chinese structure labels.",
+        "No inferred joint registration, muscle activation, patient data or movement model.",
+        "Anterior/posterior views share the original atlas anatomy. Foot poster selects the lower-leg and foot bones and seven ankle-crossing muscles; the femur/patella are omitted for composition."
+      ],
+      "limits": [
+        "Atlas display only; no patient registration, dynamics, activation or diagnostic inference",
+        "Mesh counts overlap between posters and must not be summed as unique anatomy assets"
+      ]
+    },
+    {
+      "id": "licensed-wall-muscles-v12",
+      "path": "assets/posters/human-muscles.png",
+      "bytes": 331628,
+      "sha256": "616acaaeec1bbe60b514fb1f325ba2e1c1aa5158dadf6e318845fbf5c2e209f3",
+      "title": "骨骼肌解剖",
+      "source": "Original orthographic visualization of existing verified BodyParts3D/Somakine static atlas geometry",
+      "license": "CC BY 4.0",
+      "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+      "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "provenance": "docs/v12-anatomy-posters.json",
+      "sourceAssetCount": 430,
+      "modifications": [
+        "Orthographic rendering of unedited licensed positions and indices with original lighting, colors, layout and Chinese structure labels.",
+        "No inferred joint registration, muscle activation, patient data or movement model.",
+        "Anterior/posterior views share the original atlas anatomy. Foot poster selects the lower-leg and foot bones and seven ankle-crossing muscles; the femur/patella are omitted for composition."
+      ],
+      "limits": [
+        "Atlas display only; no patient registration, dynamics, activation or diagnostic inference",
+        "Mesh counts overlap between posters and must not be summed as unique anatomy assets"
+      ]
+    },
+    {
+      "id": "licensed-wall-ankle-v12",
+      "path": "assets/posters/ankle-muscles.png",
+      "bytes": 146943,
+      "sha256": "17f6b33ba14fda586921250d08e2948dc3af8e1fd0b7857eb17204615fe31432",
+      "title": "小腿与足踝骨肌",
+      "source": "Original orthographic visualization of existing verified BodyParts3D/Somakine static atlas geometry",
+      "license": "CC BY 4.0",
+      "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+      "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "provenance": "docs/v12-anatomy-posters.json",
+      "sourceAssetCount": 36,
+      "modifications": [
+        "Orthographic rendering of unedited licensed positions and indices with original lighting, colors, layout and Chinese structure labels.",
+        "No inferred joint registration, muscle activation, patient data or movement model.",
+        "Anterior/posterior views share the original atlas anatomy. Foot poster selects the lower-leg and foot bones and seven ankle-crossing muscles; the femur/patella are omitted for composition."
+      ],
+      "limits": [
+        "Atlas display only; no patient registration, dynamics, activation or diagnostic inference",
+        "Mesh counts overlap between posters and must not be summed as unique anatomy assets"
+      ]
+    }
+  ],
+  "evidenceFilesAppend": [
+    {
+      "path": "docs/v12-anatomy-posters.json",
+      "bytes": 14804,
+      "sha256": "8f157b6ac690bdf1b5241f3c1f34ebf82f7253c943819a8ed13c8449bb2443c6"
+    },
+    {
+      "path": "docs/v12-dialogue-review.json",
+      "bytes": 533,
+      "sha256": "a8df04b42ca701262c9809e3f25c6236dca4027e32ffca2393413ff28823af4a"
+    },
+    {
+      "path": "docs/v12-room-structure.json",
+      "bytes": 3353,
+      "sha256": "dc08073fbbc1ab5aeec0b9bcfa637be2cc994eee04b25ba5dfd1a9b0ce593e2e"
+    },
+    {
+      "path": "docs/v12-render-atlas.py",
+      "bytes": 8357,
+      "sha256": "7f440f6b3ecb23a8de21a939301deb431081dca17e77933a09d1542550e23e77"
+    },
+    {
+      "path": "docs/v12-room-validate.mjs",
+      "bytes": 6184,
+      "sha256": "199b8cacea501fe4ee7eb119711f65b78df9238cb4cb6e33e1519900e4cfb761"
+    },
+    {
+      "path": "docs/teacher-review-v12.md",
+      "bytes": 5015,
+      "sha256": "3d813f54efe7dbaa219cac65ed0c6d0c9e20aa819c63533f5eb519ce8e192462"
+    },
+    {
+      "path": "docs/validation-v12.md",
+      "bytes": 4846,
+      "sha256": "5e16ff3e44e6cd62f7e29e19fb77935ea1ab9359f8a50a57cead127b5c5fc531"
+    },
+    {
+      "path": "docs/pressure-v12-API.txt",
+      "bytes": 3273,
+      "sha256": "740be48d0cbf0270f9fffbcaead1ce30d73e7a66fc570457662576d216e21c84"
+    },
+    {
+      "path": "docs/pressure-v12-sources.json",
+      "bytes": 4741,
+      "sha256": "46e554fa4ed59007292b9edb38650b5f978e9b130e3b0780ff1555496e19115b"
+    },
+    {
+      "path": "docs/pressure-v12-test-results.json",
+      "bytes": 1592,
+      "sha256": "3c1d58da650ac72771894bb7e64a7516130f69a292040a8d8c65a3eee22794f4"
+    },
+    {
+      "path": "docs/pressure-v12-tests.mjs",
+      "bytes": 8271,
+      "sha256": "2f5efca63106f4587150232605d41581d030d1c222bfb8d851e52f5b2e18485a"
+    },
+    {
+      "path": "docs/socks-v12-API.txt",
+      "bytes": 1422,
+      "sha256": "75549d0885d3b331766a5d8f12fc33e57eab96929e163cbb7349f11770d14258"
+    },
+    {
+      "path": "docs/socks-v12-check.json",
+      "bytes": 2299,
+      "sha256": "34754627c1ca2bbcb10d38c62328584feb884b066f6c632870b77a21a1f0a2dc"
+    },
+    {
+      "path": "docs/socks-v12-validate.mjs",
+      "bytes": 5352,
+      "sha256": "c9cba9ab3fcc83823e50456f6c6496d26937436a1295d794c6d28fb57fbb56f3"
+    }
+  ],
+  "licenseAuditPatch": {
+    "paidGenerationJobsThisV12": 0,
+    "newExternalAssetsThisRelease": [],
+    "newDerivedAssetsThisRelease": [
+      "assets/posters/human-skeleton.png",
+      "assets/posters/human-muscles.png",
+      "assets/posters/ankle-muscles.png"
+    ],
+    "sourceAtlasGeometryChanged": false,
+    "newPosterDataLicense": "CC BY 4.0",
+    "noticeRecommendation": "Retain existing scope entries and append docs/LICENSE_SCOPE-v12-append.txt to complete-site licenses/LICENSE_SCOPE.txt. Do not describe wall posters as schematic original-only geometry after this release.",
+    "referenceImagesCopiedFromManufacturersOrPapers": false
+  },
+  "finalization": {
+    "hashSnapshot": "This is a construction-time snapshot; current app/actor/UI files may still change during root integration. Refresh existing entries, new entries and evidenceFiles after final checks.",
+    "selfExcluded": [
+      "ASSET_INVENTORY.json"
+    ],
+    "pending": [
+      "Root integration/browser checks",
+      "Final manifest exact coverage",
+      "Final ZIP CRC, byte equality and SHA256"
+    ]
+  }
+}

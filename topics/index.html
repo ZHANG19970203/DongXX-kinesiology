@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#126fb2">
+  <title>动小学 · 机制与节律观察</title>
+  <link rel="stylesheet" href="demo.css">
+  <script src="../assets/session.js" defer></script>
+  <script src="../guide/guide.js" defer></script>
+  <script src="demo.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../index.html#home"><span class="brand-mark">动</span><span><b>动小学 · 人体运动学</b><small>机制与节律观察</small></span></a>
+    <div class="top-actions"><span id="studentBadge" class="badge">演示访客</span><button type="button" data-zhixing-open>数字助教</button><a href="../index.html#home">返回学习首页</a></div>
+  </header>
+  <div class="layout">
+    <nav class="sidebar" aria-label="专题选择">
+      <p class="eyebrow">OBSERVE &amp; COMPARE</p>
+      <a href="#gait" data-topic="gait"><span>01</span>步态节律</a>
+      <a href="#muscle" data-topic="muscle"><span>02</span>收缩机制</a>
+      <a href="#breath" data-topic="breath"><span>03</span>呼吸方向</a>
+      <a href="#tread" data-topic="tread"><span>04</span>跑台调节</a>
+      <p class="side-note">改变一个条件，暂停观察，再用自己的话记录差异。</p>
+      <a class="teacher-link" href="../teacher-review.html">教师审查记录 ↗</a>
+    </nav>
+    <main>
+      <div class="headline"><div><p class="eyebrow">人体运动学 · 互动学习</p><h1 id="mainTitle">步态节律观察</h1><p id="mainSubtitle">通过两条抽象相位曲线，观察交替与相位偏移。</p></div><span class="badge">有限示意</span></div>
+      <section id="gait" class="topic" aria-labelledby="gaitTitle">
+        <div class="panel"><div class="panel-body">
+          <div class="title-row"><h2 id="gaitTitle">交替节律与相位比较</h2><span class="scope">节律示意，无实测步态数据</span></div>
+          <p class="prompt">比较 A 与 B 的峰值位置。相位改变时，两条线的相对时序怎样变化？</p>
+          <div class="settings"><label>比较 B 的相位偏移<select id="gaitOffset"><option value="0">同步比较（0）</option><option value="0.15" selected>提前 0.15 个周期</option><option value="-0.15">延后 0.15 个周期</option><option value="0.25">提前 0.25 个周期</option></select></label><label>循环节律<select id="gaitTempo"><option value="0.65">较慢</option><option value="1" selected>中等</option><option value="1.5">较快</option></select></label></div>
+          <div class="compare-grid"><article class="visual-card"><h3>A · 交替参考</h3><canvas id="gaitA" width="620" height="350" role="img" aria-label="参考条件下的左右抽象节律曲线">浏览器需要支持 Canvas 才能显示节律图。</canvas></article><article class="visual-card"><h3>B · 相位变化</h3><canvas id="gaitB" width="620" height="350" role="img" aria-label="改变相位后的左右抽象节律曲线">浏览器需要支持 Canvas 才能显示节律图。</canvas></article></div>
+          <div class="insight"><span class="legend"><i class="blue"></i>左侧相位线<i class="teal"></i>右侧相位线</span><p>曲线纵向位置仅表示抽象节律，不能读作足接触、关节角度、肌肉活动或病理步态。</p></div>
+        </div><div class="playbar" data-controls="gait"></div><div class="observe"><p><b>观察任务</b> 找到两种条件差异最清楚的时刻，并说明相位与节律的区别。</p><button type="button" data-save="gait">记录此刻</button></div></div>
+      </section>
+      <section id="muscle" class="topic" hidden aria-labelledby="muscleTitle">
+        <div class="panel"><div class="panel-body">
+          <div class="title-row"><h2 id="muscleTitle">长度变化与作用方向</h2><span class="scope">机制示意，不计算肌力</span></div>
+          <p class="prompt">观察两端间距与指向内侧的箭头。箭头只表示作用方向，不表示力的大小。</p>
+          <div class="settings"><label>比较 B 的工作方式<select id="muscleMode"><option value="shorten">缩短</option><option value="lengthen">延长</option><option value="hold">长度保持</option></select></label><a class="inline-link" href="../lab/index.html">进入静态解剖浏览 ↗</a></div>
+          <div class="compare-grid"><article class="visual-card"><h3>A · 固定长度参考</h3><canvas id="muscleA" width="620" height="350" role="img" aria-label="固定长度抽象肌束及向内作用方向箭头"></canvas></article><article class="visual-card"><h3 id="muscleBTitle">B · 缩短</h3><canvas id="muscleB" width="620" height="350" role="img" aria-label="随进度变化的抽象肌束长度及作用方向箭头"></canvas></article></div>
+          <div class="insight"><p>图中为两端之间的抽象肌束，没有具体肌肉附着点或关节。长度保持时也可有主动作用；长度变化本身不能给出真实肌力。</p></div>
+        </div><div class="playbar" data-controls="muscle"></div><div class="observe"><p><b>观察任务</b> 比较三种长度变化方式，说明“长度保持”为什么不等于“没有作用”。</p><button type="button" data-save="muscle">记录此刻</button></div></div>
+      </section>
+      <section id="breath" class="topic" hidden aria-labelledby="breathTitle">
+        <div class="panel"><div class="panel-body">
+          <div class="title-row"><h2 id="breathTitle">胸腹轮廓的方向比较</h2><span class="scope">轮廓方向示意，不计算容量</span></div>
+          <p class="prompt">让两幅轮廓处在同一相位，观察胸廓外展、膈肌下移与腹壁外移的方向。</p>
+          <div class="compare-grid"><article class="visual-card"><h3>A · 胸廓方向观察</h3><canvas id="breathA" width="620" height="420" role="img" aria-label="胸廓外展及膈肌移动方向的二维轮廓"></canvas></article><article class="visual-card"><h3>B · 膈肌与腹壁方向观察</h3><canvas id="breathB" width="620" height="420" role="img" aria-label="膈肌下移与腹壁外移方向的二维轮廓"></canvas></article></div>
+          <div class="insight"><p>虚线表示起始轮廓，实线表示当前轮廓。两幅图强调不同观察方向；轮廓变化不是肺容积、通气量或呼吸功能测量。</p></div>
+        </div><div class="playbar" data-controls="breath"></div><div class="observe"><p><b>观察任务</b> 暂停在吸气方向最明显的位置，分别描述胸廓、膈肌与腹壁的变化。</p><button type="button" data-save="breath">记录此刻</button></div></div>
+      </section>
+      <section id="tread" class="topic" hidden aria-labelledby="treadTitle">
+        <div class="panel"><div class="panel-body">
+          <div class="title-row"><h2 id="treadTitle">速度与坡度的抽象调节</h2><span class="scope">参数关系示意，无运动处方</span></div>
+          <p class="prompt">分别改变速度档位和坡度档位，比较标记移动快慢与平台倾斜方向。</p>
+          <div class="settings tread-settings"><label>速度档位 <output id="speedValue">3</output><input id="treadSpeed" type="range" min="1" max="5" value="3" step="1"></label><label>坡度档位 <output id="slopeValue">2</output><input id="treadSlope" type="range" min="0" max="5" value="2" step="1"></label><button id="pinTread" type="button">将当前条件设为 A</button></div>
+          <div class="compare-grid"><article class="visual-card"><h3 id="treadATitle">A · 参考条件：速度 2 / 坡度 0</h3><canvas id="treadA" width="620" height="350" role="img" aria-label="参考速度与坡度档位下的抽象跑台平台及移动标记"></canvas></article><article class="visual-card"><h3 id="treadBTitle">B · 当前条件：速度 3 / 坡度 2</h3><canvas id="treadB" width="620" height="350" role="img" aria-label="当前速度与坡度档位下的抽象跑台平台及移动标记"></canvas></article></div>
+          <div class="insight"><p>档位没有真实设备单位，不对应测试方案或人体反应。这里只比较控制条件，不提供生理数值、临床分级或运动建议。</p></div>
+        </div><div class="playbar" data-controls="tread"></div><div class="observe"><p><b>观察任务</b> 固定坡度只改变速度，再固定速度只改变坡度；分别记录可见变化。</p><button type="button" data-save="tread">记录此刻</button></div></div>
+      </section>
+      <section class="panel notebook" aria-labelledby="notesTitle">
+        <div class="title-row"><div><h2 id="notesTitle">记录我的发现</h2><p class="muted">观察记录仅保存在当前浏览器，可导出后自行提交。</p></div><span id="noteTopic" class="badge">步态节律</span></div>
+        <label class="sr-only" for="userNote">观察内容</label><textarea id="userNote" rows="3" maxlength="2000" placeholder="我改变了什么？在什么相位看到了什么变化？这张示意图能说明到什么程度？"></textarea>
+        <div class="note-actions"><span id="feedback" role="status" aria-live="polite"></span><button type="button" id="saveNote" class="primary">保存观察记录</button></div>
+        <div class="record-head"><h3>最近的记录 <span id="recordCount">0</span></h3><div><button type="button" id="exportJSON">导出 JSON</button><button type="button" id="exportCSV">导出表格 CSV</button></div></div>
+        <ol id="recordList" class="record-list"></ol><p id="recordEmpty" class="muted">还没有记录。可以先暂停，再点“记录此刻”。</p>
+      </section>
+      <footer>动小学 · 《人体运动学》课程学习工具 <a href="../teacher-review.html">教师审查记录</a><a href="../README.md">使用说明与许可</a></footer>
+    </main>
+  </div>
+</body>
+</html>

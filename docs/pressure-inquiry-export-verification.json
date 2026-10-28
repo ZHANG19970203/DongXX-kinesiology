@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "method": "Parsed four actual IAB-downloaded reports and compared inquiry snapshots with bundled source JSON.",
+  "moduleAndMergedRecordsIdentical": true,
+  "sourceEvidenceFrames": [
+    25,
+    50
+  ],
+  "sourceArraysAndCoPExact": true,
+  "initialPredictionRetained": "heel",
+  "evidenceDirection": "toe",
+  "predictionNotASkillGrade": true,
+  "highestPointInspections": 2,
+  "incorrectSelectionRetained": true,
+  "sameThreshold": 3754.65,
+  "openExplanationAutoGraded": false,
+  "unansweredQuizNotScoredZero": true,
+  "bothHTML5ReportsValidAndTextEscaped": true,
+  "sourceAndLicenseRetained": true,
+  "testRecordsBundled": false,
+  "files": [
+    {
+      "type": "module-json",
+      "bytes": 15553,
+      "sha256": "452e1f55d5b7437c01f7138cbe82d912db00e347113ebfe6597bdf2ea6d0d6cd"
+    },
+    {
+      "type": "module-html",
+      "bytes": 12798,
+      "sha256": "2bafd82d1e4121101ebdf17d300c66ec2661af7c99c25c4bbe9614fd89cba1c0"
+    },
+    {
+      "type": "merged-json",
+      "bytes": 16024,
+      "sha256": "ffed19d31815719bf9cad1cf66435bcbd707479b49f43f745008efc2d3f3df9c"
+    },
+    {
+      "type": "merged-html",
+      "bytes": 19265,
+      "sha256": "2b930cad15795023fab9df4d8139b151da6c54f520f7afd3bfcf3cf9c73cf709"
+    }
+  ]
+}

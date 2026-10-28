@@ -1,0 +1,65 @@
+﻿组,学习项,肌肉ID,授权网格,模式,推荐视角,右侧网格,左侧网格,许可,审核状态
+G01,胸锁乳突肌,scm,True,浅表定位,front,FJ1595,FJ1573,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G02,前斜角肌,scaleneAnterior,True,深层投影,right,FJ1592,FJ1570,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G02,中斜角肌,scaleneMiddle,True,深层投影,right,FJ1593,FJ1571,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G02,后斜角肌,scalenePosterior,True,深层投影,right,FJ1594,FJ1572,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G03,斜方肌上部,trapUpper,True,浅表定位,back,FJ1521,FJ1521M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G03,斜方肌中部,trapMid,True,浅表定位,back,FJ1554,FJ1554M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G03,斜方肌下部,trapLower,True,浅表定位,back,FJ1520,FJ1520M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G04,头夹肌,spleniusCapitis,True,深层投影,back,FJ1545,FJ1545M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G04,颈夹肌,spleniusCervicis,True,深层投影,back,FJ1546,FJ1546M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G04,肩胛提肌,levator,True,深层投影,back,FJ1532,FJ1532M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G05,头半棘肌,semispinalisCapitis,True,深层投影,back,FJ1538,FJ1538M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G06,胸大肌,pecMajor,True,浅表定位,front,FJ1446;FJ1464;FJ1447,FJ1446M;FJ1464M;FJ1447M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G06,胸小肌,pecMinor,True,深层投影,front,FJ1456,FJ1456M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G07,三角肌前部,deltoidAnt,True,浅表定位,front,FJ1468,FJ1468M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G07,三角肌中部,deltoidMid,True,浅表定位,right,FJ1467,FJ1467M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G07,三角肌后部,deltoidPost,True,浅表定位,right,FJ1513,FJ1513M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G08,肱二头肌,biceps,True,浅表定位,front,FJ1478;FJ1512,FJ1478M;FJ1512M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G09,肱三头肌,triceps,True,浅表定位,back,FJ1479;FJ1480;FJ1477,FJ1479M;FJ1480M;FJ1477M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G10,背阔肌,latissimus,False,浅表定位,back,,,无独立网格,待专业教师逐项复核教学边界
+G10,大圆肌,teresMajor,True,浅表定位,back,FJ1507,FJ1507M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G11,大菱形肌,rhomboid,True,深层投影,back,FJ1536,FJ1536M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G11,小菱形肌,rhomboidMinor,True,深层投影,back,FJ1537,FJ1537M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G12,冈上肌,supra,True,深层投影,right,FJ1506,FJ1506M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G12,冈下肌,infra,True,浅表定位,back,FJ1500,FJ1500M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G12,小圆肌,teresMinor,True,浅表定位,back,FJ1508,FJ1508M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G12,肩胛下肌,subscap,True,深层投影,right,FJ1504,FJ1504M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G13,肱肌,brachialis,True,深层投影,front,FJ1486,FJ1486M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G13,肱桡肌,brachiorad,True,浅表定位,front,FJ1487,FJ1487M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G14,旋前圆肌,pronatorTeres,True,浅表定位,front,FJ1474;FJ1516,FJ1474M;FJ1516M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G14,桡侧腕屈肌,fcr,True,浅表定位,front,FJ1496,FJ1496M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G14,掌长肌,pl,True,浅表定位,front,FJ1502,FJ1502M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G14,尺侧腕屈肌,fcu,True,浅表定位,front,FJ1473;FJ1518,FJ1473M;FJ1518M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G15,桡侧腕长伸肌,ecrl,True,浅表定位,front,FJ1490,FJ1490M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G15,桡侧腕短伸肌,ecrb,True,浅表定位,front,FJ1489,FJ1489M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G15,尺侧腕伸肌,ecu,True,浅表定位,front,FJ1472;FJ1517,FJ1472M;FJ1517M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G15,旋后肌,supinator,True,深层投影,front,FJ1505,FJ1505M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G16,腹直肌,rectusAb,False,浅表定位,front,,,无独立网格,待专业教师逐项复核教学边界
+G16,腹外斜肌,extOblique,True,浅表定位,right,FJ1452,FJ1452M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G16,腹内斜肌,intOblique,False,深层投影,front,,,无独立网格,待专业教师逐项复核教学边界
+G16,腹横肌,transAb,False,深层投影,front,,,无独立网格,待专业教师逐项复核教学边界
+G17,竖脊肌群,erector,True,深层投影,back,FJ1526;FJ1527;FJ1528;FJ1533;FJ1534;FJ1535;FJ1544;FJ1551,FJ1526M;FJ1527M;FJ1528M;FJ1533M;FJ1534M;FJ1535M;FJ1544M;FJ1551M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G17,上后锯肌,serrPostSup,True,深层投影,back,FJ1542,FJ1542M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G17,下后锯肌,serrPostInf,True,深层投影,back,FJ1541,FJ1541M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G17,腰方肌,quadratusL,False,深层投影,front,,,无独立网格,待专业教师逐项复核教学边界
+G18,缝匠肌,sartorius,True,浅表定位,front,FJ1434,FJ1434M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G18,股直肌,rectusFem,True,浅表定位,front,FJ1433,FJ1433M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G18,阔筋膜张肌,tfl,True,浅表定位,right,FJ1438,FJ1438M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G19,臀大肌,gluteMax,True,浅表定位,back,FJ1418,FJ1418M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G19,臀中肌,gluteMed,True,浅表定位,back,FJ1419,FJ1419M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G19,臀小肌,gluteMin,True,深层投影,back,FJ1420,FJ1420M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G19,梨状肌,piriformis,True,深层投影,back,FJ1428,FJ1428M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G20,股薄肌,gracilis,True,浅表定位,front,FJ1421,FJ1421M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G20,股二头肌,bicepsFem,True,浅表定位,back,FJ1395;FJ1444,FJ1395M;FJ1444M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G20,半腱肌,semitend,True,浅表定位,back,FJ1436,FJ1436M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G21,胫骨前肌,tibAnt,True,浅表定位,front,FJ1439,FJ1439M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G21,腓骨长肌,fibLong,True,浅表定位,right,FJ1410,FJ1410M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G21,腓骨短肌,fibBrevis,True,浅表定位,right,FJ1409,FJ1409M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G21,第三腓骨肌,fibTertius,True,浅表定位,right,FJ1411,FJ1411M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G22,腓肠肌,gastrocnemius,True,浅表定位,back,FJ1394;FJ1397,FJ1394M;FJ1397M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G22,比目鱼肌,soleus,True,深层投影,back,FJ1437,FJ1437M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G22,腘肌,popliteus,True,深层投影,back,FJ1430,FJ1430M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G23,胫骨后肌,tibPost,True,深层投影,back,FJ1440,FJ1440M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G23,拇长屈肌（足）,fhl,True,深层投影,back,FJ1415,FJ1415M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界
+G23,趾长屈肌,fdl,True,深层投影,back,FJ1414,FJ1414M,CC BY 4.0 / BodyParts3D,待专业教师逐项复核教学边界

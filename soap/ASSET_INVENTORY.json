@@ -1,0 +1,171 @@
+{
+  "schema": "soap-assets-v26",
+  "measured": false,
+  "entries": [
+    {
+      "path": "soap/case-profile.json",
+      "bytes": 3335,
+      "sha256": "f4cd01aa4664c76ed636aa865e171186066faf576d4b98401e88f14b4ebeac3e"
+    },
+    {
+      "path": "soap/explorers-data.js",
+      "bytes": 9838,
+      "sha256": "ba9b9c833499a7ee7b9cada31f11df9db801b158df5478c011737423054884ef"
+    },
+    {
+      "path": "soap/explorers.css",
+      "bytes": 2987,
+      "sha256": "741b939faecd3d65d46101a867c3a1c837989166c0d7d690ac0b84d58cbdc5ab"
+    },
+    {
+      "path": "soap/explorers.js",
+      "bytes": 7922,
+      "sha256": "197e8ee8e72dc9b51da6231e74647809838bd90b5d10d2ac47cc546cece4e2c2"
+    },
+    {
+      "path": "soap/focus-v21.css",
+      "bytes": 2899,
+      "sha256": "cfc76c292dff758bb60be685452a8e8e13f5344067fe5102f3e4159a9a5198a2"
+    },
+    {
+      "path": "soap/index.html",
+      "bytes": 2895,
+      "sha256": "4555b3c69ecdcbe7813d3d2d81265af490730782310823a5340ead352d8277a1"
+    },
+    {
+      "path": "soap/interview-dialogue.json",
+      "bytes": 1227,
+      "sha256": "65b281fe1bfabed0feeaf599bdf628c0ed965141461bd81f85917c1bdbbd8fb7"
+    },
+    {
+      "path": "soap/live-verification.json",
+      "bytes": 589,
+      "sha256": "5246433f871ea9825ac6b26b6bfbb72b3122adc61d336402e607ea945797e941"
+    },
+    {
+      "path": "soap/media/arch.jpg",
+      "bytes": 37851,
+      "sha256": "32495cb4dffcea35e3a5e09de5132743cdaa9c680e9dc0c7c3419f4946b20c99"
+    },
+    {
+      "path": "soap/media/arch.mp4",
+      "bytes": 2196121,
+      "sha256": "536485f1a0ef67d4def86055895899ffbd4a78d8f469d30d76473453dfc74f0e"
+    },
+    {
+      "path": "soap/media/gait.jpg",
+      "bytes": 53411,
+      "sha256": "f00c7e7aa4458c914c8d529f940a9ee547001d417bf0887dc5664bd9c71767e5"
+    },
+    {
+      "path": "soap/media/gait.mp4",
+      "bytes": 3189561,
+      "sha256": "d464c8e412c131d22017b7fbe44ef6c51513229aaa6d4a15b7f9eb16282ef151"
+    },
+    {
+      "path": "soap/media/intro-original.jpg",
+      "bytes": 25351,
+      "sha256": "663adcc877084d59d096641d635bbd60e3f5a23c9a001c224ef3f30e594a9b02"
+    },
+    {
+      "path": "soap/media/intro-original.mp4",
+      "bytes": 26054310,
+      "sha256": "e3d7b4eb71636a3d13e1e205ca7baf0e749ffc366ac5864e4f3c99205d05929f"
+    },
+    {
+      "path": "soap/media/intro-playback.mp4",
+      "bytes": 2493711,
+      "sha256": "4c0edf0f88a706ba9284e5b4a316f69079ec50e8cf2b718e397e2e77191e4e5f"
+    },
+    {
+      "path": "soap/media/intro.jpg",
+      "bytes": 47067,
+      "sha256": "269a7db3e076045bf134c261a48874a798d34df05b450e7d7bedc0127f78c18b"
+    },
+    {
+      "path": "soap/media/intro.mp4",
+      "bytes": 2935423,
+      "sha256": "688404cf3d407735b63a94d6d7409826ce8a9798869328ea1c37780fbc972f26"
+    },
+    {
+      "path": "soap/media/plan.jpg",
+      "bytes": 70915,
+      "sha256": "5c5ee3696340ae7f5d93b0a0107990c5e92209cc782f052d7a4143df215a16ab"
+    },
+    {
+      "path": "soap/media/plan.mp4",
+      "bytes": 2868476,
+      "sha256": "5452f94182ccc80d712ee65136e656f709e4e8661e847ddf454078ecde6e1bce"
+    },
+    {
+      "path": "soap/media/portrait-patient.jpg",
+      "bytes": 8490,
+      "sha256": "2fa7a2fa5c8fb18cfd2c0d9f78271f7757a311f0bbd3202d50d4b632b0212ce5"
+    },
+    {
+      "path": "soap/media/portrait-therapist.jpg",
+      "bytes": 11102,
+      "sha256": "b2520c8e81b303bdcc8aa9936bad90fc9fecce5bd6a13be20cb78f35b0d8951f"
+    },
+    {
+      "path": "soap/media/scan.jpg",
+      "bytes": 32966,
+      "sha256": "82188f5b213149fa58e0083e390236dc22c394b2771622ed9a41b4caa887c23e"
+    },
+    {
+      "path": "soap/media/scan.mp4",
+      "bytes": 1070058,
+      "sha256": "c1126985bdefd0a73c34b30239cc205b411ba1c8b0742e46613cbcbeb2006cb7"
+    },
+    {
+      "path": "soap/media-experience.js",
+      "bytes": 6142,
+      "sha256": "57d76b0f7d10ddb51e61dc661d3800dfa84dd830dc42ca4733d9e248820cd580"
+    },
+    {
+      "path": "soap/media-provenance.json",
+      "bytes": 3293,
+      "sha256": "6433234223905d27f4e794dd006c24206b16e8b87e1e43e91f578203fab1dde7"
+    },
+    {
+      "path": "soap/media.json",
+      "bytes": 2259,
+      "sha256": "14aa5e2ac355db1eb9eeee57254b8312fed16089dc12b90f8b5d2e39911a7805"
+    },
+    {
+      "path": "soap/references.json",
+      "bytes": 6920,
+      "sha256": "f5f5321adfc4a122eb10d957c12e752837e792ebe8c57cbf34120073e82c33af"
+    },
+    {
+      "path": "soap/review-v19.html",
+      "bytes": 6188,
+      "sha256": "0b37c7a50478d7bce98e4739b749362e69fa145825c96578b1cbbf8f534cf09f"
+    },
+    {
+      "path": "soap/soap.css",
+      "bytes": 7965,
+      "sha256": "7dae92d1ab4b17bbc14e70212edb84ba98d1fcea5cadd5d497e2ab00e9797003"
+    },
+    {
+      "path": "soap/soap.js",
+      "bytes": 34087,
+      "sha256": "8ef3c8ba13b940e17cb497e612aba06c2e901d821bc85fa67dced818c0a8e30a"
+    },
+    {
+      "path": "soap/teaching-data.js",
+      "bytes": 2752,
+      "sha256": "75187ab5d01feed07c19f9cea04931daf0ff2a11b75b7b1533ae0743b241f71e"
+    },
+    {
+      "path": "soap/verification/browser-verification-v19.json",
+      "bytes": 999,
+      "sha256": "214162e6635cbed930033d8ceb274aed605ec8d770b7f9b0af2399918857bdd2"
+    },
+    {
+      "path": "soap/verification/technical-tests-v19.json",
+      "bytes": 1188,
+      "sha256": "d3b4a7321d997faf63d262ce3f500740ad04bc01ae75ef740ce7e7a5e649b7d5"
+    }
+  ]
+}

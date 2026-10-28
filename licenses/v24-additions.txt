@@ -1,0 +1,8 @@
+v24新增与恢复范围
+
+1. 原课程交互程序：来自用户已有dongxiaoxue_final_v13_teacher_avatar站点；品牌和原创课程内容按既有ORIGINAL_CODE_LICENSE.txt及LICENSE_SCOPE.txt执行。
+2. BodyParts3D/Somakine静态网格：沿用assembly目录内现有495项资产与CC BY 4.0署名。没有引入旧动态网格；来源URL、固定提交、原始与本地哈希见ASSET_INVENTORY.csv及assembly/licenses。
+3. 新骨投影：由上述授权几何生成，保留同一来源与署名；不来自旧模型的投影或关节配准。详见docs/v24-asset-changes.json。
+4. 姿势人物：复用clinic3d已有MPFB核心CC0角色及既有服装/外观实现，许可记录仍在clinic3d资产说明中。没有额外购买、复制外部真人头像或消耗HeyGen额度。
+5. 统一助教UI、教师密码保护、备份与导出：本项目新增代码。参考用户提供截图的功能组织，未复制其品牌、页面图片、知识库或数量宣传。
+6. 图片中的外部问答内容未当作本项目经过审定的科学依据。模型回复仍是学习辅助信息。

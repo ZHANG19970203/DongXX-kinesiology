@@ -1,0 +1,1483 @@
+// Original dialogue. Viewing never grants examination evidence.
+export const FILM_SEQUENCE = {
+  "schema": "dxx-film-sequence-v18",
+  "contentApproved": true,
+  "filmQualityApproved": false,
+  "clinicalValidation": false,
+  "source": "v17 reviewed original dialogue; v18 user approved production direction",
+  "clips": [
+    {
+      "id": "01A",
+      "act": 1,
+      "phase": "before",
+      "title": "先听见她的困扰",
+      "learningPoint": "把病史与触发情境连接到患者的生活困难。",
+      "evidenceRequirement": {
+        "all": [],
+        "source": "患者主动讲述病史；本段只建立患者报告，不建立检查结果。"
+      },
+      "normal": [
+        {
+          "speaker": "therapist",
+          "text": "陈女士，您好，我是林治疗师。请坐。脚踝最近怎样影响您的生活？"
+        },
+        {
+          "speaker": "patient",
+          "text": "十四个月前跑步扭了右脚，后来又崴过两次。走不平路、转个方向，就怕脚踝撑不住。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "反复这样，确实让人不踏实。您说的撑不住，是疼，还是突然发软？"
+        },
+        {
+          "speaker": "patient",
+          "text": "有时突然一软，不一定疼。我现在连走路都小心翼翼的。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "history_not_obtained",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "我们先聊聊最困扰您的事。您愿意从什么时候开始说？"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，我想先说说走路时的担心。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "declined",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "我想先了解一下，今天暂时不检查。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "可以，先聊清楚。是否检查，由您决定。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "welcome",
+      "trigger": "entry",
+      "actionLabel": "继续问诊",
+      "handoff": {
+        "nextNodeId": "safety",
+        "studentAction": "先听完整病史，再询问近期变化；不以足形预设病因。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "01B",
+      "act": 1,
+      "phase": "after",
+      "title": "商量能安心开始的一步",
+      "learningPoint": "安全询问、功能目标与持续同意。",
+      "evidenceRequirement": {
+        "all": [
+          "screening",
+          "goal"
+        ],
+        "source": "正常线须已取得近期变化回答与患者活动目标；否则使用补问分支。"
+      },
+      "normal": [
+        {
+          "speaker": "therapist",
+          "text": "近期没有新伤、麻木或明显肿胀。您最希望先恢复哪件事？"
+        },
+        {
+          "speaker": "patient",
+          "text": "先安心走不平路，再慢慢回去跑步。可检查会不会又崴到？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "我听到了。先从能耐受的小幅动作开始，每步先说明，您随时可以停。这样可以吗？"
+        },
+        {
+          "speaker": "patient",
+          "text": "可以。要是发紧或者害怕，我就告诉您。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "screening_or_goal_missing",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "检查前还想确认：最近有新伤、麻木、疼肿加重，或者不能踩地吗？"
+            },
+            {
+              "speaker": "patient",
+              "text": "我先把最近的情况说清楚。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "new_injury_or_unable_to_bear_weight",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "刚又扭了，疼得踩不了地。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "今天先不做负重挑战。请在安全位置休息，我们安排进一步医学评估。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": "safe_finish",
+            "physicalTasks": "ended",
+            "action": "停止后续体能任务；安全回稳并安排进一步评估；不得接回正常完成线。"
+          }
+        },
+        {
+          "condition": "declined",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "我今天还是有点怕，想下次再检查。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "没关系。我们记录今天未做，再商量下一步。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "consent",
+      "trigger": "entry",
+      "actionLabel": "商量检查",
+      "handoff": {
+        "nextNodeId": "local_intro",
+        "studentAction": "完成安全判断并记录同意；警示情境退出体能任务，不播放正常检查后对白。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "02A",
+      "act": 2,
+      "phase": "before",
+      "title": "先解释，再邀请脱鞋袜",
+      "learningPoint": "背屈、跖屈与同方法比较；动作先于数值。",
+      "evidenceRequirement": {
+        "all": [
+          "consent"
+        ],
+        "source": "无近期不宜活动情境；新增接触再次询问。"
+      },
+      "normal": [
+        {
+          "speaker": "therapist",
+          "text": "先坐稳，脱下鞋袜可以吗？我想看看脚踝怎样活动，不是要您使劲做到最大。"
+        },
+        {
+          "speaker": "patient",
+          "text": "可以。往上动有点紧，我怕又伤到。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "脚背靠近小腿叫背屈，向下伸叫跖屈。先小幅试试，不舒服就停，再用同样方法比左右。"
+        },
+        {
+          "speaker": "patient",
+          "text": "好，发紧时我会说。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "consent_missing",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "我先说明目的和过程，您可以决定是否尝试。现在方便坐稳、脱鞋袜吗？"
+            },
+            {
+              "speaker": "patient",
+              "text": "请先讲一下会怎样检查。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "declined",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "今天不想让人碰脚，可以先看演示吗？"
+            },
+            {
+              "speaker": "therapist",
+              "text": "当然可以。今天不记活动度结果，我们先看方法。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        },
+        {
+          "condition": "stopped",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "先停一下，现在不舒服。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "好的，先停稳。我问清感受，再决定是否继续。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "local_intro",
+      "trigger": "entry",
+      "actionLabel": "坐稳准备，再选量角教具",
+      "handoff": {
+        "nextNodeId": "alignment",
+        "studentAction": "坐稳后完成连续脱鞋、脱袜动作；核对量角器标志，再比较有效试次。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "02B",
+      "act": 2,
+      "phase": "after",
+      "title": "发紧不等于骨头错位",
+      "learningPoint": "区分活动表现与组织病因，不把角色角度当测量值。",
+      "evidenceRequirement": {
+        "all": [
+          "local_record"
+        ],
+        "source": "仅正常线：虚构病例右侧同方法负重背屈表现较小；没有角度值。"
+      },
+      "normal": [
+        {
+          "speaker": "patient",
+          "text": "右边到这里就紧，再往前脚跟要抬。是不是骨头错位了？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "先停在舒服的位置。刚才右侧负重背屈表现较小，发紧本身不能说明骨头错位。"
+        },
+        {
+          "speaker": "patient",
+          "text": "所以不是越往前顶，检查就越好吗？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "对。脚跟抬起会改变条件。要同样的方法，也要把您的感受一起记下。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "local_check_not_performed",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "今天还没作活动检查，就先不判断哪侧受限。之后按同样方法比较，也听听您的感受。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，不用先给我下结论。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "stopped_before_valid_comparison",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "刚才因不适停了，没有取得完整比较。先记录停止原因，不追求更远。"
+            },
+            {
+              "speaker": "patient",
+              "text": "谢谢，我想先缓一下。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        },
+        {
+          "condition": "declined",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "我暂时不想再试。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "可以，今天先不量角度。剩下的项目，我们逐项商量。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "local_explain",
+      "trigger": "choice",
+      "actionLabel": "认识动作与肌群",
+      "handoff": {
+        "nextNodeId": "muscle_intro",
+        "studentAction": "选择有依据的解释；角度、错位和病因均不得由动画自动生成。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "03A",
+      "act": 3,
+      "phase": "before",
+      "title": "用力的感觉值得听见",
+      "learningPoint": "主要肌群与动作关系；测试条件必须匹配动作。",
+      "evidenceRequirement": {
+        "all": [],
+        "source": "知识与方法演示；不表演未经审核的真实施阻或赋予患者肌力等级。"
+      },
+      "normal": [
+        {
+          "speaker": "therapist",
+          "text": "接下来看看哪些肌肉帮助脚踝活动、稳住身体。不是做得越快、越用力就越好。"
+        },
+        {
+          "speaker": "patient",
+          "text": "我往外用力时，总觉得右脚发软。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "这个感受要记下。腓骨长、短肌参与外翻。不同动作的检查，要分别安排体位、固定和阻力。"
+        },
+        {
+          "speaker": "patient",
+          "text": "我先听清方向，有不舒服就告诉您。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "muscle_learning_skipped",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "这一项先记待补。我们还没有力量结果，接下来可以先观察足弓。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，之后再回来了解。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "declined",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "今天不想做对抗用力。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "可以，我们先了解肌肉怎样参与动作。力量检查今天先不做。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        },
+        {
+          "condition": "stopped",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "这样用力不舒服，我想停。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "好的，放松下来。先记录感受，不继续加阻力。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "muscle_intro",
+      "trigger": "entry",
+      "actionLabel": "进入肌群配对",
+      "handoff": {
+        "nextNodeId": "muscle_match",
+        "studentAction": "配对主要肌群，选择相应体位和施阻方法；不制作未审核手法近景。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "03B",
+      "act": 3,
+      "phase": "after",
+      "title": "能做动作，不等于知道力量大小",
+      "learningPoint": "力量、耐力、定量力矩和激活时序是不同信息。",
+      "evidenceRequirement": {
+        "all": [
+          "muscle_knowledge",
+          "muscle_method"
+        ],
+        "source": "完成知识配对与方法判断；仍未测得患者等级、力矩或肌电。"
+      },
+      "normal": [
+        {
+          "speaker": "patient",
+          "text": "脚能往外动，为什么还是觉得没劲？是不是那块肌肉坏了？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "能活动，不等于力量和耐力都够。发软是线索，还要按规范检查，不能直接定位损伤。"
+        },
+        {
+          "speaker": "patient",
+          "text": "那只看走路，也不能知道肌肉反应有多慢？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "对，外观不能给出激活时间。先把知道的和需要补查的分开。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "muscle_learning_incomplete",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "还没有相应检查结果，就先不判断力量是否不足。您的发软感受记下来，之后再查。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，先记下我的感受，需要时再查。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "refused_or_stopped",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "今天先不做力量检查。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "可以，今天先不做。记录下您的感受和未做原因，之后需要时再查。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "muscle_explain",
+      "trigger": "entry",
+      "actionLabel": "回应患者的力量疑问",
+      "handoff": {
+        "nextNodeId": "arch_intro",
+        "studentAction": "明确知识学习不等于患者测力；保留发软感受与未测项目。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "04A",
+      "act": 4,
+      "phase": "before",
+      "title": "同一双脚，换个承重条件",
+      "learningPoint": "非负重与负重足弓外观比较，外观与功能分开。",
+      "evidenceRequirement": {
+        "all": [
+          "consent"
+        ],
+        "source": "本轮坐站观察同意；使用经审核病例外观资料，不假称通用角色足弓已准确变形。"
+      },
+      "normal": [
+        {
+          "speaker": "therapist",
+          "text": "再看看坐着和站着时，足弓外观有什么不同。先坐稳，让脚放松。"
+        },
+        {
+          "speaker": "patient",
+          "text": "为什么坐着也要看？我主要是站久了脚心酸。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "坐着负重少，站起后承重增加。换条件比较，能多一条线索；站稳后再看，不急。"
+        },
+        {
+          "speaker": "patient",
+          "text": "好，我按平常的站法，不刻意撑脚弓。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "arch_comparison_skipped",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "这一项先不做，我们就没有坐站足弓比较。之后有需要再补。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，我也想慢慢弄清哪里需要注意。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "declined_or_unsafe_to_stand",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "现在不想站起来。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "可以，先坐稳。今天不形成负重足弓结论。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        },
+        {
+          "condition": "stopped",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "站着不太舒服，我想坐下。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "好的，慢慢坐稳。先记录感受，观察到这里为止。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "arch_intro",
+      "trigger": "entry",
+      "actionLabel": "比较坐位与站立",
+      "handoff": {
+        "nextNodeId": "arch_compare",
+        "studentAction": "切换非负重与负重病例资料，记录外观；实际坐站与足弓动作须经审核。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "04B",
+      "act": 4,
+      "phase": "after",
+      "title": "低足弓，不是一句根因",
+      "learningPoint": "足形是一项特征；低足弓、高足弓都需个体评估。",
+      "evidenceRequirement": {
+        "all": [
+          "arch_record"
+        ],
+        "source": "已看本例坐站病例外观，负重较低；不等于已确诊柔韧性扁平足。"
+      },
+      "normal": [
+        {
+          "speaker": "patient",
+          "text": "站着时右脚弓看着低些。是不是垫高，就不会再崴了？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "足弓外观随负重变化，是一条线索。它不能单独解释反复崴脚，还要结合活动、负荷和您的感受。"
+        },
+        {
+          "speaker": "patient",
+          "text": "那是不是脚弓越高越好？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "也不是。高足弓有自己的特点，同样要重新评估，不能照搬您的结论。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "arch_check_not_performed",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "今天还没有坐站比较，不能说您是低足弓或高足弓。先把形态和症状分开。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，之后看资料再讨论。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "declined_or_stopped",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "这项先不继续了。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "可以。我们不把未完成的观察当成诊断，也不据此决定鞋垫。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "arch_concern",
+      "trigger": "entry",
+      "actionLabel": "回应足弓疑问",
+      "handoff": {
+        "nextNodeId": "gait_intro",
+        "studentAction": "记录外观差异；高足弓进入独立拓展入口，不改变本例病例设定。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "05A",
+      "act": 5,
+      "phase": "before",
+      "title": "让她按自己的方式走",
+      "learningPoint": "自然行走与任务条件；起步、直线、转身分别观察。",
+      "evidenceRequirement": {
+        "all": [
+          "consent"
+        ],
+        "source": "再次确认当前愿意且适合行走；正常线赤足准备已完成。"
+      },
+      "normal": [
+        {
+          "speaker": "patient",
+          "text": "赤脚走就可以吗？要踩准每一块板吗？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "对，保持赤足，按平常速度往前走，不用凑步踩板。我在旁边，有不适就停。"
+        },
+        {
+          "speaker": "patient",
+          "text": "我怕为了踩板，反而走得不自然。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "不用迁就设备。相邻两脚落地的前后间距叫步长，左右间距叫步宽；步速还要看距离和时间。转身另看。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "shoes_or_socks_still_on",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "这次约定观察赤足。请先坐稳脱鞋袜；如果不愿意，也可以改约条件，记录清楚。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，我先坐稳准备。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "declined",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "我现在不想走这段。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "可以，先坐稳休息。今天不作步态判断，我们可以先了解观察方法。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        },
+        {
+          "condition": "new_symptoms_or_stopped",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "走起来更不舒服了，我想停。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "好的，先在支撑旁站稳，我们重新了解症状。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": "safe_finish",
+            "physicalTasks": "ended",
+            "action": "停止后续体能任务；安全回稳并安排进一步评估；不得接回正常完成线。"
+          }
+        }
+      ],
+      "anchorNode": "gait_intro",
+      "trigger": "entry",
+      "actionLabel": "给出自然行走指令",
+      "handoff": {
+        "nextNodeId": "gait_events",
+        "studentAction": "播放连续板行走示意；学生标记同侧初始接触与足离地。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "05B",
+      "act": 5,
+      "phase": "after",
+      "title": "把一步拆开，才知道在比什么",
+      "learningPoint": "支撑与摆动、步长步宽步速；骨盆参考点不是全身重心。",
+      "evidenceRequirement": {
+        "all": [
+          "gait_events",
+          "gait_observation"
+        ],
+        "source": "正常线已完成同一教学片段事件标记与观察判断；结果只属于本编排片段。"
+      },
+      "normal": [
+        {
+          "speaker": "patient",
+          "text": "这一段里，右脚在地上停得短些，左右步子也不一样。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "同一只脚接地到离地叫支撑期，离地到再接地叫摆动期。先找准事件，再用相同条件比较。"
+        },
+        {
+          "speaker": "patient",
+          "text": "那骨盆上下动的线，就是身体重心吗？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "不能直接等同。画面告诉我们怎样动，为什么这样，还需别的证据。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "gait_task_not_performed",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "我们没完成这段步态观察，不能说您哪侧支撑更短。先学接地、离地，再找需要的资料。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，先把方法弄明白。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "events_not_marked",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "还没找到接地和离地，现在先不下时序结论。可以慢放，一起再看。"
+            },
+            {
+              "speaker": "patient",
+              "text": "明白，先弄清在比哪一步。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "declined_or_stopped",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "刚才中途停了，没走完。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "记录停止和当时感受，不把不完整片段当作稳定步态结果。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "gait_interpret",
+      "trigger": "choice",
+      "actionLabel": "进入足压观察",
+      "handoff": {
+        "nextNodeId": "pressure_intro",
+        "studentAction": "继续量的定义练习；后续可逐项展开步长、步宽、跨步长、步频、步速，不在短片挤成术语列表。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "06A",
+      "act": 6,
+      "phase": "before",
+      "title": "为什么再看足底负荷",
+      "learningPoint": "足底压力回答区域与时刻的负荷问题；先核对资料条件。",
+      "evidenceRequirement": {
+        "all": [],
+        "source": "教学合成数据；不得用对白或设备屏幕暗示真实采集已完成。"
+      },
+      "normal": [
+        {
+          "speaker": "patient",
+          "text": "看过走路了，为什么还要看这张足底图？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "走路画面看动作，这张图看足底哪些区域、在什么时候承受负荷。先看站立，再看行走。"
+        },
+        {
+          "speaker": "patient",
+          "text": "我只要找最红的地方就行吗？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "先别急。要核对足侧、任务和色标，条件一致才好比较。先用这张示意图看懂读法。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "gait_skipped",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "前面没作步态观察，我们先用示意图了解足底负荷。您的实际表现，之后再检查。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，我先认清图的条件。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "pressure_data_missing",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "没有可用的压力数据，还能解释吗？"
+            },
+            {
+              "speaker": "therapist",
+              "text": "可以先看示意图，了解读法。没有您的有效资料，就不判断您的受力情况。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "declined_or_stopped",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "我不想继续站或走了。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "好的，先坐稳。可以只看教学资料，不记录您的测试结果。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "pressure_intro",
+      "trigger": "entry",
+      "actionLabel": "核对读图条件",
+      "handoff": {
+        "nextNodeId": "pressure_conditions",
+        "studentAction": "核对静态与动态、足侧、方向、色标和接触时段，再观察连续板实时负荷示意。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "06B",
+      "act": 6,
+      "phase": "after",
+      "title": "颜色、压力中心和身体重心",
+      "learningPoint": "COP的物理含义和解释边界；没有统一强制S形。",
+      "evidenceRequirement": {
+        "all": [
+          "pressure_conditions",
+          "pressure_record"
+        ],
+        "source": "核对同条件合成教学图之后使用；屏幕持续标注教学示意，无实测单位。"
+      },
+      "normal": [
+        {
+          "speaker": "patient",
+          "text": "这条移动的线，是我的身体重心吗？红一点就说明伤得更重？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "不是。COP叫压力中心，是接触合力的作用位置。颜色表示这套色标下的负荷，不代表疼痛或损伤程度。"
+        },
+        {
+          "speaker": "patient",
+          "text": "那是不是走成标准的S形，就说明没问题？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "不能这样判断。轨迹会随条件变化，要和症状及其他检查一起看。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "conditions_not_checked",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "还没核对色标和任务，先不比较颜色。图上信息要有共同条件。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，先确认是不是同一种测试。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "pressure_not_performed",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "今天没有您的有效足压资料，不能说压力偏向哪里。我们先记住COP与身体重心不同。"
+            },
+            {
+              "speaker": "patient",
+              "text": "明白，等有了有效资料，再讨论我的情况。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "partial_contact_or_stopped",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "这段接触不完整，先不判断轨迹。脚离地后已没有这只脚的接触压力中心。"
+            },
+            {
+              "speaker": "patient",
+              "text": "明白，那先不急着解释这条线。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        }
+      ],
+      "anchorNode": "cop_explain",
+      "trigger": "entry",
+      "actionLabel": "回应压力中心疑问",
+      "handoff": {
+        "nextNodeId": "balance_intro",
+        "studentAction": "区分该足COP、双足合COP与全身重心；不得仅凭路径归因或给出固定正常模板。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "07A",
+      "act": 7,
+      "phase": "before",
+      "title": "不必从最难的开始",
+      "learningPoint": "分级任务、安全保护和患者自主选择。",
+      "evidenceRequirement": {
+        "all": [
+          "consent"
+        ],
+        "source": "当前无新症状；扶手、稳定地面和保护安排必须可见，未审手法不冒充真实保护。"
+      },
+      "normal": [
+        {
+          "speaker": "patient",
+          "text": "单脚站我有点怕，必须闭眼站软垫吗？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "不必。先睁眼、站稳地面，扶手就在旁边。我在保护侧，您愿意时再试单脚，随时可以落脚。"
+        },
+        {
+          "speaker": "patient",
+          "text": "扶一下，会不会就不算了？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "安全最重要。我们如实记下条件和表现，不为凑时间硬撑；一次只商量增加一个难度。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "declined",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "今天我不想试单脚站。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "可以，记录未做。我们照样能讨论目前的担心和下一步。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "paused_or_not_performed",
+            "action": "本项停止或记未做；不自动接回体能任务。仅继续交流；其他项目须重新说明并取得同意。"
+          }
+        },
+        {
+          "condition": "setup_not_safe",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "支撑和保护还没安排好，先不开始。请双脚站稳，等条件准备好。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，我不急着抬脚。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "new_symptoms_or_stopped",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "站着不舒服，想先停。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "好的，先扶稳，双脚落地。我再问清现在的情况。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": "safe_finish",
+            "physicalTasks": "ended",
+            "action": "停止后续体能任务；安全回稳并安排进一步评估；不得接回正常完成线。"
+          }
+        }
+      ],
+      "anchorNode": "balance_intro",
+      "trigger": "entry",
+      "actionLabel": "核对安全条件",
+      "handoff": {
+        "nextNodeId": "balance_choice",
+        "studentAction": "核对扶手、保护位置、稳定地面、睁眼、同意与停止方式，按表现决定是否增加挑战。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "07B",
+      "act": 7,
+      "phase": "after",
+      "title": "停止，也是一条重要信息",
+      "learningPoint": "尊重终止；平衡是多感觉和动作系统共同作用。",
+      "evidenceRequirement": {
+        "all": [
+          "balance_record",
+          "stopped_safely"
+        ],
+        "source": "正常线为虚构病例试次落脚并主动要求停止；无真实时长或感觉通路诊断。"
+      },
+      "normal": [
+        {
+          "speaker": "patient",
+          "text": "另一只脚落地了，我想停一下。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "好的，双脚放稳，扶好。谢谢您及时告诉我。现在主要是疼、发紧，还是担心？"
+        },
+        {
+          "speaker": "patient",
+          "text": "主要是怕控制不住。是不是脚踝的感应器坏了？"
+        },
+        {
+          "speaker": "therapist",
+          "text": "不能凭一次落脚这样判断。平衡需要视觉、身体感觉、前庭和肌肉共同配合。先把感受与条件记清楚。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "balance_not_performed",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "今天没有平衡试次，不能评价哪条感觉通路。我们先记录您对任务的担心。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，之后愿意了再从简单的试。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "completed_without_stop",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "刚才这一轮可以完成，但还是有点紧张。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "谢谢您告诉我。记录本次条件和感受，不凭一轮表现认定感觉功能正常或受损。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "new_symptoms",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "现在疼得更明显了。"
+            },
+            {
+              "speaker": "therapist",
+              "text": "好的，今天结束体能任务。先回稳休息，我们重新评估并安排下一步。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": "safe_finish",
+            "physicalTasks": "ended",
+            "action": "停止后续体能任务；安全回稳并安排进一步评估；不得接回正常完成线。"
+          }
+        }
+      ],
+      "anchorNode": "balance_explain",
+      "trigger": "entry",
+      "actionLabel": "整理本轮资料",
+      "handoff": {
+        "nextNodeId": "plan_intro",
+        "studentAction": "终止即停止计时；记录条件、患者感受和终止原因，不生成虚构秒数或本体感觉损伤诊断。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "08A",
+      "act": 8,
+      "phase": "before",
+      "title": "把资料连到她在意的生活",
+      "learningPoint": "证据—问题—可选措施—同法复评，替代单一必然病因链。",
+      "evidenceRequirement": {
+        "all": [
+          "goal"
+        ],
+        "source": "只调用本轮实际取得的证据；台词不预设所有检查完成或统一的患者异常。"
+      },
+      "normal": [
+        {
+          "speaker": "therapist",
+          "text": "您最想先安心走不平路。我们把今天实际取得的资料放一起，没做的先留空，不急着找一个万能原因。"
+        },
+        {
+          "speaker": "patient",
+          "text": "我也想知道，回去能从哪里开始，不要一下安排太多。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "可以。先选您愿意、能耐受的一步，再按同样方法复评。活动、力量和稳定练习，依证据来选。"
+        },
+        {
+          "speaker": "patient",
+          "text": "我愿意从简单的开始，再看反应调整。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "goal_not_obtained",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "还没问到您最想改善什么。比起把所有检查做完，您最在意哪件生活里的事？"
+            },
+            {
+              "speaker": "patient",
+              "text": "我想先安心走不平路。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "several_checks_skipped",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "几项检查还没做，今天的方案先保留范围。可以先补资料，也可以讨论您愿意的简单起点。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，那就先查清楚，再决定怎么练。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "declined_or_medical_stop_route",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "今天没有完成体能检查，我们不据此制定训练处方。先整理您的目标和停止原因，安排进一步评估。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，先把这一步安排清楚。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": "safe_finish",
+            "physicalTasks": "ended",
+            "action": "停止后续体能任务；安全回稳并安排进一步评估；不得接回正常完成线。"
+          }
+        }
+      ],
+      "anchorNode": "plan_intro",
+      "trigger": "entry",
+      "actionLabel": "开始综合判断",
+      "handoff": {
+        "nextNodeId": "plan",
+        "studentAction": "从证据板选择有依据的优先方向；缺资料时补评估，拒绝或停止不伪造正常值。",
+        "appliesTo": "normal_only"
+      }
+    },
+    {
+      "id": "08B",
+      "act": 8,
+      "phase": "after",
+      "title": "让她带着清楚的下一步离开",
+      "learningPoint": "共同决策、复述核对与复评；不以播放完成代表康复或返场许可。",
+      "evidenceRequirement": {
+        "all": [
+          "plan_shared"
+        ],
+        "source": "已共同选择下一步；未共同选择时用计划待定分支。"
+      },
+      "normal": [
+        {
+          "speaker": "therapist",
+          "text": "为了确认我讲清楚了，您能用自己的话说说下一步吗？"
+        },
+        {
+          "speaker": "patient",
+          "text": "先安心走路，从商量好的简单内容开始。不舒服或不稳就先停、扶稳；新伤或明显加重要就医。"
+        },
+        {
+          "speaker": "therapist",
+          "text": "对。复评再看实际表现和感受，调整计划；回到跑步，还需要后续的任务评估。您还有什么担心？"
+        },
+        {
+          "speaker": "patient",
+          "text": "现在清楚多了。谢谢您听我说，也没催我硬撑。"
+        }
+      ],
+      "alternative": [
+        {
+          "condition": "plan_not_selected",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "今天还没共同确定训练内容。我们先约好需要补的检查，再商量合适的起点。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，我先记下这一步。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "patient_does_not_understand",
+          "lines": [
+            {
+              "speaker": "patient",
+              "text": "我还是不太清楚，什么时候该停？"
+            },
+            {
+              "speaker": "therapist",
+              "text": "是我需要再讲清楚。不适或不稳时先停、扶稳；新伤或明显加重，及时就医。我们再一起确认。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": null,
+            "physicalTasks": "no_new_completion",
+            "action": "保持资料缺失、待补或条件待核对状态；完成相应询问或补充任务前不播放该项正常后对白。"
+          }
+        },
+        {
+          "condition": "medical_stop_or_declined_route",
+          "lines": [
+            {
+              "speaker": "therapist",
+              "text": "谢谢您把情况告诉我。今天未做的会如实记录。下一步先把评估安排清楚，您可以继续提问。"
+            },
+            {
+              "speaker": "patient",
+              "text": "好，谢谢您尊重我的选择。"
+            }
+          ],
+          "handoff": {
+            "nextNodeId": "safe_finish",
+            "physicalTasks": "ended",
+            "action": "停止后续体能任务；安全回稳并安排进一步评估；不得接回正常完成线。"
+          }
+        }
+      ],
+      "anchorNode": "teachback",
+      "trigger": "entry",
+      "actionLabel": "确认暂停与复评",
+      "handoff": {
+        "nextNodeId": "debrief",
+        "studentAction": "核对患者复述，导向证据复盘与学习自测；保持未做、待补和停止记录。",
+        "appliesTo": "normal_only"
+      }
+    }
+  ]
+};
+
+import {updateFilmDialogue} from "./soap-route-v20.js";
+updateFilmDialogue(FILM_SEQUENCE);
+
+import {normalizeFilm} from './communication-v26.js';
+normalizeFilm(FILM_SEQUENCE);
+import {applyNaturalFilm} from './natural-language-v26.js';
+applyNaturalFilm(FILM_SEQUENCE);

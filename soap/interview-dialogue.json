@@ -1,0 +1,34 @@
+{
+  "schema": "authored-portrait-dialogue-v21",
+  "presentation": "video stills with local synthetic speech; not new filmed or lip-synced footage",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "什么时候最不舒服？能形容一下那种感觉吗？"
+    },
+    {
+      "speaker": "patient",
+      "text": "林治疗师，主要是酸胀、发紧，不是一直像针扎那样疼。站久或走多以后更明显，坐下休息会好一些。"
+    },
+    {
+      "speaker": "therapist",
+      "text": "发软和疼痛总是一起出现吗？"
+    },
+    {
+      "speaker": "patient",
+      "text": "林治疗师，走不平的路、走快转弯或跑步变向时，有时脚踝突然一软，像踩空了。那一下不一定很疼，但我会害怕再崴。"
+    },
+    {
+      "speaker": "therapist",
+      "text": "明白了。疼痛和不稳感要分开记录。您最想恢复什么活动？"
+    },
+    {
+      "speaker": "patient",
+      "text": "林治疗师，我想先安心走不平的路，再逐渐恢复轻松跑步。"
+    },
+    {
+      "speaker": "therapist",
+      "text": "好，我们围绕这个目标检查，每一步都会先说明。"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# The web server otherwise uses Python standard-library components.
+# Excel export uses the existing Node.js @oai/artifact-tool runtime.
+Pillow>=10,<13

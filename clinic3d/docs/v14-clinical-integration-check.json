@@ -1,0 +1,102 @@
+{
+  "format": "dxx-v14-clinical-content-integration-check",
+  "reviewedAt": "2026-10-18",
+  "reviewType": "资料与实现语义审查；不是临床签审",
+  "clinicalSignoff": false,
+  "patientMeasurementsVerified": false,
+  "normativeManualResistanceImplemented": false,
+  "contentReviewPassed": true,
+  "materialClinicalMisleadingStatementsFound": [],
+  "checks": [
+    {
+      "id": "roles-and-case-history",
+      "passed": true,
+      "evidence": "CASE_DATA保持男林治疗师、女陈女士，28岁，14个月前右踝首次扭伤并再扭伤两次。明确标为虚构教学病例，未把来源研究参与者数值转成患者资料。"
+    },
+    {
+      "id": "eight-act-live-route",
+      "passed": true,
+      "evidence": "实际导入FLOW后沿首个合适选项构建44节点主线，幕序为act1、act2、act3、act4、act5、act6、act7、act8、debrief；所有next/options.next无悬空目标。ROM后进入肌群，再到足弓、步态、足压、平衡与综合计划。"
+    },
+    {
+      "id": "rom-identification-not-measurement",
+      "passed": true,
+      "evidence": "FLOW.alignment.task.measurePatientAngle=false；题目为外踝及两臂参考标志确认，反馈说明动画角不等于患者角度。当前主线第二三幕对白没有虚构成已测的11°/15°、患者MMT等级、N·m或毫秒读数。"
+    },
+    {
+      "id": "joint-axes-and-roll-glide",
+      "passed": true,
+      "evidence": "EIGHT_ACT_EDUCATION.act2及HTML已区分距小腿背屈/跖屈与距下复杂斜轴耦合；明确滚滑为简化概念，图谱未精确配准。开链背屈前滚后滑与官方大学教学页一致，闭链只强调小腿在足上前移，没有称当前模型测出真实关节面运动。"
+    },
+    {
+      "id": "rom-thresholds-and-position",
+      "passed": true,
+      "evidence": "膝角、足位、体位、对线和同方法比较已纳入旁白。≥15°万能阈值和程序测出11°只出现在“不能直接推断”的反例/边界中，没有变为正常诊断门槛。方法审查允许将来使用明示的既有虚构病例记录，禁止把其冒称当前角色测量。"
+    },
+    {
+      "id": "mmt-position-and-resistance",
+      "passed": true,
+      "evidence": "muscle_method把“全程俯卧、同一种阻力”设为需否定的问题；正确回应按动作调整体位、固定与施阻，记录疼痛、代偿和分级依据。反馈使用“跖屈高等级评定常涉及负重提踵”，未把它绝对化为所有患者必须做。"
+    },
+    {
+      "id": "mmt-task-scope",
+      "passed": true,
+      "evidence": "muscle_match明确是四项知识配对；muscle_knowledge不是患者力量资料，muscle_method是方法推理。证据目录和TEACHER_LIMITATIONS明确当前未实施规范施阻、固定、提踵计数或真实分级；case-muscle-v14.js的patientMmtGrade/patientTorqueNm为null、EMG=false。"
+    },
+    {
+      "id": "mmt-inference-boundary",
+      "passed": true,
+      "evidence": "muscle_explain将直接算出外翻力矩和证明激活延迟设为错误推断；正确路径保留发软感作为待检查线索，不定位损伤。未将MMT等级换成等距力量百分比，也未把静态肌肉显隐当成EMG采集。"
+    },
+    {
+      "id": "synthetic-records-and-safe-exits",
+      "passed": true,
+      "evidence": "local_record、arch_record和balance_record的来源分别保留虚构病例状态；步态与压力保持合成示意；未做或停止分支保留not_performed，未被填成正常成绩。综合解释仍允许补评估，不承诺矫正足弓后彻底治愈。此项为流程文本审查，实际退出锁与记录仍需应用测试验证。"
+    },
+    {
+      "id": "method-source-consistency",
+      "passed": true,
+      "evidence": "第二三幕methodSourceIds均能在独立v14-rom-mmt-sources.json的10项官方/原始来源中解析；MUSCLE_ITEMS全部sourceIds可解析。NIH0—10协议与MRC0—5量表的区别已在方法审查说明，不在患者端混用。"
+    },
+    {
+      "id": "generated-teacher-script",
+      "passed": true,
+      "evidence": "render-script-v14.mjs从实际FLOW构建合适主线，并由EIGHT_ACT_EDUCATION加入知识及不能推断项。eight-act-script-v14.html正确标为教师审阅稿，声明无患者测量/规范施阻/EMG/韧带受力，附签审空白及实现边界。它不是某个学生已完成临床操作的成绩报告。"
+    }
+  ],
+  "nonBlockingTraceabilitySuggestion": {
+    "id": "method-citations-in-generated-script",
+    "status": "resolved",
+    "detail": "根代理已在生成器及实际重生成HTML结尾加入独立ROM/MMT十条直达来源，并提供方法审查及来源JSON链接；逐一核对十条URL均出现在HTML中。"
+  },
+  "reviewedArtifacts": [
+    "case-flow.js",
+    "case-lesson-v14.js",
+    "case-muscle-v14.js",
+    "docs/render-script-v14.mjs",
+    "docs/eight-act-script-v14.html",
+    "docs/eight-act-route-v14.json",
+    "docs/v14-rom-mmt-sources.json",
+    "docs/v14-clinical-sources.json"
+  ],
+  "sourceBasis": [
+    "docs/v14-rom-mmt-sources.json",
+    "docs/v14-clinical-sources.json"
+  ],
+  "remainingRequiredReview": [
+    "专业教师逐项确认体位、触诊/固定、施阻、停止条件和教学目标。",
+    "实际三维动作与字幕、菜单、任务门槛、退出恢复的浏览器核对。",
+    "如将来加入测角或测力，应另行建立患者配准、测试方案、数据来源与误差验证。"
+  ],
+  "reviewedSourceSha256": {
+    "case-flow.js": "2871bb6ce473eb9c5506ce393ca7d37b22a3e403f0322772ed295477fea2eab0",
+    "case-lesson-v14.js": "fda1592dbaf0c3afccacc1afa401e1d81123fa5149cd76c95145e5bf01746470",
+    "case-muscle-v14.js": "7a28df2108bc6b24a9820d2fc5a58f6c6bc2fddeff2582fa74df229110977888",
+    "docs/render-script-v14.mjs": "9ab2c2e4d7cfcd5ccd28d5bad213dd873dae0a6541d34deeb15ae35f9c3cb0ff",
+    "docs/eight-act-script-v14.html": "786bdc5a3fc83bedd4e9f669bcdc3e32ad7c5247318c831610500974dca1abf0",
+    "docs/eight-act-route-v14.json": "8cf9290ed4f87d16fe3e694d12ba01e241e9a87c25d803ed4d0aac6934f6643f",
+    "docs/v14-rom-mmt-sources.json": "2cb4b6654cdc70130310b7fad05f67ba38030fce5518e4c7c91735963e29badd",
+    "docs/v14-clinical-sources.json": "6532b4933581b058fc996827bfee909075b3c7d04c5c5f06daf60a61a93fc80b"
+  },
+  "browserQaRecord": "browser-v14.json（根代理另行记录浏览器交互验收；不作为临床签审）"
+}

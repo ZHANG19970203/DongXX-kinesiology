@@ -1,0 +1,22 @@
+{
+  "schema": "dxx-v24-restoration-assets",
+  "clinic3dComparedFiles": 543,
+  "clinic3dChangedFiles": [],
+  "sourceOriginalSite": "C:/Users/张积众/Documents/Codex/2026-10-12/https-chatgpt-com-s-t-6accfe47e274819191bc45fce3c8ee24/work/lab-site",
+  "curriculumModules": 13,
+  "interactionObservations": 99,
+  "staticGeometry": "assembly/assets/geometry-manifest.json",
+  "geometryCount": 495,
+  "projections": {
+    "elbow_humerus": "777cf2c71728d069f744e82f145df39cc972dd372be2118615036cc999cddeaf",
+    "elbow_forearm": "4eccd93e88b57ebad9c37933dec2e9c9a1ddc20d944f82b1c5b737d7cf5ca37b",
+    "heel_tarsals": "4d2455b7323084347969187fa41f26ff1bdc9ae3205b49467753d3dfd389cc8c",
+    "heel_toes": "ea9120392f23729a136d77cc512defb0dccbd70f68e209836dff0cd89db9c712",
+    "heel_shank": "0d4474e6a0aea57560f8bdf9e4367c64c77ba1a33257822f995e7c9aacdf3005",
+    "head_aligned": "0c1ca2a08571388be04e537c5cbe7ec0321af3afa31f586ce30c4f98ea7ef146",
+    "neck_aligned": "f2ca764aacb9e4023ed97f31e496012b8363356e5ddfd51e9d1d4b6bdbb6602e"
+  },
+  "rig": "clinic3d/assets/patient-motion.glb (existing MPFB CC0 role)",
+  "licensing": "ASSET_INVENTORY.csv; licenses/v24-additions.txt; assembly/licenses",
+  "exclusions": "No original native binary, old actor payload, joint chain, source registration or source projection imported. New independent coarse driver is not clinical validation."
+}

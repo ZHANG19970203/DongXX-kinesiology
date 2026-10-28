@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-17 Asia/Shanghai",
+  "version": "clean-pressure-v2",
+  "environment": "Codex in-app browser at local HTTP 127.0.0.1:8769; default 1265x724 desktop viewport",
+  "passed": [
+    "Classroom registration, home pressure card, shared profile and pressure route",
+    "Both 249-frame side files load; L frame50 sum24620 CoP displayed(78.19,161.01), consistent with source rounding",
+    "Previous/next frame, range Home/PageUp navigation, playback progress at 0.25x and seek-to-pause",
+    "Default 15% thresholds retain L154/R151 frames; input999999 excludes all, input0 includes all249",
+    "Changing threshold updates readings and A/B; invalid input retains last valid threshold",
+    "A/B same-foot frames25/50 render; switching L/R clears both selections and keeps separate thresholds",
+    "Sensor label toggle and original discrete-point drawing render; no interpolated pressure surface",
+    "Rule question feedback2/3 then3/3; open explanation is not auto-graded",
+    "Observation/explanation and source snapshot save under synthetic QA01 identity",
+    "Actual module and merged HTML/JSON downloads parsed; source values and snapshots exact; text safely escaped",
+    "QA02 record count0 while QA01 count1; no transfer across student IDs",
+    "Empty-record export gives explicit save-first feedback",
+    "13-course navigation preserved; foot-arch and walking entries link to public pressure case",
+    "Short-screen desktop course sidebar now scrolls; walking button successfully clicked",
+    "Pressure-specific graphical tutor guidance opens"
+  ],
+  "sourceCodeReviewed": [
+    "Filtered CoP trace restarts with moveTo after every excluded frame; no connector crosses a gap",
+    "No clinical classification or uncalibrated physical-unit conversion",
+    "Source and licence URL preserved in page and report"
+  ],
+  "fixedDuringReview": [
+    "Threshold number input now updates on input as well as change",
+    "Desktop sticky course sidebar constrained to viewport and scrollable"
+  ],
+  "representativeBrowserErrorOrWarnLogs": [],
+  "limits": [
+    "Not a clinical/physical-calibration validation",
+    "Not an exhaustive test of all browsers, gestures, voices or storage-denied contexts",
+    "No LTM-ZDYL-200 hardware interface or streamed device data tested",
+    "Old static anatomy/assembly/topic UI evidence is retained separately in docs/ui-smoke-check.json"
+  ],
+  "testRecordsBundled": false
+}

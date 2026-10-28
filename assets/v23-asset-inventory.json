@@ -1,0 +1,12 @@
+{
+  "newImage": {
+    "path": "assets/runner-hero-v23.png",
+    "sha256": "6654f75cddce7b6f9057df1db6007dc538b90486efa97fa59d522e36030af0f0",
+    "source": "built-in imagegen",
+    "use": "decorative only",
+    "revision": "2026-10-26 Chinese male runner, sunny green theme"
+  },
+  "reusedAnatomy": "clinic3d/docs/anatomy-v10-provenance.json",
+  "reusedActors": "clinic3d/ASSET_INVENTORY.json",
+  "newPaidHeyGenJobs": 0
+}

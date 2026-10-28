@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-25",
+  "passed": true,
+  "syntheticData": true,
+  "browserSession": "soap.3c0b6a93-4724-4c8c-9c20-ea7c82b33156",
+  "checks": {
+    "hypothesisAndHistoryActualClicks": true,
+    "jointSlider10DegreesObserved": true,
+    "muscleModelsLoaded": true,
+    "archCalculationSubmitted": true,
+    "staticCOPGraphAndVelocityObserved": true,
+    "gait70PercentSwingAndAngleCurveObserved": true,
+    "all11TasksCompletedThroughUI": true,
+    "post16AnsweredCorrect5ObjectivesAchieved0": true,
+    "feedbackSaved": true,
+    "threeReflectionsSaved": true,
+    "thankYouDialogObserved": true,
+    "printableReportDownloaded": true,
+    "teacherJSONandCSVDownloaded": true,
+    "teacherExportEventCountMatchesDatabase": 31,
+    "fiveMediaHashesVerified": true,
+    "classroomSiliconFlowConfiguredWithoutExtraProbe": true
+  },
+  "scope": "Browser clicks were on isolated test-data server 8783. Live model test is separately logged; no real student outcomes inferred."
+}

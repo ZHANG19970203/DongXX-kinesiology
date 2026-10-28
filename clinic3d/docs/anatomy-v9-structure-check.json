@@ -1,0 +1,34 @@
+{
+  "schema": "dxx-clinic-anatomy-v9-structure-check",
+  "status": "passed",
+  "assetCount": 28,
+  "rightSideOnly": true,
+  "fetchedExistingChunks": [
+    0
+  ],
+  "fetchedChunkBytes": 4194304,
+  "newGeometryBytesOnDisk": 0,
+  "vertices": 10602,
+  "triangles": 17728,
+  "checks": [
+    "Existing chunk byte length and SHA-256",
+    "All selected mesh SHA-256 over position, normal, index payloads",
+    "Every typed range aligned and contained in selected chunk",
+    "All positions/normals finite",
+    "All normals unit length within 1e-4",
+    "Indices in range and triangle count integral",
+    "Declared bounds match actual position extents within 1e-6m",
+    "CC BY 4.0 and pinned Somakine source metadata on all meshes"
+  ],
+  "clinicalAccuracyValidation": false,
+  "browserVisualCheck": "Root integration and browser review pending",
+  "therapistWardrobe": {
+    "matchingTopAndTrousersHex": "0x17304c",
+    "materialTargets": [
+      "Tshirt_grey",
+      "Shorts_charcoal",
+      "Authored_clinician_trouser_shell"
+    ],
+    "skinHairUnchanged": true
+  }
+}

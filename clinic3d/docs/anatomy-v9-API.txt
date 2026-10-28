@@ -1,0 +1,62 @@
+足踝骨性解剖观察窗 v9
+
+用途
+复用完整网站现有495项已授权静态解剖资产中的28块右侧胫腓骨及足骨。
+全部所需几何位于 assembly/assets/mesh-00.bin，只请求该4MiB分片。
+没有新增、下载或复制大型几何文件；没有使用简化几何替代真实骨形。
+
+接入
+import {createAnatomyViewer} from './anatomy-viewer.js';
+const viewer = await createAnatomyViewer(document.querySelector('#anatomyHost'), {focus:'ankle'});
+
+宿主只需一个有宽度的HTML容器。组件含自身样式，默认画布340px高，最小270—300px。
+首次展开时异步创建一次，将同一viewer保留供各幕复用。不要每个对话节点重建。
+已有Three.js导入映射还需包含 three/addons/controls/OrbitControls.js。
+组件使用独立小画布，按需渲染，没有持续动画循环；关闭观察窗调用setVisible(false)。
+
+API
+viewer.setFocus('ankle'|'arch'|'foot')
+  选择踝、内侧纵弓或全足观察角度、说明和默认高亮。
+viewer.highlight('胫骨'|'腓骨'|'距骨'|'跟骨'|'舟骨'|'楔骨'|'跖骨')
+  中文别名或原目录key均可；也可传key数组。按钮和模型点选使用同一高亮逻辑。
+  目录key：tibia,fibula,talus,calcaneus,navicular,cuboid,cuneiformM,cuneiformI,cuneiformL,
+  mt1至mt5，以及toe1_proximal/toe1_distal、toe2至toe5的proximal/middle/distal。
+viewer.resize()
+  宿主由隐藏改成可见后可调用；另有ResizeObserver与IntersectionObserver自动重绘。
+viewer.setVisible(true|false)
+  停止或恢复画布绘制；不隐藏宿主，宿主显隐仍由主程序控制。
+viewer.getState()
+  返回ready/focus/selectedKeys/assetCount/fetchedChunkCount/fetchedBytes/integrity/side/staticAtlas。
+viewer.dispose()
+  观察窗最终销毁时释放控件、GPU几何/材质、renderer、observer和请求，移除组件。
+viewer.provenance
+  完整28项来源目录。
+
+可选回调
+{onSelection({keys,labels,focus}),onError(error),provenanceUrl:URL}
+资源加载错误会同时在观察窗中显示，并reject初始Promise；主程序应catch避免未处理异常。
+
+许可与署名
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+官方许可 https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+官方许可页已于2026-10-18核对，页面标示2025-02-27更新，CC BY 4.0，允许按要求署名再分发和改编。
+Somakine来源 https://github.com/ivershuo/somakine
+实际几何版本固定于179ed2c33a4a519027c6657f2c465bd1b66f9cd9，不跟随浮动main。
+Somakine框架MIT与BodyParts3D数据CC BY 4.0分开；本组件是项目新写代码，没有复制Somakine框架代码。
+原完整站assembly/licenses目录保留各项来源许可证、坐标变换、来源文件和校验记录。
+
+展示与适用范围
+几何保持原目录内统一Y向上、米单位的相对位置；不镜像、不重造骨、不重新配准。
+近景画面裁切胫腓骨上段，原始顶点和索引不变。显示教学识别色和一条所选骨名标签。
+这些是右侧静态图谱骨骼，帮助辨认结构，不代表病例患者自身足型。
+模型不包含本组件新建的韧带或筋膜，不模拟真实骨间活动、组织应变、COP或肌力。
+不能依据图谱形状确定病例活动范围、低足弓病因或治疗效果。
+
+结构检查
+anatomy-v9-structure-check.json记录所选分片及每块骨的SHA-256、有限值、索引与边界检查。
+此检查验证资源完整和结构合法，不替代教师临床审校或浏览器视觉检查。
+
+治疗师服装
+actors.js中Tshirt_grey、Shorts_charcoal和项目制作的加权长裤外壳均为0x17304c。
+GLB其余材质为头发、虹膜、瞳孔、眼白和皮肤；没有残留白色衣服材质。
+此次仅修改衣服颜色，皮肤和头发配色分支保持原样。

@@ -1,0 +1,71 @@
+{
+  "format": "dxx-pressure-reference-review-v12",
+  "verifiedAt": "2026-10-18",
+  "purpose": "核对真实足底压力图的形态、瞬时帧与逐点峰值合成图的区别，以及静态COP和全身质心的区别。参考链接不等于图像再分发许可。",
+  "copiedExternalImageFiles": [],
+  "originalAssets": ["pressure-engine.js中的原创程序化足底格点图及轨迹"],
+  "sources": [
+    {
+      "id": "novel-emed-support",
+      "type": "official_manufacturer_documentation",
+      "title": "novel emed support",
+      "url": "https://novel.de/support/emed-support/",
+      "imageExampleUrl": "https://novel.de/wp-content/uploads/2022/03/steps-402x800.png",
+      "supports": "官方流程将Maximum Pressure Picture（MPP）与可逐帧查看的roll-over过程分开；同时讨论多个足步的分割。",
+      "reuse": "参考并链接；未下载或打包官方截图。官网版权归原权利人。"
+    },
+    {
+      "id": "zebris-fdm-manual",
+      "type": "official_manufacturer_documentation",
+      "title": "zebris FDM 1.16.x R1 software user manual",
+      "url": "https://www.zebris.de/fileadmin/Editoren/zebris-PDF-Manuals/Medizin/Software/Alte_Versionen/Manual_zebris_FDM_1.16.x_R1_EN_web.pdf",
+      "status": "已核对官网127页PDF可访问。原先拟用的Aktuelle_Version/R2地址本轮返回404，不作为已成功访问来源。",
+      "supports": "足底压力软件的站立、步行和压力图展示形式；不将厂商示例数值视作所有人通用的正常阈值。",
+      "reuse": "参考并链接；未复制PDF页面或截图。"
+    },
+    {
+      "id": "filardi-2018",
+      "type": "primary_research",
+      "title": "Flatfoot and normal foot a comparative analysis of the stress shielding",
+      "author": "V. Filardi",
+      "year": 2018,
+      "doi": "10.1016/j.jor.2018.08.002",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6104143/",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30140126/",
+      "figure": "Figure 4: Contour maps of plantar pressure evaluated in normal feet and flatfoot",
+      "supports": "研究包含正常足与扁平足的真实压力轮廓比较，可供观察内侧中足受力图的差异。其两个受试者及有限元结果不能变成普遍诊断阈值。",
+      "accessNote": "全文搜索结果可读到方法和Figure 4说明；直接打开PMC页面时部分请求触发反爬验证。",
+      "reuse": "文章版权声明All rights reserved。本项目未复制、重绘或打包Figure 4，也未从图中数字化患者数据。"
+    },
+    {
+      "id": "gage-2004",
+      "type": "primary_research",
+      "title": "Kinematic and kinetic validity of the inverted pendulum model in quiet standing",
+      "authors": ["William H. Gage", "David A. Winter", "James S. Frank", "Allan L. Adkin"],
+      "year": 2004,
+      "doi": "10.1016/S0966-6362(03)00037-7",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0966636203000377",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/15013500/",
+      "supports": "COP由当前接触区域压力加权产生；全身COM由身体各段质量及其位置估计。两者在静态站立中也不能直接等同。",
+      "reuse": "概念核对与引用；未复制研究数据或图像。"
+    },
+    {
+      "id": "winter-1998",
+      "type": "primary_research",
+      "title": "Stiffness Control of Balance in Quiet Standing",
+      "authors": ["David A. Winter", "Aftab E. Patla", "Francois Prince", "Milad Ishac", "Krystyna Gielo-Perczak"],
+      "year": 1998,
+      "doi": "10.1152/jn.1998.80.3.1211",
+      "url": "https://doi.org/10.1152/jn.1998.80.3.1211",
+      "supports": "静态站立时COP与COM可分别记录且存在差异；Figure 1提供真实站立记录的概念参考。",
+      "reuse": "概念核对与链接；未复制Figure 1或患者信号。"
+    }
+  ],
+  "implementationDecision": {
+    "footprint": "原创5毫米等面积格点示意：分开绘制足跟、外侧缘、中足、跖骨头区和五趾。低足弓教学条件扩大内侧中足接触与合成载荷；不把一个足印当成扁平足诊断。",
+    "standing": "双足固定；仅对当前非负接触载荷做小幅重分配，产生有界COP微小摆动，不套用行走足跟到前足的曲线。",
+    "walking": "同一帧双足共享步态时钟；处于摆动期的足载荷为零且COP为null；双足支撑的合COP按当前载荷加权，位于两个足内COP连线上。",
+    "maximum": "每个格点各取接触期峰值；不同格点峰值可能不同步，因此不赋予瞬时总力或COP。",
+    "units": "位置单位为米。合成载荷只用于权重；压力颜色为相对值，不输出临床kPa或假装设备测量。"
+  }
+}

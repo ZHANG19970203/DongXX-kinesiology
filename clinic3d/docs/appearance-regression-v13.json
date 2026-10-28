@@ -1,0 +1,43 @@
+{
+  "schema": "dxx-appearance-check-v11",
+  "actors": {
+    "therapist": {
+      "character": "fictional adult male therapist",
+      "bones": 163,
+      "meshes": 39,
+      "vertices": 55777,
+      "invalidAttributeNumbers": 0,
+      "hiddenOriginalEyeMeshes": 6,
+      "lowerFaceWidthMetres": 0.145319864153862,
+      "details": [
+        "Original_male_fitted_hair"
+      ],
+      "sourceSkinVertices": 14517
+    },
+    "patient": {
+      "character": "fictional adult female patient",
+      "bones": 163,
+      "meshes": 47,
+      "vertices": 72029,
+      "invalidAttributeNumbers": 0,
+      "hiddenOriginalEyeMeshes": 6,
+      "lowerFaceWidthMetres": 0.1305430382490158,
+      "details": [
+        "Original_left_face_framing_lock",
+        "Original_right_face_framing_lock",
+        "Original_low_ponytail",
+        "Original_female_fitted_hair"
+      ],
+      "sourceSkinVertices": 14517
+    }
+  },
+  "independentSkeletons": true,
+  "differentFaceVertices": 3939,
+  "lowerLegVertexCount": 3170,
+  "identicalLowerLegVertices": 3170,
+  "originalGlbSha256": "76bf711327b68b1a803fd46de493b1e34933f0f591fa27b5b75f2361918ed4d2",
+  "paidGenerationJobs": 0,
+  "externalDownloads": 0,
+  "scope": "Finite geometry, role distinction and unchanged lower-leg source surface only. Visual review remains separate; not photorealistic or clinically calibrated.",
+  "passed": true
+}

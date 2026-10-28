@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-17 Asia/Shanghai",
+  "environment": "Codex in-app browser, local HTTP 127.0.0.1:8768, WebGL renderer",
+  "testIdentity": "Synthetic QA record only; no real student data packaged",
+  "passed": [
+    "Homepage classroom registration and shared identity",
+    "All 13 curriculum buttons produce the matching title and availability group",
+    "Static atlas 57,602,304-byte pool loads with SHA-256, elbow side view and humerus selection render",
+    "Shoulder muscle filter finds right and left supraspinatus source entries",
+    "Deep link from atlas opens matching chapter/task preparation",
+    "Shoulder muscle placement loads four rotator-cuff pieces; incorrect placement feedback and 3-second reference prompt work",
+    "Partially completed assembly saves as partial, not completed",
+    "Wrist mixed-side bone game loads six pieces and three rounds",
+    "All four finite topic routes and their scope captions visible",
+    "Topic stepping and note save",
+    "Lab observation and explanation save",
+    "Merged JSON export was downloaded and parsed: 1 observation, 1 explanation, 1 partial assembly and 1 topic note at export time",
+    "Original SVG tutor panel opens and provides guide navigation"
+  ],
+  "notExhaustivelyTested": [
+    "Every placement and every gesture in all 11 chapters",
+    "All browsers, low-memory devices, software fallback and device voices",
+    "Clinical/anatomical validity, school authentication, server grade return or legal certification"
+  ],
+  "exportChecks": {
+    "format": "dongxiaoxue-clean-migration-record-v1",
+    "observationCount": 1,
+    "explanationCount": 1,
+    "partialAssemblyCount": 1,
+    "topicCount": 1,
+    "fakeIdentityNotInDeliverable": true
+  },
+  "browserErrorLogAtRepresentativeScenes": []
+}

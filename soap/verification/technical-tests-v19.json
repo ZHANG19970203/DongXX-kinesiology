@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-25",
+  "passed": true,
+  "results": [
+    {
+      "name": "test_soap_v19.py",
+      "tests": 21,
+      "passed": true,
+      "output": "............127.0.0.1 POST /api/learning/soap 200\n.........\n----------------------------------------------------------------------\nRan 21 tests in 7.059s\n\nOK\n"
+    },
+    {
+      "name": "test_learning_v15.py",
+      "tests": 29,
+      "passed": true,
+      "output": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 23.376s\n\nOK\n"
+    },
+    {
+      "name": "test_navigation_events_v16.py",
+      "tests": 3,
+      "passed": true,
+      "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 2.115s\n\nOK\n"
+    },
+    {
+      "name": "test-flow.mjs",
+      "tests": 16,
+      "passed": true
+    },
+    {
+      "name": "test-navigation-v16.mjs",
+      "tests": 13,
+      "passed": true
+    },
+    {
+      "name": "test-film-sequence-v18.mjs",
+      "tests": 15,
+      "passed": true
+    }
+  ],
+  "liveProviderCallsByTheseTests": 0,
+  "clinicalValidation": false
+}

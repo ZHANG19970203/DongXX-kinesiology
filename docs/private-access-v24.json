@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "unauthenticated teacher records denied",
+    "name and staff id are not authentication",
+    "setup without private proof denied",
+    "private bootstrap creates teacher",
+    "cookie HttpOnly SameSite",
+    "authorized teacher may read",
+    "previous server token disabled after password setup",
+    "cross-origin login denied",
+    "teacher backup available",
+    "backup CRC",
+    "restored DB integrity",
+    "logout",
+    "logout revokes cookie",
+    "normal password login",
+    "password guessing is rate limited"
+  ]
+}

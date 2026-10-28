@@ -1,0 +1,40 @@
+{
+  "schema": "dxx-clinic-v8-browser-smoke",
+  "testedAt": "2026-10-18",
+  "browser": "Codex in-app browser,1280x720",
+  "normalPath": {
+    "terminal": "finish",
+    "visitedNodes": 37,
+    "evidence": 20,
+    "eventsInExport": 131,
+    "exportParsed": true,
+    "reflectionSaved": true,
+    "allExportedEventsReceivedByLocalBackend": true,
+    "completionEventCount": 1,
+    "exportSha256": "c60435f406a128393d1fb2f87a54f8c09af937aca31829b7a224e2d45245bbee"
+  },
+  "uiChecksPassed": [
+    "three-view toggle",
+    "resumed completed record",
+    "choice-lock after warning choice and reload",
+    "safe_finish preserves not_performed",
+    "goniometer gate rejects skip",
+    "gait marker gate rejects skip",
+    "pressure conditions gate rejects skip",
+    "static pressure cannot finish dynamic region task",
+    "balance gate requires five conditions",
+    "notes source categories",
+    "reflection and JSON download"
+  ],
+  "knownLimits": [
+    "No visual ground-truth for accurate clinical motion",
+    "No automated image collision validation",
+    "No mobile UI run this revision",
+    "No HeyGen job submitted"
+  ],
+  "console": {
+    "newErrorsSince": "2026-10-18T04:31:00Z",
+    "newErrorCount": 0,
+    "earlierCorrectedError": "Initial pressure exponent parse error fixed before normal playthrough"
+  }
+}

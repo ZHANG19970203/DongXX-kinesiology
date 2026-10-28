@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-17 Asia/Shanghai",
+  "requestedPaths": [
+    {
+      "path": "/mnt/data/dongxiaoxue_complete_four_topics.zip",
+      "exists": false
+    },
+    {
+      "path": "/mnt/data/dongxiaoxue_bodyparts3d_ip_clean_review.zip",
+      "exists": false
+    }
+  ],
+  "actualSource": {
+    "path": "C:\\Users\\张积众\\Downloads\\dongxiaoxue_complete_four_topics.zip",
+    "bytes": 50714329,
+    "sha256": "a5fac9c5b1358aebd877e8d712f19079038f94e75c2a1955f19ec575159d11ed",
+    "zipEntries": 112
+  },
+  "phaseOneReview": "The exact phase-one ZIP was not available and was not reviewed. No claim is made that the locally recovered original is byte-identical to an unavailable attachment.",
+  "threadRead": "Referenced conversation was read; its returned messages were content-reference placeholders and it listed no usable attachments.",
+  "scope": "Local recovery from the same-named Downloads archive; no previous release verification was carried forward."
+}

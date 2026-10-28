@@ -1,0 +1,58 @@
+{
+  "release": "v12",
+  "browser": "Codex in-app browser",
+  "qaOrigin": "http://localhost:8775",
+  "userOrigin": "http://localhost:8774",
+  "userNodeBefore": "pressure_compare",
+  "userNodeAfter": "pressure_compare",
+  "userEvidenceCountBefore": 12,
+  "userEvidenceCountAfter": 12,
+  "observations": [
+    "Concise sequential dialogue on left, next segment and task gates",
+    "Three BodyParts3D/Somakine anatomy posters visibly loaded",
+    "Goniometer missing operations rejected; completing three references opens continuation",
+    "Third-step initial-contact and toe-off markers validated; coach unfolds dock and focuses finish button",
+    "Seated continuous left/right shoe and sock removal, pause switches to resume, returns to original task barefoot",
+    "World-stationary removed garments visible after patient proceeds",
+    "Static standing pressure and bounded stabilogram, distinct from whole-body COM",
+    "Walking instant map: swing foot has no COP; floor heatmap and markers follow the same contact clock",
+    "MPP hides instantaneous COP and timeline",
+    "Playback end reaches phase 1 and returns button to play",
+    "No console warnings/errors in final QA page"
+  ],
+  "consoleWarningsOrErrors": [],
+  "viewportObservations": [
+    [
+      1178,
+      668
+    ],
+    [
+      1280,
+      720
+    ]
+  ],
+  "clinicalValidation": false,
+  "paidHeyGenJobs": 0,
+  "screenshots": [
+    {
+      "name": "preparation-v12.png",
+      "bytes": 61659,
+      "sha256": "b2974a4112dea3e6127eae6953d5466239a52e2fb27630a7c8d0a06ebcedc4f1"
+    },
+    {
+      "name": "standing-v12.png",
+      "bytes": 80327,
+      "sha256": "2e95ea0fe38a616d592b9f539828d516cbc9f27d7eac8db341e21c06d0e4f4b0"
+    },
+    {
+      "name": "walking-v12.png",
+      "bytes": 76879,
+      "sha256": "cfe423d76adb04b44c0eade192ea4986d1fd535acd9754acc9d9700fe42131e8"
+    },
+    {
+      "name": "maximum-v12.png",
+      "bytes": 78864,
+      "sha256": "c708e319ae480dfea3fec195b280fd8cad889141a56283decc16e0ecdbb33ea6"
+    }
+  ]
+}

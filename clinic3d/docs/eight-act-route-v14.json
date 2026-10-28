@@ -1,0 +1,140 @@
+{
+  "release": "v14",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "接诊问诊与共同目标",
+      "nodes": [
+        "welcome",
+        "history",
+        "trigger_answer",
+        "safety",
+        "safety_answer",
+        "goal",
+        "goal_answer",
+        "consent",
+        "consent_reply"
+      ]
+    },
+    {
+      "id": "act2",
+      "title": "踝足活动与测量方法",
+      "nodes": [
+        "local_intro",
+        "tool",
+        "alignment",
+        "trial",
+        "local_record",
+        "local_explain"
+      ]
+    },
+    {
+      "id": "act3",
+      "title": "肌群与检查方法",
+      "nodes": [
+        "muscle_intro",
+        "muscle_match",
+        "muscle_method",
+        "muscle_explain"
+      ]
+    },
+    {
+      "id": "act4",
+      "title": "静态足弓形态比较",
+      "nodes": [
+        "arch_intro",
+        "arch_compare",
+        "arch_concern"
+      ]
+    },
+    {
+      "id": "act5",
+      "title": "步态周期与双侧差异",
+      "nodes": [
+        "gait_intro",
+        "gait_instruction",
+        "gait_events",
+        "gait_interpret"
+      ]
+    },
+    {
+      "id": "act6",
+      "title": "足底负荷与压力中心",
+      "nodes": [
+        "pressure_intro",
+        "pressure_conditions",
+        "pressure_compare",
+        "cop_explain"
+      ]
+    },
+    {
+      "id": "act7",
+      "title": "平衡与感觉信息",
+      "nodes": [
+        "balance_intro",
+        "balance_choice",
+        "balance_trial",
+        "balance_stop",
+        "balance_explain"
+      ]
+    },
+    {
+      "id": "act8",
+      "title": "综合解释与共同计划",
+      "nodes": [
+        "plan_intro",
+        "synthesis",
+        "plan",
+        "plan_patient",
+        "teachback"
+      ]
+    }
+  ],
+  "mainRoute": [
+    "welcome",
+    "history",
+    "trigger_answer",
+    "safety",
+    "safety_answer",
+    "goal",
+    "goal_answer",
+    "consent",
+    "consent_reply",
+    "local_intro",
+    "tool",
+    "alignment",
+    "trial",
+    "local_record",
+    "local_explain",
+    "muscle_intro",
+    "muscle_match",
+    "muscle_method",
+    "muscle_explain",
+    "arch_intro",
+    "arch_compare",
+    "arch_concern",
+    "gait_intro",
+    "gait_instruction",
+    "gait_events",
+    "gait_interpret",
+    "pressure_intro",
+    "pressure_conditions",
+    "pressure_compare",
+    "cop_explain",
+    "balance_intro",
+    "balance_choice",
+    "balance_trial",
+    "balance_stop",
+    "balance_explain",
+    "plan_intro",
+    "synthesis",
+    "plan",
+    "plan_patient",
+    "teachback",
+    "debrief",
+    "uncertainty",
+    "transfer",
+    "finish"
+  ],
+  "clinicalValidated": false
+}

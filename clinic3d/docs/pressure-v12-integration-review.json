@@ -1,0 +1,89 @@
+{
+  "format": "dxx-pressure-integration-review-v12",
+  "reviewedAt": "2026-10-18",
+  "scope": "只读审查pressure-stage.js、app.js压力函数及相关演员和场景数据；修正我方pressure-engine.js，并运行数学与真实GLB骨骼CPU核对。没有替代浏览器视觉验收或临床验证。",
+  "result": "三类发现均已修复；未发现仍需阻断交付的压力坐标或相位问题。",
+  "resolvedFindings": [
+    {
+      "id": "world-lateral-sign",
+      "before": "演员footTarget.x=-foot.lateral且root旋转π，压力引擎却把world X再反向，产生约一个步宽的左右错位。",
+      "fix": "步行足中心改为origin.x+foot.lateral；格点改为centre.x+cell.lateral。静态默认左右中心、稳定图与API文档同步修正。",
+      "evidence": "pressure-v12-test-results.json中演员yawπ公式与拇趾朝内侧测试通过；pressure-v12-actor-integration-results.json实际GLB的401帧、802个足骨样本最大平面误差8.897486851229855e-8米。",
+      "status": "fixed"
+    },
+    {
+      "id": "static-heatmap-cache-and-settling",
+      "before": "地面热图缓存只含种类和相位；切换静态后脚归位而同相位热图未重绘。manualGait退出时walkWeight也曾残留。",
+      "fix": "pressure-stage.js缓存key已加入双足centre.x/z；actors.setGaitPhase(null)在退出manual时将walking=false、walkWeight=0并立即procedural(0)。",
+      "evidence": "当前源文件确认缓存及立即归位修复；socks-v12-check.json真实足骨对照 manualToStaticFootMaxErrorMetres=0、manualToStaticImmediate=true。",
+      "status": "fixed"
+    },
+    {
+      "id": "incomplete-plate-coverage",
+      "before": "原四块短有效面使起始帧约96.7%的正载荷未显示在板内，板缝也丢失部分格点，而合COP仍使用全部载荷。",
+      "fix": "场景改为5块连续齐平有效面，中心z=[1.75,1.20,0.65,0.10,-0.45]；每块0.784×0.55米，无旧16毫米空缝。",
+      "evidence": "0..2周期401帧正载荷格点范围X=[-0.215,0.015]、Z=[-0.3075,1.7275]；五板范围完整覆盖，板外正载荷格点0，最大丢失载荷0。v12-room-structure.json有独立实际场景复核。",
+      "status": "fixed"
+    }
+  ],
+  "verifiedChecks": [
+    {
+      "id": "world-z-and-cycle",
+      "passed": true,
+      "detail": "演员root.z=1.45-0.88*absoluteCycle，局部foot.forward经yawπ变为世界-Z；pressure引擎使用相同绝对步态锚点。跨整数周期时保留floor(cycle)*strideLength，不重置地面接触点。实际足骨最大Z误差8.723049704784103e-8米；支撑期足骨最大漂移1.213614175540533e-7米。"
+    },
+    {
+      "id": "pressure-plane-uv",
+      "passed": true,
+      "detail": "THREE.PlaneGeometry旋转X=-π/2后，world最小Z对应UV.v=1；CanvasTexture默认flipY=true对应画布顶部。py=(z-minZ)/length*canvas.height与之匹配，x到u同向，无前后或左右纹理镜像。"
+    },
+    {
+      "id": "phase-and-playback-rate",
+      "passed": true,
+      "detail": "步态任务taskPhase对应一周期；足压动态taskPhase*2对应两周期。角色手动相位、面板与地面压力都使用相同cycle。按0.25倍回放时单周期耗时4.8秒，两周期9.6秒；静态观察耗时8秒。"
+    },
+    {
+      "id": "standing-cop-vs-com",
+      "passed": true,
+      "detail": "静态采用真实足骨中心和小幅合成接触载荷变动，只输出COP毫米级摆动；没有把足跟到前足的行走线当成静态轨迹，也没有输出或冒称全身COM。"
+    },
+    {
+      "id": "combined-cop-current-load",
+      "passed": true,
+      "detail": "每足COP与双足合COP均仅对当前非负接触载荷加权。摆动足力为0且COP为null；双足支撑合COP位于两个足内COP连线上。五板现已覆盖所有正载荷贡献，不存在只裁热图而未裁合COP的范围矛盾。"
+    },
+    {
+      "id": "mpp-mode",
+      "passed": true,
+      "detail": "峰值合成图逐格取不同时刻的最大值，无瞬时总力或COP。app在maximum模式隐藏地面瞬时压力及COP标记；切回static/dynamic才恢复，未把MPP作为当前接触帧。"
+    },
+    {
+      "id": "renderer-current-frame",
+      "passed": true,
+      "detail": "面板和地面共享pressure-engine采样公式及同一相位；每足SVG按颜色合并为路径，地面CanvasTexture按当前force>阈值的格点重绘，摆动足不产生有色接触点。"
+    }
+  ],
+  "testArtifacts": [
+    "pressure-v12-tests.mjs",
+    "pressure-v12-test-results.json",
+    "pressure-v12-actor-integration.mjs",
+    "pressure-v12-actor-integration-results.json",
+    "v12-room-structure.json",
+    "socks-v12-check.json"
+  ],
+  "clinicalValidation": false,
+  "syntheticTeachingData": true,
+  "externalPressureImageAssetsCopied": false,
+  "remainingLimitations": [
+    "压力值、足底形状及接触期内载荷分配是原创合成教学条件，不是患者测量、临床正常值或足部软组织有限元计算。",
+    "压力板为虚拟场景有效范围，未接入或标定实体测压设备。",
+    "CPU核对说明几何位置与数据时钟一致，不能证明步态动作临床准确；浏览器中仍需检查实际画面、控件和字幕。"
+  ],
+  "reviewedSourceSha256": {
+    "app.js": "b143b3aa7f2619d5c05a8600af9feeccee056a4fa7521a6751091d9506f90feb",
+    "pressure-stage.js": "c953730feaf5d14f8d9114c389056c09fea387424ef5e6c582e19abcc578e9ce",
+    "pressure-engine.js": "0033bd145e879c936c0ad0f200bbb3d9762d145023e520f3d5d784d2d26aee20",
+    "actors.js": "40a623c0eab4bb413d873b8b175962dd0510a6df0c92be12622457ffff33cbd8",
+    "scene-room.js": "516e327fb3b3098f012a4343e879755a6e3fcd8165cac6991ccbc6194da1fd17"
+  }
+}

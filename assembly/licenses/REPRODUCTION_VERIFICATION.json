@@ -1,0 +1,86 @@
+{
+  "verifiedAt": "2026-10-17",
+  "allByteIdentical": true,
+  "files": [
+    {
+      "file": "assets/catalog.js",
+      "original": "abc462c3608a9ee93bb5ce36a4c9ab89aa0f8becc001e7c427c45cef71946697",
+      "reproduced": "abc462c3608a9ee93bb5ce36a4c9ab89aa0f8becc001e7c427c45cef71946697"
+    },
+    {
+      "file": "assets/geometry-manifest.json",
+      "original": "ce24622f759ad7096d3ead502668db2fc6c5f87d8f8e050cb113e0dfb035bc58",
+      "reproduced": "ce24622f759ad7096d3ead502668db2fc6c5f87d8f8e050cb113e0dfb035bc58"
+    },
+    {
+      "file": "assets/mesh-00.bin",
+      "original": "65d1c12fd4907e7f9a332db9dca61c49626f3055b03a3715da9a1a60cefd29b9",
+      "reproduced": "65d1c12fd4907e7f9a332db9dca61c49626f3055b03a3715da9a1a60cefd29b9"
+    },
+    {
+      "file": "assets/mesh-01.bin",
+      "original": "fa67b0fcf49c320c111f77bc2bba37daa6ffd94a19c7026b72c564c01da6368e",
+      "reproduced": "fa67b0fcf49c320c111f77bc2bba37daa6ffd94a19c7026b72c564c01da6368e"
+    },
+    {
+      "file": "assets/mesh-02.bin",
+      "original": "2206cd2fa18419987d599df972365d8c54c6439348dd54609e2d40f980c80ade",
+      "reproduced": "2206cd2fa18419987d599df972365d8c54c6439348dd54609e2d40f980c80ade"
+    },
+    {
+      "file": "assets/mesh-03.bin",
+      "original": "d6e39ec20caef14b32a0777ba8368823fe6bd3a385453148b439410aad5e0815",
+      "reproduced": "d6e39ec20caef14b32a0777ba8368823fe6bd3a385453148b439410aad5e0815"
+    },
+    {
+      "file": "assets/mesh-04.bin",
+      "original": "d834d1aa6d247df18de3bec88d7ddeaa66c143a233e49a6ebe8c9c70ec1c47aa",
+      "reproduced": "d834d1aa6d247df18de3bec88d7ddeaa66c143a233e49a6ebe8c9c70ec1c47aa"
+    },
+    {
+      "file": "assets/mesh-05.bin",
+      "original": "cd1ce06c0094f0e1a9da94be6a52bcb95793dcbb69ab003f0bd73fc8b4d10b1f",
+      "reproduced": "cd1ce06c0094f0e1a9da94be6a52bcb95793dcbb69ab003f0bd73fc8b4d10b1f"
+    },
+    {
+      "file": "assets/mesh-06.bin",
+      "original": "df5611baae96fa6df897c2a9395f2a7045d7845888040667fb28dbe57048c0cb",
+      "reproduced": "df5611baae96fa6df897c2a9395f2a7045d7845888040667fb28dbe57048c0cb"
+    },
+    {
+      "file": "assets/mesh-07.bin",
+      "original": "941074c8576f4a85f4c15bd241e2dc48e7785bbc0e3f39ea282697c861819d15",
+      "reproduced": "941074c8576f4a85f4c15bd241e2dc48e7785bbc0e3f39ea282697c861819d15"
+    },
+    {
+      "file": "assets/mesh-08.bin",
+      "original": "d8dc73b21dea419dd1622ad8191c84327dd26f6c37184bb2fe926634b42df538",
+      "reproduced": "d8dc73b21dea419dd1622ad8191c84327dd26f6c37184bb2fe926634b42df538"
+    },
+    {
+      "file": "assets/mesh-09.bin",
+      "original": "f9e9bec63ea0214bc49f1a54a2f0b780c826647fedd6359f9bad04e3aed078b1",
+      "reproduced": "f9e9bec63ea0214bc49f1a54a2f0b780c826647fedd6359f9bad04e3aed078b1"
+    },
+    {
+      "file": "assets/mesh-10.bin",
+      "original": "a0f1756e159bf8a323fb5583acf91f726d10bd813e0c22943c8301c7bbdc3bc6",
+      "reproduced": "a0f1756e159bf8a323fb5583acf91f726d10bd813e0c22943c8301c7bbdc3bc6"
+    },
+    {
+      "file": "assets/mesh-11.bin",
+      "original": "e1c3745e2036a1a1753960baaf580d807fdd276d9e850cf958398763e71563c9",
+      "reproduced": "e1c3745e2036a1a1753960baaf580d807fdd276d9e850cf958398763e71563c9"
+    },
+    {
+      "file": "assets/mesh-12.bin",
+      "original": "31d2a31d472c9c4f3b4201a8259fb37c66eb6f24e553c2280408ea63811dfe97",
+      "reproduced": "31d2a31d472c9c4f3b4201a8259fb37c66eb6f24e553c2280408ea63811dfe97"
+    },
+    {
+      "file": "assets/mesh-13.bin",
+      "original": "44476fc94f88954143fa0ca7e4ba537209bdd42fb44e5cdb2eae2cbfaf34f39b",
+      "reproduced": "44476fc94f88954143fa0ca7e4ba537209bdd42fb44e5cdb2eae2cbfaf34f39b"
+    }
+  ]
+}

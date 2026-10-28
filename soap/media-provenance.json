@@ -1,0 +1,84 @@
+[
+  {
+    "id": "intro",
+    "originalName": "导入.mp4",
+    "originalSHA256": "e3d7b4eb71636a3d13e1e205ca7baf0e749ffc366ac5864e4f3c99205d05929f",
+    "originalBytes": 26054310,
+    "cutsSeconds": [],
+    "output": "soap/media/intro-original.mp4",
+    "outputSHA256": "e3d7b4eb71636a3d13e1e205ca7baf0e749ffc366ac5864e4f3c99205d05929f",
+    "decodeCheck": "passed",
+    "source": "User supplied on 2026-10-25; project use authorized by user; no independent third-party rights clearance asserted",
+    "clinicalUse": "communication and observation context only",
+    "originalUncut": true,
+    "revisionReason": "2026-10-25 user explicitly requested the supplied 导入.mp4. Original bytes restored; prior v19 shortened edit retained only as historical asset."
+  },
+  {
+    "id": "arch",
+    "originalName": "低足弓发现.mp4",
+    "originalSHA256": "75c9b476b61fa1af5685bf03a29763e408aa289de70f15bfa3328c37c9b20eb6",
+    "originalBytes": 5253983,
+    "cutsSeconds": [
+      [
+        0,
+        16
+      ]
+    ],
+    "output": "soap/media/arch.mp4",
+    "outputSHA256": "536485f1a0ef67d4def86055895899ffbd4a78d8f469d30d76473453dfc74f0e",
+    "decodeCheck": "passed",
+    "source": "User supplied on 2026-10-25; project use authorized by user; no independent third-party rights clearance asserted",
+    "clinicalUse": "communication and observation context only"
+  },
+  {
+    "id": "gait",
+    "originalName": "步态周期 截取视频.mp4",
+    "originalSHA256": "6c39ecaea83817bffd44adc845bbe727adae5624c3a858a79add5874b0b2ad0e",
+    "originalBytes": 23008011,
+    "cutsSeconds": [
+      [
+        0,
+        22.62
+      ]
+    ],
+    "output": "soap/media/gait.mp4",
+    "outputSHA256": "d464c8e412c131d22017b7fbe44ef6c51513229aaa6d4a15b7f9eb16282ef151",
+    "decodeCheck": "passed",
+    "source": "User supplied on 2026-10-25; project use authorized by user; no independent third-party rights clearance asserted",
+    "clinicalUse": "communication and observation context only"
+  },
+  {
+    "id": "scan",
+    "originalName": "足底扫描.mp4.mp4",
+    "originalSHA256": "b2764b60c3a2a1c1cacdcbe9003cb86720d46c08dc7a1f1baa514c3dbe76ac15",
+    "originalBytes": 5869461,
+    "cutsSeconds": [
+      [
+        0,
+        5.11
+      ]
+    ],
+    "output": "soap/media/scan.mp4",
+    "outputSHA256": "c1126985bdefd0a73c34b30239cc205b411ba1c8b0742e46613cbcbeb2006cb7",
+    "decodeCheck": "passed",
+    "source": "User supplied on 2026-10-25; project use authorized by user; no independent third-party rights clearance asserted",
+    "clinicalUse": "communication and observation context only"
+  },
+  {
+    "id": "plan",
+    "originalName": "康复计划重点.mp4",
+    "originalSHA256": "f1f23e891d68c870f12af1133c6c4c32b638cdacd0e9b2732e87c74a3a27ec00",
+    "originalBytes": 13038175,
+    "cutsSeconds": [
+      [
+        5,
+        18.72
+      ]
+    ],
+    "output": "soap/media/plan.mp4",
+    "outputSHA256": "5452f94182ccc80d712ee65136e656f709e4e8661e847ddf454078ecde6e1bce",
+    "decodeCheck": "passed",
+    "source": "User supplied on 2026-10-25; project use authorized by user; no independent third-party rights clearance asserted",
+    "clinicalUse": "communication and observation context only"
+  }
+]

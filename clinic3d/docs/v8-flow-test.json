@@ -1,0 +1,155 @@
+{
+  "schema": "dxx-clinic-v8-flow-function-tests",
+  "generatedAt": "2026-10-18T04:42:56.100Z",
+  "passed": true,
+  "total": 13,
+  "passedCount": 13,
+  "testedFiles": [
+    {
+      "path": "app.js",
+      "sha256": "9956c523cae546d4082a7c3f0929ec224a8641db51dfda2f8a5f12aa07986b49"
+    },
+    {
+      "path": "case-flow.js",
+      "sha256": "67f2632dfb5c397f851c94dcd8023c85d000275c0c7b1dad22d25f07ab738777"
+    }
+  ],
+  "actualFunctions": [
+    "record",
+    "persist",
+    "addEvidence",
+    "appendLine",
+    "currentAct",
+    "drawRail",
+    "goto",
+    "choose",
+    "taskComplete",
+    "complete"
+  ],
+  "testMethod": "Extracted unchanged app control functions; in-memory DOM, localStorage and scene stubs. Exact content graph imported from case-flow.js. No browser, network, backend mutation or paid generation.",
+  "limits": [
+    "Does not validate visual quality, collision, anatomy, motion accuracy, clinical validity, actual browser storage or backend delivery.",
+    "Task fixtures supply authored operation receipts; browser interaction requires separate verification."
+  ],
+  "results": [
+    {
+      "id": "content-links",
+      "label": "内容节点与证据引用完整",
+      "passed": true,
+      "detail": {
+        "nodes": 41
+      }
+    },
+    {
+      "id": "same-screen-choice-lock",
+      "label": "同屏改选与重复点击被阻止",
+      "passed": true,
+      "detail": {
+        "choiceEventsAtNode": 1,
+        "next": "decline_stop"
+      }
+    },
+    {
+      "id": "persisted-choice-lock",
+      "label": "待继续的选择在真实保存与恢复后仍锁定",
+      "passed": true,
+      "detail": {
+        "persistedNext": "decline_stop",
+        "restoredNext": "decline_stop"
+      }
+    },
+    {
+      "id": "immediate-safety-lock",
+      "label": "选中安全分支立即锁路线且可继续到安全结局",
+      "passed": true,
+      "detail": {
+        "exitReason": "medical_stop",
+        "terminal": "safe_finish"
+      }
+    },
+    {
+      "id": "symptom-stop-route",
+      "label": "加载中不适分支退出剩余体能任务",
+      "passed": true,
+      "detail": {
+        "terminal": "safe_finish",
+        "physicalContinuationBlocked": true
+      }
+    },
+    {
+      "id": "normal-finish",
+      "label": "正常主线完成六幕与复盘后才到终结",
+      "passed": true,
+      "detail": {
+        "terminal": "finish",
+        "transitions": 36,
+        "completeEvents": 1
+      }
+    },
+    {
+      "id": "completion-idempotent",
+      "label": "终结保存幂等，非终结不能保存为完成",
+      "passed": true,
+      "detail": {
+        "completeEvents": 1,
+        "summaryEntries": 1
+      }
+    },
+    {
+      "id": "completed-readonly-restore",
+      "label": "已完成记录恢复为终结并禁止改写证据",
+      "passed": true,
+      "detail": {
+        "normalizedNode": "finish",
+        "readOnly": true
+      }
+    },
+    {
+      "id": "safe-completion-restore",
+      "label": "安全结局保存后保持安全终结与原停止原因",
+      "passed": true,
+      "detail": {
+        "terminal": "safe_finish",
+        "exitReason": "decline_stop"
+      }
+    },
+    {
+      "id": "pressure-gating",
+      "label": "足压静态与不足区间被拒，动态有效区间可通过",
+      "passed": true,
+      "detail": {
+        "staticAccepted": false,
+        "shortDynamicAccepted": false,
+        "validDynamicAccepted": true
+      }
+    },
+    {
+      "id": "task-guard",
+      "label": "量角器与步态任务未核对前不能取得对应操作证据",
+      "passed": true,
+      "detail": {
+        "incompleteLandmarksBlocked": true,
+        "incorrectEventMarksBlocked": true
+      }
+    },
+    {
+      "id": "skip-local-plan-guard",
+      "label": "跳过局部检查不补写活动结果且不能据此选活动度方案",
+      "passed": true,
+      "detail": {
+        "missingLocalEvidence": true,
+        "unsupportedPlanBlocked": true,
+        "alternativeAccepted": true
+      }
+    },
+    {
+      "id": "progress-only-rail",
+      "label": "章节栏仅显示进度，不能重开互斥分支",
+      "passed": true,
+      "detail": {
+        "chapters": 7,
+        "navigationEnabled": false
+      }
+    }
+  ]
+}

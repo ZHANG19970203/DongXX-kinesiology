@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-25",
+  "requestCount": 1,
+  "status": 200,
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "reply": "第一次是一年前下楼梯踩空，脚往里面扣了。第二次跑步踩到小石子，最近一次是一个月前打球变向。都是往里扭。",
+  "factIds": [
+    "mechanism"
+  ],
+  "usage": {
+    "prompt_tokens": 422,
+    "completion_tokens": 9,
+    "total_tokens": 431
+  },
+  "error": null,
+  "errorCode": null,
+  "duplicate": false,
+  "syntheticTestData": true,
+  "realStudentOrPatientDataSent": false
+}

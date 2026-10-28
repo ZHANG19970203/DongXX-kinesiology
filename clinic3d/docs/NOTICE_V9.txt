@@ -1,0 +1,11 @@
+v9 anatomy reuse notice / 2026-10-18
+
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+Official license: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+Somakine source: https://github.com/ivershuo/somakine
+
+28 right-side lower-leg and foot bone meshes are reused from the previously verified fixed Somakine/BodyParts3D pack. No replacement external geometry source was introduced. Per-bone IDs, fixed commit, byte/hash information and display changes: anatomy-v9-provenance.json. Local chunk hashes and finite coordinates/indices are checked in anatomy-v9-structure-check.json.
+
+Display changes: an independent Three.js viewer, bone highlight colors, named focus views and clipped proximal lower-leg display. Original relative anatomy is retained. This is static reference anatomy, not patient registration or a calibrated joint model.
+
+Original application/presentation code follows the existing MIT code scope. MIT does not replace the CC BY 4.0 data license. No HeyGen media was generated or uploaded for v9.

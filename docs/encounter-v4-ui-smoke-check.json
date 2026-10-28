@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "date": "2026-10-18 Asia/Shanghai",
+  "browser": "actual Codex in-app browser (IAB), default desktop viewport",
+  "caseCoverage": {
+    "cai": "complete end-to-end encounter and actual downloads",
+    "flatfoot": "case selection, opening, one authored question, independent saved draft",
+    "cavus": "case selection, opening, one authored question, independent saved draft",
+    "sprain": "case selection, opening, one authored question, saved draft and offline recovery"
+  },
+  "checks": [
+    "Homepage classroom registration enters clinic with identity",
+    "Therapist and patient opening appear in separate messages",
+    "All twelve CAI questions, safety categories and patient answers reachable",
+    "Repeated questions retain dialogue but do not inflate unique coverage",
+    "Free exact question maps to authored facts in local mode; unsupported diagnosis/prescription request asks for clarification and adds no coverage",
+    "Reload and resume retain current case and records",
+    "Examination explanation precedes consent/result; inappropriate route records non-execution",
+    "Five examination decision paths and four provenance-marked evidence cards recorded",
+    "Unsuitable interpretation produces feedback and can be revised",
+    "Empty reflection does not submit; completed reflection saves with 12 total/7 of 7 essential questions",
+    "Same 105 event IDs and contents present in actual student/teacher exports",
+    "Teacher no-token state does not show records; local token enables review, filter and charts",
+    "Empty case filter shows zero actual sessions; server restart requires fresh teacher token",
+    "Student JSON, teacher JSON/CSV/HTML, home merged JSON/HTML downloads parsed and compared",
+    "Service shutdown leaves three pending events; restart/reload resends, resumes and drains queue",
+    "Switching classroom identity shows zero prior-student completed encounters and no prior draft recovery",
+    "Patient image and compact conversation scene visually inspected on default desktop viewport"
+  ],
+  "limits": [
+    "Synthetic QA sessions are not teaching-effectiveness or clinical-outcome data.",
+    "Only CAI was completed end to end in the IAB; other three use the shared engine and contract checks plus individual smoke checks.",
+    "No true 3D patient rig, facial animation, lip sync, mocap or clinically validated gait animation.",
+    "No live DeepSeek call or credential test.",
+    "No mobile-device, storage-denied or live Chinese-voice branch executed; storage fallback was code-reviewed.",
+    "Intentional service-disconnection network errors occurred in the offline test; not treated as unexpected runtime failures."
+  ]
+}

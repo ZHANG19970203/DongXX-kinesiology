@@ -1,0 +1,23 @@
+{
+  "schema": "dxx-arch-v13-content-contract-check",
+  "questionCount": 3,
+  "sourceCount": 7,
+  "checks": {
+    "threeProfiles": true,
+    "threeQuestions": true,
+    "threeOptionsEach": true,
+    "oneBestAnswerEach": true,
+    "allOptionsExplain": true,
+    "uniqueQuestionAndOptionIds": true,
+    "sourceLinksResolve": true,
+    "questionSourcesResolve": true,
+    "patientRemainsLowArch": true,
+    "noClinicalScore": true,
+    "syntheticTeachingOnly": true,
+    "noNewExternalMedia": true,
+    "legacySourceAliases": true,
+    "pressureImplementationPreserved": true
+  },
+  "passed": true,
+  "scope": "Data structure and declared teaching boundaries only; no browser, gait, pressure or clinical validation."
+}

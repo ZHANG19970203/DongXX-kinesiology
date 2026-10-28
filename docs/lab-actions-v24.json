@@ -1,0 +1,3134 @@
+[
+  {
+    "module": 1,
+    "id": "01-1",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 36
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-2",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 36
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-3",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 36
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-4",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 32
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-5",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 32
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-6",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-7",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-8",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-9",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 50
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-10",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 37
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-11",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 37
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-12",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 6
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 6
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 6
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 6
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 6
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-13",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-14",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-16",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-17",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-18",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 37
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-19",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 50
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-20",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 50
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-21",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 1,
+    "id": "01-15",
+    "kind": "chain",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 8721,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 8951,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 8947,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 8958,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 8949,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 2,
+    "id": "02-1",
+    "kind": "lever",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 1369298,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 1369250,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 1369250,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 1369244,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 1369235,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 2,
+    "id": "02-2",
+    "kind": "lever",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 555830,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 556898,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 556895,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 556916,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 556931,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 2,
+    "id": "02-3",
+    "kind": "lever",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 227849,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 227846,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 227855,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 227885,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 227846,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 2,
+    "id": "02-4",
+    "kind": "bone",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 29585,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 38462,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 38495,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 38600,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 38357,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 2,
+    "id": "02-5",
+    "kind": "bone",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 29585,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 39338,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 38495,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 39476,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 38459,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 2,
+    "id": "02-6",
+    "kind": "bone",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 29483,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 31823,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 31334,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 31895,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 31130,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 2,
+    "id": "02-7",
+    "kind": "bone",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 29171,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 37574,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 37736,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 33308,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 37088,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 2,
+    "id": "02-8",
+    "kind": "bone",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 61328,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 63665,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 63671,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 63677,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 63710,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 2,
+    "id": "02-9",
+    "kind": "failure",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 11608,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 12803,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 16751,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 16725,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 16307,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-1",
+    "kind": "contraction",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 75526,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 75497,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 75536,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 75523,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 75494,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-2",
+    "kind": "contraction",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 75129,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 75129,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 75129,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 75129,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 75129,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-3",
+    "kind": "contraction",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 75499,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 75523,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 75536,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 75503,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 75532,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-9",
+    "kind": "dynamometer",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 3611,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 3611,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 3611,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 3611,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 3611,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-10",
+    "kind": "dynamometer",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 5884,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 5884,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 5884,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 5884,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 5884,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-4",
+    "kind": "ssc",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 8175,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 8178,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 8301,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 8292,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 8142,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-5",
+    "kind": "capacity",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 7535,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 7475,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 7325,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 7505,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 7529,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-6",
+    "kind": "capacity",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 8441,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 8531,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 8660,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 8663,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 8420,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-7",
+    "kind": "capacity",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 5282,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 5288,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 5288,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 5288,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 5288,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-8",
+    "kind": "capacity",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 7466,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 7460,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 7466,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 7460,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 7472,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-11",
+    "kind": "dynamometer",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 5873,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 5873,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 5873,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 5873,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 5873,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "id": "03-dynamic",
+    "kind": "embedded",
+    "status": "embedded"
+  },
+  {
+    "module": 4,
+    "id": "04-1",
+    "kind": "cardio",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 9140,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 9140,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 9140,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 9140,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 9140,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 4,
+    "id": "04-2",
+    "kind": "cardio",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 11835,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 11835,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 11835,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 11835,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 11835,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 4,
+    "id": "04-3",
+    "kind": "cardio",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 11987,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 11987,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 11987,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 11987,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 11987,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 4,
+    "id": "04-4",
+    "kind": "hr",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 4,
+    "id": "04-5",
+    "kind": "concept",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 257,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 257,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 257,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 257,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 257,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 4,
+    "id": "04-6",
+    "kind": "metabolism",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 4205,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 4209,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 4304,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 4393,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 4388,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 4,
+    "id": "04-dynamic",
+    "kind": "embedded",
+    "status": "embedded"
+  },
+  {
+    "module": 5,
+    "id": "05-1",
+    "kind": "breath",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 5165,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 6527,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 5209,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 6237,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 5160,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 5,
+    "id": "05-2",
+    "kind": "breath",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 10012,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 12626,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 10056,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 12047,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 10007,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 5,
+    "id": "05-3",
+    "kind": "breath",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 10012,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 12626,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 10056,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 12047,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 10007,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 5,
+    "id": "05-4",
+    "kind": "breath",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 5175,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 6527,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 5164,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 6237,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 5170,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 5,
+    "id": "05-5",
+    "kind": "candle",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 3550,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 5611,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 5611,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 3610,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 3610,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 5,
+    "id": "05-6",
+    "kind": "candle",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 3480,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 5558,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 4549,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 3540,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 3540,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 5,
+    "id": "05-dynamic",
+    "kind": "embedded",
+    "status": "embedded"
+  },
+  {
+    "module": 6,
+    "id": "06-1",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 36
+      }
+    ]
+  },
+  {
+    "module": 6,
+    "id": "06-2",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 36
+      }
+    ]
+  },
+  {
+    "module": 6,
+    "id": "06-3",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 36
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 36
+      }
+    ]
+  },
+  {
+    "module": 6,
+    "id": "06-4",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 32
+      }
+    ]
+  },
+  {
+    "module": 6,
+    "id": "06-5",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 32
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 32
+      }
+    ]
+  },
+  {
+    "module": 6,
+    "id": "06-6",
+    "kind": "scapula",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 962,
+        "visible": 32
+      },
+      {
+        "t": 0.25,
+        "diagram": 964,
+        "visible": 32
+      },
+      {
+        "t": 0.5,
+        "diagram": 961,
+        "visible": 32
+      },
+      {
+        "t": 0.75,
+        "diagram": 965,
+        "visible": 32
+      },
+      {
+        "t": 1,
+        "diagram": 963,
+        "visible": 32
+      }
+    ]
+  },
+  {
+    "module": 7,
+    "id": "07-1",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 7,
+    "id": "07-2",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 7,
+    "id": "07-3",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 7,
+    "id": "07-4",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 7,
+    "id": "07-5",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "id": "08-1",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 50
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "id": "08-2",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 50
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "id": "08-3",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 50
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 50
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "id": "08-4",
+    "kind": "fsu",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 2
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "id": "08-5",
+    "kind": "fsu",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 2
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "id": "08-6",
+    "kind": "fsu",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 2
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "id": "08-7",
+    "kind": "fsu",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 2
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "id": "08-8",
+    "kind": "fsu",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 2
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "id": "08-9",
+    "kind": "fsu",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 2
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 2
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "id": "08-10",
+    "kind": "concept",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 192,
+        "visible": 2
+      },
+      {
+        "t": 0.25,
+        "diagram": 192,
+        "visible": 2
+      },
+      {
+        "t": 0.5,
+        "diagram": 192,
+        "visible": 2
+      },
+      {
+        "t": 0.75,
+        "diagram": 192,
+        "visible": 2
+      },
+      {
+        "t": 1,
+        "diagram": 192,
+        "visible": 2
+      }
+    ]
+  },
+  {
+    "module": 9,
+    "id": "09-1",
+    "kind": "pelvis3d",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 11
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 11
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 11
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 11
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 11
+      }
+    ]
+  },
+  {
+    "module": 9,
+    "id": "09-2",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 37
+      }
+    ]
+  },
+  {
+    "module": 9,
+    "id": "09-3",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 37
+      }
+    ]
+  },
+  {
+    "module": 9,
+    "id": "09-4",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 37
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 37
+      }
+    ]
+  },
+  {
+    "module": 9,
+    "id": "09-5",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 6
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 6
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 6
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 6
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 6
+      }
+    ]
+  },
+  {
+    "module": 9,
+    "id": "09-6",
+    "kind": "pelvis3d",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 11
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 11
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 11
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 11
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 11
+      }
+    ]
+  },
+  {
+    "module": 10,
+    "id": "10-1",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 10,
+    "id": "10-2",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 10,
+    "id": "10-3",
+    "kind": "native",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 0,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 0,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 10,
+    "id": "10-4",
+    "kind": "concept",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 265,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 265,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 265,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 265,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 265,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 11,
+    "id": "11-1",
+    "kind": "arch",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 1388,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 1391,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 1390,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 1391,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 1388,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 11,
+    "id": "11-2",
+    "kind": "arch",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 2729,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 2736,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 2731,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 2736,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 2729,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 11,
+    "id": "11-3",
+    "kind": "cop",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 2501,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 3617,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 4508,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 5448,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 6263,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 11,
+    "id": "11-6",
+    "kind": "footprints",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 17404,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 26624,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 32792,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 37372,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 35414,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 11,
+    "id": "11-5",
+    "kind": "archStructure",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 439779,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 439779,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 439779,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 439779,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 439779,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 12,
+    "id": "12-dynamic",
+    "kind": "embedded",
+    "status": "embedded"
+  },
+  {
+    "module": 13,
+    "id": "13-1",
+    "kind": "gait",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 45530,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 51491,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 58118,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 64433,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 70993,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 13,
+    "id": "13-2",
+    "kind": "gait",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 47266,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 53233,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 59858,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 66175,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 72729,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 13,
+    "id": "13-3",
+    "kind": "gait",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 45603,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 51567,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 58202,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 64531,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 71114,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 13,
+    "id": "13-4",
+    "kind": "gait",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 45577,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 51551,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 58190,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 64512,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 71082,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 13,
+    "id": "13-5",
+    "kind": "gait",
+    "status": "pass",
+    "samples": [
+      {
+        "t": 0,
+        "diagram": 45661,
+        "visible": 30
+      },
+      {
+        "t": 0.25,
+        "diagram": 51595,
+        "visible": 30
+      },
+      {
+        "t": 0.5,
+        "diagram": 58008,
+        "visible": 30
+      },
+      {
+        "t": 0.75,
+        "diagram": 64557,
+        "visible": 30
+      },
+      {
+        "t": 1,
+        "diagram": 71124,
+        "visible": 30
+      }
+    ]
+  },
+  {
+    "module": 13,
+    "id": "13-dynamic",
+    "kind": "embedded",
+    "status": "embedded"
+  }
+]

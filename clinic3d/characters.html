@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>角色外观预览 · 动小学</title>
+<script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef2f4;color:#243d53;font:14px/1.8 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1080px;margin:28px auto;padding:0 22px 40px}header{display:flex;justify-content:space-between;gap:20px;align-items:center}a{color:#306b8d}h1{font-size:25px;font-weight:550;margin:19px 0 4px}.intro{color:#657e8e;margin:0 0 20px}.portraits{display:grid;grid-template-columns:1fr 1fr;gap:22px}.portrait{overflow:hidden;background:#fffefa;border:1px solid #d6e1e6;border-radius:17px}.portrait h2{font-size:16px;margin:15px 20px 2px}.portrait p{font-size:12px;color:#6c8493;margin:0 20px 14px}.portrait canvas{display:block;width:100%;height:410px;background:#e4ebee}.views{display:flex;justify-content:center;gap:9px;padding:16px}.views button{font:inherit;font-size:12px;border:1px solid #cedde4;border-radius:8px;padding:6px 15px;background:white;color:#365e78;cursor:pointer}.views button[aria-pressed=true]{background:#234d73;color:white;border-color:#234d73}.note{font-size:12px;color:#697f8e;margin-top:20px}.status{padding:15px;background:#fffefa;border-radius:10px;margin-bottom:16px}button:focus-visible,a:focus-visible{outline:3px solid #c99040;outline-offset:3px}@media(max-width:600px){.portraits{grid-template-columns:1fr}.portrait canvas{height:370px}main{margin-top:15px;padding:0 14px 30px}h1{font-size:22px}}
+</style></head><body><main><header><b>动小学 · 足踝评估诊室</b><a href="index.html?demo=1">返回接诊 →</a></header><h1>角色外观预览</h1><p class="intro">男治疗师与女患者。切换正面、侧面，查看本轮的人物外观。</p><p><button id="frameToggle" type="button">查看全身服装</button></p><p id="status" class="status" role="status">正在准备角色…</p><div class="portraits"><section class="portrait"><h2>林治疗师 · 男</h2><p>深蓝色上下装 · 短黑发 · 细框眼镜</p><canvas id="therapist" aria-label="林治疗师面部与上身预览"></canvas><div class="views" data-person="therapist"><button data-angle="0" aria-pressed="true">正面</button><button data-angle="0.52" aria-pressed="false">侧面</button></div></section><section class="portrait"><h2>陈女士 · 女</h2><p>宽松灰色开襟外套 · 白色衬衣 · 黑色长裤 · 齐肩层次发</p><canvas id="patient" aria-label="陈女士面部与上身预览"></canvas><div class="views" data-person="patient"><button data-angle="0" aria-pressed="true">正面</button><button data-angle="0.52" aria-pressed="false">侧面</button></div></section></div><div class="views" aria-label="患者姿态预览"><button data-pose="standing" aria-pressed="true">站立</button><button data-pose="seated" aria-pressed="false">坐姿</button><button data-pose="walking" aria-pressed="false">步行</button></div><p class="note">当前为实时三维人物的外观修订，后续可继续替换更精细的授权人物与面部。换装、换脸后仍需重新核对对话表情和检查动作。</p></main>
+<script type="module">
+import * as THREE from 'three';
+import {createActors} from './actors.js';
+import {walkingVisualSample} from './walking-principles-v26.js';
+const scene=new THREE.Scene();scene.background=new THREE.Color('#e4ebee');
+scene.add(new THREE.HemisphereLight('#fff8ef','#a7b7c2',1.65));
+const key=new THREE.DirectionalLight('#fff8eb',2.0);key.position.set(-2,3,4);scene.add(key);
+const fill=new THREE.DirectionalLight('#e8f5ff',.65);fill.position.set(2,1,3);scene.add(fill);
+let actors;const portraits=[];let fullBody=false,previewPose='standing';
+for(const role of ['therapist','patient']){
+ const canvas=document.getElementById(role),renderer=new THREE.WebGLRenderer({canvas,antialias:true});
+ renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.outputColorSpace=THREE.SRGBColorSpace;
+ renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.0;
+ const camera=new THREE.OrthographicCamera(-.4,.4,.32,-.32,.01,10);camera.position.set(0,1.51,2.5);camera.lookAt(0,1.51,0);
+ portraits.push({role,canvas,renderer,camera,angle:0});
+}
+function draw(){
+ if(!actors)return;
+ for(const p of portraits){
+  const w=p.canvas.clientWidth,h=p.canvas.clientHeight,aspect=w/h;
+  p.renderer.setSize(w,h,false);const half=fullBody?.95:.50;p.camera.left=-half*aspect;p.camera.right=half*aspect;p.camera.top=half;p.camera.bottom=-half;p.camera.position.y=fullBody?.9:1.26;p.camera.lookAt(0,fullBody?.9:1.26,0);p.camera.updateProjectionMatrix();
+  actors.patient.root.visible=p.role==='patient';actors.therapist.root.visible=p.role==='therapist';
+  actors[p.role].face(p.angle);p.renderer.render(scene,p.camera);
+ }
+}
+document.querySelectorAll('[data-angle]').forEach(button=>button.addEventListener('click',()=>{
+ const group=button.closest('[data-person]'),portrait=portraits.find(p=>p.role===group.dataset.person);portrait.angle=Number(button.dataset.angle);
+ group.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));draw();
+}));
+document.getElementById('frameToggle').addEventListener('click',e=>{fullBody=!fullBody;e.target.textContent=fullBody?'查看面部与上身':'查看全身服装';draw();});
+window.addEventListener('resize',draw);
+document.querySelectorAll('[data-pose]').forEach(button=>button.onclick=()=>{if(!actors)return;previewPose=button.dataset.pose;actors.patient.setLocomotion(previewPose==='walking');actors.patient.setPose(previewPose==='seated'?'seated':'standing',true);fullBody=previewPose==='seated';document.getElementById('frameToggle').textContent=fullBody?'查看面部与上身':'查看全身服装';document.querySelectorAll('[data-pose]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));actors.update(0);draw();});
+let prev=performance.now();function animate(now){const dt=Math.min(.04,(now-prev)/1000);prev=now;if(actors&&previewPose==='walking'){actors.update(dt);draw();}requestAnimationFrame(animate);}requestAnimationFrame(animate);
+
+createActors(scene,{modelUrl:'assets/patient-motion.glb'}).then(value=>{
+ actors=value;actors.patient.setGaitSampler(walkingVisualSample);for(const role of ['patient','therapist']){actors[role].setPosition([0,0,0]);actors[role].setPose('standing',true);actors[role].setTalking(false);}
+ actors.update(0);document.getElementById('status').hidden=true;draw();document.body.dataset.ready='true';
+}).catch(error=>{document.getElementById('status').textContent='角色暂未载入，请刷新后重试。';console.error(error);});
+</script></body></html>

@@ -1,0 +1,39 @@
+{
+  "case": "case-p1-np-1.json",
+  "sourceValueChanges": false,
+  "sides": {
+    "L": {
+      "frames": 249,
+      "channels": 32,
+      "sourceSHA256": "9b97000f31a9b34781d59066fda83c81fec71b21984e9ec873e6ef4a9964c1e3",
+      "minSum": 1022.0,
+      "maxSum": 25031.0,
+      "minValue": 18.0,
+      "maxValue": 2887.0,
+      "coordinateSolveRank": 32,
+      "maximumOriginalCoPRecomputationError": 5.684341886080802e-14,
+      "svgUniqueLabeledPads": 32,
+      "maximumSvgLayoutResidual": 4.195432810597132,
+      "defaultThresholdRawValue": 3754.6499999999996,
+      "defaultIncludedFrames": 154
+    },
+    "R": {
+      "frames": 249,
+      "channels": 32,
+      "sourceSHA256": "290c83f57bbb89cd26b43af9ec44afadbbe11e6eacdb4aad211493f3f25b8289",
+      "minSum": 1006.0,
+      "maxSum": 28876.0,
+      "minValue": 18.0,
+      "maxValue": 3298.0,
+      "coordinateSolveRank": 32,
+      "maximumOriginalCoPRecomputationError": 5.684341886080802e-14,
+      "svgUniqueLabeledPads": 32,
+      "maximumSvgLayoutResidual": 4.195433099845849,
+      "defaultThresholdRawValue": 4331.4,
+      "defaultIncludedFrames": 151
+    }
+  },
+  "zipTermsFileMatches": [],
+  "apiLicense": "cc-by-4.0",
+  "programCodeBundled": false
+}

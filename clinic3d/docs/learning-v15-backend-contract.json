@@ -1,0 +1,50 @@
+{
+  "schema": "dxx-learning-backend-contract-v15",
+  "localOnly": true,
+  "identityAuthentication": false,
+  "auth": {
+    "teacher": "Existing ephemeral X-Teacher-Token or Bearer token; exact same-origin and loopback Host checks remain.",
+    "learner": "POST start issues an opaque per-session accessToken; only its SHA-256 is stored. Resume/state/submissions require X-Learner-Token. A session ID alone cannot read learning records.",
+    "registration": "Self-declared name, studentId and teacher; not school authentication. Guest sessions remain separate. Initial enrollment of a legacy session is a local-demo migration claim, not identity proof."
+  },
+  "routes": [
+    {"method":"GET","path":"/api/learning/curriculum","result":"8 objectives, 16 items without correctOption/explanation, sources, latest AI state and data notice"},
+    {"method":"POST","path":"/api/learning/start","body":"{session:{id,caseId,startedAt,student:null|{name,studentId,teacher}}}","result":"{sessionId,accessToken,identityKind,dataKind,curriculumVersion,state}"},
+    {"method":"GET","path":"/api/learning/state?sessionId=...","auth":"learner","result":"Own session, assessmentSummary, all assessments, conversations, feedback, usage, activity, latest ai; no token hash"},
+    {"method":"POST","path":"/api/learning/assessment","auth":"learner","body":"{session,requestId,kind:'baseline'|'post',answers:{questionId:optionId}}","result":"{assessment,assessmentSummary,duplicate}; complete only with 16 valid answers; unknown question/option/client score rejected"},
+    {"method":"POST","path":"/api/learning/discussion","auth":"learner","body":"{session,requestId,conversationId?,provider?:'deepseek'|'siliconflow',objectiveId,mode:'extend'|'deepen',message,consent:true}","result":"succeeded reply with actual usage or persisted failed/pending/unknown; no invented fallback reply. provider binds the displayed recipient: a mismatch returns409 provider_changed before any upstream request. Omitted provider is legacy compatibility only."},
+    {"method":"POST","path":"/api/learning/feedback","auth":"learner","body":"{session,requestId,rating:1..5,category:'usability'|'content'|'ai'|'other',text,consent:true}","result":"{feedback,duplicate}"},
+    {"method":"GET","path":"/api/teacher/learning","auth":"teacher","result":"totals, session/objective denominators, classroom/test cohorts, registeredLearners, registeredSummary; legacy not enrolled records shown separately"},
+    {"method":"GET","path":"/api/teacher/learning?sessionId=...","auth":"teacher","result":"Full local learning detail: actual student/assistant messages, request outcomes, all graded attempts and feedback"},
+    {"method":"GET/POST","path":"/api/teacher/ai-config","auth":"teacher","body":"POST may set provider:'deepseek'|'siliconflow', apiKey, clearKey:true, model, enabled, maxTokens; no arbitrary endpoint. A provider switch requires an explicit model and never reuses the old provider's saved key.","result":"Public configuration status includes provider,providerLabel,endpoint,model,allowedProviders,providers[{id,label,endpoint,allowedModels,credentialEnvironment}],allowedModels for selected provider; never key or masked key; GET/save performs no external request"},
+    {"method":"POST","path":"/api/teacher/ai-test","auth":"teacher","body":"{requestId,consentToCharge:true}","result":"One explicit 32-token-limit test; requestId deduped; no auto probe. No key returns 503 without external contact."}
+  ],
+  "assessment": {
+    "serverScored": true,
+    "complete": "answered===16; score.total=16. Unanswered correct=null and rate=null on incomplete attempts; answeredRate is explicitly a different denominator.",
+    "objective": "answered=0 => not_assessed; 1 => partial; 2 correct => achieved; 2 answered otherwise => not_achieved. achieved=null until both answered.",
+    "summary": "baseline=first complete baseline; firstPost=first complete post; latestPost=latest complete post; latestAttempt includes partial; all attempts retained; baselinePartialAttempts and postPartialAttempts separate.",
+    "rate": "Achieved objectives / (8 x sessions with complete corresponding post), with complete-post coverage and untested/partial counts separately. Never use playback, operation receipts or AI approval as attainment.",
+    "registeredLearners": "Grouped by dataKind + exact trimmed teacher + studentId; latest complete post across their sessions. Self-declared IDs, not proven unique human identities. Guests remain session-based."
+  },
+  "conversation": {
+    "messages": "[{id,requestId,role,content,text,receivedAt,status,errorCode,usage,model}]; failed turns have only user messages.",
+    "turns": "[{id,requestId,message,reply:null|string,status,errorCode,receivedAt,completedAt,usage,model,finishReason,replyTruncated,providerAttempted}]",
+    "idempotency": "Same session+requestId and canonical payload returns stored result. Different payload =>409. In-flight retry=>202 pending, never sends again. Interrupted pending after restart=>409 unknown; new user action needs a new requestId.",
+    "privacy": "Provider payload contains bounded course context and redacted discussion messages, not registration metadata, session ID, access token or teacher credentials. Exact declared identity strings and known credentials pasted into text are removed. Arbitrary undeclared personal details cannot be guaranteed detected; users must not input patient or identifying data.",
+    "limits": {"maxTokensDefault":640,"maxTokensTeacherRange":[128,1024],"timeoutSeconds":25,"messageCharacters":1500,"maxTurnsPerConversation":12,"maxRequestsPerSession":30,"historySuccessfulPairs":6},
+    "usage": "attempted means student discussion requests; providerAttempted/notSent distinguish requests blocked before upstream. Known tokens are summed only from successful calls with validated provider usage. Missing/failed/interrupted usage is not an estimate of zero cost."
+  },
+  "storage": {
+    "database": "Existing learning.sqlite3 outside site; additive learning_* tables only. Existing sessions/events are preserved.",
+    "configuration": "Outside-site ai-config.json; only the selected provider environment takes precedence: DEEPSEEK_API_KEY for DeepSeek, SILICONFLOW_API_KEY for SiliconFlow. Credentials are not shared across providers. Provider/model/effective-key changes invalidate prior test. Legacy configurations without provider remain official DeepSeek. No credential in responses, logs, events, learning tables or distributed ZIP. Windows relies on local account directory permissions; no claim of encrypted storage.",
+    "testing": "create_server(testing=True) or CLI --test-data sets dataKind=test only server-side. Use a separate --data-dir; no ID/guest guessing. Mock tests never claim real connectivity.",
+    "activity": "eventCount and actual clinic3d_learning_complete/encounter_complete received count; first/last server receive timestamps across event and learning requests. No active-duration inference.",
+    "answerBank": "Static direct URLs for learning/objectives-v15.json and docs copies are refused by serve_lab; server reads local bank. The distributed teacher source package contains it; this is not a secure high-stakes examination system."
+  },
+  "providers": {
+    "deepseek": {"providerLabel":"DeepSeek 官方","endpoint":"https://api.deepseek.com/chat/completions","allowedModels":["deepseek-flash","deepseek-v4-pro"],"nonThinkingField":{"thinking":{"type":"disabled"}}},
+    "siliconflow": {"providerLabel":"硅基流动（DeepSeek）","endpoint":"https://api.siliconflow.cn/v1/chat/completions","allowedModels":["deepseek-ai/DeepSeek-V4.1-Flash","deepseek-ai/DeepSeek-V4-Flash"],"nonThinkingField":{"enable_thinking":false}}
+  },
+  "deploymentBoundary": "127.0.0.1 local demo only; ephemeral teacher token; not a public multi-school identity or data-governance deployment. External provider connectivity is not claimed by mock/backend reports; any user-authorized live test belongs in a separate sanitized report."
+}

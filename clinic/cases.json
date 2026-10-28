@@ -1,0 +1,1248 @@
+{
+  "version": "1",
+  "notice": "四例均为原创虚构教学病例：姓名、年龄、职业、病史、对话、检查与数值不是实际患者资料。医学事实依据列明指南、共识及官方资料归纳；所有干预仅为拟定教学方案，没有编造实施效果或随访改善。病例均未获执业临床人员审核，不用于个体诊断、处方或回归运动许可。当前公开足压 P1/NP/1 来自健康研究参与者，是独立基础练习，与四例无身份或病情关联；本模块没有任何病例足压实测、连续压力场或干预前后曲线。",
+  "sources": [
+    {
+      "id": "nhs-flatfeet",
+      "title": "NHS｜Flat feet：足弓外形、症状与就诊",
+      "url": "https://www.nhs.uk/conditions/flat-feet/"
+    },
+    {
+      "id": "aaos-pcfd",
+      "title": "AAOS OrthoInfo｜Progressive Collapsing Foot Deformity",
+      "url": "https://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/"
+    },
+    {
+      "id": "acfas-cavus",
+      "title": "ACFAS Foot Health Facts｜Cavus Foot (High-Arched Foot)",
+      "url": "https://www.foothealthfacts.org/conditions/cavus-foot-%28high-arched-foot%29"
+    },
+    {
+      "id": "rnoh-cavus",
+      "title": "英国皇家国家骨科医院｜Pes cavus：定义与相关表现",
+      "url": "https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/post-operative-advice-following-pes-cavus-correction"
+    },
+    {
+      "id": "cavus-rct",
+      "title": "Burns 等，2006｜疼痛性高足弓矫形鞋垫随机对照研究",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16707631/"
+    },
+    {
+      "id": "ankle-cpg",
+      "title": "APTA/JOSPT，2021｜外侧踝韧带扭伤与慢性踝关节不稳临床实践指南",
+      "url": "https://www.orthopt.org/content/s/ankle-stability-and-movement-coordination-impairments-lateral-ankle-ligament-sprains-revision-2021"
+    },
+    {
+      "id": "ankle-roast",
+      "title": "国际踝关节联盟｜ROAST 踝扭伤临床评估共识",
+      "url": "https://bjsm.bmj.com/content/52/20/1304"
+    },
+    {
+      "id": "ankle-paass",
+      "title": "Smith 等，2021｜PAASS 回归运动决策共识",
+      "url": "https://bjsm.bmj.com/content/early/2021/06/22/bjsports-2021-104087"
+    },
+    {
+      "id": "cai-consensus",
+      "title": "国际踝关节联盟，2014｜CAI 研究受试者选择标准声明",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3917288/"
+    },
+    {
+      "id": "insole-gaitrite",
+      "title": "Insole-GAITRite 公开数据｜P1/NP/1 独立基础练习",
+      "url": "https://zenodo.org/records/19662017"
+    }
+  ],
+  "cases": [
+    {
+      "id": "flatfoot",
+      "title": "扁平足｜久站后的足弓酸胀",
+      "subtitle": "长期低足弓外形，近期工作负荷增加；从症状和功能建立假设",
+      "patient": {
+        "name": "林晓楠（原创虚构）",
+        "age": 24,
+        "occupation": "社区展馆实习讲解员",
+        "chief": "近6周久站后两侧足弓酸胀，左侧更明显",
+        "goal": "能完成45分钟讲解，并步行30分钟通勤，之后不明显加重",
+        "concern": "担心足弓已经塌坏，必须买昂贵鞋垫或停止运动"
+      },
+      "opening": "我从小脚就比较平，以前没什么事。最近开始站着讲解，一到下午脚底里面就酸。我是不是把脚站坏了？",
+      "therapistOpening": "你好，我想先了解哪些事受影响，再与你商量检查。你可以随时暂停。",
+      "questions": [
+        {
+          "id": "symptom_location",
+          "category": "symptoms",
+          "label": "请指一指最不舒服的位置，是什么感觉？",
+          "answer": "主要是脚底靠里面那一道，两边都有，左边重一点。像累出来的酸胀，不是针扎，也没有脚趾发麻。",
+          "why": "定位与性质帮助形成多种解释；足弓外形不能替代症状定位。",
+          "essential": true
+        },
+        {
+          "id": "symptom_course",
+          "category": "symptoms",
+          "label": "什么时候开始？足形近来有变化吗？",
+          "answer": "大概6周前换到展馆后开始。我的脚从中学就这样，两边一直差不多，最近没有突然变平。",
+          "why": "区分长期形态与新出现、进行性或单侧的足形改变。",
+          "essential": true
+        },
+        {
+          "id": "symptom_trigger",
+          "category": "symptoms",
+          "label": "站多久、做什么会加重？",
+          "answer": "连续站一个小时最明显，急着走长路也酸。坐着画讲解稿没事。现在忙的时候一天站四五个小时。",
+          "why": "把症状与总量、连续负荷和具体任务联系起来。",
+          "essential": false
+        },
+        {
+          "id": "symptom_recovery",
+          "category": "symptoms",
+          "label": "休息后和第二天早上感觉如何？",
+          "answer": "坐十来分钟会缓一缓。晚上大约3分疼，早上一般没什么，起床第一步也不特别痛。",
+          "why": "了解症状反应和恢复窗口；不凭单一晨起表现确诊或排除疾病。",
+          "essential": false
+        },
+        {
+          "id": "injury_history",
+          "category": "history",
+          "label": "以前受过伤、扭脚，或出现过相同问题吗？",
+          "answer": "没有明显受过伤，也没有老崴脚。以前逛街一天偶尔累，但没持续这么久。",
+          "why": "识别其他病因线索与既往功能基线。",
+          "essential": true
+        },
+        {
+          "id": "prior_care",
+          "category": "history",
+          "label": "试过什么办法？鞋子和鞋垫怎样？",
+          "answer": "我换过一双软运动鞋，感觉舒服些。网上说要用很硬的足弓垫，我试了两天顶得疼就没戴。没做过治疗。",
+          "why": "记录个人体验与依从障碍；该主观经历不是已证实的干预疗效。",
+          "essential": false
+        },
+        {
+          "id": "health_screen",
+          "category": "safety",
+          "label": "有没有麻木、皮肤破损、全身疾病或相关用药？",
+          "answer": "没有麻木、伤口或发烧。我没有糖尿病，也没被诊断过神经肌肉病，没有常用药。",
+          "why": "筛查影响检查、负荷和转介的健康因素；自述不能代替完整医学评估。",
+          "essential": true
+        },
+        {
+          "id": "current_function",
+          "category": "function",
+          "label": "目前哪些活动受影响，哪些仍能做？",
+          "answer": "讲解到后半段会换脚站。平路走二十分钟还好，跑步我先停了，其实是怕越跑越平。",
+          "why": "分清实际能力、症状限制与担忧造成的回避。",
+          "essential": true
+        },
+        {
+          "id": "activity_context",
+          "category": "function",
+          "label": "最近工作、锻炼和休息时间怎样？",
+          "answer": "原来上课坐得多，现在每周五天上班。中午能坐一会儿，但我不好意思在讲解中休息。",
+          "why": "识别负荷骤变与现实执行条件，不将所有问题归于足形。",
+          "essential": false
+        },
+        {
+          "id": "patient_goal",
+          "category": "goals",
+          "label": "最希望先恢复哪一件事？",
+          "answer": "我想先把45分钟讲解做好，再走半小时回家，不用到家就瘫着，也想以后继续慢跑。",
+          "why": "把共同目标转为可复评的活动，而非只追求足印改变。",
+          "essential": true
+        },
+        {
+          "id": "patient_concern",
+          "category": "goals",
+          "label": "最担心什么？对检查和康复有什么期待？",
+          "answer": "怕是脚已经塌坏了。鞋垫几千块我承受不了，也不想被说以后不能运动。",
+          "why": "回应经济、情绪和决策偏好，避免制造结构恐惧。",
+          "essential": false
+        },
+        {
+          "id": "safety_changes",
+          "category": "safety",
+          "label": "有没有突然不能负重、明显肿热、夜间持续痛或近期单侧变形？",
+          "answer": "没有突然走不了，也没肿热、夜里痛醒。左边虽然更酸，但样子和以前差不多。",
+          "why": "若出现新发单侧足形变化、进行性无力或其他警示症状，应停止机械化训练流程并进一步评估。",
+          "essential": true
+        }
+      ],
+      "exams": [
+        {
+          "id": "observe",
+          "label": "坐位—站位足形与步行观察",
+          "purpose": "比较负重前后的足弓、皮肤及自然步行，形成而非确认诊断。",
+          "consentPrompt": "我会看两只脚坐着、站着和走几步时的样子，需要脱鞋袜；不舒服或不愿意可停，可以吗？",
+          "patientConcern": "是不是一脱鞋就能看出我以后能不能跑？",
+          "explanation": "足形只提供一部分信息，是否能跑还要看症状、负荷和功能。我们不会给足印贴好坏标签。",
+          "result": "原创虚构检查：两侧站位内侧足弓较低；坐位可见足弓。皮肤完整，无明显红肿；短距离平路步行未见明显跛行。",
+          "interpretation": "支持足弓在不同负重下可改变的观察，但不能据此排除肌腱问题或解释全部疼痛。",
+          "modality": "observation",
+          "appropriate": true,
+          "reason": "先观察低风险活动，并与长期双侧病史核对。"
+        },
+        {
+          "id": "movement",
+          "label": "在可耐受范围内观察提踵与踝背屈",
+          "purpose": "了解足弓随动作变化、踝活动和任务耐受。",
+          "consentPrompt": "先扶桌做少量双脚提踵，再试膝向前的踝活动；若酸痛明显增加立即停，可以吗？",
+          "patientConcern": "提踵会不会把脚拉伤？",
+          "explanation": "先做轻量动作，扶稳且不追求次数；你报告疼痛后我们就调整。",
+          "result": "原创虚构检查：扶桌双脚提踵时两侧足弓更明显；完成5次后左足弓轻微酸胀，停下即缓。膝触墙距离左7厘米、右9厘米，采用相同足位与脚跟不抬起的方法。",
+          "interpretation": "记录该次表现供同法复评。左右差异与酸胀需结合病史理解，数值不是本课程的诊断阈值。",
+          "modality": "movement",
+          "appropriate": true,
+          "reason": "有助于选择运动起点；不把一次提踵视作单块肌腱的确诊。"
+        },
+        {
+          "id": "balance",
+          "label": "有保护的单脚站立观察",
+          "purpose": "观察控制策略与信心，判断是否需要进一步功能检查。",
+          "consentPrompt": "在扶手旁先尝试单脚站，必要时手指扶住；我在旁保护，你愿意试吗？",
+          "patientConcern": "我不想摔倒让同事看见。",
+          "explanation": "可以先闭门进行，始终睁眼，有扶手，随时恢复双脚站。",
+          "result": "原创虚构检查：睁眼、硬地、有保护条件下两侧均可完成20秒；左侧有一次轻触扶手，无明显疼痛增加。",
+          "interpretation": "这是特定条件下的观察，不能推断跑步控制或归因于足弓高低。",
+          "modality": "balance",
+          "appropriate": true,
+          "reason": "与患者实际能力匹配，可作为安全起点。"
+        },
+        {
+          "id": "pressure_scope",
+          "label": "讨论足压评估的用途与缺失证据",
+          "purpose": "提出可检验的问题，区分检查计划和已经取得的病例数据。",
+          "consentPrompt": "如果后续需要，我会先解释鞋垫传感器的用途、记录范围和资料保存方式；今天先讨论要回答什么问题，可以吗？",
+          "patientConcern": "网上的彩色足印是不是一看就知道哪里坏了？",
+          "explanation": "离散传感器可以提供特定条件下的读数，解释还需要校准、鞋和步速、重复试次、症状与动作资料。不能把颜色当作诊断。",
+          "result": "尚无本病例足压实测。可讨论久站与步行是否需要不同采集条件，以及同一双鞋内的重复记录。当前可打开的 P1/NP/1 是健康研究参与者的公开片段，只作独立基础练习，不属于本患者。",
+          "interpretation": "下一步应先明确测量问题，再决定是否采集病例数据。不能由健康样例替代病例结果，也不能据此生成连续压力场或干预后曲线。",
+          "modality": "pressure",
+          "appropriate": true,
+          "reason": "适合训练证据选择；本项没有病例足压数值、曲线或疗效结果。"
+        },
+        {
+          "id": "unsafe_test",
+          "label": "直接反复单脚跳，直到足弓疼痛以判断严重度",
+          "purpose": "辨认诱发疼痛并不能直接分级足弓问题。",
+          "consentPrompt": "此选项不会执行；我们先说明为什么不适合今天。",
+          "patientConcern": "是不是越痛越能查清楚？",
+          "explanation": "不需要故意把症状激起来。先完成病史、低负荷检查和共同目标，再决定是否需要更高负荷任务。",
+          "result": "未执行。没有跳跃结果，也没有由此生成的病例足压。",
+          "interpretation": "用强烈诱痛代替临床推理不能量化病情，也无法回答目前久站负荷如何安排。",
+          "modality": "movement",
+          "appropriate": false,
+          "reason": "当前目标是久站耐受；持续跳至疼痛没有必要，缺少阶段性准备。"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "fictional_summary",
+          "title": "原创病例资料｜尚未建立唯一病因",
+          "kind": "fictional",
+          "body": "患者身份、6周病程、工作变化、疼痛自述及全部检查结果均为原创虚构。长期双侧低足弓、近期久站增加及负重后酸胀共同形成教学假设；本病例没有影像、肌腱超声或足压实测。",
+          "sourceIds": []
+        },
+        {
+          "id": "literature_flat",
+          "title": "文献提示｜以症状和功能决定评估需求",
+          "kind": "literature",
+          "body": "低足弓可以没有症状。出现疼痛、僵硬、无力、麻木、新发或单侧改变时，需要个体评估。成人逐渐塌陷与肌腱相关问题属于需要鉴别的情况，不能把所有扁平足当成同一疾病。",
+          "sourceIds": [
+            "nhs-flatfeet",
+            "aaos-pcfd"
+          ]
+        },
+        {
+          "id": "public_pressure",
+          "title": "独立练习｜健康 P1/NP/1",
+          "kind": "public-practice",
+          "body": "公开研究片段与四位虚构患者均无身份、病情或干预关联。它可用于练习读帧、离散通道和单脚 CoP；未核定的物理单位及同步限制见原足压模块说明。不得把其图形贴到本病例名下。",
+          "sourceIds": [
+            "insole-gaitrite"
+          ]
+        }
+      ],
+      "explanation": {
+        "prompt": "患者问：“所以是我把脚站塌了吗？以后还能运动吗？”请选择准备向她说明的内容，可选择多项。",
+        "points": [
+          {
+            "id": "explain_pattern",
+            "label": "解释长期足形、近期负荷变化与症状之间的可能联系",
+            "feedback": "你的脚形很早就有，最近站立时间明显增加。我们先把负荷与酸胀的关系记录下来；目前资料不能证明你把足弓站坏了。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_limits",
+            "label": "说明观察能支持什么，以及还不能排除什么",
+            "feedback": "坐位和提踵时足弓可见，帮助理解活动性；若以后出现单侧逐渐变平、明显肿痛或无力，需要重新评估。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_shared",
+            "label": "请患者复述目标，并一起选可执行的起点",
+            "feedback": "你希望完成讲解和通勤。请用自己的话说说哪些变化值得记录，我们再按工作安排分段练习。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_certainty",
+            "label": "断言所有疼痛都由扁平足造成，并保证练出标准足弓",
+            "feedback": "不恰当。外形不能独立确定疼痛来源，也没有本患者的干预后资料支持足弓重塑或疗效保证。",
+            "appropriate": false
+          },
+          {
+            "id": "explain_pressure",
+            "label": "把健康 P1/NP/1 彩图作为她扁平足的证明",
+            "feedback": "不恰当。公开健康片段属于独立基础练习，与林晓楠没有对应关系。",
+            "appropriate": false
+          }
+        ]
+      },
+      "plan": {
+        "prompt": "与林晓楠商量下一阶段安排：哪些选择能回应她的目标并留下复评依据？",
+        "options": [
+          {
+            "id": "plan_load",
+            "label": "共同调整连续站立与步行总量，记录当天及次日反应",
+            "feedback": "可将讲解准备、讲解和坐位工作交替，先在可耐受时段安排短暂停顿，再按反应逐步调整。这里是拟定计划，尚未实施或证实效果。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_train",
+            "label": "依据检查试行足踝控制、提踵与活动练习；讨论舒适鞋及鞋垫适配",
+            "feedback": "从可控动作开始并观察反应，是否使用支持用品取决于舒适度、目标和评估，不以价格或足印外观决定。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_review",
+            "label": "约定复评：讲解时间、通勤反应、同法动作观察及患者理解",
+            "feedback": "建议1—2周按同一任务复评；记录可连续站立多久、症状是否次日恢复、提踵耐受及目标达成情况。若单侧变形、肿痛或无力加重则提前评估。请患者复述调整与求助条件。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_guarantee",
+            "label": "立刻长期禁跑，并承诺昂贵定制鞋垫能永久治好",
+            "feedback": "不恰当。限制与用品须有具体理由及复评，当前资料不支持永久禁跑或保证疗效。",
+            "appropriate": false
+          },
+          {
+            "id": "plan_one_test",
+            "label": "只追踪足印是否变窄，取消症状和活动复评",
+            "feedback": "不恰当。足印变化不能替代患者关心的讲解、通勤能力和症状反应。",
+            "appropriate": false
+          }
+        ]
+      },
+      "review": {
+        "keyPoints": [
+          "可从负荷变化、长期足形或患者担忧进入问诊，但仍要完成定位、病程、功能、安全与目标信息。",
+          "先取得同意，再开展可耐受观察；任何疼痛加重都应调整。",
+          "解释是待验证的临床假设；把患者的担忧和工作现实纳入计划。",
+          "复评使用同样条件和患者目标，尚无干预后疗效结论。"
+        ],
+        "limitations": [
+          "患者与检查数字全部原创虚构，非真实病历。",
+          "未获执业临床人员审核；供人体运动学教学，不能用于个体诊断或处方。",
+          "没有本病例足压、影像或完整肌腱评估；不能排除全部鉴别诊断。"
+        ]
+      }
+    },
+    {
+      "id": "cavus",
+      "title": "高足弓｜前足与外侧的负荷不适",
+      "subtitle": "足形观察与神经肌肉线索并行；不以足弓高度预测全部功能",
+      "patient": {
+        "name": "周远（原创虚构）",
+        "age": 36,
+        "occupation": "面包店烘焙师",
+        "chief": "近半年久站后前脚掌和足外侧胀痛，右侧较明显",
+        "goal": "能分段完成早班，并在周末陪孩子步行游园40分钟",
+        "concern": "担心必须把高足弓硬压平，也怕高足弓代表神经疾病"
+      },
+      "opening": "早班站到后来，前脚掌像垫着一小块硬东西，脚外边也累。我爸脚弓也高。网上说高足弓可能是神经病，我越看越害怕。",
+      "therapistOpening": "先请你说说最影响生活的部分，我们再一起选择检查。",
+      "questions": [
+        {
+          "id": "symptom_location",
+          "category": "symptoms",
+          "label": "最不舒服在哪里，皮肤有没有变化？",
+          "answer": "前脚掌靠大拇趾和小拇趾根那片，右边重一些。脚外侧也胀，有两块老茧，没有破皮或渗液。",
+          "why": "区分皮肤、负荷不适与其他前足痛线索，不将老茧等同于足压测量。",
+          "essential": true
+        },
+        {
+          "id": "symptom_course",
+          "category": "symptoms",
+          "label": "足弓一直这样吗？近半年形状有变化吗？",
+          "answer": "小时候就高，两只差不多。疼是这半年明显起来的，没发现脚越来越弯，鞋码也没变。",
+          "why": "判断长期形态与近期进展，进展性改变需进一步查明原因。",
+          "essential": true
+        },
+        {
+          "id": "symptom_trigger",
+          "category": "symptoms",
+          "label": "什么工作或鞋子容易引起不适？",
+          "answer": "店里忙时一站两个小时，地面硬。薄底工作鞋最难受，坐下称原料会好一些。",
+          "why": "识别具体负荷与鞋内环境，便于共同设计可复评问题。",
+          "essential": false
+        },
+        {
+          "id": "symptom_recovery",
+          "category": "symptoms",
+          "label": "休息后多久缓解？是否夜间痛、烧灼或刺痛？",
+          "answer": "下班休息半小时会慢慢缓，最厉害大概4分。没有夜里痛醒，也没有烧灼或电到一样的痛。",
+          "why": "记录恢复和神经症状线索；患者否认不等于完全排除。",
+          "essential": false
+        },
+        {
+          "id": "injury_history",
+          "category": "history",
+          "label": "以前扭伤或骨折过吗？走路会突然打软吗？",
+          "answer": "两年前右脚崴过一次，后来能正常走，最近没反复扭，也不记得骨折过。",
+          "why": "既往损伤可能影响负荷与稳定性，但不直接归因。",
+          "essential": true
+        },
+        {
+          "id": "prior_care",
+          "category": "history",
+          "label": "为此试过什么？对鞋垫有什么体验？",
+          "answer": "自己买过很高很硬的垫子，脚心顶得疼就停了，没做过专门检查。朋友说得把脚弓踩平，我有点怕。",
+          "why": "了解既往尝试、费用和错误认识，为知情讨论准备。",
+          "essential": false
+        },
+        {
+          "id": "health_screen",
+          "category": "safety",
+          "label": "是否脚抬不起来、容易绊倒、麻木，或家人有明确诊断？",
+          "answer": "没觉得脚抬不起来，也没有新出现绊倒和麻木。我爸脚高，但没听说查出神经病。我没有糖尿病，没有常用药。",
+          "why": "神经肌肉症状、家族史及进展需要筛查；足形本身不能确定病因。",
+          "essential": true
+        },
+        {
+          "id": "current_function",
+          "category": "function",
+          "label": "能走多久？平路、不平地和楼梯有何不同？",
+          "answer": "平路走二十分钟还行，逛公园久了前脚掌痛。碎石路我会放慢，楼梯能走，不用别人扶。",
+          "why": "将具体任务、信心和耐受分开记录。",
+          "essential": true
+        },
+        {
+          "id": "activity_context",
+          "category": "function",
+          "label": "工作中能调整哪些事？每天站多久？",
+          "answer": "一天大约站六个小时，可以跟同事换着做坐下称量的工作，但早上出炉那一阵很难休息。",
+          "why": "计划需适合工作条件，不能只给抽象运动处方。",
+          "essential": false
+        },
+        {
+          "id": "patient_goal",
+          "category": "goals",
+          "label": "最想先恢复哪件事？",
+          "answer": "先把早班撑下来，不要一下班就不想动。周末想陪孩子慢慢逛40分钟，中间坐一会也可以。",
+          "why": "患者接受分段活动，为共同目标与复评建立基线。",
+          "essential": true
+        },
+        {
+          "id": "patient_concern",
+          "category": "goals",
+          "label": "最担心检查或治疗的哪一部分？",
+          "answer": "怕被硬掰脚，也怕一检查就是神经病。我想知道为什么查，不想听一句‘足弓太高所以全都不好’。",
+          "why": "用解释、同意与不确定性沟通回应担忧。",
+          "essential": false
+        },
+        {
+          "id": "safety_changes",
+          "category": "safety",
+          "label": "近期有没有快速变形、明显单侧无力、破溃或突然不能负重？",
+          "answer": "没有这些，脚上的老茧是完整的，疼也不是突然一下开始的。",
+          "why": "若出现新发足下垂、进行性无力、感觉变化或皮肤破损，应改变常规训练路线并转介。",
+          "essential": true
+        }
+      ],
+      "exams": [
+        {
+          "id": "observe",
+          "label": "足形、鞋磨损与皮肤观察",
+          "purpose": "描述双侧足形、前足皮肤和鞋的适配，为负荷问题提供线索。",
+          "consentPrompt": "我想看坐位、站位的脚形、鞋底和老茧位置；只看和轻触，不刮除老茧，可以吗？",
+          "patientConcern": "看老茧是不是就能算出哪儿压力最大？",
+          "explanation": "老茧提供长期受力线索，不能替代标准条件下的足压实测。我们也会确认皮肤是否完整。",
+          "result": "原创虚构检查：两侧坐位与站位均可见较高内侧足弓；前足第一及第五跖骨头区有局限性皮肤增厚，右侧较明显；皮肤完整。鞋前掌较窄。",
+          "interpretation": "描述与主诉位置一致，但不能仅凭外形判定神经病因或量化压力。",
+          "modality": "observation",
+          "appropriate": true,
+          "reason": "低风险观察适合当前问题；皮肤发现需与感觉和健康史结合。"
+        },
+        {
+          "id": "movement",
+          "label": "主动踝趾运动与低负荷肌力筛查",
+          "purpose": "观察活动受限、明显无力或足下垂线索，决定是否补充专业评估。",
+          "consentPrompt": "先坐着抬脚尖、伸脚趾，再做很轻的对抗；不强掰足弓。感觉痛、麻或疲劳可停，可以吗？",
+          "patientConcern": "做完正常是不是就肯定没有神经病？",
+          "explanation": "一次粗略筛查只能发现部分线索。如果有进展性变化，仍需完整神经和足踝专科评估。",
+          "result": "原创虚构检查：可主动完成两侧踝背屈及足趾伸展，低负荷对抗未见明显左右差异；步行未见明显拖足。尚未完成反射、精细感觉或专科神经检查。",
+          "interpretation": "未见粗大运动异常不等于排除神经系统疾病；不从足弓高低推出病因。",
+          "modality": "movement",
+          "appropriate": true,
+          "reason": "回答患者担忧，同时清楚交代筛查的边界。"
+        },
+        {
+          "id": "balance",
+          "label": "在保护下比较平地站立控制",
+          "purpose": "观察脚踝策略与信心，为日常地面任务定起点。",
+          "consentPrompt": "在扶手旁、硬地、睁眼各试短时间单脚站，我会保护；可随时扶住，可以吗？",
+          "patientConcern": "我在碎石路上有点怕，测试会不会故意让我晃？",
+          "explanation": "今天先用稳定平面，不突然推你，也不闭眼。是否增加难度以后再商量。",
+          "result": "原创虚构检查：右脚站立10秒期间轻触扶手两次，左脚10秒轻触一次；未诱发明显疼痛。",
+          "interpretation": "仅记录本次条件下的控制，不能直接预测跌倒或认定高足弓造成不稳。",
+          "modality": "balance",
+          "appropriate": true,
+          "reason": "能观察实际能力，同时保持可控和安全。"
+        },
+        {
+          "id": "pressure_scope",
+          "label": "规划足压问题，不导入健康图作病例结果",
+          "purpose": "明确鞋内负荷评估要补充什么证据。",
+          "consentPrompt": "后续若需要记录，我会先与你讨论不同鞋子、步速、重复次数和资料用途；今天可以先说说想回答的问题吗？",
+          "patientConcern": "是不是测一次彩色脚印就能挑到肯定有效的鞋垫？",
+          "explanation": "需要先问某双鞋中的局部不适是否与可重复的读数相符，再结合舒适度和功能，单次彩图不能保证用品效果。",
+          "result": "尚无周远的足压实测。健康 P1/NP/1 可另行练习读离散通道，与本病例没有对应关系；未生成压力场。",
+          "interpretation": "如采集，应记录鞋、步速、传感器条件及重复性，并同时记录症状；不能从健康片段反推本例前足压力。",
+          "modality": "pressure",
+          "appropriate": true,
+          "reason": "训练测量设计与证据边界，不伪造结果。"
+        },
+        {
+          "id": "unsafe_test",
+          "label": "用外力把高足弓压平，越痛越证明需要矫正",
+          "purpose": "辨认强行改变足形不是本次合理检查目标。",
+          "consentPrompt": "此选项不会执行；先说明为什么不强压。",
+          "patientConcern": "我最怕有人说忍一忍，硬掰就好了。",
+          "explanation": "不会用强压到疼的方式验证足形。先查症状、活动性、肌力和病因线索，再决定可接受的干预。",
+          "result": "未执行。没有强压后的角度、疼痛或足压结果。",
+          "interpretation": "足形可含结构与肌肉控制等因素；诱痛不能证明需要某一种矫正。",
+          "modality": "movement",
+          "appropriate": false,
+          "reason": "缺乏必要性，且忽略了患者担忧、知情同意和病因评估。"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "fictional_summary",
+          "title": "原创病例资料｜病因仍需鉴别",
+          "kind": "fictional",
+          "body": "周远的姓名、家族叙述、病程、皮肤观察和检查表现全部为原创虚构。高足弓、局部不适与工作负荷构成教学情境；没有神经疾病诊断，也没有病例足压实测。",
+          "sourceIds": []
+        },
+        {
+          "id": "literature_cavus",
+          "title": "官方资料｜高足弓需要关注什么",
+          "kind": "literature",
+          "body": "高足弓可伴前足或足外侧不适、皮肤增厚及不稳；病因可有差异。新发足下垂、无力或进展性变化值得进一步评估。足形、神经肌肉筛查与功能需要一起考虑。",
+          "sourceIds": [
+            "acfas-cavus",
+            "rnoh-cavus"
+          ]
+        },
+        {
+          "id": "literature_orthoses",
+          "title": "研究设计｜鞋垫研究不等于个体疗效承诺",
+          "kind": "literature",
+          "body": "Burns 等曾在疼痛性双侧高足弓成人中比较定制足矫形器与对照鞋垫。研究人群与对照设计可用于讨论证据适用性；不能因此声称周远已获改善，也不能断言某一市售产品必然有效。",
+          "sourceIds": [
+            "cavus-rct"
+          ]
+        },
+        {
+          "id": "public_pressure",
+          "title": "独立练习｜健康数据不代表高足弓病例",
+          "kind": "public-practice",
+          "body": "P1/NP/1 是健康研究片段。可练习离散传感器与 CoP 的观察，但不能作为周远的前足高压证据或鞋垫前后对照。",
+          "sourceIds": [
+            "insole-gaitrite"
+          ]
+        }
+      ],
+      "explanation": {
+        "prompt": "患者问：“是不是一定有神经病？是不是要把足弓压平才不痛？”请选择准备说明的内容。",
+        "points": [
+          {
+            "id": "explain_pattern",
+            "label": "承认病因差异，说明目前发现与尚缺证据",
+            "feedback": "高足弓本身不能确定病因。你描述足形长期稳定，粗略运动筛查没见明显异常；如果出现无力、拖脚或变化，应继续查明。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_limits",
+            "label": "把老茧、疼痛位置和足压测量区别开",
+            "feedback": "皮肤增厚和你的不适位置为评估提供线索，但我们还没有本人的压力记录，也不能从外观算出局部压力。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_shared",
+            "label": "围绕工作和亲子活动，讨论舒适与功能目标",
+            "feedback": "我们先选你能接受的鞋和负荷调整，再观察能否更舒适地工作和散步。目标不必设为把脚形强行变成另一个样子。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_certainty",
+            "label": "断言家族高足弓就是遗传神经病，或筛查正常就完全排除",
+            "feedback": "不恰当。两种断言都超出了现有信息，需要完整病史、体征及必要的专科评估。",
+            "appropriate": false
+          },
+          {
+            "id": "explain_pressure",
+            "label": "以健康彩图推断他每个跖骨头的压力并保证鞋垫效果",
+            "feedback": "不恰当。健康数据不能替代本例实测，尚无个体干预后结果。",
+            "appropriate": false
+          }
+        ]
+      },
+      "plan": {
+        "prompt": "为周远选择下一阶段可讨论的安排，保留个体反应与转介判断。",
+        "options": [
+          {
+            "id": "plan_load",
+            "label": "协商站立与坐位工作交替，讨论合脚、缓冲和皮肤观察",
+            "feedback": "可先安排能执行的任务轮换，避免用疼痛硬撑；鞋及支持用品需以适配、舒适和实际功能试用。不得自行削除或损伤老茧。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_train",
+            "label": "据活动与力量评估选择练习，并明确补充检查条件",
+            "feedback": "在可耐受范围内安排活动与控制练习；如出现新发足下垂、麻木、进行性无力或形态改变，及时转足踝或神经专科评估。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_review",
+            "label": "复评同一早班任务、散步耐受、皮肤与患者理解",
+            "feedback": "可在1—2周按相同鞋与任务记录不适、连续站立时间及次日反应；检查皮肤是否完整、练习能否执行。请患者复述需要提前就诊的变化。尚无任何改善结果。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_guarantee",
+            "label": "承诺强压或单一鞋垫能消除高足弓并治好所有疼痛",
+            "feedback": "不恰当。未完成个体适配与复评，不能作结构改变或疗效保证。",
+            "appropriate": false
+          },
+          {
+            "id": "plan_one_test",
+            "label": "只根据足弓高度制定方案，不问神经症状或功能",
+            "feedback": "不恰当。忽略病因线索、皮肤风险、患者目标和实际活动能力。",
+            "appropriate": false
+          }
+        ]
+      },
+      "review": {
+        "keyPoints": [
+          "可从前足痛、鞋子、家族史或担忧切入；核心问诊仍包含进展、神经症状、皮肤与功能。",
+          "观察皮肤与粗略运动筛查不能替代足压或完整神经评估。",
+          "讨论鞋垫研究时先确认人群、干预和结局；不把研究结论写成虚构患者疗效。",
+          "复评聚焦工作与散步目标，并准备在出现新线索时改变判断。"
+        ],
+        "limitations": [
+          "所有患者身份与检查结果均为原创虚构。",
+          "未获临床审核；非个体医疗建议或确诊材料。",
+          "未完成影像、完整神经检查或足压采集；无法确定高足弓病因。"
+        ]
+      }
+    },
+    {
+      "id": "sprain",
+      "title": "外侧踝扭伤｜恢复期的下楼与回场",
+      "subtitle": "受伤后6周、可短距离行走；先核实愈合阶段与当前负荷，不做急性强行负重",
+      "patient": {
+        "name": "陈知行（原创虚构）",
+        "age": 22,
+        "occupation": "研究生、羽毛球爱好者",
+        "chief": "左踝扭伤6周后，下楼和快走仍不舒服",
+        "goal": "能正常下楼通勤，再逐步恢复羽毛球双打",
+        "concern": "怕韧带没长好；又怕错过比赛，想知道是否疼痛消失就能回场"
+      },
+      "opening": "六周前打球落地把左脚崴了，门诊说是外侧踝扭伤，片子没看到骨折。现在走平路还行，下楼总护着它。我下个月有比赛，是不是不疼了就能上？",
+      "therapistOpening": "今天先核对受伤经过与恢复情况，再选择你能接受的检查。",
+      "questions": [
+        {
+          "id": "symptom_location",
+          "category": "symptoms",
+          "label": "现在最不舒服在哪里？疼痛、肿胀或卡住怎样？",
+          "answer": "主要外脚踝前下方，平路走大约2分，下楼有时3分。走多了会有一点肿，没有卡住或突然锁住。",
+          "why": "定位残余症状并筛查其他结构或关节内问题线索。",
+          "essential": true
+        },
+        {
+          "id": "symptom_course",
+          "category": "symptoms",
+          "label": "受伤多久，整体趋势如何？有没有新扭伤？",
+          "answer": "整整六周。头两周肿得明显，现在逐渐好些，最近没有再崴，也没有突然变坏。",
+          "why": "确认是恢复期；时间不能单独决定组织状态和活动许可。",
+          "essential": true
+        },
+        {
+          "id": "symptom_trigger",
+          "category": "symptoms",
+          "label": "什么动作容易诱发？",
+          "answer": "下楼、急转身和走太快会不舒服，慢慢上楼好一些。我还没跑和跳，不敢一下试。",
+          "why": "识别任务要求与尚未测试的能力，不把未尝试当作不能完成。",
+          "essential": false
+        },
+        {
+          "id": "symptom_recovery",
+          "category": "symptoms",
+          "label": "活动后与第二天的反应怎样？",
+          "answer": "走超过二十分钟会紧一点，坐下抬脚后缓。第二天早上大多恢复到原来水平，没一天天更肿。",
+          "why": "观察负荷反应，为渐进安排和提前复评设置依据。",
+          "essential": false
+        },
+        {
+          "id": "injury_history",
+          "category": "history",
+          "label": "当时怎么伤的，门诊怎样评估？以前扭过吗？",
+          "answer": "打球落地踩到边线，脚向里翻了。门诊查过并拍片，说没看到骨折，让我戴护踝、按疼痛慢慢走。这是第一次这么严重。",
+          "why": "核实机制、医疗评估与既往损伤；转述和虚构检查单均不等同于当前诊断保证。",
+          "essential": true
+        },
+        {
+          "id": "prior_care",
+          "category": "history",
+          "label": "目前用了哪些保护或训练，有何困难？",
+          "answer": "出门戴护踝，做过轻轻勾脚和弹力带动作。网上练习很多，我不知道哪些适合；忙时就没做。",
+          "why": "记录已有方案和执行障碍，避免未经评估增加负荷。",
+          "essential": false
+        },
+        {
+          "id": "health_screen",
+          "category": "safety",
+          "label": "有没有麻木、足部发冷、伤口、发热或小腿异常肿痛？",
+          "answer": "没有这些，也没有喘不过气。我没有长期疾病和常用药。",
+          "why": "筛查神经血管、感染和其他需要进一步医疗评估的线索。",
+          "essential": true
+        },
+        {
+          "id": "current_function",
+          "category": "function",
+          "label": "现在能走多远，楼梯和日常生活受影响多少？",
+          "answer": "十五分钟平路基本可以。下楼抓栏杆，一格一格下；上课不用拐杖。还没参加体育课。",
+          "why": "以具体功能建立基线，选择安全任务。",
+          "essential": true
+        },
+        {
+          "id": "activity_context",
+          "category": "function",
+          "label": "平时的运动量、场地和比赛安排怎样？",
+          "answer": "受伤前每周两次羽毛球。下个月想参加双打，但可以先不比，通勤正常更重要。学校有小器械区。",
+          "why": "理解回归需求与可调整性，不只以比赛日期定进度。",
+          "essential": false
+        },
+        {
+          "id": "patient_goal",
+          "category": "goals",
+          "label": "下一阶段最希望先做到什么？",
+          "answer": "先能一层楼连续交替下，不用总抓栏杆；然后能在球场轻松移动，再考虑比赛。",
+          "why": "将活动目标分阶段，便于复评和共同决策。",
+          "essential": true
+        },
+        {
+          "id": "patient_concern",
+          "category": "goals",
+          "label": "你对负重和韧带恢复最担心什么？",
+          "answer": "担心一用力就又撕开，也怕越休息越弱。我想知道什么感觉要停，不想硬忍。",
+          "why": "评估信心、恐惧与信息需要，帮助患者理解渐进负荷。",
+          "essential": false
+        },
+        {
+          "id": "safety_changes",
+          "category": "safety",
+          "label": "若出现新伤、明显骨性压痛或突然走不了，会怎样处理？",
+          "answer": "最近没这些。如果又肿得厉害或走不了，我会停下来去复诊，不会照着网上动作硬练。",
+          "why": "需要明确安全边界；持续或新发警示表现应重新评估，不能由旧片或恢复周数排除问题。",
+          "essential": true
+        }
+      ],
+      "exams": [
+        {
+          "id": "observe",
+          "label": "观察肿胀、皮肤和短距离自然步行",
+          "purpose": "核对当前负荷耐受，决定是否继续功能检查。",
+          "consentPrompt": "先看皮肤与肿胀，再在平地按你舒服的速度走几步；若痛或不安可以停，同意吗？",
+          "patientConcern": "会不会逼我脱护踝快走？",
+          "explanation": "先确认保护需要，保持你能接受的条件；今天不要求快走、跑步或跳跃。",
+          "result": "原创虚构检查：左外踝轻度残余肿胀，皮肤完整；舒适速度短距离行走可完成，左侧支撑时间观察上稍短。无压力传感器记录。",
+          "interpretation": "这是视觉观察，不能量化力、判断韧带愈合程度或自动排除伴随损伤。",
+          "modality": "observation",
+          "appropriate": true,
+          "reason": "与恢复期和当前能力匹配，并可随症状调整。"
+        },
+        {
+          "id": "movement",
+          "label": "可耐受的踝活动与低台阶任务",
+          "purpose": "记录背屈活动和下楼相关动作策略。",
+          "consentPrompt": "先做坐位主动活动，再扶栏试低台阶下台；你可以选择只做第一部分，明显不适即停，可以吗？",
+          "patientConcern": "台阶会不会太高？",
+          "explanation": "从低台阶和扶栏开始，观察一次即可，不追求速度；今天不以完成多少次决定是否康复。",
+          "result": "原创虚构检查：膝触墙距离左5厘米、右9厘米，同法测量；左侧紧感伴轻微不适。扶栏低台阶下台时左侧动作谨慎、躯干代偿增加，报告2分不适后停止。",
+          "interpretation": "记录活动受限与策略，为训练起点提供信息；距离和疼痛数字是本例虚构基线，不是回场门槛。",
+          "modality": "movement",
+          "appropriate": true,
+          "reason": "先低要求任务并尊重停止条件，不强行增大背屈或负重。"
+        },
+        {
+          "id": "balance",
+          "label": "睁眼、稳定地面的保护性平衡观察",
+          "purpose": "了解控制与信心，避免直接进入高难跳跃。",
+          "consentPrompt": "扶手在旁，先双脚转移重心，再按舒适程度试单脚站；我在旁保护，同意吗？",
+          "patientConcern": "脚一晃是不是就又扭了？",
+          "explanation": "小范围调整不等于再次扭伤；如果害怕或不适，立即扶稳并减小难度。",
+          "result": "原创虚构检查：左侧睁眼单脚站10秒需轻扶两次，右侧25秒未扶；左侧无突然打软。尚未进行动态伸脚或跳跃测试。",
+          "interpretation": "用于选择控制练习起点；单一平衡结果不能判断韧带松弛或回归运动。",
+          "modality": "balance",
+          "appropriate": true,
+          "reason": "先建立可控环境与患者信心。"
+        },
+        {
+          "id": "pressure_scope",
+          "label": "讨论步行足压能补充什么、不能回答什么",
+          "purpose": "将步行观察转为测量问题，不把足压当作愈合证明。",
+          "consentPrompt": "如将来步行分析仍有需要，我会解释采集条件和限制；今天先讨论是否有明确问题，可以吗？",
+          "patientConcern": "左右压力一样是不是就能打球？",
+          "explanation": "步行中的读数不能替代跑跳、变向、疼痛和信心评估，也不能直接显示韧带愈合。",
+          "result": "尚无陈知行的足压实测。健康 P1/NP/1 是独立练习，不能用作这次左踝恢复的左右对照；未制作任何病例压力曲线。",
+          "interpretation": "若采集应先确认安全、步速、鞋和重复试次，并结合症状解释。更对称不等于已能比赛。",
+          "modality": "pressure",
+          "appropriate": true,
+          "reason": "帮助学生理解指标用途与回归运动问题之间的差别。"
+        },
+        {
+          "id": "unsafe_test",
+          "label": "直接做最大强度连续单脚跳与急转弯来确认痊愈",
+          "purpose": "辨认任务进阶与准备评估的必要性。",
+          "consentPrompt": "此选项暂不执行；先解释为什么今天不直接用最大强度试。",
+          "patientConcern": "我能不能咬牙跳完就算过关？",
+          "explanation": "当前下楼仍受限，先做较低要求评估。高要求动作需逐级准备、同意和保护，忍痛完成不等于准备好。",
+          "result": "未执行；没有跳跃通过率、比赛许可或跳跃足压结果。",
+          "interpretation": "恢复周数及完成一次动作都不能独立决定回归。",
+          "modality": "movement",
+          "appropriate": false,
+          "reason": "当前能力与最大强度任务不匹配，且忽略症状、信心和多维评估。"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "fictional_summary",
+          "title": "原创恢复期资料｜尚无回场结论",
+          "kind": "fictional",
+          "body": "受伤机制、六周病程、门诊影像转述、活动与平衡数值全部原创虚构。此教学情境设定为经门诊评估后进入恢复期，不是急性创伤时要求强行行走的示范。",
+          "sourceIds": []
+        },
+        {
+          "id": "literature_assessment",
+          "title": "指南与共识｜评估后选择保护和运动",
+          "kind": "literature",
+          "body": "踝扭伤评估需结合病史、症状、活动和功能；恢复训练按受损情况和耐受渐进。伴随或持续异常表现需重新评估，不能仅按受伤天数决定负荷。",
+          "sourceIds": [
+            "ankle-cpg",
+            "ankle-roast"
+          ]
+        },
+        {
+          "id": "literature_return",
+          "title": "PAASS｜回归运动的多维考虑",
+          "kind": "literature",
+          "body": "PAASS 共识关注疼痛、踝关节能力、运动者感受、感觉运动控制及专项表现。它提供评估领域，不是本课程可自动套用的单一分数或保证安全的阈值。",
+          "sourceIds": [
+            "ankle-paass"
+          ]
+        },
+        {
+          "id": "public_pressure",
+          "title": "独立练习｜不是扭伤前后对照",
+          "kind": "public-practice",
+          "body": "健康 P1/NP/1 可用于足压概念练习，与陈知行受伤前后均无对应关系；没有本病例压力或干预结果。",
+          "sourceIds": [
+            "insole-gaitrite"
+          ]
+        }
+      ],
+      "explanation": {
+        "prompt": "患者问：“六周了，平路不太痛，是不是就能回去比赛？”请选择准备说明的内容。",
+        "points": [
+          {
+            "id": "explain_pattern",
+            "label": "说明恢复周数与平路耐受只是部分信息",
+            "feedback": "你已经能短距离走路，但下楼仍受影响。比赛还涉及反复变向与落地，需要逐步评估；日期本身不能代表已准备好。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_limits",
+            "label": "解释活动、力量、控制、信心与专项需求需要结合",
+            "feedback": "我们会把你能完成什么、活动后怎样、是否有信心以及专项表现放在一起讨论，不靠一个动作宣布痊愈。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_shared",
+            "label": "回应害怕再伤，说明可暂停、可调整的进阶",
+            "feedback": "你可以报告紧、不适或害怕。我们共同设起点、停止条件和下一步目标，用复评决定是否增加要求。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_certainty",
+            "label": "宣称不疼就代表韧带完全愈合，保证下月比赛",
+            "feedback": "不恰当。疼痛下降不能独立证明愈合或专项能力，当前没有支持该保证的资料。",
+            "appropriate": false
+          },
+          {
+            "id": "explain_pressure",
+            "label": "将健康足压左右相似当作他的回场许可",
+            "feedback": "不恰当。数据不属于本病例，且步行足压不能独立决定回归运动。",
+            "appropriate": false
+          }
+        ]
+      },
+      "plan": {
+        "prompt": "结合恢复期与下楼目标，为陈知行选择可讨论的下一阶段安排。",
+        "options": [
+          {
+            "id": "plan_load",
+            "label": "在既有保护建议和耐受下逐步安排步行、楼梯与负荷",
+            "feedback": "把连续活动拆分，记录当天及次日的痛、肿和功能。出现新伤或明显恶化时提前复诊，不能强忍追赶日期。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_train",
+            "label": "根据检查逐渐加入活动、力量与平衡训练，再进阶专项",
+            "feedback": "起点与当前能力匹配，必要时继续使用合适外部支持；进阶依据同法复评和反应，不在本模块生成统一剂量或回场证。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_review",
+            "label": "约定下楼功能与症状复评，再讨论跑跳及专项准备",
+            "feedback": "建议1周左右检查楼梯、步行后反应、踝活动与平衡；更高要求测试在准备充分时进行。回场继续核对信心、专项表现及完整训练耐受。请患者复述停止与提前求助条件。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_guarantee",
+            "label": "立刻参加比赛，以比赛代替康复测试",
+            "feedback": "不恰当。下楼尚受限且专项能力未知，比赛不能替代循序评估。",
+            "appropriate": false
+          },
+          {
+            "id": "plan_one_test",
+            "label": "只看足压对称或一次跳跃，取消其他复评",
+            "feedback": "不恰当。单项数据不能覆盖症状、能力、控制、信心与运动要求。",
+            "appropriate": false
+          }
+        ]
+      },
+      "review": {
+        "keyPoints": [
+          "多条问诊入口都需回到受伤阶段、当前功能、医疗经过、风险与患者目标。",
+          "本例为受伤6周的恢复期情境；不演示急性踝伤强行负重。",
+          "检查与训练须逐级选择，患者可拒绝或暂停。",
+          "回归运动按多维信息共同判断；病例没有真实回场或疗效结果。"
+        ],
+        "limitations": [
+          "病例身份、病史、影像转述及检查结果均为原创虚构。",
+          "未获临床审核；不能作为真实急性分诊、负重许可或回归运动证明。",
+          "旧影像转述、一次观察与健康足压均无法排除所有伴随病变。"
+        ]
+      }
+    },
+    {
+      "id": "cai",
+      "title": "慢性踝关节不稳｜反复打软与运动信心",
+      "subtitle": "首次扭伤已18个月；把反复受伤、主观不稳与功能一起评估",
+      "patient": {
+        "name": "许念（原创虚构）",
+        "age": 29,
+        "occupation": "产品设计师、业余羽毛球爱好者",
+        "chief": "右踝反复打软，近半年约每月两次，已回避变向运动",
+        "goal": "在建立信心后完成20分钟低强度双打练习",
+        "concern": "担心韧带永久松掉、只能手术；也担心护踝让脚更弱"
+      },
+      "opening": "第一次崴右脚是一年半前，后来又崴过几次。现在有时踩不平的地方突然一软，倒没每次都肿。我不敢急转身了，是不是韧带一直没接好，只能手术？",
+      "therapistOpening": "我想先分清你说的“打软”是什么感觉，以及它如何影响生活。",
+      "questions": [
+        {
+          "id": "symptom_location",
+          "category": "symptoms",
+          "label": "“打软”时发生什么？与疼痛或真正扭伤有何不同？",
+          "answer": "像脚踝突然往外侧歪一下，我会赶紧另一只脚撑住。多数没摔倒，也没再肿；有时外踝酸，平时大约1分。",
+          "why": "分清主观不稳、短暂失控与再次损伤，避免把所有事件都叫新扭伤。",
+          "essential": true
+        },
+        {
+          "id": "symptom_course",
+          "category": "symptoms",
+          "label": "最早何时受伤，最近一次明显扭伤与打软是什么时候？",
+          "answer": "第一次是18个月前，最近一次真正肿起来的扭伤是4个月前。半年里打软大约每月两次，上周出地铁也有一次。",
+          "why": "建立时间线、反复事件与当前阶段，不能只靠“以前扭过”命名CAI。",
+          "essential": true
+        },
+        {
+          "id": "symptom_trigger",
+          "category": "symptoms",
+          "label": "什么情境最容易出现不稳？",
+          "answer": "急转身、球场侧步和路面坑洼时最怕。直线慢走通常还行，疲劳后更没底。",
+          "why": "识别任务需求与风险情境，便于选择功能评估。",
+          "essential": false
+        },
+        {
+          "id": "symptom_recovery",
+          "category": "symptoms",
+          "label": "这些事件后有持续肿痛、锁住或夜间痛吗？",
+          "answer": "短暂一软后会紧张，但通常没肿。没有卡死、弹一下就疼很久或夜里痛醒。长走后会有些酸，休息能缓。",
+          "why": "持续疼痛、机械症状或肿胀可能提示伴随问题，需要进一步评估。",
+          "essential": false
+        },
+        {
+          "id": "injury_history",
+          "category": "history",
+          "label": "真正扭伤过几次？每次如何处理？",
+          "answer": "首次打篮球落地内翻，门诊说外侧扭伤。之后两次明显再伤，最后一次是四个月前。第一次用过护踝，后来不肿了就没继续练。",
+          "why": "记录损伤、恢复与重复受伤历史，不能据回忆直接判断韧带完整性。",
+          "essential": true
+        },
+        {
+          "id": "prior_care",
+          "category": "history",
+          "label": "做过系统训练或使用支持用品吗？",
+          "answer": "零星练过弹力带，没连续做。护踝让我安心，可有人说戴久了脚会废，我不敢用。没做过专门的不稳量表。",
+          "why": "识别现有管理、执行障碍和用品担忧，为共同方案准备。",
+          "essential": false
+        },
+        {
+          "id": "health_screen",
+          "category": "safety",
+          "label": "是否麻木、足下垂、其他关节不稳或重要健康问题？",
+          "answer": "没有麻木和抬不起脚，别的关节没老脱臼。我没有长期病或常用药。",
+          "why": "筛查可能改变评估的神经、全身与其他因素。",
+          "essential": true
+        },
+        {
+          "id": "current_function",
+          "category": "function",
+          "label": "直线走、上下楼和变向活动分别怎样？",
+          "answer": "平路能走半小时，上下楼会留意脚的位置。球场横着移动最没信心，已经三个月没打球。",
+          "why": "同时记录实际能力、活动回避与信心，不能把少运动当作没有症状。",
+          "essential": true
+        },
+        {
+          "id": "activity_context",
+          "category": "function",
+          "label": "工作、运动机会与居家训练条件怎样？",
+          "answer": "平时坐得多，家里有稳的台面可扶。工作日能抽十几分钟，周末能去球场，但不想一开始就比赛。",
+          "why": "把计划与可用时间、场景和偏好匹配。",
+          "essential": false
+        },
+        {
+          "id": "patient_goal",
+          "category": "goals",
+          "label": "最想恢复什么，什么样的进步对你有意义？",
+          "answer": "希望走不平路不再提心吊胆，之后能低强度打20分钟双打，先不追球、不拼分也行。",
+          "why": "共同定义信心与活动目标，便于渐进复评。",
+          "essential": true
+        },
+        {
+          "id": "patient_concern",
+          "category": "goals",
+          "label": "最担心什么，对检查有什么顾虑？",
+          "answer": "怕一拉就说韧带松了要手术，也怕练跳跃再崴。希望你先告诉我为什么做、能不能停。",
+          "why": "了解恐惧和信息需求，为知情检查与解释不确定性打基础。",
+          "essential": false
+        },
+        {
+          "id": "safety_changes",
+          "category": "safety",
+          "label": "近期有没有新伤后明显肿痛、不能负重或症状持续加重？",
+          "answer": "没有新伤后走不了，也没有越来越肿。如果又明显扭了，我会先停下去评估，不把它当老毛病继续练。",
+          "why": "识别需要退出慢性管理路径、重新按新损伤评估的情况。",
+          "essential": true
+        }
+      ],
+      "exams": [
+        {
+          "id": "observe",
+          "label": "足踝观察与短距离自然行走",
+          "purpose": "了解当前状态并筛查是否更像新近损伤或其他问题。",
+          "consentPrompt": "先观察皮肤、肿胀和正常速度步行；不突然推你或让你急转弯，可以吗？",
+          "patientConcern": "走几步正常是不是说明我想太多？",
+          "explanation": "短距离走路可以正常，仍可能在疲劳或变向时不稳。你的经历是评估的重要部分。",
+          "result": "原创虚构检查：无明显新发肿胀或皮肤异常；直线舒适速度步行可完成，转身时患者主动放慢。未采集足压。",
+          "interpretation": "正常直线行走不能否认主观不稳，也不能确认机械性松弛。",
+          "modality": "observation",
+          "appropriate": true,
+          "reason": "先尊重主诉并检查当前状态。"
+        },
+        {
+          "id": "movement",
+          "label": "同法踝背屈与可控的低负荷力量任务",
+          "purpose": "记录活动、控制与耐受，为训练选择提供依据。",
+          "consentPrompt": "先试膝触墙与扶稳的提踵，保持你能控制的幅度；痛或害怕可停，同意吗？",
+          "patientConcern": "做得少会不会就判定很严重？",
+          "explanation": "次数只是今天的起点，不能单独分级严重程度，我们会结合症状和任务。",
+          "result": "原创虚构检查：膝触墙距离右6厘米、左10厘米，同法测量；右侧扶桌提踵6次后动作幅度减小，未出现新扭伤或明显疼痛。",
+          "interpretation": "提示本次活动与任务控制存在可讨论的差异；不能由此断定某根韧带损坏或需要手术。",
+          "modality": "movement",
+          "appropriate": true,
+          "reason": "选择可控任务，不以疲劳极限作唯一判断。"
+        },
+        {
+          "id": "balance",
+          "label": "有保护的平衡与主观信心记录",
+          "purpose": "观察控制表现，并让患者报告害怕程度。",
+          "consentPrompt": "先睁眼在硬地单脚站，扶手就在旁边；如稳定才讨论进一步伸脚任务，今天不要求跳，可以吗？",
+          "patientConcern": "我怕旁边没人接着会崴。",
+          "explanation": "我会站在旁保护，你随时可扶稳；是否进阶由表现和你的意愿一起决定。",
+          "result": "原创虚构检查：右侧8秒内有两次触地，左侧22秒未触地；右侧患者主动要求暂停，表示担心失控。未进行正式动态平衡评分或跳跃测试。",
+          "interpretation": "控制与信心均需纳入计划；时长不是课程设定的诊断阈值。正式量表和任务评估仍可补充。",
+          "modality": "balance",
+          "appropriate": true,
+          "reason": "与主诉相关，也尊重拒绝与暂停。"
+        },
+        {
+          "id": "pressure_scope",
+          "label": "确定足压能否回答当前问题",
+          "purpose": "区分步行读数与反复不稳、韧带状态和专项表现。",
+          "consentPrompt": "如果将来需要记录步行，我会先说明目的和限制；你愿意一起列出还缺哪些资料吗？",
+          "patientConcern": "足压正常是不是就说明不会再崴？",
+          "explanation": "不能。步行数据只覆盖特定任务，还需要损伤史、主观不稳、功能、控制和必要的结构评估。",
+          "result": "尚无许念的足压实测。公开健康 P1/NP/1 不属于其本人，不能证明她正常、异常或康复；未生成病例连续足压图。",
+          "interpretation": "如有明确问题，可在标准条件下补充记录；它不能单独确诊CAI、证明韧带松弛或预测再次扭伤。",
+          "modality": "pressure",
+          "appropriate": true,
+          "reason": "让证据选择服务于问题，避免指标代替临床判断。"
+        },
+        {
+          "id": "unsafe_test",
+          "label": "只做一次踝前抽屉动作，立即宣布必须手术",
+          "purpose": "辨认结构检查与完整临床决策的区别。",
+          "consentPrompt": "此选项不会执行为既定结论服务的强行检查；先说明局限。",
+          "patientConcern": "我就是怕被用力一拉，然后直接说没法练。",
+          "explanation": "必要的结构检查应在说明目的、同意和合适条件下进行，并结合全部资料。一个动作不能直接决定手术。",
+          "result": "此简化路径未执行；未记录松弛分级或手术指征。",
+          "interpretation": "机械性松弛、感觉不稳和功能受限不是同一测量，不能彼此替代。",
+          "modality": "movement",
+          "appropriate": false,
+          "reason": "将单项体征等同于诊断与手术决定，忽略患者目标、风险及其他病因。"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "fictional_summary",
+          "title": "原创病例资料｜反复事件与回避活动",
+          "kind": "fictional",
+          "body": "首次扭伤18个月、再次受伤、每月打软、检查数值与担忧均为原创虚构。病例用于训练CAI相关推理；没有真实量表得分、韧带影像、足压或治疗后随访。",
+          "sourceIds": []
+        },
+        {
+          "id": "literature_cai",
+          "title": "研究声明｜研究入组标准不等于个体诊断公式",
+          "kind": "literature",
+          "body": "国际踝关节联盟强调以损伤史、反复打软或主观不稳及患者报告工具描述研究人群。研究选择标准的用途是提高研究一致性，不能直接套用为临床确诊、手术或排除标准。",
+          "sourceIds": [
+            "cai-consensus"
+          ]
+        },
+        {
+          "id": "literature_rehab",
+          "title": "指南提示｜管理需要多维评估与复评",
+          "kind": "literature",
+          "body": "CAI管理需结合患者报告、活动受限及功能检查来选择训练。平衡与感觉运动训练是可考虑的组成部分；外部支持的角色应个体讨论，不能用它替代所有主动康复。",
+          "sourceIds": [
+            "ankle-cpg"
+          ]
+        },
+        {
+          "id": "public_pressure",
+          "title": "独立练习｜健康样例不能验证CAI",
+          "kind": "public-practice",
+          "body": "P1/NP/1 是健康研究参与者的独立足压片段。其通道、CoP与读帧练习不支持许念的诊断、训练效果或再伤风险判断。",
+          "sourceIds": [
+            "insole-gaitrite"
+          ]
+        }
+      ],
+      "explanation": {
+        "prompt": "患者问：“脚一软是不是就代表韧带永远松了，只能手术？”请选择准备说明的内容。",
+        "points": [
+          {
+            "id": "explain_pattern",
+            "label": "区分反复打软、控制表现与机械性松弛",
+            "feedback": "你反复打软的经历需要认真评估，但它不能单独证明韧带状态。感觉、活动、力量、控制和信心都可能影响任务表现。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_limits",
+            "label": "说明现有结果不足以确诊所有病因或决定手术",
+            "feedback": "今天有病史和功能线索，还没有完整结构评估、正式患者报告工具或必要的鉴别资料。若症状不符或持续加重，需要进一步评估。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_shared",
+            "label": "以患者目标建立分级训练和复评的共同决定",
+            "feedback": "先选择你能控制的任务，逐步接近不平地步行和低强度双打。你可以说出担心、选择暂停，我们记录能力与信心再决定进阶。",
+            "appropriate": true
+          },
+          {
+            "id": "explain_certainty",
+            "label": "宣称所有CAI只能手术，或保证训练后绝不再崴",
+            "feedback": "不恰当。当前信息不能支持手术结论，也不能保证任何方案消除再伤。",
+            "appropriate": false
+          },
+          {
+            "id": "explain_pressure",
+            "label": "把健康足压正常当作否认患者不稳的证据",
+            "feedback": "不恰当。数据不属于该患者；直线步行数据也不能否认特定任务中的不稳。",
+            "appropriate": false
+          }
+        ]
+      },
+      "plan": {
+        "prompt": "与许念商量下一阶段安排，如何把信心、功能和继续评估结合起来？",
+        "options": [
+          {
+            "id": "plan_load",
+            "label": "共同选择可控活动，逐渐接近不平地与变向任务",
+            "feedback": "先记录当前可完成任务及打软情境，避免从完全回避直接跳到对抗比赛。按反应、信心和同法评估逐步调整。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_train",
+            "label": "据检查安排活动、力量、平衡与感觉运动练习，讨论支持用品",
+            "feedback": "训练从有保护的稳定条件开始；护踝可作为特定任务的辅助选择，需适配、舒适并与主动康复配合。没有本病例已获改善的结果。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_review",
+            "label": "约定2周复评，记录打软事件、活动参与、信心及同法功能",
+            "feedback": "补充合适的患者报告工具，按其正式规则记录，不能编造量表分。复评同法踝活动、控制和目标任务；若新伤、持续肿痛、卡锁或无进展，应重新鉴别并考虑转介。请患者复述计划和求助条件。",
+            "appropriate": true
+          },
+          {
+            "id": "plan_guarantee",
+            "label": "只给护踝，承诺能完全替代训练且永不再伤",
+            "feedback": "不恰当。单一支持用品不能覆盖全部受损与目标，也没有本病例疗效证据支持保证。",
+            "appropriate": false
+          },
+          {
+            "id": "plan_one_test",
+            "label": "只追求一次平衡测试过关，忽略打软史与活动回避",
+            "feedback": "不恰当。单项表现不代表复杂任务能力；复评还需患者经历、信心和参与情况。",
+            "appropriate": false
+          }
+        ]
+      },
+      "review": {
+        "keyPoints": [
+          "可从反复扭伤、打软、运动回避或担忧切入，仍需核实时间线、当前安全、功能和目标。",
+          "患者报告与观察各提供不同证据，不能用一次步行或结构动作替代全部判断。",
+          "不把研究入组标准当成临床确诊公式，不伪造正式量表分数。",
+          "复评需记录能力、信心、参与和再发事件；没有本例训练疗效或再伤结局。"
+        ],
+        "limitations": [
+          "所有患者身份、病史和检查表现均为原创虚构教学内容。",
+          "未获临床审核；不是诊断、手术决策或回归运动许可。",
+          "未完成全部鉴别检查、结构评估、正式量表或足压采集。"
+        ]
+      }
+    }
+  ]
+}

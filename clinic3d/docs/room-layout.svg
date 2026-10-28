@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1040" viewBox="0 0 1280 1040" role="img" aria-labelledby="title desc">
+  <title id="title">27平方米足踝生物力学教学诊室：可制作布局建议</title>
+  <desc id="desc">房间宽4.5米、深6米。东北为接诊桌及一个启用患者凳，第二凳靠东墙备用。西侧为诊查床，北墙X1.2至2.45米、Y0至1.45米为分时清空的膝触墙位。中央是短程观察通道和足压板，停止行走后复用作平衡位，治疗师在东侧保护；软垫只按需临时布置。东南为教具。坐标原点为西北角，X向东、Y向南。2.5米短程观察线含压力板的一部分，不能作为5米稳定自然步态采集。</desc>
+  <defs>
+    <pattern id="grid" x="120" y="140" width="55" height="55" patternUnits="userSpaceOnUse"><path d="M 55 0 L 0 0 0 55" fill="none" stroke="#d9e0e5" stroke-width="0.7" stroke-dasharray="2 3"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#345169"/></marker>
+    <marker id="walk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#2a7192"/></marker>
+    <style>
+      text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#203443}.title{font-size:28px;font-weight:700}.sub{font-size:15px;fill:#546875}.roomlabel{font-size:16px;font-weight:700}.small{font-size:13px}.tiny{font-size:11px}.body{font-size:17px}.note{font-size:15px;fill:#516675}.dim{fill:none;stroke:#345169;stroke-width:1.3;marker-start:url(#arrow);marker-end:url(#arrow)}.ext{stroke:#9daeba;stroke-width:1}.num{fill:#fff;font-size:15px;font-weight:700;text-anchor:middle}.boxhead{font-size:19px;font-weight:700}.furniture{stroke:#738b9a;stroke-width:1.5}.call{fill:#fff;stroke:#b9c8d1;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1280" height="1040" fill="#f6f8fa"/>
+  <text x="46" y="49" class="title">27㎡足踝生物力学教学诊室｜布局优化稿</text>
+  <text x="46" y="79" class="sub">保留六个功能环节；按短程观察与足压教学设计。施工、院感、设备性能与临床动作须分别审核。</text>
+  <text x="46" y="102" class="sub">1:1建模坐标：西北角 (0,0)，X向东、Y向南，Z向上；本图 110px = 1m；层高 2.8m。</text>
+
+  <!-- 尺寸及方向 -->
+  <path d="M120 130V112 M615 130V112" class="ext"/>
+  <path d="M120 119H615" class="dim"/><rect x="315" y="107" width="105" height="24" fill="#f6f8fa"/><text x="367" y="124" text-anchor="middle" class="body">4.50 m</text>
+  <path d="M111 140H77 M111 800H77" class="ext"/><path d="M85 140V800" class="dim"/>
+  <text x="69" y="474" transform="rotate(-90 69 474)" text-anchor="middle" class="body">6.00 m</text>
+  <path d="M654 198V151" stroke="#345169" stroke-width="2" marker-end="url(#arrow)"/><text x="654" y="137" text-anchor="middle" class="body">北</text>
+
+  <!-- 房间外框；门开口宽0.90m -->
+  <rect x="120" y="140" width="495" height="660" fill="#edf0ef"/>
+  <rect x="120" y="140" width="495" height="660" fill="url(#grid)"/>
+  <path d="M136.5 140H120V800H615V140H235.5" fill="none" stroke="#344b5b" stroke-width="7"/>
+  <path d="M136.5 140V239 M235.5 140A99 99 0 0 1 136.5 239" fill="none" stroke="#8ba0ad" stroke-width="1.5"/>
+  <text x="148" y="165" class="small">入口 0.90m</text>
+  <g class="tiny" text-anchor="middle"><text x="120" y="820">0</text><text x="230" y="820">1</text><text x="340" y="820">2</text><text x="450" y="820">3</text><text x="560" y="820">4</text><text x="615" y="820">4.5</text></g>
+  <g class="tiny" text-anchor="end"><text x="108" y="145">0</text><text x="108" y="255">1</text><text x="108" y="365">2</text><text x="108" y="475">3</text><text x="108" y="585">4</text><text x="108" y="695">5</text><text x="108" y="805">6</text></g>
+  <text x="125" y="843" class="small">坐标数值单位 m；原点在左上角；虚线网格 0.5m。</text>
+
+  <!-- 中央净空：1.0m x 3.9m -->
+  <rect x="301.5" y="338" width="110" height="429" rx="5" fill="#e4f0f6" stroke="#8db7ca" stroke-width="1.3" stroke-dasharray="6 4"/>
+  <text x="356.5" y="358" text-anchor="middle" class="small">中央净空 1.0m</text>
+
+  <!-- 北墙膝触墙位：X1.2–2.45、Y0–1.45，分时清空 -->
+  <rect x="252" y="140" width="137.5" height="159.5" rx="5" fill="#f6e9d3" fill-opacity="0.65" stroke="#b17a36" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="321" y="168" text-anchor="middle" class="roomlabel">膝触墙位</text>
+  <text x="321" y="190" text-anchor="middle" class="small">分时清空 · 面北墙</text>
+  <circle cx="340" cy="222" r="20" fill="#d4e4e9" stroke="#7796a5"/>
+  <text x="340" y="227" text-anchor="middle" class="tiny">患者</text>
+  <circle cx="279.5" cy="250" r="20" fill="#e8d6b9" stroke="#b39162"/>
+  <text x="279.5" y="254" text-anchor="middle" class="tiny">保护</text>
+  <text x="321" y="287" text-anchor="middle" class="tiny">X1.2–2.45 / Y0–1.45m</text>
+
+  <!-- 接诊区：桌1.6x0.8；椅凳位为占地示意 -->
+  <rect x="422.5" y="228" width="176" height="88" rx="9" fill="#f6f7f4" class="furniture"/>
+  <circle cx="510.5" cy="184" r="27.5" fill="#4a6474"/>
+  <rect x="478" y="244" width="65" height="18" rx="2" fill="#36566d"/>
+  <rect x="474" y="276" width="38" height="25" rx="2" fill="#d2dadc"/>
+  <rect x="550" y="272" width="34" height="27" rx="3" fill="#d9e3e6"/>
+  <rect x="430.75" y="340.75" width="49.5" height="49.5" rx="10" fill="#75a6c4" class="furniture"/>
+  <rect x="548.45" y="390.25" width="49.5" height="49.5" rx="10" fill="#a9bdc9" class="furniture"/>
+  <text x="573" y="378" text-anchor="middle" class="small">备用凳</text>
+  <text x="510.5" y="335" text-anchor="middle" class="roomlabel">接诊桌</text>
+  <circle cx="587" cy="212" r="15" fill="#345169"/><text x="587" y="217" class="num">1</text>
+  <text x="455" y="414" text-anchor="middle" class="small">患者凳</text>
+
+  <!-- 西侧诊查床及操作边 -->
+  <rect x="136.5" y="371" width="77" height="209" rx="7" fill="#a4c7db" class="furniture"/>
+  <rect x="142" y="378" width="66" height="29" rx="6" fill="#e1edf4"/>
+  <text x="175" y="482" text-anchor="middle" class="roomlabel" transform="rotate(-90 175 482)">诊查床 1.9 × 0.7m</text>
+  <rect x="213.5" y="382" width="88" height="192.5" rx="4" fill="#e6ece4" stroke="#a5b49c" stroke-dasharray="4 4"/>
+  <text x="258" y="476" text-anchor="middle" class="small" transform="rotate(-90 258 476)">单侧操作净空约 0.8m</text>
+  <rect x="224.5" y="602" width="49.5" height="55" rx="4" fill="#d7dfe0" class="furniture"/>
+  <text x="249" y="676" text-anchor="middle" class="small">治疗车</text>
+  <circle cx="155" cy="351" r="15" fill="#345169"/><text x="155" y="356" class="num">2</text>
+  <rect x="123" y="382" width="5" height="198" fill="#a69172"/>
+  <text x="143" y="604" class="tiny">西墙三幅挂图</text>
+
+  <!-- 短程观察段；非自然稳定步态 -->
+  <path d="M356.5 376.5V556" stroke="#2a7192" stroke-width="4" fill="none" marker-end="url(#walk)"/>
+  <path d="M356.5 565V651.5" stroke="#2a7192" stroke-width="4" fill="none" stroke-dasharray="6 4"/>
+  <circle cx="356.5" cy="376.5" r="5" fill="#c04e48"/>
+  <circle cx="356.5" cy="651.5" r="5" fill="#c04e48"/>
+  <path d="M396 376.5V651.5" class="dim"/>
+  <rect x="385" y="442" width="22" height="154" fill="#e4f0f6"/>
+  <text x="401" y="520" text-anchor="middle" class="small" transform="rotate(-90 401 520)">2.5m短程观察线</text>
+  <circle cx="324" cy="404" r="15" fill="#345169"/><text x="324" y="409" class="num">3</text>
+
+  <!-- 平衡垫为临时物件，互斥于步行模式 -->
+  <rect x="323.5" y="415" width="66" height="66" rx="4" fill="#edd4ac" fill-opacity="0.6" stroke="#b17a36" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="356" y="445" text-anchor="middle" class="small">平衡位</text>
+  <text x="356" y="465" text-anchor="middle" class="tiny">停走后；软垫按需</text>
+  <rect x="428" y="437" width="99" height="60.5" rx="7" fill="#f6e9d3" stroke="#c5a67e" stroke-dasharray="4 4"/>
+  <text x="477.5" y="461" text-anchor="middle" class="small">治疗师保护位</text>
+  <text x="477.5" y="481" text-anchor="middle" class="tiny">保护区保持清空</text>
+  <circle cx="547" cy="464" r="15" fill="#a87634"/><text x="547" y="469" class="num">5</text>
+
+  <!-- 墙装摄像机，不占步道 -->
+  <path d="M123 478h17l9-7v21l-9-7h-17z" fill="#536c7c"/>
+  <path d="M612 478h-17l-9-7v21l9-7h17z" fill="#536c7c"/>
+  <text x="489" y="524" class="small">墙装观察摄像机</text>
+  <text x="489" y="544" class="tiny">普通视频 ≠ 三维动捕</text>
+
+  <!-- 足压板与过渡段 -->
+  <rect x="323.5" y="514" width="66" height="55" fill="#d9e1e4" stroke="#93a4ae"/>
+  <rect x="323.5" y="569" width="66" height="88" rx="2" fill="#293c48" stroke="#7b929f" stroke-width="3"/>
+  <path d="M331 580h51M331 591h51M331 602h51M331 613h51M331 624h51M331 635h51M331 646h51" stroke="#5a7685" stroke-width="1"/>
+  <rect x="323.5" y="657" width="66" height="55" fill="#d9e1e4" stroke="#93a4ae"/>
+  <rect x="301.5" y="712" width="110" height="88" fill="none" stroke="#a9bdc8" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="356.5" y="746" text-anchor="middle" class="small">南端剩余约0.8m</text>
+  <text x="356.5" y="767" text-anchor="middle" class="tiny">不足以默认自然减速</text>
+  <circle cx="420" cy="625" r="15" fill="#345169"/><text x="420" y="630" class="num">4</text>
+
+  <!-- 东南教具架与示教空间 -->
+  <rect x="538" y="602" width="60.5" height="176" rx="5" fill="#ded6c7" class="furniture"/>
+  <path d="M538 660H598.5 M538 719H598.5" stroke="#a49278"/>
+  <text x="568" y="691" text-anchor="middle" class="roomlabel" transform="rotate(-90 568 691)">教具架（存放平衡垫）</text>
+  <rect x="435.7" y="635" width="82.5" height="101.2" rx="7" fill="#e3e8df" stroke="#a8b29d" stroke-dasharray="4 4"/>
+  <text x="477" y="679" text-anchor="middle" class="small">示教站位</text>
+  <text x="477" y="702" text-anchor="middle" class="tiny">非穿行通道</text>
+  <circle cx="474" cy="759" r="15" fill="#345169"/><text x="474" y="764" class="num">6</text>
+
+  <!-- 右侧说明 -->
+  <rect x="706" y="140" width="528" height="660" rx="14" fill="#fff" stroke="#d4dfe6"/>
+  <text x="731" y="176" class="boxhead">能在房间内做什么</text>
+  <text x="731" y="212" class="body">① 接诊桌移至东北角，入口与中央通道分开。</text>
+  <text x="731" y="247" class="body">② 西床坐位评估；北墙膝触墙位分时清空。</text>
+  <text x="731" y="282" class="body">③ 约2.5m短程观察，含压力板的部分长度。</text>
+  <text x="731" y="307" class="note">用于教学动作、观察站立与落脚；不标成5m步道。</text>
+  <text x="731" y="342" class="body">④ 压力板0.8×0.6m，前后各0.5m齐平段。</text>
+  <text x="731" y="367" class="note">齐平段不等于足够的加速或减速距离。</text>
+  <text x="731" y="402" class="body">⑤ 停走后复用中央带，东侧留治疗师保护位。</text>
+  <text x="731" y="427" class="note">先硬地睁眼；软垫仅在合适时临时放置。</text>
+  <text x="731" y="462" class="body">⑥ 东南教具示教；结尾返回接诊桌。</text>
+  <text x="731" y="487" class="note">诊疗动线允许返回，不能称“全程无折返”。</text>
+  <path d="M731 512H1209" stroke="#dce4e9"/>
+  <text x="731" y="546" class="boxhead">真实测量需要另行确认</text>
+  <text x="731" y="581" class="body">稳定自然步态：外接独立、足够长的采集步道。</text>
+  <text x="731" y="606" class="note">按设备与研究方案设置加速、有效采集、减速区。</text>
+  <text x="731" y="641" class="body">只有报告或压力图片时，不重算逐帧COP。</text>
+  <text x="731" y="666" class="note">真实COP需时序压力矩阵或设备已导出的轨迹。</text>
+  <text x="731" y="701" class="body">普通摄像机、量角器、灯光渲染各有局限。</text>
+  <text x="731" y="726" class="note">不宣称三维动捕、1°测量准确度或实测照度。</text>
+  <text x="731" y="765" class="note">此图为教学场景建议，不是医疗建筑合规证明。</text>
+
+  <!-- 图例与制作分级 -->
+  <rect x="46" y="864" width="1188" height="127" rx="12" fill="#fff" stroke="#d4dfe6"/>
+  <text x="67" y="892" class="boxhead">图例与制作顺序</text>
+  <rect x="67" y="908" width="24" height="18" fill="#e4f0f6" stroke="#8db7ca" stroke-dasharray="4 3"/><text x="100" y="922" class="small">净空 / 通道</text>
+  <rect x="226" y="908" width="24" height="18" fill="#edd4ac" stroke="#b17a36" stroke-dasharray="4 3"/><text x="260" y="922" class="small">临时布置（不能同时走路）</text>
+  <rect x="503" y="908" width="24" height="18" fill="#293c48"/><text x="537" y="922" class="small">齐平压力板</text>
+  <text x="67" y="958" class="note">先做：房间、家具、镜头切换、接诊互动；后做：逐项审核的接触动作；另立项：真实足压接口与稳定步态采集。</text>
+  <text x="67" y="980" class="tiny">所有尺寸均为设计占地；应以人物碰撞、教师保护位、设备厂家安装要求和真实场地复核结果迭代。</text>
+</svg>

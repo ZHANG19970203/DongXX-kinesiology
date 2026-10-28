@@ -1,0 +1,104 @@
+{
+  "format": "dxx-clinic-service-regression-v5",
+  "version": "v5",
+  "status": "passed",
+  "executedAt": "2026-10-18T01:46:00.065Z",
+  "execution": "Bundled Python with -B -X utf8; the three independent checks were run concurrently",
+  "caseContract": {
+    "status": "passed",
+    "cases": {
+      "flatfoot": {
+        "questions": 12,
+        "exams": 5,
+        "evidence": 3
+      },
+      "cavus": {
+        "questions": 12,
+        "exams": 5,
+        "evidence": 4
+      },
+      "sprain": {
+        "questions": 12,
+        "exams": 5,
+        "evidence": 4
+      },
+      "cai": {
+        "questions": 12,
+        "exams": 5,
+        "evidence": 4
+      }
+    },
+    "sources": 10,
+    "issues": [],
+    "scope": "Contract/provenance consistency checks only; clinical expert approval is still pending."
+  },
+  "backendIntegrationTests": 15,
+  "aiGroundingTests": 5,
+  "liveProviderTested": false,
+  "aiAdapter": {
+    "status": "passed",
+    "checks": [
+      "exact_authored_question_returns_authored_answer",
+      "unavailable_clinical_facts_not_generated",
+      "provider_only_selects_id_and_cannot_override_answer",
+      "invalid_provider_id_falls_back_without_invention",
+      "provider_failure_keeps_authored_patient_facts"
+    ],
+    "live_provider_tested": false
+  },
+  "checks": [
+    {
+      "name": "caseContract",
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/check_clinic_cases.py"
+      ],
+      "exitCode": 0,
+      "output": "{\r\n  \"status\": \"passed\",\r\n  \"cases\": {\r\n    \"flatfoot\": {\r\n      \"questions\": 12,\r\n      \"exams\": 5,\r\n      \"evidence\": 3\r\n    },\r\n    \"cavus\": {\r\n      \"questions\": 12,\r\n      \"exams\": 5,\r\n      \"evidence\": 4\r\n    },\r\n    \"sprain\": {\r\n      \"questions\": 12,\r\n      \"exams\": 5,\r\n      \"evidence\": 4\r\n    },\r\n    \"cai\": {\r\n      \"questions\": 12,\r\n      \"exams\": 5,\r\n      \"evidence\": 4\r\n    }\r\n  },\r\n  \"sources\": 10,\r\n  \"issues\": [],\r\n  \"scope\": \"Contract/provenance consistency checks only; clinical expert approval is still pending.\"\r\n}\r\n"
+    },
+    {
+      "name": "learningServer",
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/test_learning_server.py"
+      ],
+      "exitCode": 0,
+      "output": "test_completion_accepts_real_evidence_id (__main__.LearningServerChecks.test_completion_accepts_real_evidence_id) ... 127.0.0.1 POST /api/learning/events 200\r\n127.0.0.1 GET /api/learning/sessions 200\r\nok\r\ntest_completion_rejects_fabricated_evidence_and_coverage (__main__.LearningServerChecks.test_completion_rejects_fabricated_evidence_and_coverage) ... 127.0.0.1 POST /api/learning/events 422\r\n127.0.0.1 POST /api/learning/events 422\r\nok\r\ntest_concurrent_duplicate_is_atomic (__main__.LearningServerChecks.test_concurrent_duplicate_is_atomic) ... 127.0.0.1 POST /api/learning/events 200\r\n127.0.0.1 POST /api/learning/events 200\r\n127.0.0.1 POST /api/learning/events 200\r\n127.0.0.1 POST /api/learning/events 200\r\n127.0.0.1 POST /api/learning/events 200\r\n127.0.0.1 POST /api/learning/events 200\r\nok\r\ntest_conflicting_id_rolls_back_whole_batch (__main__.LearningServerChecks.test_conflicting_id_rolls_back_whole_batch) ... 127.0.0.1 POST /api/learning/events 200\r\n127.0.0.1 POST /api/learning/events 409\r\n127.0.0.1 GET /api/learning/sessions/session.conflict 200\r\nok\r\ntest_cross_origin_and_non_json_rejected (__main__.LearningServerChecks.test_cross_origin_and_non_json_rejected) ... 127.0.0.1 POST /api/learning/events 403\r\n127.0.0.1 POST /api/learning/events 403\r\n127.0.0.1 POST /api/learning/events 403\r\n127.0.0.1 POST /api/learning/events 415\r\nok\r\ntest_data_directory_cannot_be_inside_site (__main__.LearningServerChecks.test_data_directory_cannot_be_inside_site) ... ok\r\ntest_guest_event_and_idempotent_retry (__main__.LearningServerChecks.test_guest_event_and_idempotent_retry) ... 127.0.0.1 POST /api/learning/events 200\r\n127.0.0.1 POST /api/learning/events 200\r\n127.0.0.1 GET /api/learning/sessions/session.idempotent 200\r\nok\r\ntest_illegal_session_and_unknown_case_rejected (__main__.LearningServerChecks.test_illegal_session_and_unknown_case_rejected) ... 127.0.0.1 POST /api/learning/events 422\r\n127.0.0.1 POST /api/learning/events 422\r\nok\r\ntest_malformed_json_nonfinite_and_oversize_rejected (__main__.LearningServerChecks.test_malformed_json_nonfinite_and_oversize_rejected) ... 127.0.0.1 POST /api/learning/events 400\r\n127.0.0.1 POST /api/learning/events 400\r\n127.0.0.1 POST /api/learning/events 413\r\nok\r\ntest_malformed_payload_and_unknown_question_rejected (__main__.LearningServerChecks.test_malformed_payload_and_unknown_question_rejected) ... 127.0.0.1 POST /api/learning/events 422\r\n127.0.0.1 POST /api/learning/events 422\r\nok\r\ntest_mismatched_session_rejected (__main__.LearningServerChecks.test_mismatched_session_rejected) ... 127.0.0.1 POST /api/learning/events 422\r\nok\r\ntest_public_status_has_no_identity_or_records (__main__.LearningServerChecks.test_public_status_has_no_identity_or_records) ... 127.0.0.1 GET /api/learning/status 200\r\nok\r\ntest_question_api_is_grounded_and_validated (__main__.LearningServerChecks.test_question_api_is_grounded_and_validated) ... 127.0.0.1 POST /api/encounter/ask 200\r\n127.0.0.1 POST /api/encounter/ask 400\r\n127.0.0.1 POST /api/encounter/ask 400\r\nok\r\ntest_static_traversal_database_and_hidden_files_blocked (__main__.LearningServerChecks.test_static_traversal_database_and_hidden_files_blocked) ... 127.0.0.1 GET /%2e%2e/README.md 404\r\n127.0.0.1 GET /..%5cREADME.md 404\r\n127.0.0.1 GET /.learning-test-secret.txt 404\r\n127.0.0.1 GET /learning-test.sqlite3 404\r\n127.0.0.1 GET /.env 404\r\n127.0.0.1 GET /api/learning/sessions/..%2Fprivate 422\r\n127.0.0.1 GET /teacher/ 200\r\n127.0.0.1 GET /README.md 200\r\n127.0.0.1 GET /.nojekyll 200\r\n127.0.0.1 GET /assembly/licenses/SOMAKINE_DATA_LICENSE 200\r\n127.0.0.1 GET /assembly/licenses/SOMAKINE_NOTICE 200\r\n127.0.0.1 GET /assembly/tools/REBUILD_GEOMETRY.ps1 200\r\nok\r\ntest_teacher_reads_require_header_token (__main__.LearningServerChecks.test_teacher_reads_require_header_token) ... 127.0.0.1 GET /api/learning/sessions 401\r\n127.0.0.1 GET /api/learning/sessions/session.idempotent 401\r\n127.0.0.1 GET /api/learning/sessions 401\r\n127.0.0.1 GET /api/learning/sessions 401\r\n127.0.0.1 GET /api/learning/sessions 401\r\nok\r\n\r\n----------------------------------------------------------------------\r\nRan 15 tests in 1.376s\r\n\r\nOK\r\n"
+    },
+    {
+      "name": "aiAdapter",
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/test_ai_adapter.py"
+      ],
+      "exitCode": 0,
+      "output": "{\r\n  \"status\": \"passed\",\r\n  \"checks\": [\r\n    \"exact_authored_question_returns_authored_answer\",\r\n    \"unavailable_clinical_facts_not_generated\",\r\n    \"provider_only_selects_id_and_cannot_override_answer\",\r\n    \"invalid_provider_id_falls_back_without_invention\",\r\n    \"provider_failure_keeps_authored_patient_facts\"\r\n  ],\r\n  \"live_provider_tested\": false\r\n}\r\n"
+    }
+  ],
+  "testStorage": "Learning-server suite used tempfile.TemporaryDirectory outside the site and cleaned it in tearDownClass; no test database or runtime token is copied into the release",
+  "limits": [
+    "Regression tests cover original contracts and mocked/local AI only; they do not prove v5 browser UI or live-provider operation."
+  ],
+  "sourceHashes": {
+    "clinic/cases.json": "a6958df84d72b3dd42a5868cfafe15715092530845b0003237555bf033bf89ea",
+    "serve_lab.py": "f737de4b6104be4871c21ce9823c3e531424479da40c61a9a5926dd8970a926d",
+    "ai_adapter.py": "ce4262b7a8385cf977de5b566ed3bb4d1caa2490192d27d2334a5582385125cd",
+    "teacher/teacher.js": "dfce53cf6006afa7790ed659d6fd21c09d02c295ca3bd7823d9a3d6197cdf740",
+    "tools/check_clinic_cases.py": "dfa0f5350aa28261029e0da1100a2ec07568aa679f6c8fb27224eed7e04f66b4",
+    "tools/test_learning_server.py": "f4b23e08ab9f5d3654b05b6d64ed09b85f15a81273f07dd28a2f27daef91335c",
+    "tools/test_ai_adapter.py": "3e575804031a958899d2372e27e13d14abd582599671bf493e5d257417a1b2b0"
+  },
+  "siteRuntimeFileCheck": {
+    "status": "passed",
+    "leftovers": []
+  }
+}

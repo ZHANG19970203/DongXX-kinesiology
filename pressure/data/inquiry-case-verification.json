@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "dxx-pressure-inquiry-case-verification-v1",
+  "status": "passed",
+  "verificationScope": "Independent source-data and arithmetic acceptance; no UI module or GaitScope code imported.",
+  "source": {
+    "caseId": "P1/NP/1",
+    "datasetDOI": "10.5281/zenodo.19662017",
+    "datasetURL": "https://zenodo.org/records/19662017",
+    "sourceCSV": "data/source/P1_NP_1_L.csv",
+    "sourceCSV_SHA256": "9b97000f31a9b34781d59066fda83c81fec71b21984e9ec873e6ef4a9964c1e3",
+    "caseJSON": "data/case-p1-np-1.json",
+    "caseJSON_SHA256": "68e678f45e7db057d57e01adf38c998f4848b793157edee82cabb223631aa3a0"
+  },
+  "checkedSourceFrames": 249,
+  "channelsPerFrame": 32,
+  "fixedColorScaleDataContract": {
+    "sameLeftClipForBothFrames": true,
+    "minimumRawValueForDisplay": 0,
+    "maximumRawValueForDisplay": 2887.0,
+    "perFrameRescalingPermitted": false,
+    "note": "Verifies the expected data range, not whether a renderer actually applies it."
+  },
+  "teachingFilter": {
+    "ratioOfSameSidePeakSum": 0.15,
+    "sameSidePeakSum": 25031.0,
+    "thresholdRawSum": 3754.65,
+    "rule": "sum >= threshold and sum > 0",
+    "bothReferenceFramesIncluded": true,
+    "contactEventValidation": false
+  },
+  "referenceFrames": [
+    {
+      "side": "L",
+      "zeroBasedFrameIndex": 25,
+      "nominalTimeSeconds": 0.390625,
+      "maximumChannel": 27,
+      "maximumRawValue": 2781.0,
+      "maximumPointDrawingCoordinates": [
+        86.0,
+        461.5
+      ],
+      "channelSum": 20935.0,
+      "sourceCoP": [
+        83.27401480773824,
+        423.6651540482446
+      ],
+      "independentlyRecomputedCoP": [
+        83.27401480773824,
+        423.6651540482446
+      ],
+      "CoPToMaximumPointDrawingDistance": 37.93292189459565,
+      "includedAtThreshold3754_65": true
+    },
+    {
+      "side": "L",
+      "zeroBasedFrameIndex": 50,
+      "nominalTimeSeconds": 0.78125,
+      "maximumChannel": 8,
+      "maximumRawValue": 2312.0,
+      "maximumPointDrawingCoordinates": [
+        20.0,
+        197.5
+      ],
+      "channelSum": 24620.0,
+      "sourceCoP": [
+        78.19311535337124,
+        161.0086311941511
+      ],
+      "independentlyRecomputedCoP": [
+        78.19311535337124,
+        161.0086311941511
+      ],
+      "CoPToMaximumPointDrawingDistance": 68.68812613440008,
+      "includedAtThreshold3754_65": true
+    }
+  ],
+  "teachingHypothesis": {
+    "checked": true,
+    "maximumSingleChannelDecreases": true,
+    "channelSumIncreases": true,
+    "CoPYDecreases": true,
+    "CoPDiffersFromMaximumPointInBothFrames": true,
+    "deltaSourceCoP": [
+      -5.080899454367,
+      -262.6565228540935
+    ],
+    "rawChannelSumChange": 3685.0,
+    "maximumRawChannelChange": -469.0,
+    "interpretation": "Within this same-foot source example, the largest raw channel value decreases while the channel sum increases and the weighted source CoP moves toward smaller y (the toe end of the drawing layout)."
+  },
+  "limits": [
+    "Channel values retain the unconverted source scale; no kPa, newton, or physical pressure calibration was validated.",
+    "CoP and distances are in source drawing coordinates; physical length units and clinical joint or foot registration were not validated.",
+    "Time is zero-based frame index divided by nominal 64 Hz; true timestamps, bilateral synchronization, and contact events were not validated.",
+    "The 15% rule is an explicit teaching filter, not a validated foot-contact or clinical threshold.",
+    "Column height is a visual encoding contract, not measured tissue height or deformation.",
+    "No body centre of mass, treatment effect, physiological prediction, diagnosis, or clinical performance was validated."
+  ]
+}

@@ -1,0 +1,5 @@
+12. v12新增3张墙面解剖挂图（clinic3d/assets/posters/）：使用已授权BodyParts3D/Somakine静态网格作原创正交渲染、着色、排版与标注，未复制上游栅格解剖插图。图中解剖数据及衍生图仍按CC BY 4.0保留指定署名、许可链接和修改说明；逐图网格ID、字节与SHA256见clinic3d/docs/v12-anatomy-posters.json。指定署名：BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International。官方许可：https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html 。Somakine程序MIT许可不改变数据许可。
+
+13. v12的足底格点、合成载荷、压力色标、加权COP、连续压力板展示、动小助操作提示和有限脱鞋脱袜驱动为本项目原创教学代码，适用第2项代码范围；人物体表衍生袜壳沿用MPFB核心资产CC0来源记录。病例文字和教学视觉内容不因代码MIT条款统一开放。足压模块参考官网资料及研究文献的概念和表现形式，未复制或重绘厂商／论文图像，未数字化患者信号；完整引用见clinic3d/docs/pressure-v12-sources.json。没有新增付费HeyGen媒体、第三方鞋袜模型、传感器实测记录或未授权运动链。
+
+14. 上述许可记录与数值核验不构成临床运动学验证。COP不等于全身COM；静态图、行走瞬时帧、非同时峰值合成图应保持区别。有限脱袜、检查与保护接触仍需教师审查；保留13实验与完整站点结构不等于全部动态功能重建或国家申报认证。

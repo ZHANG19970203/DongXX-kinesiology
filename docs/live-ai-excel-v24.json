@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "xlsxSheets": 8,
+  "discussionTurns": 2,
+  "successfulLiveTurns": 2,
+  "providerTokens": 937,
+  "models": [
+    "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "questionAnswerCommentFeedbackInExcel": true,
+  "zipCRC": "passed",
+  "formulaInjectionPresent": false,
+  "testDatabaseOnly": true
+}

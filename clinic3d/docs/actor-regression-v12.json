@@ -1,0 +1,35 @@
+{
+  "independentSkeletons": true,
+  "gaitSamples": 101,
+  "minimumSkinY": -5.375489455347998e-8,
+  "minimumShoeY": 0.0009999206285785222,
+  "maximumAnkleTargetErrorMetres": 1.1590684261107436e-7,
+  "maxErrorDetail": {
+    "p": 0.16,
+    "side": "L",
+    "target": [
+      0.07,
+      0.08150860154344582,
+      -0.18876543209876548
+    ],
+    "actual": [
+      0.0699999767209848,
+      0.08150853281841625,
+      -0.18876552248324382
+    ]
+  },
+  "allFinite": true,
+  "seated": {
+    "skin": 1.0050248794924124e-7,
+    "shoe": 0.0010000923185840074,
+    "finite": true
+  },
+  "talkingWristDriftMetres": 4.5707254456349526e-10,
+  "patientBarefootToggle": true,
+  "therapistRemainsShod": true,
+  "ordinaryWalkingSamples": 50,
+  "ordinaryWalkingMinimumShoeY": 0.0009999633001087846,
+  "sitTransferSamples": 20,
+  "sitTransferMinimumShoeY": 0.0009999800970250296,
+  "scope": "CPU skin and original shoe mesh samples only; no renderer, continuous collision or clinical gait validation."
+}

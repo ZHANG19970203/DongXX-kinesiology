@@ -1,0 +1,102 @@
+{
+  "staticAnatomy": {
+    "paths": [
+      "assembly/assets/catalog.js",
+      "assembly/assets/mesh-*.bin"
+    ],
+    "count": 495,
+    "license": "CC-BY-4.0",
+    "perAssetManifest": "assembly/licenses/ASSET_PROVENANCE.json"
+  },
+  "retainedApplicationCode": {
+    "paths": [
+      "assets/*",
+      "assembly/assets/game.js",
+      "assembly/assets/renderer.js",
+      "assembly/assets/geometry-loader.js"
+    ],
+    "licenseNotice": "licenses/ORIGINAL_CODE_LICENSE.txt",
+    "changes": "Navigation, identity record isolation, source claims and official geometry replaced"
+  },
+  "newApplicationCode": {
+    "paths": [
+      "lab/*",
+      "topics/*",
+      "guide/guide.js",
+      "tools/*",
+      "start_local.py",
+      "pressure/index.html",
+      "pressure/pressure.js",
+      "pressure/pressure.css",
+      "pressure/tools/*",
+      "pressure/pressure-stage.js",
+      "pressure/pressure-experience.js",
+      "clinic/*.js",
+      "clinic/*.html",
+      "clinic/*.css",
+      "teacher/*",
+      "serve_lab.py",
+      "ai_adapter.py"
+    ],
+    "license": "MIT per licenses/LICENSE_SCOPE.txt"
+  },
+  "newProceduralGraphics": {
+    "paths": [
+      "assets/visual/motion-art.svg",
+      "guide/tutor.svg",
+      "pressure/pressure-stage.js (generated scene geometry)",
+      "favicon.svg"
+    ],
+    "creation": "Original SVG geometry created in this migration; no borrowed bitmap or avatar payload; original procedural pressure data stage added in v3, no third-party scene assets"
+  },
+  "courseAndBrand": {
+    "paths": [
+      "index.html",
+      "lab/courses.json"
+    ],
+    "scope": "Teacher supplied course names and brand retained; text revised to match available functions; no blanket licensing of teacher materials"
+  },
+  "publicPressureData": {
+    "paths": [
+      "pressure/data/*"
+    ],
+    "license": "CC-BY-4.0",
+    "source": "https://zenodo.org/records/19662017",
+    "scope": "Selected P1/NP/1 raw CSVs, released sensor SVG maps and derived numeric teaching case; units and time caveats in pressure/licenses/NOTICE.md",
+    "inventory": "pressure/licenses/ASSET_INVENTORY.csv"
+  },
+  "fictionalClinicalCases": {
+    "path": "clinic/cases.json",
+    "creation": "Original fictional educational cases; no real patient identities or disease-specific measured pressure traces",
+    "review": "clinic/CASE_REVIEW.html"
+  },
+  "generatedPatientScene": {
+    "path": "clinic/assets/consultation.png",
+    "creation": "Original built-in image_gen generation; synthetic fictional person; not an animation, scan, clinical photograph or diagnostic reference",
+    "promptAndMethod": "clinic/assets/IMAGE_GENERATION.txt",
+    "release": "v4 historical asset retained in v5; historical generation notes remain unchanged"
+  },
+  "generatedClinicScenesV5": {
+    "paths": [
+      "clinic/assets/arrival-v5.png",
+      "clinic/assets/conversation-v5.png",
+      "clinic/assets/examination-v5.png",
+      "clinic/assets/movement-v5.png"
+    ],
+    "count": 4,
+    "creation": "Original built-in image_gen generation; four synthetic fictional still scenes",
+    "views": [
+      "Third-person reception",
+      "First-person interview",
+      "First-person gentle ankle support preparation",
+      "Third-person rail-supported task preparation"
+    ],
+    "interaction": "Scene image, dialogue subtitles, contextual actions and on-demand drawers; no video, real-time 3D, continuous motion or lip sync",
+    "scope": "Project illustrations; not real patients, proof of pathology, measurement or treatment effectiveness",
+    "promptAndMethod": "clinic/assets/IMAGE_GENERATION_V5.txt",
+    "inventory": "clinic/ASSET_INVENTORY_V5.csv (generated only during v5 staging)",
+    "manifest": "clinic/SCENE_ASSET_MANIFEST_V5.json (generated only during v5 staging)",
+    "controller": "clinic/scene-director.js",
+    "contentLicenseScope": "licenses/LICENSE_SCOPE.txt; visual and course content is not automatically MIT licensed"
+  }
+}

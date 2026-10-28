@@ -1,0 +1,12 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {gaitCOM,gaitCOP,contractionState,caseConclusion,CASE_EVIDENCE,MUSCLES,LIGAMENTS} from '../soap/explorers-data.js';
+import {copSeries,copStats} from '../soap/teaching-data.js';
+test('symmetric COM is periodic, two vertical oscillations and one lateral per stride',()=>{
+ for(const p of [0,.1,.33,.65,1]){assert.ok(Math.abs(gaitCOM(p).vertical-gaitCOM(p+.5).vertical)<1e-9);assert.ok(Math.abs(gaitCOM(p).lateral+gaitCOM(p+.5).lateral)<1e-9);}
+ assert.ok(gaitCOM(.3).vertical>gaitCOM(.05).vertical);assert.ok(gaitCOM(.8).vertical>gaitCOM(.55).vertical);
+});
+test('COP comparisons share sample times and have proportional path and area',()=>{const a=copSeries(),b=copSeries(1.6);assert.equal(a.length,1501);assert.equal(a.at(-1)[0],30);assert.ok(a.every((p,i)=>p[0]===b[i][0]));const x=copStats(a),y=copStats(b);assert.ok(Math.abs(y.pathMM/x.pathMM-1.6)<1e-9);assert.ok(Math.abs(y.boundingAreaMM2/x.boundingAreaMM2-2.56)<1e-9);assert.ok(Math.abs(y.meanVelocityMMs-9.029295867)<1e-6);});
+test('arch COP hypothesis alters only middle-support excursion, preserves endpoints',()=>{assert.deepEqual(gaitCOP(0,0),gaitCOP(0,12));assert.ok(Math.abs(gaitCOP(1,-12).x-gaitCOP(1,12).x)<1e-9);assert.ok(gaitCOP(.5,-12).x<gaitCOP(.5,0).x);assert.ok(gaitCOP(.5,12).x>gaitCOP(.5,0).x);});
+test('contraction models distinguish active shortening, lengthening and hold',()=>{assert.ok(contractionState('concentric',1).length<contractionState('concentric',0).length);assert.ok(contractionState('eccentric',1).length>contractionState('eccentric',0).length);assert.deepEqual(contractionState('isometric',0),contractionState('isometric',1));});
+test('skipping evidence never creates case findings',()=>{const empty=caseConclusion([]).join('');assert.ok(empty.includes('背屈病例资料尚未查阅'));assert.ok(empty.includes('足弓病例资料尚未查阅'));const read=caseConclusion(['rom','arch']).join('');assert.ok(read.includes('已阅右侧负重背屈'));assert.ok(read.includes('仅为伴随发现'));assert.ok(read.includes('最近一次伤仅1个月'));});
+test('all seven licensed selectable muscles have origins, insertions and action; Achilles distinguished',()=>{assert.equal(MUSCLES.length,7);for(const m of MUSCLES)assert.ok(m.origin&&m.insertion&&m.action&&m.motion);assert.equal(new Set(CASE_EVIDENCE.map(x=>x.id)).size,CASE_EVIDENCE.length);assert.ok(LIGAMENTS.find(x=>x.id==='achilles').name.includes('不是韧带'));});

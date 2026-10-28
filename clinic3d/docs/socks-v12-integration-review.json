@@ -1,0 +1,23 @@
+{
+  "schema": "dxx-preparation-integration-review-v12",
+  "scope": "Read-only review of app.js preparation integration plus executable actor-state regressions; no app mutation by this review.",
+  "findings": [],
+  "reviewedPaths": {
+    "localIntro": "setVisual(local_intro) starts preparation only when barefootPrepared is false and no action is active.",
+    "blocking": "choose() refuses while footwearRemoval.active; native Next is disabled each frame until completion.",
+    "replay": "Replay retains activeNode and previous view; completion restores visual zone using activeNode and then previous view.",
+    "saveRestore": "Completion records barefootPrepared=true. Reload during mandatory local_intro preparation restarts from shoes, rather than silently marking partial animation completed. Replay is a view-only action and reloading returns to the saved learning node.",
+    "staticReset": "Root change setGaitPhase(null) immediately restores static foot targets when leaving manual gait, avoiding residual swing-foot state."
+  },
+  "correctedActorIssue": "Removed garments previously inherited patient root travel. Completion now reparents them to a scene-owned stationary group with world transforms retained, and explicit rewear resets their bone parenting.",
+  "executableEvidence": {
+    "report": "socks-v12-check.json",
+    "removedGarmentsStayInRoom": true,
+    "manualToStaticImmediate": true,
+    "manualToStaticFootMaxErrorMetres": 0,
+    "gaitRegression": "101 samples, max ankle target error 1.1590684261107436e-7 m; finite values, minimum sole Y 0.0009999206285785222 m.",
+    "appearanceRegression": "Independent male/female display refinement, 163 bones each, no invalid attribute numbers; original lower-leg surface unchanged."
+  },
+  "blockingBugFound": false,
+  "visualAndClinicalReview": "Teacher/browser review remains separate; fine cloth and fingertip contact are not validated."
+}

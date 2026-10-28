@@ -1,0 +1,217 @@
+{
+  "retrieved": "2026-10-17",
+  "repository": "https://github.com/ivershuo/somakine",
+  "commit": "179ed2c33a4a519027c6657f2c465bd1b66f9cd9",
+  "files": [
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/LICENSE.bodyparts3d-supplemental.txt",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/LICENSE.bodyparts3d-supplemental.txt",
+      "bytes": 343,
+      "sha256": "46d4146902d66c8ab70c80f4d5395841d0888233816f97d360aec451a2e3e259",
+      "gitBlobSha": "54650157f0f17143a1dcf770cd77411482bcdb2d"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/LICENSE.bodyparts3d.txt",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/LICENSE.bodyparts3d.txt",
+      "bytes": 1183,
+      "sha256": "6b7f1a0d49df8a5145ebc5627c929c1449fc296e6bf1339bdc215dfaac47fa55",
+      "gitBlobSha": "fcbf50aca13c5392ec301ee3b8a55317f9c2f91c"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/ankle-foot.glb",
+      "bytes": 1003952,
+      "sha256": "e2479f566085003888e40dbc262b6126c352a4999188a69167adc75438f2dc0e",
+      "gitBlobSha": "291179539d83f0abc61aeaeffee2b8ec1a377d8d"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/elbow-forearm.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/elbow-forearm.glb",
+      "bytes": 36540,
+      "sha256": "2943edfba300489def9e8f925a3f6fe9c23303e34036ae8462f488913b3de8f1",
+      "gitBlobSha": "09bab0b004ca70557096bc6cef01cf6164c541be"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/head-neck.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/head-neck.glb",
+      "bytes": 3404352,
+      "sha256": "4dc4faf4359d849b63cda83c1c63449567e90ad85482096c7a971136c7b3c5ac",
+      "gitBlobSha": "833844fdfadee41d7ab7721623ba35b050045ffb"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/hip-pelvis.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/hip-pelvis.glb",
+      "bytes": 362228,
+      "sha256": "bd8082d950af9cc952fe38896f668339ca77e9989e882bf6bbb16dca2500f4ea",
+      "gitBlobSha": "1f98b5f0c0debbaafd365b48347b77fae3c18db4"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/knee.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/knee.glb",
+      "bytes": 123024,
+      "sha256": "3fd6a4084513af36a7e374b684c8434d112f43dc57e2edc7fa924276bfa52d84",
+      "gitBlobSha": "828ecdb040d452aac2833ad78fb93c51e0973f72"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/shoulder.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/shoulder.glb",
+      "bytes": 965320,
+      "sha256": "5c6f561f1ddb7d26352ee3f115a9d4c2666e3376afb3ba3f5556a9166273d085",
+      "gitBlobSha": "2a33208eead786bb8a20c022a58b02f927eedf2f"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/spine-trunk.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/spine-trunk.glb",
+      "bytes": 4218040,
+      "sha256": "a84d7c65e05a2566ea75b097ab9ce0b35e9ceeb4149f68c61d2fb02643baf5de",
+      "gitBlobSha": "15c7d00aa9e554a2399b321983ea8f79c2977a39"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-ankle-foot-connective.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-ankle-foot-connective.glb",
+      "bytes": 377608,
+      "sha256": "ff158b0b0894191ae51ed08951f2b04efe518e255d102ea6ab4a27ad159deef8",
+      "gitBlobSha": "74cb66f442832ce381e4f518a3987d8759eb5e7e"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-ankle-foot-muscle.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-ankle-foot-muscle.glb",
+      "bytes": 1589824,
+      "sha256": "9285cd6d00193465a03aa4ce76ae8f245ffbbf1ad1fa3e772d780610d0bc9917",
+      "gitBlobSha": "bce357f66ebc5711db9b38c37c6308803c3e78a6"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-elbow-forearm-connective.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-elbow-forearm-connective.glb",
+      "bytes": 100892,
+      "sha256": "64ec7e6915ed6febecd5c65cfdf9de56b8f126a01910b51a4ccb31027f3fde2b",
+      "gitBlobSha": "34ff483afc0c0447c0bb1d9c1f0dc4ce89c7f621"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-elbow-forearm-muscle.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-elbow-forearm-muscle.glb",
+      "bytes": 1245948,
+      "sha256": "dcd74ca5003944450e80f97ffc3bd273c1f5c1a4b03b5d6a919c496151e0ed47",
+      "gitBlobSha": "a66902d38910fd3d377275c2a4886fd1a08783f4"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-head-neck-connective.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-head-neck-connective.glb",
+      "bytes": 254784,
+      "sha256": "3bbc685dbfd90e56ff8178d4734aa454f4f0e451e33ad4e9f9e1771c508dc866",
+      "gitBlobSha": "ed15debba4d7c5579521de57a6821964dbe4beab"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-hip-pelvis-muscle.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-hip-pelvis-muscle.glb",
+      "bytes": 895556,
+      "sha256": "5b0a2196af10f42f7e2bbeb3009909a428ee5744be5c1e407fe9e2bdd5cf858a",
+      "gitBlobSha": "6722942ef0e4a84ffad0ed20103dd8106b52ce30"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-knee-connective.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-knee-connective.glb",
+      "bytes": 269984,
+      "sha256": "050d2645125d39cd8f2cfc004d8e22ea8ac3fca16d883803cffbf487cafd7e78",
+      "gitBlobSha": "da40ae40bc55c18436d2be32bbe6720f2cae3970"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-knee-muscle.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-knee-muscle.glb",
+      "bytes": 2287368,
+      "sha256": "760407c708ae0a389e61a364b9d39b5ca4300faa4bed91f363a9ad58984eb829",
+      "gitBlobSha": "2ddfc0460549b96c319471d63cbe6ed370502901"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-shoulder-muscle.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-shoulder-muscle.glb",
+      "bytes": 2754964,
+      "sha256": "396047d88ca927208e4b700abfc487f37055f8b0609d64199b2b3a9b33f33f5b",
+      "gitBlobSha": "253e11d6aea29cfd0a248fcf3e6483008c1b3e1b"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-spine-trunk-connective.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-spine-trunk-connective.glb",
+      "bytes": 1565776,
+      "sha256": "67ef5501e27a48416edf5a5128492ff032130797f8543f8668ce46385febe799",
+      "gitBlobSha": "4f173765360f45e9181da6da948eb996f98d40ca"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-spine-trunk-muscle-abdominals.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-spine-trunk-muscle-abdominals.glb",
+      "bytes": 4411700,
+      "sha256": "96c1d6fef5b0068d74f8be2fbc435a8c86bb0f5a99e85e2d814b6cb5ccb1448f",
+      "gitBlobSha": "6a16971337e024ea511f4ed62ef90247d44bd5b7"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-spine-trunk-muscle-erector-spinae.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-spine-trunk-muscle-erector-spinae.glb",
+      "bytes": 2732584,
+      "sha256": "526864ef63a0355128a5c9f10c8cc9d429971e1fb9b765db4a3be1bad6239f14",
+      "gitBlobSha": "95d02525a8c46be5aa0f4bf275b587ecc6c9eed0"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-spine-trunk-muscle-pectorals.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-spine-trunk-muscle-pectorals.glb",
+      "bytes": 859548,
+      "sha256": "558104c41f2c366469d4f8ef742d06ce351f3bcf7d5bc75808dbf85026b64031",
+      "gitBlobSha": "9cfd0024e4e2eb74f89ee3a6093764de19dea533"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-wrist-hand-connective.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-wrist-hand-connective.glb",
+      "bytes": 102224,
+      "sha256": "e67ecfc31d09c434d791c35e24276dadeae2bc536acf19219aff7121c454233c",
+      "gitBlobSha": "b96a3194b950dd1354bfe8da92ee054493bc4776"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-wrist-hand-muscle.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/supplement-wrist-hand-muscle.glb",
+      "bytes": 1360576,
+      "sha256": "f69be6674e55b80e1a22006dd95abfadd026570a73a77733aae7b5c3b3ba0a24",
+      "gitBlobSha": "1bf5c8fcb3efb574758412f0a6c940a45a8c1af9"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/wrist-hand.glb",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/assets/bodyparts3d/wrist-hand.glb",
+      "bytes": 508984,
+      "sha256": "b8bdaf8fdcf10f99e8659180b67f2d428db4a11e5b677dbe6beddb0bcc3d4748",
+      "gitBlobSha": "6d1a023c48958c1bc316c212ed502983605c924d"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/import-report.json",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/import-report.json",
+      "bytes": 52410,
+      "sha256": "ee88d01e85b5228f7fd99527a6d21ff619b02245915a5a5167907764c37f0d58",
+      "gitBlobSha": "473b0d591620c8c8e0e04bbc180fda2c2f3b7f5c"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/pack.json",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/pack.json",
+      "bytes": 363571,
+      "sha256": "1d6c6519c82994d16785f0b18ec22f93f5e07a0bc251f074316de7f21400ab76",
+      "gitBlobSha": "f8bdb2e69a0ff366cbe7e25afb9fb555ba119c2c"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/source-manifest.json",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/source-manifest.json",
+      "bytes": 207961,
+      "sha256": "121b7438d38400c4e3253504ddbd174b6c3f636bba9cad75a6875c387e177d10",
+      "gitBlobSha": "e444c2a0ae3970cfc60807ff64ca9a3fbb157c02"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/supplemental-manifest.json",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/supplemental-manifest.json",
+      "bytes": 21610,
+      "sha256": "b60b26bebf32db5d45761dce9a00048b271ea2d2db480cb1aaa7e86ab442353e",
+      "gitBlobSha": "2b03beb4f4cb1375cb03d654d3cf98340abd9658"
+    },
+    {
+      "path": "data-packs/bodyparts3d-musculoskeletal/public/upstream-manifest.json",
+      "url": "https://raw.githubusercontent.com/ivershuo/somakine/179ed2c33a4a519027c6657f2c465bd1b66f9cd9/data-packs/bodyparts3d-musculoskeletal/public/upstream-manifest.json",
+      "bytes": 8360,
+      "sha256": "3072667749e4c64a0235b756a9ff565a2832a1382c20130a17e73b2e83d7cacb",
+      "gitBlobSha": "2f397d5406edb8e2b5faa0817e191bbaea3fe5ab"
+    }
+  ]
+}

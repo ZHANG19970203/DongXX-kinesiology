@@ -1,0 +1,206 @@
+{
+  "created": "2026-04-21T09:27:06.530967+00:00",
+  "modified": "2026-04-21T09:27:09.110515+00:00",
+  "id": 19662017,
+  "conceptrecid": "19662016",
+  "doi": "10.5281/zenodo.19662017",
+  "conceptdoi": "10.5281/zenodo.19662016",
+  "doi_url": "https://doi.org/10.5281/zenodo.19662017",
+  "metadata": {
+    "title": "An Open Insole-Based Plantar Pressure Dataset at Varying Cadences Compared Against GAITRite",
+    "doi": "10.5281/zenodo.19662017",
+    "publication_date": "2026-04-20",
+    "description": "<h2>Insole-GAITRite Dataset</h2>\n<p>This repository contains the first public release of a multimodal dataset for gait and posture analysis based on instrumented insoles, anonymized video, and GAITRite reference data. The dataset is organized at clip level so that each unit corresponds to an already segmented trial ready for reuse in signal analysis, gait-event detection, multimodal synchronization, and benchmarking against an external reference system.</p>\n<h3>Exploration Tool</h3>\n<p>For a more convenient exploration of the dataset, users are encouraged to use the dedicated tool available at GaitScope:<br>https://github.com/MarcosRM02/GaitScope.git</p>\n<p>This resource will be progressively updated with additional functionality.</p>\n<h3>Experimental Protocol</h3>\n<p>The original data collection involved 23 participants. To preserve realistic operating conditions, no subject-specific calibration was performed and participants wore their own footwear. Instrumented insoles in sizes ranging from EU 36 to EU 43 were used across the cohort.</p>\n<p>The acquisition protocol included three walking conditions over a GAITRite instrumented walkway:</p>\n<p>- SP: slow pace, guided by a metronome at 70 steps per minute<br>- NP: normal pace, self-selected by the participant<br>- FP: fast pace, guided by a metronome at 127 steps per minute</p>\n<p>In addition, the dataset includes two posture-related categories:</p>\n<p>- STAND<br>- SITDOWN</p>\n<p>Walking trials were recorded as multiple unidirectional passes. Each pass is distributed here as an independent clip.</p>\n<p>The modalities were acquired simultaneously with the following nominal sampling rates:</p>\n<p>- instrumented insoles: 64 Hz<br>- GAITRite: 180 Hz<br>- video: 30 fps</p>\n<p>Following data collection, the MVP-Gait software platform was utilized to organize and download the stored data, as well as to visually inspect the signals to verify experimental integrity and confirm that no hardware failures occurred during the trials.</p>\n<h3>Dataset Structure</h3>\n<p>The dataset is organized hierarchically by participant, experimental condition, and clip number:</p>\n<p>dataset_root/<br>|-- sensors_map_left.svg<br>|-- sensors_map_right.svg<br>|-- P1/<br>| &nbsp; |-- FP/<br>| &nbsp; | &nbsp; |-- gaitrite_testsets.csv<br>| &nbsp; | &nbsp; |-- 1/<br>| &nbsp; | &nbsp; | &nbsp; |-- L.csv<br>| &nbsp; | &nbsp; | &nbsp; |-- R.csv<br>| &nbsp; | &nbsp; | &nbsp; |-- gaitrite_test.csv<br>| &nbsp; | &nbsp; | &nbsp; |-- Gait_1_anonymized.mp4<br>| &nbsp; | &nbsp; | &nbsp; `-- sync_auto.json<br>| &nbsp; | &nbsp; |-- 2/<br>| &nbsp; | &nbsp; `-- ...<br>| &nbsp; |-- NP/<br>| &nbsp; |-- SP/<br>| &nbsp; |-- STAND/<br>| &nbsp; | &nbsp; |-- 1/<br>| &nbsp; | &nbsp; | &nbsp; |-- L.csv<br>| &nbsp; | &nbsp; | &nbsp; |-- R.csv<br>| &nbsp; | &nbsp; | &nbsp; `-- Stand_1_anonymized.mp4<br>| &nbsp; | &nbsp; `-- ...<br>| &nbsp; `-- SITDOWN/<br>| &nbsp; &nbsp; &nbsp; |-- 1/<br>| &nbsp; &nbsp; &nbsp; | &nbsp; |-- L.csv<br>| &nbsp; &nbsp; &nbsp; | &nbsp; |-- R.csv<br>| &nbsp; &nbsp; &nbsp; | &nbsp; `-- Sitdown_1_anonymized.mp4<br>| &nbsp; &nbsp; &nbsp; `-- ...<br>|-- P2/<br>|-- ...<br>`-- P24/</p>\n<h3>File Contents</h3>\n<p>- sensors_map_left.svg and sensors_map_right.svg: sensor layout maps linking sensor IDs to their spatial location in the left and right insoles<br>- L.csv and R.csv: left and right insole signals for one clip<br>- gaitrite_test.csv: GAITRite export for one walking clip, available in FP, NP, and SP<br>- gaitrite_testsets.csv: GAITRite test-set summary at condition-folder level, available in FP, NP, and SP<br>- *_anonymized.mp4: anonymized video for the clip<br>- sync_auto.json: auxiliary synchronization metadata for walking clips</p>\n<p>The insole CSV files contain 32 pressure channels (PressureSensor 0 to PressureSensor 31) together with additional acquisition variables, including accelerometer, gyroscope, center of pressure (copX, copY), and total pressure (sumP).</p>\n<p>STAND and SITDOWN clips contain insole signals and anonymized video, but do not include GAITRite files.</p>\n<p>Participant identifiers are preserved as internal pseudonymous study IDs (P1, P2, etc.) and are kept consistent with the original acquisition and internal documentation. For this reason, numbering in the public release is not necessarily contiguous.</p>\n<p>Some participant IDs from the original study are not present in this public release because only participants meeting the data quality criteria for this version were retained. The original pseudonymous participant IDs have been preserved to maintain internal traceability and consistency with the study documentation.</p>\n<p>This is intentional and should not be interpreted as an organizational error. The mapping between these identifiers and any sensitive internal records is not part of the public dataset. The number of clips may vary across participants and conditions in this release.</p>\n<h3>Funding</h3>\n<p>This work was funded by the MINISTERIO DE CIENCIA, INNOVACI&Oacute;N Y UNIVERSIDADES, through project PID2022-142388OA-I00 (Just Move!: Detecci&oacute;n Temprana de Deterioro Cognitivo Leve Mediante el An&aacute;lisis del Movimiento Humano en la Vida Cotidiana), and project PDC2022-133457-I00 (SSITH: Self-recharging Sensorized Insoles for Continuous Long-Term Human Gait Monitoring), as well as by the University of Castilla-La Mancha (UCLM) through the 2025-PRED-20650 predoctoral contract, and supported by the MAmI Research group (UCLM) and Smart Environments Research Group (Ulster University). The authors thank the Ulster collaborators and study participants for their invaluable contributions.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Dobrescu, C. Cosmin",
+        "affiliation": "University of Castilla-La Mancha",
+        "orcid": "0000-0002-4227-6748"
+      },
+      {
+        "name": "González Díaz, Iván",
+        "affiliation": "University of Castilla-La Mancha",
+        "orcid": "0000-0001-5302-1831"
+      },
+      {
+        "name": "Carneros Prado, David",
+        "affiliation": "University of Castilla-La Mancha",
+        "orcid": "0000-0003-4042-3713"
+      },
+      {
+        "name": "Fontecha Diezma, Jesús",
+        "affiliation": "University of Castilla-La Mancha",
+        "orcid": "0000-0001-6379-6841"
+      },
+      {
+        "name": "Redondo Madruga, Marcos",
+        "affiliation": "University of Castilla-La Mancha",
+        "orcid": "0009-0009-4175-905X"
+      },
+      {
+        "name": "Nugent, Chris",
+        "affiliation": "Ulster University",
+        "orcid": "0000-0003-0882-7902"
+      },
+      {
+        "name": "Zhang, Shuai",
+        "affiliation": "Ulster University",
+        "orcid": "0000-0002-4821-6404"
+      }
+    ],
+    "keywords": [
+      "Plantar Pressure",
+      "Instrumented Insoles",
+      "Wearable Sensors",
+      "GAITRite",
+      "cadence variability",
+      "multimodal dataset"
+    ],
+    "version": "1",
+    "language": "eng",
+    "custom": {
+      "code:codeRepository": "https://github.com/MarcosRM02/GaitScope.git",
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        }
+      ],
+      "code:developmentStatus": {
+        "id": "active",
+        "title": {
+          "en": "Active"
+        }
+      }
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "PID2022-142388OA-I00",
+        "internal_id": "05r0vyz12::PID2022-142388OA-I00",
+        "funder": {
+          "name": "Ministerio de Ciencia, Innovación y Universidades"
+        },
+        "title": "Just Move!: Detección Temprana de Deterioro Cognitivo Leve Mediante el Análisis del Movimiento Humano en la Vida Cotidiana"
+      },
+      {
+        "code": "PDC2022-133457-I00",
+        "internal_id": "05r0vyz12::PDC2022-133457-I00",
+        "funder": {
+          "name": "Ministerio de Ciencia, Innovación y Universidades"
+        },
+        "title": "SSITH: Self-recharging Sensorized Insoles for Continuous Long-Term Human Gait Monitoring"
+      }
+    ],
+    "communities": [
+      {
+        "id": "uclm-biblioteca"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "19662016"
+          }
+        }
+      ]
+    }
+  },
+  "title": "An Open Insole-Based Plantar Pressure Dataset at Varying Cadences Compared Against GAITRite",
+  "links": {
+    "self": "https://zenodo.org/api/records/19662017",
+    "self_html": "https://zenodo.org/records/19662017",
+    "preview_html": "https://zenodo.org/records/19662017?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.19662017",
+    "self_doi": "https://doi.org/10.5281/zenodo.19662017",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19662017",
+    "reserve_doi": "https://zenodo.org/api/records/19662017/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/19662016",
+    "parent_html": "https://zenodo.org/records/19662016",
+    "parent_doi": "https://doi.org/10.5281/zenodo.19662016",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19662016",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19662017/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19662017/sequence/default",
+    "files": "https://zenodo.org/api/records/19662017/files",
+    "media_files": "https://zenodo.org/api/records/19662017/media-files",
+    "latest": "https://zenodo.org/api/records/19662017/versions/latest",
+    "latest_html": "https://zenodo.org/records/19662017/latest",
+    "versions": "https://zenodo.org/api/records/19662017/versions",
+    "draft": "https://zenodo.org/api/records/19662017/draft",
+    "access_links": "https://zenodo.org/api/records/19662017/access/links",
+    "access_grants": "https://zenodo.org/api/records/19662017/access/grants",
+    "access_users": "https://zenodo.org/api/records/19662017/access/users",
+    "access_request": "https://zenodo.org/api/records/19662017/access/request",
+    "access": "https://zenodo.org/api/records/19662017/access",
+    "communities": "https://zenodo.org/api/records/19662017/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/19662017/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/19662017/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/19662017/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/19662017/quota-increase",
+    "requests": "https://zenodo.org/api/records/19662017/requests"
+  },
+  "updated": "2026-04-21T09:27:09.110515+00:00",
+  "recid": "19662017",
+  "revision": 4,
+  "files": [
+    {
+      "id": "9e45aaab-e9fa-4756-ac0d-cd5809a8f5e8",
+      "key": "sensors_map_left.svg",
+      "size": 60822,
+      "checksum": "md5:63df62e73e86aba36297309e8bab4420",
+      "links": {
+        "self": "https://zenodo.org/api/records/19662017/files/sensors_map_left.svg/content"
+      }
+    },
+    {
+      "id": "313d117e-4e13-43ad-8cb3-290c11338d8f",
+      "key": "sensors_map_right.svg",
+      "size": 58191,
+      "checksum": "md5:e9584f8b290e6c80bcc9c74d116f446b",
+      "links": {
+        "self": "https://zenodo.org/api/records/19662017/files/sensors_map_right.svg/content"
+      }
+    },
+    {
+      "id": "888cb89e-5e1e-4181-b8fe-68ee5431f3d0",
+      "key": "insole-gaitrite-dataset.zip",
+      "size": 1686755134,
+      "checksum": "md5:33063fb8b638c87085a157c44fc6eb1c",
+      "links": {
+        "self": "https://zenodo.org/api/records/19662017/files/insole-gaitrite-dataset.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1169314"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 813,
+    "unique_downloads": 380,
+    "views": 719,
+    "unique_views": 636,
+    "version_downloads": 813,
+    "version_unique_downloads": 380,
+    "version_unique_views": 636,
+    "version_views": 719
+  },
+  "state": "done",
+  "submitted": true
+}

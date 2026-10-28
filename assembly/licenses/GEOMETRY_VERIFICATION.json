@@ -1,0 +1,21 @@
+{
+  "verifiedAt": "2026-10-17",
+  "meshCount": 495,
+  "chunks": 14,
+  "bytes": 57602304,
+  "sha256": "2bd19be832f9467917e7ecff29a3c97cd62d925cdeb75183b283b975b1036661",
+  "vertices": 1388252,
+  "triangles": 2023688,
+  "normalCount": 1388252,
+  "chapters": 11,
+  "boneDefinitions": 118,
+  "muscleDefinitions": 101,
+  "missingReferences": [],
+  "checks": [
+    "Official downloaded source digests and pinned Git tree checked by rebuild.",
+    "All chunk, combined-buffer, and 495 individual element SHA-256 digests rechecked.",
+    "All vertex/normal values finite; all normals unit length; all triangle indices in range.",
+    "All element byte ranges contiguous, vertex bounds contain all positions.",
+    "All bone, muscle, chapter, context, cartilage, tooth, and task group references resolve."
+  ]
+}

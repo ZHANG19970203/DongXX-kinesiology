@@ -1,0 +1,27 @@
+Static geometry reproduction (PowerShell and Node.js required)
+
+From this directory, run:
+powershell -ExecutionPolicy Bypass -File .\REBUILD_GEOMETRY.ps1
+
+The script downloads the fixed official Somakine source files and the official
+BodyParts3D IS-A OBJ archive (about 175 MB total). Every download is checked
+against the saved source record, the archive is checked against its official
+upstream-manifest record, and all GLBs are checked against their pinned Git blobs.
+It then rebuilds only static geometry, catalog, manifests and license evidence
+under tools/rebuilt-assembly. It does not replace the running website by default.
+
+The exact import script is rebuild-official-assembly.cjs. CATALOG_TEMPLATE.json
+contains requested FJ IDs, text and teaching tasks; it contains no old binary
+geometry. OBJ_ELEMENT_IDS.json lists the 137 official OBJ supplements.
+
+For an already downloaded source workspace, use:
+node .\rebuild-official-assembly.cjs --audit PATH_TO_SOURCES --template .\CATALOG_TEMPLATE.json --output PATH_TO_NEW_ASSEMBLY
+
+Expected combined geometry:
+57602304 bytes
+SHA-256: 2bd19be832f9467917e7ecff29a3c97cd62d925cdeb75183b283b975b1036661
+
+The source archive itself is not bundled in this website. Source availability
+can change; an unavailable source or mismatching hash causes the script to fail.
+This reproducibility check is source and geometry validation, not clinical or
+anatomical certification.

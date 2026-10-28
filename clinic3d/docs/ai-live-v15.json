@@ -1,0 +1,28 @@
+{
+  "schema": "dxx-v15-live-provider-test",
+  "recordedAt": "2026-10-18T09:12:19.771334+00:00",
+  "connected": true,
+  "provider": "siliconflow",
+  "providerLabel": "硅基流动（DeepSeek）",
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "endpoint": "https://api.siliconflow.cn/v1/chat/completions",
+  "connectionTests": 1,
+  "maxOutputTokens": 32,
+  "usage": {
+    "completion_tokens": 5,
+    "prompt_tokens": 13,
+    "total_tokens": 18
+  },
+  "completedAt": "2026-10-18T09:10:57.253Z",
+  "studentTutorEnabled": true,
+  "credentialStoredOutsideSite": true,
+  "credentialValueIncluded": false,
+  "realPatientDataSent": false,
+  "clinicalValidation": false,
+  "scope": "One real short connectivity request through actual teacher UI and production adapter. No full student educational conversation was sent to the external service; student discussions are separately verified with isolated mock HTTP and UI fixtures. Generated medical answer quality is not certified.",
+  "officialSources": [
+    "https://docs.siliconflow.cn/docs/api/chat-completions-post",
+    "https://www.siliconflow.cn/news/qwoa3oxughhkwuoh9k2ci7xz"
+  ],
+  "screenshotEvidenceOutsideZIP": "teacher-siliconflow-connected-v15.png"
+}

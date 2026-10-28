@@ -1,0 +1,30 @@
+{
+  "schema": "dxx-script-review-browser-v7",
+  "date": "2026-10-18",
+  "url": "http://localhost:8773/",
+  "observations": {
+    "documentDisplayed": true,
+    "scenesIncludingDebrief": 7,
+    "dialogueAndNarrationTurns": 62,
+    "spatialTaskBlocks": 7,
+    "correctFeedbackObservedForAllSevenQuestions": true,
+    "incorrectFeedbackObservedInFirstQuestion": true,
+    "teacherDetailsExpanded": 19,
+    "teacherDetailsCollapsed": 0,
+    "desktopHorizontalOverflow": false,
+    "consoleErrorsOrWarnings": 0,
+    "finalRevisionAct2FeedbackRechecked": true,
+    "revisedRoomSvgRenderedAndVisuallyInspected": true
+  },
+  "screenshots": [
+    "document-preview.png",
+    "room-layout-preview.png"
+  ],
+  "limits": [
+    "The final script is a review document, not an implemented 3D clinical workflow.",
+    "Spatial tasks are specified, not yet connected to the student website.",
+    "No clinical motion accuracy or professional teacher sign-off is asserted.",
+    "No HeyGen jobs or uploads were created in this revision.",
+    "Stable handrail placement remains an explicit teacher production gap."
+  ]
+}

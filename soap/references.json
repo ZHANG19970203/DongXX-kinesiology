@@ -1,0 +1,131 @@
+{
+  "checkedAt": "2026-10-26",
+  "sources": [
+    {
+      "id": "cpg",
+      "title": "Lateral Ankle Ligament Sprains CPG 2021",
+      "url": "https://www.jospt.org/doi/10.2519/jospt.2021.0302",
+      "use": "多项病史、功能量表及感觉运动功能评估；个体化训练与复评。"
+    },
+    {
+      "id": "arch-risk",
+      "title": "The medial longitudinal arch as a possible risk factor for ankle sprains",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15737262/",
+      "use": "2.9来自回顾性右足比较；前瞻结果RR1.3且不显著，不能宣称所有扁平足人群风险2～3倍。"
+    },
+    {
+      "id": "cohort",
+      "title": "The injury risk associated with pes planus in athletes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12146774/",
+      "use": "在该大学运动员样本中，所测足形未预测未来下肢损伤；不把结果推广为所有人均无风险。"
+    },
+    {
+      "id": "arch-index",
+      "title": "The arch index: A useful measure from footprints",
+      "url": "https://www.sciencedirect.com/science/article/pii/0021929087902557",
+      "use": "去趾足印中足面积/总面积；负重与采集条件影响适用性。"
+    },
+    {
+      "id": "index-validation",
+      "title": "Visual categorisation of the arch index",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3388464/",
+      "use": "原样本分位切点与年龄/方法限制；不作通用诊断界值。"
+    },
+    {
+      "id": "cop-duration",
+      "title": "Sampling duration effects on centre of pressure summary measures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11166552/",
+      "use": "采集时长影响COP指标大小和可靠性；对照需同条件。"
+    },
+    {
+      "id": "rom",
+      "title": "CDC Normal Joint Range of Motion Study",
+      "url": "https://archive.cdc.gov/www_cdc_gov/ncbddd/jointrom/index.html",
+      "use": "按年龄、性别、标准方法给出参考；教材示教范围不等于临床异常界值。"
+    },
+    {
+      "id": "alignment",
+      "title": "Kobayashi等（2021）Abnormalities of foot and ankle alignment in individuals with chronic ankle instability: a systematic review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8361650/",
+      "use": "CAI的足形特征尚无一致结论；不把低足弓设为统一病因。"
+    },
+    {
+      "id": "cop-arches",
+      "title": "Buldt等（2018）Centre of pressure characteristics in normal, planus and cavus feet. J Foot Ankle Res 11:3. DOI:10.1186/s13047-018-0245-6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29441131/",
+      "use": "92名健康成人中COP偏移指数无组间差异；图示内外移是教学假设，不是研究数据复现。"
+    },
+    {
+      "id": "special-tests",
+      "title": "Netterström-Wedin等（2022）Diagnostic Accuracy of Clinical Tests Assessing Ligamentous Injury of the Talocrural and Subtalar Joints: A Systematic Review With Meta-Analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9109591/",
+      "use": "前抽屉与距骨倾斜不能单项确定全部损伤；结果受方法与参照标准影响。"
+    },
+    {
+      "id": "cai-criteria",
+      "title": "Gribble等（2014）Selection Criteria for Patients With Chronic Ankle Instability in Controlled Research. J Athl Train 49:121–127",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3917288/",
+      "use": "研究标准不等于一次门诊确诊规则；本病例最近伤1个月，不声称已满足常用研究入组条件。"
+    },
+    {
+      "id": "foot-joints",
+      "title": "Texas Tech University Health Sciences Center El Paso：Joints of the Lower Limb",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/joints_lower_tables.html",
+      "use": "核对关节连接、踝铰链、跖趾髁状结构及韧带附着；图形为原创示意，不复制原图。"
+    },
+    {
+      "id": "subtalar",
+      "title": "Barg等（2017）The subtalar joint: A complex mechanism",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5549175/",
+      "use": "区分解剖距下关节与功能复合体；斜轴运动不可用简单三根固定轴冒充。"
+    },
+    {
+      "id": "muscle-anatomy",
+      "title": "NCBI Bookshelf / StatPearls：Overview of the Extrinsic Foot Muscles",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539705/table/article-32230.table1/",
+      "use": "肌肉起止点和主要动作核对；不复制图版或表格，不推算个体肌力。"
+    },
+    {
+      "id": "arches",
+      "title": "OpenStax Anatomy and Physiology 2e，8.4：Bones of the Lower Limb",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb",
+      "use": "内外侧纵弓、横弓的组成与功能。"
+    },
+    {
+      "id": "ligaments",
+      "title": "OpenStax Anatomy and Physiology 2e，9.6：Anatomy of Selected Synovial Joints",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints",
+      "use": "外侧韧带群与三角韧带；跟腱另列为肌腱。"
+    },
+    {
+      "id": "contractions",
+      "title": "OpenStax Anatomy and Physiology，10.4：Nervous System Control of Muscle Tension",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/10-4-nervous-system-control-of-muscle-tension",
+      "use": "向心、离心、等长和等张概念；日常训练不等于严格恒定张力。"
+    },
+    {
+      "id": "isokinetic",
+      "title": "NIOSH（1998）Physical Strength Assessment in Ergonomics，Chapter 5: Isokinetic Strength",
+      "url": "https://stacks.cdc.gov/view/cdc/9185",
+      "use": "等速条件为设备控制有效区间角速度，不能以徒手慢动代替。"
+    },
+    {
+      "id": "gait-com",
+      "title": "AAPM&R KnowledgeNow：Biomechanics of Normal Gait",
+      "url": "https://now.aapmr.org/biomechanics-normal-gait/",
+      "use": "步态分期、COM与COP区别及左右/垂直位移；本项目曲线幅度为合成设置。"
+    },
+    {
+      "id": "com-height",
+      "title": "Hysteresis in Center of Mass Velocity Control during the Stance Phase of Treadmill Walking（2017）",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2017.00187/full",
+      "use": "步行中单支撑中段较高、双支撑较低的COM概念；不对患者进行反推。"
+    },
+    {
+      "id": "dartmouth",
+      "title": "Dartmouth Human Anatomy：Chapter 17 — The ankle and foot",
+      "url": "https://humananatomy.host.dartmouth.edu/BHA/public_html/part_3/chapter_17.html",
+      "use": "距跟舟的球窝样形态、跟骰的有限鞍状形态及关节斜轴；不把距下复合运动约化为单一铰链。"
+    }
+  ]
+}

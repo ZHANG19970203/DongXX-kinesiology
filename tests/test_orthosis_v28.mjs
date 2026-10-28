@@ -1,0 +1,6 @@
+import assert from 'node:assert/strict';
+import {solve,fillAt,outline} from '../pressure/orthosis-model.js';
+let checks=0;const ok=(x,m)=>{assert.ok(x,m);checks++;};const base=solve({height:0});
+for(const target of ['arch','heel','fore'])for(const mode of ['support','relief'])for(const material of ['soft','firm'])for(const shape of ['broad','narrow'])for(const height of [0,.25,1,2,3]){const r=solve({target,mode,material,shape,height});ok(Math.abs(r.sum-base.sum)<1e-8,'same load');ok(r.values.every(x=>Number.isFinite(x)&&x>=0),'finite nonnegative contact');ok(Math.abs(Object.values(r.zones).reduce((a,b)=>a+b)-1)<1e-9,'zone shares sum to one');ok(r.cop.every(Number.isFinite)&&r.contact>0&&r.contact<=1,'valid derived measures');if(height===0)ok(Math.abs(r.peak-base.peak)<1e-10,'zero restores baseline');}
+const broad=solve({height:1,target:'arch',shape:'broad'}),high=solve({height:3,target:'arch',shape:'narrow'});ok(broad.zones.medial>base.zones.medial,'arch support can accept load');ok(high.peak>base.peak,'concentrated high support can create a new peak');
+console.log(JSON.stringify({passed:true,checks,scope:'mathematical invariants and illustrative responses; not clinical validation'}));

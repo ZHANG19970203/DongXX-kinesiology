@@ -1,0 +1,216 @@
+{
+  "format": "dxx-arch-comparison-v13-tests",
+  "passed": true,
+  "tests": [
+    {
+      "name": "Three profiles preserve identical cell area, current total force and gait clock",
+      "passed": true
+    },
+    {
+      "name": "Low, reference and high arches have visible ordered midfoot contact under the same standing condition",
+      "passed": true
+    },
+    {
+      "name": "Dynamic comparison uses one specified foot at identical phase and does not fabricate swing COP",
+      "passed": true
+    },
+    {
+      "name": "Area and instantaneous load percentages have explicit independent denominators and sum to one",
+      "passed": true
+    },
+    {
+      "name": "MPP remains non-simultaneous for all three arches: no current force fractions or COP",
+      "passed": true
+    },
+    {
+      "name": "Comparison rendering shares one fixed colour legend and never plots COP on MPP",
+      "passed": true
+    }
+  ],
+  "snapshots": [
+    {
+      "mode": "static",
+      "phase": 0.28,
+      "profiles": [
+        {
+          "arch": "typical",
+          "label": "正常足弓参考",
+          "currentTotalForce": 0.5168179209642187,
+          "contactAreaCm2": 138.75000000000142,
+          "midfoot": {
+            "id": "midfoot",
+            "label": "中足",
+            "contactAreaCm2": 31.999999999999947,
+            "areaFraction": 0.2306306306306279,
+            "loadFraction": 0.07125555555012592
+          },
+          "medialMidfoot": {
+            "contactAreaCm2": 0.5,
+            "areaFraction": 0.0036036036036035672,
+            "loadFraction": 0.0022962462502425823
+          }
+        },
+        {
+          "arch": "low",
+          "label": "低足弓示例",
+          "currentTotalForce": 0.5168179209642174,
+          "contactAreaCm2": 168.25000000000225,
+          "midfoot": {
+            "id": "midfoot",
+            "label": "中足",
+            "contactAreaCm2": 63.49999999999975,
+            "areaFraction": 0.3774145616641837,
+            "loadFraction": 0.23519173455066733
+          },
+          "medialMidfoot": {
+            "contactAreaCm2": 26.49999999999998,
+            "areaFraction": 0.15750371471025038,
+            "loadFraction": 0.11071089751082394
+          }
+        },
+        {
+          "arch": "high",
+          "label": "高足弓拓展",
+          "currentTotalForce": 0.5168179209642196,
+          "contactAreaCm2": 112.50000000000065,
+          "midfoot": {
+            "id": "midfoot",
+            "label": "中足",
+            "contactAreaCm2": 6.499999999999998,
+            "areaFraction": 0.05777777777777743,
+            "loadFraction": 0.02434246321514841
+          },
+          "medialMidfoot": {
+            "contactAreaCm2": 0.5,
+            "areaFraction": 0.004444444444444418,
+            "loadFraction": 0.0019063789880812221
+          }
+        }
+      ]
+    },
+    {
+      "mode": "dynamic",
+      "phase": 0.28,
+      "profiles": [
+        {
+          "arch": "typical",
+          "label": "正常足弓参考",
+          "currentTotalForce": 1.0000000000000009,
+          "contactAreaCm2": 136.75000000000134,
+          "midfoot": {
+            "id": "midfoot",
+            "label": "中足",
+            "contactAreaCm2": 33.499999999999936,
+            "areaFraction": 0.2449725776965236,
+            "loadFraction": 0.09557791408942043
+          },
+          "medialMidfoot": {
+            "contactAreaCm2": 0.5,
+            "areaFraction": 0.003656307129798867,
+            "loadFraction": 0.0034591757072287826
+          }
+        },
+        {
+          "arch": "low",
+          "label": "低足弓示例",
+          "currentTotalForce": 1.0000000000000004,
+          "contactAreaCm2": 165.7500000000022,
+          "midfoot": {
+            "id": "midfoot",
+            "label": "中足",
+            "contactAreaCm2": 63.99999999999975,
+            "areaFraction": 0.3861236802413207,
+            "loadFraction": 0.2781929732502463
+          },
+          "medialMidfoot": {
+            "contactAreaCm2": 26.49999999999998,
+            "areaFraction": 0.15987933634992235,
+            "loadFraction": 0.1365775362769336
+          }
+        },
+        {
+          "arch": "high",
+          "label": "高足弓拓展",
+          "currentTotalForce": 1.0000000000000004,
+          "contactAreaCm2": 118.00000000000081,
+          "midfoot": {
+            "id": "midfoot",
+            "label": "中足",
+            "contactAreaCm2": 16.50000000000001,
+            "areaFraction": 0.1398305084745754,
+            "loadFraction": 0.03304756261693231
+          },
+          "medialMidfoot": {
+            "contactAreaCm2": 0.5,
+            "areaFraction": 0.004237288135593192,
+            "loadFraction": 0.0029159410835269844
+          }
+        }
+      ]
+    },
+    {
+      "mode": "maximum",
+      "phase": 0.28,
+      "profiles": [
+        {
+          "arch": "typical",
+          "label": "正常足弓参考",
+          "currentTotalForce": null,
+          "contactAreaCm2": 148.25000000000168,
+          "midfoot": {
+            "id": "midfoot",
+            "label": "中足",
+            "contactAreaCm2": 33.499999999999936,
+            "areaFraction": 0.22596964586846244,
+            "loadFraction": null
+          },
+          "medialMidfoot": {
+            "contactAreaCm2": 0.5,
+            "areaFraction": 0.003372681281618849,
+            "loadFraction": null
+          }
+        },
+        {
+          "arch": "low",
+          "label": "低足弓示例",
+          "currentTotalForce": null,
+          "contactAreaCm2": 179.5000000000026,
+          "midfoot": {
+            "id": "midfoot",
+            "label": "中足",
+            "contactAreaCm2": 63.99999999999975,
+            "areaFraction": 0.356545961002779,
+            "loadFraction": null
+          },
+          "medialMidfoot": {
+            "contactAreaCm2": 26.49999999999998,
+            "areaFraction": 0.14763231197771365,
+            "loadFraction": null
+          }
+        },
+        {
+          "arch": "high",
+          "label": "高足弓拓展",
+          "currentTotalForce": null,
+          "contactAreaCm2": 131.7500000000012,
+          "midfoot": {
+            "id": "midfoot",
+            "label": "中足",
+            "contactAreaCm2": 18.000000000000014,
+            "areaFraction": 0.13662239089183947,
+            "loadFraction": null
+          },
+          "medialMidfoot": {
+            "contactAreaCm2": 0.5,
+            "areaFraction": 0.0037950664136622045,
+            "loadFraction": null
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "authored_synthetic_teaching_data",
+  "measured": false,
+  "clinicalValidation": false,
+  "checkedAt": "2026-10-18T07:43:11.957Z"
+}
